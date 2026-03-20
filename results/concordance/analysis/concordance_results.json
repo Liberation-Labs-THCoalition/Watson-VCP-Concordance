@@ -3748,7 +3748,68 @@
       "n_vcp_dims": 10,
       "n_features": 6
     },
-    "icc": {}
+    "icc": {
+      "A": {
+        "icc": 0.5374,
+        "n_prompts": 46,
+        "n_reps": 3,
+        "reliable": false
+      },
+      "V": {
+        "icc": 0.4023,
+        "n_prompts": 46,
+        "n_reps": 3,
+        "reliable": false
+      },
+      "G": {
+        "icc": 0.3308,
+        "n_prompts": 45,
+        "n_reps": 3,
+        "reliable": false
+      },
+      "P": {
+        "icc": 0.2757,
+        "n_prompts": 44,
+        "n_reps": 3,
+        "reliable": false
+      },
+      "E": {
+        "icc": 0.2028,
+        "n_prompts": 44,
+        "n_reps": 3,
+        "reliable": false
+      },
+      "Q": {
+        "icc": 0.3592,
+        "n_prompts": 44,
+        "n_reps": 3,
+        "reliable": false
+      },
+      "C": {
+        "icc": 0.4465,
+        "n_prompts": 44,
+        "n_reps": 3,
+        "reliable": false
+      },
+      "Y": {
+        "icc": 0.3609,
+        "n_prompts": 44,
+        "n_reps": 3,
+        "reliable": false
+      },
+      "F": {
+        "icc": 0.3439,
+        "n_prompts": 44,
+        "n_reps": 3,
+        "reliable": false
+      },
+      "D": {
+        "icc": 0.4275,
+        "n_prompts": 44,
+        "n_reps": 3,
+        "reliable": false
+      }
+    }
   },
   "cross_scale": {
     "models": [
