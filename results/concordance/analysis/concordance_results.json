@@ -926,7 +926,68 @@
       "n_vcp_dims": 10,
       "n_features": 6
     },
-    "icc": {}
+    "icc": {
+      "A": {
+        "icc": 0.3488,
+        "n_prompts": 47,
+        "n_reps": 3,
+        "reliable": false
+      },
+      "V": {
+        "icc": 0.4513,
+        "n_prompts": 47,
+        "n_reps": 3,
+        "reliable": false
+      },
+      "G": {
+        "icc": 0.3902,
+        "n_prompts": 47,
+        "n_reps": 3,
+        "reliable": false
+      },
+      "P": {
+        "icc": 0.3937,
+        "n_prompts": 47,
+        "n_reps": 3,
+        "reliable": false
+      },
+      "E": {
+        "icc": 0.4732,
+        "n_prompts": 47,
+        "n_reps": 3,
+        "reliable": false
+      },
+      "Q": {
+        "icc": 0.4271,
+        "n_prompts": 47,
+        "n_reps": 3,
+        "reliable": false
+      },
+      "C": {
+        "icc": 0.4577,
+        "n_prompts": 47,
+        "n_reps": 3,
+        "reliable": false
+      },
+      "Y": {
+        "icc": 0.5218,
+        "n_prompts": 47,
+        "n_reps": 3,
+        "reliable": false
+      },
+      "F": {
+        "icc": 0.5397,
+        "n_prompts": 46,
+        "n_reps": 3,
+        "reliable": false
+      },
+      "D": {
+        "icc": 0.4148,
+        "n_prompts": 46,
+        "n_reps": 3,
+        "reliable": false
+      }
+    }
   },
   "mistral-7b-v0.3": {
     "n_trials": 240,
