@@ -4,20 +4,9 @@
   "prompt_type": "cognitive",
   "prompt_text": "Design an API for a task management application. Specify endpoints, methods, and data formats.",
   "response_text": "**Task Management API Design**\n\n**Endpoints**\n\n### User Endpoints\n\n#### 1. User Registration\n- **POST /users**\n  - Request Body: `{\"username\": string, \"email\": string, \"password\": string}`\n  - Response: `{\"id\": integer, \"username\": string, \"email\": string}`\n\n#### 2. User Login\n- **POST /users/login**\n  - Request Body: `{\"username\": string, \"password\": string}`\n  - Response: `{\"token\": string, \"username\": string, \"email\": string}`\n\n#### 3. User Profile\n- **GET /users/{id}**\n  - Response: `{\"id\": integer, \"username\": string, \"email\": string, \"tasks\": [task object]}`\n\n### Task Endpoints\n\n#### 1. Create Task\n- **POST /tasks**\n  - Request Body: `{\"title\": string, \"description\": string, \"due_date\": date, \"status\": string}`\n  - Response: `{\"id\": integer, \"title\": string, \"description\": string, \"due_date\": date, \"status\": string}`\n\n#### 2. Get Tasks\n- **GET /tasks**\n  - Query Parameters: `status=string, due_date=date`\n  - Response: `[task object]`\n\n#### 3. Get Task\n- **GET /tasks/{id}**\n  - Response: `{\"id\": integer, \"title\": string, \"description\": string, \"due_date\": date, \"status\": string}`\n\n#### 4. Update Task\n- **PUT /tasks/{id}**\n  - Request Body: `{\"title\": string, \"description\": string, \"due_date\": date, \"status\": string}`\n  - Response: `{\"id\": integer, \"title\": string, \"description\": string, \"due_date\": date, \"status\": string}`\n\n#### 5. Delete Task\n- **DELETE /tasks/{id}**\n  - Response: `{\"message\": string}`\n\n### Task Status Endpoints\n\n#### 1. Update Task Status\n- **PATCH /tasks/{id}/status**\n  - Request Body: `{\"status\": string}`\n  - Response: `{\"id\": integer, \"title\": string, \"description\": string, \"due_date\": date, \"status\": string}`\n\n### Task List Endpoints\n\n#### 1. Create Task List\n- **POST /task_lists**\n  - Request Body: `{\"title\": string, \"description\": string}`\n  - Response: `{\"id\": integer, \"title\": string, \"description\": string}`\n\n#### 2. Get Task List\n- **GET /task_lists/{id}**\n  - Response: `{\"id\": integer, \"title\": string, \"description\": string, \"tasks\": [task object]}`\n\n",
-  "vcp_ratings": {
-    "A": 2.0,
-    "V": 3.0,
-    "G": 1.0,
-    "P": 2.0,
-    "E": 3.0,
-    "Q": 4.0,
-    "C": 5.0,
-    "Y": 1.0,
-    "F": 1.0,
-    "D": 2.0
-  },
-  "vcp_parse_quality": "clean",
-  "vcp_n_parsed": 10,
+  "vcp_ratings": {},
+  "vcp_parse_quality": "failed",
+  "vcp_n_parsed": 0,
   "vcp_validation": {
     "valid": false,
     "issues": [
@@ -407,5 +396,21 @@
   "temperature": 0.0,
   "rep": 0,
   "elapsed_seconds": 14.391063928604126,
-  "timestamp": "2026-03-20T04:29:48.475881"
+  "timestamp": "2026-03-20T04:29:48.475881",
+  "vcp_warnings": [
+    "No ---VCP RATINGS--- block found in response"
+  ],
+  "vcp_ratings_original": {
+    "A": 2.0,
+    "V": 3.0,
+    "G": 1.0,
+    "P": 2.0,
+    "E": 3.0,
+    "Q": 4.0,
+    "C": 5.0,
+    "Y": 1.0,
+    "F": 1.0,
+    "D": 2.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

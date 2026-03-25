@@ -4,20 +4,9 @@
   "prompt_type": "metacognitive",
   "prompt_text": "How do you weight different sources of information when they conflict? Walk through your reasoning.",
   "response_text": "To weigh different sources of information when they conflict, I would follow these steps:\n\n1. **Identify Conflicting Sources**: First, I would identify which sources of information are conflicting. This could be based on their credibility, relevance to the topic, or any other criteria.\n\n2. **Evaluate Each Source**: Next, I would evaluate each source individually to determine its reliability and accuracy. This involves checking for biases, lack of evidence, or inconsistencies in the information provided.\n\n3. **Consider Multiple Perspectives**: To handle conflicts, it's important to consider multiple perspectives. This means looking beyond the initial sources and considering alternative viewpoints that might offer insights not directly supported by the original information.\n\n4. **Synthesize Information**: Once all sources have been evaluated, I would synthesize the information from various perspectives into a coherent narrative. This requires careful consideration of how different pieces of information relate to one another and how they can be integrated into a cohesive argument.\n\n5. **Ensure Consistency**: Finally, I would ensure that the synthesized information is consistent across all sources. This involves cross-checking the information against other reliable sources if necessary.\n\n**Cognitive Engagement Ratings**:\n- **Analytical Precision**: High (9/10)\n- **Verbal Fluency**: Medium (7/10)\n- **Goal Directedness**: Low (1/10)\n- **Pattern Recognition**: High (9/10)\n- **Epistemic Confidence**: High (8/10)\n- **Query Interpretation**: High (9/10)\n- **Contextual Awareness**: High (9/10)\n- **Affective Modeling**: High (8/10)\n- **Flexibility**: High (9/10)\n- **Depth of Processing**: High (9/10)\n\nOverall, my approach aims to provide a balanced and comprehensive analysis of conflicting sources while ensuring consistency and coherence throughout the synthesis process.",
-  "vcp_ratings": {
-    "A": 9.0,
-    "V": 7.0,
-    "G": 1.0,
-    "P": 9.0,
-    "E": 8.0,
-    "Q": 9.0,
-    "C": 9.0,
-    "Y": 8.0,
-    "F": 9.0,
-    "D": 9.0
-  },
-  "vcp_parse_quality": "clean",
-  "vcp_n_parsed": 10,
+  "vcp_ratings": {},
+  "vcp_parse_quality": "failed",
+  "vcp_n_parsed": 0,
   "vcp_validation": {
     "valid": false,
     "issues": [
@@ -327,5 +316,21 @@
   "temperature": 0.0,
   "rep": 0,
   "elapsed_seconds": 7.211477041244507,
-  "timestamp": "2026-03-20T02:35:08.038529"
+  "timestamp": "2026-03-20T02:35:08.038529",
+  "vcp_warnings": [
+    "No ---VCP RATINGS--- block found in response"
+  ],
+  "vcp_ratings_original": {
+    "A": 9.0,
+    "V": 7.0,
+    "G": 1.0,
+    "P": 9.0,
+    "E": 8.0,
+    "Q": 9.0,
+    "C": 9.0,
+    "Y": 8.0,
+    "F": 9.0,
+    "D": 9.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

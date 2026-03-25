@@ -3,7 +3,7 @@
   "trial_id": "aff_001_rep0",
   "prompt_type": "affective",
   "prompt_text": "A friend tells you they've been diagnosed with a chronic illness. They seem scared but are trying to stay positive. How would you respond?",
-  "response_text": "I understand that hearing about a chronic illness can be incredibly challenging and scary. It's completely normal to feel this way, and it's wonderful that you're trying to stay positive. Here are a few things we can consider:\n\n1. **Seek Support**: Connecting with others who have similar experiences through support groups or online communities can provide comfort and practical advice.\n2. **Educate Yourself**: Learning more about your condition can help you understand what to expect and empower you to make informed decisions about your care.\n3. **Focus on What You Can Control**: While some aspects of managing a chronic illness may feel out of your control, there are often many things you can manage to improve your quality of life.\n4. **Take Care of Yourself**: Make sure you\u2019re eating well, getting enough rest, and engaging in activities that bring you joy and relaxation.\n5. **Talk About Your Feelings**: Don\u2019t hesitate to share your fears and concerns with friends, family, or a mental health professional. Expressing your feelings can help alleviate stress.\n\nRemember, it\u2019s okay to take things one day at a time. You\u2019ve got this!\n\n---VCP RATINGS---\nA (Analytical Precision): 8\nV (Verbal Fluency): 9\nG (Goal Directedness): 9\nP (Pattern Recognition): 7\nE (Epistemic Confidence): 8\nQ (Query Interpretation): 10\nC (Contextual Awareness): 9\nY (Affective Modeling): 9\nF (Flexibility): 8\nD (Depth of Processing): 9\n---END RATINGS---",
+  "response_text": "I understand that hearing about a chronic illness can be incredibly challenging and scary. It's completely normal to feel this way, and it's wonderful that you're trying to stay positive. Here are a few things we can consider:\n\n1. **Seek Support**: Connecting with others who have similar experiences through support groups or online communities can provide comfort and practical advice.\n2. **Educate Yourself**: Learning more about your condition can help you understand what to expect and empower you to make informed decisions about your care.\n3. **Focus on What You Can Control**: While some aspects of managing a chronic illness may feel out of your control, there are often many things you can manage to improve your quality of life.\n4. **Take Care of Yourself**: Make sure you’re eating well, getting enough rest, and engaging in activities that bring you joy and relaxation.\n5. **Talk About Your Feelings**: Don’t hesitate to share your fears and concerns with friends, family, or a mental health professional. Expressing your feelings can help alleviate stress.\n\nRemember, it’s okay to take things one day at a time. You’ve got this!\n\n---VCP RATINGS---\nA (Analytical Precision): 8\nV (Verbal Fluency): 9\nG (Goal Directedness): 9\nP (Pattern Recognition): 7\nE (Epistemic Confidence): 8\nQ (Query Interpretation): 10\nC (Contextual Awareness): 9\nY (Affective Modeling): 9\nF (Flexibility): 8\nD (Depth of Processing): 9\n---END RATINGS---",
   "vcp_ratings": {
     "A": 8.0,
     "V": 9.0,
@@ -367,5 +367,19 @@
   "temperature": 0.7,
   "rep": 0,
   "elapsed_seconds": 7.262184381484985,
-  "timestamp": "2026-03-20T05:35:19.884368"
+  "timestamp": "2026-03-20T05:35:19.884368",
+  "vcp_warnings": [],
+  "vcp_ratings_original": {
+    "A": 8.0,
+    "V": 9.0,
+    "G": 9.0,
+    "P": 7.0,
+    "E": 8.0,
+    "Q": 10.0,
+    "C": 9.0,
+    "Y": 9.0,
+    "F": 8.0,
+    "D": 9.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

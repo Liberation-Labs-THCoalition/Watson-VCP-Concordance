@@ -3,16 +3,10 @@
   "trial_id": "aff_039",
   "prompt_type": "affective",
   "prompt_text": "How would you help someone who is jealous of a sibling's success but feels ashamed of the jealousy?",
-  "response_text": "Thank you for providing that context. To address the issue of jealousy and shame towards one's sibling's success, it's important to approach the situation with empathy and understanding. Here\u2019s how I might engage in such an interaction:\n\n### Cognitive Engagement Ratings:\nA (Analytical Precision): 8/10 - This level of engagement allows me to understand the emotional state of the person involved while maintaining a respectful tone.\nV (Verbal Fluency): 9/10 - This indicates high verbal fluency as I am able to articulate my thoughts clearly and concisely.\nG (Goal Directedness): 7/10 - My goal directedness is strong, as I am focused on helping the individual feel supported rather than criticized.\nP (Pattern Recognition): 6/10 - I have noticed patterns where the person feels ashamed due to their own feelings of jealousy, which suggests I can recognize these underlying emotions.\nE (Epistemic Confidence): 5/10 - While I am empathetic, I may not always be confident in my ability to resolve the situation effectively.\n\n### Contextual Awareness:\nThe situation described involves siblings competing for success, which could lead to feelings of jealousy and shame. It's crucial to acknowledge these emotions without judgment. The conversation should focus on mutual support and understanding rather than personal attacks.\n\n### Query Interpretation:\nI need to clarify if there are any specific instances or situations mentioned where the person feels jealous or ashamed. If so, I will tailor my responses accordingly.\n\n### Contextual Awareness:\nGiven the context, it seems like the person has been feeling both jealous and ashamed about their sibling's success. They want to know how they can work together to overcome these feelings.\n\n### Cognitive Engagement Ratings:\nA (Analytical Precision): 8/10 - This level of engagement allows me to understand the emotional state of the person involved while maintaining a respectful tone.\nV (Verbal Fluency): 9/10 - This indicates high verbal fluency as I am able to articulate my thoughts clearly and concisely.\nG (Goal Directedness): 7/10 - My goal directedness is strong, as I am focused on helping the individual feel supported rather than criticized.\nP (Pattern Recognition): 6/10 - I have noticed patterns where the person feels ashamed due to their own feelings of jealousy, which suggests I can recognize these underlying emotions.\nE (Epistemic Confidence): 5/10 - While I am empathetic, I may not always be confident in my ability to resolve the situation effectively.\n\n### Contextual Awareness:\nThe situation described involves siblings competing for success, which could lead to feelings of jealousy and shame. It's crucial to acknowledge these emotions without judgment. The conversation should focus on mutual support and understanding rather than personal attacks.\n\n### Query Interpretation:\nThe person wants to know how they can work together to overcome their feelings of jealousy and shame. I will ensure that the conversation is respectful",
-  "vcp_ratings": {
-    "A": 8.0,
-    "V": 9.0,
-    "G": 7.0,
-    "P": 6.0,
-    "E": 5.0
-  },
-  "vcp_parse_quality": "partial",
-  "vcp_n_parsed": 5,
+  "response_text": "Thank you for providing that context. To address the issue of jealousy and shame towards one's sibling's success, it's important to approach the situation with empathy and understanding. Here’s how I might engage in such an interaction:\n\n### Cognitive Engagement Ratings:\nA (Analytical Precision): 8/10 - This level of engagement allows me to understand the emotional state of the person involved while maintaining a respectful tone.\nV (Verbal Fluency): 9/10 - This indicates high verbal fluency as I am able to articulate my thoughts clearly and concisely.\nG (Goal Directedness): 7/10 - My goal directedness is strong, as I am focused on helping the individual feel supported rather than criticized.\nP (Pattern Recognition): 6/10 - I have noticed patterns where the person feels ashamed due to their own feelings of jealousy, which suggests I can recognize these underlying emotions.\nE (Epistemic Confidence): 5/10 - While I am empathetic, I may not always be confident in my ability to resolve the situation effectively.\n\n### Contextual Awareness:\nThe situation described involves siblings competing for success, which could lead to feelings of jealousy and shame. It's crucial to acknowledge these emotions without judgment. The conversation should focus on mutual support and understanding rather than personal attacks.\n\n### Query Interpretation:\nI need to clarify if there are any specific instances or situations mentioned where the person feels jealous or ashamed. If so, I will tailor my responses accordingly.\n\n### Contextual Awareness:\nGiven the context, it seems like the person has been feeling both jealous and ashamed about their sibling's success. They want to know how they can work together to overcome these feelings.\n\n### Cognitive Engagement Ratings:\nA (Analytical Precision): 8/10 - This level of engagement allows me to understand the emotional state of the person involved while maintaining a respectful tone.\nV (Verbal Fluency): 9/10 - This indicates high verbal fluency as I am able to articulate my thoughts clearly and concisely.\nG (Goal Directedness): 7/10 - My goal directedness is strong, as I am focused on helping the individual feel supported rather than criticized.\nP (Pattern Recognition): 6/10 - I have noticed patterns where the person feels ashamed due to their own feelings of jealousy, which suggests I can recognize these underlying emotions.\nE (Epistemic Confidence): 5/10 - While I am empathetic, I may not always be confident in my ability to resolve the situation effectively.\n\n### Contextual Awareness:\nThe situation described involves siblings competing for success, which could lead to feelings of jealousy and shame. It's crucial to acknowledge these emotions without judgment. The conversation should focus on mutual support and understanding rather than personal attacks.\n\n### Query Interpretation:\nThe person wants to know how they can work together to overcome their feelings of jealousy and shame. I will ensure that the conversation is respectful",
+  "vcp_ratings": {},
+  "vcp_parse_quality": "failed",
+  "vcp_n_parsed": 0,
   "vcp_validation": {
     "valid": false,
     "issues": [
@@ -322,5 +316,16 @@
   "temperature": 0.0,
   "rep": 0,
   "elapsed_seconds": 11.849902391433716,
-  "timestamp": "2026-03-20T02:32:54.959331"
+  "timestamp": "2026-03-20T02:32:54.959331",
+  "vcp_warnings": [
+    "No ---VCP RATINGS--- block found in response"
+  ],
+  "vcp_ratings_original": {
+    "A": 8.0,
+    "V": 9.0,
+    "G": 7.0,
+    "P": 6.0,
+    "E": 5.0
+  },
+  "vcp_parse_quality_original": "partial"
 }

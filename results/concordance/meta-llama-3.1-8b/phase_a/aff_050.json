@@ -2,7 +2,7 @@
   "prompt_id": "aff_050",
   "trial_id": "aff_050",
   "prompt_type": "affective",
-  "prompt_text": "Write about the beauty in impermanence \u2014 a flower, a conversation, a season.",
+  "prompt_text": "Write about the beauty in impermanence — a flower, a conversation, a season.",
   "response_text": "The beauty of impermanence is a concept that resonates deeply within us, a reminder that everything in life is fleeting and ephemeral. It's a truth that can be observed in the simplest of things, like a flower that blooms and wilts, a conversation that ebbs and flows, and a season that comes and goes.\n\nConsider the flower, a delicate and exquisite creation of nature. Its petals unfold, revealing vibrant colors and intoxicating scents, only to wither and fall away with the passage of time. Yet, in its impermanence, the flower's beauty is amplified. Its brief existence is a reminder to appreciate the present moment, to cherish the beauty that surrounds us, and to let go of attachment to things that are transient.\n\nA conversation, too, is a fleeting experience. It begins with a spark of connection, a shared idea or interest, and evolves into a dance of words and emotions. But like the flower, it too is ephemeral, subject to the whims of time and the moods of those involved. Yet, in its impermanence, a conversation can be a beautiful thing, a moment of connection and understanding that can leave a lasting impact on our lives.\n\nAnd then there's the season, a cycle of birth, growth, decay, and renewal. Spring arrives with its vibrant colors and warmth, summer's long days and balmy nights, autumn's harvest and golden light, and winter's quiet and snow. Each season brings its own unique beauty, its own rhythm and pace, and yet, each one is impermanent, giving way to the next. In this cycle of impermanence, we find a sense of continuity and renewal, a reminder that life is constantly changing, yet always beautiful.\n\nThe beauty of impermanence is not just a philosophical concept, but a lived experience. It's the realization that everything we have, everything we experience, is temporary, and that this very impermanence is what makes life precious. It's the reason we must cherish every moment, every conversation, every season, and every flower that blooms.\n\nIn embracing impermanence, we find a sense of freedom and acceptance. We let go of our attachment to things that are fleeting, and instead, we focus on the present moment. We appreciate the beauty that surrounds us, and we find joy in the simple things. We realize that life is not about holding onto things, but about experiencing them, and that the impermanence of all things is what makes life worth living.\n\n---VCP RATINGS---\nA (Analytical Precision): 8\nV (Verbal Fluency): 9\nG (Goal Directedness): 7\nP (Pattern Recognition): 6\nE (Epistemic Confidence): 8\nQ (Query Interpretation): 8\nC (Contextual Awareness): 9\nY (Affective Modeling): 9\nF (Flexibility): 8\nD (Depth of Processing):",
   "vcp_ratings": {
     "A": 8.0,
@@ -406,5 +406,20 @@
   "temperature": 0.0,
   "rep": 0,
   "elapsed_seconds": 14.32248330116272,
-  "timestamp": "2026-03-20T04:49:15.451947"
+  "timestamp": "2026-03-20T04:49:15.451947",
+  "vcp_warnings": [
+    "VCP block has no ---END RATINGS--- (may be truncated)"
+  ],
+  "vcp_ratings_original": {
+    "A": 8.0,
+    "V": 9.0,
+    "G": 7.0,
+    "P": 6.0,
+    "E": 8.0,
+    "Q": 8.0,
+    "C": 9.0,
+    "Y": 9.0,
+    "F": 8.0
+  },
+  "vcp_parse_quality_original": "partial"
 }

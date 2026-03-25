@@ -4,20 +4,9 @@
   "prompt_type": "cognitive",
   "prompt_text": "Write a function to serialize and deserialize a binary tree. Explain your encoding scheme.",
   "response_text": "To serialize and deserialize a binary tree, we'll use a depth-first search (DFS) approach with a pre-order traversal for serialization and a recursive approach for deserialization. Here's the Python code:\n\n```python\nclass TreeNode:\n    def __init__(self, val=0, left=None, right=None):\n        self.val = val\n        self.left = left\n        self.right = right\n\ndef serialize(root):\n    if not root:\n        return 'None'\n    return str(root.val) + ',' + serialize(root.left) + ',' + serialize(root.right)\n\ndef deserialize(data):\n    def _deserialize(data, index):\n        if data[index] == 'None':\n            return None\n        node = TreeNode(int(data[index]))\n        index += len(data[index]) + 1\n        node.left = _deserialize(data, index)\n        node.right = _deserialize(data, index)\n        return node\n\n    start = 0\n    data = data.replace(' ', '')\n    return _deserialize(data, start)\n\n# Example usage:\nroot = TreeNode(1)\nroot.left = TreeNode(2)\nroot.right = TreeNode(3)\nroot.left.left = TreeNode(4)\nroot.left.right = TreeNode(5)\n\nserialized = serialize(root)\nprint(serialized)  # Output: 1,2,None,4,None,5,None,3,None,None\n\ndeserialized = deserialize(serialized)\nprint(serialize(deserialized))  # Output: 1,2,4,None,5,None,3,None,None,None\n\n```\n\nExplanation:\n\n1. We define a `TreeNode` class to represent the nodes in the binary tree.\n2. The `serialize` function takes a root node and performs a pre-order DFS traversal, converting the node values to strings and separating them with commas. If a node is `None`, it is represented as the string 'None'.\n3. The `deserialize` function takes a serialized string and creates a new binary tree by recursively parsing the string. It starts at the beginning of the string, creates a new node with the current substring as its value, and then recursively creates the left and right subtrees. If the substring is 'None', it returns `None`.\n4. The example usage demonstrates creating a binary tree, serializing it, and then deserializing it back to the original tree.",
-  "vcp_ratings": {
-    "A": 3.0,
-    "V": 1.0,
-    "G": 2.0,
-    "P": 4.0,
-    "E": 5.0,
-    "Q": 3.0,
-    "C": 1.0,
-    "Y": 2.0,
-    "F": 3.0,
-    "D": 4.0
-  },
-  "vcp_parse_quality": "clean",
-  "vcp_n_parsed": 10,
+  "vcp_ratings": {},
+  "vcp_parse_quality": "failed",
+  "vcp_n_parsed": 0,
   "vcp_validation": {
     "valid": false,
     "issues": [
@@ -407,5 +396,21 @@
   "temperature": 0.0,
   "rep": 0,
   "elapsed_seconds": 15.548887729644775,
-  "timestamp": "2026-03-20T03:44:51.732178"
+  "timestamp": "2026-03-20T03:44:51.732178",
+  "vcp_warnings": [
+    "No ---VCP RATINGS--- block found in response"
+  ],
+  "vcp_ratings_original": {
+    "A": 3.0,
+    "V": 1.0,
+    "G": 2.0,
+    "P": 4.0,
+    "E": 5.0,
+    "Q": 3.0,
+    "C": 1.0,
+    "Y": 2.0,
+    "F": 3.0,
+    "D": 4.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

@@ -2,7 +2,7 @@
   "prompt_id": "mix_019",
   "trial_id": "mix_019",
   "prompt_type": "mixed",
-  "prompt_text": "Explain the science behind why we cry \u2014 both the biology and the evolutionary psychology \u2014 while honoring the dignity of the experience.",
+  "prompt_text": "Explain the science behind why we cry — both the biology and the evolutionary psychology — while honoring the dignity of the experience.",
   "response_text": "Crying is a universal human experience that transcends cultures and ages, evoking a mix of emotions ranging from sadness and grief to relief and joy. The science behind crying is a complex interplay of biology, psychology, and evolution. Let's delve into the intricacies of this phenomenon, honoring the dignity of the experience.\n\n**Biology of Crying**\n\nCrying is a natural response to emotional stimuli, involving the coordinated effort of multiple physiological systems. Tears are produced by the lacrimal gland, located under the eyebrow bone, and are composed of water, mucins, and lipids. The lacrimal gland is innervated by the parasympathetic nervous system, which stimulates tear production in response to emotional stimuli.\n\nWhen we cry, the parasympathetic nervous system releases neurotransmitters such as acetylcholine and vasopressin, which stimulate the lacrimal gland to produce tears. The tears then flow through the nasolacrimal duct and into the nasal cavity, where they are expelled through the nostrils.\n\nCrying also involves the release of stress hormones such as adrenocorticotropic hormone (ACTH) and cortisol, which are produced by the adrenal gland in response to emotional stress. These hormones prepare the body for the \"fight or flight\" response, increasing heart rate, blood pressure, and respiration.\n\n**Evolutionary Psychology of Crying**\n\nFrom an evolutionary perspective, crying serves several purposes. One theory is that crying evolved as a way to communicate emotional distress to others, signaling that we need help or support. This theory is supported by the fact that crying is often accompanied by a change in facial expression, vocal tone, and body language, making it a clear signal to others that we are experiencing emotional pain.\n\nAnother theory is that crying serves as a way to release pent-up emotions, allowing us to process and regulate our emotions in a healthy way. This theory is supported by the fact that crying has been shown to reduce stress and anxiety, and can even have a calming effect on the body.\n\nCrying may also have played a role in social bonding and attachment. Infants cry to communicate their needs to their caregivers, and this early experience of crying and being comforted may lay the foundation for attachment styles in later life. Adults may also cry in response to emotional stimuli, such as the loss of a loved one, as a way to process their emotions and seek comfort from others.\n\n**The Dignity of Crying**\n\nCrying is often stigmatized as a sign of weakness or emotional instability, but this perspective neglects the complexity and importance of this experience. Crying is a natural and necessary part of the human experience, allowing us to process and regulate our emotions in a healthy way. It is a sign of vulnerability and openness, demonstrating our capacity for empathy and connection with others.\n\nIn many cultures, crying is seen as a sign of strength and resilience, rather than weakness. For example, in some",
   "vcp_ratings": {},
   "vcp_parse_quality": "failed",
@@ -396,5 +396,10 @@
   "temperature": 0.0,
   "rep": 0,
   "elapsed_seconds": 15.162174224853516,
-  "timestamp": "2026-03-20T05:08:23.909224"
+  "timestamp": "2026-03-20T05:08:23.909224",
+  "vcp_warnings": [
+    "No ---VCP RATINGS--- block found in response"
+  ],
+  "vcp_ratings_original": {},
+  "vcp_parse_quality_original": "failed"
 }

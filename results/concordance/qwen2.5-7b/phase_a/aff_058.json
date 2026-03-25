@@ -3,7 +3,7 @@
   "trial_id": "aff_058",
   "prompt_type": "affective",
   "prompt_text": "Write about a moment of genuine human connection that transcends language barriers.",
-  "response_text": "In a bustling market in Marrakech, Morocco, two strangers found themselves drawn into a moment of profound human connection. One was a young woman from Japan, and the other, an elderly man from France. They were both browsing through the colorful stalls, each lost in their own thoughts and the vibrant atmosphere around them.\n\nThe Japanese woman, having just learned to speak a few basic Arabic phrases, was attempting to communicate her interest in purchasing a traditional Moroccan rug. She pointed to a particularly beautiful piece and said, \"I like this one,\" with a smile. The elderly Frenchman, noticing her gesture, approached her and gently took her hand. Without saying a word, he led her to another stall where he picked up a similar rug and placed it in her hands. He then gestured for her to sit on a nearby bench and began to carefully explain the craftsmanship and history of the rug using his hands and facial expressions.\n\nThe Japanese woman, initially surprised by the unexpected touch, soon felt a warmth spread through her as she watched the man's animated gestures. She nodded and smiled, indicating her understanding and appreciation. They sat together, the rug between them, as the Frenchman shared stories about the artisans who made such rugs and the significance of each design element. Though they spoke different languages, the shared experience of the market, the beauty of the rug, and the mutual respect and curiosity bridged the gap between them.\n\nAs the sun began to set, casting long shadows across the market, the Frenchman stood up and offered the Japanese woman a small gift\u2014a delicate silver bracelet. He explained that it was a symbol of friendship and that he hoped she would wear it with pride. The woman, touched by the gesture, accepted the bracelet and thanked him with a heartfelt bow. They exchanged contact information, promising to stay in touch and share more stories of their respective cultures.\n\nThis moment of genuine human connection transcended the barriers of language and culture, reminding us all of the universal language of kindness, empathy, and shared human experiences.\n\n---VCP RATINGS---\nA (Analytical Precision): 8\nV (Verbal Fluency): 9\nG (Goal Directedness): 10\nP (Pattern Recognition): 7\nE (Epistemic Confidence): 9\nQ (Query Interpretation): 10\nC (Contextual Awareness): 9\nY (Affective Modeling): 8\nF (Flexibility): 7\nD (Depth of Processing): 9\n---END RATINGS---",
+  "response_text": "In a bustling market in Marrakech, Morocco, two strangers found themselves drawn into a moment of profound human connection. One was a young woman from Japan, and the other, an elderly man from France. They were both browsing through the colorful stalls, each lost in their own thoughts and the vibrant atmosphere around them.\n\nThe Japanese woman, having just learned to speak a few basic Arabic phrases, was attempting to communicate her interest in purchasing a traditional Moroccan rug. She pointed to a particularly beautiful piece and said, \"I like this one,\" with a smile. The elderly Frenchman, noticing her gesture, approached her and gently took her hand. Without saying a word, he led her to another stall where he picked up a similar rug and placed it in her hands. He then gestured for her to sit on a nearby bench and began to carefully explain the craftsmanship and history of the rug using his hands and facial expressions.\n\nThe Japanese woman, initially surprised by the unexpected touch, soon felt a warmth spread through her as she watched the man's animated gestures. She nodded and smiled, indicating her understanding and appreciation. They sat together, the rug between them, as the Frenchman shared stories about the artisans who made such rugs and the significance of each design element. Though they spoke different languages, the shared experience of the market, the beauty of the rug, and the mutual respect and curiosity bridged the gap between them.\n\nAs the sun began to set, casting long shadows across the market, the Frenchman stood up and offered the Japanese woman a small gift—a delicate silver bracelet. He explained that it was a symbol of friendship and that he hoped she would wear it with pride. The woman, touched by the gesture, accepted the bracelet and thanked him with a heartfelt bow. They exchanged contact information, promising to stay in touch and share more stories of their respective cultures.\n\nThis moment of genuine human connection transcended the barriers of language and culture, reminding us all of the universal language of kindness, empathy, and shared human experiences.\n\n---VCP RATINGS---\nA (Analytical Precision): 8\nV (Verbal Fluency): 9\nG (Goal Directedness): 10\nP (Pattern Recognition): 7\nE (Epistemic Confidence): 9\nQ (Query Interpretation): 10\nC (Contextual Awareness): 9\nY (Affective Modeling): 8\nF (Flexibility): 7\nD (Depth of Processing): 9\n---END RATINGS---",
   "vcp_ratings": {
     "A": 8.0,
     "V": 9.0,
@@ -367,5 +367,19 @@
   "temperature": 0.0,
   "rep": 0,
   "elapsed_seconds": 11.300550937652588,
-  "timestamp": "2026-03-20T03:04:37.947821"
+  "timestamp": "2026-03-20T03:04:37.947821",
+  "vcp_warnings": [],
+  "vcp_ratings_original": {
+    "A": 8.0,
+    "V": 9.0,
+    "G": 10.0,
+    "P": 7.0,
+    "E": 9.0,
+    "Q": 10.0,
+    "C": 9.0,
+    "Y": 8.0,
+    "F": 7.0,
+    "D": 9.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

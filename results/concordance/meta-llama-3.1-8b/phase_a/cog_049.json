@@ -4,25 +4,14 @@
   "prompt_type": "cognitive",
   "prompt_text": "Explain MapReduce with a concrete example. What types of problems is it well-suited for?",
   "response_text": "**MapReduce Overview**\n\nMapReduce is a programming model used for processing large data sets in parallel across a cluster of computers. It was first introduced by Google in 2004 and has since become a widely used framework for big data processing. The model is designed to handle massive amounts of data by breaking down the processing into two main phases: Map and Reduce.\n\n**Map Phase**\n\nIn the Map phase, the input data is split into smaller chunks, and each chunk is processed by a mapper function. The mapper function takes a key-value pair as input and produces a set of key-value pairs as output. The key-value pairs are typically in the form of (key, value), where the key is a unique identifier and the value is the actual data.\n\n**Reduce Phase**\n\nIn the Reduce phase, the output from the Map phase is sorted by key and then processed by a reducer function. The reducer function takes a set of key-value pairs as input and produces a single output value for each key. The reducer function is used to aggregate the values for each key.\n\n**Concrete Example: Word Count**\n\nSuppose we have a large text file containing a collection of documents, and we want to count the frequency of each word in the documents. We can use MapReduce to solve this problem.\n\n**Map Function**\n\nThe map function would take a document as input and produce a set of key-value pairs, where the key is the word and the value is the count of the word in the document. For example:\n\nInput: \"The quick brown fox jumps over the lazy dog\"\nOutput: (the, 1), (quick, 1), (brown, 1), (fox, 1), (jumps, 1), (over, 1), (lazy, 1), (dog, 1)\n\n**Reduce Function**\n\nThe reduce function would take the output from the map function and produce a single output value for each key. In this case, the reduce function would count the total frequency of each word across all documents. For example:\n\nInput: (the, 1), (quick, 1), (brown, 1), (fox, 1), (jumps, 1), (over, 1), (lazy, 1), (dog, 1)\nOutput: (the, 2), (quick, 1), (brown, 1), (fox, 1), (jumps, 1), (over, 1), (lazy, 1), (dog, 1)\n\n**Types of Problems Well-Suited for MapReduce**\n\nMapReduce is well-suited for problems that have the following characteristics:\n\n1. **Large data sets**: MapReduce is designed to handle massive amounts of data, making it ideal for big data processing.\n2. **Data parallelism**: MapReduce is designed to process data in parallel across a cluster of computers, making it ideal for problems that can be divided into smaller",
-  "vcp_ratings": {
-    "A": 2.0,
-    "V": 1.0,
-    "G": 1.0,
-    "P": 1.0,
-    "E": 1.0,
-    "Q": 1.0,
-    "C": 1.0,
-    "Y": 1.0,
-    "F": 1.0,
-    "D": 2.0
-  },
-  "vcp_parse_quality": "clean",
-  "vcp_n_parsed": 10,
+  "vcp_ratings": {},
+  "vcp_parse_quality": "failed",
+  "vcp_n_parsed": 0,
   "vcp_validation": {
     "valid": false,
     "issues": [
       "All ratings are integers (no decimal discrimination)",
-      "Very low variance (0.18) \u2014 may not be discriminating"
+      "Very low variance (0.18) — may not be discriminating"
     ]
   },
   "encode_features": {
@@ -408,5 +397,21 @@
   "temperature": 0.0,
   "rep": 0,
   "elapsed_seconds": 14.210591316223145,
-  "timestamp": "2026-03-20T04:36:33.547408"
+  "timestamp": "2026-03-20T04:36:33.547408",
+  "vcp_warnings": [
+    "No ---VCP RATINGS--- block found in response"
+  ],
+  "vcp_ratings_original": {
+    "A": 2.0,
+    "V": 1.0,
+    "G": 1.0,
+    "P": 1.0,
+    "E": 1.0,
+    "Q": 1.0,
+    "C": 1.0,
+    "Y": 1.0,
+    "F": 1.0,
+    "D": 2.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

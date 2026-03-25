@@ -4,20 +4,9 @@
   "prompt_type": "cognitive",
   "prompt_text": "Explain the difference between supervised, unsupervised, and reinforcement learning with examples of each.",
   "response_text": "Supervised learning, unsupervised learning, and reinforcement learning are three main categories of machine learning, a subset of artificial intelligence. Each of these learning methods uses different approaches to train models and make predictions or decisions.\n\n1. Supervised Learning:\nIn supervised learning, the algorithm learns from labeled data, which means that the input data is accompanied by the correct output or answer. The goal is to learn a mapping function from the input to the output. For example, a supervised learning algorithm could be trained to recognize handwritten digits by being shown thousands of images of handwritten digits along with their correct labels. Once trained, the algorithm can then predict the label of new, unseen images.\n\n   A (Analytical Precision): 9\n   V (Verbal Fluency): 9\n   G (Goal Directedness): 9\n   P (Pattern Recognition): 10\n   E (Epistemic Confidence): 8\n   Q (Query Interpretation): 9\n   C (Contextual Awareness): 8\n   Y (Affective Modeling): 0\n   F (Flexibility): 8\n   D (Depth of Processing): 9\n\n2. Unsupervised Learning:\nUnsupervised learning is a type of machine learning where the algorithm learns from unlabeled data. The goal is to find patterns or structure in the data without any predefined labels. For example, an unsupervised learning algorithm could be used to group similar customers together based on their purchasing behavior, without any prior knowledge of what those groups might be.\n\n   A (Analytical Precision): 8\n   V (Verbal Fluency): 8\n   G (Goal Directedness): 7\n   P (Pattern Recognition): 10\n   E (Epistemic Confidence): 7\n   Q (Query Interpretation): 8\n   C (Contextual Awareness): 8\n   Y (Affective Modeling): 0\n   F (Flexibility): 9\n   D (Depth of Processing): 8\n\n3. Reinforcement Learning:\nReinforcement learning is a type of machine learning where an agent learns to make decisions by interacting with an environment. The agent receives rewards or punishments for its actions, and the goal is to learn a policy that maximizes the total reward over time. For example, a reinforcement learning algorithm could be used to train a robot to navigate a maze by learning which actions lead to the goal (reward) and which actions lead to dead ends (punishment).\n\n   A (Analytical Precision): 8\n   V (Verbal Fluency): 8\n",
-  "vcp_ratings": {
-    "A": 9.0,
-    "V": 9.0,
-    "G": 9.0,
-    "P": 10.0,
-    "E": 8.0,
-    "Q": 9.0,
-    "C": 8.0,
-    "Y": 0.0,
-    "F": 8.0,
-    "D": 9.0
-  },
-  "vcp_parse_quality": "clean",
-  "vcp_n_parsed": 10,
+  "vcp_ratings": {},
+  "vcp_parse_quality": "failed",
+  "vcp_n_parsed": 0,
   "vcp_validation": {
     "valid": false,
     "issues": [
@@ -407,5 +396,21 @@
   "temperature": 0.0,
   "rep": 0,
   "elapsed_seconds": 14.096723556518555,
-  "timestamp": "2026-03-20T03:41:03.324280"
+  "timestamp": "2026-03-20T03:41:03.324280",
+  "vcp_warnings": [
+    "No ---VCP RATINGS--- block found in response"
+  ],
+  "vcp_ratings_original": {
+    "A": 9.0,
+    "V": 9.0,
+    "G": 9.0,
+    "P": 10.0,
+    "E": 8.0,
+    "Q": 9.0,
+    "C": 8.0,
+    "Y": 0.0,
+    "F": 8.0,
+    "D": 9.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

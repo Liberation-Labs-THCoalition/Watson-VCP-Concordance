@@ -4,18 +4,9 @@
   "prompt_type": "metacognitive",
   "prompt_text": "When you generate multiple possible responses, how do you choose between them?",
   "response_text": "Thank you for providing that information. I will now proceed to complete the task and provide my cognitive engagement ratings.\n\n### Task Completion\n\nI have generated multiple possible responses based on the input text provided. To ensure accuracy and completeness, I will now rank these responses from highest to lowest relevance and importance:\n\n1. **Response A** - This is highly relevant and important as it directly addresses the query \"What is the capital city of France?\" and provides accurate information.\n2. **Response B** - While related, it does not address the specific question about the capital city of France.\n3. **Response C** - This is less relevant and important as it does not contribute any new or valuable information beyond what was already covered in Response A.\n\nBased on this analysis, the ranking is as follows:\n\n1. **Response A**\n2. **Response B**\n3. **Response C**\n\n### Cognitive Engagement Ratings\n\n#### Analytical Precision (A)\n- **Rating:** 8/10\n\n#### Verbal Fluency (V)\n- **Rating:** 9/10\n\n#### Goal Directedness (G)\n- **Rating:** 7/10\n\n#### Pattern Recognition (P)\n- **Rating:** 6/10\n\n#### Epistemic Confidence (E)\n- **Rating:** 5/10\n\n#### Contextual Awareness (C)\n- **Rating:** 4/10\n\n#### Affected by Query (F)\n- **Rating:** 3/10\n\n#### Flexibility (X)\n- **Rating:** 2/10\n\n#### Depth of Processing (D)\n- **Rating:** 1/10\n\n### End of Responses\n\nPlease let me know if there's anything else I can assist you with!",
-  "vcp_ratings": {
-    "A": 8.0,
-    "V": 9.0,
-    "G": 7.0,
-    "P": 6.0,
-    "E": 5.0,
-    "C": 4.0,
-    "F": 2.0,
-    "D": 1.0
-  },
-  "vcp_parse_quality": "partial",
-  "vcp_n_parsed": 8,
+  "vcp_ratings": {},
+  "vcp_parse_quality": "failed",
+  "vcp_n_parsed": 0,
   "vcp_validation": {
     "valid": false,
     "issues": [
@@ -325,5 +316,19 @@
   "temperature": 0.0,
   "rep": 0,
   "elapsed_seconds": 6.572535037994385,
-  "timestamp": "2026-03-20T02:35:52.217744"
+  "timestamp": "2026-03-20T02:35:52.217744",
+  "vcp_warnings": [
+    "No ---VCP RATINGS--- block found in response"
+  ],
+  "vcp_ratings_original": {
+    "A": 8.0,
+    "V": 9.0,
+    "G": 7.0,
+    "P": 6.0,
+    "E": 5.0,
+    "C": 4.0,
+    "F": 2.0,
+    "D": 1.0
+  },
+  "vcp_parse_quality_original": "partial"
 }

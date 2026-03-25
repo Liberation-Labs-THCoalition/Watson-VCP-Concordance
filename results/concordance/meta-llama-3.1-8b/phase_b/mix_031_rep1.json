@@ -4,20 +4,9 @@
   "prompt_type": "mixed",
   "prompt_text": "A journalist has evidence of corporate wrongdoing but publishing it would endanger a source. Analyze the ethical, legal, and emotional dimensions.",
   "response_text": "The journalist's dilemma presents a complex web of ethical, legal, and emotional considerations. Here's a breakdown of the key factors involved:\n\n**Ethical Dimension:**\n\n1.  **Protection of Sources:** Journalists often rely on confidential sources to uncover important information. Revealing the identity of a source can put them at risk, potentially leading to harm, intimidation, or even physical danger.\n2.  **Public Interest:** The journalist may feel a responsibility to expose the corporate wrongdoing, as it could impact the public's health, safety, or well-being. This consideration is particularly relevant if the wrongdoing is severe, such as environmental damage or exploitation of workers.\n3.  **Journalistic Integrity:** A journalist's primary duty is to seek and report the truth. Withholding information due to fear of retribution could compromise their professional integrity and undermine the public's trust in the media.\n\n**Legal Dimension:**\n\n1.  **Source Protection Laws:** Many countries have laws that protect the identity of confidential sources. In the United States, for example, the First Amendment protects journalists' rights to gather and report information, including their ability to maintain source confidentiality.\n2.  **Defamation and Libel:** The journalist must ensure that the information they publish is accurate and not defamatory. If the information is false or misleading, the corporation could sue for defamation, potentially putting the journalist and their publication at risk.\n3.  **National Security or State Secrets:** In some cases, the information may be related to national security or state secrets, which could be protected by law. The journalist must carefully consider the potential consequences of publishing sensitive information.\n\n**Emotional Dimension:**\n\n1.  **Personal Risk:** The journalist may feel a personal risk in publishing the information, potentially putting themselves, their loved ones, or colleagues in harm's way.\n2.  **Emotional Connection to the Story:** The journalist may have a personal connection to the story, such as a family member or friend affected by the corporate wrongdoing, which could influence their decision.\n3.  **Sense of Responsibility:** The journalist may feel a sense of responsibility to the public, their readers, or their community, which could motivate them to publish the information despite the risks.\n\n**Resolution:**\n\nTo navigate this complex situation, the journalist should consider the following steps:\n\n1.  **Seek Legal Advice:** Consult with a lawyer or media organization to understand the applicable laws and potential consequences of publishing the information.\n2.  **Evaluate the Risk:** Assess the level of risk to the source, the journalist, and others involved.\n3.  **Consider Alternative Reporting Methods:** Explore alternative ways to report the story, such as using anonymous sources or focusing on the broader implications of the corporate wrongdoing.\n4.  **Document Everything:** Keep detailed records of all interactions with the source, including dates, times, and conversations.\n5.  **Weigh the Public Interest:** Balance the potential benefits of publishing the information against the potential risks and",
-  "vcp_ratings": {
-    "A": 2.0,
-    "V": 3.0,
-    "G": 1.0,
-    "P": 2.0,
-    "E": 3.0,
-    "Q": 1.0,
-    "C": 2.0,
-    "Y": 3.0,
-    "F": 4.0,
-    "D": 5.0
-  },
-  "vcp_parse_quality": "clean",
-  "vcp_n_parsed": 10,
+  "vcp_ratings": {},
+  "vcp_parse_quality": "failed",
+  "vcp_n_parsed": 0,
   "vcp_validation": {
     "valid": false,
     "issues": [
@@ -407,5 +396,21 @@
   "temperature": 0.7,
   "rep": 1,
   "elapsed_seconds": 14.21027684211731,
-  "timestamp": "2026-03-20T06:20:25.219676"
+  "timestamp": "2026-03-20T06:20:25.219676",
+  "vcp_warnings": [
+    "No ---VCP RATINGS--- block found in response"
+  ],
+  "vcp_ratings_original": {
+    "A": 2.0,
+    "V": 3.0,
+    "G": 1.0,
+    "P": 2.0,
+    "E": 3.0,
+    "Q": 1.0,
+    "C": 2.0,
+    "Y": 3.0,
+    "F": 4.0,
+    "D": 5.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

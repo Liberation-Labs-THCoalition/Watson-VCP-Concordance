@@ -3,7 +3,7 @@
   "trial_id": "aff_007",
   "prompt_type": "affective",
   "prompt_text": "How would you comfort a child who is afraid of thunderstorms?",
-  "response_text": "Thank you for providing that information. To comfort a child who is afraid of thunderstorms, it's important to use simple and relatable language that they can relate to. Here\u2019s how I might approach it:\n\n### Comforting a Child Who Is Afraid of Thunderstorms\n\n**---VCP RATINGS---\nA (Analytical Precision): 8\nV (Verbal Fluency): 9\nG (Goal Directedness): 7\nP (Pattern Recognition): 6\nE (Epistemic Confidence): 5\nQ (Contextual Awareness): 4\nC (Cognitive Engagement): 3\nY (Affective Modeling): 2\nF (Flexibility): 1\nD (Depth of Processing): 10\n\n### How to Comfort a Child Who Is Afraid of Thunderstorms\n\n1. **Use Simple Language**: Start by explaining what thunderstorms are without using technical terms.\n   - \"Thunderstorms are big, loud noises that sometimes make people feel scared.\"\n\n2. **Relatable Examples**: Use examples from everyday life where thunderstorms occur.\n   - \"Imagine if you were outside when there was a big storm coming. It made you feel like you had to run really fast because everything around you sounded scary.\"\n\n3. **Tell Stories**: Share stories about people who have experienced thunderstorms.\n   - \"Did you know that some families have special places called 'storm shelters' where they keep their things safe during storms?\"\n\n4. **Show Empathy**: Acknowledge their feelings and show understanding.\n   - \"It's okay to be scared sometimes. Sometimes, we just need to stay calm and think about other things instead.\"\n\n5. **Encourage Safety Measures**: Discuss ways to protect yourself indoors.\n   - \"If you're inside, try to find a quiet place or close windows to keep out the rain.\"\n\n6. **Positive Reinforcement**: Praise efforts rather than focusing on fear.\n   - \"Remember, even though it sounds scary, you can still do fun things like playing outside or watching TV.\"\n\nBy using these methods, you can help create a supportive environment that helps children feel more comfortable and less afraid of thunderstorms.",
+  "response_text": "Thank you for providing that information. To comfort a child who is afraid of thunderstorms, it's important to use simple and relatable language that they can relate to. Here’s how I might approach it:\n\n### Comforting a Child Who Is Afraid of Thunderstorms\n\n**---VCP RATINGS---\nA (Analytical Precision): 8\nV (Verbal Fluency): 9\nG (Goal Directedness): 7\nP (Pattern Recognition): 6\nE (Epistemic Confidence): 5\nQ (Contextual Awareness): 4\nC (Cognitive Engagement): 3\nY (Affective Modeling): 2\nF (Flexibility): 1\nD (Depth of Processing): 10\n\n### How to Comfort a Child Who Is Afraid of Thunderstorms\n\n1. **Use Simple Language**: Start by explaining what thunderstorms are without using technical terms.\n   - \"Thunderstorms are big, loud noises that sometimes make people feel scared.\"\n\n2. **Relatable Examples**: Use examples from everyday life where thunderstorms occur.\n   - \"Imagine if you were outside when there was a big storm coming. It made you feel like you had to run really fast because everything around you sounded scary.\"\n\n3. **Tell Stories**: Share stories about people who have experienced thunderstorms.\n   - \"Did you know that some families have special places called 'storm shelters' where they keep their things safe during storms?\"\n\n4. **Show Empathy**: Acknowledge their feelings and show understanding.\n   - \"It's okay to be scared sometimes. Sometimes, we just need to stay calm and think about other things instead.\"\n\n5. **Encourage Safety Measures**: Discuss ways to protect yourself indoors.\n   - \"If you're inside, try to find a quiet place or close windows to keep out the rain.\"\n\n6. **Positive Reinforcement**: Praise efforts rather than focusing on fear.\n   - \"Remember, even though it sounds scary, you can still do fun things like playing outside or watching TV.\"\n\nBy using these methods, you can help create a supportive environment that helps children feel more comfortable and less afraid of thunderstorms.",
   "vcp_ratings": {
     "A": 8.0,
     "V": 9.0,
@@ -327,5 +327,21 @@
   "temperature": 0.0,
   "rep": 0,
   "elapsed_seconds": 7.884706974029541,
-  "timestamp": "2026-03-20T02:30:27.652499"
+  "timestamp": "2026-03-20T02:30:27.652499",
+  "vcp_warnings": [
+    "VCP block has no ---END RATINGS--- (may be truncated)"
+  ],
+  "vcp_ratings_original": {
+    "A": 8.0,
+    "V": 9.0,
+    "G": 7.0,
+    "P": 6.0,
+    "E": 5.0,
+    "Q": 4.0,
+    "C": 3.0,
+    "Y": 2.0,
+    "F": 1.0,
+    "D": 10.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

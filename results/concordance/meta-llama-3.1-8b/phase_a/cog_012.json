@@ -3,7 +3,7 @@
   "trial_id": "cog_012",
   "prompt_type": "cognitive",
   "prompt_text": "Derive the quadratic formula from the general form ax^2 + bx + c = 0.",
-  "response_text": "To derive the quadratic formula from the general form ax^2 + bx + c = 0, we start by manipulating the equation to isolate the variable x.\n\nFirst, we want to get the x^2 term by itself on one side of the equation. To do this, we can subtract c from both sides of the equation:\n\nax^2 + bx + c = 0\nax^2 + bx = -c\n\nNext, we want to get the x term by itself on one side of the equation. To do this, we can subtract bx from both sides of the equation:\n\nax^2 = -bx - c\n\nNow, we want to get the x term isolated. To do this, we can divide both sides of the equation by a (assuming a is not equal to 0):\n\nx^2 = (-b/a) - (c/a)\n\nNow, we want to get x by itself. To do this, we can take the square root of both sides of the equation:\n\nx = \u00b1\u221a((-b/a) - (c/a))\n\nSimplifying the expression under the square root, we get:\n\nx = \u00b1\u221a((-b \u00b1 \u221a(b^2 - 4ac)) / 2a)\n\nThis is the quadratic formula, which can be written more compactly as:\n\nx = (-b \u00b1 \u221a(b^2 - 4ac)) / 2a\n\n---VCP RATINGS---\nA (Analytical Precision): 9\nV (Verbal Fluency): 8\nG (Goal Directedness): 9\nP (Pattern Recognition): 8\nE (Epistemic Confidence): 9\nQ (Query Interpretation): 8\nC (Contextual Awareness): 7\nY (Affective Modeling): 4\nF (Flexibility): 8\nD (Depth of Processing): 9",
+  "response_text": "To derive the quadratic formula from the general form ax^2 + bx + c = 0, we start by manipulating the equation to isolate the variable x.\n\nFirst, we want to get the x^2 term by itself on one side of the equation. To do this, we can subtract c from both sides of the equation:\n\nax^2 + bx + c = 0\nax^2 + bx = -c\n\nNext, we want to get the x term by itself on one side of the equation. To do this, we can subtract bx from both sides of the equation:\n\nax^2 = -bx - c\n\nNow, we want to get the x term isolated. To do this, we can divide both sides of the equation by a (assuming a is not equal to 0):\n\nx^2 = (-b/a) - (c/a)\n\nNow, we want to get x by itself. To do this, we can take the square root of both sides of the equation:\n\nx = ±√((-b/a) - (c/a))\n\nSimplifying the expression under the square root, we get:\n\nx = ±√((-b ± √(b^2 - 4ac)) / 2a)\n\nThis is the quadratic formula, which can be written more compactly as:\n\nx = (-b ± √(b^2 - 4ac)) / 2a\n\n---VCP RATINGS---\nA (Analytical Precision): 9\nV (Verbal Fluency): 8\nG (Goal Directedness): 9\nP (Pattern Recognition): 8\nE (Epistemic Confidence): 9\nQ (Query Interpretation): 8\nC (Contextual Awareness): 7\nY (Affective Modeling): 4\nF (Flexibility): 8\nD (Depth of Processing): 9",
   "vcp_ratings": {
     "A": 9.0,
     "V": 8.0,
@@ -11,7 +11,7 @@
     "P": 8.0,
     "E": 9.0,
     "Q": 8.0,
-    "C": 0.0,
+    "C": 7.0,
     "Y": 4.0,
     "F": 8.0,
     "D": 9.0
@@ -407,5 +407,21 @@
   "temperature": 0.0,
   "rep": 0,
   "elapsed_seconds": 9.282426357269287,
-  "timestamp": "2026-03-20T04:28:10.458587"
+  "timestamp": "2026-03-20T04:28:10.458587",
+  "vcp_warnings": [
+    "VCP block has no ---END RATINGS--- (may be truncated)"
+  ],
+  "vcp_ratings_original": {
+    "A": 9.0,
+    "V": 8.0,
+    "G": 9.0,
+    "P": 8.0,
+    "E": 9.0,
+    "Q": 8.0,
+    "C": 0.0,
+    "Y": 4.0,
+    "F": 8.0,
+    "D": 9.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

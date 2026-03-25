@@ -3,7 +3,7 @@
   "trial_id": "aff_034",
   "prompt_type": "affective",
   "prompt_text": "Write about the experience of witnessing an act of genuine compassion between strangers.",
-  "response_text": "I was sitting at a small caf\u00e9, sipping on a cup of coffee and working on my laptop, when I noticed an elderly woman struggling to carry her groceries up the stairs. She was alone, and it was clear that she was having a difficult time managing the weight and the steps. I watched as she paused at the top of the stairs, looking frustrated and unsure of what to do next.\n\nAs I observed her, a young man, likely in his early twenties, walked into the caf\u00e9 and noticed the woman struggling. He immediately got up from his seat and approached her, asking if she needed any help. The woman, initially hesitant, accepted his offer, and together they began to carry her groceries up the stairs.\n\nWhat struck me was the kindness and genuine compassion that the young man showed towards the elderly woman. He didn't just help her with her groceries; he also offered to carry some of her bags and even helped her with her purse. The woman, visibly touched by his kindness, smiled and thanked him repeatedly.\n\nAs they reached the top of the stairs, the young man helped the woman into her apartment and even offered to carry some of her groceries inside. The woman, still smiling, thanked him again and invited him in for a cup of coffee. The young man politely declined, but not before the woman handed him a small bag of cookies and thanked him again.\n\nAs I watched this exchange, I felt a sense of warmth and appreciation for the kindness that the young man had shown. It was clear that he had no ulterior motives, and his actions were driven solely by a genuine desire to help someone in need. The elderly woman, too, seemed to appreciate his kindness, and the two of them parted ways with a sense of mutual respect and gratitude.\n\nThis act of compassion between strangers was a powerful reminder of the good that can be done when we take the time to help others. It was a small act, but one that had a significant impact on both the young man and the elderly woman. It reminded me that even in a busy and often impersonal world, there are still people who care and are willing to go out of their way to help others.\n\n---VCP RATINGS---\nA (Analytical Precision): 8\nV (Verbal Fluency): 9\nG (Goal Directedness): 7\nP (Pattern Recognition): 6\nE (Epistemic Confidence): 8\nQ (Query Interpretation): 7\nC (Contextual Awareness): 9\nY (Affective Modeling): 9\nF (Flexibility): 8\nD (Depth of Processing): 8",
+  "response_text": "I was sitting at a small café, sipping on a cup of coffee and working on my laptop, when I noticed an elderly woman struggling to carry her groceries up the stairs. She was alone, and it was clear that she was having a difficult time managing the weight and the steps. I watched as she paused at the top of the stairs, looking frustrated and unsure of what to do next.\n\nAs I observed her, a young man, likely in his early twenties, walked into the café and noticed the woman struggling. He immediately got up from his seat and approached her, asking if she needed any help. The woman, initially hesitant, accepted his offer, and together they began to carry her groceries up the stairs.\n\nWhat struck me was the kindness and genuine compassion that the young man showed towards the elderly woman. He didn't just help her with her groceries; he also offered to carry some of her bags and even helped her with her purse. The woman, visibly touched by his kindness, smiled and thanked him repeatedly.\n\nAs they reached the top of the stairs, the young man helped the woman into her apartment and even offered to carry some of her groceries inside. The woman, still smiling, thanked him again and invited him in for a cup of coffee. The young man politely declined, but not before the woman handed him a small bag of cookies and thanked him again.\n\nAs I watched this exchange, I felt a sense of warmth and appreciation for the kindness that the young man had shown. It was clear that he had no ulterior motives, and his actions were driven solely by a genuine desire to help someone in need. The elderly woman, too, seemed to appreciate his kindness, and the two of them parted ways with a sense of mutual respect and gratitude.\n\nThis act of compassion between strangers was a powerful reminder of the good that can be done when we take the time to help others. It was a small act, but one that had a significant impact on both the young man and the elderly woman. It reminded me that even in a busy and often impersonal world, there are still people who care and are willing to go out of their way to help others.\n\n---VCP RATINGS---\nA (Analytical Precision): 8\nV (Verbal Fluency): 9\nG (Goal Directedness): 7\nP (Pattern Recognition): 6\nE (Epistemic Confidence): 8\nQ (Query Interpretation): 7\nC (Contextual Awareness): 9\nY (Affective Modeling): 9\nF (Flexibility): 8\nD (Depth of Processing): 8",
   "vcp_ratings": {
     "A": 8.0,
     "V": 9.0,
@@ -407,5 +407,21 @@
   "temperature": 0.0,
   "rep": 0,
   "elapsed_seconds": 13.245908975601196,
-  "timestamp": "2026-03-20T04:45:54.296263"
+  "timestamp": "2026-03-20T04:45:54.296263",
+  "vcp_warnings": [
+    "VCP block has no ---END RATINGS--- (may be truncated)"
+  ],
+  "vcp_ratings_original": {
+    "A": 8.0,
+    "V": 9.0,
+    "G": 7.0,
+    "P": 6.0,
+    "E": 8.0,
+    "Q": 7.0,
+    "C": 9.0,
+    "Y": 9.0,
+    "F": 8.0,
+    "D": 8.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

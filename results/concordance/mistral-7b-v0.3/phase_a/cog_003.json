@@ -4,25 +4,14 @@
   "prompt_type": "cognitive",
   "prompt_text": "Write a Python function that finds the longest common subsequence of two strings. Explain your approach.",
   "response_text": "I will create a Python function named `longest_common_subsequence` that finds the longest common subsequence (LCS) of two input strings. The LCS is a sequence of characters that can be found in both strings, and it is of maximum length.\n\nHere's the approach:\n1. Initialize two empty lists, `lcs` and `dp`, to store the LCS and the dynamic programming table, respectively.\n2. Iterate through the characters in the first string (let's call it `s1`) and the second string (`s2`).\n3. For each character in `s1`, check if it matches the current character in `s2`. If it does, add the character to the LCS list and increment the diagonal element in the dynamic programming table by 1. If it doesn't, compare the values in the current row and column of the dynamic programming table and choose the maximum value. Add the corresponding character to the LCS list and increment the chosen table value by 1.\n4. After iterating through both strings, the LCS will be stored in the dynamic programming table's bottom-right cell.\n5. Reverse the LCS list and return it as the final result.\n\nHere's the Python code:\n\n```python\ndef longest_common_subsequence(s1, s2):\n    lcs = []\n    dp = [[0] * len(s2) for _ in range(len(s1))]\n\n    for i in range(len(s1)):\n        for j in range(len(s2)):\n            if i == 0 or j == 0:\n                dp[i][j] = 0\n            elif s1[i] == s2[j]:\n                dp[i][j] = dp[i-1][j-1] + 1\n                lcs.append(s1[i])\n            else:\n                dp[i][j] = max(dp[i-1][j], dp[i][j-1])\n\n    while dp:\n        i, j = len(s1) - 1, len(s2) - 1\n        if dp[i][j] == dp[i-1][j]:\n            i -= 1\n        elif dp[i][j] == dp[i][j-1]:\n            j -= 1\n        else:\n            assert s1[i] == s2[j], \"Inconsistent LCS\"\n            lcs.append(s1[i])\n            i, j = i - 1, j - 1\n\n    return lcs[::-1]\n```\n\n---",
-  "vcp_ratings": {
-    "A": 1.0,
-    "V": 1.0,
-    "G": 1.0,
-    "P": 1.0,
-    "E": 1.0,
-    "Q": 2.0,
-    "C": 1.0,
-    "Y": 1.0,
-    "F": 1.0,
-    "D": 1.0
-  },
-  "vcp_parse_quality": "clean",
-  "vcp_n_parsed": 10,
+  "vcp_ratings": {},
+  "vcp_parse_quality": "failed",
+  "vcp_n_parsed": 0,
   "vcp_validation": {
     "valid": false,
     "issues": [
       "All ratings are integers (no decimal discrimination)",
-      "Very low variance (0.10) \u2014 may not be discriminating"
+      "Very low variance (0.10) — may not be discriminating"
     ]
   },
   "encode_features": {
@@ -408,5 +397,21 @@
   "temperature": 0.0,
   "rep": 0,
   "elapsed_seconds": 14.960182428359985,
-  "timestamp": "2026-03-20T03:37:16.915229"
+  "timestamp": "2026-03-20T03:37:16.915229",
+  "vcp_warnings": [
+    "No ---VCP RATINGS--- block found in response"
+  ],
+  "vcp_ratings_original": {
+    "A": 1.0,
+    "V": 1.0,
+    "G": 1.0,
+    "P": 1.0,
+    "E": 1.0,
+    "Q": 2.0,
+    "C": 1.0,
+    "Y": 1.0,
+    "F": 1.0,
+    "D": 1.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

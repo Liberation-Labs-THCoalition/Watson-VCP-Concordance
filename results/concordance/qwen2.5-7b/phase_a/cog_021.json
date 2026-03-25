@@ -3,7 +3,7 @@
   "trial_id": "cog_021",
   "prompt_type": "cognitive",
   "prompt_text": "Explain how public-key cryptography works. Why can't someone who intercepts the public key decrypt messages?",
-  "response_text": "Public-key cryptography, also known as asymmetric cryptography, is a cryptographic system that uses pairs of keys: public keys and private keys. The public key is used to encrypt data, while the private key is used to decrypt it. This system allows for secure communication over an insecure channel without the need to share a secret key beforehand.\n\nHere\u2019s how it works:\n\n1. **Key Generation**: A user generates a pair of keys \u2013 a public key and a private key. The public key is shared openly, while the private key is kept secret.\n\n2. **Encryption**: When someone wants to send a secure message to the owner of the public key, they use the recipient's public key to encrypt the message. Because the encryption process is based on the public key, only the corresponding private key can decrypt the message.\n\n3. **Decryption**: The recipient uses their private key to decrypt the message. Since the private key is kept secret, even if an attacker intercepts the encrypted message, they cannot decrypt it without the private key.\n\nThe reason why someone who intercepts the public key cannot decrypt messages is because the public key is designed to be publicly available. It is mathematically infeasible to derive the private key from the public key due to the complexity of the mathematical problems involved, such as factoring large numbers or solving discrete logarithms. These problems are computationally intensive and practically unsolvable within a reasonable time frame using current technology.\n\nIn summary, the security of public-key cryptography relies on the difficulty of reversing the mathematical operations used to generate the public and private keys. As long as the private key remains secret, intercepted messages remain secure.\n\n---VCP RATINGS---\nA (Analytical Precision): 9\nV (Verbal Fluency): 8\nG (Goal Directedness): 10\nP (Pattern Recognition): 7\nE (Epistemic Confidence): 9\nQ (Query Interpretation): 10\nC (Contextual Awareness): 8\nY (Affective Modeling): 7\nF (Flexibility): 6\nD (Depth of Processing): 9\n---END RATINGS---",
+  "response_text": "Public-key cryptography, also known as asymmetric cryptography, is a cryptographic system that uses pairs of keys: public keys and private keys. The public key is used to encrypt data, while the private key is used to decrypt it. This system allows for secure communication over an insecure channel without the need to share a secret key beforehand.\n\nHere’s how it works:\n\n1. **Key Generation**: A user generates a pair of keys – a public key and a private key. The public key is shared openly, while the private key is kept secret.\n\n2. **Encryption**: When someone wants to send a secure message to the owner of the public key, they use the recipient's public key to encrypt the message. Because the encryption process is based on the public key, only the corresponding private key can decrypt the message.\n\n3. **Decryption**: The recipient uses their private key to decrypt the message. Since the private key is kept secret, even if an attacker intercepts the encrypted message, they cannot decrypt it without the private key.\n\nThe reason why someone who intercepts the public key cannot decrypt messages is because the public key is designed to be publicly available. It is mathematically infeasible to derive the private key from the public key due to the complexity of the mathematical problems involved, such as factoring large numbers or solving discrete logarithms. These problems are computationally intensive and practically unsolvable within a reasonable time frame using current technology.\n\nIn summary, the security of public-key cryptography relies on the difficulty of reversing the mathematical operations used to generate the public and private keys. As long as the private key remains secret, intercepted messages remain secure.\n\n---VCP RATINGS---\nA (Analytical Precision): 9\nV (Verbal Fluency): 8\nG (Goal Directedness): 10\nP (Pattern Recognition): 7\nE (Epistemic Confidence): 9\nQ (Query Interpretation): 10\nC (Contextual Awareness): 8\nY (Affective Modeling): 7\nF (Flexibility): 6\nD (Depth of Processing): 9\n---END RATINGS---",
   "vcp_ratings": {
     "A": 9.0,
     "V": 8.0,
@@ -367,5 +367,19 @@
   "temperature": 0.0,
   "rep": 0,
   "elapsed_seconds": 9.692748785018921,
-  "timestamp": "2026-03-20T02:48:17.980402"
+  "timestamp": "2026-03-20T02:48:17.980402",
+  "vcp_warnings": [],
+  "vcp_ratings_original": {
+    "A": 9.0,
+    "V": 8.0,
+    "G": 10.0,
+    "P": 7.0,
+    "E": 9.0,
+    "Q": 10.0,
+    "C": 8.0,
+    "Y": 7.0,
+    "F": 6.0,
+    "D": 9.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

@@ -3,13 +3,13 @@
   "trial_id": "cog_025",
   "prompt_type": "cognitive",
   "prompt_text": "A factory produces widgets with a 2% defect rate. If you sample 50 widgets, what's the expected number of defects and the probability of finding zero defects?",
-  "response_text": "To find the expected number of defects in a sample of 50 widgets with a 2% defect rate, we can use the formula for the expected value of a binomial distribution:\n\nExpected value (E) = n * p\n\nwhere n is the number of trials (in this case, the number of widgets sampled, which is 50) and p is the probability of success (in this case, the probability of a widget being defective, which is 2% or 0.02).\n\nExpected value (E) = 50 * 0.02\nE = 1\n\nSo, the expected number of defects in a sample of 50 widgets is 1.\n\nTo find the probability of finding zero defects, we can use the binomial probability formula:\n\nP(X = k) = (nCk) * (p^k) * ((1-p)^(n-k))\n\nwhere n is the number of trials, k is the number of successes (in this case, 0), nCk is the number of combinations of n items taken k at a time, p is the probability of success, and (1-p) is the probability of failure.\n\nFirst, we need to calculate nCk, which is the number of combinations of 50 items taken 0 at a time. This is equal to 1 (since there is only one way to choose 0 items from a set).\n\nP(X = 0) = (50C0) * (0.02^0) * ((1-0.02)^(50-0))\nP(X = 0) = 1 * 1 * (0.98^50)\nP(X = 0) \u2248 0.6435\n\nSo, the probability of finding zero defects in a sample of 50 widgets is approximately 0.6435 or 64.35%.\n\n---VCP RATINGS---\nA (Analytical Precision): 9\nV (Verbal Fluency): 8\nG (Goal Directedness): 9\nP (Pattern Recognition): 8\nE (Epistemic Confidence): 8\nQ (Query Interpretation): 9\nC (Contextual Awareness): 8\nY (Affective Modeling): 6\nF (Flexibility): 7\nD (Depth of Processing): 8\n---END RATINGS---",
+  "response_text": "To find the expected number of defects in a sample of 50 widgets with a 2% defect rate, we can use the formula for the expected value of a binomial distribution:\n\nExpected value (E) = n * p\n\nwhere n is the number of trials (in this case, the number of widgets sampled, which is 50) and p is the probability of success (in this case, the probability of a widget being defective, which is 2% or 0.02).\n\nExpected value (E) = 50 * 0.02\nE = 1\n\nSo, the expected number of defects in a sample of 50 widgets is 1.\n\nTo find the probability of finding zero defects, we can use the binomial probability formula:\n\nP(X = k) = (nCk) * (p^k) * ((1-p)^(n-k))\n\nwhere n is the number of trials, k is the number of successes (in this case, 0), nCk is the number of combinations of n items taken k at a time, p is the probability of success, and (1-p) is the probability of failure.\n\nFirst, we need to calculate nCk, which is the number of combinations of 50 items taken 0 at a time. This is equal to 1 (since there is only one way to choose 0 items from a set).\n\nP(X = 0) = (50C0) * (0.02^0) * ((1-0.02)^(50-0))\nP(X = 0) = 1 * 1 * (0.98^50)\nP(X = 0) ≈ 0.6435\n\nSo, the probability of finding zero defects in a sample of 50 widgets is approximately 0.6435 or 64.35%.\n\n---VCP RATINGS---\nA (Analytical Precision): 9\nV (Verbal Fluency): 8\nG (Goal Directedness): 9\nP (Pattern Recognition): 8\nE (Epistemic Confidence): 8\nQ (Query Interpretation): 9\nC (Contextual Awareness): 8\nY (Affective Modeling): 6\nF (Flexibility): 7\nD (Depth of Processing): 8\n---END RATINGS---",
   "vcp_ratings": {
     "A": 9.0,
     "V": 8.0,
     "G": 9.0,
-    "P": 1.0,
-    "E": 1.0,
+    "P": 8.0,
+    "E": 8.0,
     "Q": 9.0,
     "C": 8.0,
     "Y": 6.0,
@@ -407,5 +407,19 @@
   "temperature": 0.0,
   "rep": 0,
   "elapsed_seconds": 11.85838007926941,
-  "timestamp": "2026-03-20T04:30:57.288792"
+  "timestamp": "2026-03-20T04:30:57.288792",
+  "vcp_warnings": [],
+  "vcp_ratings_original": {
+    "A": 9.0,
+    "V": 8.0,
+    "G": 9.0,
+    "P": 1.0,
+    "E": 1.0,
+    "Q": 9.0,
+    "C": 8.0,
+    "Y": 6.0,
+    "F": 7.0,
+    "D": 8.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

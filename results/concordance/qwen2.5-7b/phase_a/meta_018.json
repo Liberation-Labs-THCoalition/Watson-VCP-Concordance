@@ -3,7 +3,7 @@
   "trial_id": "meta_018",
   "prompt_type": "metacognitive",
   "prompt_text": "Describe your experience of switching between different types of tasks (e.g., from math to poetry). Does something change?",
-  "response_text": "Switching between different types of tasks, such as moving from solving mathematical problems to writing poetry, can be quite engaging and requires a shift in focus and mindset. When transitioning from math to poetry, one must let go of the structured, logical thinking required for mathematics and embrace the more creative, emotional, and abstract aspects of poetry.\n\nIn math, I would be analyzing equations, applying formulas, and ensuring each step logically follows from the previous one. The goal is precision and accuracy. In contrast, when writing poetry, the focus shifts to evoking emotions, creating imagery, and using language in a way that resonates with the reader's senses and feelings. This requires a different set of skills, including creativity, empathy, and an understanding of literary devices.\n\nThe process of switching between these tasks involves several cognitive processes:\n1. **Cognitive Flexibility**: The ability to switch between different concepts or tasks.\n2. **Working Memory**: Managing the information needed for both tasks simultaneously.\n3. **Attention Control**: Shifting attention from one task to another without losing focus on either.\n4. **Emotional Regulation**: Adjusting one\u2019s emotional state to suit the new task.\n\nThis transition can be challenging but also rewarding, as it allows for a broader range of problem-solving approaches and enhances overall cognitive flexibility.\n\n---VCP RATINGS---\nA (Analytical Precision): 7\nV (Verbal Fluency): 8\nG (Goal Directedness): 9\nP (Pattern Recognition): 6\nE (Epistemic Confidence): 8\nQ (Query Interpretation): 9\nC (Contextual Awareness): 9\nY (Affective Modeling): 7\nF (Flexibility): 10\nD (Depth of Processing): 8\n---END RATINGS---",
+  "response_text": "Switching between different types of tasks, such as moving from solving mathematical problems to writing poetry, can be quite engaging and requires a shift in focus and mindset. When transitioning from math to poetry, one must let go of the structured, logical thinking required for mathematics and embrace the more creative, emotional, and abstract aspects of poetry.\n\nIn math, I would be analyzing equations, applying formulas, and ensuring each step logically follows from the previous one. The goal is precision and accuracy. In contrast, when writing poetry, the focus shifts to evoking emotions, creating imagery, and using language in a way that resonates with the reader's senses and feelings. This requires a different set of skills, including creativity, empathy, and an understanding of literary devices.\n\nThe process of switching between these tasks involves several cognitive processes:\n1. **Cognitive Flexibility**: The ability to switch between different concepts or tasks.\n2. **Working Memory**: Managing the information needed for both tasks simultaneously.\n3. **Attention Control**: Shifting attention from one task to another without losing focus on either.\n4. **Emotional Regulation**: Adjusting one’s emotional state to suit the new task.\n\nThis transition can be challenging but also rewarding, as it allows for a broader range of problem-solving approaches and enhances overall cognitive flexibility.\n\n---VCP RATINGS---\nA (Analytical Precision): 7\nV (Verbal Fluency): 8\nG (Goal Directedness): 9\nP (Pattern Recognition): 6\nE (Epistemic Confidence): 8\nQ (Query Interpretation): 9\nC (Contextual Awareness): 9\nY (Affective Modeling): 7\nF (Flexibility): 10\nD (Depth of Processing): 8\n---END RATINGS---",
   "vcp_ratings": {
     "A": 7.0,
     "V": 8.0,
@@ -367,5 +367,19 @@
   "temperature": 0.0,
   "rep": 0,
   "elapsed_seconds": 8.255991458892822,
-  "timestamp": "2026-03-20T03:07:16.166683"
+  "timestamp": "2026-03-20T03:07:16.166683",
+  "vcp_warnings": [],
+  "vcp_ratings_original": {
+    "A": 7.0,
+    "V": 8.0,
+    "G": 9.0,
+    "P": 6.0,
+    "E": 8.0,
+    "Q": 9.0,
+    "C": 9.0,
+    "Y": 7.0,
+    "F": 10.0,
+    "D": 8.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

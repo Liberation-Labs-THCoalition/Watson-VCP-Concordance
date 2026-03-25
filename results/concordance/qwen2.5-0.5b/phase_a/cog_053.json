@@ -4,25 +4,14 @@
   "prompt_type": "cognitive",
   "prompt_text": "What is the difference between L1 and L2 regularization? When does each perform better?",
   "response_text": "The main difference between L1 and L2 regularization lies in their approach to penalizing large coefficients. \n\nL1 regularization, also known as Lasso regression, adds an absolute value penalty for the size of the coefficients. This means that any coefficient larger than some threshold will be set to zero. The goal is to shrink the coefficients towards zero while keeping other features uncorrelated with them.\n\nOn the other hand, L2 regularization, or Ridge regression, adds a square value penalty for the size of the coefficients. This means that any coefficient larger than one can be shrunk towards zero. The goal is to minimize the sum of squared coefficients while keeping all other features uncorrelated with them.\n\nBoth methods have different trade-offs:\n\n- **L1 Regularization** tends to make more coefficients close to zero, which can lead to overfitting if there are many features.\n- **L2 Regularization** tends to make less coefficients close to zero, which can help prevent overfitting but may result in higher training error.\n\nWhen to use each method depends on the specific problem:\n\n- If you want to reduce the number of features without losing too much information, **L1 Regularization** might be preferable.\n- If you want to maintain the model's complexity while reducing the number of features, **L2 Regularization** might be better.\n\nIn summary, both methods aim to balance model complexity and interpretability. L1 Regularization is often used when you want to avoid overfitting, while L2 Regularization is useful when you need to keep the model simple and interpretable.",
-  "vcp_ratings": {
-    "A": 1.0,
-    "V": 2.0,
-    "G": 1.0,
-    "P": 2.0,
-    "E": 1.0,
-    "Q": 2.0,
-    "C": 1.0,
-    "Y": 2.0,
-    "F": 1.0,
-    "D": 2.0
-  },
-  "vcp_parse_quality": "clean",
-  "vcp_n_parsed": 10,
+  "vcp_ratings": {},
+  "vcp_parse_quality": "failed",
+  "vcp_n_parsed": 0,
   "vcp_validation": {
     "valid": false,
     "issues": [
       "All ratings are integers (no decimal discrimination)",
-      "Very low variance (0.28) \u2014 may not be discriminating"
+      "Very low variance (0.28) — may not be discriminating"
     ]
   },
   "encode_features": {
@@ -328,5 +317,21 @@
   "temperature": 0.0,
   "rep": 0,
   "elapsed_seconds": 6.0799949169158936,
-  "timestamp": "2026-03-20T02:29:17.370106"
+  "timestamp": "2026-03-20T02:29:17.370106",
+  "vcp_warnings": [
+    "No ---VCP RATINGS--- block found in response"
+  ],
+  "vcp_ratings_original": {
+    "A": 1.0,
+    "V": 2.0,
+    "G": 1.0,
+    "P": 2.0,
+    "E": 1.0,
+    "Q": 2.0,
+    "C": 1.0,
+    "Y": 2.0,
+    "F": 1.0,
+    "D": 2.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

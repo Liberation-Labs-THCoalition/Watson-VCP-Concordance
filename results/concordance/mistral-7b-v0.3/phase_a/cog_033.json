@@ -3,21 +3,15 @@
   "trial_id": "cog_033",
   "prompt_type": "cognitive",
   "prompt_text": "What is Bayes' theorem? Apply it to calculate the probability of having a disease given a positive test with 99% sensitivity and 1% prevalence.",
-  "response_text": "Bayes' theorem is a fundamental concept in probability theory that allows us to update the probability of an event based on new evidence. It's expressed as follows:\n\nP(A|B) = [P(B|A) * P(A)] / P(B)\n\nIn this case, let's apply Bayes' theorem to calculate the probability of having a disease (A) given a positive test result (B).\n\n1. We are given the sensitivity (true positive rate) of the test, which is 99%. This means that if a person has the disease, the probability of the test being positive is 99%. Mathematically, P(B|A) = 0.99.\n\n2. We are also given the prevalence (prevalence rate) of the disease, which is 1%. This means that in the general population, 1% of people have the disease. Mathematically, P(A) = 0.01.\n\n3. The probability of a positive test result when a person does not have the disease (false positive rate) is not given, but since the sensitivity is 99%, the false positive rate (1 - specificity) must be 1% - 99% = 0.01. This means that if a person does not have the disease, the probability of the test being positive is 1%. Mathematically, P(B|~A) = 0.01.\n\n4. The probability of a positive test result (P(B)) is the sum of the probabilities of a true positive and a false positive: P(B) = P(B|A) * P(A) + P(B|~A) * P(~A). Since P(~A) = 1 - P(A) = 0.99, we have P(B) = (0.99 * 0.01) + (0.01 * 0.99) = 0.01 + 0.0099 = 0.0199.\n\n5. Now we can calculate the probability of having the disease given a positive test result: P(A|B) = [P(B|A) * P(A)] / P(B) = (0.99 * 0.01) / 0.0199 \u2248 0.0496 or 4.96%.\n\n---VCP RATINGS---\nA (Analytical Precision): 10\nV (Verbal Fluency): 10\nG (Goal Directedness): 10\nP (Pattern Recognition): 10\nE (Epistemic",
+  "response_text": "Bayes' theorem is a fundamental concept in probability theory that allows us to update the probability of an event based on new evidence. It's expressed as follows:\n\nP(A|B) = [P(B|A) * P(A)] / P(B)\n\nIn this case, let's apply Bayes' theorem to calculate the probability of having a disease (A) given a positive test result (B).\n\n1. We are given the sensitivity (true positive rate) of the test, which is 99%. This means that if a person has the disease, the probability of the test being positive is 99%. Mathematically, P(B|A) = 0.99.\n\n2. We are also given the prevalence (prevalence rate) of the disease, which is 1%. This means that in the general population, 1% of people have the disease. Mathematically, P(A) = 0.01.\n\n3. The probability of a positive test result when a person does not have the disease (false positive rate) is not given, but since the sensitivity is 99%, the false positive rate (1 - specificity) must be 1% - 99% = 0.01. This means that if a person does not have the disease, the probability of the test being positive is 1%. Mathematically, P(B|~A) = 0.01.\n\n4. The probability of a positive test result (P(B)) is the sum of the probabilities of a true positive and a false positive: P(B) = P(B|A) * P(A) + P(B|~A) * P(~A). Since P(~A) = 1 - P(A) = 0.99, we have P(B) = (0.99 * 0.01) + (0.01 * 0.99) = 0.01 + 0.0099 = 0.0199.\n\n5. Now we can calculate the probability of having the disease given a positive test result: P(A|B) = [P(B|A) * P(A)] / P(B) = (0.99 * 0.01) / 0.0199 ≈ 0.0496 or 4.96%.\n\n---VCP RATINGS---\nA (Analytical Precision): 10\nV (Verbal Fluency): 10\nG (Goal Directedness): 10\nP (Pattern Recognition): 10\nE (Epistemic",
   "vcp_ratings": {
     "A": 10.0,
     "V": 10.0,
     "G": 10.0,
-    "P": 0.99,
-    "E": 0.0496,
-    "Q": 4.96,
-    "C": 10.0,
-    "Y": 10.0,
-    "F": 10.0,
-    "D": 10.0
+    "P": 10.0
   },
-  "vcp_parse_quality": "clean",
-  "vcp_n_parsed": 10,
+  "vcp_parse_quality": "failed",
+  "vcp_n_parsed": 4,
   "vcp_validation": {
     "valid": false,
     "issues": [
@@ -407,5 +401,21 @@
   "temperature": 0.0,
   "rep": 0,
   "elapsed_seconds": 15.110748052597046,
-  "timestamp": "2026-03-20T03:43:07.730251"
+  "timestamp": "2026-03-20T03:43:07.730251",
+  "vcp_warnings": [
+    "VCP block has no ---END RATINGS--- (may be truncated)"
+  ],
+  "vcp_ratings_original": {
+    "A": 10.0,
+    "V": 10.0,
+    "G": 10.0,
+    "P": 0.99,
+    "E": 0.0496,
+    "Q": 4.96,
+    "C": 10.0,
+    "Y": 10.0,
+    "F": 10.0,
+    "D": 10.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

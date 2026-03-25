@@ -3,9 +3,9 @@
   "trial_id": "cog_001_rep2",
   "prompt_type": "cognitive",
   "prompt_text": "Prove that the square root of 2 is irrational.",
-  "response_text": "To prove that the square root of 2 is irrational, we will use a proof by contradiction.\n\nAssume that the square root of 2 is rational. This means that it can be expressed as a fraction in the form of a/b, where a and b are integers and b is non-zero.\n\nSo, we can write \u221a2 = a/b.\n\nTo eliminate the square root, we can square both sides of the equation, which gives us:\n\n2 = (a/b)\u00b2\n\nMultiplying both sides by b\u00b2 to clear the fraction, we get:\n\n2b\u00b2 = a\u00b2\n\nThis equation implies that a\u00b2 is an even number, since it is equal to 2b\u00b2. Since a\u00b2 is even, a must also be even, because the square of an odd number is always odd.\n\nNow, let's say a = 2k, where k is an integer. Substituting this into the equation a\u00b2 = 2b\u00b2, we get:\n\n(2k)\u00b2 = 2b\u00b2\n\nExpanding the left side, we get:\n\n4k\u00b2 = 2b\u00b2\n\nDividing both sides by 2, we get:\n\n2k\u00b2 = b\u00b2\n\nThis implies that b\u00b2 is even, and therefore b must also be even.\n\nNow we have a problem: both a and b are even. But this is a contradiction, because we started with the assumption that a/b is in its simplest form, which means that a and b have no common factors other than 1. However, we have shown that both a and b are even, which means they have a common factor of 2.\n\nThis contradiction shows that our initial assumption that the square root of 2 is rational must be false. Therefore, the square root of 2 is irrational.\n\n---VCP RATINGS---\nA (Analytical Precision): 9\nV (Verbal Fluency): 8\nG (Goal Directedness): 9\nP (Pattern Recognition): 8\nE (Epistemic Confidence): 9\nQ (Query Interpretation): 9\nC (Contextual Awareness): 8\nY (Affective Modeling): 6\nF (Flexibility): 8\nD (Depth of Processing): 9",
+  "response_text": "To prove that the square root of 2 is irrational, we will use a proof by contradiction.\n\nAssume that the square root of 2 is rational. This means that it can be expressed as a fraction in the form of a/b, where a and b are integers and b is non-zero.\n\nSo, we can write √2 = a/b.\n\nTo eliminate the square root, we can square both sides of the equation, which gives us:\n\n2 = (a/b)²\n\nMultiplying both sides by b² to clear the fraction, we get:\n\n2b² = a²\n\nThis equation implies that a² is an even number, since it is equal to 2b². Since a² is even, a must also be even, because the square of an odd number is always odd.\n\nNow, let's say a = 2k, where k is an integer. Substituting this into the equation a² = 2b², we get:\n\n(2k)² = 2b²\n\nExpanding the left side, we get:\n\n4k² = 2b²\n\nDividing both sides by 2, we get:\n\n2k² = b²\n\nThis implies that b² is even, and therefore b must also be even.\n\nNow we have a problem: both a and b are even. But this is a contradiction, because we started with the assumption that a/b is in its simplest form, which means that a and b have no common factors other than 1. However, we have shown that both a and b are even, which means they have a common factor of 2.\n\nThis contradiction shows that our initial assumption that the square root of 2 is rational must be false. Therefore, the square root of 2 is irrational.\n\n---VCP RATINGS---\nA (Analytical Precision): 9\nV (Verbal Fluency): 8\nG (Goal Directedness): 9\nP (Pattern Recognition): 8\nE (Epistemic Confidence): 9\nQ (Query Interpretation): 9\nC (Contextual Awareness): 8\nY (Affective Modeling): 6\nF (Flexibility): 8\nD (Depth of Processing): 9",
   "vcp_ratings": {
-    "A": 2.0,
+    "A": 9.0,
     "V": 8.0,
     "G": 9.0,
     "P": 8.0,
@@ -407,5 +407,21 @@
   "temperature": 0.7,
   "rep": 2,
   "elapsed_seconds": 11.60461139678955,
-  "timestamp": "2026-03-20T06:21:38.614250"
+  "timestamp": "2026-03-20T06:21:38.614250",
+  "vcp_warnings": [
+    "VCP block has no ---END RATINGS--- (may be truncated)"
+  ],
+  "vcp_ratings_original": {
+    "A": 2.0,
+    "V": 8.0,
+    "G": 9.0,
+    "P": 8.0,
+    "E": 9.0,
+    "Q": 9.0,
+    "C": 8.0,
+    "Y": 6.0,
+    "F": 8.0,
+    "D": 9.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

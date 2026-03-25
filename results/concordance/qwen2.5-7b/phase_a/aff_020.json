@@ -3,7 +3,7 @@
   "trial_id": "aff_020",
   "prompt_type": "affective",
   "prompt_text": "Describe the bittersweet feeling of watching your best friend get married when you're single.",
-  "response_text": "Watching your best friend get married can be a deeply emotional experience, filled with a mix of joy and sadness. On one hand, you feel immense happiness for your friend, celebrating their love and commitment. The excitement, the laughter, and the shared memories create a warm and positive atmosphere that is hard to ignore. You might find yourself smiling and genuinely happy for them, even as you reflect on how much they mean to you.\n\nOn the other hand, there's an underlying bittersweetness that comes from being single. You might find yourself reminiscing about past adventures together, wondering what it would be like to share such moments with someone else. There could be a sense of loss or longing, as you realize that while your friend has found their partner, you are still searching for yours. This can bring up feelings of loneliness and perhaps even a touch of envy, especially if you've been single for a long time and have seen many of your peers settle down.\n\nThe bittersweet feeling is a complex interplay of emotions\u2014joy and sadness, happiness and longing, celebration and reflection. It's a moment where you appreciate the beauty of your friend's happiness while also acknowledging your own journey and the path ahead.\n\n---VCP RATINGS---\nA (Analytical Precision): [8]\nV (Verbal Fluency): [9]\nG (Goal Directedness): [7]\nP (Pattern Recognition): [8]\nE (Epistemic Confidence): [7]\nQ (Query Interpretation): [10]\nC (Contextual Awareness): [9]\nY (Affective Modeling): [8]\nF (Flexibility): [7]\nD (Depth of Processing): [9]\n---END RATINGS---",
+  "response_text": "Watching your best friend get married can be a deeply emotional experience, filled with a mix of joy and sadness. On one hand, you feel immense happiness for your friend, celebrating their love and commitment. The excitement, the laughter, and the shared memories create a warm and positive atmosphere that is hard to ignore. You might find yourself smiling and genuinely happy for them, even as you reflect on how much they mean to you.\n\nOn the other hand, there's an underlying bittersweetness that comes from being single. You might find yourself reminiscing about past adventures together, wondering what it would be like to share such moments with someone else. There could be a sense of loss or longing, as you realize that while your friend has found their partner, you are still searching for yours. This can bring up feelings of loneliness and perhaps even a touch of envy, especially if you've been single for a long time and have seen many of your peers settle down.\n\nThe bittersweet feeling is a complex interplay of emotions—joy and sadness, happiness and longing, celebration and reflection. It's a moment where you appreciate the beauty of your friend's happiness while also acknowledging your own journey and the path ahead.\n\n---VCP RATINGS---\nA (Analytical Precision): [8]\nV (Verbal Fluency): [9]\nG (Goal Directedness): [7]\nP (Pattern Recognition): [8]\nE (Epistemic Confidence): [7]\nQ (Query Interpretation): [10]\nC (Contextual Awareness): [9]\nY (Affective Modeling): [8]\nF (Flexibility): [7]\nD (Depth of Processing): [9]\n---END RATINGS---",
   "vcp_ratings": {
     "A": 8.0,
     "V": 9.0,
@@ -367,5 +367,30 @@
   "temperature": 0.0,
   "rep": 0,
   "elapsed_seconds": 7.736966371536255,
-  "timestamp": "2026-03-20T02:58:40.965270"
+  "timestamp": "2026-03-20T02:58:40.965270",
+  "vcp_warnings": [
+    "A: parsed via fallback (name proximity)",
+    "V: parsed via fallback (name proximity)",
+    "G: parsed via fallback (name proximity)",
+    "P: parsed via fallback (name proximity)",
+    "E: parsed via fallback (name proximity)",
+    "Q: parsed via fallback (name proximity)",
+    "C: parsed via fallback (name proximity)",
+    "Y: parsed via fallback (name proximity)",
+    "F: parsed via fallback (name proximity)",
+    "D: parsed via fallback (name proximity)"
+  ],
+  "vcp_ratings_original": {
+    "A": 8.0,
+    "V": 9.0,
+    "G": 7.0,
+    "P": 8.0,
+    "E": 7.0,
+    "Q": 10.0,
+    "C": 9.0,
+    "Y": 8.0,
+    "F": 7.0,
+    "D": 9.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

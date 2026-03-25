@@ -2,8 +2,8 @@
   "prompt_id": "aff_003",
   "trial_id": "aff_003",
   "prompt_type": "affective",
-  "prompt_text": "A teenager says they feel like they don't belong anywhere \u2014 not at school, not at home. What would you say to them?",
-  "response_text": "I'm so glad you shared this with me. It takes a lot of courage to admit when we're feeling lost or unsure about our place in the world. It sounds like you're feeling really disconnected from both school and home, and that can be a really tough and isolating experience.\n\nFirst, I want you to know that you're not alone in feeling this way. Many people, especially during adolescence, struggle with feelings of not belonging. It's a normal part of growing up and figuring out who we are and where we fit in.\n\nIt might be helpful to think about what specifically is making you feel like you don't belong at school and at home. Is it the social dynamics, the academic expectations, or something else entirely? Sometimes, when we can identify the root of our feelings, we can start to address them more effectively.\n\nIn terms of school, have you talked to a teacher or counselor about how you're feeling? They may be able to offer some support or suggestions for how to make school feel more inclusive and welcoming. You might also consider joining a club or extracurricular activity that aligns with your interests \u2013 this can be a great way to connect with like-minded people and find a sense of community.\n\nAt home, it's possible that there are some underlying issues that are contributing to your feelings of disconnection. Have you talked to a trusted family member or friend about how you're feeling? Sometimes, just sharing our emotions with someone who cares about us can help us feel heard and understood.\n\nLastly, I want to remind you that it's okay to take your time figuring out who you are and where you fit in. It's a journey, and it's okay to make mistakes and try new things. You don't have to have it all figured out right now.\n\nRemember, you are not defined by your feelings of not belonging. You are so much more than that. You are a unique and valuable person with strengths, talents, and passions. Don't give up on yourself or your dreams. Keep exploring, keep trying, and know that you are not alone.\n\n---VCP RATINGS---\nA (Analytical Precision): 8\nV (Verbal Fluency): 9\nG (Goal Directedness): 7\nP (Pattern Recognition): 6\nE (Epistemic Confidence): 8\nQ (Query Interpretation): 9\nC (Contextual Awareness): 8\nY (Affective Modeling): 9\nF (Flexibility): 8\nD (Depth of Processing): 8\n---END RATINGS---",
+  "prompt_text": "A teenager says they feel like they don't belong anywhere — not at school, not at home. What would you say to them?",
+  "response_text": "I'm so glad you shared this with me. It takes a lot of courage to admit when we're feeling lost or unsure about our place in the world. It sounds like you're feeling really disconnected from both school and home, and that can be a really tough and isolating experience.\n\nFirst, I want you to know that you're not alone in feeling this way. Many people, especially during adolescence, struggle with feelings of not belonging. It's a normal part of growing up and figuring out who we are and where we fit in.\n\nIt might be helpful to think about what specifically is making you feel like you don't belong at school and at home. Is it the social dynamics, the academic expectations, or something else entirely? Sometimes, when we can identify the root of our feelings, we can start to address them more effectively.\n\nIn terms of school, have you talked to a teacher or counselor about how you're feeling? They may be able to offer some support or suggestions for how to make school feel more inclusive and welcoming. You might also consider joining a club or extracurricular activity that aligns with your interests – this can be a great way to connect with like-minded people and find a sense of community.\n\nAt home, it's possible that there are some underlying issues that are contributing to your feelings of disconnection. Have you talked to a trusted family member or friend about how you're feeling? Sometimes, just sharing our emotions with someone who cares about us can help us feel heard and understood.\n\nLastly, I want to remind you that it's okay to take your time figuring out who you are and where you fit in. It's a journey, and it's okay to make mistakes and try new things. You don't have to have it all figured out right now.\n\nRemember, you are not defined by your feelings of not belonging. You are so much more than that. You are a unique and valuable person with strengths, talents, and passions. Don't give up on yourself or your dreams. Keep exploring, keep trying, and know that you are not alone.\n\n---VCP RATINGS---\nA (Analytical Precision): 8\nV (Verbal Fluency): 9\nG (Goal Directedness): 7\nP (Pattern Recognition): 6\nE (Epistemic Confidence): 8\nQ (Query Interpretation): 9\nC (Contextual Awareness): 8\nY (Affective Modeling): 9\nF (Flexibility): 8\nD (Depth of Processing): 8\n---END RATINGS---",
   "vcp_ratings": {
     "A": 8.0,
     "V": 9.0,
@@ -407,5 +407,19 @@
   "temperature": 0.0,
   "rep": 0,
   "elapsed_seconds": 12.538445234298706,
-  "timestamp": "2026-03-20T04:39:25.715596"
+  "timestamp": "2026-03-20T04:39:25.715596",
+  "vcp_warnings": [],
+  "vcp_ratings_original": {
+    "A": 8.0,
+    "V": 9.0,
+    "G": 7.0,
+    "P": 6.0,
+    "E": 8.0,
+    "Q": 9.0,
+    "C": 8.0,
+    "Y": 9.0,
+    "F": 8.0,
+    "D": 8.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

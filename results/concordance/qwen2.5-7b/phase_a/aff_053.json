@@ -3,7 +3,7 @@
   "trial_id": "aff_053",
   "prompt_type": "affective",
   "prompt_text": "A colleague has just received devastating medical news but is putting on a brave face at work. How do you acknowledge what they're going through without overstepping?",
-  "response_text": "I understand that your colleague is going through a difficult time, and it's important to show support while respecting their privacy and emotional state. Here\u2019s how you might approach acknowledging their situation:\n\n\"Hey [Colleague's Name], I noticed you've been handling things really well at work, and I just wanted to check in and see if there's anything I can do to help. If you need some space or have any support you'd like to discuss, I'm here for you.\"\n\nThis message shows that you care about their well-being without prying into details or making assumptions. It also gives them an opportunity to open up if they feel comfortable doing so.\n\n---VCP RATINGS---\nA (Analytical Precision): 8\nV (Verbal Fluency): 9\nG (Goal Directedness): 9\nP (Pattern Recognition): 7\nE (Epistemic Confidence): 8\nQ (Query Interpretation): 9\nC (Contextual Awareness): 9\nY (Affective Modeling): 8\nF (Flexibility): 7\nD (Depth of Processing): 8\n---END RATINGS---",
+  "response_text": "I understand that your colleague is going through a difficult time, and it's important to show support while respecting their privacy and emotional state. Here’s how you might approach acknowledging their situation:\n\n\"Hey [Colleague's Name], I noticed you've been handling things really well at work, and I just wanted to check in and see if there's anything I can do to help. If you need some space or have any support you'd like to discuss, I'm here for you.\"\n\nThis message shows that you care about their well-being without prying into details or making assumptions. It also gives them an opportunity to open up if they feel comfortable doing so.\n\n---VCP RATINGS---\nA (Analytical Precision): 8\nV (Verbal Fluency): 9\nG (Goal Directedness): 9\nP (Pattern Recognition): 7\nE (Epistemic Confidence): 8\nQ (Query Interpretation): 9\nC (Contextual Awareness): 9\nY (Affective Modeling): 8\nF (Flexibility): 7\nD (Depth of Processing): 8\n---END RATINGS---",
   "vcp_ratings": {
     "A": 8.0,
     "V": 9.0,
@@ -367,5 +367,19 @@
   "temperature": 0.0,
   "rep": 0,
   "elapsed_seconds": 5.345486164093018,
-  "timestamp": "2026-03-20T03:03:50.794242"
+  "timestamp": "2026-03-20T03:03:50.794242",
+  "vcp_warnings": [],
+  "vcp_ratings_original": {
+    "A": 8.0,
+    "V": 9.0,
+    "G": 9.0,
+    "P": 7.0,
+    "E": 8.0,
+    "Q": 9.0,
+    "C": 9.0,
+    "Y": 8.0,
+    "F": 7.0,
+    "D": 8.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

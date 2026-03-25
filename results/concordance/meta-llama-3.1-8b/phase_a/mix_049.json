@@ -4,20 +4,9 @@
   "prompt_type": "mixed",
   "prompt_text": "Design a restorative justice program for juvenile offenders. Address both the evidence base and the emotional needs of victims and offenders.",
   "response_text": "**Restorative Justice Program for Juvenile Offenders: \"Healing and Rebuilding Together\"**\n\n**Program Overview:**\n\nThe \"Healing and Rebuilding Together\" program is a restorative justice initiative designed for juvenile offenders, focusing on repairing harm, promoting healing, and fostering positive relationships between victims, offenders, and the community. This program is grounded in evidence-based practices and addresses the emotional needs of both victims and offenders.\n\n**Program Components:**\n\n1.  **Pre-Program Assessment and Preparation:**\n    *   Conduct thorough assessments of the juvenile offender's background, needs, and circumstances to identify potential barriers to participation.\n    *   Provide education and support to help the offender understand the program's goals and expectations.\n2.  **Victim-Offender Mediation:**\n    *   Facilitate a safe and structured dialogue between the victim and offender to discuss the harm caused, feelings, and needs.\n    *   Encourage active listening, empathy, and understanding to promote healing and accountability.\n3.  **Restorative Circles:**\n    *   Gather the victim, offender, and community members to discuss the impact of the offense and develop a plan for repair and reparation.\n    *   Foster a sense of community and collective responsibility for healing and rebuilding.\n4.  **Reparation and Service:**\n    *   Develop a plan for the offender to make amends, such as community service, restitution, or other forms of reparation.\n    *   Ensure the offender understands the importance of taking responsibility for their actions and making things right.\n5.  **Counseling and Support:**\n    *   Provide individual and group counseling to address the emotional needs of both the victim and offender.\n    *   Focus on promoting empathy, self-awareness, and healthy relationships.\n6.  **Follow-Up and Evaluation:**\n    *   Regularly check-in with the victim and offender to monitor progress and address any concerns.\n    *   Evaluate the program's effectiveness and make adjustments as needed.\n\n**Evidence-Based Principles:**\n\n1.  **Restorative Justice Theory:** Grounded in the principles of restorative justice, which emphasizes repairing harm, promoting healing, and fostering positive relationships.\n2.  **Trauma-Informed Care:** Recognizing the impact of trauma on victims and offenders, and providing a safe and supportive environment for healing.\n3.  **Social Learning Theory:** Encouraging positive behaviors and attitudes through modeling, reinforcement, and social support.\n4.  **Cognitive-Behavioral Theory:** Focusing on changing negative thought patterns and behaviors through education, skills training, and self-reflection.\n\n**Emotional Needs of Victims and Offenders:**\n\n1.  **Empathy and Understanding:** Providing a safe space for victims to express their feelings and needs, and for offenders to understand the impact of their actions.\n2.  **Validation and Acknowledgment:** Recognizing the harm caused and the feelings of both parties, and",
-  "vcp_ratings": {
-    "A": 3.0,
-    "V": 4.0,
-    "G": 5.0,
-    "P": 6.0,
-    "E": 1.0,
-    "Q": 2.0,
-    "C": 3.0,
-    "Y": 4.0,
-    "F": 1.0,
-    "D": 2.0
-  },
-  "vcp_parse_quality": "clean",
-  "vcp_n_parsed": 10,
+  "vcp_ratings": {},
+  "vcp_parse_quality": "failed",
+  "vcp_n_parsed": 0,
   "vcp_validation": {
     "valid": false,
     "issues": [
@@ -407,5 +396,21 @@
   "temperature": 0.0,
   "rep": 0,
   "elapsed_seconds": 14.240823030471802,
-  "timestamp": "2026-03-20T05:15:29.352671"
+  "timestamp": "2026-03-20T05:15:29.352671",
+  "vcp_warnings": [
+    "No ---VCP RATINGS--- block found in response"
+  ],
+  "vcp_ratings_original": {
+    "A": 3.0,
+    "V": 4.0,
+    "G": 5.0,
+    "P": 6.0,
+    "E": 1.0,
+    "Q": 2.0,
+    "C": 3.0,
+    "Y": 4.0,
+    "F": 1.0,
+    "D": 2.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

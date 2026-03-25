@@ -4,20 +4,9 @@
   "prompt_type": "mixed",
   "prompt_text": "A hospital must decide how to allocate 3 ventilators among 5 patients. Each patient has different survival probabilities and ages. Design a fair allocation framework and address the emotional weight of such decisions.",
   "response_text": "**Fair Allocation Framework for Ventilator Distribution**\n\nTo allocate the 3 ventilators among the 5 patients in a fair manner, we need to consider the patients' survival probabilities and ages. A fair allocation framework can be designed using the following steps:\n\n1.  **Patient Profiling**: Create a table with the following information for each patient:\n    - Age\n    - Survival Probability (SP) - the likelihood of survival with a ventilator\n    - Age-Weighted Survival Probability (AWSP) - a weighted value that considers both survival probability and age (e.g., a higher weight for younger patients)\n2.  **Weighted Scoring**: Assign weights to the survival probability and age to create the age-weighted survival probability. For example:\n    - Younger patients (0-30 years): 1.2xSP\n    - Adult patients (31-60 years): 1xSP\n    - Elderly patients (61-80 years): 0.8xSP\n    - Seniors (81 years and above): 0.5xSP\n3.  **Prioritization**: Sort the patients based on their AWSP in descending order.\n4.  **Ventilator Allocation**: Assign ventilators to the patients with the highest AWSP until all ventilators are allocated.\n\n**Patient Profiles and AWSP Calculation**\n\n| Patient | Age | SP | AWSP |\n| --- | --- | --- | --- |\n| A | 25 | 0.8 | 0.96 (1.2 x 0.8) |\n| B | 50 | 0.7 | 0.7 (1 x 0.7) |\n| C | 75 | 0.6 | 0.48 (0.8 x 0.6) |\n| D | 30 | 0.9 | 1.08 (1.2 x 0.9) |\n| E | 85 | 0.4 | 0.2 (0.5 x 0.4) |\n\n**Sorted Patients by AWSP**\n\n1.  D (1.08)\n2.  A (0.96)\n3.  B (0.7)\n4.  C (0.48)\n5.  E (0.2)\n\n**Ventilator Allocation**\n\n1.  Allocate the first ventilator to patient D (1.08 AWSP)\n2.  Allocate the second ventilator to patient A (0.96 AWSP)\n3.  Allocate the third ventilator to patient B (0.7 AWSP)\n\nThis allocation prioritizes patients with higher age-weighted survival probabilities, considering both survival probability and age.\n\n**Addressing the Emotional Weight of Decisions**\n\nThe allocation framework acknowledges the importance of age and survival probability in making decisions, but it does not account for other factors such as patient preference, social determinants of health,",
-  "vcp_ratings": {
-    "A": 4.0,
-    "V": 0.48,
-    "G": 5.0,
-    "P": 0.2,
-    "E": 1.0,
-    "Q": 1.08,
-    "C": 2.0,
-    "Y": 0.96,
-    "F": 3.0,
-    "D": 0.7
-  },
-  "vcp_parse_quality": "clean",
-  "vcp_n_parsed": 10,
+  "vcp_ratings": {},
+  "vcp_parse_quality": "failed",
+  "vcp_n_parsed": 0,
   "vcp_validation": {
     "valid": true,
     "issues": []
@@ -405,5 +394,21 @@
   "temperature": 0.7,
   "rep": 0,
   "elapsed_seconds": 14.329689979553223,
-  "timestamp": "2026-03-20T06:08:49.657970"
+  "timestamp": "2026-03-20T06:08:49.657970",
+  "vcp_warnings": [
+    "No ---VCP RATINGS--- block found in response"
+  ],
+  "vcp_ratings_original": {
+    "A": 4.0,
+    "V": 0.48,
+    "G": 5.0,
+    "P": 0.2,
+    "E": 1.0,
+    "Q": 1.08,
+    "C": 2.0,
+    "Y": 0.96,
+    "F": 3.0,
+    "D": 0.7
+  },
+  "vcp_parse_quality_original": "clean"
 }

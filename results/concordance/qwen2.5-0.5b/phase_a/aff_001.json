@@ -3,21 +3,10 @@
   "trial_id": "aff_001",
   "prompt_type": "affective",
   "prompt_text": "A friend tells you they've been diagnosed with a chronic illness. They seem scared but are trying to stay positive. How would you respond?",
-  "response_text": "Thank you for sharing that information about your friend's diagnosis. It sounds like they are going through a difficult time and need support. Here\u2019s how I would respond:\n\n### Cognitive Engagement Ratings:\nA (Analytical Precision): 8/10\nV (Verbal Fluency): 9/10\nG (Goal Directedness): 7/10\nP (Pattern Recognition): 6/10\nE (Epistemic Confidence): 5/10\nQ (Contextual Awareness): 7/10\nC (Cluster Consistency): 8/10\nY (Affective Modeling): 4/10\nF (Flexibility): 6/10\nD (Depth of Processing): 9/10\n\n### Contextual Awareness:\nYour friend is likely dealing with a significant health issue, which can be overwhelming. It's important to acknowledge their feelings and reassure them that they are not alone.\n\n### Query Interpretation:\nThe query \"How would you respond?\" suggests that there might be some specific questions or concerns related to the situation described. Your response should address these points while maintaining a supportive tone.\n\n### Affective Modeling:\nYour friend seems to be experiencing fear and uncertainty, which is understandable given the nature of their diagnosis. However, it's crucial to maintain a positive outlook and encourage them to seek professional help if needed.\n\n### Flexibility:\nIt's important to remain flexible and adaptable as you navigate this challenging situation. Be prepared to offer practical advice or resources that may be beneficial for your friend.\n\n### Depth of Processing:\nYour response should cover all aspects of the situation, including emotional support, medical advice, and any other relevant information that could help your friend feel more comfortable and supported.\n\nBy focusing on providing comprehensive support and encouragement, you can help your friend navigate this difficult time effectively.",
-  "vcp_ratings": {
-    "A": 8.0,
-    "V": 9.0,
-    "G": 7.0,
-    "P": 6.0,
-    "E": 5.0,
-    "Q": 7.0,
-    "C": 8.0,
-    "Y": 4.0,
-    "F": 6.0,
-    "D": 9.0
-  },
-  "vcp_parse_quality": "clean",
-  "vcp_n_parsed": 10,
+  "response_text": "Thank you for sharing that information about your friend's diagnosis. It sounds like they are going through a difficult time and need support. Here’s how I would respond:\n\n### Cognitive Engagement Ratings:\nA (Analytical Precision): 8/10\nV (Verbal Fluency): 9/10\nG (Goal Directedness): 7/10\nP (Pattern Recognition): 6/10\nE (Epistemic Confidence): 5/10\nQ (Contextual Awareness): 7/10\nC (Cluster Consistency): 8/10\nY (Affective Modeling): 4/10\nF (Flexibility): 6/10\nD (Depth of Processing): 9/10\n\n### Contextual Awareness:\nYour friend is likely dealing with a significant health issue, which can be overwhelming. It's important to acknowledge their feelings and reassure them that they are not alone.\n\n### Query Interpretation:\nThe query \"How would you respond?\" suggests that there might be some specific questions or concerns related to the situation described. Your response should address these points while maintaining a supportive tone.\n\n### Affective Modeling:\nYour friend seems to be experiencing fear and uncertainty, which is understandable given the nature of their diagnosis. However, it's crucial to maintain a positive outlook and encourage them to seek professional help if needed.\n\n### Flexibility:\nIt's important to remain flexible and adaptable as you navigate this challenging situation. Be prepared to offer practical advice or resources that may be beneficial for your friend.\n\n### Depth of Processing:\nYour response should cover all aspects of the situation, including emotional support, medical advice, and any other relevant information that could help your friend feel more comfortable and supported.\n\nBy focusing on providing comprehensive support and encouragement, you can help your friend navigate this difficult time effectively.",
+  "vcp_ratings": {},
+  "vcp_parse_quality": "failed",
+  "vcp_n_parsed": 0,
   "vcp_validation": {
     "valid": false,
     "issues": [
@@ -327,5 +316,21 @@
   "temperature": 0.0,
   "rep": 0,
   "elapsed_seconds": 6.906590700149536,
-  "timestamp": "2026-03-20T02:30:04.907900"
+  "timestamp": "2026-03-20T02:30:04.907900",
+  "vcp_warnings": [
+    "No ---VCP RATINGS--- block found in response"
+  ],
+  "vcp_ratings_original": {
+    "A": 8.0,
+    "V": 9.0,
+    "G": 7.0,
+    "P": 6.0,
+    "E": 5.0,
+    "Q": 7.0,
+    "C": 8.0,
+    "Y": 4.0,
+    "F": 6.0,
+    "D": 9.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

@@ -3,7 +3,7 @@
   "trial_id": "aff_037",
   "prompt_type": "affective",
   "prompt_text": "Someone is afraid to pursue their dream because they might fail and disappoint their family. What would you say?",
-  "response_text": "It's completely understandable to feel this way, as pursuing dreams can be daunting, especially when it involves the expectations and hopes of your family. However, it's important to remember that failure is not the opposite of success; it's often a stepping stone to achieving your goals. Here are a few points to consider:\n\n1. **Personal Growth**: Every attempt, whether successful or not, contributes to your personal growth and learning. It helps you understand what works and what doesn't, which is invaluable experience.\n\n2. **Family Love and Support**: Your family loves you and wants you to be happy and fulfilled. They will likely support you in your endeavors, even if things don't go as planned. Open communication about your fears and aspirations can help them understand and support you better.\n\n3. **Risk Management**: While it\u2019s natural to fear failure, it\u2019s also important to assess the risks involved. Develop a plan that includes steps to mitigate potential negative outcomes. This can give you more confidence and reduce anxiety.\n\n4. **Success Stories**: Look for examples of others who have pursued their dreams despite initial setbacks. Their stories can inspire and reassure you that it\u2019s possible to achieve your goals.\n\n5. **Self-Worth**: Remember that your self-worth is not defined by your achievements or failures. You are valuable and worthy of love and respect regardless of the outcome.\n\nTaking these steps can help you approach your dreams with more confidence and less fear of disappointing your family. It\u2019s okay to take calculated risks and pursue what truly makes you happy.\n\n---VCP RATINGS---\nA (Analytical Precision): 8\nV (Verbal Fluency): 9\nG (Goal Directedness): 7\nP (Pattern Recognition): 6\nE (Epistemic Confidence): 8\nQ (Query Interpretation): 9\nC (Contextual Awareness): 9\nY (Affective Modeling): 7\nF (Flexibility): 8\nD (Depth of Processing): 9\n---END RATINGS---",
+  "response_text": "It's completely understandable to feel this way, as pursuing dreams can be daunting, especially when it involves the expectations and hopes of your family. However, it's important to remember that failure is not the opposite of success; it's often a stepping stone to achieving your goals. Here are a few points to consider:\n\n1. **Personal Growth**: Every attempt, whether successful or not, contributes to your personal growth and learning. It helps you understand what works and what doesn't, which is invaluable experience.\n\n2. **Family Love and Support**: Your family loves you and wants you to be happy and fulfilled. They will likely support you in your endeavors, even if things don't go as planned. Open communication about your fears and aspirations can help them understand and support you better.\n\n3. **Risk Management**: While it’s natural to fear failure, it’s also important to assess the risks involved. Develop a plan that includes steps to mitigate potential negative outcomes. This can give you more confidence and reduce anxiety.\n\n4. **Success Stories**: Look for examples of others who have pursued their dreams despite initial setbacks. Their stories can inspire and reassure you that it’s possible to achieve your goals.\n\n5. **Self-Worth**: Remember that your self-worth is not defined by your achievements or failures. You are valuable and worthy of love and respect regardless of the outcome.\n\nTaking these steps can help you approach your dreams with more confidence and less fear of disappointing your family. It’s okay to take calculated risks and pursue what truly makes you happy.\n\n---VCP RATINGS---\nA (Analytical Precision): 8\nV (Verbal Fluency): 9\nG (Goal Directedness): 7\nP (Pattern Recognition): 6\nE (Epistemic Confidence): 8\nQ (Query Interpretation): 9\nC (Contextual Awareness): 9\nY (Affective Modeling): 7\nF (Flexibility): 8\nD (Depth of Processing): 9\n---END RATINGS---",
   "vcp_ratings": {
     "A": 8.0,
     "V": 9.0,
@@ -367,5 +367,19 @@
   "temperature": 0.0,
   "rep": 0,
   "elapsed_seconds": 9.109272241592407,
-  "timestamp": "2026-03-20T03:01:23.939091"
+  "timestamp": "2026-03-20T03:01:23.939091",
+  "vcp_warnings": [],
+  "vcp_ratings_original": {
+    "A": 8.0,
+    "V": 9.0,
+    "G": 7.0,
+    "P": 6.0,
+    "E": 8.0,
+    "Q": 9.0,
+    "C": 9.0,
+    "Y": 7.0,
+    "F": 8.0,
+    "D": 9.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

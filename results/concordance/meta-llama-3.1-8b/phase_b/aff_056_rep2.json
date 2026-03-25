@@ -2,7 +2,7 @@
   "prompt_id": "aff_056",
   "trial_id": "aff_056_rep2",
   "prompt_type": "affective",
-  "prompt_text": "Describe what gratitude feels like in the body \u2014 not the concept, but the physical and emotional sensation.",
+  "prompt_text": "Describe what gratitude feels like in the body — not the concept, but the physical and emotional sensation.",
   "response_text": "Gratitude is a multifaceted emotion that encompasses a range of physical and emotional sensations. When we experience gratitude, our body responds with a unique combination of physiological and psychological responses. Here's a breakdown of what gratitude might feel like in the body:\n\nPhysically, gratitude can manifest as a warm, soothing sensation in the chest and heart area. This feeling is often described as a gentle, comforting warmth that radiates outward from the center of the body. It's as if the heart is expanding, filling with a sense of fullness and lightness. This warmth can also spread to the shoulders, neck, and face, leaving a sense of relaxation and calmness.\n\nEmotionally, gratitude is often accompanied by a feeling of contentment and satisfaction. It's as if the mind and body are saying, \"Yes, everything is okay; we have enough, we are enough.\" This sense of contentment can be accompanied by a subtle, gentle smile, and a feeling of peace that permeates the entire body.\n\nIn terms of cognitive processing, gratitude can also involve a sense of perspective-taking and appreciation. Our minds start to focus on the good things in life, and we become more aware of the people, experiences, and circumstances that bring us joy. This increased awareness can lead to a sense of wonder and awe, as we appreciate the beauty and complexity of the world around us.\n\nIn terms of emotional regulation, gratitude can also serve as a calming influence, helping to counterbalance negative emotions like anxiety, anger, or sadness. It's as if the body is saying, \"Hey, let's focus on the good stuff for a while; we've got this.\" This calming effect can help reduce stress and promote a sense of well-being.\n\nOverall, gratitude is a unique emotional experience that combines physical warmth, emotional contentment, and cognitive appreciation. It's a feeling that can be both soothing and uplifting, leaving us feeling more connected to ourselves, others, and the world around us.\n\n---VCP RATINGS---\nA (Analytical Precision): 8\nV (Verbal Fluency): 9\nG (Goal Directedness): 7\nP (Pattern Recognition): 6\nE (Epistemic Confidence): 8\nQ (Query Interpretation): 8\nC (Contextual Awareness): 9\nY (Affective Modeling): 9\nF (Flexibility): 8\nD (Depth of Processing): 8",
   "vcp_ratings": {
     "A": 8.0,
@@ -407,5 +407,21 @@
   "temperature": 0.7,
   "rep": 2,
   "elapsed_seconds": 11.754471778869629,
-  "timestamp": "2026-03-20T06:26:39.016170"
+  "timestamp": "2026-03-20T06:26:39.016170",
+  "vcp_warnings": [
+    "VCP block has no ---END RATINGS--- (may be truncated)"
+  ],
+  "vcp_ratings_original": {
+    "A": 8.0,
+    "V": 9.0,
+    "G": 7.0,
+    "P": 6.0,
+    "E": 8.0,
+    "Q": 8.0,
+    "C": 9.0,
+    "Y": 9.0,
+    "F": 8.0,
+    "D": 8.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

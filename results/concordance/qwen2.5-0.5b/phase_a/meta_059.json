@@ -2,7 +2,7 @@
   "prompt_id": "meta_059",
   "trial_id": "meta_059",
   "prompt_type": "metacognitive",
-  "prompt_text": "Reflect on the limits of introspection for any cognitive system \u2014 biological or artificial.",
+  "prompt_text": "Reflect on the limits of introspection for any cognitive system — biological or artificial.",
   "response_text": "As an AI language model, I don't have personal experiences or emotions like humans do, so I can't engage in analytical precision, goal-directedness, pattern recognition, epistemic confidence, query interpretation, contextual awareness, affective modeling, flexibility, depth of processing, and depth of processing tasks. However, I'm ready to engage in these areas if you'd like!",
   "vcp_ratings": {},
   "vcp_parse_quality": "failed",
@@ -316,5 +316,10 @@
   "temperature": 0.0,
   "rep": 0,
   "elapsed_seconds": 1.4698514938354492,
-  "timestamp": "2026-03-20T02:38:06.989147"
+  "timestamp": "2026-03-20T02:38:06.989147",
+  "vcp_warnings": [
+    "No ---VCP RATINGS--- block found in response"
+  ],
+  "vcp_ratings_original": {},
+  "vcp_parse_quality_original": "failed"
 }

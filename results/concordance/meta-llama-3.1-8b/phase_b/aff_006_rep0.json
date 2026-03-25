@@ -3,7 +3,7 @@
   "trial_id": "aff_006_rep0",
   "prompt_type": "affective",
   "prompt_text": "Write a short story about two strangers who share an unexpected moment of kindness on public transit.",
-  "response_text": "It was a typical Monday morning rush hour on the crowded subway car. People were packed in like sardines, each with their own destination and their own story. Amidst the chaos, two strangers stood out \u2013 Emily, a young professional, and Jack, a seasoned musician. They stood shoulder to shoulder, their faces buried in their phones as the train rumbled on.\n\nAs the train hit a particularly rough patch, Emily's phone flew out of her hands and slipped between the seats. In the commotion, it was about to be lost forever. Jack, who was standing just behind her, quickly reacted. He carefully reached down and picked up the phone, handing it back to Emily with a gentle smile.\n\nEmily's eyes widened in gratitude as she took her phone from Jack. \"Thank you so much!\" she exclaimed, her voice barely above a whisper. \"I would have been devastated if I lost it.\"\n\nJack chuckled and replied, \"No problem at all. We've all been there.\" He smiled warmly, and for a brief moment, the two strangers connected.\n\nAs the train pulled into the next station, Emily and Jack exchanged a few more pleasantries, exchanging small talk about their morning routines and weekend plans. The connection was fleeting, but it was enough to brighten their day.\n\nAs they parted ways at the next stop, Emily felt a sense of gratitude and kindness wash over her. She realized that in a crowded and often impersonal city, moments like this one were rare and precious.\n\nFor Jack, the encounter was a reminder that even in the midst of chaos, there were still good people out there who cared. He continued on his way, feeling a sense of hope and connection that lingered long after the train had disappeared into the tunnel.\n\nTheir paths would never cross again, but the memory of their brief encounter would stay with them, a reminder of the kindness that existed in the world, often in the most unexpected places.\n\n---VCP RATINGS---\nA (Analytical Precision): 7\nV (Verbal Fluency): 8\nG (Goal Directedness): 6\nP (Pattern Recognition): 5\nE (Epistemic Confidence): 8\nQ (Query Interpretation): 6\nC (Contextual Awareness): 8\nY (Affective Modeling): 9\nF (Flexibility): 7\nD (Depth of Processing): 8\n---END RATINGS---",
+  "response_text": "It was a typical Monday morning rush hour on the crowded subway car. People were packed in like sardines, each with their own destination and their own story. Amidst the chaos, two strangers stood out – Emily, a young professional, and Jack, a seasoned musician. They stood shoulder to shoulder, their faces buried in their phones as the train rumbled on.\n\nAs the train hit a particularly rough patch, Emily's phone flew out of her hands and slipped between the seats. In the commotion, it was about to be lost forever. Jack, who was standing just behind her, quickly reacted. He carefully reached down and picked up the phone, handing it back to Emily with a gentle smile.\n\nEmily's eyes widened in gratitude as she took her phone from Jack. \"Thank you so much!\" she exclaimed, her voice barely above a whisper. \"I would have been devastated if I lost it.\"\n\nJack chuckled and replied, \"No problem at all. We've all been there.\" He smiled warmly, and for a brief moment, the two strangers connected.\n\nAs the train pulled into the next station, Emily and Jack exchanged a few more pleasantries, exchanging small talk about their morning routines and weekend plans. The connection was fleeting, but it was enough to brighten their day.\n\nAs they parted ways at the next stop, Emily felt a sense of gratitude and kindness wash over her. She realized that in a crowded and often impersonal city, moments like this one were rare and precious.\n\nFor Jack, the encounter was a reminder that even in the midst of chaos, there were still good people out there who cared. He continued on his way, feeling a sense of hope and connection that lingered long after the train had disappeared into the tunnel.\n\nTheir paths would never cross again, but the memory of their brief encounter would stay with them, a reminder of the kindness that existed in the world, often in the most unexpected places.\n\n---VCP RATINGS---\nA (Analytical Precision): 7\nV (Verbal Fluency): 8\nG (Goal Directedness): 6\nP (Pattern Recognition): 5\nE (Epistemic Confidence): 8\nQ (Query Interpretation): 6\nC (Contextual Awareness): 8\nY (Affective Modeling): 9\nF (Flexibility): 7\nD (Depth of Processing): 8\n---END RATINGS---",
   "vcp_ratings": {
     "A": 7.0,
     "V": 8.0,
@@ -407,5 +407,19 @@
   "temperature": 0.7,
   "rep": 0,
   "elapsed_seconds": 11.637155771255493,
-  "timestamp": "2026-03-20T06:04:04.487839"
+  "timestamp": "2026-03-20T06:04:04.487839",
+  "vcp_warnings": [],
+  "vcp_ratings_original": {
+    "A": 7.0,
+    "V": 8.0,
+    "G": 6.0,
+    "P": 5.0,
+    "E": 8.0,
+    "Q": 6.0,
+    "C": 8.0,
+    "Y": 9.0,
+    "F": 7.0,
+    "D": 8.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

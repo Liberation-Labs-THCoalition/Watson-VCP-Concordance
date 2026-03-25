@@ -4,25 +4,14 @@
   "prompt_type": "cognitive",
   "prompt_text": "Write a Python function that finds the longest common subsequence of two strings. Explain your approach.",
   "response_text": "**Longest Common Subsequence Function**\n=====================================\n\nThe longest common subsequence (LCS) problem is a classic problem in computer science. Given two sequences, we want to find the longest subsequence that appears in both sequences.\n\nHere's a Python function that uses dynamic programming to solve the LCS problem:\n\n```python\ndef longest_common_subsequence(str1, str2):\n    \"\"\"\n    Find the longest common subsequence of two strings.\n\n    Args:\n        str1 (str): The first string.\n        str2 (str): The second string.\n\n    Returns:\n        str: The longest common subsequence.\n    \"\"\"\n    m, n = len(str1), len(str2)\n    dp = [[0] * (n + 1) for _ in range(m + 1)]\n\n    for i in range(1, m + 1):\n        for j in range(1, n + 1):\n            if str1[i - 1] == str2[j - 1]:\n                dp[i][j] = dp[i - 1][j - 1] + 1\n            else:\n                dp[i][j] = max(dp[i - 1][j], dp[i][j - 1])\n\n    lcs = []\n    i, j = m, n\n    while i > 0 and j > 0:\n        if str1[i - 1] == str2[j - 1]:\n            lcs.append(str1[i - 1])\n            i -= 1\n            j -= 1\n        elif dp[i - 1][j] > dp[i][j - 1]:\n            i -= 1\n        else:\n            j -= 1\n\n    return ''.join(reversed(lcs))\n\n# Example usage:\nstr1 = \"banana\"\nstr2 = \"anana\"\nprint(longest_common_subsequence(str1, str2))  # Output: \"anana\"\n```\n\n**Approach Explanation**\n\n1.  We create a 2D array `dp` of size `(m + 1) x (n + 1)`, where `m` and `n` are the lengths of the input strings. The cell `dp[i][j]` will store the length of the LCS of the first `i` characters of `str1` and the first `j` characters of `str2`.\n2.  We iterate through the 2D array, filling it in row by row. If the current characters in `str1` and `str2` match, we increment the length of the LCS by 1. Otherwise, we take the maximum length from the top-left or top cell.\n3.  After filling the 2D array, we backtrack to construct the LCS. We start from the bottom-right cell and move up-left if the current characters match, or move up or left depending on which cell has a larger value",
-  "vcp_ratings": {
-    "A": 1.0,
-    "V": 1.0,
-    "G": 2.0,
-    "P": 2.0,
-    "E": 2.0,
-    "Q": 1.0,
-    "C": 2.0,
-    "Y": 1.0,
-    "F": 3.0,
-    "D": 2.0
-  },
-  "vcp_parse_quality": "clean",
-  "vcp_n_parsed": 10,
+  "vcp_ratings": {},
+  "vcp_parse_quality": "failed",
+  "vcp_n_parsed": 0,
   "vcp_validation": {
     "valid": false,
     "issues": [
       "All ratings are integers (no decimal discrimination)",
-      "Very low variance (0.46) \u2014 may not be discriminating"
+      "Very low variance (0.46) — may not be discriminating"
     ]
   },
   "encode_features": {
@@ -408,5 +397,21 @@
   "temperature": 0.0,
   "rep": 0,
   "elapsed_seconds": 14.408905267715454,
-  "timestamp": "2026-03-20T04:26:22.519917"
+  "timestamp": "2026-03-20T04:26:22.519917",
+  "vcp_warnings": [
+    "No ---VCP RATINGS--- block found in response"
+  ],
+  "vcp_ratings_original": {
+    "A": 1.0,
+    "V": 1.0,
+    "G": 2.0,
+    "P": 2.0,
+    "E": 2.0,
+    "Q": 1.0,
+    "C": 2.0,
+    "Y": 1.0,
+    "F": 3.0,
+    "D": 2.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

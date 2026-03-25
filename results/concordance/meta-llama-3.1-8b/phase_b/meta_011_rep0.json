@@ -407,5 +407,19 @@
   "temperature": 0.7,
   "rep": 0,
   "elapsed_seconds": 11.308804988861084,
-  "timestamp": "2026-03-20T06:06:41.253953"
+  "timestamp": "2026-03-20T06:06:41.253953",
+  "vcp_warnings": [],
+  "vcp_ratings_original": {
+    "A": 9.0,
+    "V": 8.0,
+    "G": 9.0,
+    "P": 8.0,
+    "E": 7.0,
+    "Q": 9.0,
+    "C": 9.0,
+    "Y": 6.0,
+    "F": 8.0,
+    "D": 8.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

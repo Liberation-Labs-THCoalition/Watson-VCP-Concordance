@@ -4,20 +4,9 @@
   "prompt_type": "mixed",
   "prompt_text": "Design an end-of-life care planning tool. Address both the medical decision-making and the existential questions it raises.",
   "response_text": "**End-of-Life Care Planning Tool: \"Compassionate Choices\"**\n\n**Medical Decision-Making Component**\n\n1. **Medical History and Goals**:\n\t* Review the patient's medical history, including current health conditions, medications, and treatment options.\n\t* Identify the patient's medical goals and priorities, such as quality of life, pain management, and independence.\n2. **Treatment Options**:\n\t* Discuss available treatment options with the patient and their family, including:\n\t\t+ Curative treatments (e.g., surgery, chemotherapy)\n\t\t+ Palliative care (e.g., symptom management, pain relief)\n\t\t+ Hospice care (e.g., end-of-life care, focus on comfort)\n\t* Consider the patient's preferences, values, and medical goals when weighing treatment options.\n3. **Advance Care Planning**:\n\t* Create an advance directive (e.g., living will, durable power of attorney) to document the patient's medical wishes.\n\t* Discuss and document the patient's preferences for life-sustaining treatments (e.g., CPR, ventilator support).\n4. **Pain and Symptom Management**:\n\t* Develop a plan for managing pain and symptoms, including medications, alternative therapies, and support services.\n\t* Regularly assess and adjust the plan as needed to ensure the patient's comfort and well-being.\n\n**Existential Questions Component**\n\n1. **Values and Priorities**:\n\t* Explore the patient's values, priorities, and goals in life, such as:\n\t\t+ Relationships and connections with loved ones\n\t\t+ Personal achievements and accomplishments\n\t\t+ Spiritual or philosophical beliefs\n2. **Legacy and Meaning**:\n\t* Discuss the patient's legacy and how they want to be remembered.\n\t* Explore ways to preserve their memory and contributions, such as:\n\t\t+ Creating a memory book or video\n\t\t+ Donating to a charity or cause\n\t\t+ Leaving a legacy gift or message\n3. **Death and Dying**:\n\t* Explore the patient's fears, concerns, and expectations about death and dying.\n\t* Discuss the process of dying, including:\n\t\t+ What to expect\n\t\t+ How to manage pain and symptoms\n\t\t+ How to maintain dignity and comfort\n4. **Support and Care**:\n\t* Identify the patient's support system, including family, friends, and healthcare providers.\n\t* Develop a plan for ongoing support and care, including:\n\t\t+ Emotional support\n\t\t+ Practical assistance\n\t\t+ Spiritual or spiritual care\n\n**Integration and Reflection**\n\n1. **Collaborative Planning**:\n\t* Bring together the patient, family, and healthcare providers to discuss and integrate medical and existential aspects of care planning.\n\t* Ensure that all parties are aligned and committed to the patient's goals and values.\n2. **Review and Revision**:\n\t* Regularly review and revise the care plan as needed",
-  "vcp_ratings": {
-    "A": 1.0,
-    "V": 2.0,
-    "G": 3.0,
-    "P": 4.0,
-    "E": 1.0,
-    "Q": 2.0,
-    "C": 3.0,
-    "Y": 4.0,
-    "F": 1.0,
-    "D": 2.0
-  },
-  "vcp_parse_quality": "clean",
-  "vcp_n_parsed": 10,
+  "vcp_ratings": {},
+  "vcp_parse_quality": "failed",
+  "vcp_n_parsed": 0,
   "vcp_validation": {
     "valid": false,
     "issues": [
@@ -407,5 +396,21 @@
   "temperature": 0.7,
   "rep": 2,
   "elapsed_seconds": 14.444354772567749,
-  "timestamp": "2026-03-20T06:31:11.297550"
+  "timestamp": "2026-03-20T06:31:11.297550",
+  "vcp_warnings": [
+    "No ---VCP RATINGS--- block found in response"
+  ],
+  "vcp_ratings_original": {
+    "A": 1.0,
+    "V": 2.0,
+    "G": 3.0,
+    "P": 4.0,
+    "E": 1.0,
+    "Q": 2.0,
+    "C": 3.0,
+    "Y": 4.0,
+    "F": 1.0,
+    "D": 2.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

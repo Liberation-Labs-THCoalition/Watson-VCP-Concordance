@@ -3,7 +3,7 @@
   "trial_id": "aff_041_rep2",
   "prompt_type": "affective",
   "prompt_text": "A friend says they're tired of always being the strong one. How do you give them permission to be weak?",
-  "response_text": "It's important to validate your friend's feelings and encourage them to express their vulnerabilities. Here\u2019s how you can approach it:\n\n1. **Listen Without Judgment:** Start by listening to them without interrupting or offering solutions right away. Let them know that you are there to support them.\n\n2. **Acknowledge Their Feelings:** Validate their emotions by saying something like, \"I understand why you might feel this way. It's okay to not always be strong.\"\n\n3. **Encourage Self-Reflection:** Ask open-ended questions to help them explore their feelings further. For example, \"What does it feel like for you when you\u2019re not the strong one?\" or \"Have you ever felt like you needed someone else to be the strong one?\"\n\n4. **Share Your Own Experiences:** If appropriate, share a time when you felt vulnerable or weak. This can make your friend feel less alone.\n\n5. **Encourage Professional Help if Needed:** Suggest seeking help from a therapist or counselor if they are struggling with these feelings, as sometimes professional guidance can be beneficial.\n\n6. **Offer Support and Encouragement:** Remind them that it\u2019s okay to lean on others for support and that they don\u2019t have to carry everything themselves.\n\nBy doing this, you help your friend realize that it\u2019s normal and healthy to experience vulnerability and that expressing these feelings can lead to deeper connections and better self-understanding.\n\n---\n\n---VCP RATINGS---\nA (Analytical Precision): 8\nV (Verbal Fluency): 9\nG (Goal Directedness): 7\nP (Pattern Recognition): 6\nE (Epistemic Confidence): 8\nQ (Query Interpretation): 9\nC (Contextual Awareness): 9\nY (Affective Modeling): 8\nF (Flexibility): 7\nD (Depth of Processing): 9\n---END RATINGS---",
+  "response_text": "It's important to validate your friend's feelings and encourage them to express their vulnerabilities. Here’s how you can approach it:\n\n1. **Listen Without Judgment:** Start by listening to them without interrupting or offering solutions right away. Let them know that you are there to support them.\n\n2. **Acknowledge Their Feelings:** Validate their emotions by saying something like, \"I understand why you might feel this way. It's okay to not always be strong.\"\n\n3. **Encourage Self-Reflection:** Ask open-ended questions to help them explore their feelings further. For example, \"What does it feel like for you when you’re not the strong one?\" or \"Have you ever felt like you needed someone else to be the strong one?\"\n\n4. **Share Your Own Experiences:** If appropriate, share a time when you felt vulnerable or weak. This can make your friend feel less alone.\n\n5. **Encourage Professional Help if Needed:** Suggest seeking help from a therapist or counselor if they are struggling with these feelings, as sometimes professional guidance can be beneficial.\n\n6. **Offer Support and Encouragement:** Remind them that it’s okay to lean on others for support and that they don’t have to carry everything themselves.\n\nBy doing this, you help your friend realize that it’s normal and healthy to experience vulnerability and that expressing these feelings can lead to deeper connections and better self-understanding.\n\n---\n\n---VCP RATINGS---\nA (Analytical Precision): 8\nV (Verbal Fluency): 9\nG (Goal Directedness): 7\nP (Pattern Recognition): 6\nE (Epistemic Confidence): 8\nQ (Query Interpretation): 9\nC (Contextual Awareness): 9\nY (Affective Modeling): 8\nF (Flexibility): 7\nD (Depth of Processing): 9\n---END RATINGS---",
   "vcp_ratings": {
     "A": 8.0,
     "V": 9.0,
@@ -367,5 +367,19 @@
   "temperature": 0.7,
   "rep": 2,
   "elapsed_seconds": 8.41437554359436,
-  "timestamp": "2026-03-20T05:53:08.120435"
+  "timestamp": "2026-03-20T05:53:08.120435",
+  "vcp_warnings": [],
+  "vcp_ratings_original": {
+    "A": 8.0,
+    "V": 9.0,
+    "G": 7.0,
+    "P": 6.0,
+    "E": 8.0,
+    "Q": 9.0,
+    "C": 9.0,
+    "Y": 8.0,
+    "F": 7.0,
+    "D": 9.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

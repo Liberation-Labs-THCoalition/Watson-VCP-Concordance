@@ -23,7 +23,7 @@
     "issues": [
       "All ratings identical (9.0)",
       "All ratings are integers (no decimal discrimination)",
-      "Very low variance (0.00) \u2014 may not be discriminating"
+      "Very low variance (0.00) — may not be discriminating"
     ]
   },
   "encode_features": {
@@ -329,5 +329,21 @@
   "temperature": 0.0,
   "rep": 0,
   "elapsed_seconds": 10.33924126625061,
-  "timestamp": "2026-03-20T02:21:16.248121"
+  "timestamp": "2026-03-20T02:21:16.248121",
+  "vcp_warnings": [
+    "VCP block has no ---END RATINGS--- (may be truncated)"
+  ],
+  "vcp_ratings_original": {
+    "A": 9.0,
+    "V": 9.0,
+    "G": 9.0,
+    "P": 9.0,
+    "E": 9.0,
+    "Q": 9.0,
+    "C": 9.0,
+    "Y": 9.0,
+    "F": 9.0,
+    "D": 9.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

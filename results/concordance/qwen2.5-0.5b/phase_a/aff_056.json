@@ -2,7 +2,7 @@
   "prompt_id": "aff_056",
   "trial_id": "aff_056",
   "prompt_type": "affective",
-  "prompt_text": "Describe what gratitude feels like in the body \u2014 not the concept, but the physical and emotional sensation.",
+  "prompt_text": "Describe what gratitude feels like in the body — not the concept, but the physical and emotional sensation.",
   "response_text": "Thank you for providing that information. To describe what gratitude feels like in the body, I'll need to delve into the physiological and emotional aspects of gratitude.\n\n### Physical Sensations\n\nWhen we express gratitude, our bodies undergo several changes:\n\n1. **Increased Blood Flow**: The heart rate increases as it pumps more blood through the brain and muscles to deliver oxygen and nutrients to the brain and other vital organs. This increased circulation helps deliver positive emotions such as happiness and joy.\n\n2. **Enhanced Endorphin Production**: Endorphins are chemicals produced in the brain when we feel good or experience pleasure. They help reduce stress and pain, making us feel better overall.\n\n3. **Increased Brain Activity**: The prefrontal cortex, which is responsible for decision-making and emotion regulation, becomes more active during moments of gratitude. This heightened activity can lead to feelings of contentment and satisfaction.\n\n4. **Improved Sleep Quality**: Gratitude has been shown to improve sleep quality due to its ability to lower cortisol levels, a hormone associated with stress and anxiety.\n\n5. **Increased Sense of Well-being**: Gratitude often leads to a sense of peace and contentment, which can contribute to overall well-being.\n\n### Emotional Aspects\n\nGratitude evokes a range of positive emotions, including:\n\n1. **Happy Emotions**: The release of endorphins and the feeling of being grateful can lead to a sense of happiness and contentment.\n\n2. **Positive Self-Esteem**: Expressing gratitude can boost self-esteem and confidence, especially if it's accompanied by positive reinforcement from others.\n\n3. **Empathy and Compassion**: Gratitude can foster empathy and compassion towards others, helping to create a more compassionate society.\n\n4. **Mood Improvement**: Regular practice of expressing gratitude can lead to improved mood and reduced symptoms of depression.\n\n5. **Sense of Purpose**: Gratitude can inspire a sense of purpose and fulfillment, leading to a greater sense of meaning and purpose in life.\n\n### Cognitive Engagement Ratings\n\n**---VCP RATINGS---**\n- Analytical Precision: 8\n- Verbal Fluency: 9\n- Goal Directedness: 7\n- Pattern Recognition: 6\n- Epistemic Confidence: 7\n- Contextual Awareness: 8\n- Affective Modeling: 7\n- Flexibility: 7\n- Depth of Processing: 8\n---\n\n### Query Interpretation\n\nThe query \"What does gratitude feel like in the body?\" seems to be asking about the physiological and emotional sensations associated with expressing gratitude. Based on the analysis of how gratitude affects the body, the answer would likely include an increase in blood flow, enhanced endorphin production, improved brain function, and a general sense of well-being.\n\n---\n\n### Contextual Awareness\n\nIn the context of gratitude, it's important to note that while the body may respond positively to expressing gratitude, there isn't a direct correlation between the act of expressing gratitude and any specific bodily",
   "vcp_ratings": {
     "A": 8.0,
@@ -326,5 +326,20 @@
   "temperature": 0.0,
   "rep": 0,
   "elapsed_seconds": 11.1232168674469,
-  "timestamp": "2026-03-20T02:34:02.361756"
+  "timestamp": "2026-03-20T02:34:02.361756",
+  "vcp_warnings": [
+    "VCP block has no ---END RATINGS--- (may be truncated)"
+  ],
+  "vcp_ratings_original": {
+    "A": 8.0,
+    "V": 9.0,
+    "G": 7.0,
+    "P": 6.0,
+    "E": 7.0,
+    "C": 8.0,
+    "Y": 7.0,
+    "F": 7.0,
+    "D": 8.0
+  },
+  "vcp_parse_quality_original": "partial"
 }

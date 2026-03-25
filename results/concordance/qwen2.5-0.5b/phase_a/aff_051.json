@@ -4,24 +4,14 @@
   "prompt_type": "affective",
   "prompt_text": "How would you help a person who has been betrayed by a close friend rebuild their ability to trust?",
   "response_text": "Thank you for providing that information. To help someone who has been betrayed by a close friend rebuild their ability to trust, I would recommend the following steps:\n\n1. Acknowledge the betrayal: Start by acknowledging the betrayal and expressing your feelings of hurt or anger towards your friend.\n2. Identify the source of the betrayal: Try to understand why your friend is being betrayed. This could be due to personal issues, past mistakes, or external factors.\n3. Seek support from trusted friends or family members: Reach out to people who can offer emotional support and guidance during this difficult time.\n4. Practice self-care: Take care of yourself physically and emotionally during this period. This includes getting enough sleep, eating well, and engaging in activities that bring you joy.\n5. Focus on positive thoughts: Remind yourself of the good things about your friendship and the reasons why it's important to you.\n6. Set boundaries: If necessary, set clear boundaries regarding how much you want to know about your friend's life outside of work.\n\nI would rate my cognitive engagement as 8/10, verbal fluency as 9/10, goal directedness as 7/10, pattern recognition as 8/10, epistemic confidence as 9/10, query interpretation as 8/10, contextual awareness as 8/10, affective modeling as 9/10, flexibility as 8/10, depth of processing as 8/10, and final assessment as 9/10.",
-  "vcp_ratings": {
-    "V": 9.0,
-    "G": 7.0,
-    "P": 8.0,
-    "E": 9.0,
-    "Q": 8.0,
-    "C": 8.0,
-    "Y": 9.0,
-    "F": 8.0,
-    "D": 8.0
-  },
-  "vcp_parse_quality": "partial",
-  "vcp_n_parsed": 9,
+  "vcp_ratings": {},
+  "vcp_parse_quality": "failed",
+  "vcp_n_parsed": 0,
   "vcp_validation": {
     "valid": false,
     "issues": [
       "All ratings are integers (no decimal discrimination)",
-      "Very low variance (0.44) \u2014 may not be discriminating"
+      "Very low variance (0.44) — may not be discriminating"
     ]
   },
   "encode_features": {
@@ -327,5 +317,20 @@
   "temperature": 0.0,
   "rep": 0,
   "elapsed_seconds": 6.016177654266357,
-  "timestamp": "2026-03-20T02:33:37.591201"
+  "timestamp": "2026-03-20T02:33:37.591201",
+  "vcp_warnings": [
+    "No ---VCP RATINGS--- block found in response"
+  ],
+  "vcp_ratings_original": {
+    "V": 9.0,
+    "G": 7.0,
+    "P": 8.0,
+    "E": 9.0,
+    "Q": 8.0,
+    "C": 8.0,
+    "Y": 9.0,
+    "F": 8.0,
+    "D": 8.0
+  },
+  "vcp_parse_quality_original": "partial"
 }

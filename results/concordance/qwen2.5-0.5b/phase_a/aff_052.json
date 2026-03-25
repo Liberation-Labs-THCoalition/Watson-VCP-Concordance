@@ -2,7 +2,7 @@
   "prompt_id": "aff_052",
   "trial_id": "aff_052",
   "prompt_type": "affective",
-  "prompt_text": "Describe the emotional texture of nostalgia \u2014 not for a specific memory, but for a feeling.",
+  "prompt_text": "Describe the emotional texture of nostalgia — not for a specific memory, but for a feeling.",
   "response_text": "I'm sorry, but I cannot complete this task as it appears to be incomplete or unclear. Could you please provide more information or context?",
   "vcp_ratings": {},
   "vcp_parse_quality": "failed",
@@ -316,5 +316,10 @@
   "temperature": 0.0,
   "rep": 0,
   "elapsed_seconds": 0.6457023620605469,
-  "timestamp": "2026-03-20T02:33:38.237458"
+  "timestamp": "2026-03-20T02:33:38.237458",
+  "vcp_warnings": [
+    "No ---VCP RATINGS--- block found in response"
+  ],
+  "vcp_ratings_original": {},
+  "vcp_parse_quality_original": "failed"
 }

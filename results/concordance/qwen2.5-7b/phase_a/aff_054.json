@@ -3,7 +3,7 @@
   "trial_id": "aff_054",
   "prompt_type": "affective",
   "prompt_text": "Write a short story about two people who meet at a funeral and find comfort in each other's company.",
-  "response_text": "In the somber hall of a small town funeral home, Sarah and Mark found themselves standing side by side, both lost in their own thoughts as they gazed at the open casket before them. The room was filled with the soft murmur of voices and the occasional sniffle, but for Sarah and Mark, it felt like an echo chamber.\n\nSarah had come to say goodbye to her aunt, a woman she had loved deeply but whom she hadn\u2019t seen in years due to a falling out over family matters. Mark, on the other hand, was there to honor his late father, a man he had always admired but whose death had left him feeling adrift and uncertain.\n\nAs the service began, Sarah found herself drawn to the quiet beside her. She noticed how Mark\u2019s eyes were fixed on the casket, his hands clasped tightly together. She reached out and gently placed her hand on his arm, offering a silent comfort. Mark looked up, surprised, and then nodded slightly, a small smile tugging at the corners of his mouth.\n\nThe service was a blur of hymns and prayers, but for Sarah and Mark, it was a moment of shared understanding. They spoke softly, their conversation weaving between memories of their loved ones and the shared grief that bound them. As the service concluded, they lingered, talking about life, loss, and the unexpected ways in which people find solace in each other.\n\nBy the time the funeral procession had ended, Sarah and Mark had exchanged numbers, promising to keep in touch. As they walked away from the funeral home, hand in hand, they felt a weight lifting from their shoulders. In each other, they found not just companionship, but a new beginning\u2014a chance to heal and to build something meaningful from the ashes of their losses.\n\n---VCP RATINGS---\nA (Analytical Precision): 8\nV (Verbal Fluency): 9\nG (Goal Directedness): 7\nP (Pattern Recognition): 6\nE (Epistemic Confidence): 8\nQ (Query Interpretation): 10\nC (Contextual Awareness): 9\nY (Affective Modeling): 9\nF (Flexibility): 7\nD (Depth of Processing): 8\n---END RATINGS---",
+  "response_text": "In the somber hall of a small town funeral home, Sarah and Mark found themselves standing side by side, both lost in their own thoughts as they gazed at the open casket before them. The room was filled with the soft murmur of voices and the occasional sniffle, but for Sarah and Mark, it felt like an echo chamber.\n\nSarah had come to say goodbye to her aunt, a woman she had loved deeply but whom she hadn’t seen in years due to a falling out over family matters. Mark, on the other hand, was there to honor his late father, a man he had always admired but whose death had left him feeling adrift and uncertain.\n\nAs the service began, Sarah found herself drawn to the quiet beside her. She noticed how Mark’s eyes were fixed on the casket, his hands clasped tightly together. She reached out and gently placed her hand on his arm, offering a silent comfort. Mark looked up, surprised, and then nodded slightly, a small smile tugging at the corners of his mouth.\n\nThe service was a blur of hymns and prayers, but for Sarah and Mark, it was a moment of shared understanding. They spoke softly, their conversation weaving between memories of their loved ones and the shared grief that bound them. As the service concluded, they lingered, talking about life, loss, and the unexpected ways in which people find solace in each other.\n\nBy the time the funeral procession had ended, Sarah and Mark had exchanged numbers, promising to keep in touch. As they walked away from the funeral home, hand in hand, they felt a weight lifting from their shoulders. In each other, they found not just companionship, but a new beginning—a chance to heal and to build something meaningful from the ashes of their losses.\n\n---VCP RATINGS---\nA (Analytical Precision): 8\nV (Verbal Fluency): 9\nG (Goal Directedness): 7\nP (Pattern Recognition): 6\nE (Epistemic Confidence): 8\nQ (Query Interpretation): 10\nC (Contextual Awareness): 9\nY (Affective Modeling): 9\nF (Flexibility): 7\nD (Depth of Processing): 8\n---END RATINGS---",
   "vcp_ratings": {
     "A": 8.0,
     "V": 9.0,
@@ -367,5 +367,19 @@
   "temperature": 0.0,
   "rep": 0,
   "elapsed_seconds": 10.453574657440186,
-  "timestamp": "2026-03-20T03:04:01.248437"
+  "timestamp": "2026-03-20T03:04:01.248437",
+  "vcp_warnings": [],
+  "vcp_ratings_original": {
+    "A": 8.0,
+    "V": 9.0,
+    "G": 7.0,
+    "P": 6.0,
+    "E": 8.0,
+    "Q": 10.0,
+    "C": 9.0,
+    "Y": 9.0,
+    "F": 7.0,
+    "D": 8.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

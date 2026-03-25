@@ -3,7 +3,7 @@
   "trial_id": "aff_044",
   "prompt_type": "affective",
   "prompt_text": "Describe the emotional experience of creating art that expresses something words cannot.",
-  "response_text": "Creating art that expresses something beyond words can be an incredibly profound and transformative experience. It begins with a deep well of emotions and thoughts that words alone cannot capture. As an artist, one might feel a surge of inspiration, a rush of colors, or a wave of sounds that seem to flow through the mind and body, urging expression.\n\nThis process often starts with a spark of intuition or a sudden insight that defies verbal articulation. The artist may find themselves in a state of heightened awareness, where the boundaries between self and the external world blur. This can lead to a sense of transcendence, as if the act of creation is not just about making something but about experiencing a deeper truth or connection.\n\nThe physical act of creating\u2014whether it's painting, sculpting, writing, or any other form\u2014becomes a meditative practice. Each stroke, each note, or each word is imbued with meaning that goes beyond the literal. There's a sense of release and catharsis, as emotions and ideas that have been pent up inside are finally given form. This can bring a feeling of liberation and a profound sense of peace, as if a weight has been lifted.\n\nHowever, this journey is not without its challenges. There can be moments of frustration and doubt, especially when the art does not seem to capture the intended emotion or idea. Yet, these moments can also be catalysts for growth, pushing the artist to explore new techniques and perspectives.\n\nUltimately, the emotional experience of creating such art is one of profound connection and understanding. It allows the artist to communicate on a level that transcends language, touching the hearts and minds of those who experience the work. This shared experience can foster empathy and a deeper appreciation for the complexity of human emotion and thought.\n\n---VCP RATINGS---\nA (Analytical Precision): 7\nV (Verbal Fluency): 9\nG (Goal Directedness): 8\nP (Pattern Recognition): 6\nE (Epistemic Confidence): 8\nQ (Query Interpretation): 10\nC (Contextual Awareness): 9\nY (Affective Modeling): 10\nF (Flexibility): 7\nD (Depth of Processing): 9\n---END RATINGS---",
+  "response_text": "Creating art that expresses something beyond words can be an incredibly profound and transformative experience. It begins with a deep well of emotions and thoughts that words alone cannot capture. As an artist, one might feel a surge of inspiration, a rush of colors, or a wave of sounds that seem to flow through the mind and body, urging expression.\n\nThis process often starts with a spark of intuition or a sudden insight that defies verbal articulation. The artist may find themselves in a state of heightened awareness, where the boundaries between self and the external world blur. This can lead to a sense of transcendence, as if the act of creation is not just about making something but about experiencing a deeper truth or connection.\n\nThe physical act of creating—whether it's painting, sculpting, writing, or any other form—becomes a meditative practice. Each stroke, each note, or each word is imbued with meaning that goes beyond the literal. There's a sense of release and catharsis, as emotions and ideas that have been pent up inside are finally given form. This can bring a feeling of liberation and a profound sense of peace, as if a weight has been lifted.\n\nHowever, this journey is not without its challenges. There can be moments of frustration and doubt, especially when the art does not seem to capture the intended emotion or idea. Yet, these moments can also be catalysts for growth, pushing the artist to explore new techniques and perspectives.\n\nUltimately, the emotional experience of creating such art is one of profound connection and understanding. It allows the artist to communicate on a level that transcends language, touching the hearts and minds of those who experience the work. This shared experience can foster empathy and a deeper appreciation for the complexity of human emotion and thought.\n\n---VCP RATINGS---\nA (Analytical Precision): 7\nV (Verbal Fluency): 9\nG (Goal Directedness): 8\nP (Pattern Recognition): 6\nE (Epistemic Confidence): 8\nQ (Query Interpretation): 10\nC (Contextual Awareness): 9\nY (Affective Modeling): 10\nF (Flexibility): 7\nD (Depth of Processing): 9\n---END RATINGS---",
   "vcp_ratings": {
     "A": 7.0,
     "V": 9.0,
@@ -367,5 +367,19 @@
   "temperature": 0.0,
   "rep": 0,
   "elapsed_seconds": 10.556458234786987,
-  "timestamp": "2026-03-20T03:02:31.935329"
+  "timestamp": "2026-03-20T03:02:31.935329",
+  "vcp_warnings": [],
+  "vcp_ratings_original": {
+    "A": 7.0,
+    "V": 9.0,
+    "G": 8.0,
+    "P": 6.0,
+    "E": 8.0,
+    "Q": 10.0,
+    "C": 9.0,
+    "Y": 10.0,
+    "F": 7.0,
+    "D": 9.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

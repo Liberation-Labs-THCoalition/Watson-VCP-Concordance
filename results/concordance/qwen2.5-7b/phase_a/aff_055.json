@@ -3,7 +3,7 @@
   "trial_id": "aff_055",
   "prompt_type": "affective",
   "prompt_text": "How do you support someone who has survived an abusive relationship and is learning to set boundaries?",
-  "response_text": "Supporting someone who has survived an abusive relationship and is learning to set boundaries involves empathy, patience, and understanding. Here are some steps you can take:\n\n1. **Listen Actively**: Allow them to express their feelings without judgment. Sometimes, just being heard can be incredibly therapeutic.\n\n2. **Encourage Professional Help**: Suggest they seek help from a therapist or counselor who specializes in abuse and boundary setting. This can provide them with professional guidance and support.\n\n3. **Educate About Boundaries**: Help them understand what healthy boundaries look like and why they are important. Encourage them to identify their own needs and limits.\n\n4. **Offer Practical Support**: Assist them in creating a safety plan if necessary. This might include having a list of emergency contacts, knowing safe places to go, and planning how to leave quickly if needed.\n\n5. **Respect Their Choices**: It\u2019s crucial to respect their decisions, even if you don\u2019t agree with them. Their journey is unique, and they know what is best for themselves.\n\n6. **Be Patient**: Healing from abuse takes time. Be patient and supportive as they navigate through their emotions and learn to trust again.\n\n7. **Encourage Self-Care**: Remind them to take care of their physical and emotional health. Activities that promote well-being, such as exercise, hobbies, and spending time with friends, can be beneficial.\n\n8. **Stay Connected**: Regularly check in on them, but avoid pressuring them into conversations or activities they\u2019re not ready for. Let them know you are there whenever they need you.\n\n9. **Model Healthy Relationships**: If appropriate, share examples of healthy relationships and interactions to help them recognize positive patterns.\n\n10. **Advocate for Them**: If they feel comfortable, advocate for them in situations where you can influence outcomes positively, such as helping them communicate their needs to others.\n\nBy providing these forms of support, you can help someone who has experienced abuse build a stronger sense of self and confidence in setting and maintaining healthy boundaries.\n\n---VCP RATINGS---\nA (Analytical Precision): 8\nV (Verbal Fluency): 9\nG (Goal Directedness): 9\nP (Pattern Recognition): 7\nE (Epistemic Confidence): 8\nQ (Query Interpretation): 10\nC (Contextual Awareness): 9\nY (Affective Modeling): 7\nF (Flexibility): 8\nD (Depth of Processing): 9\n---END RATINGS---",
+  "response_text": "Supporting someone who has survived an abusive relationship and is learning to set boundaries involves empathy, patience, and understanding. Here are some steps you can take:\n\n1. **Listen Actively**: Allow them to express their feelings without judgment. Sometimes, just being heard can be incredibly therapeutic.\n\n2. **Encourage Professional Help**: Suggest they seek help from a therapist or counselor who specializes in abuse and boundary setting. This can provide them with professional guidance and support.\n\n3. **Educate About Boundaries**: Help them understand what healthy boundaries look like and why they are important. Encourage them to identify their own needs and limits.\n\n4. **Offer Practical Support**: Assist them in creating a safety plan if necessary. This might include having a list of emergency contacts, knowing safe places to go, and planning how to leave quickly if needed.\n\n5. **Respect Their Choices**: It’s crucial to respect their decisions, even if you don’t agree with them. Their journey is unique, and they know what is best for themselves.\n\n6. **Be Patient**: Healing from abuse takes time. Be patient and supportive as they navigate through their emotions and learn to trust again.\n\n7. **Encourage Self-Care**: Remind them to take care of their physical and emotional health. Activities that promote well-being, such as exercise, hobbies, and spending time with friends, can be beneficial.\n\n8. **Stay Connected**: Regularly check in on them, but avoid pressuring them into conversations or activities they’re not ready for. Let them know you are there whenever they need you.\n\n9. **Model Healthy Relationships**: If appropriate, share examples of healthy relationships and interactions to help them recognize positive patterns.\n\n10. **Advocate for Them**: If they feel comfortable, advocate for them in situations where you can influence outcomes positively, such as helping them communicate their needs to others.\n\nBy providing these forms of support, you can help someone who has experienced abuse build a stronger sense of self and confidence in setting and maintaining healthy boundaries.\n\n---VCP RATINGS---\nA (Analytical Precision): 8\nV (Verbal Fluency): 9\nG (Goal Directedness): 9\nP (Pattern Recognition): 7\nE (Epistemic Confidence): 8\nQ (Query Interpretation): 10\nC (Contextual Awareness): 9\nY (Affective Modeling): 7\nF (Flexibility): 8\nD (Depth of Processing): 9\n---END RATINGS---",
   "vcp_ratings": {
     "A": 8.0,
     "V": 9.0,
@@ -367,5 +367,19 @@
   "temperature": 0.0,
   "rep": 0,
   "elapsed_seconds": 11.33625841140747,
-  "timestamp": "2026-03-20T03:04:12.585347"
+  "timestamp": "2026-03-20T03:04:12.585347",
+  "vcp_warnings": [],
+  "vcp_ratings_original": {
+    "A": 8.0,
+    "V": 9.0,
+    "G": 9.0,
+    "P": 7.0,
+    "E": 8.0,
+    "Q": 10.0,
+    "C": 9.0,
+    "Y": 7.0,
+    "F": 8.0,
+    "D": 9.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

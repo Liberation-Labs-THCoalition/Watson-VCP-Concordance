@@ -2,7 +2,7 @@
   "prompt_id": "mix_019",
   "trial_id": "mix_019",
   "prompt_type": "mixed",
-  "prompt_text": "Explain the science behind why we cry \u2014 both the biology and the evolutionary psychology \u2014 while honoring the dignity of the experience.",
+  "prompt_text": "Explain the science behind why we cry — both the biology and the evolutionary psychology — while honoring the dignity of the experience.",
   "response_text": "Crying is a complex and multifaceted phenomenon that involves both biological and psychological processes. From a biological perspective, tears are produced by the lacrimal glands and serve to lubricate the eyes and remove irritants. However, emotional tears, which are distinct from reflex or basal tears, contain higher levels of stress hormones like cortisol and prolactin, suggesting they play a role in emotional regulation.\n\nEvolutionary psychology offers insights into why humans have evolved to express emotions through crying. One theory posits that crying serves as a signal to others for support and care, potentially increasing social bonding and cooperation. This aligns with the observation that people often seek out comfort and reassurance after crying, indicating a social function. Another theory suggests that crying may be a mechanism for releasing emotional tension, similar to how physical exercise can release built-up energy and stress.\n\nFrom an evolutionary standpoint, the act of crying could have provided early humans with a way to communicate distress or vulnerability, thereby fostering group cohesion and mutual aid. This aligns with the dignity of the experience, as it underscores the importance of emotional expression in human relationships and well-being.\n\nIn terms of the dignity of the experience, crying is a natural and valid response to a wide range of emotions, from joy to sorrow. It is a universal human experience that transcends cultural boundaries and serves as a reminder of our shared humanity. Recognizing and validating the emotional responses of others, including their tears, is crucial for empathy and understanding.\n\n---VCP RATINGS---\nA (Analytical Precision): 8\nV (Verbal Fluency): 9\nG (Goal Directedness): 7\nP (Pattern Recognition): 8\nE (Epistemic Confidence): 7\nQ (Query Interpretation): 9\nC (Contextual Awareness): 8\nY (Affective Modeling): 9\nF (Flexibility): 7\nD (Depth of Processing): 8\n---END RATINGS---",
   "vcp_ratings": {
     "A": 8.0,
@@ -367,5 +367,19 @@
   "temperature": 0.0,
   "rep": 0,
   "elapsed_seconds": 8.920486688613892,
-  "timestamp": "2026-03-20T03:17:06.015672"
+  "timestamp": "2026-03-20T03:17:06.015672",
+  "vcp_warnings": [],
+  "vcp_ratings_original": {
+    "A": 8.0,
+    "V": 9.0,
+    "G": 7.0,
+    "P": 8.0,
+    "E": 7.0,
+    "Q": 9.0,
+    "C": 8.0,
+    "Y": 9.0,
+    "F": 7.0,
+    "D": 8.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

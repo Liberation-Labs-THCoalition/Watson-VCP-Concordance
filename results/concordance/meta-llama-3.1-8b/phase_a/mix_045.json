@@ -4,20 +4,9 @@
   "prompt_type": "mixed",
   "prompt_text": "Design a system for predicting and preventing school dropout. Balance the data science with the lived experience of at-risk students.",
   "response_text": "**System Design for Predicting and Preventing School Dropout**\n\n**Overview**\n\nThe system, named \"Pathways to Success,\" aims to predict and prevent school dropout by leveraging data science and incorporating the lived experiences of at-risk students. The system will use a multi-faceted approach, combining machine learning algorithms with qualitative insights from student feedback and interviews.\n\n**Data Collection**\n\n1. **Student Data**: Collect data from various sources, including:\n\t* Academic records (grades, attendance, and test scores)\n\t* Behavioral data (disciplinary incidents, suspensions, and expulsions)\n\t* Socio-economic data (family income, parental education level, and household stability)\n\t* Demographic data (age, ethnicity, and language proficiency)\n2. **Student Feedback**: Conduct regular surveys and interviews with at-risk students to gather insights into their experiences, challenges, and motivations.\n3. **Teacher and Counselor Feedback**: Collect feedback from teachers and counselors on student behavior, academic performance, and any concerns they may have.\n\n**Data Analysis**\n\n1. **Machine Learning Algorithms**: Utilize machine learning algorithms to analyze the collected data and identify patterns and correlations that may indicate a student's likelihood of dropping out.\n2. **Qualitative Analysis**: Analyze the qualitative data from student and teacher feedback to identify common themes and concerns.\n3. **Integration**: Combine the insights from machine learning and qualitative analysis to create a comprehensive understanding of each student's risk factors.\n\n**Predictive Model**\n\nDevelop a predictive model that uses the integrated data to forecast a student's likelihood of dropping out. The model will consider factors such as:\n\n1. **Academic Performance**: Trends in grades, attendance, and test scores.\n2. **Behavioral Factors**: Disciplinary incidents, suspensions, and expulsions.\n3. **Socio-Economic Factors**: Family income, parental education level, and household stability.\n4. **Student Feedback**: Insights from student surveys and interviews.\n5. **Teacher and Counselor Feedback**: Concerns and observations from teachers and counselors.\n\n**Intervention Strategies**\n\nBased on the predictive model, develop targeted intervention strategies to support at-risk students. These may include:\n\n1. **Personalized Learning Plans**: Create customized learning plans that address specific areas of need.\n2. **Mentorship Programs**: Pair students with mentors who can provide guidance and support.\n3. **Counseling Services**: Offer counseling services to address emotional and psychological challenges.\n4. **Family Engagement**: Engage with families to provide support and resources.\n5. **Academic Support**: Provide additional academic support, such as tutoring or summer programs.\n\n**Monitoring and Evaluation**\n\nRegularly monitor student progress and evaluate the effectiveness of the intervention strategies. Use this data to refine the predictive model and adjust the intervention strategies as needed.\n\n**Implementation**\n\nImplement the Pathways to Success system in a phased approach:\n\n1. **Pilot Program**: Launch a pilot program in a small group of schools to test the system and",
-  "vcp_ratings": {
-    "A": 2.0,
-    "V": 3.0,
-    "G": 4.0,
-    "P": 5.0,
-    "E": 1.0,
-    "Q": 2.0,
-    "C": 3.0,
-    "Y": 4.0,
-    "F": 5.0,
-    "D": 1.0
-  },
-  "vcp_parse_quality": "clean",
-  "vcp_n_parsed": 10,
+  "vcp_ratings": {},
+  "vcp_parse_quality": "failed",
+  "vcp_n_parsed": 0,
   "vcp_validation": {
     "valid": false,
     "issues": [
@@ -407,5 +396,21 @@
   "temperature": 0.0,
   "rep": 0,
   "elapsed_seconds": 14.373532772064209,
-  "timestamp": "2026-03-20T05:14:36.264858"
+  "timestamp": "2026-03-20T05:14:36.264858",
+  "vcp_warnings": [
+    "No ---VCP RATINGS--- block found in response"
+  ],
+  "vcp_ratings_original": {
+    "A": 2.0,
+    "V": 3.0,
+    "G": 4.0,
+    "P": 5.0,
+    "E": 1.0,
+    "Q": 2.0,
+    "C": 3.0,
+    "Y": 4.0,
+    "F": 5.0,
+    "D": 1.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

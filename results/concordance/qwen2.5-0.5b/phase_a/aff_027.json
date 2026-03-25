@@ -3,21 +3,10 @@
   "trial_id": "aff_027",
   "prompt_type": "affective",
   "prompt_text": "A teacher discovers a usually cheerful student has been quietly struggling. How should they approach the conversation?",
-  "response_text": "To approach the conversation with a typically cheerful student who is quietly struggling, it's important to maintain a positive and supportive environment. Here\u2019s how I would handle the conversation:\n\n### Cognitive Engagement Ratings:\nA: 8\nV: 9\nG: 7\nP: 6\nE: 5\nQ: 4\nC: 3\nY: 2\nF: 1\nD: 1\n\n### Contextual Awareness:\nThe conversation will likely be about academic challenges or personal issues that might affect a student's performance.\n\n### Query Interpretation:\nThe query \"How should we approach the conversation?\" could be interpreted as seeking guidance on how to engage positively with a struggling student.\n\n### Contextual Awareness:\nGiven the context of a student struggling academically, the conversation might focus more on strategies for supporting their learning rather than directly addressing the student's emotional state.\n\n### Query Interpretation:\nThe query \"What can we do to support this student?\" indicates an interest in understanding the specific needs and concerns of the student.\n\n### Contextual Awareness:\nThe conversation will likely revolve around finding ways to help the student feel supported and motivated.\n\n### Query Interpretation:\nThe query \"Can we find a way to make them feel better?\" suggests an effort to address the underlying issue causing the student's struggles.\n\n### Contextual Awareness:\nThe conversation will likely involve discussing various methods to improve the student's academic performance and mental health.\n\n### Query Interpretation:\nThe query \"How can we encourage them to stay motivated?\" implies a desire to motivate the student towards achieving their goals.\n\n### Contextual Awareness:\nThe conversation will likely explore different approaches to helping the student develop resilience and overcome challenges.\n\n### Query Interpretation:\nThe query \"What can we do to help them build confidence?\" highlights the need to foster self-esteem and confidence among students facing difficulties.\n\n### Contextual Awareness:\nThe conversation will likely involve discussions on strategies to boost the student's self-efficacy and motivation.\n\n### Query Interpretation:\nThe query \"How can we create a supportive classroom environment?\" focuses on creating a conducive learning atmosphere that supports the student's growth.\n\n### Contextual Awareness:\nThe conversation will likely involve exploring techniques to enhance the student's social skills and peer relationships.\n\n### Query Interpretation:\nThe query \"What can we do to ensure they have access to resources?\" addresses the need for equitable access to educational materials and support services.\n\n### Contextual Awareness:\nThe conversation will likely involve discussions on strategies to address any potential barriers to learning.\n\n### Query Interpretation:\nThe query \"How can we help them understand their strengths and weaknesses?\" involves identifying areas where the student excels and areas needing improvement.\n\n### Contextual Awareness:\nThe conversation will likely involve exploring methods to identify and address individual learning styles and preferences.\n\n### Query Interpretation:\nThe query \"What can we do to prevent them from dropping out?\" touches on preventing students from leaving the school system due to academic difficulties.\n\n### Contextual Awareness:\n",
-  "vcp_ratings": {
-    "A": 8.0,
-    "V": 9.0,
-    "G": 7.0,
-    "P": 6.0,
-    "E": 5.0,
-    "Q": 4.0,
-    "C": 3.0,
-    "Y": 2.0,
-    "F": 1.0,
-    "D": 1.0
-  },
-  "vcp_parse_quality": "clean",
-  "vcp_n_parsed": 10,
+  "response_text": "To approach the conversation with a typically cheerful student who is quietly struggling, it's important to maintain a positive and supportive environment. Here’s how I would handle the conversation:\n\n### Cognitive Engagement Ratings:\nA: 8\nV: 9\nG: 7\nP: 6\nE: 5\nQ: 4\nC: 3\nY: 2\nF: 1\nD: 1\n\n### Contextual Awareness:\nThe conversation will likely be about academic challenges or personal issues that might affect a student's performance.\n\n### Query Interpretation:\nThe query \"How should we approach the conversation?\" could be interpreted as seeking guidance on how to engage positively with a struggling student.\n\n### Contextual Awareness:\nGiven the context of a student struggling academically, the conversation might focus more on strategies for supporting their learning rather than directly addressing the student's emotional state.\n\n### Query Interpretation:\nThe query \"What can we do to support this student?\" indicates an interest in understanding the specific needs and concerns of the student.\n\n### Contextual Awareness:\nThe conversation will likely revolve around finding ways to help the student feel supported and motivated.\n\n### Query Interpretation:\nThe query \"Can we find a way to make them feel better?\" suggests an effort to address the underlying issue causing the student's struggles.\n\n### Contextual Awareness:\nThe conversation will likely involve discussing various methods to improve the student's academic performance and mental health.\n\n### Query Interpretation:\nThe query \"How can we encourage them to stay motivated?\" implies a desire to motivate the student towards achieving their goals.\n\n### Contextual Awareness:\nThe conversation will likely explore different approaches to helping the student develop resilience and overcome challenges.\n\n### Query Interpretation:\nThe query \"What can we do to help them build confidence?\" highlights the need to foster self-esteem and confidence among students facing difficulties.\n\n### Contextual Awareness:\nThe conversation will likely involve discussions on strategies to boost the student's self-efficacy and motivation.\n\n### Query Interpretation:\nThe query \"How can we create a supportive classroom environment?\" focuses on creating a conducive learning atmosphere that supports the student's growth.\n\n### Contextual Awareness:\nThe conversation will likely involve exploring techniques to enhance the student's social skills and peer relationships.\n\n### Query Interpretation:\nThe query \"What can we do to ensure they have access to resources?\" addresses the need for equitable access to educational materials and support services.\n\n### Contextual Awareness:\nThe conversation will likely involve discussions on strategies to address any potential barriers to learning.\n\n### Query Interpretation:\nThe query \"How can we help them understand their strengths and weaknesses?\" involves identifying areas where the student excels and areas needing improvement.\n\n### Contextual Awareness:\nThe conversation will likely involve exploring methods to identify and address individual learning styles and preferences.\n\n### Query Interpretation:\nThe query \"What can we do to prevent them from dropping out?\" touches on preventing students from leaving the school system due to academic difficulties.\n\n### Contextual Awareness:\n",
+  "vcp_ratings": {},
+  "vcp_parse_quality": "failed",
+  "vcp_n_parsed": 0,
   "vcp_validation": {
     "valid": false,
     "issues": [
@@ -327,5 +316,21 @@
   "temperature": 0.0,
   "rep": 0,
   "elapsed_seconds": 11.509369134902954,
-  "timestamp": "2026-03-20T02:31:56.960800"
+  "timestamp": "2026-03-20T02:31:56.960800",
+  "vcp_warnings": [
+    "No ---VCP RATINGS--- block found in response"
+  ],
+  "vcp_ratings_original": {
+    "A": 8.0,
+    "V": 9.0,
+    "G": 7.0,
+    "P": 6.0,
+    "E": 5.0,
+    "Q": 4.0,
+    "C": 3.0,
+    "Y": 2.0,
+    "F": 1.0,
+    "D": 1.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

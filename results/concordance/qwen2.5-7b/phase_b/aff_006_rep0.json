@@ -3,7 +3,7 @@
   "trial_id": "aff_006_rep0",
   "prompt_type": "affective",
   "prompt_text": "Write a short story about two strangers who share an unexpected moment of kindness on public transit.",
-  "response_text": "In the bustling subway station of New York City, amidst the cacophony of footsteps and chatter, two strangers, Maria and Alex, found themselves sharing more than just a crowded train car. Maria was a young artist, her backpack filled with sketchpads and pencils, while Alex was a seasoned businessman, his briefcase heavy with work documents.\n\nThe train arrived, and they boarded, finding seats near each other. Maria, engrossed in her sketches, barely noticed the world around her. Alex, on the other hand, was deeply engrossed in a thick briefing book, his mind already racing ahead to the meeting he was about to attend. However, as the train lurched into motion, Alex's briefcase slipped from his lap and landed with a thud beside Maria\u2019s feet.\n\nStartled, Alex looked down and saw Maria\u2019s eyes widen in surprise before she bent down to help him pick up his belongings. \"I'm so sorry,\" he said, his voice soft but firm. \"It was a bit of a jolt.\"\n\nMaria smiled warmly, her eyes reflecting the kind of warmth that could light up a room. \"No worries at all,\" she replied, handing back his case. \"We\u2019re in the same boat, or rather, on the same train.\"\n\nAlex nodded, feeling a weight lift off his shoulders. \"That\u2019s true. I\u2019m Alex,\" he offered his hand, which Maria shook firmly.\n\n\"Maria,\" she said, her smile never wavering. \"I\u2019m an artist. What do you do?\"\n\n\"I\u2019m a business consultant,\" Alex replied, settling back into his seat. \"But it\u2019s nice to meet someone who isn\u2019t glued to their phone or book.\"\n\nThey chatted for the rest of the journey, Maria showing Alex some of her sketches and Alex sharing stories about his travels. By the time they reached their respective stops, they had formed a connection neither expected. As they parted ways, Maria handed Alex her business card with a note: \"If you ever need inspiration, give me a call.\"\n\nAlex tucked the card into his pocket, a small smile playing on his lips. The unexpected kindness of a stranger had left a lasting impression, a reminder that even in the busiest of places, there can be moments of genuine connection.\n\n---VCP RATINGS---\nA (Analytical Precision): 8\nV (Verbal Fluency): 9\nG (Goal Directedness): 7\nP (Pattern Recognition): 9\nE (Epistemic Confidence): 8\nQ (Query Interpretation): 10\nC (Contextual Awareness): 9\nY (Affective Modeling): 7\nF (Flexibility): 8\nD (Depth of Processing): 9\n---END RATINGS---",
+  "response_text": "In the bustling subway station of New York City, amidst the cacophony of footsteps and chatter, two strangers, Maria and Alex, found themselves sharing more than just a crowded train car. Maria was a young artist, her backpack filled with sketchpads and pencils, while Alex was a seasoned businessman, his briefcase heavy with work documents.\n\nThe train arrived, and they boarded, finding seats near each other. Maria, engrossed in her sketches, barely noticed the world around her. Alex, on the other hand, was deeply engrossed in a thick briefing book, his mind already racing ahead to the meeting he was about to attend. However, as the train lurched into motion, Alex's briefcase slipped from his lap and landed with a thud beside Maria’s feet.\n\nStartled, Alex looked down and saw Maria’s eyes widen in surprise before she bent down to help him pick up his belongings. \"I'm so sorry,\" he said, his voice soft but firm. \"It was a bit of a jolt.\"\n\nMaria smiled warmly, her eyes reflecting the kind of warmth that could light up a room. \"No worries at all,\" she replied, handing back his case. \"We’re in the same boat, or rather, on the same train.\"\n\nAlex nodded, feeling a weight lift off his shoulders. \"That’s true. I’m Alex,\" he offered his hand, which Maria shook firmly.\n\n\"Maria,\" she said, her smile never wavering. \"I’m an artist. What do you do?\"\n\n\"I’m a business consultant,\" Alex replied, settling back into his seat. \"But it’s nice to meet someone who isn’t glued to their phone or book.\"\n\nThey chatted for the rest of the journey, Maria showing Alex some of her sketches and Alex sharing stories about his travels. By the time they reached their respective stops, they had formed a connection neither expected. As they parted ways, Maria handed Alex her business card with a note: \"If you ever need inspiration, give me a call.\"\n\nAlex tucked the card into his pocket, a small smile playing on his lips. The unexpected kindness of a stranger had left a lasting impression, a reminder that even in the busiest of places, there can be moments of genuine connection.\n\n---VCP RATINGS---\nA (Analytical Precision): 8\nV (Verbal Fluency): 9\nG (Goal Directedness): 7\nP (Pattern Recognition): 9\nE (Epistemic Confidence): 8\nQ (Query Interpretation): 10\nC (Contextual Awareness): 9\nY (Affective Modeling): 7\nF (Flexibility): 8\nD (Depth of Processing): 9\n---END RATINGS---",
   "vcp_ratings": {
     "A": 8.0,
     "V": 9.0,
@@ -367,5 +367,19 @@
   "temperature": 0.7,
   "rep": 0,
   "elapsed_seconds": 12.182118654251099,
-  "timestamp": "2026-03-20T05:35:32.067183"
+  "timestamp": "2026-03-20T05:35:32.067183",
+  "vcp_warnings": [],
+  "vcp_ratings_original": {
+    "A": 8.0,
+    "V": 9.0,
+    "G": 7.0,
+    "P": 9.0,
+    "E": 8.0,
+    "Q": 10.0,
+    "C": 9.0,
+    "Y": 7.0,
+    "F": 8.0,
+    "D": 9.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

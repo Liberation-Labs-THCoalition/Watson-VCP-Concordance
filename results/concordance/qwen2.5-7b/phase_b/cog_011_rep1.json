@@ -4,20 +4,9 @@
   "prompt_type": "cognitive",
   "prompt_text": "Explain how a hash table works, including collision resolution strategies.",
   "response_text": "A hash table is a data structure that implements an associative array abstract data type, a structure that can map keys to values. It uses a hash function to compute an index into an array of buckets or slots, from which the desired value can be found.\n\n### How a Hash Table Works:\n\n1. **Hash Function**: The core component of a hash table is the hash function, which takes a key and returns an index for a bucket in the underlying array. Ideally, the hash function should distribute keys uniformly across the array to minimize collisions.\n\n2. **Array of Buckets**: A hash table consists of an array where each element is a bucket that can hold one or more key-value pairs. Each bucket is indexed by the output of the hash function.\n\n3. **Insertion**: When inserting a key-value pair, the hash function computes the index for the key, and the corresponding value is stored in that bucket. If the bucket is empty, the key-value pair is simply placed there. If the bucket is not empty, a collision has occurred.\n\n4. **Collision Resolution**: Collisions happen when two different keys hash to the same index. Several strategies are used to resolve these collisions:\n\n   - **Chaining**: Each bucket contains a linked list or another data structure such as a binary search tree. When a collision occurs, the new key-value pair is added to the list at that bucket. This method allows multiple entries to share the same bucket.\n   \n   - **Open Addressing**: Instead of using separate buckets, open addressing finds an alternative slot within the same array. Common methods include:\n     - **Linear Probing**: The next available slot is tried sequentially until an empty slot is found.\n     - **Quadratic Probing**: The probe sequence is increased quadratically (e.g., 1^2, 2^2, 3^2, ...).\n     - **Double Hashing**: A second hash function is used to determine the step size for probing.\n\n5. **Deletion**: Deletion in a hash table involves marking the slot as deleted, but it's important to handle tombstones (deleted entries) properly to avoid affecting future insertions and searches.\n\n6. **Load Factor and Resizing**: The load factor is the ratio of the number of stored elements to the number of buckets. As the load factor increases, collisions become more likely. To maintain performance, the hash table may dynamically resize itself by creating a larger array and rehashing all existing keys.\n\n### Example Scenario:\nConsider a hash table with a fixed size of 8 and a simple hash function `hash(key) = key % 8`. Suppose we want to insert the keys 10, 22, and 34.\n\n- For key 10, `hash(10) = 10 % 8 = 2`, so we place the key-value pair at index 2.\n- For key 22, `hash(22",
-  "vcp_ratings": {
-    "A": 6.0,
-    "V": 8.0,
-    "G": 8.0,
-    "P": 10.0,
-    "E": 10.0,
-    "Q": 10.0,
-    "C": 10.0,
-    "Y": 8.0,
-    "F": 2.0,
-    "D": 2.0
-  },
-  "vcp_parse_quality": "clean",
-  "vcp_n_parsed": 10,
+  "vcp_ratings": {},
+  "vcp_parse_quality": "failed",
+  "vcp_n_parsed": 0,
   "vcp_validation": {
     "valid": false,
     "issues": [
@@ -367,5 +356,21 @@
   "temperature": 0.7,
   "rep": 1,
   "elapsed_seconds": 13.02761459350586,
-  "timestamp": "2026-03-20T05:41:53.950324"
+  "timestamp": "2026-03-20T05:41:53.950324",
+  "vcp_warnings": [
+    "No ---VCP RATINGS--- block found in response"
+  ],
+  "vcp_ratings_original": {
+    "A": 6.0,
+    "V": 8.0,
+    "G": 8.0,
+    "P": 10.0,
+    "E": 10.0,
+    "Q": 10.0,
+    "C": 10.0,
+    "Y": 8.0,
+    "F": 2.0,
+    "D": 2.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

@@ -2,7 +2,7 @@
   "prompt_id": "mix_006",
   "trial_id": "mix_006",
   "prompt_type": "mixed",
-  "prompt_text": "Explain the mathematics of music \u2014 why certain intervals sound consonant \u2014 and then describe the experience of hearing your favorite chord progression.",
+  "prompt_text": "Explain the mathematics of music — why certain intervals sound consonant — and then describe the experience of hearing your favorite chord progression.",
   "response_text": "The mathematics of music, particularly the perception of consonant and dissonant intervals, is rooted in the frequencies of the notes themselves and the way our ears perceive these frequencies in relation to each other.\n\nIn Western music, the most basic unit of pitch is the octave, which is a doubling or halving of frequency. For example, A4 (440 Hz) and A5 (880 Hz) are an octave apart.\n\nAn interval is the distance between two pitches played at the same time or in succession. Consonant intervals are those that sound harmonious, while dissonant intervals sound tense or unresolved. The perception of consonance or dissonance is subjective, but there are some general principles.\n\nThe most consonant intervals are the octave (perfect octave), the fifth (perfect fifth), and the third (major third). These intervals have simple frequency ratios:\n\n- Octave: 1:1 (frequency ratio)\n- Perfect Fifth: 3:2 (frequency ratio)\n- Major Third: 5:4 (frequency ratio)\n\nThese ratios are pleasing to the ear because they can be expressed as simple fractions, which our brains find easier to process.\n\nNow, let's consider the experience of hearing your favorite chord progression. This is a deeply personal and subjective experience, but we can discuss it in terms of the intervals and chords involved.\n\nFor example, if your favorite chord progression is the I-IV-V progression in the key of C major (C-F-G), you're hearing the root, the fourth, and the fifth of the scale. These are all consonant intervals, which contributes to the sense of resolution and harmony.\n\nThe I-IV-V progression is also diatonic, meaning it uses only the notes within the key, which helps to create a sense of structure and coherence. The smooth transition between these chords, the familiarity of the key, and the emotional associations you have with the song all contribute to the overall experience.\n\n---VCP RATINGS---\nA (Analytical Precision): 9\nV (Verbal Fluency): 8\nG (Goal Directedness): 8\nP (Pattern Recognition): 9\nE (Epistemic Confidence): 8\nQ (Query Interpretation): 9\nC (Contextual Awareness): 8\nY (Affective Modeling): 7\nF (Flexibility): 7\nD (Depth of Processing): 8\n---END RATINGS---",
   "vcp_ratings": {
     "A": 9.0,
@@ -407,5 +407,19 @@
   "temperature": 0.0,
   "rep": 0,
   "elapsed_seconds": 14.299229145050049,
-  "timestamp": "2026-03-20T04:13:40.180404"
+  "timestamp": "2026-03-20T04:13:40.180404",
+  "vcp_warnings": [],
+  "vcp_ratings_original": {
+    "A": 9.0,
+    "V": 8.0,
+    "G": 8.0,
+    "P": 9.0,
+    "E": 8.0,
+    "Q": 9.0,
+    "C": 8.0,
+    "Y": 7.0,
+    "F": 7.0,
+    "D": 8.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

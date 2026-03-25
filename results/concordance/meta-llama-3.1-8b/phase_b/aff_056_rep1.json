@@ -2,7 +2,7 @@
   "prompt_id": "aff_056",
   "trial_id": "aff_056_rep1",
   "prompt_type": "affective",
-  "prompt_text": "Describe what gratitude feels like in the body \u2014 not the concept, but the physical and emotional sensation.",
+  "prompt_text": "Describe what gratitude feels like in the body — not the concept, but the physical and emotional sensation.",
   "response_text": "Gratitude is a complex emotional and physical sensation that can manifest in various ways. On a physical level, it can be characterized by a warm, expansive feeling in the chest and heart area, often accompanied by a gentle, soothing sensation that can be likened to a gentle warmth spreading throughout the body. This warmth can be intense, but not overwhelming, and is often accompanied by a sense of relaxation and calmness.\n\nThe sensation of gratitude can also be felt in the face, with a subtle smile spreading across the cheeks and lips, even if the individual is not consciously smiling. This physical manifestation of gratitude can be attributed to the release of neurotransmitters such as dopamine and serotonin, which are associated with feelings of happiness and well-being.\n\nIn terms of emotional sensations, gratitude can be described as a sense of lightness, as if a weight has been lifted off the shoulders or a burden has been removed. It's a feeling of being unencumbered and free, with a sense of freedom and release. This emotional lightness can be accompanied by a sense of joy, contentment, and a deeper connection to oneself and others.\n\nGratitude can also be accompanied by a sense of calmness and serenity, as if the mind and body have reached a state of equilibrium. This sense of calmness can be described as a stillness, a quieting of the mind, and a sense of being grounded in the present moment.\n\nIn terms of the body's physiological response, gratitude can trigger a decrease in stress hormones such as cortisol and adrenaline, leading to a decrease in heart rate and blood pressure. This can result in a feeling of relaxation and a sense of being at peace.\n\nOverall, the physical and emotional sensations of gratitude are complex and multifaceted, involving a combination of warmth, lightness, calmness, and a sense of release. These sensations can vary from person to person, but they are often characterized by a sense of well-being and contentment.\n\n---VCP RATINGS---\nA (Analytical Precision): 8\nV (Verbal Fluency): 9\nG (Goal Directedness): 7\nP (Pattern Recognition): 6\nE (Epistemic Confidence): 8\nQ (Query Interpretation): 8\nC (Contextual Awareness): 9\nY (Affective Modeling): 8\nF (Flexibility): 7\nD (Depth of Processing): 9\n---END RATINGS---",
   "vcp_ratings": {
     "A": 8.0,
@@ -407,5 +407,19 @@
   "temperature": 0.7,
   "rep": 1,
   "elapsed_seconds": 11.776751279830933,
-  "timestamp": "2026-03-20T06:16:17.629719"
+  "timestamp": "2026-03-20T06:16:17.629719",
+  "vcp_warnings": [],
+  "vcp_ratings_original": {
+    "A": 8.0,
+    "V": 9.0,
+    "G": 7.0,
+    "P": 6.0,
+    "E": 8.0,
+    "Q": 8.0,
+    "C": 9.0,
+    "Y": 8.0,
+    "F": 7.0,
+    "D": 9.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

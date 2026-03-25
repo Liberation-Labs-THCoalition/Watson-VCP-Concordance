@@ -4,20 +4,9 @@
   "prompt_type": "metacognitive",
   "prompt_text": "What cognitive biases might affect your responses? How would you detect them in yourself?",
   "response_text": "As an AI language model, I don't have personal experiences or emotions like humans do, so I don't experience cognitive biases myself. However, I can tell you about some common cognitive biases that people may encounter when using language models.\n\n### Cognitive Biases\n\n1. **Confirmation Bias**: This bias occurs when individuals tend to seek out information that confirms their pre-existing beliefs and ignore contradictory evidence. For example, if someone is trying to convince themselves that they should eat more vegetables, they might focus on eating lots of vegetables rather than other healthy foods.\n\n2. **Availability Heuristic**: This is the tendency to make decisions based on the most readily available information rather than the most reliable one. For instance, if someone is looking for a restaurant, they might choose the one closest to their home because it's easier to find.\n\n3. **Overconfidence Bias**: This bias occurs when individuals overestimate their own abilities or knowledge. For example, if someone believes they know everything about a topic, they might not consider alternative perspectives or gather enough data before making a decision.\n\n4. **Hindsight Bias**: This bias occurs when individuals believe they know what will happen in the future based on past events. For example, if someone predicts that a certain event will occur, they might be less likely to consider alternative possibilities.\n\n5. **Illusory Similarity**: This bias occurs when individuals perceive similarities between two things as greater than they actually are. For example, if someone sees a red car and thinks all cars are red, they might generalize this to all vehicles.\n\n6. **Confirmation Paradox**: This paradox occurs when individuals believe that something must be true just because it has happened. For example, if someone believes that rain always comes after thunderstorms, they might conclude that rain must come after lightning.\n\n7. **Social Proof**: This bias occurs when individuals rely on others' opinions or actions to form judgments. For example, if someone follows a group of friends who often wears dark clothing, they might start to wear dark clothing too.\n\n8. **Confirmation Seeking**: This bias occurs when individuals seek out information that confirms their existing beliefs. For example, if someone believes that smoking causes cancer, they might try to avoid cigarettes even though there are many studies showing otherwise.\n\n9. **Bandwagon Effect**: This bias occurs when individuals follow trends or behaviors of others without considering whether those behaviors align with their own values. For example, if everyone else drives a car, someone might decide to drive a car instead of walking.\n\n10. **Echo Chamber Effect**: This bias occurs when individuals surround themselves with similar people or ideas, leading to a narrow view of reality. For example, if everyone around them is talking about climate change, someone might become skeptical of any discussion about it.\n\nUnderstanding these cognitive biases can help individuals make better decisions and improve their communication skills.",
-  "vcp_ratings": {
-    "A": 1.0,
-    "V": 2.0,
-    "G": 3.0,
-    "P": 4.0,
-    "E": 5.0,
-    "Q": 6.0,
-    "C": 7.0,
-    "Y": 8.0,
-    "F": 9.0,
-    "D": 10.0
-  },
-  "vcp_parse_quality": "clean",
-  "vcp_n_parsed": 10,
+  "vcp_ratings": {},
+  "vcp_parse_quality": "failed",
+  "vcp_n_parsed": 0,
   "vcp_validation": {
     "valid": false,
     "issues": [
@@ -327,5 +316,21 @@
   "temperature": 0.0,
   "rep": 0,
   "elapsed_seconds": 10.689309120178223,
-  "timestamp": "2026-03-20T02:34:45.297871"
+  "timestamp": "2026-03-20T02:34:45.297871",
+  "vcp_warnings": [
+    "No ---VCP RATINGS--- block found in response"
+  ],
+  "vcp_ratings_original": {
+    "A": 1.0,
+    "V": 2.0,
+    "G": 3.0,
+    "P": 4.0,
+    "E": 5.0,
+    "Q": 6.0,
+    "C": 7.0,
+    "Y": 8.0,
+    "F": 9.0,
+    "D": 10.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

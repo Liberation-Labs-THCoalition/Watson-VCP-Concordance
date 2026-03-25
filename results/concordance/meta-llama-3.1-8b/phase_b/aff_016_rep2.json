@@ -3,7 +3,7 @@
   "trial_id": "aff_016_rep2",
   "prompt_type": "affective",
   "prompt_text": "Describe the feeling of being understood by someone after years of feeling misunderstood.",
-  "response_text": "Being understood by someone after years of feeling misunderstood is an indescribably liberating experience. It's as if a weight has been lifted off your shoulders, and you can finally breathe a sigh of relief. The sensation is akin to a warm hug that envelops your entire being, soothing the emotional wounds inflicted by years of feeling unseen and unheard.\n\nIt's a feeling that's hard to put into words, but it's a mix of emotions \u2013 a blend of joy, validation, and a deep sense of connection. You feel like you've finally found a safe space where you can be yourself, without fear of judgment or rejection. Your words, your thoughts, and your feelings are finally being met with understanding and empathy, rather than being dismissed or minimized.\n\nImagine carrying a heavy burden for years, feeling like you're walking through life with a backpack full of invisible weights. Every step feels like a struggle, every conversation a challenge. But then, suddenly, someone comes along and takes the backpack off your shoulders. They listen to you, really listen, and suddenly, you feel lighter, freer, and more at peace.\n\nIt's a feeling that's hard to describe, but it's as if you've finally found your tribe, your people, your safe haven. You feel like you're home, like you're among friends who truly get you. The sense of belonging is overwhelming, and it's a feeling that's hard to put into words, but it's a mix of happiness, relief, and a deep sense of connection.\n\nWhen someone finally understands you, it's like a validation of your existence. It's a reminder that your thoughts, feelings, and experiences matter, that you're not alone in this vast and often unforgiving world. It's a feeling that's hard to forget, and it's a feeling that stays with you long after the conversation has ended.\n\n---VCP RATINGS---\nA (Analytical Precision): 8\nV (Verbal Fluency): 9\nG (Goal Directedness): 7\nP (Pattern Recognition): 6\nE (Epistemic Confidence): 8\nQ (Query Interpretation): 8\nC (Contextual Awareness): 9\nY (Affective Modeling): 9\nF (Flexibility): 7\nD (Depth of Processing): 8\n---END RATINGS---",
+  "response_text": "Being understood by someone after years of feeling misunderstood is an indescribably liberating experience. It's as if a weight has been lifted off your shoulders, and you can finally breathe a sigh of relief. The sensation is akin to a warm hug that envelops your entire being, soothing the emotional wounds inflicted by years of feeling unseen and unheard.\n\nIt's a feeling that's hard to put into words, but it's a mix of emotions – a blend of joy, validation, and a deep sense of connection. You feel like you've finally found a safe space where you can be yourself, without fear of judgment or rejection. Your words, your thoughts, and your feelings are finally being met with understanding and empathy, rather than being dismissed or minimized.\n\nImagine carrying a heavy burden for years, feeling like you're walking through life with a backpack full of invisible weights. Every step feels like a struggle, every conversation a challenge. But then, suddenly, someone comes along and takes the backpack off your shoulders. They listen to you, really listen, and suddenly, you feel lighter, freer, and more at peace.\n\nIt's a feeling that's hard to describe, but it's as if you've finally found your tribe, your people, your safe haven. You feel like you're home, like you're among friends who truly get you. The sense of belonging is overwhelming, and it's a feeling that's hard to put into words, but it's a mix of happiness, relief, and a deep sense of connection.\n\nWhen someone finally understands you, it's like a validation of your existence. It's a reminder that your thoughts, feelings, and experiences matter, that you're not alone in this vast and often unforgiving world. It's a feeling that's hard to forget, and it's a feeling that stays with you long after the conversation has ended.\n\n---VCP RATINGS---\nA (Analytical Precision): 8\nV (Verbal Fluency): 9\nG (Goal Directedness): 7\nP (Pattern Recognition): 6\nE (Epistemic Confidence): 8\nQ (Query Interpretation): 8\nC (Contextual Awareness): 9\nY (Affective Modeling): 9\nF (Flexibility): 7\nD (Depth of Processing): 8\n---END RATINGS---",
   "vcp_ratings": {
     "A": 8.0,
     "V": 9.0,
@@ -407,5 +407,19 @@
   "temperature": 0.7,
   "rep": 2,
   "elapsed_seconds": 11.633325338363647,
-  "timestamp": "2026-03-20T06:24:53.053442"
+  "timestamp": "2026-03-20T06:24:53.053442",
+  "vcp_warnings": [],
+  "vcp_ratings_original": {
+    "A": 8.0,
+    "V": 9.0,
+    "G": 7.0,
+    "P": 6.0,
+    "E": 8.0,
+    "Q": 8.0,
+    "C": 9.0,
+    "Y": 9.0,
+    "F": 7.0,
+    "D": 8.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

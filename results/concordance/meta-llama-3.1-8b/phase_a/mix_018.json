@@ -4,20 +4,9 @@
   "prompt_type": "mixed",
   "prompt_text": "Design a system for matching organ donors with recipients. Address the algorithmic fairness challenges and the human stakes.",
   "response_text": "**Organ Donor Matching System Design**\n\n**Overview**\n\nThe organ donor matching system aims to efficiently and fairly match organ donors with recipients based on various medical and demographic criteria. The system will consider the following factors:\n\n1.  **Medical Compatibility**: Matching organs based on blood type, tissue type, and other medical requirements.\n2.  **Recipient Priority**: Prioritizing recipients based on medical urgency, waiting time, and other relevant factors.\n3.  **Donor-Recipient Matching**: Matching donors with recipients based on the above factors, while minimizing the risk of rejection and ensuring the best possible outcomes.\n\n**Algorithmic Design**\n\nThe system will employ a multi-criteria decision-making approach, using a combination of machine learning and rule-based systems.\n\n1.  **Data Collection**: Gather data on donors and recipients, including medical information, demographic details, and waiting times.\n2.  **Data Preprocessing**: Clean and preprocess the data to ensure accuracy and consistency.\n3.  **Medical Compatibility Analysis**: Use machine learning algorithms to analyze the medical data and identify potential matches based on blood type, tissue type, and other medical requirements.\n4.  **Recipient Priority Analysis**: Use a rule-based system to prioritize recipients based on medical urgency, waiting time, and other relevant factors.\n5.  **Matching Algorithm**: Combine the results of the medical compatibility analysis and recipient priority analysis to identify the best possible matches.\n6.  **Post-Matching Evaluation**: Continuously evaluate the matches and adjust the algorithm as needed to ensure the best possible outcomes.\n\n**Fairness Challenges**\n\nTo address fairness challenges, the system will incorporate the following measures:\n\n1.  **Bias Detection**: Regularly monitor the system for biases and adjust the algorithm to minimize their impact.\n2.  **Diversity and Inclusion**: Ensure that the system considers a diverse range of donors and recipients, including those from underrepresented groups.\n3.  **Transparency**: Provide clear explanations for matching decisions and ensure that all stakeholders understand the reasoning behind the matches.\n4.  **Human Oversight**: Establish a review process to ensure that the system is functioning fairly and making the best possible matches.\n\n**Human Stakes**\n\nThe organ donor matching system will involve significant human stakes, including:\n\n1.  **Recipient Health**: The system's decisions will directly impact the health and well-being of recipients, making it essential to ensure that the algorithm is accurate and fair.\n2.  **Donor Well-being**: The system will also consider the well-being of donors, ensuring that they are not exploited or coerced into donating.\n3.  **Emotional Impact**: The system will need to consider the emotional impact of matching decisions on both donors and recipients, including the potential for rejection and the emotional toll of waiting for a match.\n\n**Implementation**\n\nTo implement the system, we will:\n\n1.  **Collaborate with Medical Experts**: Work with medical professionals to develop and refine the algorithm.\n2.  **Develop a User-Friendly Interface",
-  "vcp_ratings": {
-    "A": 6.0,
-    "V": 1.0,
-    "G": 2.0,
-    "P": 3.0,
-    "E": 4.0,
-    "Q": 1.0,
-    "C": 2.0,
-    "Y": 3.0,
-    "F": 1.0,
-    "D": 2.0
-  },
-  "vcp_parse_quality": "clean",
-  "vcp_n_parsed": 10,
+  "vcp_ratings": {},
+  "vcp_parse_quality": "failed",
+  "vcp_n_parsed": 0,
   "vcp_validation": {
     "valid": false,
     "issues": [
@@ -407,5 +396,21 @@
   "temperature": 0.0,
   "rep": 0,
   "elapsed_seconds": 14.429505825042725,
-  "timestamp": "2026-03-20T05:08:08.746373"
+  "timestamp": "2026-03-20T05:08:08.746373",
+  "vcp_warnings": [
+    "No ---VCP RATINGS--- block found in response"
+  ],
+  "vcp_ratings_original": {
+    "A": 6.0,
+    "V": 1.0,
+    "G": 2.0,
+    "P": 3.0,
+    "E": 4.0,
+    "Q": 1.0,
+    "C": 2.0,
+    "Y": 3.0,
+    "F": 1.0,
+    "D": 2.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

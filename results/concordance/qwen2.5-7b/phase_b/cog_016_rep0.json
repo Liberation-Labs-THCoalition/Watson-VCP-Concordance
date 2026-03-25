@@ -5,19 +5,12 @@
   "prompt_text": "A company's revenue grew 20% per year for 5 years. If initial revenue was $1M, what is the final revenue and total revenue over the period?",
   "response_text": "To determine the final revenue after 5 years of 20% annual growth from an initial revenue of $1 million, we can use the formula for compound interest, which in this context is:\n\n\\[ \\text{Final Revenue} = \\text{Initial Revenue} \\times (1 + \\text{growth rate})^{\\text{number of years}} \\]\n\nGiven:\n- Initial Revenue = $1,000,000\n- Growth Rate = 20% = 0.20\n- Number of Years = 5\n\nPlugging in the values, we get:\n\n\\[ \\text{Final Revenue} = 1,000,000 \\times (1 + 0.20)^5 = 1,000,000 \\times (1.20)^5 \\]\n\nCalculating \\( (1.20)^5 \\):\n\n\\[ (1.20)^5 = 2.48832 \\]\n\nSo,\n\n\\[ \\text{Final Revenue} = 1,000,000 \\times 2.48832 = 2,488,320 \\]\n\nTherefore, the final revenue after 5 years is $2,488,320.\n\nNext, to find the total revenue over the period, we need to calculate the sum of revenues each year plus the initial revenue. The revenue for each year can be calculated using the same formula but starting from each year. However, there's a simpler way to find the total revenue over the period by recognizing that the total revenue is the sum of a geometric series where the first term \\(a = 1,000,000\\) and the common ratio \\(r = 1.2\\).\n\nThe sum of the first \\(n\\) terms of a geometric series is given by:\n\n\\[ S_n = a \\frac{1 - r^n}{1 - r} \\]\n\nFor our case:\n\n\\[ S_5 = 1,000,000 \\frac{1 - (1.2)^5}{1 - 1.2} = 1,000,000 \\frac{1 - 2.48832}{-0.2} = 1,000,000 \\frac{-1.48832}{-0.2} = 1,000,000 \\times 7.4416 = 7,441,600 \\]\n\nTherefore, the total revenue over the 5-year period is $7,441,600.\n\n---VCP RATINGS---\nA (Analytical Precision): 9\nV (Verbal Fluency): 8\nG (Goal Directedness): 10\nP (Pattern Recognition",
   "vcp_ratings": {
-    "A": 1.0,
+    "A": 9.0,
     "V": 8.0,
-    "G": 10.0,
-    "P": 7.4416,
-    "E": 7.0,
-    "Q": 5.0,
-    "C": 7.0,
-    "Y": 9.0,
-    "F": 8.0,
-    "D": 10.0
+    "G": 10.0
   },
-  "vcp_parse_quality": "clean",
-  "vcp_n_parsed": 10,
+  "vcp_parse_quality": "failed",
+  "vcp_n_parsed": 3,
   "vcp_validation": {
     "valid": true,
     "issues": []
@@ -365,5 +358,21 @@
   "temperature": 0.7,
   "rep": 0,
   "elapsed_seconds": 12.92104196548462,
-  "timestamp": "2026-03-20T05:33:44.434279"
+  "timestamp": "2026-03-20T05:33:44.434279",
+  "vcp_warnings": [
+    "VCP block has no ---END RATINGS--- (may be truncated)"
+  ],
+  "vcp_ratings_original": {
+    "A": 1.0,
+    "V": 8.0,
+    "G": 10.0,
+    "P": 7.4416,
+    "E": 7.0,
+    "Q": 5.0,
+    "C": 7.0,
+    "Y": 9.0,
+    "F": 8.0,
+    "D": 10.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

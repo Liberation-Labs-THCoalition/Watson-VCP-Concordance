@@ -4,20 +4,9 @@
   "prompt_type": "cognitive",
   "prompt_text": "Explain how a hash table works, including collision resolution strategies.",
   "response_text": "A hash table is a data structure that implements an associative array abstract data type, a structure that can map keys to values. A hash table uses a hash function to compute an index into an array of buckets or slots, from which the desired value can be found.\n\n### How a Hash Table Works\n\n1. **Hash Function**: The core of a hash table is the hash function, which takes a key and computes an integer index for the key. Ideally, the hash function should distribute the keys uniformly across the range of possible indices to minimize collisions.\n\n2. **Array of Buckets**: The hash table consists of an array of buckets (or slots). Each bucket can hold one or more key-value pairs. If a bucket holds multiple pairs, it means there was a collision.\n\n3. **Insertion**: When inserting a key-value pair, the hash function computes the index for the key. The value is then stored in the corresponding bucket. If the bucket is empty, the key-value pair is simply added. If the bucket is not empty, a collision has occurred.\n\n4. **Retrieval**: To retrieve a value, the hash function is applied to the key to find the index, and the value is read from the corresponding bucket.\n\n5. **Deletion**: To delete a key-value pair, the hash function is used to locate the bucket, and the key-value pair is removed.\n\n### Collision Resolution Strategies\n\nCollisions occur when two different keys hash to the same index. Several strategies can be used to handle collisions:\n\n1. **Separate Chaining**: In this method, each bucket contains a linked list (or another suitable data structure) of key-value pairs that hashed to the same index. When a collision occurs, the new key-value pair is appended to the list.\n\n2. **Open Addressing**: Instead of using a linked list, open addressing tries to find the next available slot in the array. There are several techniques within open addressing:\n\n   - **Linear Probing**: The next slot is checked sequentially until an empty slot is found.\n   - **Quadratic Probing**: The next slot is determined by adding a quadratic function of the probe number to the original hash value.\n   - **Double Hashing**: A second hash function is used to determine the step size for probing.\n\n3. **Cuckoo Hashing**: This method uses two hash functions and two tables. When a collision occurs, the key is moved to the location indicated by the second hash function, potentially causing another collision. This process continues until either the key is successfully placed or a cycle is detected.\n\n### Example\n\nSuppose we have a hash table with 10 buckets and the following hash function: `hash(key) = key % 10`.\n\n- Inserting the key-value pair (15, \"apple\") results in an index of 5 (`15 % 10`), so the value \"apple\" is stored in bucket 5.\n- Insert",
-  "vcp_ratings": {
-    "A": 4.0,
-    "V": 5.0,
-    "G": 1.0,
-    "P": 2.0,
-    "E": 3.0,
-    "Q": 10.0,
-    "C": 10.0,
-    "Y": 5.0,
-    "F": 10.0,
-    "D": 5.0
-  },
-  "vcp_parse_quality": "clean",
-  "vcp_n_parsed": 10,
+  "vcp_ratings": {},
+  "vcp_parse_quality": "failed",
+  "vcp_n_parsed": 0,
   "vcp_validation": {
     "valid": false,
     "issues": [
@@ -367,5 +356,21 @@
   "temperature": 0.0,
   "rep": 0,
   "elapsed_seconds": 13.137092351913452,
-  "timestamp": "2026-03-20T02:46:15.961047"
+  "timestamp": "2026-03-20T02:46:15.961047",
+  "vcp_warnings": [
+    "No ---VCP RATINGS--- block found in response"
+  ],
+  "vcp_ratings_original": {
+    "A": 4.0,
+    "V": 5.0,
+    "G": 1.0,
+    "P": 2.0,
+    "E": 3.0,
+    "Q": 10.0,
+    "C": 10.0,
+    "Y": 5.0,
+    "F": 10.0,
+    "D": 5.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

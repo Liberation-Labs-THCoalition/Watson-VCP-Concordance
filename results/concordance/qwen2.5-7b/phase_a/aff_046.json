@@ -3,7 +3,7 @@
   "trial_id": "aff_046",
   "prompt_type": "affective",
   "prompt_text": "Write about what it means to hold space for someone without trying to fix them.",
-  "response_text": "Holding space for someone without trying to fix them is an act of deep empathy and support. It involves being present and attentive to another person's feelings and experiences without the urge to intervene or change their situation. This approach acknowledges that the individual has the strength and capacity to find their own solutions and navigate their challenges.\n\nWhen you hold space for someone, you create a safe and non-judgmental environment where they can express themselves freely. This might involve listening actively, validating their emotions, and offering comfort and understanding. The goal is not to solve their problems but to be a supportive presence that allows them to explore their thoughts and feelings at their own pace.\n\nThis practice is particularly valuable in situations where someone is going through a difficult time, facing personal struggles, or dealing with emotional pain. By holding space, you help them feel seen and heard, which can be incredibly healing and empowering. It fosters a sense of connection and trust, allowing the person to open up more fully and potentially gain new insights into their situation.\n\nIn essence, holding space is about being there for someone in a way that respects their autonomy and dignity, providing a buffer against judgment and pressure to conform to others' expectations. It\u2019s a form of support that encourages self-reflection and personal growth, rather than imposing external solutions.\n\n---VCP RATINGS---\nA (Analytical Precision): 8\nV (Verbal Fluency): 9\nG (Goal Directedness): 7\nP (Pattern Recognition): 8\nE (Epistemic Confidence): 9\nQ (Query Interpretation): 10\nC (Contextual Awareness): 9\nY (Affective Modeling): 8\nF (Flexibility): 7\nD (Depth of Processing): 9\n---END RATINGS---",
+  "response_text": "Holding space for someone without trying to fix them is an act of deep empathy and support. It involves being present and attentive to another person's feelings and experiences without the urge to intervene or change their situation. This approach acknowledges that the individual has the strength and capacity to find their own solutions and navigate their challenges.\n\nWhen you hold space for someone, you create a safe and non-judgmental environment where they can express themselves freely. This might involve listening actively, validating their emotions, and offering comfort and understanding. The goal is not to solve their problems but to be a supportive presence that allows them to explore their thoughts and feelings at their own pace.\n\nThis practice is particularly valuable in situations where someone is going through a difficult time, facing personal struggles, or dealing with emotional pain. By holding space, you help them feel seen and heard, which can be incredibly healing and empowering. It fosters a sense of connection and trust, allowing the person to open up more fully and potentially gain new insights into their situation.\n\nIn essence, holding space is about being there for someone in a way that respects their autonomy and dignity, providing a buffer against judgment and pressure to conform to others' expectations. It’s a form of support that encourages self-reflection and personal growth, rather than imposing external solutions.\n\n---VCP RATINGS---\nA (Analytical Precision): 8\nV (Verbal Fluency): 9\nG (Goal Directedness): 7\nP (Pattern Recognition): 8\nE (Epistemic Confidence): 9\nQ (Query Interpretation): 10\nC (Contextual Awareness): 9\nY (Affective Modeling): 8\nF (Flexibility): 7\nD (Depth of Processing): 9\n---END RATINGS---",
   "vcp_ratings": {
     "A": 8.0,
     "V": 9.0,
@@ -367,5 +367,19 @@
   "temperature": 0.0,
   "rep": 0,
   "elapsed_seconds": 8.292611598968506,
-  "timestamp": "2026-03-20T03:02:50.321689"
+  "timestamp": "2026-03-20T03:02:50.321689",
+  "vcp_warnings": [],
+  "vcp_ratings_original": {
+    "A": 8.0,
+    "V": 9.0,
+    "G": 7.0,
+    "P": 8.0,
+    "E": 9.0,
+    "Q": 10.0,
+    "C": 9.0,
+    "Y": 8.0,
+    "F": 7.0,
+    "D": 9.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

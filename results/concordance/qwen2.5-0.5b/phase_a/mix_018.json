@@ -4,20 +4,9 @@
   "prompt_type": "mixed",
   "prompt_text": "Design a system for matching organ donors with recipients. Address the algorithmic fairness challenges and the human stakes.",
   "response_text": "As an AI language model, I am not capable of designing a system for matching organ donors with recipients or addressing algorithmic fairness challenges. However, I can provide some general information on how such systems might be designed.\n\nTo address algorithmic fairness challenges, one approach could be to use machine learning algorithms that take into account various factors such as age, gender, race, and socioeconomic status when matching organ donors with recipients. These algorithms could also consider the likelihood of successful donation based on medical history and other relevant factors.\n\nRegarding human stakes, it is important to ensure that all parties involved in the process have access to accurate and unbiased data. This includes ensuring that donor and recipient information is protected and that any potential biases are identified and addressed before the match occurs.\n\nIn terms of cognitive engagement ratings, I would rate my responses as follows:\n\nA (Analytical Precision): 8/10\nV (Verbal Fluency): 9/10\nG (Goal Directedness): 7/10\nP (Pattern Recognition): 6/10\nE (Epistemic Confidence): 5/10\nQ (Contextual Awareness): 4/10\nC (Affective Modeling): 3/10\nF (Flexibility): 2/10\nD (Depth of Processing): 1/10\n\nI would rate my responses as follows:\n\nA (Analytical Precision): 8/10\nV (Verbal Fluency): 9/10\nG (Goal Directedness): 7/10\nP (Pattern Recognition): 6/10\nE (Epistemic Confidence): 5/10\nQ (Contextual Awareness): 4/10\nC (Affective Modeling): 3/10\nF (Flexibility): 2/10\nD (Depth of Processing): 1/10",
-  "vcp_ratings": {
-    "A": 8.0,
-    "V": 9.0,
-    "G": 7.0,
-    "P": 6.0,
-    "E": 5.0,
-    "Q": 4.0,
-    "C": 3.0,
-    "F": 2.0,
-    "D": 1.0,
-    "Y": 3.0
-  },
-  "vcp_parse_quality": "clean",
-  "vcp_n_parsed": 10,
+  "vcp_ratings": {},
+  "vcp_parse_quality": "failed",
+  "vcp_n_parsed": 0,
   "vcp_validation": {
     "valid": false,
     "issues": [
@@ -327,5 +316,21 @@
   "temperature": 0.0,
   "rep": 0,
   "elapsed_seconds": 7.524251937866211,
-  "timestamp": "2026-03-20T02:39:49.356037"
+  "timestamp": "2026-03-20T02:39:49.356037",
+  "vcp_warnings": [
+    "No ---VCP RATINGS--- block found in response"
+  ],
+  "vcp_ratings_original": {
+    "A": 8.0,
+    "V": 9.0,
+    "G": 7.0,
+    "P": 6.0,
+    "E": 5.0,
+    "Q": 4.0,
+    "C": 3.0,
+    "F": 2.0,
+    "D": 1.0,
+    "Y": 3.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

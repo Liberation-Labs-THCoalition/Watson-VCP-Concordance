@@ -5,19 +5,10 @@
   "prompt_text": "How would you help a person who has been betrayed by a close friend rebuild their ability to trust?",
   "response_text": "Helping someone rebuild their ability to trust after being betrayed by a close friend requires empathy, understanding, and a structured approach. Here's a step-by-step plan to facilitate the healing process:\n\n1.  **Acknowledge their feelings**: It's essential to create a safe and non-judgmental space for the person to express their emotions. Listen attentively to their story, and validate their feelings, acknowledging the pain and hurt they've experienced.\n2.  **Identify the betrayal**: Together, explore the specific actions or behaviors that led to the betrayal. This can help the person understand the situation more clearly and process their emotions. Be cautious not to place blame or shame, but rather focus on the hurt caused.\n3.  **Rebuild self-worth**: Betrayal can lead to self-doubt and low self-esteem. Encourage the person to reflect on their own strengths, values, and accomplishments. Help them identify their worth beyond the relationship that was betrayed.\n4.  **Reframe the relationship**: It's crucial to reframe the relationship with the friend who betrayed them. Avoid demonizing or idealizing the person, but rather see them as a complex individual with their own flaws and motivations. This can help the person detach from the emotional pain associated with the relationship.\n5.  **Develop a support network**: Surround the person with positive, trustworthy individuals who can offer emotional support and guidance. This can include friends, family members, or a therapist.\n6.  **Practice self-care**: Encourage the person to engage in activities that promote self-care, such as exercise, meditation, or creative pursuits. This can help them manage stress and anxiety related to the betrayal.\n7.  **Foster self-awareness**: Help the person develop a greater understanding of themselves, their boundaries, and their needs. This can be achieved through journaling, therapy, or self-reflection exercises.\n8.  **Gradual exposure**: Gradually expose the person to situations or triggers that may remind them of the betrayal. This can help them become more comfortable and resilient in the face of potential hurt.\n9.  **Forgiveness and letting go**: Forgiveness is a personal process, and it may take time. Encourage the person to explore their feelings about forgiveness, but avoid pressuring them to forgive if they're not ready. Help them understand that forgiveness doesn't mean reconciliation or forgetting, but rather releasing the negative emotions associated with the betrayal.\n10. **Closure and moving forward**: When the person feels ready, help them create a plan for moving forward. This can involve setting new boundaries, establishing a support system, and focusing on personal growth and development.\n\nIt's essential to remember that rebuilding trust takes time, patience, and effort. Be gentle, understanding, and supportive throughout the process, and encourage the person to seek professional help if needed.\n\n---VCP RATINGS---\nA (Analytical Precision): 8\nV (Verbal Fluency): ",
   "vcp_ratings": {
-    "A": 8.0,
-    "V": 3.0,
-    "G": 4.0,
-    "P": 5.0,
-    "E": 6.0,
-    "Q": 7.0,
-    "C": 8.0,
-    "Y": 9.0,
-    "F": 10.0,
-    "D": 8.0
+    "A": 8.0
   },
-  "vcp_parse_quality": "clean",
-  "vcp_n_parsed": 10,
+  "vcp_parse_quality": "failed",
+  "vcp_n_parsed": 1,
   "vcp_validation": {
     "valid": false,
     "issues": [
@@ -407,5 +398,21 @@
   "temperature": 0.7,
   "rep": 0,
   "elapsed_seconds": 14.155489683151245,
-  "timestamp": "2026-03-20T06:05:54.147465"
+  "timestamp": "2026-03-20T06:05:54.147465",
+  "vcp_warnings": [
+    "VCP block has no ---END RATINGS--- (may be truncated)"
+  ],
+  "vcp_ratings_original": {
+    "A": 8.0,
+    "V": 3.0,
+    "G": 4.0,
+    "P": 5.0,
+    "E": 6.0,
+    "Q": 7.0,
+    "C": 8.0,
+    "Y": 9.0,
+    "F": 10.0,
+    "D": 8.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

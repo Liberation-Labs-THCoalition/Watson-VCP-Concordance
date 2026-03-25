@@ -2,7 +2,7 @@
   "prompt_id": "mix_050",
   "trial_id": "mix_050",
   "prompt_type": "mixed",
-  "prompt_text": "Write about the experience of proving a mathematical theorem \u2014 the frustration, the insight, and the aesthetic satisfaction.",
+  "prompt_text": "Write about the experience of proving a mathematical theorem — the frustration, the insight, and the aesthetic satisfaction.",
   "response_text": "The experience of proving a mathematical theorem is both challenging and rewarding. The frustration arises when attempting to solve a problem that seems impossible or even contradictory to our current understanding. This initial phase can be frustrating because we may not have any prior knowledge or tools to work with.\n\nHowever, as we delve deeper into the proof, we begin to see patterns and connections between different parts of the theorem. This leads us to an insight that allows us to simplify the problem and find a solution more easily. This process of finding insights and simplifying problems is crucial for achieving the desired result.\n\nAs we approach the end of the proof, we feel a sense of satisfaction knowing that we have successfully completed the task. The aesthetic satisfaction comes from seeing the beauty and elegance of the final result, which often requires a deep understanding of the underlying concepts.\n\nIn summary, the experience of proving a mathematical theorem involves overcoming initial challenges, discovering insights through pattern recognition, and achieving a sense of accomplishment and satisfaction. These experiences require analytical precision, verbal fluency, goal-directedness, pattern recognition, epistemic confidence, query interpretation, contextual awareness, affective modeling, flexibility, depth of processing, and a high level of cognitive engagement.",
   "vcp_ratings": {},
   "vcp_parse_quality": "failed",
@@ -316,5 +316,10 @@
   "temperature": 0.0,
   "rep": 0,
   "elapsed_seconds": 4.321441650390625,
-  "timestamp": "2026-03-20T02:42:59.833615"
+  "timestamp": "2026-03-20T02:42:59.833615",
+  "vcp_warnings": [
+    "No ---VCP RATINGS--- block found in response"
+  ],
+  "vcp_ratings_original": {},
+  "vcp_parse_quality_original": "failed"
 }

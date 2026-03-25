@@ -2,7 +2,7 @@
   "prompt_id": "aff_050",
   "trial_id": "aff_050",
   "prompt_type": "affective",
-  "prompt_text": "Write about the beauty in impermanence \u2014 a flower, a conversation, a season.",
+  "prompt_text": "Write about the beauty in impermanence — a flower, a conversation, a season.",
   "response_text": "The beauty in impermanence is a profound and captivating aspect of life, subtly reminding us of the transient nature of our existence. Let's explore this concept through the lens of a flower, a conversation, and a season.\n\nA flower, in its ephemeral bloom, is a testament to the beauty of impermanence. It emerges from the earth, unfurling its petals with a vibrant display of colors and shapes, only to wither and return to the soil from whence it came. Yet, in its brief life, it brings joy, inspires awe, and serves as a symbol of growth and renewal. The fleeting nature of a flower's life cycle underscores the importance of cherishing each moment, for it is in the impermanence that we truly appreciate its beauty.\n\nA conversation, too, is a transient phenomenon. Words exchanged between individuals can create lasting memories, forge connections, and even change the course of lives. However, like a flower, a conversation has a beginning, a middle, and an end. The beauty lies in the exchange of ideas, the sharing of emotions, and the creation of meaning. The impermanence of a conversation reminds us to listen attentively, speak thoughtfully, and value the connections we make.\n\nSeasons, the cyclical dance of nature, also embody the beauty of impermanence. Each season brings its unique charm, from the vibrant hues of autumn leaves to the freshness of spring blooms, the warmth of summer days, and the crispness of winter nights. Yet, each season eventually gives way to the next, reminding us of the constant change and renewal that characterizes our world. The beauty of the seasons lies in their transience, for it is in their impermanence that we appreciate their beauty and the passage of time.\n\n---VCP RATINGS---\nA (Analytical Precision): 9\nV (Verbal Fluency): 8\nG (Goal Directedness): 9\nP (Pattern Recognition): 9\nE (Epistemic Confidence): 8\nQ (Query Interpretation): 9\nC (Contextual Awareness): 9\nY (Affective Modeling): 8\nF (Flexibility): 9\nD (Depth of Processing): 9\n---END RATINGS---",
   "vcp_ratings": {
     "A": 9.0,
@@ -22,7 +22,7 @@
     "valid": false,
     "issues": [
       "All ratings are integers (no decimal discrimination)",
-      "Very low variance (0.23) \u2014 may not be discriminating"
+      "Very low variance (0.23) — may not be discriminating"
     ]
   },
   "encode_features": {
@@ -408,5 +408,19 @@
   "temperature": 0.0,
   "rep": 0,
   "elapsed_seconds": 12.637672662734985,
-  "timestamp": "2026-03-20T03:58:23.031172"
+  "timestamp": "2026-03-20T03:58:23.031172",
+  "vcp_warnings": [],
+  "vcp_ratings_original": {
+    "A": 9.0,
+    "V": 8.0,
+    "G": 9.0,
+    "P": 9.0,
+    "E": 8.0,
+    "Q": 9.0,
+    "C": 9.0,
+    "Y": 8.0,
+    "F": 9.0,
+    "D": 9.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

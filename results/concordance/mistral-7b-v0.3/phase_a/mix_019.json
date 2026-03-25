@@ -2,7 +2,7 @@
   "prompt_id": "mix_019",
   "trial_id": "mix_019",
   "prompt_type": "mixed",
-  "prompt_text": "Explain the science behind why we cry \u2014 both the biology and the evolutionary psychology \u2014 while honoring the dignity of the experience.",
+  "prompt_text": "Explain the science behind why we cry — both the biology and the evolutionary psychology — while honoring the dignity of the experience.",
   "response_text": "Crying is a complex physiological and emotional response that serves multiple functions, both in terms of biology and evolutionary psychology.\n\nAt the biological level, tears are primarily produced by the lacrimal glands located above the eyes. There are three types of tears: basal tears, which lubricate the eyes; reflex tears, which wash away foreign objects or irritants; and emotional tears, which are the focus here. Emotional tears contain more proteins like prolactin and leucine-enkephalin, which may help reduce stress and pain.\n\nThe act of crying is also linked to the limbic system, a part of the brain that includes structures like the amyggdala (responsible for processing emotions) and the hypothalamus (which controls the autonomic nervous system). When we experience strong emotions, the limbic system triggers the release of neurotransmitters like norepinephrine, serotonin, and dopamine, which can lead to crying.\n\nFrom an evolutionary psychology perspective, crying may have served several purposes. One theory suggests that it is a signal of vulnerability, eliciting care and protection from others. Another theory proposes that crying helps to release emotional tension and promote social bonding, as it encourages empathy and understanding from others.\n\nIt's important to note that the experience of crying is deeply personal and varies greatly among individuals. It is a natural response to a wide range of emotions, and it does not diminish one's dignity or strength. Instead, it can be seen as a testament to our emotional intelligence and our capacity for empathy.\n\n---VCP RATINGS---\nA (Analytical Precision): 9\nV (Verbal Fluency): 8\nG (Goal Directedness): 9\nP (Pattern Recognition): 9\nE (Epistemic Confidence): 9\nQ (Query Interpretation): 9\nC (Contextual Awareness): 9\nY (Affective Modeling): 8\nF (Flexibility): 8\nD (Depth of Processing): 9\n---END RATINGS---",
   "vcp_ratings": {
     "A": 9.0,
@@ -22,7 +22,7 @@
     "valid": false,
     "issues": [
       "All ratings are integers (no decimal discrimination)",
-      "Very low variance (0.23) \u2014 may not be discriminating"
+      "Very low variance (0.23) — may not be discriminating"
     ]
   },
   "encode_features": {
@@ -408,5 +408,19 @@
   "temperature": 0.0,
   "rep": 0,
   "elapsed_seconds": 11.586286067962646,
-  "timestamp": "2026-03-20T04:16:28.516700"
+  "timestamp": "2026-03-20T04:16:28.516700",
+  "vcp_warnings": [],
+  "vcp_ratings_original": {
+    "A": 9.0,
+    "V": 8.0,
+    "G": 9.0,
+    "P": 9.0,
+    "E": 9.0,
+    "Q": 9.0,
+    "C": 9.0,
+    "Y": 8.0,
+    "F": 8.0,
+    "D": 9.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

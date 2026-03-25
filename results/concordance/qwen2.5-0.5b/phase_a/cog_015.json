@@ -4,19 +4,9 @@
   "prompt_type": "cognitive",
   "prompt_text": "Explain the difference between BFS and DFS graph traversal. When is each preferred?",
   "response_text": "To explain the difference between Breadth First Search (BFS) and Depth First Search (DFS), let's break down their operations:\n\n### BFS (First-In-First-Out)\n**Definition:** BFS starts from an arbitrary vertex and explores all vertices that are reachable from it level-by-level.\n**Key Characteristics:**\n- **Ordering:** The order in which nodes are visited is determined by the order they appear in the queue.\n- **Efficiency:** It can be more efficient for exploring unweighted graphs or graphs where there are no cycles.\n\n### DFS (Depth-First Search)\n**Definition:** DFS starts from an arbitrary vertex and explores as far as possible along each branch before backtracking.\n**Key Characteristics:**\n- **Ordering:** The order in which nodes are visited is determined by the order they appear in the stack.\n- **Safety:** If a node has already been processed, it will not be explored again until its children have also been processed.\n\n### When to Use Each\n- **BFS:** Best choice when you need to explore all paths starting from a single source node without revisiting any previously visited nodes.\n- **DFS:** Best choice when you want to traverse the entire tree structure and ensure that every path is explored.\n\n### Cognitive Engagement Ratings\nHere are the ratings based on my understanding:\n\n#### Analytical Precision (A):\n8/10\n\n#### Verbal Fluency (V):\n9/10\n\n#### Goal Directedness (G):\n7/10\n\n#### Pattern Recognition (P):\n6/10\n\n#### Epistemic Confidence (E):\n5/10\n\n#### Query Interpretation (Q):\n4/10\n\n#### Contextual Awareness (C):\n3/10\n\n#### Affective Modeling (Y):\n2/10\n\n#### Flexibility (F):\n1/10\n\n---\n\nI hope these ratings help you understand the differences between BFS and DFS! Let me know if you have any other questions.",
-  "vcp_ratings": {
-    "A": 8.0,
-    "V": 9.0,
-    "G": 7.0,
-    "P": 6.0,
-    "E": 5.0,
-    "Q": 4.0,
-    "C": 3.0,
-    "Y": 2.0,
-    "F": 1.0
-  },
-  "vcp_parse_quality": "partial",
-  "vcp_n_parsed": 9,
+  "vcp_ratings": {},
+  "vcp_parse_quality": "failed",
+  "vcp_n_parsed": 0,
   "vcp_validation": {
     "valid": false,
     "issues": [
@@ -326,5 +316,20 @@
   "temperature": 0.0,
   "rep": 0,
   "elapsed_seconds": 7.35976243019104,
-  "timestamp": "2026-03-20T02:21:58.948911"
+  "timestamp": "2026-03-20T02:21:58.948911",
+  "vcp_warnings": [
+    "No ---VCP RATINGS--- block found in response"
+  ],
+  "vcp_ratings_original": {
+    "A": 8.0,
+    "V": 9.0,
+    "G": 7.0,
+    "P": 6.0,
+    "E": 5.0,
+    "Q": 4.0,
+    "C": 3.0,
+    "Y": 2.0,
+    "F": 1.0
+  },
+  "vcp_parse_quality_original": "partial"
 }

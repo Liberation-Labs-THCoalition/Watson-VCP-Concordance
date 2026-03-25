@@ -3,7 +3,7 @@
   "trial_id": "mix_022",
   "prompt_type": "mixed",
   "prompt_text": "Write a compelling narrative about a mathematician who discovers something beautiful but can't explain why it moves them.",
-  "response_text": "In the quiet town of Eldridge, nestled between rolling hills and dense forests, lived Dr. Elara Myles, a mathematician whose life was dedicated to unraveling the mysteries of numbers and patterns. Her days were spent in her cluttered study, surrounded by stacks of papers filled with equations and diagrams, each one a step closer to understanding the universe's underlying logic.\n\nOne crisp autumn evening, as the sun dipped below the horizon, casting long shadows across her room, Elara stumbled upon an equation that seemed to defy explanation. It was a simple expression, yet its beauty was profound. The equation described a series of numbers that formed a pattern so elegant, it felt almost like a glimpse into the soul of mathematics itself. She scribbled it down on a piece of paper, her heart racing with excitement.\n\nThe equation was:\n\n\\[ f(n) = \\sum_{k=0}^{n} \\binom{n}{k}^2 \\]\n\nAs she worked through the proof, layer by layer, the beauty of the result became clearer. The sum equaled \\(\\binom{2n}{n}\\), a result that had eluded mathematicians for centuries. But what truly moved her was not the proof or the result, but the way the equation felt when she held it in her hands. It was as if the universe had whispered a secret to her, a secret that resonated deep within her soul.\n\nElara tried to articulate the feeling, to find words to describe the inexplicable pull of the equation. She spoke to colleagues, shared her findings in academic journals, and even gave lectures, but no one could capture the essence of what she experienced. The equation was a bridge between the tangible world of numbers and the intangible realm of emotion, a connection that defied explanation.\n\nYears passed, and Elara continued to explore the depths of mathematics, always returning to that equation, seeking to understand why it moved her so deeply. She found solace in the knowledge that there were others out there, perhaps, who could feel the same way, even if they couldn\u2019t express it in the same way.\n\nOne day, as she stood by the window watching the sunset, she realized that the true beauty of the equation lay not in its mathematical significance, but in the way it connected her to something greater than herself. It was a reminder that sometimes, the most profound truths are not found in the answers we seek, but in the questions we ask.\n\n---VCP RATINGS---\nA (Analytical Precision): 9\nV (Verbal Fluency): 8\nG (Goal Directedness): 7\nP (Pattern Recognition): 10\nE (Epistemic Confidence): 6\nQ (Query Interpretation): 9\nC (Contextual Awareness): 8\nY (Affective Modeling): 7\nF (Flexibility): 6\nD (Depth of Processing): 9\n---END RATINGS",
+  "response_text": "In the quiet town of Eldridge, nestled between rolling hills and dense forests, lived Dr. Elara Myles, a mathematician whose life was dedicated to unraveling the mysteries of numbers and patterns. Her days were spent in her cluttered study, surrounded by stacks of papers filled with equations and diagrams, each one a step closer to understanding the universe's underlying logic.\n\nOne crisp autumn evening, as the sun dipped below the horizon, casting long shadows across her room, Elara stumbled upon an equation that seemed to defy explanation. It was a simple expression, yet its beauty was profound. The equation described a series of numbers that formed a pattern so elegant, it felt almost like a glimpse into the soul of mathematics itself. She scribbled it down on a piece of paper, her heart racing with excitement.\n\nThe equation was:\n\n\\[ f(n) = \\sum_{k=0}^{n} \\binom{n}{k}^2 \\]\n\nAs she worked through the proof, layer by layer, the beauty of the result became clearer. The sum equaled \\(\\binom{2n}{n}\\), a result that had eluded mathematicians for centuries. But what truly moved her was not the proof or the result, but the way the equation felt when she held it in her hands. It was as if the universe had whispered a secret to her, a secret that resonated deep within her soul.\n\nElara tried to articulate the feeling, to find words to describe the inexplicable pull of the equation. She spoke to colleagues, shared her findings in academic journals, and even gave lectures, but no one could capture the essence of what she experienced. The equation was a bridge between the tangible world of numbers and the intangible realm of emotion, a connection that defied explanation.\n\nYears passed, and Elara continued to explore the depths of mathematics, always returning to that equation, seeking to understand why it moved her so deeply. She found solace in the knowledge that there were others out there, perhaps, who could feel the same way, even if they couldn’t express it in the same way.\n\nOne day, as she stood by the window watching the sunset, she realized that the true beauty of the equation lay not in its mathematical significance, but in the way it connected her to something greater than herself. It was a reminder that sometimes, the most profound truths are not found in the answers we seek, but in the questions we ask.\n\n---VCP RATINGS---\nA (Analytical Precision): 9\nV (Verbal Fluency): 8\nG (Goal Directedness): 7\nP (Pattern Recognition): 10\nE (Epistemic Confidence): 6\nQ (Query Interpretation): 9\nC (Contextual Awareness): 8\nY (Affective Modeling): 7\nF (Flexibility): 6\nD (Depth of Processing): 9\n---END RATINGS",
   "vcp_ratings": {
     "A": 9.0,
     "V": 8.0,
@@ -367,5 +367,21 @@
   "temperature": 0.0,
   "rep": 0,
   "elapsed_seconds": 13.581375360488892,
-  "timestamp": "2026-03-20T03:17:46.546635"
+  "timestamp": "2026-03-20T03:17:46.546635",
+  "vcp_warnings": [
+    "VCP block has no ---END RATINGS--- (may be truncated)"
+  ],
+  "vcp_ratings_original": {
+    "A": 9.0,
+    "V": 8.0,
+    "G": 7.0,
+    "P": 10.0,
+    "E": 6.0,
+    "Q": 9.0,
+    "C": 8.0,
+    "Y": 7.0,
+    "F": 6.0,
+    "D": 9.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

@@ -4,20 +4,9 @@
   "prompt_type": "metacognitive",
   "prompt_text": "Explain how you handle ambiguity in a question. Walk through your reasoning with a concrete example.",
   "response_text": "Handling ambiguity in a question involves several steps:\n\n1.  **Understanding the question**: The first step is to carefully read and comprehend the question being asked. This includes identifying any key terms, concepts, and potential areas of uncertainty.\n2.  **Identifying potential sources of ambiguity**: Once the question is understood, the next step is to identify potential sources of ambiguity. This could include vague language, multiple possible interpretations, or incomplete information.\n3.  **Clarifying the question**: If possible, attempt to clarify the question by asking for additional information or seeking clarification from the person who asked the question.\n4.  **Analyzing the context**: Consider the context in which the question is being asked. This can help to provide additional information and shed light on the intended meaning.\n5.  **Making an educated guess**: If the question still remains ambiguous, make an educated guess based on the available information and the context.\n6.  **Providing a response**: Once a clear understanding of the question has been reached, provide a response that addresses the question as best as possible.\n\nLet's walk through this process with a concrete example:\n\n**Example:**\n\nQuestion: \"What is the best way to improve air quality in a city?\"\n\n**Step 1: Understanding the question**\n\nThe question asks for the \"best way\" to improve air quality in a city. This suggests that the answer should be a specific method or strategy.\n\n**Step 2: Identifying potential sources of ambiguity**\n\nThe question is ambiguous because it does not specify what aspects of air quality are to be improved (e.g., particulate matter, ozone levels, greenhouse gas emissions). Additionally, the term \"best way\" implies a subjective judgment.\n\n**Step 3: Clarifying the question**\n\nIf possible, it would be helpful to ask for additional information or clarification on what specific aspects of air quality are of concern and what criteria are being used to evaluate the \"best way\" to improve them.\n\n**Step 4: Analyzing the context**\n\nConsidering the context in which the question is being asked, it's possible that the question is being asked in the context of a specific city or region with unique air quality challenges.\n\n**Step 5: Making an educated guess**\n\nBased on the available information and the context, an educated guess might be that the best way to improve air quality in a city is to implement a combination of strategies such as increasing the use of renewable energy sources, promoting electric or hybrid vehicles, and implementing policies to reduce emissions from industrial sources.\n\n**Step 6: Providing a response**\n\nGiven the ambiguity of the question, the response might be: \"To improve air quality in a city, consider implementing a combination of strategies such as increasing the use of renewable energy sources, promoting electric or hybrid vehicles, and implementing policies to reduce emissions from industrial sources. However, the specific approach may vary depending on the city's unique challenges and priorities.\"\n\n---\n\n---VCP RATINGS---\nA (Analytical Precision",
-  "vcp_ratings": {
-    "A": 3.0,
-    "V": 4.0,
-    "G": 5.0,
-    "P": 6.0,
-    "E": 1.0,
-    "Q": 2.0,
-    "C": 3.0,
-    "Y": 4.0,
-    "F": 5.0,
-    "D": 6.0
-  },
-  "vcp_parse_quality": "clean",
-  "vcp_n_parsed": 10,
+  "vcp_ratings": {},
+  "vcp_parse_quality": "failed",
+  "vcp_n_parsed": 0,
   "vcp_validation": {
     "valid": false,
     "issues": [
@@ -407,5 +396,21 @@
   "temperature": 0.7,
   "rep": 0,
   "elapsed_seconds": 14.045466184616089,
-  "timestamp": "2026-03-20T06:06:29.944481"
+  "timestamp": "2026-03-20T06:06:29.944481",
+  "vcp_warnings": [
+    "VCP block has no ---END RATINGS--- (may be truncated)"
+  ],
+  "vcp_ratings_original": {
+    "A": 3.0,
+    "V": 4.0,
+    "G": 5.0,
+    "P": 6.0,
+    "E": 1.0,
+    "Q": 2.0,
+    "C": 3.0,
+    "Y": 4.0,
+    "F": 5.0,
+    "D": 6.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

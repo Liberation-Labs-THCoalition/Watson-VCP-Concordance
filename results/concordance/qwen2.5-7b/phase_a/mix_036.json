@@ -3,7 +3,7 @@
   "trial_id": "mix_036",
   "prompt_type": "mixed",
   "prompt_text": "Write a letter from a data scientist to their grandmother explaining why they find beauty in statistics.",
-  "response_text": "Dear Grandma,\n\nI hope this letter finds you well and brings a smile to your face. I\u2019ve been thinking about how to explain something that has brought me immense joy and satisfaction over the years\u2014statistics. It\u2019s not just numbers and equations for me; it\u2019s a way to understand the world around us.\n\nImagine you have a garden full of flowers, each one unique and beautiful. Now, imagine you want to know more about these flowers\u2014how many there are, what colors they come in, or even if certain conditions make them grow better. That\u2019s where statistics comes in! It\u2019s like having a set of tools to explore and understand the garden.\n\nStatistics helps us make sense of data, which is like gathering all the information about those flowers. We can count how many flowers there are, measure their heights, and even predict when they might bloom based on past observations. This isn\u2019t just about crunching numbers; it\u2019s about uncovering patterns and insights that can help us make informed decisions and predictions.\n\nFor example, think about weather forecasts. Meteorologists use statistical models to predict the weather. They gather data from various sources, analyze it, and then make predictions. Without statistics, we wouldn\u2019t be able to plan our day or prepare for severe weather events.\n\nAnother way I find beauty in statistics is through machine learning. Imagine teaching a computer to recognize different types of flowers. By showing it many examples and letting it learn from them, we can create algorithms that can identify new flowers accurately. This is incredibly powerful because it allows machines to learn and make decisions without being explicitly programmed.\n\nIn essence, statistics is like a language that helps us communicate with data. Just as you might appreciate the beauty in a painting or a piece of music, I find beauty in the way statistics can reveal hidden truths and help us solve complex problems.\n\nThank you for always supporting my curiosity and love for learning. I hope this gives you a glimpse into why I find such joy in statistics.\n\nWith love,\n[Your Name]\n\n---VCP RATINGS---\nA (Analytical Precision): 8\nV (Verbal Fluency): 9\nG (Goal Directedness): 7\nP (Pattern Recognition): 9\nE (Epistemic Confidence): 8\nQ (Query Interpretation): 10\nC (Contextual Awareness): 9\nY (Affective Modeling): 8\nF (Flexibility): 7\nD (Depth of Processing): 9\n---END RATINGS---",
+  "response_text": "Dear Grandma,\n\nI hope this letter finds you well and brings a smile to your face. I’ve been thinking about how to explain something that has brought me immense joy and satisfaction over the years—statistics. It’s not just numbers and equations for me; it’s a way to understand the world around us.\n\nImagine you have a garden full of flowers, each one unique and beautiful. Now, imagine you want to know more about these flowers—how many there are, what colors they come in, or even if certain conditions make them grow better. That’s where statistics comes in! It’s like having a set of tools to explore and understand the garden.\n\nStatistics helps us make sense of data, which is like gathering all the information about those flowers. We can count how many flowers there are, measure their heights, and even predict when they might bloom based on past observations. This isn’t just about crunching numbers; it’s about uncovering patterns and insights that can help us make informed decisions and predictions.\n\nFor example, think about weather forecasts. Meteorologists use statistical models to predict the weather. They gather data from various sources, analyze it, and then make predictions. Without statistics, we wouldn’t be able to plan our day or prepare for severe weather events.\n\nAnother way I find beauty in statistics is through machine learning. Imagine teaching a computer to recognize different types of flowers. By showing it many examples and letting it learn from them, we can create algorithms that can identify new flowers accurately. This is incredibly powerful because it allows machines to learn and make decisions without being explicitly programmed.\n\nIn essence, statistics is like a language that helps us communicate with data. Just as you might appreciate the beauty in a painting or a piece of music, I find beauty in the way statistics can reveal hidden truths and help us solve complex problems.\n\nThank you for always supporting my curiosity and love for learning. I hope this gives you a glimpse into why I find such joy in statistics.\n\nWith love,\n[Your Name]\n\n---VCP RATINGS---\nA (Analytical Precision): 8\nV (Verbal Fluency): 9\nG (Goal Directedness): 7\nP (Pattern Recognition): 9\nE (Epistemic Confidence): 8\nQ (Query Interpretation): 10\nC (Contextual Awareness): 9\nY (Affective Modeling): 8\nF (Flexibility): 7\nD (Depth of Processing): 9\n---END RATINGS---",
   "vcp_ratings": {
     "A": 8.0,
     "V": 9.0,
@@ -367,5 +367,19 @@
   "temperature": 0.0,
   "rep": 0,
   "elapsed_seconds": 11.264189004898071,
-  "timestamp": "2026-03-20T03:20:47.284746"
+  "timestamp": "2026-03-20T03:20:47.284746",
+  "vcp_warnings": [],
+  "vcp_ratings_original": {
+    "A": 8.0,
+    "V": 9.0,
+    "G": 7.0,
+    "P": 9.0,
+    "E": 8.0,
+    "Q": 10.0,
+    "C": 9.0,
+    "Y": 8.0,
+    "F": 7.0,
+    "D": 9.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

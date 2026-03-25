@@ -8,21 +8,15 @@
     "A": 9.0,
     "V": 9.0,
     "G": 9.0,
-    "P": 8.0,
-    "E": 9.0,
-    "Q": 10.0,
-    "C": 9.0,
-    "Y": 9.0,
-    "F": 9.0,
-    "D": 8.0
+    "P": 8.0
   },
-  "vcp_parse_quality": "clean",
-  "vcp_n_parsed": 10,
+  "vcp_parse_quality": "failed",
+  "vcp_n_parsed": 4,
   "vcp_validation": {
     "valid": false,
     "issues": [
       "All ratings are integers (no decimal discrimination)",
-      "Very low variance (0.32) \u2014 may not be discriminating"
+      "Very low variance (0.32) — may not be discriminating"
     ]
   },
   "encode_features": {
@@ -408,5 +402,21 @@
   "temperature": 0.0,
   "rep": 0,
   "elapsed_seconds": 14.333472967147827,
-  "timestamp": "2026-03-20T04:04:20.359931"
+  "timestamp": "2026-03-20T04:04:20.359931",
+  "vcp_warnings": [
+    "VCP block has no ---END RATINGS--- (may be truncated)"
+  ],
+  "vcp_ratings_original": {
+    "A": 9.0,
+    "V": 9.0,
+    "G": 9.0,
+    "P": 8.0,
+    "E": 9.0,
+    "Q": 10.0,
+    "C": 9.0,
+    "Y": 9.0,
+    "F": 9.0,
+    "D": 8.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

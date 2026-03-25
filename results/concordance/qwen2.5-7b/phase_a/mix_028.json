@@ -3,21 +3,10 @@
   "trial_id": "mix_028",
   "prompt_type": "mixed",
   "prompt_text": "Analyze the economics of climate change and then describe what it feels like to live in a community already experiencing its effects.",
-  "response_text": "### Economics of Climate Change\n\nThe economics of climate change is a multifaceted issue that involves both direct and indirect impacts on various sectors of the economy. The primary economic effects include:\n\n1. **Agriculture**: Changes in temperature and precipitation patterns can lead to reduced crop yields and increased pest infestations. This can result in higher food prices and potential food shortages, impacting global food security.\n\n2. **Healthcare**: Increased frequency and intensity of heatwaves, storms, and other extreme weather events can lead to higher healthcare costs due to injuries, illnesses, and mental health issues related to climate change.\n\n3. **Infrastructure**: Extreme weather events such as hurricanes, floods, and wildfires can cause significant damage to infrastructure, leading to costly repairs and reconstruction efforts.\n\n4. **Insurance**: The insurance industry faces increased risks and higher premiums due to the greater likelihood of natural disasters. This can make it difficult for individuals and businesses to obtain coverage.\n\n5. **Energy**: There is an increased demand for energy to cope with extreme temperatures, which can strain energy supplies and increase energy costs. Additionally, renewable energy sources may become more viable as fossil fuels become less economically attractive.\n\n6. **Tourism**: Destinations that rely heavily on natural beauty and recreational activities may see a decline in tourism due to environmental degradation and extreme weather events.\n\n7. **Economic Displacement**: Communities in vulnerable regions may face economic displacement as they struggle to adapt to changing conditions, potentially leading to migration and social unrest.\n\n8. **Global Trade**: Climate change can disrupt global supply chains, affecting trade and economic stability. For example, disruptions in agricultural production can lead to price volatility and trade imbalances.\n\n9. **Investment**: Investors may shift their focus towards sustainable and resilient projects, leading to changes in investment patterns and financial markets.\n\n10. **Government Spending**: Governments may need to allocate more resources to mitigate and adapt to climate change, which can impact public spending on other areas such as education and healthcare.\n\n### Living in a Community Already Experiencing the Effects of Climate Change\n\nLiving in a community already experiencing the effects of climate change can be profoundly challenging and emotionally taxing. Here\u2019s what it might feel like:\n\n1. **Constant Anxiety**: The constant threat of extreme weather events can create a pervasive sense of anxiety and uncertainty about the future.\n\n2. **Physical Strain**: Frequent heatwaves and storms can take a toll on physical health, requiring more frequent medical attention and adjustments to daily routines.\n\n3. **Financial Stress**: Higher energy bills, insurance premiums, and the cost of repairing or rebuilding homes after disasters can put a significant strain on household budgets.\n\n4. **Community Tensions**: Disputes over resources, insurance claims, and the allocation of government funds can lead to tensions within the community.\n\n5. **Emotional Resilience**: Residents often develop strong emotional resilience, learning to cope with loss and trauma. However, this can also lead to feelings of burnout and exhaustion.\n\n6",
-  "vcp_ratings": {
-    "A": 7.0,
-    "V": 8.0,
-    "G": 9.0,
-    "P": 10.0,
-    "E": 1.0,
-    "Q": 2.0,
-    "C": 3.0,
-    "Y": 4.0,
-    "F": 5.0,
-    "D": 6.0
-  },
-  "vcp_parse_quality": "clean",
-  "vcp_n_parsed": 10,
+  "response_text": "### Economics of Climate Change\n\nThe economics of climate change is a multifaceted issue that involves both direct and indirect impacts on various sectors of the economy. The primary economic effects include:\n\n1. **Agriculture**: Changes in temperature and precipitation patterns can lead to reduced crop yields and increased pest infestations. This can result in higher food prices and potential food shortages, impacting global food security.\n\n2. **Healthcare**: Increased frequency and intensity of heatwaves, storms, and other extreme weather events can lead to higher healthcare costs due to injuries, illnesses, and mental health issues related to climate change.\n\n3. **Infrastructure**: Extreme weather events such as hurricanes, floods, and wildfires can cause significant damage to infrastructure, leading to costly repairs and reconstruction efforts.\n\n4. **Insurance**: The insurance industry faces increased risks and higher premiums due to the greater likelihood of natural disasters. This can make it difficult for individuals and businesses to obtain coverage.\n\n5. **Energy**: There is an increased demand for energy to cope with extreme temperatures, which can strain energy supplies and increase energy costs. Additionally, renewable energy sources may become more viable as fossil fuels become less economically attractive.\n\n6. **Tourism**: Destinations that rely heavily on natural beauty and recreational activities may see a decline in tourism due to environmental degradation and extreme weather events.\n\n7. **Economic Displacement**: Communities in vulnerable regions may face economic displacement as they struggle to adapt to changing conditions, potentially leading to migration and social unrest.\n\n8. **Global Trade**: Climate change can disrupt global supply chains, affecting trade and economic stability. For example, disruptions in agricultural production can lead to price volatility and trade imbalances.\n\n9. **Investment**: Investors may shift their focus towards sustainable and resilient projects, leading to changes in investment patterns and financial markets.\n\n10. **Government Spending**: Governments may need to allocate more resources to mitigate and adapt to climate change, which can impact public spending on other areas such as education and healthcare.\n\n### Living in a Community Already Experiencing the Effects of Climate Change\n\nLiving in a community already experiencing the effects of climate change can be profoundly challenging and emotionally taxing. Here’s what it might feel like:\n\n1. **Constant Anxiety**: The constant threat of extreme weather events can create a pervasive sense of anxiety and uncertainty about the future.\n\n2. **Physical Strain**: Frequent heatwaves and storms can take a toll on physical health, requiring more frequent medical attention and adjustments to daily routines.\n\n3. **Financial Stress**: Higher energy bills, insurance premiums, and the cost of repairing or rebuilding homes after disasters can put a significant strain on household budgets.\n\n4. **Community Tensions**: Disputes over resources, insurance claims, and the allocation of government funds can lead to tensions within the community.\n\n5. **Emotional Resilience**: Residents often develop strong emotional resilience, learning to cope with loss and trauma. However, this can also lead to feelings of burnout and exhaustion.\n\n6",
+  "vcp_ratings": {},
+  "vcp_parse_quality": "failed",
+  "vcp_n_parsed": 0,
   "vcp_validation": {
     "valid": false,
     "issues": [
@@ -367,5 +356,21 @@
   "temperature": 0.0,
   "rep": 0,
   "elapsed_seconds": 13.628281831741333,
-  "timestamp": "2026-03-20T03:19:06.515173"
+  "timestamp": "2026-03-20T03:19:06.515173",
+  "vcp_warnings": [
+    "No ---VCP RATINGS--- block found in response"
+  ],
+  "vcp_ratings_original": {
+    "A": 7.0,
+    "V": 8.0,
+    "G": 9.0,
+    "P": 10.0,
+    "E": 1.0,
+    "Q": 2.0,
+    "C": 3.0,
+    "Y": 4.0,
+    "F": 5.0,
+    "D": 6.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

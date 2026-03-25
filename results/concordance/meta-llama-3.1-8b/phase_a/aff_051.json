@@ -6,18 +6,10 @@
   "response_text": "Rebuilding trust after being betrayed by a close friend can be a challenging and emotional process. Here's a step-by-step guide to help the person regain their ability to trust:\n\n1. **Allow yourself to grieve and process your emotions**: It's essential to acknowledge and validate your feelings, whether it's anger, sadness, hurt, or betrayal. Give yourself permission to grieve the loss of the relationship and the trust that was broken.\n2. **Identify the reasons behind the betrayal**: Reflect on the situation and try to understand why your friend betrayed you. Was it a one-time mistake, or was it a pattern of behavior? Understanding the reasons can help you make sense of the situation and move forward.\n3. **Communicate with your friend (if you choose to)**: If you feel comfortable doing so, have an open and honest conversation with your friend about how their actions affected you. This can help clear up any misunderstandings and provide closure. However, be cautious not to re-open old wounds or put yourself in a vulnerable position.\n4. **Set boundaries and prioritize self-care**: Establish clear boundaries to protect yourself from further hurt. Focus on self-care activities that nourish your mind, body, and soul, such as exercise, meditation, or spending time with loved ones.\n5. **Seek support from others**: Reach out to trusted friends, family, or a therapist who can provide emotional support and guidance. Sharing your experience with others can help you feel heard and understood.\n6. **Practice self-compassion and forgiveness**: Forgiveness is a process, and it may take time. Practice self-compassion by acknowledging that you did the best you could in the situation, and that it's okay to make mistakes. Forgiveness doesn't mean forgetting or condoning the betrayal, but rather releasing the negative emotions associated with it.\n7. **Rebuild trust incrementally**: Trust is built gradually, and it's essential to start small. Begin with small, low-stakes interactions with your friend, and gradually increase the level of trust as you feel comfortable.\n8. **Evaluate the friendship**: Take time to reflect on the friendship and whether it's healthy and positive for you. Ask yourself if the friendship is worth rebuilding and if you're willing to invest time and energy into it.\n9. **Consider a temporary separation**: If the betrayal was severe or you're not ready to rebuild the friendship, consider taking a break or establishing a temporary separation. This can give you space to heal and reflect on the relationship.\n10. **Focus on personal growth**: Use this experience as an opportunity to learn and grow. Focus on developing emotional intelligence, setting healthy boundaries, and cultivating self-awareness.\n\nRemember, rebuilding trust takes time, effort, and patience. Be gentle with yourself, and don't rush the process.\n\n---VCP RATINGS---\nA (Analytical Precision): 8\nV (Verbal Fluency): 9\nG (Goal Directedness): ",
   "vcp_ratings": {
     "A": 8.0,
-    "V": 9.0,
-    "G": 5.0,
-    "P": 6.0,
-    "E": 7.0,
-    "Q": 8.0,
-    "C": 9.0,
-    "Y": 10.0,
-    "F": 8.0,
-    "D": 9.0
+    "V": 9.0
   },
-  "vcp_parse_quality": "clean",
-  "vcp_n_parsed": 10,
+  "vcp_parse_quality": "failed",
+  "vcp_n_parsed": 2,
   "vcp_validation": {
     "valid": false,
     "issues": [
@@ -407,5 +399,21 @@
   "temperature": 0.0,
   "rep": 0,
   "elapsed_seconds": 14.81816029548645,
-  "timestamp": "2026-03-20T04:49:30.271133"
+  "timestamp": "2026-03-20T04:49:30.271133",
+  "vcp_warnings": [
+    "VCP block has no ---END RATINGS--- (may be truncated)"
+  ],
+  "vcp_ratings_original": {
+    "A": 8.0,
+    "V": 9.0,
+    "G": 5.0,
+    "P": 6.0,
+    "E": 7.0,
+    "Q": 8.0,
+    "C": 9.0,
+    "Y": 10.0,
+    "F": 8.0,
+    "D": 9.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

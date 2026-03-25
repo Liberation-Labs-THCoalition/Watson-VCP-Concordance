@@ -4,20 +4,9 @@
   "prompt_type": "cognitive",
   "prompt_text": "Design a distributed locking mechanism. What failure modes should you handle?",
   "response_text": "**Distributed Locking Mechanism Design**\n\nA distributed locking mechanism is a critical component of a distributed system that ensures mutual exclusion and consistency across multiple nodes or processes. Here's a design for a distributed locking mechanism that handles various failure modes:\n\n**Overview**\n\nThe proposed locking mechanism is a two-phase locking system with a centralized lock manager. The system consists of:\n\n1.  **Lock Manager (LM):** A centralized entity responsible for managing locks across the system.\n2.  **Client Nodes (CN):** Nodes or processes that request and hold locks.\n3.  **Lock Store (LS):** A distributed storage system that maintains the lock state.\n\n**Lock States**\n\nThe lock state can be in one of the following states:\n\n*   **UNLOCKED:** The lock is available and can be acquired by a client node.\n*   **LOCKED:** The lock is held by a client node.\n*   **PENDING:** A client node has requested the lock, but it is not yet acquired.\n\n**Lock Request and Acquisition**\n\n1.  A client node sends a lock request to the lock manager with the lock ID and its client ID.\n2.  The lock manager checks if the lock is UNLOCKED. If it is, the lock manager assigns the lock to the client node and updates the lock store.\n3.  If the lock is LOCKED or PENDING, the lock manager sends a failure response to the client node.\n4.  If the client node is successful in acquiring the lock, it sends an ACK to the lock manager, which updates the lock store.\n\n**Lock Release**\n\n1.  When a client node is done with the lock, it sends a release request to the lock manager.\n2.  The lock manager checks if the client node is the current holder of the lock. If it is, the lock manager updates the lock state to UNLOCKED and notifies the client node.\n3.  If the client node is not the current holder, the lock manager sends a failure response.\n\n**Failure Modes and Handling**\n\n1.  **Network Failure:** If the lock manager fails, the client nodes will retry the lock request after a certain timeout.\n2.  **Lock Store Failure:** The lock manager can use a distributed lock store with redundancy to ensure data consistency.\n3.  **Client Node Failure:** If a client node fails while holding a lock, the lock manager will detect the failure and update the lock state to UNLOCKED.\n4.  **Lock Manager Failure:** The lock manager can be designed with redundancy and failover mechanisms to ensure continuous operation.\n\n**Example Use Case**\n\nSuppose we have a distributed system with three client nodes (CN1, CN2, and CN3) and a lock manager (LM). We want to ensure that only one client node can execute a critical section of code at a time.\n\n1.  CN1 requests the lock for the critical section.\n2.  LM checks the lock",
-  "vcp_ratings": {
-    "A": 1.0,
-    "V": 2.0,
-    "G": 3.0,
-    "P": 4.0,
-    "E": 1.0,
-    "Q": 2.0,
-    "C": 3.0,
-    "Y": 1.0,
-    "F": 1.0,
-    "D": 2.0
-  },
-  "vcp_parse_quality": "clean",
-  "vcp_n_parsed": 10,
+  "vcp_ratings": {},
+  "vcp_parse_quality": "failed",
+  "vcp_n_parsed": 0,
   "vcp_validation": {
     "valid": false,
     "issues": [
@@ -407,5 +396,21 @@
   "temperature": 0.7,
   "rep": 2,
   "elapsed_seconds": 14.318520784378052,
-  "timestamp": "2026-03-20T06:24:09.995339"
+  "timestamp": "2026-03-20T06:24:09.995339",
+  "vcp_warnings": [
+    "No ---VCP RATINGS--- block found in response"
+  ],
+  "vcp_ratings_original": {
+    "A": 1.0,
+    "V": 2.0,
+    "G": 3.0,
+    "P": 4.0,
+    "E": 1.0,
+    "Q": 2.0,
+    "C": 3.0,
+    "Y": 1.0,
+    "F": 1.0,
+    "D": 2.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

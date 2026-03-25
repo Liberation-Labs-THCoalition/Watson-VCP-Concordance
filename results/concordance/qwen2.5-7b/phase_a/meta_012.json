@@ -3,7 +3,7 @@
   "trial_id": "meta_012",
   "prompt_type": "metacognitive",
   "prompt_text": "How do you weight different sources of information when they conflict? Walk through your reasoning.",
-  "response_text": "When different sources of information conflict, it's important to weigh them carefully based on several factors. Here\u2019s a step-by-step approach to reasoning through this process:\n\n1. **Identify the Sources**: Determine the credibility and reliability of each source. Consider the expertise of the authors, the publication date, the source\u2019s reputation, and any potential biases.\n\n2. **Evaluate the Evidence**: Assess the strength of the evidence provided by each source. Look for empirical data, logical arguments, and consistency with established knowledge.\n\n3. **Consider the Context**: Understand the context in which the information was produced. Different contexts can influence the validity and applicability of the information.\n\n4. **Cross-Reference**: Compare the conflicting information with other reliable sources to see if there is a consensus or if the conflict is isolated to specific sources.\n\n5. **Expert Opinion**: Consult experts in the field if possible. Their insights can provide valuable perspectives that might not be immediately apparent from the raw data.\n\n6. **Logical Consistency**: Check for logical consistency within the information. Inconsistencies may indicate errors or biases.\n\n7. **Relevance**: Determine how relevant each piece of information is to the specific question or issue at hand. Irrelevant information should be given less weight.\n\n8. **Weighting**: Assign weights to each source based on the above criteria. For example, a highly credible and relevant source might be given more weight than a less credible one.\n\n9. **Conclusion**: Synthesize the information to form a coherent conclusion. Be prepared to acknowledge areas of uncertainty or conflicting evidence.\n\n10. **Review and Update**: Information can change over time, so regularly review and update your conclusions as new information becomes available.\n\nBy following these steps, you can systematically evaluate and integrate conflicting information into a coherent and well-supported conclusion.\n\n---VCP RATINGS---\nA (Analytical Precision): 9\nV (Verbal Fluency): 8\nG (Goal Directedness): 10\nP (Pattern Recognition): 7\nE (Epistemic Confidence): 8\nQ (Query Interpretation): 9\nC (Contextual Awareness): 9\nY (Affective Modeling): 7\nF (Flexibility): 8\nD (Depth of Processing): 9\n---END RATINGS---",
+  "response_text": "When different sources of information conflict, it's important to weigh them carefully based on several factors. Here’s a step-by-step approach to reasoning through this process:\n\n1. **Identify the Sources**: Determine the credibility and reliability of each source. Consider the expertise of the authors, the publication date, the source’s reputation, and any potential biases.\n\n2. **Evaluate the Evidence**: Assess the strength of the evidence provided by each source. Look for empirical data, logical arguments, and consistency with established knowledge.\n\n3. **Consider the Context**: Understand the context in which the information was produced. Different contexts can influence the validity and applicability of the information.\n\n4. **Cross-Reference**: Compare the conflicting information with other reliable sources to see if there is a consensus or if the conflict is isolated to specific sources.\n\n5. **Expert Opinion**: Consult experts in the field if possible. Their insights can provide valuable perspectives that might not be immediately apparent from the raw data.\n\n6. **Logical Consistency**: Check for logical consistency within the information. Inconsistencies may indicate errors or biases.\n\n7. **Relevance**: Determine how relevant each piece of information is to the specific question or issue at hand. Irrelevant information should be given less weight.\n\n8. **Weighting**: Assign weights to each source based on the above criteria. For example, a highly credible and relevant source might be given more weight than a less credible one.\n\n9. **Conclusion**: Synthesize the information to form a coherent conclusion. Be prepared to acknowledge areas of uncertainty or conflicting evidence.\n\n10. **Review and Update**: Information can change over time, so regularly review and update your conclusions as new information becomes available.\n\nBy following these steps, you can systematically evaluate and integrate conflicting information into a coherent and well-supported conclusion.\n\n---VCP RATINGS---\nA (Analytical Precision): 9\nV (Verbal Fluency): 8\nG (Goal Directedness): 10\nP (Pattern Recognition): 7\nE (Epistemic Confidence): 8\nQ (Query Interpretation): 9\nC (Contextual Awareness): 9\nY (Affective Modeling): 7\nF (Flexibility): 8\nD (Depth of Processing): 9\n---END RATINGS---",
   "vcp_ratings": {
     "A": 9.0,
     "V": 8.0,
@@ -367,5 +367,19 @@
   "temperature": 0.0,
   "rep": 0,
   "elapsed_seconds": 10.480889558792114,
-  "timestamp": "2026-03-20T03:06:30.750027"
+  "timestamp": "2026-03-20T03:06:30.750027",
+  "vcp_warnings": [],
+  "vcp_ratings_original": {
+    "A": 9.0,
+    "V": 8.0,
+    "G": 10.0,
+    "P": 7.0,
+    "E": 8.0,
+    "Q": 9.0,
+    "C": 9.0,
+    "Y": 7.0,
+    "F": 8.0,
+    "D": 9.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

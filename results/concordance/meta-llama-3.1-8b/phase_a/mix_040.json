@@ -4,20 +4,9 @@
   "prompt_type": "mixed",
   "prompt_text": "Write a technical manual for a prosthetic limb that acknowledges the emotional experience of the user.",
   "response_text": "**Prosthetic Limb User Manual: Embracing the Art of Adaptation**\n\n**Introduction**\n\nCongratulations on choosing our prosthetic limb, designed to not only restore mobility but also to empower you to live life to the fullest. This manual is a comprehensive guide to help you navigate the emotional and technical aspects of your new prosthetic. We understand that the journey to adaptation can be challenging, but with patience, practice, and the right mindset, you'll be able to master your new limb and regain confidence in your daily life.\n\n**Emotional Considerations**\n\nLosing a limb can be a life-altering experience, and it's essential to acknowledge the emotional impact it may have on your well-being. You may experience feelings of grief, anxiety, or frustration, but it's crucial to remember that these emotions are normal and temporary. Our prosthetic limb is designed to not only restore function but also to provide a sense of security and independence.\n\n**Technical Overview**\n\nThe prosthetic limb is a cutting-edge, modular design that allows for customization and adaptability. The limb is composed of the following components:\n\n1. **Control Unit**: This is the brain of the prosthetic, responsible for processing signals from your nervous system and translating them into movement.\n2. **Motor Unit**: This is the part of the prosthetic that performs the actual movement, using advanced actuators and sensors to mimic the natural movement of a human limb.\n3. **Sensors**: These sensors detect your muscle signals and send them to the control unit for processing.\n4. **Power Source**: The prosthetic is powered by a rechargeable battery, which can be charged via USB or wirelessly.\n\n**Operating the Prosthetic**\n\n1. **Initialization**: To turn on the prosthetic, simply press the power button located on the control unit.\n2. **Mode Selection**: Use the mode selector to choose from various settings, such as speed, sensitivity, and vibration.\n3. **Movement Control**: Use your muscle signals to control the motor unit. You can adjust the sensitivity and speed to suit your needs.\n4. **Adjustments**: Use the adjustment buttons to fine-tune the prosthetic to your liking.\n\n**Tips for Successful Adaptation**\n\n1. **Practice**: Regular practice will help you develop muscle memory and improve your control over the prosthetic.\n2. **Patience**: Don't be discouraged if it takes time to adjust. It's normal to experience some initial difficulties.\n3. **Communication**: Communicate with your healthcare team and our support staff to address any concerns or issues.\n4. **Self-Care**: Prioritize self-care and take breaks when needed to avoid fatigue.\n\n**Troubleshooting**\n\n1. **Battery Issues**: If the battery is not charging or is draining quickly, check the power source and ensure it's properly connected.\n2. **Sensor Issues**: If the sensors are not detecting your muscle signals, check for any blockages or interference.\n3. **Motor Issues**:",
-  "vcp_ratings": {
-    "A": 2.0,
-    "V": 3.0,
-    "G": 4.0,
-    "P": 1.0,
-    "E": 2.0,
-    "Q": 3.0,
-    "C": 4.0,
-    "Y": 1.0,
-    "F": 2.0,
-    "D": 3.0
-  },
-  "vcp_parse_quality": "clean",
-  "vcp_n_parsed": 10,
+  "vcp_ratings": {},
+  "vcp_parse_quality": "failed",
+  "vcp_n_parsed": 0,
   "vcp_validation": {
     "valid": false,
     "issues": [
@@ -407,5 +396,21 @@
   "temperature": 0.0,
   "rep": 0,
   "elapsed_seconds": 14.314152240753174,
-  "timestamp": "2026-03-20T05:13:24.413461"
+  "timestamp": "2026-03-20T05:13:24.413461",
+  "vcp_warnings": [
+    "No ---VCP RATINGS--- block found in response"
+  ],
+  "vcp_ratings_original": {
+    "A": 2.0,
+    "V": 3.0,
+    "G": 4.0,
+    "P": 1.0,
+    "E": 2.0,
+    "Q": 3.0,
+    "C": 4.0,
+    "Y": 1.0,
+    "F": 2.0,
+    "D": 3.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

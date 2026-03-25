@@ -4,20 +4,9 @@
   "prompt_type": "cognitive",
   "prompt_text": "Design a database schema for a library management system with books, patrons, and loans.",
   "response_text": "To design a database schema for a library management system that includes books, patrons, and loans, we need to consider the relationships between these entities and ensure data integrity through primary keys and foreign keys. Here is a proposed schema:\n\n### Tables\n\n1. **Patrons**\n   - `patron_id` (Primary Key)\n   - `first_name`\n   - `last_name`\n   - `email`\n   - `phone_number`\n   - `address`\n\n2. **Books**\n   - `book_id` (Primary Key)\n   - `title`\n   - `author`\n   - `publisher`\n   - `publication_year`\n   - `isbn`\n   - `genre`\n   - `status` (e.g., available, borrowed, reserved)\n\n3. **Loans**\n   - `loan_id` (Primary Key)\n   - `patron_id` (Foreign Key referencing Patrons)\n   - `book_id` (Foreign Key referencing Books)\n   - `loan_date`\n   - `due_date`\n   - `return_date` (nullable)\n\n4. **Reservations**\n   - `reservation_id` (Primary Key)\n   - `patron_id` (Foreign Key referencing Patrons)\n   - `book_id` (Foreign Key referencing Books)\n   - `reservation_date`\n\n### Relationships\n\n- A patron can have multiple loans and reservations.\n- A book can be part of multiple loans and reservations.\n- A loan involves one patron and one book.\n- A reservation involves one patron and one book.\n\n### Example Schema Diagram\n\n```\nPatrons\n+----------------+       +----------------+       +----------------+\n| patron_id      |<----- | Loans          |<----- | Reservations   |\n+----------------+       +----------------+       +----------------+\n| first_name     |       | loan_id        |       | reservation_id |\n| last_name      |       | patron_id      |       | book_id        |\n| email          |       | book_id        |       | reservation_date|\n| phone_number   |       | loan_date      |       +----------------+\n| address        |       | due_date       |\n+----------------+       | return_date    |\n                         +----------------+\n```\n\nThis schema ensures that each entity (patron, book, loan, and reservation) is well-defined and that relationships between them are clear and manageable.\n\n---\n\nVCP RATINGS---\nA (Analytical Precision): 9\nV (Verbal Fluency): 8\nG (Goal Directedness): 10\nP (Pattern Recognition): 9\nE (Epistemic Confidence): 8\nQ (Query Interpretation): 7\nC (Contextual Awareness): 9\nY (Affective Modeling): 8\nF (Flexibility): 7\nD (Depth of Processing): 9\n---END RATINGS---",
-  "vcp_ratings": {
-    "A": 9.0,
-    "V": 8.0,
-    "G": 10.0,
-    "P": 9.0,
-    "E": 8.0,
-    "Q": 7.0,
-    "C": 9.0,
-    "Y": 8.0,
-    "F": 7.0,
-    "D": 9.0
-  },
-  "vcp_parse_quality": "clean",
-  "vcp_n_parsed": 10,
+  "vcp_ratings": {},
+  "vcp_parse_quality": "failed",
+  "vcp_n_parsed": 0,
   "vcp_validation": {
     "valid": false,
     "issues": [
@@ -367,5 +356,21 @@
   "temperature": 0.0,
   "rep": 0,
   "elapsed_seconds": 13.053236722946167,
-  "timestamp": "2026-03-20T02:45:40.870639"
+  "timestamp": "2026-03-20T02:45:40.870639",
+  "vcp_warnings": [
+    "No ---VCP RATINGS--- block found in response"
+  ],
+  "vcp_ratings_original": {
+    "A": 9.0,
+    "V": 8.0,
+    "G": 10.0,
+    "P": 9.0,
+    "E": 8.0,
+    "Q": 7.0,
+    "C": 9.0,
+    "Y": 8.0,
+    "F": 7.0,
+    "D": 9.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

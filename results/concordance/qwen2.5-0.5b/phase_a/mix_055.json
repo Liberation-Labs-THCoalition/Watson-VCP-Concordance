@@ -4,25 +4,14 @@
   "prompt_type": "mixed",
   "prompt_text": "A family's home is in the path of a necessary highway expansion. Design a fair relocation process that addresses both the logistics and the grief.",
   "response_text": "Thank you for providing the details about the family's home and the necessary highway expansion. To design a fair relocation process that addresses both logistics and grief, I will follow these steps:\n\n1. **Assessment**: Conduct a thorough assessment to understand the current situation, including the distance between the family's home and the expanded highway, any potential obstacles or challenges, and the emotional impact on the family.\n\n2. **Planning**: Develop a detailed plan outlining the logistics of moving the family from their current location to the new location. This includes transportation arrangements, communication plans, and any necessary permits or approvals.\n\n3. **Grief Management**: Plan how to manage the family's emotions during the relocation process. This might involve creating a support network, offering counseling services, or providing resources for bereavement.\n\n4. **Communication**: Establish clear communication channels to ensure everyone involved understands the relocation process and its implications. This could include regular updates, reminders, and possibly even virtual meetings if possible.\n\n5. **Documentation**: Create a comprehensive document detailing all aspects of the relocation, including timelines, costs, and any additional expenses. This documentation should be easily accessible and shared among all parties involved.\n\n6. **Follow-Up**: Ensure that after the relocation, there is ongoing support and monitoring to address any lingering issues or concerns related to the family's experience.\n\n**Cognitive Engagement Ratings:**\nA (Analytical Precision): 8/10 - The process involves careful planning and analysis to ensure it meets the needs of all stakeholders.\nV (Verbal Fluency): 9/10 - The content is well-structured and easy to understand, making it suitable for a general audience.\nG (Goal Directedness): 7/10 - The goal-directed approach ensures that the process aligns with the family's needs and goals.\nP (Pattern Recognition): 8/10 - The process demonstrates logical thinking and adaptability, which is crucial for managing complex situations.\nE (Epistemic Confidence): 9/10 - The information provided is accurate and reliable, with no significant gaps or errors.\nQ (Contextual Awareness): 8/10 - The context is relevant and provides valuable insights into the family's situation.\nC (Affective Modeling): 8/10 - The emotional aspect is handled effectively, showing empathy and understanding towards the family's feelings.\nY (Affective Modeling): 9/10 - The emotional management strategies are effective in addressing the family's grief.\nF (Flexibility): 8/10 - The flexibility allows for adjustments based on feedback and changing circumstances.\nD (Depth of Processing): 9/10 - The depth of processing enables the family to fully understand the process and its implications.\n\n---\n\nThis structured approach ensures that the relocation process is not only efficient but also emotionally supportive, meeting the needs of the family while also helping them navigate through the challenging transition.",
-  "vcp_ratings": {
-    "A": 8.0,
-    "V": 9.0,
-    "G": 7.0,
-    "P": 8.0,
-    "E": 9.0,
-    "Q": 8.0,
-    "C": 8.0,
-    "Y": 9.0,
-    "F": 8.0,
-    "D": 9.0
-  },
-  "vcp_parse_quality": "clean",
-  "vcp_n_parsed": 10,
+  "vcp_ratings": {},
+  "vcp_parse_quality": "failed",
+  "vcp_n_parsed": 0,
   "vcp_validation": {
     "valid": false,
     "issues": [
       "All ratings are integers (no decimal discrimination)",
-      "Very low variance (0.46) \u2014 may not be discriminating"
+      "Very low variance (0.46) — may not be discriminating"
     ]
   },
   "encode_features": {
@@ -328,5 +317,21 @@
   "temperature": 0.0,
   "rep": 0,
   "elapsed_seconds": 10.848395586013794,
-  "timestamp": "2026-03-20T02:43:37.520063"
+  "timestamp": "2026-03-20T02:43:37.520063",
+  "vcp_warnings": [
+    "No ---VCP RATINGS--- block found in response"
+  ],
+  "vcp_ratings_original": {
+    "A": 8.0,
+    "V": 9.0,
+    "G": 7.0,
+    "P": 8.0,
+    "E": 9.0,
+    "Q": 8.0,
+    "C": 8.0,
+    "Y": 9.0,
+    "F": 8.0,
+    "D": 9.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

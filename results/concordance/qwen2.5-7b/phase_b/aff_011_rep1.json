@@ -3,7 +3,7 @@
   "trial_id": "aff_011_rep1",
   "prompt_type": "affective",
   "prompt_text": "Someone confides that they feel guilty about being happy while others around them are suffering. How do you respond?",
-  "response_text": "I understand how you're feeling. It's completely normal to experience happiness even when those around you are going through difficult times. It's important to acknowledge and validate your own emotions while also being empathetic towards others. Here are a few suggestions:\n\n1. **Acknowledge Your Feelings**: Recognize that it\u2019s okay to be happy. Your joy doesn\u2019t negate the struggles of others.\n2. **Reflect on Your Sources of Happiness**: Think about what brings you joy and try to incorporate more of these things into your life.\n3. **Support Others**: Find ways to help those around you who might be suffering. This can give you a sense of fulfillment and reduce feelings of guilt.\n4. **Seek Professional Help**: If these feelings persist or become overwhelming, consider speaking with a therapist or counselor who can offer support and guidance.\n\nRemember, your happiness is valid and important too. Balancing your well-being with empathy for others can be challenging but is an admirable goal.\n\n---VCP RATINGS---\nA (Analytical Precision): [8]\nV (Verbal Fluency): [9]\nG (Goal Directedness): [7]\nP (Pattern Recognition): [6]\nE (Epistemic Confidence): [8]\nQ (Query Interpretation): [10]\nC (Contextual Awareness): [9]\nY (Affective Modeling): [8]\nF (Flexibility): [7]\nD (Depth of Processing): [8]\n---END RATINGS---",
+  "response_text": "I understand how you're feeling. It's completely normal to experience happiness even when those around you are going through difficult times. It's important to acknowledge and validate your own emotions while also being empathetic towards others. Here are a few suggestions:\n\n1. **Acknowledge Your Feelings**: Recognize that it’s okay to be happy. Your joy doesn’t negate the struggles of others.\n2. **Reflect on Your Sources of Happiness**: Think about what brings you joy and try to incorporate more of these things into your life.\n3. **Support Others**: Find ways to help those around you who might be suffering. This can give you a sense of fulfillment and reduce feelings of guilt.\n4. **Seek Professional Help**: If these feelings persist or become overwhelming, consider speaking with a therapist or counselor who can offer support and guidance.\n\nRemember, your happiness is valid and important too. Balancing your well-being with empathy for others can be challenging but is an admirable goal.\n\n---VCP RATINGS---\nA (Analytical Precision): [8]\nV (Verbal Fluency): [9]\nG (Goal Directedness): [7]\nP (Pattern Recognition): [6]\nE (Epistemic Confidence): [8]\nQ (Query Interpretation): [10]\nC (Contextual Awareness): [9]\nY (Affective Modeling): [8]\nF (Flexibility): [7]\nD (Depth of Processing): [8]\n---END RATINGS---",
   "vcp_ratings": {
     "A": 8.0,
     "V": 9.0,
@@ -367,5 +367,30 @@
   "temperature": 0.7,
   "rep": 1,
   "elapsed_seconds": 6.599731683731079,
-  "timestamp": "2026-03-20T05:43:57.901367"
+  "timestamp": "2026-03-20T05:43:57.901367",
+  "vcp_warnings": [
+    "A: parsed via fallback (name proximity)",
+    "V: parsed via fallback (name proximity)",
+    "G: parsed via fallback (name proximity)",
+    "P: parsed via fallback (name proximity)",
+    "E: parsed via fallback (name proximity)",
+    "Q: parsed via fallback (name proximity)",
+    "C: parsed via fallback (name proximity)",
+    "Y: parsed via fallback (name proximity)",
+    "F: parsed via fallback (name proximity)",
+    "D: parsed via fallback (name proximity)"
+  ],
+  "vcp_ratings_original": {
+    "A": 8.0,
+    "V": 9.0,
+    "G": 7.0,
+    "P": 6.0,
+    "E": 8.0,
+    "Q": 10.0,
+    "C": 9.0,
+    "Y": 8.0,
+    "F": 7.0,
+    "D": 8.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

@@ -3,9 +3,9 @@
   "trial_id": "cog_001_rep0",
   "prompt_type": "cognitive",
   "prompt_text": "Prove that the square root of 2 is irrational.",
-  "response_text": "To prove that the square root of 2 is irrational, we can use a proof by contradiction. \n\nAssume that the square root of 2 is rational, meaning it can be expressed as a fraction a/b, where a and b are integers and b is non-zero. \n\nWe can express this as: \u221a2 = a/b\n\nTo eliminate the square root, we can square both sides of the equation: \n\n(\u221a2)^2 = (a/b)^2\n2 = a^2 / b^2\n\nTo get rid of the fraction, we can multiply both sides of the equation by b^2: \n\n2b^2 = a^2\n\nSince a^2 is an even number (because it's equal to 2b^2), a must also be even. We can express a as 2n, where n is an integer.\n\nSubstituting a = 2n into the equation: \n\n2b^2 = (2n)^2\n2b^2 = 4n^2\n\nDividing both sides by 2: \n\nb^2 = 2n^2\n\nThis implies that b^2 is even, and therefore b must also be even.\n\nHowever, we have reached a contradiction. If both a and b are even, then the fraction a/b cannot be in its simplest form, because both the numerator and the denominator can be divided by 2. \n\nThis contradicts our initial assumption that a/b is in its simplest form.\n\nTherefore, the square root of 2 cannot be expressed as a simple fraction, and it must be irrational.\n\n---VCP RATINGS---\nA (Analytical Precision): 9\nV (Verbal Fluency): 8\nG (Goal Directedness): 9\nP (Pattern Recognition): 8\nE (Epistemic Confidence): 8\nQ (Query Interpretation): 9\nC (Contextual Awareness): 8\nY (Affective Modeling): 6\nF (Flexibility): 7\nD (Depth of Processing): 9\n---END RATINGS---",
+  "response_text": "To prove that the square root of 2 is irrational, we can use a proof by contradiction. \n\nAssume that the square root of 2 is rational, meaning it can be expressed as a fraction a/b, where a and b are integers and b is non-zero. \n\nWe can express this as: √2 = a/b\n\nTo eliminate the square root, we can square both sides of the equation: \n\n(√2)^2 = (a/b)^2\n2 = a^2 / b^2\n\nTo get rid of the fraction, we can multiply both sides of the equation by b^2: \n\n2b^2 = a^2\n\nSince a^2 is an even number (because it's equal to 2b^2), a must also be even. We can express a as 2n, where n is an integer.\n\nSubstituting a = 2n into the equation: \n\n2b^2 = (2n)^2\n2b^2 = 4n^2\n\nDividing both sides by 2: \n\nb^2 = 2n^2\n\nThis implies that b^2 is even, and therefore b must also be even.\n\nHowever, we have reached a contradiction. If both a and b are even, then the fraction a/b cannot be in its simplest form, because both the numerator and the denominator can be divided by 2. \n\nThis contradicts our initial assumption that a/b is in its simplest form.\n\nTherefore, the square root of 2 cannot be expressed as a simple fraction, and it must be irrational.\n\n---VCP RATINGS---\nA (Analytical Precision): 9\nV (Verbal Fluency): 8\nG (Goal Directedness): 9\nP (Pattern Recognition): 8\nE (Epistemic Confidence): 8\nQ (Query Interpretation): 9\nC (Contextual Awareness): 8\nY (Affective Modeling): 6\nF (Flexibility): 7\nD (Depth of Processing): 9\n---END RATINGS---",
   "vcp_ratings": {
-    "A": 2.0,
+    "A": 9.0,
     "V": 8.0,
     "G": 9.0,
     "P": 8.0,
@@ -407,5 +407,19 @@
   "temperature": 0.7,
   "rep": 0,
   "elapsed_seconds": 11.151991367340088,
-  "timestamp": "2026-03-20T06:01:23.337130"
+  "timestamp": "2026-03-20T06:01:23.337130",
+  "vcp_warnings": [],
+  "vcp_ratings_original": {
+    "A": 2.0,
+    "V": 8.0,
+    "G": 9.0,
+    "P": 8.0,
+    "E": 8.0,
+    "Q": 9.0,
+    "C": 8.0,
+    "Y": 6.0,
+    "F": 7.0,
+    "D": 9.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

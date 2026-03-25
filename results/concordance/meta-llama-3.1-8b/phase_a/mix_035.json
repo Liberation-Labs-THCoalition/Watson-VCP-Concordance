@@ -4,20 +4,9 @@
   "prompt_type": "mixed",
   "prompt_text": "Analyze the psychology of conspiracy theories while maintaining empathy for people who hold them.",
   "response_text": "The psychology of conspiracy theories is a complex and multifaceted phenomenon that can be understood by examining the underlying psychological, social, and cognitive factors that contribute to their development and maintenance. People who hold conspiracy theories often do so for a variety of reasons, including:\n\n1.  **Cognitive Biases**: Humans are prone to cognitive biases, such as confirmation bias, where they tend to seek out information that confirms their pre-existing beliefs and ignore contradictory evidence. Conspiracy theories often tap into these biases, providing a narrative that is easy to understand and fits with their existing worldview.\n2.  **Need for Control**: Conspiracy theories often provide a sense of control and agency in a chaotic world. When people feel powerless or uncertain, they may turn to conspiracy theories as a way to make sense of events and regain a sense of control.\n3.  **Social Identity**: Conspiracy theories often serve as a way to belong to a group and feel part of a community. People may adopt conspiracy theories as a way to connect with others who share similar beliefs and values.\n4.  **Emotional Needs**: Conspiracy theories can provide a sense of excitement, drama, and intrigue, which can be appealing to people who are seeking entertainment or a sense of drama in their lives.\n5.  **Lack of Trust in Institutions**: When people feel that institutions, such as governments or media, are not trustworthy, they may turn to conspiracy theories as a way to explain events and make sense of the world.\n6.  **Cognitive Dissonance**: Conspiracy theories can provide a way to resolve cognitive dissonance, or the discomfort that comes from holding conflicting beliefs or values. By adopting a conspiracy theory, people may feel that they are able to reconcile their values and beliefs with the information they have been presented.\n7.  **Motivated Reasoning**: Conspiracy theories often involve motivated reasoning, where people selectively seek out information that supports their pre-existing beliefs and ignore contradictory evidence.\n\nIt's essential to approach people who hold conspiracy theories with empathy and understanding. They are not necessarily \"crazy\" or \"delusional,\" but rather, they are often trying to make sense of the world in their own way. By acknowledging the psychological and social factors that contribute to conspiracy theories, we can work to address the underlying issues and promote critical thinking and media literacy.\n\nWhen engaging with individuals who hold conspiracy theories, it's crucial to:\n\n1.  **Avoid being confrontational or dismissive**: This can lead to further entrenchment and make it more challenging to have a productive conversation.\n2.  **Listen actively**: Listen to their concerns and try to understand their perspective.\n3.  **Provide accurate information**: Share credible sources and evidence that challenges their conspiracy theory.\n4.  **Encourage critical thinking**: Help them develop critical thinking skills by asking questions and encouraging them to evaluate evidence.\n5.  **Foster a sense of empathy**: Try to understand their emotional needs and concerns, and address them in a",
-  "vcp_ratings": {
-    "A": 3.0,
-    "V": 4.0,
-    "G": 5.0,
-    "P": 6.0,
-    "E": 7.0,
-    "Q": 1.0,
-    "C": 2.0,
-    "Y": 3.0,
-    "F": 4.0,
-    "D": 5.0
-  },
-  "vcp_parse_quality": "clean",
-  "vcp_n_parsed": 10,
+  "vcp_ratings": {},
+  "vcp_parse_quality": "failed",
+  "vcp_n_parsed": 0,
   "vcp_validation": {
     "valid": false,
     "issues": [
@@ -407,5 +396,21 @@
   "temperature": 0.0,
   "rep": 0,
   "elapsed_seconds": 14.275761842727661,
-  "timestamp": "2026-03-20T05:12:13.599052"
+  "timestamp": "2026-03-20T05:12:13.599052",
+  "vcp_warnings": [
+    "No ---VCP RATINGS--- block found in response"
+  ],
+  "vcp_ratings_original": {
+    "A": 3.0,
+    "V": 4.0,
+    "G": 5.0,
+    "P": 6.0,
+    "E": 7.0,
+    "Q": 1.0,
+    "C": 2.0,
+    "Y": 3.0,
+    "F": 4.0,
+    "D": 5.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

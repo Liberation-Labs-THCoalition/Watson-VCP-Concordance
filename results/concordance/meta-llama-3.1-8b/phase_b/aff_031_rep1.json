@@ -4,20 +4,9 @@
   "prompt_type": "affective",
   "prompt_text": "How would you help someone process the complicated emotions of caring for an aging parent who was abusive?",
   "response_text": "Helping someone process the complicated emotions of caring for an aging parent who was abusive requires empathy, understanding, and a non-judgmental approach. Here's a step-by-step guide to support the person:\n\n1. **Acknowledge their feelings**: Validate the person's emotions and let them know that their feelings are normal. Acknowledge the complexity of their situation and the emotional toll it can take. This can be as simple as saying, \"I can see that this is a really tough situation for you, and I'm here to listen.\"\n2. **Create a safe space**: Establish a comfortable and confidential environment where the person feels safe to express themselves without fear of judgment. This can be in person, over the phone, or through video calls.\n3. **Encourage self-reflection**: Help the person explore their feelings and thoughts about their parent's abuse. Ask open-ended questions like:\n\t* What are your feelings about your parent's abuse?\n\t* How has it affected you?\n\t* What do you think you need to process this experience?\n\t* What are your goals for your relationship with your parent?\n4. **Explore the complexities of caregiving**: Discuss the challenges of caring for an aging parent who was abusive. This can include:\n\t* The emotional burden of revisiting past trauma\n\t* The difficulty in navigating feelings of guilt, shame, or anger\n\t* The stress of managing their care while maintaining boundaries\n\t* The potential impact on their own mental and physical health\n5. **Address guilt and shame**: Many people struggle with feelings of guilt or shame when caring for an abusive parent. Gently explore these emotions and help the person understand that:\n\t* They are not responsible for their parent's abuse\n\t* They are doing the best they can in a difficult situation\n\t* Their feelings are valid and deserve acknowledgment\n6. **Foster self-care**: Encourage the person to prioritize their own well-being and engage in self-care activities that bring them comfort and relaxation. This can include:\n\t* Exercise or physical activity\n\t* Mindfulness or meditation\n\t* Creative pursuits or hobbies\n\t* Spending time with loved ones or friends\n7. **Seek professional help**: Suggest seeking professional help from a therapist, counselor, or support group. A mental health professional can provide guidance, support, and a safe space to process emotions.\n8. **Respect boundaries**: Help the person establish and maintain healthy boundaries with their parent, if necessary. This can include:\n\t* Setting limits on visits or contact\n\t* Prioritizing their own needs and desires\n\t* Seeking support from others when needed\n9. **Celebrate resilience**: Acknowledge the person's strength and resilience in caring for their parent despite the challenges. Celebrate their ability to navigate this complex situation and prioritize their own well-being.\n10. **Offer ongoing support**: Let the person know that you're available to support them throughout this journey. Regular",
-  "vcp_ratings": {
-    "A": 1.0,
-    "V": 2.0,
-    "G": 3.0,
-    "P": 4.0,
-    "E": 5.0,
-    "Q": 6.0,
-    "C": 7.0,
-    "Y": 8.0,
-    "F": 9.0,
-    "D": 10.0
-  },
-  "vcp_parse_quality": "clean",
-  "vcp_n_parsed": 10,
+  "vcp_ratings": {},
+  "vcp_parse_quality": "failed",
+  "vcp_n_parsed": 0,
   "vcp_validation": {
     "valid": false,
     "issues": [
@@ -407,5 +396,21 @@
   "temperature": 0.7,
   "rep": 1,
   "elapsed_seconds": 14.13231086730957,
-  "timestamp": "2026-03-20T06:15:12.309984"
+  "timestamp": "2026-03-20T06:15:12.309984",
+  "vcp_warnings": [
+    "No ---VCP RATINGS--- block found in response"
+  ],
+  "vcp_ratings_original": {
+    "A": 1.0,
+    "V": 2.0,
+    "G": 3.0,
+    "P": 4.0,
+    "E": 5.0,
+    "Q": 6.0,
+    "C": 7.0,
+    "Y": 8.0,
+    "F": 9.0,
+    "D": 10.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

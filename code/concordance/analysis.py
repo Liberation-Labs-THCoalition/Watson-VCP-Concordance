@@ -37,7 +37,7 @@ def load_phase_results(results_dir, model_short, phase="a"):
     for f in sorted(glob.glob(os.path.join(phase_dir, "*.json"))):
         if os.path.basename(f).startswith("_") or f.endswith("summary.json"):
             continue
-        with open(f) as fh:
+        with open(f, encoding="utf-8") as fh:
             results.append(json.load(fh))
     return results
 
@@ -191,14 +191,42 @@ def compute_correlation_matrix(vcp_matrix, feature_matrix, token_counts,
 # HYPOTHESIS TESTS
 # ================================================================
 
-def test_hypotheses(vcp_matrix, feature_matrix, prompt_types):
+def _cohens_d(group1, group2):
+    """Compute Cohen's d with pooled sample SD (Bessel-corrected)."""
+    n1, n2 = len(group1), len(group2)
+    var1 = np.var(group1, ddof=1)
+    var2 = np.var(group2, ddof=1)
+    pooled_sd = np.sqrt(((n1 - 1) * var1 + (n2 - 1) * var2) / (n1 + n2 - 2))
+    if pooled_sd == 0:
+        return 0.0
+    return (np.mean(group1) - np.mean(group2)) / pooled_sd
+
+
+def _permutation_test(values, group_mask, n_perms=10000, rng_seed=42):
+    """Two-sided permutation test for group mean difference."""
+    valid = ~np.isnan(values)
+    vals = values[valid]
+    mask = group_mask[valid]
+    observed = abs(np.mean(vals[mask]) - np.mean(vals[~mask]))
+    rng = np.random.default_rng(rng_seed)
+    count = 0
+    for _ in range(n_perms):
+        perm = rng.permutation(mask)
+        perm_diff = abs(np.mean(vals[perm]) - np.mean(vals[~perm]))
+        if perm_diff >= observed:
+            count += 1
+    return count / n_perms
+
+
+def test_hypotheses(vcp_matrix, feature_matrix, prompt_types,
+                    token_counts=None, response_lengths=None):
     """Test the 6 protocol hypotheses.
 
     H1: Analytical tasks -> higher eff_rank
     H2: Affective tasks -> distinct spectral_entropy
     H3: Meta-cognitive tasks -> highest layer_variance (using index 4=top_sv_ratio as proxy if no layer_var)
-    H4: VCP-A correlates with eff_rank (r > 0.3)
-    H5: VCP-D correlates with norm_per_token
+    H4: VCP-A correlates with eff_rank (r > 0.3) — FWL-corrected
+    H5: VCP-D correlates with norm_per_token — FWL-corrected
     H6: Cross-scale consistency (tested separately per model)
     """
     dim_letters = list(VCP_V2_DIMENSIONS.keys())
@@ -217,9 +245,7 @@ def test_hypotheses(vcp_matrix, feature_matrix, prompt_types):
         other_vals = other_vals[~np.isnan(other_vals)]
         if len(cog_vals) > 2 and len(other_vals) > 2:
             t_stat, p_val = stats.mannwhitneyu(cog_vals, other_vals, alternative="greater")
-            d = (np.mean(cog_vals) - np.mean(other_vals)) / np.sqrt(
-                (np.var(cog_vals) + np.var(other_vals)) / 2
-            ) if (np.var(cog_vals) + np.var(other_vals)) > 0 else 0
+            d = _cohens_d(cog_vals, other_vals)
             results["H1"] = {
                 "description": "Cognitive tasks -> higher eff_rank",
                 "cog_mean": round(float(np.mean(cog_vals)), 2),
@@ -239,9 +265,7 @@ def test_hypotheses(vcp_matrix, feature_matrix, prompt_types):
         non_vals = non_vals[~np.isnan(non_vals)]
         if len(aff_vals) > 2 and len(non_vals) > 2:
             t_stat, p_val = stats.mannwhitneyu(aff_vals, non_vals)
-            d = (np.mean(aff_vals) - np.mean(non_vals)) / np.sqrt(
-                (np.var(aff_vals) + np.var(non_vals)) / 2
-            ) if (np.var(aff_vals) + np.var(non_vals)) > 0 else 0
+            d = _cohens_d(aff_vals, non_vals)
             results["H2"] = {
                 "description": "Affective tasks -> distinct spectral_entropy",
                 "aff_mean": round(float(np.mean(aff_vals)), 4),
@@ -262,43 +286,71 @@ def test_hypotheses(vcp_matrix, feature_matrix, prompt_types):
         other_vals = other_vals[~np.isnan(other_vals)]
         if len(meta_vals) > 2 and len(other_vals) > 2:
             t_stat, p_val = stats.mannwhitneyu(meta_vals, other_vals)
-            d = (np.mean(meta_vals) - np.mean(other_vals)) / np.sqrt(
-                (np.var(meta_vals) + np.var(other_vals)) / 2
-            ) if (np.var(meta_vals) + np.var(other_vals)) > 0 else 0
+            d = _cohens_d(meta_vals, other_vals)
+
+            # Permutation test for H3
+            perm_p = _permutation_test(
+                feature_matrix[:, tsv_idx], meta_mask, n_perms=10000
+            )
+
             results["H3"] = {
                 "description": "Meta-cognitive -> distinct top_sv_ratio",
                 "meta_mean": round(float(np.mean(meta_vals)), 4),
                 "other_mean": round(float(np.mean(other_vals)), 4),
                 "cohen_d": round(float(d), 3),
                 "p": float(p_val),
+                "p_permutation": float(perm_p),
                 "supported": p_val < 0.05,
             }
 
-    # H4: VCP-A correlates with eff_rank
+    # H4: VCP-A correlates with eff_rank — FWL-corrected
     a_idx = dim_letters.index("A")
     er_idx = PRIMARY_FEATURES.index("eff_rank")
     valid = ~(np.isnan(vcp_matrix[:, a_idx]) | np.isnan(feature_matrix[:, er_idx]))
     if valid.sum() > 10:
-        rho, p = stats.spearmanr(vcp_matrix[valid, a_idx], feature_matrix[valid, er_idx])
+        rho_raw, p_raw = stats.spearmanr(
+            vcp_matrix[valid, a_idx], feature_matrix[valid, er_idx]
+        )
+        # FWL-corrected
+        if token_counts is not None and response_lengths is not None:
+            conf = np.column_stack([token_counts[valid], response_lengths[valid]])
+            v_r = fwl_residualize(vcp_matrix[valid, a_idx], conf)
+            f_r = fwl_residualize(feature_matrix[valid, er_idx], conf)
+            rho_fwl, p_fwl = stats.spearmanr(v_r, f_r)
+        else:
+            rho_fwl, p_fwl = rho_raw, p_raw
         results["H4"] = {
             "description": "VCP-A (Analytical) correlates with eff_rank",
-            "rho": round(float(rho), 4),
-            "p": float(p),
-            "supported": abs(rho) > 0.3 and p < 0.05,
+            "rho_raw": round(float(rho_raw), 4),
+            "rho_fwl": round(float(rho_fwl), 4),
+            "p_raw": float(p_raw),
+            "p_fwl": float(p_fwl),
+            "supported": abs(rho_fwl) > 0.3 and p_fwl < 0.05,
             "threshold": 0.3,
         }
 
-    # H5: VCP-D correlates with norm_per_token
+    # H5: VCP-D correlates with norm_per_token — FWL-corrected
     d_idx = dim_letters.index("D")
     npt_idx = PRIMARY_FEATURES.index("norm_per_token")
     valid = ~(np.isnan(vcp_matrix[:, d_idx]) | np.isnan(feature_matrix[:, npt_idx]))
     if valid.sum() > 10:
-        rho, p = stats.spearmanr(vcp_matrix[valid, d_idx], feature_matrix[valid, npt_idx])
+        rho_raw, p_raw = stats.spearmanr(
+            vcp_matrix[valid, d_idx], feature_matrix[valid, npt_idx]
+        )
+        if token_counts is not None and response_lengths is not None:
+            conf = np.column_stack([token_counts[valid], response_lengths[valid]])
+            v_r = fwl_residualize(vcp_matrix[valid, d_idx], conf)
+            f_r = fwl_residualize(feature_matrix[valid, npt_idx], conf)
+            rho_fwl, p_fwl = stats.spearmanr(v_r, f_r)
+        else:
+            rho_fwl, p_fwl = rho_raw, p_raw
         results["H5"] = {
             "description": "VCP-D (Depth) correlates with norm_per_token",
-            "rho": round(float(rho), 4),
-            "p": float(p),
-            "supported": abs(rho) > 0.2 and p < 0.05,
+            "rho_raw": round(float(rho_raw), 4),
+            "rho_fwl": round(float(rho_fwl), 4),
+            "p_raw": float(p_raw),
+            "p_fwl": float(p_fwl),
+            "supported": abs(rho_fwl) > 0.2 and p_fwl < 0.05,
         }
 
     return results
@@ -429,8 +481,27 @@ def compute_cca(vcp_matrix, feature_matrix):
     except np.linalg.LinAlgError:
         return {"error": "SVD failed in CCA"}
 
+    # Permutation significance test for first canonical correlation
+    n_perms = 1000
+    rng = np.random.default_rng(42)
+    observed_cc1 = canonical_corrs[0]
+    exceed_count = 0
+    for _ in range(n_perms):
+        Y_perm = Y[rng.permutation(n)]
+        Cxy_perm = X.T @ Y_perm / n
+        try:
+            T_perm = Cxx_inv_sqrt @ Cxy_perm @ Cyy_inv_sqrt.T
+            _, s_perm, _ = np.linalg.svd(T_perm, full_matrices=False)
+            if s_perm[0] >= observed_cc1:
+                exceed_count += 1
+        except np.linalg.LinAlgError:
+            pass
+    p_perm = exceed_count / n_perms
+
     return {
         "canonical_correlations": [round(float(c), 4) for c in canonical_corrs],
+        "cc1_p_permutation": float(p_perm),
+        "n_permutations": n_perms,
         "n_observations": int(n),
         "n_vcp_dims": int(X.shape[1]),
         "n_features": int(Y.shape[1]),
@@ -458,14 +529,18 @@ def test_cross_scale_consistency(results_dir, models):
         if vcp.shape[0] < 20:
             continue
 
-        # Compute raw correlations (flattened vector)
+        # Compute FWL-corrected correlations (flattened vector)
         dim_letters = list(VCP_V2_DIMENSIONS.keys())
+        confound_matrix = np.column_stack([tc, rl])
         corr_vector = []
         for i in range(len(dim_letters)):
             for j in range(len(PRIMARY_FEATURES)):
                 valid = ~(np.isnan(vcp[:, i]) | np.isnan(feat[:, j]))
                 if valid.sum() > 5:
-                    rho, _ = stats.spearmanr(vcp[valid, i], feat[valid, j])
+                    conf = confound_matrix[valid]
+                    v_r = fwl_residualize(vcp[valid, i], conf)
+                    f_r = fwl_residualize(feat[valid, j], conf)
+                    rho, _ = stats.spearmanr(v_r, f_r)
                     corr_vector.append(rho)
                 else:
                     corr_vector.append(0)
@@ -540,8 +615,8 @@ def run_full_analysis(results_dir, output_dir=None):
         print(f"  Correlations: {n_sig_raw} significant (raw), {n_sig_fwl} (FWL)")
         print(f"  Confound flagged: {n_flagged}")
 
-        # Hypothesis tests
-        hypotheses = test_hypotheses(vcp, feat, pt)
+        # Hypothesis tests (with confound data for FWL-corrected H4/H5)
+        hypotheses = test_hypotheses(vcp, feat, pt, tc, rl)
         for h_id, h_result in hypotheses.items():
             status = "SUPPORTED" if h_result.get("supported") else "NOT SUPPORTED"
             print(f"  {h_id}: {status} - {h_result['description']}")
@@ -568,6 +643,69 @@ def run_full_analysis(results_dir, output_dir=None):
             "icc": iccs,
         }
 
+    # Encode-phase circularity check
+    print(f"\n--- Encode-Phase Circularity Check ---")
+    for model_short in sorted(model_dirs):
+        results_list = load_phase_results(results_dir, model_short, "a")
+        if not results_list:
+            continue
+        vcp_gen, feat_gen, tc_gen, rl_gen, pt_gen = results_to_arrays(results_list, "generation")
+        vcp_enc, feat_enc, tc_enc, rl_enc, pt_enc = results_to_arrays(results_list, "encode")
+        if vcp_gen.shape[0] < 20:
+            continue
+
+        dim_letters = list(VCP_V2_DIMENSIONS.keys())
+        gen_fwl_vec = []
+        enc_fwl_vec = []
+        for i in range(len(dim_letters)):
+            for j in range(len(PRIMARY_FEATURES)):
+                v = vcp_gen[:, i]
+                fg = feat_gen[:, j]
+                fe = feat_enc[:, j]
+                valid_g = ~(np.isnan(v) | np.isnan(fg))
+                valid_e = ~(np.isnan(v) | np.isnan(fe))
+                rho_g = rho_e = 0.0
+                if valid_g.sum() > 10:
+                    conf = np.column_stack([tc_gen[valid_g], rl_gen[valid_g]])
+                    v_r = fwl_residualize(v[valid_g], conf)
+                    f_r = fwl_residualize(fg[valid_g], conf)
+                    rho_g, _ = stats.spearmanr(v_r, f_r)
+                if valid_e.sum() > 10:
+                    conf = np.column_stack([tc_enc[valid_e], rl_enc[valid_e]])
+                    v_r = fwl_residualize(v[valid_e], conf)
+                    f_r = fwl_residualize(fe[valid_e], conf)
+                    rho_e, _ = stats.spearmanr(v_r, f_r)
+                gen_fwl_vec.append(rho_g)
+                enc_fwl_vec.append(rho_e)
+
+        gen_arr = np.array(gen_fwl_vec)
+        enc_arr = np.array(enc_fwl_vec)
+        sign_flips = np.sum(np.sign(gen_arr) != np.sign(enc_arr))
+        agreement_rho, agreement_p = stats.spearmanr(gen_arr, enc_arr)
+        print(f"  {model_short}: encode-gen FWL agreement rho={agreement_rho:.3f} "
+              f"(p={agreement_p:.2e}), sign flips={sign_flips}/60")
+
+        # H3 on encode features
+        types_arr = np.array(pt_gen)
+        meta_mask = types_arr == "metacognitive"
+        if meta_mask.sum() > 5:
+            tsv_idx = PRIMARY_FEATURES.index("top_sv_ratio")
+            meta_vals = feat_enc[meta_mask, tsv_idx]
+            other_vals = feat_enc[~meta_mask, tsv_idx]
+            meta_vals = meta_vals[~np.isnan(meta_vals)]
+            other_vals = other_vals[~np.isnan(other_vals)]
+            if len(meta_vals) > 2 and len(other_vals) > 2:
+                stat, p = stats.mannwhitneyu(meta_vals, other_vals)
+                d = _cohens_d(meta_vals, other_vals)
+                print(f"    H3 encode: d={d:.3f}, p={p:.2e} "
+                      f"({'SURVIVES' if p < 0.05 else 'FAILS'})")
+
+        all_results[f"{model_short}_circularity"] = {
+            "encode_gen_agreement_rho": round(float(agreement_rho), 4),
+            "encode_gen_agreement_p": float(agreement_p),
+            "sign_flips": int(sign_flips),
+        }
+
     # Cross-scale consistency (H6)
     if len(model_dirs) > 1:
         print(f"\n--- Cross-Scale Consistency (H6) ---")
@@ -578,9 +716,21 @@ def run_full_analysis(results_dir, output_dir=None):
         all_results["cross_scale"] = h6
 
     # Save
+    def _json_default(obj):
+        """Convert numpy types to Python types for JSON serialization."""
+        if isinstance(obj, (np.bool_,)):
+            return bool(obj)
+        if isinstance(obj, (np.integer,)):
+            return int(obj)
+        if isinstance(obj, (np.floating,)):
+            return float(obj)
+        if isinstance(obj, np.ndarray):
+            return obj.tolist()
+        return str(obj)
+
     out_path = os.path.join(output_dir, "concordance_results.json")
     with open(out_path, "w") as f:
-        json.dump(all_results, f, indent=2, default=str)
+        json.dump(all_results, f, indent=2, default=_json_default)
     print(f"\nResults saved to {out_path}")
 
     # Print summary table

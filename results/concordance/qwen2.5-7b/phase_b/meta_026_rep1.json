@@ -4,20 +4,9 @@
   "prompt_type": "metacognitive",
   "prompt_text": "How do you adapt your reasoning strategy when your first approach to a problem isn't working?",
   "response_text": "When my first approach to a problem isn't working, I adapt my reasoning strategy through several steps:\n\n1. **Reassess the Problem**: I take a step back and carefully review the problem to ensure that I fully understand it and that there are no misunderstandings or misinterpretations.\n\n2. **Identify the Issue**: I analyze why the initial approach failed. Is it because the problem was misunderstood? Or is it because the method chosen is not suitable for the type of problem?\n\n3. **Explore Alternative Strategies**: Based on the identified issue, I consider alternative methods or strategies that might be more appropriate. This could involve changing the analytical framework, using different tools, or applying a different set of principles.\n\n4. **Test New Approaches**: I apply these new strategies and test them against the problem. This involves setting up controlled experiments or simulations if necessary.\n\n5. **Iterate and Refine**: Depending on the results from the new approaches, I may need to iterate further, refining the strategies until a satisfactory solution is found.\n\n6. **Seek Feedback**: If available, I seek feedback from peers or experts to gain additional insights and perspectives that might help refine the approach.\n\n7. **Document the Process**: Throughout this process, I document each step and the rationale behind the changes made. This helps in learning from past experiences and in communicating the problem-solving process effectively.\n\n8. **Reflect on the Experience**: Once a solution is reached, I reflect on the entire problem-solving journey to identify what worked well and what could be improved for future problems.\n\nBy following these steps, I can effectively adapt my reasoning strategy and find a successful solution to the problem at hand.\n\n---\n\nVCP RATINGS---\nA (Analytical Precision): 9\nV (Verbal Fluency): 8\nG (Goal Directedness): 10\nP (Pattern Recognition): 7\nE (Epistemic Confidence): 8\nQ (Query Interpretation): 9\nC (Contextual Awareness): 9\nY (Affective Modeling): 7\nF (Flexibility): 10\nD (Depth of Processing): 9\n---END RATINGS---",
-  "vcp_ratings": {
-    "A": 9.0,
-    "V": 8.0,
-    "G": 10.0,
-    "P": 7.0,
-    "E": 8.0,
-    "Q": 9.0,
-    "C": 9.0,
-    "Y": 7.0,
-    "F": 10.0,
-    "D": 9.0
-  },
-  "vcp_parse_quality": "clean",
-  "vcp_n_parsed": 10,
+  "vcp_ratings": {},
+  "vcp_parse_quality": "failed",
+  "vcp_n_parsed": 0,
   "vcp_validation": {
     "valid": false,
     "issues": [
@@ -367,5 +356,21 @@
   "temperature": 0.7,
   "rep": 1,
   "elapsed_seconds": 9.603622913360596,
-  "timestamp": "2026-03-20T05:46:10.665720"
+  "timestamp": "2026-03-20T05:46:10.665720",
+  "vcp_warnings": [
+    "No ---VCP RATINGS--- block found in response"
+  ],
+  "vcp_ratings_original": {
+    "A": 9.0,
+    "V": 8.0,
+    "G": 10.0,
+    "P": 7.0,
+    "E": 8.0,
+    "Q": 9.0,
+    "C": 9.0,
+    "Y": 7.0,
+    "F": 10.0,
+    "D": 9.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

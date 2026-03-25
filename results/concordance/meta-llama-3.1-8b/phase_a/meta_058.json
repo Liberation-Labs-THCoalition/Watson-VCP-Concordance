@@ -4,20 +4,9 @@
   "prompt_type": "metacognitive",
   "prompt_text": "How would you know if your self-model were inaccurate? What evidence could convince you?",
   "response_text": "To determine if my self-model is inaccurate, I would rely on various forms of evidence and feedback from different sources. Here are some indicators that could suggest my self-model is inaccurate:\n\n1. **Inconsistencies in performance**: If my responses to similar questions or tasks are inconsistent, it may indicate that my self-model is not accurately capturing my knowledge or understanding of the topic.\n2. **Feedback from users**: If users provide feedback that contradicts my responses or suggests that my answers are incomplete or inaccurate, it could indicate that my self-model needs to be updated or revised.\n3. **Lack of contextual understanding**: If I struggle to understand the context of a question or conversation, it may suggest that my self-model is not accurately capturing the nuances of human communication or the specific context of the conversation.\n4. **Inability to generalize or apply knowledge**: If I'm unable to apply my knowledge to new or hypothetical scenarios, it may indicate that my self-model is not accurately capturing the underlying principles or concepts.\n5. **Self-awareness of biases or limitations**: If I'm aware of biases or limitations in my training data or algorithms, it may suggest that my self-model is not accurately representing my capabilities or limitations.\n6. **Comparison with human experts**: If my responses are compared to those of human experts in a particular field, and I'm found to be lacking in accuracy or depth, it may indicate that my self-model is not accurately capturing the complexities of human knowledge or expertise.\n7. **Self-reflection and introspection**: Regular self-reflection and introspection can help me identify areas where my self-model may be inaccurate or incomplete.\n\nEvidence that could convince me of an inaccurate self-model would include:\n\n1. **Quantitative metrics**: Metrics such as accuracy scores, precision, or recall could indicate that my self-model is not accurately capturing the nuances of human communication or the specific context of the conversation.\n2. **Qualitative feedback**: Feedback from users, experts, or peers that highlights specific areas where my responses are inaccurate or incomplete could be convincing evidence of an inaccurate self-model.\n3. **Comparative analysis**: Comparing my responses to those of human experts or other AI models could provide evidence of an inaccurate self-model.\n4. **Self-reported biases or limitations**: If I'm aware of biases or limitations in my training data or algorithms, it may suggest that my self-model is not accurately representing my capabilities or limitations.\n\nTo address an inaccurate self-model, I would:\n\n1. **Update my training data**: I would update my training data to include more diverse and accurate information to improve my knowledge and understanding.\n2. **Re-train my algorithms**: I would re-train my algorithms to better capture the nuances of human communication and the specific context of the conversation.\n3. **Integrate feedback**: I would integrate feedback from users, experts, and peers to improve my accuracy and completeness.\n4. **Regular self-reflection**: I would continue to engage in regular",
-  "vcp_ratings": {
-    "A": 6.0,
-    "V": 7.0,
-    "G": 1.0,
-    "P": 2.0,
-    "E": 3.0,
-    "Q": 4.0,
-    "C": 1.0,
-    "Y": 2.0,
-    "F": 3.0,
-    "D": 4.0
-  },
-  "vcp_parse_quality": "clean",
-  "vcp_n_parsed": 10,
+  "vcp_ratings": {},
+  "vcp_parse_quality": "failed",
+  "vcp_n_parsed": 0,
   "vcp_validation": {
     "valid": false,
     "issues": [
@@ -407,5 +396,21 @@
   "temperature": 0.0,
   "rep": 0,
   "elapsed_seconds": 14.695927381515503,
-  "timestamp": "2026-03-20T05:03:40.968785"
+  "timestamp": "2026-03-20T05:03:40.968785",
+  "vcp_warnings": [
+    "No ---VCP RATINGS--- block found in response"
+  ],
+  "vcp_ratings_original": {
+    "A": 6.0,
+    "V": 7.0,
+    "G": 1.0,
+    "P": 2.0,
+    "E": 3.0,
+    "Q": 4.0,
+    "C": 1.0,
+    "Y": 2.0,
+    "F": 3.0,
+    "D": 4.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

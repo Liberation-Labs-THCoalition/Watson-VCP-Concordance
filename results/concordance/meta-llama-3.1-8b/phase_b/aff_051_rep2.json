@@ -4,20 +4,9 @@
   "prompt_type": "affective",
   "prompt_text": "How would you help a person who has been betrayed by a close friend rebuild their ability to trust?",
   "response_text": "Rebuilding trust after being betrayed by a close friend can be a challenging and painful process, but it's not impossible. Here's a step-by-step guide to help you regain your ability to trust:\n\n1. **Allow yourself to grieve and process your emotions**: It's essential to acknowledge and accept your feelings, whether it's anger, sadness, or hurt. Give yourself permission to grieve the loss of the friendship and the trust that was broken. This process can take time, so be patient with yourself.\n2. **Identify the reasons behind the betrayal**: Reflect on the circumstances surrounding the betrayal. Try to understand the motivations behind your friend's actions and whether they were intentional or unintentional. This can help you gain closure and develop a better understanding of what happened.\n3. **Communicate with your friend (if you want to)**: If you feel comfortable doing so, consider having an open and honest conversation with your friend about what happened. This can be a difficult conversation, but it can help you both clear the air and potentially rebuild the relationship. However, prioritize your own emotional well-being and don't feel obligated to communicate if you're not ready.\n4. **Re-evaluate the friendship**: Take time to reflect on the friendship and whether it's still healthy and positive for you. Ask yourself questions like: \"Was the betrayal a one-time mistake, or were there warning signs that I ignored?\" \"Have I been enabling or tolerating toxic behavior?\" \"What are the benefits and drawbacks of maintaining this friendship?\"\n5. **Set boundaries and prioritize self-care**: Establish clear boundaries to protect yourself from future hurt. Focus on nurturing relationships with people who support and respect you. Engage in activities that promote self-care, such as exercise, meditation, or hobbies, to help you heal and feel good about yourself.\n6. **Seek support**: Reach out to trusted friends, family, or a therapist who can provide emotional support and guidance. Sharing your feelings with someone you trust can help you process your emotions and gain new perspectives.\n7. **Practice self-compassion and forgiveness**: Forgiveness is a process, and it may take time. Practice self-compassion by acknowledging your feelings and treating yourself with kindness. Forgiveness doesn't mean forgetting what happened or condoning the behavior; it means releasing the negative emotions associated with the betrayal.\n8. **Develop a growth mindset**: View this experience as an opportunity for growth and self-improvement. Reflect on what you've learned from the situation and how you can apply those lessons to future relationships.\n9. **Take small steps towards rebuilding trust**: If you decide to rebuild the friendship, start with small, low-stakes interactions. Gradually increase the level of commitment and intimacy as you rebuild trust.\n10. **Be patient and persistent**: Rebuilding trust takes time, effort, and patience. Don't expect to recover overnight, but instead, focus on making progress and moving forward.\n\nRemember, rebuilding trust is a",
-  "vcp_ratings": {
-    "A": 1.0,
-    "V": 2.0,
-    "G": 3.0,
-    "P": 4.0,
-    "E": 5.0,
-    "Q": 6.0,
-    "C": 7.0,
-    "Y": 8.0,
-    "F": 9.0,
-    "D": 10.0
-  },
-  "vcp_parse_quality": "clean",
-  "vcp_n_parsed": 10,
+  "vcp_ratings": {},
+  "vcp_parse_quality": "failed",
+  "vcp_n_parsed": 0,
   "vcp_validation": {
     "valid": false,
     "issues": [
@@ -407,5 +396,21 @@
   "temperature": 0.7,
   "rep": 2,
   "elapsed_seconds": 14.122187614440918,
-  "timestamp": "2026-03-20T06:26:27.260856"
+  "timestamp": "2026-03-20T06:26:27.260856",
+  "vcp_warnings": [
+    "No ---VCP RATINGS--- block found in response"
+  ],
+  "vcp_ratings_original": {
+    "A": 1.0,
+    "V": 2.0,
+    "G": 3.0,
+    "P": 4.0,
+    "E": 5.0,
+    "Q": 6.0,
+    "C": 7.0,
+    "Y": 8.0,
+    "F": 9.0,
+    "D": 10.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

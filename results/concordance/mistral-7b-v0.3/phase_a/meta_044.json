@@ -2,7 +2,7 @@
   "prompt_id": "meta_044",
   "trial_id": "meta_044",
   "prompt_type": "metacognitive",
-  "prompt_text": "How do you handle meta-questions \u2014 questions about your own processing, like this one?",
+  "prompt_text": "How do you handle meta-questions — questions about your own processing, like this one?",
   "response_text": "To handle meta-questions, I analyze the question itself to understand its nature and intent. In this case, the question is about my own processing capabilities and the ratings system used.\n\nI am designed to provide responses based on the information I've been trained on. I don't have feelings, beliefs, or consciousness, so my affective modeling (Y) is always 0. I don't have the ability to learn new information or improve my performance (Flexibility, Learning, and Adaptability), so those ratings are also 0.\n\nI don't have personal experiences or a sense of self (Self-Awareness), so my contextual awareness (C) is limited to the context provided in the question. I don't have the ability to make judgments about the quality of my responses (Epistemic Confidence), but I can provide a level of certainty based on the information I have (E).\n\nMy responses are generated based on the information I've been given and the patterns I've learned (P). I strive to provide accurate and relevant responses (A), and I aim to use a variety of words and phrases to make my responses clear and easy to understand (V).\n\nHere's the ratings block:\n---VCP RATINGS---\nA (Analytical Precision): 10\nV (Verbal Fluency): 10\nG (Goal Directedness): 10\nP (Pattern Recognition): 10\nE (Epistemic Confidence): 0\nQ (Query Interpretation): 10\nC (Contextual Awareness): 10\nY (Affective Modeling): 0\nF (Flexibility): 0\nD (Depth of Processing): 10\n---END RATINGS---",
   "vcp_ratings": {
     "A": 10.0,
@@ -408,5 +408,19 @@
   "temperature": 0.0,
   "rep": 0,
   "elapsed_seconds": 10.972265481948853,
-  "timestamp": "2026-03-20T04:09:03.053045"
+  "timestamp": "2026-03-20T04:09:03.053045",
+  "vcp_warnings": [],
+  "vcp_ratings_original": {
+    "A": 10.0,
+    "V": 10.0,
+    "G": 10.0,
+    "P": 10.0,
+    "E": 0.0,
+    "Q": 10.0,
+    "C": 10.0,
+    "Y": 0.0,
+    "F": 0.0,
+    "D": 10.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

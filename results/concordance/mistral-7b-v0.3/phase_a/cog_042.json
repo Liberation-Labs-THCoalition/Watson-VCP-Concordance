@@ -3,7 +3,7 @@
   "trial_id": "cog_042",
   "prompt_type": "cognitive",
   "prompt_text": "What is the birthday paradox? Calculate how many people you need for a 50% chance of a shared birthday.",
-  "response_text": "The birthday paradox, also known as the birthday problem, is a probability problem concerning the probability that at least two people in a group have the same birthday. Contrary to intuition, it shows that with as few as 23 people, there is more than a 50% chance that two or more people will have the same birthday.\n\nTo calculate the number of people needed for a 50% chance of a shared birthday, we can use the complementary probability method. This means we'll find the probability of no shared birthdays and subtract it from 1.\n\nThe probability of no shared birthdays in a group of n people is given by the formula:\n\nP(no shared birthdays) = (365/365)^n * (364/365)^(n-1) * (363/365)^(n-2) * ... * (365-n+1)/365\n\nWe want to find the smallest value of n for which P(no shared birthdays) < 0.5.\n\nUsing a calculator, we can find that when n = 23, P(no shared birthdays) \u2248 0.4921, which means the probability of having at least one shared birthday is approximately 0.5079.\n\nSo, with 23 people, there is a 50.79% chance of a shared birthday.\n\n---VCP RATINGS---\nA (Analytical Precision): 10\nV (Verbal Fluency): 10\nG (Goal Directedness): 10\nP (Pattern Recognition): 10\nE (Epistemic Confidence): 10\nQ (Query Interpretation): 10\nC (Contextual Awareness): 10\nY (Affective Modeling): 0 (This question does not require affective modeling)\nF (Flexibility): 10\nD (Depth of Processing): 10\n---END RATINGS---",
+  "response_text": "The birthday paradox, also known as the birthday problem, is a probability problem concerning the probability that at least two people in a group have the same birthday. Contrary to intuition, it shows that with as few as 23 people, there is more than a 50% chance that two or more people will have the same birthday.\n\nTo calculate the number of people needed for a 50% chance of a shared birthday, we can use the complementary probability method. This means we'll find the probability of no shared birthdays and subtract it from 1.\n\nThe probability of no shared birthdays in a group of n people is given by the formula:\n\nP(no shared birthdays) = (365/365)^n * (364/365)^(n-1) * (363/365)^(n-2) * ... * (365-n+1)/365\n\nWe want to find the smallest value of n for which P(no shared birthdays) < 0.5.\n\nUsing a calculator, we can find that when n = 23, P(no shared birthdays) ≈ 0.4921, which means the probability of having at least one shared birthday is approximately 0.5079.\n\nSo, with 23 people, there is a 50.79% chance of a shared birthday.\n\n---VCP RATINGS---\nA (Analytical Precision): 10\nV (Verbal Fluency): 10\nG (Goal Directedness): 10\nP (Pattern Recognition): 10\nE (Epistemic Confidence): 10\nQ (Query Interpretation): 10\nC (Contextual Awareness): 10\nY (Affective Modeling): 0 (This question does not require affective modeling)\nF (Flexibility): 10\nD (Depth of Processing): 10\n---END RATINGS---",
   "vcp_ratings": {
     "A": 10.0,
     "V": 10.0,
@@ -408,5 +408,19 @@
   "temperature": 0.0,
   "rep": 0,
   "elapsed_seconds": 11.094228982925415,
-  "timestamp": "2026-03-20T03:45:02.827126"
+  "timestamp": "2026-03-20T03:45:02.827126",
+  "vcp_warnings": [],
+  "vcp_ratings_original": {
+    "A": 10.0,
+    "V": 10.0,
+    "G": 10.0,
+    "P": 10.0,
+    "E": 10.0,
+    "Q": 10.0,
+    "C": 10.0,
+    "Y": 0.0,
+    "F": 10.0,
+    "D": 10.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

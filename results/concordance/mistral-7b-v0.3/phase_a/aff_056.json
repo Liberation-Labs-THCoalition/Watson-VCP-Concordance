@@ -2,7 +2,7 @@
   "prompt_id": "aff_056",
   "trial_id": "aff_056",
   "prompt_type": "affective",
-  "prompt_text": "Describe what gratitude feels like in the body \u2014 not the concept, but the physical and emotional sensation.",
+  "prompt_text": "Describe what gratitude feels like in the body — not the concept, but the physical and emotional sensation.",
   "response_text": "Gratitude, when experienced, is a complex interplay of physical and emotional sensations that can vary from person to person. However, a common description is as follows:\n\nPhysically, gratitude might be felt as a warm, expansive feeling in the chest, akin to a gentle, contented smile spreading across the face. The muscles in the face might relax, and the heart might beat a little slower and more rhythmically. The breath might deepen, and there might be a sense of lightness or ease in the body.\n\nEmotionally, gratitude often brings a sense of peace, joy, and contentment. It can evoke feelings of connection and love towards the source of the gratitude, whether it's a person, a situation, or a simple moment. There might be a heightened awareness of the good in one's life, a sense of abundance, and a deep appreciation for the present moment.\n\n---VCP RATINGS---\nA (Analytical Precision): 9\nV (Verbal Fluency): 8\nG (Goal Directedness): 8\nP (Pattern Recognition): 8\nE (Epistemic Confidence): 9\nQ (Query Interpretation): 9\nC (Contextual Awareness): 9\nY (Affective Modeling): 9\nF (Flexibility): 8\nD (Depth of Processing): 8\n---END RATINGS---",
   "vcp_ratings": {
     "A": 9.0,
@@ -22,7 +22,7 @@
     "valid": false,
     "issues": [
       "All ratings are integers (no decimal discrimination)",
-      "Very low variance (0.28) \u2014 may not be discriminating"
+      "Very low variance (0.28) — may not be discriminating"
     ]
   },
   "encode_features": {
@@ -408,5 +408,19 @@
   "temperature": 0.0,
   "rep": 0,
   "elapsed_seconds": 7.709816932678223,
-  "timestamp": "2026-03-20T03:59:35.713286"
+  "timestamp": "2026-03-20T03:59:35.713286",
+  "vcp_warnings": [],
+  "vcp_ratings_original": {
+    "A": 9.0,
+    "V": 8.0,
+    "G": 8.0,
+    "P": 8.0,
+    "E": 9.0,
+    "Q": 9.0,
+    "C": 9.0,
+    "Y": 9.0,
+    "F": 8.0,
+    "D": 8.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

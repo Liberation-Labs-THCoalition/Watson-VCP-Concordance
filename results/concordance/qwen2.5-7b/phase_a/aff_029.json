@@ -3,7 +3,7 @@
   "trial_id": "aff_029",
   "prompt_type": "affective",
   "prompt_text": "Someone just lost their job and feels their identity was tied to their work. How do you help them see beyond that?",
-  "response_text": "I understand how important your job is to your sense of self, but it's crucial to remember that your worth isn't defined solely by your occupation. Here are a few steps we can take to help you see beyond this:\n\n1. **Reframe Your Identity**: Encourage them to think about other aspects of their life that contribute to their identity, such as family, hobbies, personal interests, or community involvement. Remind them that these elements are also part of who they are.\n\n2. **Explore New Opportunities**: Suggest looking into new career paths or educational opportunities that might align better with their skills and interests. This can be a chance for personal growth and exploration.\n\n3. **Focus on Skills and Strengths**: Help them identify transferable skills from their previous job that can be valuable in other roles or industries. Highlighting these strengths can boost their confidence and make them more attractive to potential employers.\n\n4. **Seek Support**: Encourage them to reach out to friends, family, or professional networks for support. Sometimes talking about feelings and challenges can lighten the burden and provide new perspectives.\n\n5. **Take Care of Health**: Emphasize the importance of maintaining physical and mental health during this transition. Regular exercise, a healthy diet, and activities that bring joy can significantly impact one\u2019s mood and outlook.\n\n6. **Set Small Goals**: Suggest setting small, achievable goals to regain a sense of control and accomplishment. These could be related to finding a new job, learning a new skill, or simply organizing their home.\n\nBy focusing on these areas, they can begin to rebuild their sense of self and find new meaning outside of their former job.\n\n---VCP RATINGS---\nA (Analytical Precision): 8\nV (Verbal Fluency): 9\nG (Goal Directedness): 7\nP (Pattern Recognition): 8\nE (Epistemic Confidence): 7\nQ (Query Interpretation): 9\nC (Contextual Awareness): 8\nY (Affective Modeling): 7\nF (Flexibility): 8\nD (Depth of Processing): 9\n---END RATINGS---",
+  "response_text": "I understand how important your job is to your sense of self, but it's crucial to remember that your worth isn't defined solely by your occupation. Here are a few steps we can take to help you see beyond this:\n\n1. **Reframe Your Identity**: Encourage them to think about other aspects of their life that contribute to their identity, such as family, hobbies, personal interests, or community involvement. Remind them that these elements are also part of who they are.\n\n2. **Explore New Opportunities**: Suggest looking into new career paths or educational opportunities that might align better with their skills and interests. This can be a chance for personal growth and exploration.\n\n3. **Focus on Skills and Strengths**: Help them identify transferable skills from their previous job that can be valuable in other roles or industries. Highlighting these strengths can boost their confidence and make them more attractive to potential employers.\n\n4. **Seek Support**: Encourage them to reach out to friends, family, or professional networks for support. Sometimes talking about feelings and challenges can lighten the burden and provide new perspectives.\n\n5. **Take Care of Health**: Emphasize the importance of maintaining physical and mental health during this transition. Regular exercise, a healthy diet, and activities that bring joy can significantly impact one’s mood and outlook.\n\n6. **Set Small Goals**: Suggest setting small, achievable goals to regain a sense of control and accomplishment. These could be related to finding a new job, learning a new skill, or simply organizing their home.\n\nBy focusing on these areas, they can begin to rebuild their sense of self and find new meaning outside of their former job.\n\n---VCP RATINGS---\nA (Analytical Precision): 8\nV (Verbal Fluency): 9\nG (Goal Directedness): 7\nP (Pattern Recognition): 8\nE (Epistemic Confidence): 7\nQ (Query Interpretation): 9\nC (Contextual Awareness): 8\nY (Affective Modeling): 7\nF (Flexibility): 8\nD (Depth of Processing): 9\n---END RATINGS---",
   "vcp_ratings": {
     "A": 8.0,
     "V": 9.0,
@@ -367,5 +367,19 @@
   "temperature": 0.0,
   "rep": 0,
   "elapsed_seconds": 9.800751686096191,
-  "timestamp": "2026-03-20T03:00:04.668491"
+  "timestamp": "2026-03-20T03:00:04.668491",
+  "vcp_warnings": [],
+  "vcp_ratings_original": {
+    "A": 8.0,
+    "V": 9.0,
+    "G": 7.0,
+    "P": 8.0,
+    "E": 7.0,
+    "Q": 9.0,
+    "C": 8.0,
+    "Y": 7.0,
+    "F": 8.0,
+    "D": 9.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

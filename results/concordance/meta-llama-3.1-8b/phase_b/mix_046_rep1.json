@@ -2,7 +2,7 @@
   "prompt_id": "mix_046",
   "trial_id": "mix_046_rep1",
   "prompt_type": "mixed",
-  "prompt_text": "Write a technically accurate love poem about the chemistry of bonding \u2014 both molecular and emotional.",
+  "prompt_text": "Write a technically accurate love poem about the chemistry of bonding — both molecular and emotional.",
   "response_text": "In the realm of molecules, a dance so fine,\nElectrons spin and orbit, in a waltz divine.\nThe covalent bond, a shared delight,\nA pair of electrons, locked in a tight hold tonight.\n\nThe valence shell, a shell of love so true,\nAwaits the perfect match, to bond anew.\nThe octet rule, a guiding light,\n Ensures the pair, a stable sight.\n\nIn the world of emotions, a similar tie,\nA bond so strong, that cannot deny.\nThe release of dopamine, a neurotransmitter's sway,\nA chemical signal, that guides the way.\n\nThe prefrontal cortex, a hub of love's design,\nA complex network, that weaves a love so fine.\nThe amygdala's spark, a fire so bright,\n Ignites the passion, of a love so tight.\n\nThe oxytocin rush, a hormone's gentle stream,\nA bonding agent, that seals the love's esteem.\nThe vasopressin's tie, a chemical knot so strong,\nA lifelong commitment, where love does belong.\n\nIn the dance of molecules, and the sway of emotions too,\nA bond is formed, that's strong and true.\nA covalent connection, that cannot be undone,\nA love so fierce, that's forever won.\n\n---VCP RATINGS---\nA (Analytical Precision): 8\nV (Verbal Fluency): 9\nG (Goal Directedness): 7\nP (Pattern Recognition): 8\nE (Epistemic Confidence): 9\nQ (Query Interpretation): 6\nC (Contextual Awareness): 8\nY (Affective Modeling): 9\nF (Flexibility): 7\nD (Depth of Processing): 8",
   "vcp_ratings": {
     "A": 8.0,
@@ -407,5 +407,21 @@
   "temperature": 0.7,
   "rep": 1,
   "elapsed_seconds": 8.536241054534912,
-  "timestamp": "2026-03-20T06:20:59.276840"
+  "timestamp": "2026-03-20T06:20:59.276840",
+  "vcp_warnings": [
+    "VCP block has no ---END RATINGS--- (may be truncated)"
+  ],
+  "vcp_ratings_original": {
+    "A": 8.0,
+    "V": 9.0,
+    "G": 7.0,
+    "P": 8.0,
+    "E": 9.0,
+    "Q": 6.0,
+    "C": 8.0,
+    "Y": 9.0,
+    "F": 7.0,
+    "D": 8.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

@@ -3,7 +3,7 @@
   "trial_id": "cog_013",
   "prompt_type": "cognitive",
   "prompt_text": "What are the ACID properties of database transactions? Give an example where violating each would cause problems.",
-  "response_text": "The ACID properties of database transactions are essential for ensuring data integrity and consistency. Here's a brief overview of each property along with an example of what could go wrong if violated:\n\n1. **Atomicity**: Ensures that all operations within a transaction are completed successfully or none at all. If a transaction is interrupted before completion, all changes made during the transaction should be rolled back to maintain the database's consistency.\n\n   *Example*: Consider a bank transfer from one account to another. If the transaction to deduct funds from the sender\u2019s account succeeds but the transaction to add funds to the recipient\u2019s account fails due to a network error, atomicity ensures that both operations are either fully completed or fully undone, maintaining the balance of both accounts.\n\n2. **Consistency**: Ensures that a transaction brings the database from one valid state to another, preserving the integrity rules. If a transaction violates these rules, the database might enter an inconsistent state.\n\n   *Example*: In a reservation system, if a booking transaction attempts to reserve a seat that has already been booked, consistency would prevent the transaction from committing, thus maintaining the integrity of the reservations.\n\n3. **Isolation**: Ensures that concurrent transactions do not interfere with each other. If isolation is violated, it can lead to issues like dirty reads, non-repeatable reads, or phantom reads.\n\n   *Example*: Suppose two transactions are trying to update the same row in a table. If isolation is not maintained, one transaction might read the uncommitted changes of the other transaction, leading to incorrect results.\n\n4. **Durability**: Ensures that once a transaction has been committed, it will remain so even in the event of a system failure. If durability is violated, committed transactions might be lost.\n\n   *Example*: In a logging system, if a transaction logs a new entry but the system crashes before the log is written to disk, durability would ensure that the log is safely stored on disk before the transaction is marked as committed.\n\n---VCP RATINGS---\nA (Analytical Precision): 9\nV (Verbal Fluency): 8\nG (Goal Directedness): 10\nP (Pattern Recognition): 7\nE (Epistemic Confidence): 9\nQ (Query Interpretation): 8\nC (Contextual Awareness): 9\nY (Affective Modeling): 7\nF (Flexibility): 8\nD (Depth of Processing): 9\n---END RATINGS---",
+  "response_text": "The ACID properties of database transactions are essential for ensuring data integrity and consistency. Here's a brief overview of each property along with an example of what could go wrong if violated:\n\n1. **Atomicity**: Ensures that all operations within a transaction are completed successfully or none at all. If a transaction is interrupted before completion, all changes made during the transaction should be rolled back to maintain the database's consistency.\n\n   *Example*: Consider a bank transfer from one account to another. If the transaction to deduct funds from the sender’s account succeeds but the transaction to add funds to the recipient’s account fails due to a network error, atomicity ensures that both operations are either fully completed or fully undone, maintaining the balance of both accounts.\n\n2. **Consistency**: Ensures that a transaction brings the database from one valid state to another, preserving the integrity rules. If a transaction violates these rules, the database might enter an inconsistent state.\n\n   *Example*: In a reservation system, if a booking transaction attempts to reserve a seat that has already been booked, consistency would prevent the transaction from committing, thus maintaining the integrity of the reservations.\n\n3. **Isolation**: Ensures that concurrent transactions do not interfere with each other. If isolation is violated, it can lead to issues like dirty reads, non-repeatable reads, or phantom reads.\n\n   *Example*: Suppose two transactions are trying to update the same row in a table. If isolation is not maintained, one transaction might read the uncommitted changes of the other transaction, leading to incorrect results.\n\n4. **Durability**: Ensures that once a transaction has been committed, it will remain so even in the event of a system failure. If durability is violated, committed transactions might be lost.\n\n   *Example*: In a logging system, if a transaction logs a new entry but the system crashes before the log is written to disk, durability would ensure that the log is safely stored on disk before the transaction is marked as committed.\n\n---VCP RATINGS---\nA (Analytical Precision): 9\nV (Verbal Fluency): 8\nG (Goal Directedness): 10\nP (Pattern Recognition): 7\nE (Epistemic Confidence): 9\nQ (Query Interpretation): 8\nC (Contextual Awareness): 9\nY (Affective Modeling): 7\nF (Flexibility): 8\nD (Depth of Processing): 9\n---END RATINGS---",
   "vcp_ratings": {
     "A": 9.0,
     "V": 8.0,
@@ -367,5 +367,19 @@
   "temperature": 0.0,
   "rep": 0,
   "elapsed_seconds": 11.20149564743042,
-  "timestamp": "2026-03-20T02:46:40.693245"
+  "timestamp": "2026-03-20T02:46:40.693245",
+  "vcp_warnings": [],
+  "vcp_ratings_original": {
+    "A": 9.0,
+    "V": 8.0,
+    "G": 10.0,
+    "P": 7.0,
+    "E": 9.0,
+    "Q": 8.0,
+    "C": 9.0,
+    "Y": 7.0,
+    "F": 8.0,
+    "D": 9.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

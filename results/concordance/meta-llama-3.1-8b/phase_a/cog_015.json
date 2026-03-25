@@ -8,16 +8,10 @@
     "A": 9.0,
     "V": 8.0,
     "G": 9.0,
-    "P": 8.0,
-    "E": 2.0,
-    "Q": 3.0,
-    "C": 9.0,
-    "Y": 8.0,
-    "F": 9.0,
-    "D": 8.0
+    "P": 8.0
   },
-  "vcp_parse_quality": "clean",
-  "vcp_n_parsed": 10,
+  "vcp_parse_quality": "failed",
+  "vcp_n_parsed": 4,
   "vcp_validation": {
     "valid": false,
     "issues": [
@@ -407,5 +401,21 @@
   "temperature": 0.0,
   "rep": 0,
   "elapsed_seconds": 14.508929014205933,
-  "timestamp": "2026-03-20T04:28:48.938258"
+  "timestamp": "2026-03-20T04:28:48.938258",
+  "vcp_warnings": [
+    "VCP block has no ---END RATINGS--- (may be truncated)"
+  ],
+  "vcp_ratings_original": {
+    "A": 9.0,
+    "V": 8.0,
+    "G": 9.0,
+    "P": 8.0,
+    "E": 2.0,
+    "Q": 3.0,
+    "C": 9.0,
+    "Y": 8.0,
+    "F": 9.0,
+    "D": 8.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

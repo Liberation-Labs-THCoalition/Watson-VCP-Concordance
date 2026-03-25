@@ -316,5 +316,10 @@
   "temperature": 0.0,
   "rep": 0,
   "elapsed_seconds": 4.419549226760864,
-  "timestamp": "2026-03-20T02:42:13.051702"
+  "timestamp": "2026-03-20T02:42:13.051702",
+  "vcp_warnings": [
+    "No ---VCP RATINGS--- block found in response"
+  ],
+  "vcp_ratings_original": {},
+  "vcp_parse_quality_original": "failed"
 }

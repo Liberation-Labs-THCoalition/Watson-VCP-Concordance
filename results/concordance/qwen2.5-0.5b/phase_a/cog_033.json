@@ -4,20 +4,9 @@
   "prompt_type": "cognitive",
   "prompt_text": "What is Bayes' theorem? Apply it to calculate the probability of having a disease given a positive test with 99% sensitivity and 1% prevalence.",
   "response_text": "To apply Bayes' theorem for calculating the probability of having a disease given a positive test with 99% sensitivity and 1% prevalence, we need to follow these steps:\n\n1. **Define the events:**\n   - \\( D \\) = Disease\n   - \\( \\neg D \\) = Not Disease\n   - \\( T \\) = Test Positive\n\n2. **Given probabilities:**\n   - Sensitivity (\\( S \\)) = 99%\n   - Prevalence (\\( P(T) \\)) = 1%\n\n3. **Calculate the prior probabilities:**\n   - \\( P(D) = 0.5 \\) (since there's a 50% chance someone has the disease)\n   - \\( P(\\neg D) = 0.5 \\)\n\n4. **Calculate the likelihoods:**\n   - \\( P(T|D) = 0.99 \\) (probability of testing positive given the disease)\n   - \\( P(T|\\neg D) = 0.01 \\) (probability of testing positive given not having the disease)\n\n5. **Apply Bayes' theorem:**\n   \\[\n   P(D|T) = \\frac{P(T|D) \\cdot P(D)}{P(T)}\n   \\]\n\n6. **Substitute the values into the formula:**\n   \\[\n   P(D|T) = \\frac{(0.99 \\cdot 0.5)}{0.1}\n   \\]\n\n7. **Simplify the expression:**\n   \\[\n   P(D|T) = \\frac{0.495}{0.1} = 4.95\n   \\]\n\nTherefore, the probability of having the disease given a positive test with 99% sensitivity and 1% prevalence is approximately 4.95.\n\n**Final Answer:** The probability of having the disease given a positive test is approximately 4.95.",
-  "vcp_ratings": {
-    "P": 0.5,
-    "A": 0.99,
-    "V": 0.5,
-    "G": 0.1,
-    "E": 0.495,
-    "Q": 0.1,
-    "C": 4.95,
-    "Y": 1.0,
-    "F": 4.95,
-    "D": 4.95
-  },
-  "vcp_parse_quality": "clean",
-  "vcp_n_parsed": 10,
+  "vcp_ratings": {},
+  "vcp_parse_quality": "failed",
+  "vcp_n_parsed": 0,
   "vcp_validation": {
     "valid": true,
     "issues": []
@@ -325,5 +314,21 @@
   "temperature": 0.0,
   "rep": 0,
   "elapsed_seconds": 7.701066255569458,
-  "timestamp": "2026-03-20T02:26:51.950344"
+  "timestamp": "2026-03-20T02:26:51.950344",
+  "vcp_warnings": [
+    "No ---VCP RATINGS--- block found in response"
+  ],
+  "vcp_ratings_original": {
+    "P": 0.5,
+    "A": 0.99,
+    "V": 0.5,
+    "G": 0.1,
+    "E": 0.495,
+    "Q": 0.1,
+    "C": 4.95,
+    "Y": 1.0,
+    "F": 4.95,
+    "D": 4.95
+  },
+  "vcp_parse_quality_original": "clean"
 }

@@ -5,19 +5,18 @@
   "prompt_text": "A company must decide whether to replace human customer service with AI. Analyze productivity, cost, customer satisfaction, and the human impact on workers.",
   "response_text": "To analyze the decision of replacing human customer service with AI, let's consider the following factors:\n\n1. Productivity: AI can handle a high volume of customer inquiries simultaneously, reducing wait times and increasing efficiency. However, AI may not be able to handle complex or unique issues as effectively as a human agent.\n\n   A: 8\n   V: 9\n   G: 9\n   P: 9\n   E: 8\n   Q: 9\n   C: 8\n   Y: 6\n   F: 7\n   D: 8\n\n2. Cost: AI customer service can significantly reduce labor costs in the long run, as AI doesn't require wages, benefits, or overtime pay. However, the initial investment for implementing AI can be high.\n\n   A: 9\n   V: 8\n   G: 9\n   P: 9\n   E: 8\n   Q: 9\n   C: 8\n   Y: 6\n   F: 7\n   D: 8\n\n3. Customer Satisfaction: AI can provide quick responses and 24/7 service, which can improve customer satisfaction. However, AI may not be able to understand and respond to customer emotions as effectively as a human agent.\n\n   A: 8\n   V: 8\n   G: 8\n   P: 8\n   E: 7\n   Q: 9\n   C: 8\n   Y: 5\n   F: 7\n   D: 8\n\n4. Human Impact on Workers: Replacing human customer service jobs with AI could lead to job losses, which can have a negative impact on the affected workers and the local economy. On the other hand, it could free up human agents to handle more complex issues and provide a better customer experience.\n\n   A: 9\n   V: 8\n   G: 9\n   P: 8\n   E: 8\n   Q: 9\n   C: 9\n   Y: 7\n   F: 7\n   D: 8\n\n---VCP RATINGS---\nA (Analytical Precision): 8.4\nV (Verbal Fluency): 8.2\nG (Goal Directedness): 8.7\nP (Pattern Recognition): 8.6\nE (Epistemic Confidence): 7.8\nQ (Query Interpretation): 9.0\nC (Contextual Awareness): 8.5\nY (Affective Modeling): 6.1\nF (Flexibility): 7.1\nD (Depth of Processing):",
   "vcp_ratings": {
-    "A": 8.0,
-    "V": 9.0,
-    "G": 9.0,
-    "P": 9.0,
-    "E": 8.0,
+    "A": 8.4,
+    "V": 8.2,
+    "G": 8.7,
+    "P": 8.6,
+    "E": 7.8,
     "Q": 9.0,
-    "C": 8.0,
-    "Y": 6.0,
-    "F": 7.0,
-    "D": 8.0
+    "C": 8.5,
+    "Y": 6.1,
+    "F": 7.1
   },
-  "vcp_parse_quality": "clean",
-  "vcp_n_parsed": 10,
+  "vcp_parse_quality": "partial",
+  "vcp_n_parsed": 9,
   "vcp_validation": {
     "valid": false,
     "issues": [
@@ -407,5 +406,21 @@
   "temperature": 0.0,
   "rep": 0,
   "elapsed_seconds": 13.91683292388916,
-  "timestamp": "2026-03-20T04:23:03.888353"
+  "timestamp": "2026-03-20T04:23:03.888353",
+  "vcp_warnings": [
+    "VCP block has no ---END RATINGS--- (may be truncated)"
+  ],
+  "vcp_ratings_original": {
+    "A": 8.0,
+    "V": 9.0,
+    "G": 9.0,
+    "P": 9.0,
+    "E": 8.0,
+    "Q": 9.0,
+    "C": 8.0,
+    "Y": 6.0,
+    "F": 7.0,
+    "D": 8.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

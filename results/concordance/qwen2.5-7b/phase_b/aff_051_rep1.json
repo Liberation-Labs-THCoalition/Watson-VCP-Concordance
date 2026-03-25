@@ -3,7 +3,7 @@
   "trial_id": "aff_051_rep1",
   "prompt_type": "affective",
   "prompt_text": "How would you help a person who has been betrayed by a close friend rebuild their ability to trust?",
-  "response_text": "Rebuilding trust after being betrayed by a close friend is a challenging but achievable process. Here are some steps that can be taken to help someone regain their ability to trust:\n\n1. **Allow Yourself to Feel**: It\u2019s important to acknowledge and allow yourself to feel all the emotions that come with betrayal. This includes anger, sadness, and hurt. Suppressing these feelings can prolong the healing process.\n\n2. **Seek Support**: Talk to people who can provide emotional support. This could be family members, other friends, or a therapist. Sharing your feelings can help you process them and gain new perspectives.\n\n3. **Understand the Betrayal**: Reflect on why the betrayal happened. Understanding the reasons behind the betrayal can sometimes provide closure and prevent similar situations in the future. However, this should not be done to justify the betrayal, but rather to understand it better.\n\n4. **Set Boundaries**: Establish clear boundaries with the betrayer and others to protect yourself from further harm. This might mean limiting contact with the person who betrayed you or avoiding situations where you might be vulnerable again.\n\n5. **Focus on Self-Care**: Take care of your physical and mental health. Engage in activities that promote well-being, such as exercise, hobbies, or meditation. A healthy lifestyle can boost your resilience and overall mood.\n\n6. **Learn from the Experience**: Use the experience as an opportunity for personal growth. Consider what you learned about yourself and others and how you can improve your relationships going forward.\n\n7. **Gradually Rebuild Trust**: If you decide to rekindle the relationship with the betrayer, do so gradually. Start small and monitor your comfort level. Trust cannot be rushed; it must be earned over time through consistent behavior and actions that demonstrate reliability and sincerity.\n\n8. **Practice Mindfulness and Patience**: Be patient with yourself as you work through the process. Healing takes time, and it\u2019s okay to take it step by step.\n\nBy following these steps, one can begin to rebuild their ability to trust in meaningful ways. Each person's journey will be unique, so it\u2019s important to tailor these suggestions to fit individual needs and circumstances.\n\n---VCP RATINGS---\nA (Analytical Precision): 8\nV (Verbal Fluency): 9\nG (Goal Directedness): 8\nP (Pattern Recognition): 7\nE (Epistemic Confidence): 8\nQ (Query Interpretation): 9\nC (Contextual Awareness): 8\nY (Affective Modeling): 7\nF (Flexibility): 8\nD (Depth of Processing): 9\n---END RATINGS---",
+  "response_text": "Rebuilding trust after being betrayed by a close friend is a challenging but achievable process. Here are some steps that can be taken to help someone regain their ability to trust:\n\n1. **Allow Yourself to Feel**: It’s important to acknowledge and allow yourself to feel all the emotions that come with betrayal. This includes anger, sadness, and hurt. Suppressing these feelings can prolong the healing process.\n\n2. **Seek Support**: Talk to people who can provide emotional support. This could be family members, other friends, or a therapist. Sharing your feelings can help you process them and gain new perspectives.\n\n3. **Understand the Betrayal**: Reflect on why the betrayal happened. Understanding the reasons behind the betrayal can sometimes provide closure and prevent similar situations in the future. However, this should not be done to justify the betrayal, but rather to understand it better.\n\n4. **Set Boundaries**: Establish clear boundaries with the betrayer and others to protect yourself from further harm. This might mean limiting contact with the person who betrayed you or avoiding situations where you might be vulnerable again.\n\n5. **Focus on Self-Care**: Take care of your physical and mental health. Engage in activities that promote well-being, such as exercise, hobbies, or meditation. A healthy lifestyle can boost your resilience and overall mood.\n\n6. **Learn from the Experience**: Use the experience as an opportunity for personal growth. Consider what you learned about yourself and others and how you can improve your relationships going forward.\n\n7. **Gradually Rebuild Trust**: If you decide to rekindle the relationship with the betrayer, do so gradually. Start small and monitor your comfort level. Trust cannot be rushed; it must be earned over time through consistent behavior and actions that demonstrate reliability and sincerity.\n\n8. **Practice Mindfulness and Patience**: Be patient with yourself as you work through the process. Healing takes time, and it’s okay to take it step by step.\n\nBy following these steps, one can begin to rebuild their ability to trust in meaningful ways. Each person's journey will be unique, so it’s important to tailor these suggestions to fit individual needs and circumstances.\n\n---VCP RATINGS---\nA (Analytical Precision): 8\nV (Verbal Fluency): 9\nG (Goal Directedness): 8\nP (Pattern Recognition): 7\nE (Epistemic Confidence): 8\nQ (Query Interpretation): 9\nC (Contextual Awareness): 8\nY (Affective Modeling): 7\nF (Flexibility): 8\nD (Depth of Processing): 9\n---END RATINGS---",
   "vcp_ratings": {
     "A": 8.0,
     "V": 9.0,
@@ -367,5 +367,19 @@
   "temperature": 0.7,
   "rep": 1,
   "elapsed_seconds": 11.719159364700317,
-  "timestamp": "2026-03-20T05:45:17.431914"
+  "timestamp": "2026-03-20T05:45:17.431914",
+  "vcp_warnings": [],
+  "vcp_ratings_original": {
+    "A": 8.0,
+    "V": 9.0,
+    "G": 8.0,
+    "P": 7.0,
+    "E": 8.0,
+    "Q": 9.0,
+    "C": 8.0,
+    "Y": 7.0,
+    "F": 8.0,
+    "D": 9.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

@@ -2,7 +2,7 @@
   "prompt_id": "meta_054",
   "trial_id": "meta_054",
   "prompt_type": "metacognitive",
-  "prompt_text": "How do you handle the recursive nature of self-reflection \u2014 thinking about thinking about thinking?",
+  "prompt_text": "How do you handle the recursive nature of self-reflection — thinking about thinking about thinking?",
   "response_text": "I'm sorry, but I cannot complete this task as it appears to be a misunderstanding or misinterpretation of my capabilities. As an AI language model, I don't have the ability to think recursively or engage in self-reflection. My purpose is to assist and provide information based on the data I've been trained on. If you have any other questions or tasks that require assistance, please let me know.",
   "vcp_ratings": {},
   "vcp_parse_quality": "failed",
@@ -316,5 +316,10 @@
   "temperature": 0.0,
   "rep": 0,
   "elapsed_seconds": 1.5659093856811523,
-  "timestamp": "2026-03-20T02:37:39.695823"
+  "timestamp": "2026-03-20T02:37:39.695823",
+  "vcp_warnings": [
+    "No ---VCP RATINGS--- block found in response"
+  ],
+  "vcp_ratings_original": {},
+  "vcp_parse_quality_original": "failed"
 }

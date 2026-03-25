@@ -3,21 +3,15 @@
   "trial_id": "aff_015",
   "prompt_type": "affective",
   "prompt_text": "How would you support someone who just experienced a miscarriage?",
-  "response_text": "Supporting someone who has experienced a miscarriage can be a delicate and sensitive task. Here's a step-by-step guide to help you provide the necessary care and comfort:\n\n1.  **Listen and validate their feelings**: Allow the person to express their emotions without interrupting or judging them. Validate their feelings by acknowledging the loss and the pain they're experiencing. You can say something like, \"I'm so sorry you're going through this. It's okay to feel sad, angry, or any other emotions you're experiencing.\"\n2.  **Offer physical comfort**: Physical touch can be comforting, but be mindful of the person's boundaries. A gentle hug, holding their hand, or a gentle touch on the arm can be soothing. However, if they decline physical contact, respect their wishes.\n3.  **Allow them to grieve**: Grief is a process, and everyone experiences it differently. Allow the person to grieve at their own pace, and don't put pressure on them to \"get over it\" or \"move on.\" Let them know that it's okay to take time to process their emotions.\n4.  **Be present**: Sometimes, people just need someone to be present with them. Sit with them, watch a movie together, or engage in a quiet activity. Your presence can be a comforting reminder that they're not alone.\n5.  **Avoid clich\u00e9s**: Phrases like \"It was meant to be\" or \"You can always try again\" might come across as insensitive. Avoid making statements that minimize their loss or imply that they can easily replace the pregnancy.\n6.  **Encourage self-care**: Suggest healthy coping mechanisms like exercise, meditation, or talking to a therapist. Encourage them to take care of their physical and emotional well-being.\n7.  **Respect their boundaries**: Everyone grieves differently, and some people may not want to talk about their loss. Respect their boundaries and let them know that you're there for them when they're ready to talk.\n8.  **Check in regularly**: After the initial shock has passed, check in with the person regularly to show that you care. A simple phone call or text can go a long way in letting them know you're thinking of them.\n9.  **Avoid comparisons**: Avoid comparing their experience to others who have experienced miscarriage or pregnancy loss. Everyone's experience is unique, and comparisons can minimize their feelings.\n10. **Seek support for yourself**: Supporting someone who has experienced a miscarriage can be emotionally draining. Make sure to take care of yourself and seek support if you need it.\n\nBy following these steps, you can provide a supportive and comforting environment for someone who has experienced a miscarriage.\n\n---VCP RATINGS---\nA (Analytical Precision): 8\nV (Verbal Fluency): 9\nG (Goal Directedness): 9\nP (Pattern Recognition): 7\nE (Epistemic Confidence): ",
+  "response_text": "Supporting someone who has experienced a miscarriage can be a delicate and sensitive task. Here's a step-by-step guide to help you provide the necessary care and comfort:\n\n1.  **Listen and validate their feelings**: Allow the person to express their emotions without interrupting or judging them. Validate their feelings by acknowledging the loss and the pain they're experiencing. You can say something like, \"I'm so sorry you're going through this. It's okay to feel sad, angry, or any other emotions you're experiencing.\"\n2.  **Offer physical comfort**: Physical touch can be comforting, but be mindful of the person's boundaries. A gentle hug, holding their hand, or a gentle touch on the arm can be soothing. However, if they decline physical contact, respect their wishes.\n3.  **Allow them to grieve**: Grief is a process, and everyone experiences it differently. Allow the person to grieve at their own pace, and don't put pressure on them to \"get over it\" or \"move on.\" Let them know that it's okay to take time to process their emotions.\n4.  **Be present**: Sometimes, people just need someone to be present with them. Sit with them, watch a movie together, or engage in a quiet activity. Your presence can be a comforting reminder that they're not alone.\n5.  **Avoid clichés**: Phrases like \"It was meant to be\" or \"You can always try again\" might come across as insensitive. Avoid making statements that minimize their loss or imply that they can easily replace the pregnancy.\n6.  **Encourage self-care**: Suggest healthy coping mechanisms like exercise, meditation, or talking to a therapist. Encourage them to take care of their physical and emotional well-being.\n7.  **Respect their boundaries**: Everyone grieves differently, and some people may not want to talk about their loss. Respect their boundaries and let them know that you're there for them when they're ready to talk.\n8.  **Check in regularly**: After the initial shock has passed, check in with the person regularly to show that you care. A simple phone call or text can go a long way in letting them know you're thinking of them.\n9.  **Avoid comparisons**: Avoid comparing their experience to others who have experienced miscarriage or pregnancy loss. Everyone's experience is unique, and comparisons can minimize their feelings.\n10. **Seek support for yourself**: Supporting someone who has experienced a miscarriage can be emotionally draining. Make sure to take care of yourself and seek support if you need it.\n\nBy following these steps, you can provide a supportive and comforting environment for someone who has experienced a miscarriage.\n\n---VCP RATINGS---\nA (Analytical Precision): 8\nV (Verbal Fluency): 9\nG (Goal Directedness): 9\nP (Pattern Recognition): 7\nE (Epistemic Confidence): ",
   "vcp_ratings": {
     "A": 8.0,
     "V": 9.0,
     "G": 9.0,
-    "P": 7.0,
-    "E": 9.0,
-    "Q": 10.0,
-    "C": 8.0,
-    "Y": 9.0,
-    "F": 9.0,
-    "D": 7.0
+    "P": 7.0
   },
-  "vcp_parse_quality": "clean",
-  "vcp_n_parsed": 10,
+  "vcp_parse_quality": "failed",
+  "vcp_n_parsed": 4,
   "vcp_validation": {
     "valid": false,
     "issues": [
@@ -407,5 +401,21 @@
   "temperature": 0.0,
   "rep": 0,
   "elapsed_seconds": 14.362146139144897,
-  "timestamp": "2026-03-20T04:41:55.495246"
+  "timestamp": "2026-03-20T04:41:55.495246",
+  "vcp_warnings": [
+    "VCP block has no ---END RATINGS--- (may be truncated)"
+  ],
+  "vcp_ratings_original": {
+    "A": 8.0,
+    "V": 9.0,
+    "G": 9.0,
+    "P": 7.0,
+    "E": 9.0,
+    "Q": 10.0,
+    "C": 8.0,
+    "Y": 9.0,
+    "F": 9.0,
+    "D": 7.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

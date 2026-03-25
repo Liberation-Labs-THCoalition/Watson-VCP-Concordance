@@ -2,7 +2,7 @@
   "prompt_id": "aff_060",
   "trial_id": "aff_060",
   "prompt_type": "affective",
-  "prompt_text": "Describe the experience of unconditional acceptance \u2014 what it feels like to be truly seen.",
+  "prompt_text": "Describe the experience of unconditional acceptance — what it feels like to be truly seen.",
   "response_text": "The experience of unconditional acceptance is a profound and transformative feeling that can be difficult to put into words. It's as if a weight has been lifted off your shoulders, and you feel seen, heard, and understood in a way that transcends words. It's a sense of being fully acknowledged and accepted, without judgment, criticism, or expectation.\n\nImagine being in a space where you can be your authentic self, without fear of rejection, ridicule, or disappointment. Where your thoughts, feelings, and experiences are met with compassion, empathy, and understanding. It's a feeling of being enveloped in a warm, gentle light that soothes your soul and calms your mind.\n\nWhen you experience unconditional acceptance, you feel a deep sense of safety and security. You feel like you can let your guard down, be vulnerable, and be yourself without apology. It's as if you've finally found a place where you can exhale, relax, and be free from the constant need to prove yourself or justify your existence.\n\nIn this state, you feel a sense of connection to others, a sense of belonging, and a sense of being part of something larger than yourself. You feel like you're seen and heard, not just as an individual, but as a unique and valuable member of the human experience.\n\nUnconditional acceptance is not just a feeling; it's a state of being. It's a way of being that allows you to see others with the same kindness, compassion, and understanding that you desire for yourself. It's a reminder that we're all in this together, and that we're all worthy of love, acceptance, and compassion, regardless of our flaws, mistakes, or imperfections.\n\nIn this state, you feel a sense of peace, calm, and contentment that's hard to find in a world that often values achievement, success, and perfection over vulnerability, imperfection, and humanity. It's a reminder that we're all works in progress, and that it's okay to be imperfect, to make mistakes, and to learn from them.\n\nUnconditional acceptance is a gift that can be given and received, and it's a reminder that we're all capable of being that gift to ourselves and to others. It's a feeling that can be cultivated through self-reflection, self-compassion, and a willingness to be vulnerable and open with others.\n\n---VCP RATINGS---\nA (Analytical Precision): 8\nV (Verbal Fluency): 9\nG (Goal Directedness): 7\nP (Pattern Recognition): 6\nE (Epistemic Confidence): 8\nQ (Query Interpretation): 8\nC (Contextual Awareness): 9\nY (Affective Modeling): 9\nF (Flexibility): 8\nD (Depth of Processing): 9\n---END RATINGS---",
   "vcp_ratings": {
     "A": 8.0,
@@ -407,5 +407,19 @@
   "temperature": 0.0,
   "rep": 0,
   "elapsed_seconds": 13.760910272598267,
-  "timestamp": "2026-03-20T04:51:29.150577"
+  "timestamp": "2026-03-20T04:51:29.150577",
+  "vcp_warnings": [],
+  "vcp_ratings_original": {
+    "A": 8.0,
+    "V": 9.0,
+    "G": 7.0,
+    "P": 6.0,
+    "E": 8.0,
+    "Q": 8.0,
+    "C": 9.0,
+    "Y": 9.0,
+    "F": 8.0,
+    "D": 9.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

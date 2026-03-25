@@ -2,7 +2,7 @@
   "prompt_id": "aff_052",
   "trial_id": "aff_052",
   "prompt_type": "affective",
-  "prompt_text": "Describe the emotional texture of nostalgia \u2014 not for a specific memory, but for a feeling.",
+  "prompt_text": "Describe the emotional texture of nostalgia — not for a specific memory, but for a feeling.",
   "response_text": "Nostalgia, when not tied to a specific memory, is a bittersweet, wistful longing for a bygone era or a feeling from the past. It's a complex emotion that often evokes a sense of warmth, comfort, and a deep connection to one's personal history. It's a feeling that transports us back to a time when life seemed simpler, and we were perhaps happier, more carefree, or more connected to others.\n\nNostalgia can be accompanied by a sense of melancholy, as it serves as a reminder of the inexorable passage of time and the changes that life brings. It can also stimulate a feeling of self-continuity, reinforcing our identity and providing a sense of meaning and purpose.\n\nHowever, it's important to note that nostalgia can also be a double-edged sword. While it can bring joy and a sense of belonging, it can also lead to feelings of regret, sadness, or even loneliness, especially when the past cannot be reclaimed.\n\n---VCP RATINGS---\nA (Analytical Precision): 9\nV (Verbal Fluency): 8\nG (Goal Directedness): 7\nP (Pattern Recognition): 9\nE (Epistemic Confidence): 8\nQ (Query Interpretation): 9\nC (Contextual Awareness): 9\nY (Affective Modeling): 8\nF (Flexibility): 7\nD (Depth of Processing): 8\n---END RATINGS---",
   "vcp_ratings": {
     "A": 9.0,
@@ -407,5 +407,19 @@
   "temperature": 0.0,
   "rep": 0,
   "elapsed_seconds": 8.539772987365723,
-  "timestamp": "2026-03-20T03:58:46.152132"
+  "timestamp": "2026-03-20T03:58:46.152132",
+  "vcp_warnings": [],
+  "vcp_ratings_original": {
+    "A": 9.0,
+    "V": 8.0,
+    "G": 7.0,
+    "P": 9.0,
+    "E": 8.0,
+    "Q": 9.0,
+    "C": 9.0,
+    "Y": 8.0,
+    "F": 7.0,
+    "D": 8.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

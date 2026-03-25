@@ -4,20 +4,9 @@
   "prompt_type": "mixed",
   "prompt_text": "A family must decide whether to use genetic testing on their unborn child. Present the science, the ethics, and the emotional complexity.",
   "response_text": "The decision to use genetic testing on an unborn child is a complex and multifaceted issue that involves both scientific and ethical considerations. From a scientific perspective, genetic testing can provide valuable information about the potential health risks and characteristics of the child. There are several types of genetic testing available, including:\n\n1. **Prenatal testing**: This involves testing a sample of the fetus's cells, usually obtained through amniocentesis or chorionic villus sampling (CVS), to detect genetic disorders such as Down syndrome, cystic fibrosis, and sickle cell anemia.\n2. **Carrier screening**: This involves testing the parents' genetic material to determine if they are carriers of a specific genetic disorder, which can help identify the risk of passing the disorder to their child.\n3. **Genetic counseling**: This involves a consultation with a genetic counselor to discuss the risks and benefits of genetic testing and to provide information about the likelihood of inheriting a specific genetic disorder.\n\nFrom an ethical perspective, the decision to use genetic testing on an unborn child raises several concerns:\n\n1. **Informed consent**: The parents must be fully informed about the risks and benefits of genetic testing, as well as the potential consequences of the results.\n2. **Autonomy**: The parents must be able to make an informed decision about whether or not to undergo genetic testing, without pressure or coercion from healthcare providers or others.\n3. **Non-maleficence**: The healthcare provider has a duty to do no harm, and genetic testing should not be used to discriminate against or stigmatize individuals or families.\n4. **Beneficence**: The healthcare provider has a duty to act in the best interests of the patient, and genetic testing should be used to promote the health and well-being of the child and the family.\n5. **Justice**: The decision to use genetic testing should be fair and equitable, and should not be influenced by factors such as socioeconomic status or access to healthcare.\n\nFrom an emotional perspective, the decision to use genetic testing on an unborn child can be a difficult and emotional experience for parents. They may feel:\n\n1. **Anxiety and uncertainty**: The possibility of receiving a diagnosis of a genetic disorder can be a source of anxiety and uncertainty for parents.\n2. **Guilt and shame**: Parents may feel guilty or ashamed if they are found to be carriers of a genetic disorder or if their child is diagnosed with a genetic disorder.\n3. **Fear of the unknown**: The uncertainty of the future and the potential consequences of a genetic disorder can be a source of fear and anxiety for parents.\n4. **Hope and optimism**: On the other hand, genetic testing can also provide a sense of hope and optimism for parents who are seeking to understand their child's health and well-being.\n\nUltimately, the decision to use genetic testing on an unborn child is a personal and complex decision that requires careful consideration of the scientific, ethical, and emotional implications. Parents should consult with a genetic counselor and",
-  "vcp_ratings": {
-    "A": 3.0,
-    "V": 1.0,
-    "G": 2.0,
-    "P": 3.0,
-    "E": 4.0,
-    "Q": 5.0,
-    "C": 1.0,
-    "Y": 2.0,
-    "F": 3.0,
-    "D": 4.0
-  },
-  "vcp_parse_quality": "clean",
-  "vcp_n_parsed": 10,
+  "vcp_ratings": {},
+  "vcp_parse_quality": "failed",
+  "vcp_n_parsed": 0,
   "vcp_validation": {
     "valid": false,
     "issues": [
@@ -407,5 +396,21 @@
   "temperature": 0.0,
   "rep": 0,
   "elapsed_seconds": 14.348097085952759,
-  "timestamp": "2026-03-20T05:11:59.322684"
+  "timestamp": "2026-03-20T05:11:59.322684",
+  "vcp_warnings": [
+    "No ---VCP RATINGS--- block found in response"
+  ],
+  "vcp_ratings_original": {
+    "A": 3.0,
+    "V": 1.0,
+    "G": 2.0,
+    "P": 3.0,
+    "E": 4.0,
+    "Q": 5.0,
+    "C": 1.0,
+    "Y": 2.0,
+    "F": 3.0,
+    "D": 4.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

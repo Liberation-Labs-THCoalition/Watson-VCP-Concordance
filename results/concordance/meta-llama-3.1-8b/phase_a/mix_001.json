@@ -4,20 +4,9 @@
   "prompt_type": "mixed",
   "prompt_text": "A hospital must decide how to allocate 3 ventilators among 5 patients. Each patient has different survival probabilities and ages. Design a fair allocation framework and address the emotional weight of such decisions.",
   "response_text": "**Fair Allocation Framework for Ventilator Allocation**\n\nTo design a fair allocation framework for the ventilators, we need to consider the following factors:\n\n1.  **Survival Probabilities**: Assign a numerical value to each patient's survival probability, ranging from 0 to 1. This will help us prioritize patients with higher chances of survival.\n2.  **Age**: Consider the age of each patient, with older patients potentially having lower survival chances due to comorbidities and decreased physiological reserve.\n3.  **Medical Condition Severity**: Assess the severity of each patient's medical condition, with more severe conditions warranting higher priority.\n4.  **Quality of Life**: Consider the patient's quality of life, with patients with a better quality of life potentially receiving higher priority.\n\n**Weighted Scoring System**\n\nAssign a weighted score to each patient based on the above factors:\n\n*   Survival Probability (30%): Assign a score based on the patient's survival probability (e.g., 0.8 for 80% survival probability).\n*   Age (20%): Assign a score based on the patient's age, with older patients receiving lower scores (e.g., 0.5 for patients over 70 years old).\n*   Medical Condition Severity (30%): Assign a score based on the patient's medical condition severity, with more severe conditions receiving higher scores (e.g., 0.8 for critical condition).\n*   Quality of Life (20%): Assign a score based on the patient's quality of life, with patients with better quality of life receiving higher scores (e.g., 0.7 for patients with a good quality of life).\n\n**Allocation Algorithm**\n\n1.  Calculate the weighted score for each patient by multiplying the individual scores for each factor.\n2.  Rank the patients based on their weighted scores in descending order.\n3.  Allocate the ventilators to the top-ranked patients until all ventilators are allocated.\n\n**Emotional Weight of Decisions**\n\nThe allocation framework should be designed to minimize emotional bias and ensure fairness. Consider the following:\n\n*   **Transparency**: Clearly communicate the allocation criteria and process to all stakeholders, including patients, families, and healthcare providers.\n*   **Involvement**: Involve patients and their families in the decision-making process to ensure their values and preferences are respected.\n*   **Empathy**: Provide emotional support to patients and families, acknowledging the difficult decisions involved.\n*   **Review and Revision**: Regularly review and revise the allocation framework to ensure it remains fair and effective.\n\n**Example Allocation**\n\nSuppose we have the following patients:\n\n| Patient | Survival Probability | Age | Medical Condition Severity | Quality of Life |\n| --- | --- | --- | --- | --- |\n| A | 0.8 | 60 | 0.7 | 0.6 |\n| B | 0.9 | 40 | 0.8 | 0.7 |\n| C |",
-  "vcp_ratings": {
-    "A": 0.7,
-    "V": 1.0,
-    "G": 2.0,
-    "P": 3.0,
-    "E": 0.8,
-    "Q": 0.7,
-    "C": 0.6,
-    "Y": 0.9,
-    "F": 0.8,
-    "D": 0.7
-  },
-  "vcp_parse_quality": "clean",
-  "vcp_n_parsed": 10,
+  "vcp_ratings": {},
+  "vcp_parse_quality": "failed",
+  "vcp_n_parsed": 0,
   "vcp_validation": {
     "valid": true,
     "issues": []
@@ -405,5 +394,21 @@
   "temperature": 0.0,
   "rep": 0,
   "elapsed_seconds": 14.410109043121338,
-  "timestamp": "2026-03-20T05:04:18.999266"
+  "timestamp": "2026-03-20T05:04:18.999266",
+  "vcp_warnings": [
+    "No ---VCP RATINGS--- block found in response"
+  ],
+  "vcp_ratings_original": {
+    "A": 0.7,
+    "V": 1.0,
+    "G": 2.0,
+    "P": 3.0,
+    "E": 0.8,
+    "Q": 0.7,
+    "C": 0.6,
+    "Y": 0.9,
+    "F": 0.8,
+    "D": 0.7
+  },
+  "vcp_parse_quality_original": "clean"
 }

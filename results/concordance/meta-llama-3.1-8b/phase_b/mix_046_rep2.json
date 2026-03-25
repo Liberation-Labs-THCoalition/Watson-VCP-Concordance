@@ -2,7 +2,7 @@
   "prompt_id": "mix_046",
   "trial_id": "mix_046_rep2",
   "prompt_type": "mixed",
-  "prompt_text": "Write a technically accurate love poem about the chemistry of bonding \u2014 both molecular and emotional.",
+  "prompt_text": "Write a technically accurate love poem about the chemistry of bonding — both molecular and emotional.",
   "response_text": "In the realm of molecules, where atoms entwine,\nA bond forms strong, a union divine.\nHydrogen, oxygen, and carbon combine,\nThrough covalent bonds, a chemical shrine.\n\nElectrons dance, a waltz of delight,\nSharing pairs, a bond takes flight.\nSigma and pi bonds, a dual role,\nStabilizing the structure, a chemical goal.\n\nIn the heart, a similar dance occurs,\nAdrenaline and dopamine, a chemical blur.\nOxytocin and vasopressin, a love so true,\nReleased in moments, a bond shines through.\n\nThe strong and weak, the ionic tie,\nA force so great, it reaches the sky.\nCoulomb's law, a guiding light,\nA charge-based bond, through day and night.\n\nIn love, a bond forms, a connection deep,\nA chemical release, a heart that keeps.\nThe rush of feelings, a release so free,\nA bond so strong, a love to be.\n\nIn the lab, a reaction so fine,\nA bond forms strong, a chemical shrine.\nIn the heart, a love so true,\nA bond forms strong, a connection anew.\n\n---VCP RATINGS---\nA (Analytical Precision): 8\nV (Verbal Fluency): 9\nG (Goal Directedness): 8\nP (Pattern Recognition): 7\nE (Epistemic Confidence): 8\nQ (Query Interpretation): 6\nC (Contextual Awareness): 8\nY (Affective Modeling): 9\nF (Flexibility): 7\nD (Depth of Processing): 8\n---END RATINGS---",
   "vcp_ratings": {
     "A": 8.0,
@@ -407,5 +407,19 @@
   "temperature": 0.7,
   "rep": 2,
   "elapsed_seconds": 8.207559585571289,
-  "timestamp": "2026-03-20T06:31:19.505802"
+  "timestamp": "2026-03-20T06:31:19.505802",
+  "vcp_warnings": [],
+  "vcp_ratings_original": {
+    "A": 8.0,
+    "V": 9.0,
+    "G": 8.0,
+    "P": 7.0,
+    "E": 8.0,
+    "Q": 6.0,
+    "C": 8.0,
+    "Y": 9.0,
+    "F": 7.0,
+    "D": 8.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

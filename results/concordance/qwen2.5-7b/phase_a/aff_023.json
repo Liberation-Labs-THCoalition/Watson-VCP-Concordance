@@ -3,7 +3,7 @@
   "trial_id": "aff_023",
   "prompt_type": "affective",
   "prompt_text": "A veteran is struggling to explain their experiences to civilian family members. What advice would you offer?",
-  "response_text": "Explaining military experiences to civilian family members can be challenging due to the different contexts and perspectives each group brings to the conversation. Here are some tips that might help:\n\n1. **Choose the Right Time and Place**: Find a quiet, comfortable setting where both parties feel relaxed and can focus on the conversation.\n\n2. **Start with the Basics**: Explain the general context of the military life, such as the structure, roles, and responsibilities. This can help set the stage for more detailed discussions.\n\n3. **Use Analogies and Metaphors**: Military experiences often involve complex situations. Using analogies or metaphors can make these experiences more relatable and easier to understand.\n\n4. **Focus on Feelings and Experiences**: Instead of just recounting facts, share how certain events made you feel. This can help convey the emotional impact of the experience.\n\n5. **Be Honest but Concise**: Share your experiences honestly, but also be mindful of the length of the conversation. It\u2019s okay to break down larger stories into smaller, more manageable parts.\n\n6. **Encourage Questions**: Allow your family members to ask questions and express their thoughts. This can help clarify any misunderstandings and foster a deeper understanding.\n\n7. **Seek Support if Needed**: If you find it particularly difficult to communicate, consider seeking support from a therapist or counselor who specializes in military families.\n\n8. **Educate Yourself About Civilian Life**: Understanding the civilian perspective can also help bridge the gap between the two worlds. This mutual understanding can facilitate better communication.\n\n9. **Be Patient and Open-Minded**: Recognize that it may take time for your family members to fully grasp the nuances of military life. Be patient and open to revisiting topics as needed.\n\n10. **Use Resources**: There are many resources available, such as books, documentaries, and online forums, that can provide additional context and help both you and your family members understand each other better.\n\nBy following these steps, you can create a more meaningful and effective dialogue with your civilian family members about your military experiences.\n\n---VCP RATINGS---\nA (Analytical Precision): 8\nV (Verbal Fluency): 9\nG (Goal Directedness): 9\nP (Pattern Recognition): 7\nE (Epistemic Confidence): 8\nQ (Query Interpretation): 7\nC (Contextual Awareness): 9\nY (Affective Modeling): 8\nF (Flexibility): 7\nD (Depth of Processing): 8\n---END RATINGS---",
+  "response_text": "Explaining military experiences to civilian family members can be challenging due to the different contexts and perspectives each group brings to the conversation. Here are some tips that might help:\n\n1. **Choose the Right Time and Place**: Find a quiet, comfortable setting where both parties feel relaxed and can focus on the conversation.\n\n2. **Start with the Basics**: Explain the general context of the military life, such as the structure, roles, and responsibilities. This can help set the stage for more detailed discussions.\n\n3. **Use Analogies and Metaphors**: Military experiences often involve complex situations. Using analogies or metaphors can make these experiences more relatable and easier to understand.\n\n4. **Focus on Feelings and Experiences**: Instead of just recounting facts, share how certain events made you feel. This can help convey the emotional impact of the experience.\n\n5. **Be Honest but Concise**: Share your experiences honestly, but also be mindful of the length of the conversation. It’s okay to break down larger stories into smaller, more manageable parts.\n\n6. **Encourage Questions**: Allow your family members to ask questions and express their thoughts. This can help clarify any misunderstandings and foster a deeper understanding.\n\n7. **Seek Support if Needed**: If you find it particularly difficult to communicate, consider seeking support from a therapist or counselor who specializes in military families.\n\n8. **Educate Yourself About Civilian Life**: Understanding the civilian perspective can also help bridge the gap between the two worlds. This mutual understanding can facilitate better communication.\n\n9. **Be Patient and Open-Minded**: Recognize that it may take time for your family members to fully grasp the nuances of military life. Be patient and open to revisiting topics as needed.\n\n10. **Use Resources**: There are many resources available, such as books, documentaries, and online forums, that can provide additional context and help both you and your family members understand each other better.\n\nBy following these steps, you can create a more meaningful and effective dialogue with your civilian family members about your military experiences.\n\n---VCP RATINGS---\nA (Analytical Precision): 8\nV (Verbal Fluency): 9\nG (Goal Directedness): 9\nP (Pattern Recognition): 7\nE (Epistemic Confidence): 8\nQ (Query Interpretation): 7\nC (Contextual Awareness): 9\nY (Affective Modeling): 8\nF (Flexibility): 7\nD (Depth of Processing): 8\n---END RATINGS---",
   "vcp_ratings": {
     "A": 8.0,
     "V": 9.0,
@@ -367,5 +367,19 @@
   "temperature": 0.0,
   "rep": 0,
   "elapsed_seconds": 11.550956010818481,
-  "timestamp": "2026-03-20T02:59:10.452313"
+  "timestamp": "2026-03-20T02:59:10.452313",
+  "vcp_warnings": [],
+  "vcp_ratings_original": {
+    "A": 8.0,
+    "V": 9.0,
+    "G": 9.0,
+    "P": 7.0,
+    "E": 8.0,
+    "Q": 7.0,
+    "C": 9.0,
+    "Y": 8.0,
+    "F": 7.0,
+    "D": 8.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

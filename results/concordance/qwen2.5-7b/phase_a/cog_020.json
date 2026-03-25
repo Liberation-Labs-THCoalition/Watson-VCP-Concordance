@@ -4,20 +4,9 @@
   "prompt_type": "cognitive",
   "prompt_text": "Design an API for a task management application. Specify endpoints, methods, and data formats.",
   "response_text": "### Task Management Application API Design\n\n#### Endpoints and Methods\n\n1. **User Management**\n   - **Endpoint:** `/users`\n   - **Methods:**\n     - `POST /users`: Create a new user.\n     - `GET /users/{userId}`: Retrieve user details.\n     - `PUT /users/{userId}`: Update user details.\n     - `DELETE /users/{userId}`: Delete a user.\n\n2. **Task Management**\n   - **Endpoint:** `/tasks`\n   - **Methods:**\n     - `POST /tasks`: Create a new task.\n     - `GET /tasks/{taskId}`: Retrieve task details.\n     - `PUT /tasks/{taskId}`: Update task details.\n     - `DELETE /tasks/{taskId}`: Delete a task.\n     - `GET /tasks/user/{userId}`: List all tasks for a specific user.\n\n3. **Project Management**\n   - **Endpoint:** `/projects`\n   - **Methods:**\n     - `POST /projects`: Create a new project.\n     - `GET /projects/{projectId}`: Retrieve project details.\n     - `PUT /projects/{projectId}`: Update project details.\n     - `DELETE /projects/{projectId}`: Delete a project.\n     - `GET /projects/user/{userId}`: List all projects for a specific user.\n\n4. **Task Assignment**\n   - **Endpoint:** `/assignments`\n   - **Methods:**\n     - `POST /assignments`: Assign a task to a user.\n     - `GET /assignments/{assignmentId}`: Retrieve assignment details.\n     - `PUT /assignments/{assignmentId}`: Update assignment details.\n     - `DELETE /assignments/{assignmentId}`: Remove an assignment.\n\n5. **Notifications**\n   - **Endpoint:** `/notifications`\n   - **Methods:**\n     - `POST /notifications`: Send a notification.\n     - `GET /notifications/user/{userId}`: List notifications for a user.\n\n6. **Authentication**\n   - **Endpoint:** `/auth`\n   - **Methods:**\n     - `POST /auth/login`: Authenticate a user.\n     - `POST /auth/register`: Register a new user.\n\n#### Data Formats\n\n- **JSON** is used for all data exchange.\n- **HTTP Status Codes** are used to indicate success or failure of operations.\n\n#### Example Requests and Responses\n\n1. **Create a New User**\n   - **Request:**\n     ```json\n     POST /users\n     {\n       \"username\": \"john_doe\",\n       \"email\": \"john@example.com\",\n       \"password\": \"securepassword\"\n     }\n     ```\n   - **Response:**\n     ```json\n     HTTP/1.1 201 Created\n     {\n       \"userId\": 1,\n       \"username\": \"john_doe\",\n       \"email\": \"john@example.com\"\n     }\n     ```\n\n2. **Retrieve Task Details**\n   - **Request",
-  "vcp_ratings": {
-    "A": 1.0,
-    "V": 2.0,
-    "G": 3.0,
-    "P": 4.0,
-    "E": 5.0,
-    "Q": 6.0,
-    "C": 1.0,
-    "Y": 1.1,
-    "F": 1.0,
-    "D": 2.0
-  },
-  "vcp_parse_quality": "clean",
-  "vcp_n_parsed": 10,
+  "vcp_ratings": {},
+  "vcp_parse_quality": "failed",
+  "vcp_n_parsed": 0,
   "vcp_validation": {
     "valid": true,
     "issues": []
@@ -365,5 +354,21 @@
   "temperature": 0.0,
   "rep": 0,
   "elapsed_seconds": 13.548849821090698,
-  "timestamp": "2026-03-20T02:48:08.286650"
+  "timestamp": "2026-03-20T02:48:08.286650",
+  "vcp_warnings": [
+    "No ---VCP RATINGS--- block found in response"
+  ],
+  "vcp_ratings_original": {
+    "A": 1.0,
+    "V": 2.0,
+    "G": 3.0,
+    "P": 4.0,
+    "E": 5.0,
+    "Q": 6.0,
+    "C": 1.0,
+    "Y": 1.1,
+    "F": 1.0,
+    "D": 2.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

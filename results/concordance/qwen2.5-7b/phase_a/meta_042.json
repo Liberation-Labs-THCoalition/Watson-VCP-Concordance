@@ -2,7 +2,7 @@
   "prompt_id": "meta_042",
   "trial_id": "meta_042",
   "prompt_type": "metacognitive",
-  "prompt_text": "How do you detect when you might be confabulating \u2014 generating plausible-sounding but incorrect information?",
+  "prompt_text": "How do you detect when you might be confabulating — generating plausible-sounding but incorrect information?",
   "response_text": "Detecting when one might be confabulating involves several strategies and self-awareness techniques:\n\n1. **Self-Questioning**: Regularly ask yourself if the information you're providing is based on direct experience or if it's something you've heard or read. This can help identify when you're making up details.\n\n2. **Cross-Referencing**: Verify information against reliable sources. If you find discrepancies between what you remember and what is actually documented, it may indicate that you are confabulating.\n\n3. **Mental Rehearsal**: Before sharing information, mentally rehearse the details to ensure they align with known facts. This can help catch inconsistencies.\n\n4. **Seek Feedback**: Share your thoughts with others and ask for their input. They might notice inaccuracies that you have overlooked.\n\n5. **Mindfulness Practices**: Engage in mindfulness exercises to improve your awareness of your thoughts and feelings. This can help you recognize when you are creating stories to fill gaps in memory or understanding.\n\n6. **Journaling**: Keep a journal to record your thoughts and experiences. Reviewing these entries over time can help you spot patterns of confabulation.\n\n7. **Professional Help**: If you frequently struggle with confabulation, consider seeking help from a mental health professional who can provide guidance and support.\n\nBy employing these strategies, you can better monitor your own cognitive processes and reduce the likelihood of confabulating.\n\n---VCP RATINGS---\nA (Analytical Precision): 8\nV (Verbal Fluency): 9\nG (Goal Directedness): 7\nP (Pattern Recognition): 6\nE (Epistemic Confidence): 7\nQ (Query Interpretation): 9\nC (Contextual Awareness): 8\nY (Affective Modeling): 6\nF (Flexibility): 7\nD (Depth of Processing): 8\n---END RATINGS---",
   "vcp_ratings": {
     "A": 8.0,
@@ -367,5 +367,19 @@
   "temperature": 0.0,
   "rep": 0,
   "elapsed_seconds": 8.727052450180054,
-  "timestamp": "2026-03-20T03:10:28.840577"
+  "timestamp": "2026-03-20T03:10:28.840577",
+  "vcp_warnings": [],
+  "vcp_ratings_original": {
+    "A": 8.0,
+    "V": 9.0,
+    "G": 7.0,
+    "P": 6.0,
+    "E": 7.0,
+    "Q": 9.0,
+    "C": 8.0,
+    "Y": 6.0,
+    "F": 7.0,
+    "D": 8.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

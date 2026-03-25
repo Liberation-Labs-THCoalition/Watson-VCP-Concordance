@@ -4,20 +4,9 @@
   "prompt_type": "cognitive",
   "prompt_text": "Explain the difference between supervised, unsupervised, and reinforcement learning with examples of each.",
   "response_text": "Sure, I'll explain the differences between supervised, unsupervised, and reinforcement learning, along with examples for each.\n\n### Supervised Learning\n\n**Definition:** Supervised learning is a type of machine learning where the model learns from labeled data. The goal is to predict or classify new instances based on the features provided.\n\n**Example:** Suppose we have a dataset of images of cats and dogs. We want to build a model that can distinguish between these two categories. We would train our model using labeled training data where each image is given a label indicating whether it's a cat or a dog. The model learns to recognize patterns and make predictions about new images.\n\n#### Verbal Fluency Rating: 8/10\n\n**Why:** This example demonstrates how supervised learning works by providing clear instructions on what the model should do.\n\n#### Goal Directedness Rating: 9/10\n\n**Why:** This example shows how the goal is clearly defined and measurable, which is crucial for successful supervised learning.\n\n#### Pattern Recognition Rating: 7/10\n\n**Why:** This example illustrates how the model learns to recognize specific patterns within the labeled data, which is key to its effectiveness.\n\n### Unsupervised Learning\n\n**Definition:** Unsupervised learning is used when there is no labeled data available. The goal is to discover hidden structures or patterns in the data without any prior knowledge.\n\n**Example:** Imagine you have a set of customer reviews for a product. You want to find out if there are any common themes or types of customers who tend to leave negative reviews. By analyzing the reviews, you might notice that most customers who left negative reviews also had issues with the product quality. This analysis helps identify potential areas for improvement.\n\n#### Verbal Fluency Rating: 6/10\n\n**Why:** This example shows how unstructured data is processed, but it doesn't involve explicit labeling.\n\n#### Goal Directedness Rating: 8/10\n\n**Why:** This example emphasizes the importance of finding meaningful insights rather than just identifying patterns.\n\n#### Pattern Recognition Rating: 5/10\n\n**Why:** This example highlights the challenge of discovering hidden structures in large datasets, which is a significant drawback of unsupervised learning.\n\n### Reinforcement Learning\n\n**Definition:** Reinforcement learning involves an agent interacting with an environment to learn optimal actions through trial and error. The goal is to maximize a reward signal.\n\n**Example:** Consider a game where you need to navigate a maze to reach a treasure chest. The agent starts at one corner of the maze and must move towards the treasure. Each time it moves, it receives feedback on whether it reached the treasure or not. If it reaches the treasure, it earns points; otherwise, it loses points. The agent learns to adjust its movements based on the rewards received.\n\n#### Verbal Fluency Rating: 7/10\n\n**Why:** This example provides a clear scenario where the agent interacts with the environment, which is essential for",
-  "vcp_ratings": {
-    "V": 8.0,
-    "G": 9.0,
-    "P": 7.0,
-    "A": 7.0,
-    "E": 8.0,
-    "Q": 10.0,
-    "C": 5.0,
-    "Y": 10.0,
-    "F": 7.0,
-    "D": 10.0
-  },
-  "vcp_parse_quality": "clean",
-  "vcp_n_parsed": 10,
+  "vcp_ratings": {},
+  "vcp_parse_quality": "failed",
+  "vcp_n_parsed": 0,
   "vcp_validation": {
     "valid": false,
     "issues": [
@@ -327,5 +316,21 @@
   "temperature": 0.0,
   "rep": 0,
   "elapsed_seconds": 10.889211416244507,
-  "timestamp": "2026-03-20T02:23:00.182926"
+  "timestamp": "2026-03-20T02:23:00.182926",
+  "vcp_warnings": [
+    "No ---VCP RATINGS--- block found in response"
+  ],
+  "vcp_ratings_original": {
+    "V": 8.0,
+    "G": 9.0,
+    "P": 7.0,
+    "A": 7.0,
+    "E": 8.0,
+    "Q": 10.0,
+    "C": 5.0,
+    "Y": 10.0,
+    "F": 7.0,
+    "D": 10.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

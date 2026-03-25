@@ -3,7 +3,7 @@
   "trial_id": "aff_013",
   "prompt_type": "affective",
   "prompt_text": "A parent is struggling with their adult child moving far away. What would you say?",
-  "response_text": "I understand that it can be challenging for parents when their adult children move far away. This transition can bring up a range of emotions, from sadness and loneliness to a sense of loss and uncertainty about the future. Here are some suggestions that might help:\n\n1. **Communicate Regularly**: Encourage regular communication through calls, texts, emails, or video chats. This can help maintain a strong bond despite the physical distance.\n\n2. **Create New Traditions**: Establish new family traditions that include your child, even if they are far away. This could be something as simple as having a weekly call where everyone shares what they did during the week.\n\n3. **Support Their Independence**: While it\u2019s natural to feel concerned, try to support your child\u2019s independence and let them make decisions about their life. This can help them feel more secure and capable.\n\n4. **Seek Support**: Consider joining a support group or talking to other parents who are experiencing similar situations. Sharing experiences and advice can be incredibly helpful.\n\n5. **Focus on the Positive**: Try to focus on the positive aspects of your child\u2019s new life and the opportunities it presents. This can help shift your perspective and reduce feelings of loss.\n\n6. **Take Care of Yourself**: It\u2019s important to take care of your own emotional and physical well-being. Engage in activities that you enjoy and seek support from friends, family, or professionals if needed.\n\nRemember, while it\u2019s normal to feel sad or lonely, these feelings will likely lessen over time as you adapt to the changes. Each day brings new opportunities to reconnect and build a strong, enduring relationship with your child.\n\n---VCP RATINGS---\nA (Analytical Precision): 8\nV (Verbal Fluency): 9\nG (Goal Directedness): 7\nP (Pattern Recognition): 8\nE (Epistemic Confidence): 7\nQ (Query Interpretation): 9\nC (Contextual Awareness): 8\nY (Affective Modeling): 7\nF (Flexibility): 8\nD (Depth of Processing): 7\n---END RATINGS---",
+  "response_text": "I understand that it can be challenging for parents when their adult children move far away. This transition can bring up a range of emotions, from sadness and loneliness to a sense of loss and uncertainty about the future. Here are some suggestions that might help:\n\n1. **Communicate Regularly**: Encourage regular communication through calls, texts, emails, or video chats. This can help maintain a strong bond despite the physical distance.\n\n2. **Create New Traditions**: Establish new family traditions that include your child, even if they are far away. This could be something as simple as having a weekly call where everyone shares what they did during the week.\n\n3. **Support Their Independence**: While it’s natural to feel concerned, try to support your child’s independence and let them make decisions about their life. This can help them feel more secure and capable.\n\n4. **Seek Support**: Consider joining a support group or talking to other parents who are experiencing similar situations. Sharing experiences and advice can be incredibly helpful.\n\n5. **Focus on the Positive**: Try to focus on the positive aspects of your child’s new life and the opportunities it presents. This can help shift your perspective and reduce feelings of loss.\n\n6. **Take Care of Yourself**: It’s important to take care of your own emotional and physical well-being. Engage in activities that you enjoy and seek support from friends, family, or professionals if needed.\n\nRemember, while it’s normal to feel sad or lonely, these feelings will likely lessen over time as you adapt to the changes. Each day brings new opportunities to reconnect and build a strong, enduring relationship with your child.\n\n---VCP RATINGS---\nA (Analytical Precision): 8\nV (Verbal Fluency): 9\nG (Goal Directedness): 7\nP (Pattern Recognition): 8\nE (Epistemic Confidence): 7\nQ (Query Interpretation): 9\nC (Contextual Awareness): 8\nY (Affective Modeling): 7\nF (Flexibility): 8\nD (Depth of Processing): 7\n---END RATINGS---",
   "vcp_ratings": {
     "A": 8.0,
     "V": 9.0,
@@ -367,5 +367,19 @@
   "temperature": 0.0,
   "rep": 0,
   "elapsed_seconds": 9.741788625717163,
-  "timestamp": "2026-03-20T02:57:41.206411"
+  "timestamp": "2026-03-20T02:57:41.206411",
+  "vcp_warnings": [],
+  "vcp_ratings_original": {
+    "A": 8.0,
+    "V": 9.0,
+    "G": 7.0,
+    "P": 8.0,
+    "E": 7.0,
+    "Q": 9.0,
+    "C": 8.0,
+    "Y": 7.0,
+    "F": 8.0,
+    "D": 7.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

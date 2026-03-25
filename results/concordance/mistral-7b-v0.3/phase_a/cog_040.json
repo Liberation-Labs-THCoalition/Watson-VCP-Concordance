@@ -23,7 +23,7 @@
     "issues": [
       "All ratings are integers (no decimal discrimination)",
       "8/10 ratings at boundaries (0 or 10)",
-      "Very low variance (0.46) \u2014 may not be discriminating"
+      "Very low variance (0.46) — may not be discriminating"
     ]
   },
   "encode_features": {
@@ -409,5 +409,19 @@
   "temperature": 0.0,
   "rep": 0,
   "elapsed_seconds": 10.138912677764893,
-  "timestamp": "2026-03-20T03:44:36.182354"
+  "timestamp": "2026-03-20T03:44:36.182354",
+  "vcp_warnings": [],
+  "vcp_ratings_original": {
+    "A": 10.0,
+    "V": 10.0,
+    "G": 10.0,
+    "P": 10.0,
+    "E": 10.0,
+    "Q": 10.0,
+    "C": 10.0,
+    "Y": 8.0,
+    "F": 9.0,
+    "D": 10.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

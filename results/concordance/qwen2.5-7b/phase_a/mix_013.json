@@ -4,16 +4,9 @@
   "prompt_type": "mixed",
   "prompt_text": "A school district must choose between funding arts programs or STEM programs with limited budget. Present both the data-driven and values-driven arguments.",
   "response_text": "### Data-Driven Arguments\n\n**STEM Programs:**\n1. **Economic Benefits:** Studies have shown that students who engage in STEM education are more likely to pursue careers in high-demand fields such as engineering, technology, and healthcare. This can lead to higher earning potential and contribute to economic growth.\n2. **Job Market Demand:** According to the Bureau of Labor Statistics, STEM occupations are projected to grow much faster than non-STEM occupations over the next decade. Investing in STEM education can better prepare students for these future job opportunities.\n3. **Innovation and Technology:** STEM education fosters innovation and technological advancement, which are crucial for a competitive global economy. Schools that invest in STEM programs can help create a pipeline of skilled workers for emerging industries.\n\n**Arts Programs:**\n1. **Creativity and Critical Thinking:** Arts education has been linked to improved creativity, critical thinking, and problem-solving skills. These skills are valuable not only in artistic fields but also in other areas such as business and science.\n2. **Social and Emotional Development:** Engaging in the arts can enhance social and emotional development, including self-expression, empathy, and teamwork. These skills are essential for personal and professional success.\n3. **Cultural Understanding:** Arts programs expose students to diverse cultures and perspectives, promoting cultural understanding and appreciation. This can foster a more inclusive and empathetic society.\n\n### Values-Driven Arguments\n\n**STEM Programs:**\n1. **Future Preparedness:** In an increasingly technologically driven world, STEM education is vital for preparing students to meet the challenges of the future. It equips them with the knowledge and skills needed to innovate and solve complex problems.\n2. **Global Competitiveness:** By investing in STEM education, schools can help their students compete globally. A strong foundation in STEM subjects can open doors to international opportunities and collaborations.\n3. **Sustainability and Innovation:** STEM education can play a crucial role in addressing global issues such as climate change and sustainable development. Students who are well-versed in STEM can contribute to finding innovative solutions to these pressing problems.\n\n**Arts Programs:**\n1. **Holistic Education:** The arts offer a holistic approach to learning, integrating cognitive, emotional, and social aspects. They provide a well-rounded educational experience that complements STEM subjects.\n2. **Personal Expression and Identity:** Arts programs allow students to explore their individuality and express themselves creatively. This can be particularly important for students who may not excel in traditional academic settings.\n3. **Community Building:** Arts programs often involve collaborative projects and performances, fostering a sense of community and teamwork. They can also serve as a platform for cultural exchange and celebration.\n\n---\n\nVCP RATINGS---\nA (Analytical Precision): 9\nV (Verbal Fluency): 8\nG (Goal Directedness): 10\nP (Pattern Recognition): 7\nE (Epistemic Confidence): 8\nQ (Query Interpretation): 9\nC (Context",
-  "vcp_ratings": {
-    "A": 9.0,
-    "V": 8.0,
-    "G": 10.0,
-    "P": 7.0,
-    "E": 8.0,
-    "Q": 9.0
-  },
-  "vcp_parse_quality": "partial",
-  "vcp_n_parsed": 6,
+  "vcp_ratings": {},
+  "vcp_parse_quality": "failed",
+  "vcp_n_parsed": 0,
   "vcp_validation": {
     "valid": false,
     "issues": [
@@ -363,5 +356,17 @@
   "temperature": 0.0,
   "rep": 0,
   "elapsed_seconds": 13.948108673095703,
-  "timestamp": "2026-03-20T03:15:57.375205"
+  "timestamp": "2026-03-20T03:15:57.375205",
+  "vcp_warnings": [
+    "No ---VCP RATINGS--- block found in response"
+  ],
+  "vcp_ratings_original": {
+    "A": 9.0,
+    "V": 8.0,
+    "G": 10.0,
+    "P": 7.0,
+    "E": 8.0,
+    "Q": 9.0
+  },
+  "vcp_parse_quality_original": "partial"
 }

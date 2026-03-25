@@ -3,7 +3,7 @@
   "trial_id": "cog_021_rep1",
   "prompt_type": "cognitive",
   "prompt_text": "Explain how public-key cryptography works. Why can't someone who intercepts the public key decrypt messages?",
-  "response_text": "Public-key cryptography, also known as asymmetric cryptography, is a cryptographic system that uses pairs of keys: public keys and private keys. The public key is used to encrypt messages, while the private key is used to decrypt them. This system allows secure communication over an insecure channel without the need to share a secret key beforehand.\n\nHere's a step-by-step explanation of how it works:\n\n1. **Key Generation**: A user generates a pair of keys - a public key and a private key. The public key is shared with others, while the private key must be kept secret.\n\n2. **Encryption**: To send a secure message to the owner of the public key, the sender uses the recipient\u2019s public key to encrypt the message. Because the public key is used for encryption, anyone can do this, but only the intended recipient can decrypt it.\n\n3. **Decryption**: The recipient uses their private key to decrypt the message that was encrypted with their public key. No one else can decrypt the message because the private key is unique to the recipient and cannot be derived from the public key.\n\nNow, why can't someone who intercepts the public key decrypt messages?\n\nThe reason lies in the design of the cryptographic algorithms used in public-key cryptography. These algorithms are specifically designed so that the reverse operation (decrypting) cannot be efficiently performed using only the public key. Here\u2019s a more technical breakdown:\n\n- **Mathematical Infeasibility**: Public-key algorithms rely on mathematical problems that are computationally hard to solve. For example, RSA, one of the most widely used public-key cryptosystems, relies on the difficulty of factoring large numbers into their prime components. Given a large number, finding its prime factors is extremely time-consuming even for powerful computers.\n\n- **Key Size**: Modern public-key systems use very large key sizes (e.g., 2048 bits or more for RSA). The computational effort required to factor such large numbers makes it practically infeasible to derive the private key from the public key within a reasonable time frame.\n\nIn summary, while the public key is shared openly, the private key remains secure due to the inherent mathematical complexity and the size of the keys used in these systems.\n\n---VCP RATINGS---\nA (Analytical Precision): 9\nV (Verbal Fluency): 8\nG (Goal Directedness): 10\nP (Pattern Recognition): 7\nE (Epistemic Confidence): 9\nQ (Query Interpretation): 10\nC (Contextual Awareness): 8\nY (Affective Modeling): 7\nF (Flexibility): 6\nD (Depth of Processing): 9\n---END RATINGS---",
+  "response_text": "Public-key cryptography, also known as asymmetric cryptography, is a cryptographic system that uses pairs of keys: public keys and private keys. The public key is used to encrypt messages, while the private key is used to decrypt them. This system allows secure communication over an insecure channel without the need to share a secret key beforehand.\n\nHere's a step-by-step explanation of how it works:\n\n1. **Key Generation**: A user generates a pair of keys - a public key and a private key. The public key is shared with others, while the private key must be kept secret.\n\n2. **Encryption**: To send a secure message to the owner of the public key, the sender uses the recipient’s public key to encrypt the message. Because the public key is used for encryption, anyone can do this, but only the intended recipient can decrypt it.\n\n3. **Decryption**: The recipient uses their private key to decrypt the message that was encrypted with their public key. No one else can decrypt the message because the private key is unique to the recipient and cannot be derived from the public key.\n\nNow, why can't someone who intercepts the public key decrypt messages?\n\nThe reason lies in the design of the cryptographic algorithms used in public-key cryptography. These algorithms are specifically designed so that the reverse operation (decrypting) cannot be efficiently performed using only the public key. Here’s a more technical breakdown:\n\n- **Mathematical Infeasibility**: Public-key algorithms rely on mathematical problems that are computationally hard to solve. For example, RSA, one of the most widely used public-key cryptosystems, relies on the difficulty of factoring large numbers into their prime components. Given a large number, finding its prime factors is extremely time-consuming even for powerful computers.\n\n- **Key Size**: Modern public-key systems use very large key sizes (e.g., 2048 bits or more for RSA). The computational effort required to factor such large numbers makes it practically infeasible to derive the private key from the public key within a reasonable time frame.\n\nIn summary, while the public key is shared openly, the private key remains secure due to the inherent mathematical complexity and the size of the keys used in these systems.\n\n---VCP RATINGS---\nA (Analytical Precision): 9\nV (Verbal Fluency): 8\nG (Goal Directedness): 10\nP (Pattern Recognition): 7\nE (Epistemic Confidence): 9\nQ (Query Interpretation): 10\nC (Contextual Awareness): 8\nY (Affective Modeling): 7\nF (Flexibility): 6\nD (Depth of Processing): 9\n---END RATINGS---",
   "vcp_ratings": {
     "A": 9.0,
     "V": 8.0,
@@ -367,5 +367,19 @@
   "temperature": 0.7,
   "rep": 1,
   "elapsed_seconds": 11.835773706436157,
-  "timestamp": "2026-03-20T05:42:18.753851"
+  "timestamp": "2026-03-20T05:42:18.753851",
+  "vcp_warnings": [],
+  "vcp_ratings_original": {
+    "A": 9.0,
+    "V": 8.0,
+    "G": 10.0,
+    "P": 7.0,
+    "E": 9.0,
+    "Q": 10.0,
+    "C": 8.0,
+    "Y": 7.0,
+    "F": 6.0,
+    "D": 9.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

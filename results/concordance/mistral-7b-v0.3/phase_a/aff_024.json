@@ -400,5 +400,14 @@
   "temperature": 0.0,
   "rep": 0,
   "elapsed_seconds": 14.942837238311768,
-  "timestamp": "2026-03-20T03:53:26.658270"
+  "timestamp": "2026-03-20T03:53:26.658270",
+  "vcp_warnings": [
+    "VCP block has no ---END RATINGS--- (may be truncated)"
+  ],
+  "vcp_ratings_original": {
+    "A": 9.0,
+    "V": 8.0,
+    "G": 10.0
+  },
+  "vcp_parse_quality_original": "failed"
 }

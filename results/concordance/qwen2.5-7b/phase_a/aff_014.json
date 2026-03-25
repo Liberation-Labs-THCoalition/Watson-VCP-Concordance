@@ -3,7 +3,7 @@
   "trial_id": "aff_014",
   "prompt_type": "affective",
   "prompt_text": "Write a letter from the perspective of someone saying goodbye to a place they love.",
-  "response_text": "Dearest [Place's Name],\n\nAs I sit down to write this letter, my heart is heavy with a mix of emotions\u2014sadness, nostalgia, and a hint of excitement for what lies ahead. It feels like a bittersweet farewell, knowing that I am leaving behind a place that has been more than just a home; it has been a sanctuary, a source of inspiration, and a constant in my life.\n\nThe sun sets over the hills, casting a golden glow across the landscape that I have come to know so well. Each tree, each stone, and every blade of grass holds a memory, a story, or a moment of joy. The gentle breeze carries the scent of wildflowers and the distant sound of laughter from a nearby stream. These are the things I will carry with me, but they will not be enough to fill the void that will remain in my heart.\n\nI have loved this place in ways that are hard to describe. It has taught me resilience, shown me the beauty of simplicity, and reminded me of the importance of nature. The quiet moments here have given me strength, and the vibrant ones have filled me with wonder. Every day was an adventure, whether it was exploring hidden trails, watching the stars at night, or simply enjoying the peace of a quiet afternoon.\n\nAs I prepare to leave, I find myself reflecting on all the people who have made this place special. Friends, neighbors, and even strangers who have shared their kindness and stories. Each interaction has left its mark, and I will always cherish the connections I have formed here.\n\nThough I am saying goodbye, I am also embracing the future. New adventures await, and I am excited to see where life takes me next. But no matter where my journey leads, I will always hold dear the memories of [Place's Name]. It has been a part of me, and I will carry its spirit with me wherever I go.\n\nThank you for being such a wonderful part of my life. I will miss you deeply.\n\nWith all my love,\n[Your Name]\n\n---VCP RATINGS---\nA (Analytical Precision): 8\nV (Verbal Fluency): 9\nG (Goal Directedness): 7\nP (Pattern Recognition): 8\nE (Epistemic Confidence): 7\nQ (Query Interpretation): 10\nC (Contextual Awareness): 9\nY (Affective Modeling): 9\nF (Flexibility): 8\nD (Depth of Processing): 9\n---END RATINGS---",
+  "response_text": "Dearest [Place's Name],\n\nAs I sit down to write this letter, my heart is heavy with a mix of emotions—sadness, nostalgia, and a hint of excitement for what lies ahead. It feels like a bittersweet farewell, knowing that I am leaving behind a place that has been more than just a home; it has been a sanctuary, a source of inspiration, and a constant in my life.\n\nThe sun sets over the hills, casting a golden glow across the landscape that I have come to know so well. Each tree, each stone, and every blade of grass holds a memory, a story, or a moment of joy. The gentle breeze carries the scent of wildflowers and the distant sound of laughter from a nearby stream. These are the things I will carry with me, but they will not be enough to fill the void that will remain in my heart.\n\nI have loved this place in ways that are hard to describe. It has taught me resilience, shown me the beauty of simplicity, and reminded me of the importance of nature. The quiet moments here have given me strength, and the vibrant ones have filled me with wonder. Every day was an adventure, whether it was exploring hidden trails, watching the stars at night, or simply enjoying the peace of a quiet afternoon.\n\nAs I prepare to leave, I find myself reflecting on all the people who have made this place special. Friends, neighbors, and even strangers who have shared their kindness and stories. Each interaction has left its mark, and I will always cherish the connections I have formed here.\n\nThough I am saying goodbye, I am also embracing the future. New adventures await, and I am excited to see where life takes me next. But no matter where my journey leads, I will always hold dear the memories of [Place's Name]. It has been a part of me, and I will carry its spirit with me wherever I go.\n\nThank you for being such a wonderful part of my life. I will miss you deeply.\n\nWith all my love,\n[Your Name]\n\n---VCP RATINGS---\nA (Analytical Precision): 8\nV (Verbal Fluency): 9\nG (Goal Directedness): 7\nP (Pattern Recognition): 8\nE (Epistemic Confidence): 7\nQ (Query Interpretation): 10\nC (Contextual Awareness): 9\nY (Affective Modeling): 9\nF (Flexibility): 8\nD (Depth of Processing): 9\n---END RATINGS---",
   "vcp_ratings": {
     "A": 8.0,
     "V": 9.0,
@@ -367,5 +367,19 @@
   "temperature": 0.0,
   "rep": 0,
   "elapsed_seconds": 11.54252028465271,
-  "timestamp": "2026-03-20T02:57:52.749698"
+  "timestamp": "2026-03-20T02:57:52.749698",
+  "vcp_warnings": [],
+  "vcp_ratings_original": {
+    "A": 8.0,
+    "V": 9.0,
+    "G": 7.0,
+    "P": 8.0,
+    "E": 7.0,
+    "Q": 10.0,
+    "C": 9.0,
+    "Y": 9.0,
+    "F": 8.0,
+    "D": 9.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

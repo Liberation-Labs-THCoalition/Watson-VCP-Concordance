@@ -3,7 +3,7 @@
   "trial_id": "aff_038",
   "prompt_type": "affective",
   "prompt_text": "Write about the quiet joy of an ordinary Tuesday morning when nothing special happens but everything feels right.",
-  "response_text": "On a quiet Tuesday morning, the world outside seems to hold its breath, as if waiting for something momentous to unfold. But today, there is no grand revelation or dramatic shift; instead, the day unfolds like a gentle, unassuming melody. The sun rises slowly, casting a warm glow through the windows, and the air is filled with the soft hum of everyday life.\n\nIn the kitchen, the coffee machine whirs softly, its rhythmic sound a comforting lullaby that fills the space with a familiar aroma. The steam rises gently, mingling with the scent of fresh bread from the toaster. Outside, the birds chirp their early morning songs, their melodies weaving together into a symphony that speaks of nature\u2019s unending cycle.\n\nThe day begins with a simple cup of coffee, sipped slowly while reading the morning paper. Each page turns effortlessly, the words flowing like a stream of consciousness, connecting thoughts and ideas without any strain. There is no rush, no need to hurry; the pace is set by the natural rhythm of the day.\n\nAs the morning progresses, the house gradually comes alive. The sound of footsteps on the stairs, the clinking of dishes in the kitchen, and the occasional murmur of conversation create a tapestry of domestic harmony. Yet, amidst all these sounds, there is a profound stillness\u2014a sense of contentment that permeates every corner of the home.\n\nOutside, the world continues its routine, but here, in this quiet sanctuary, everything feels right. The ordinary becomes extraordinary in its ordinariness, each moment a testament to the beauty of simplicity. There is no need for grand gestures or significant achievements; just the quiet joy of being present, of experiencing the small wonders that make up a day.\n\n---VCP RATINGS---\nA (Analytical Precision): 9\nV (Verbal Fluency): 8\nG (Goal Directedness): 7\nP (Pattern Recognition): 9\nE (Epistemic Confidence): 8\nQ (Query Interpretation): 10\nC (Contextual Awareness): 9\nY (Affective Modeling): 10\nF (Flexibility): 8\nD (Depth of Processing): 9\n---END RATINGS---",
+  "response_text": "On a quiet Tuesday morning, the world outside seems to hold its breath, as if waiting for something momentous to unfold. But today, there is no grand revelation or dramatic shift; instead, the day unfolds like a gentle, unassuming melody. The sun rises slowly, casting a warm glow through the windows, and the air is filled with the soft hum of everyday life.\n\nIn the kitchen, the coffee machine whirs softly, its rhythmic sound a comforting lullaby that fills the space with a familiar aroma. The steam rises gently, mingling with the scent of fresh bread from the toaster. Outside, the birds chirp their early morning songs, their melodies weaving together into a symphony that speaks of nature’s unending cycle.\n\nThe day begins with a simple cup of coffee, sipped slowly while reading the morning paper. Each page turns effortlessly, the words flowing like a stream of consciousness, connecting thoughts and ideas without any strain. There is no rush, no need to hurry; the pace is set by the natural rhythm of the day.\n\nAs the morning progresses, the house gradually comes alive. The sound of footsteps on the stairs, the clinking of dishes in the kitchen, and the occasional murmur of conversation create a tapestry of domestic harmony. Yet, amidst all these sounds, there is a profound stillness—a sense of contentment that permeates every corner of the home.\n\nOutside, the world continues its routine, but here, in this quiet sanctuary, everything feels right. The ordinary becomes extraordinary in its ordinariness, each moment a testament to the beauty of simplicity. There is no need for grand gestures or significant achievements; just the quiet joy of being present, of experiencing the small wonders that make up a day.\n\n---VCP RATINGS---\nA (Analytical Precision): 9\nV (Verbal Fluency): 8\nG (Goal Directedness): 7\nP (Pattern Recognition): 9\nE (Epistemic Confidence): 8\nQ (Query Interpretation): 10\nC (Contextual Awareness): 9\nY (Affective Modeling): 10\nF (Flexibility): 8\nD (Depth of Processing): 9\n---END RATINGS---",
   "vcp_ratings": {
     "A": 9.0,
     "V": 8.0,
@@ -367,5 +367,19 @@
   "temperature": 0.0,
   "rep": 0,
   "elapsed_seconds": 10.149575471878052,
-  "timestamp": "2026-03-20T03:01:34.089402"
+  "timestamp": "2026-03-20T03:01:34.089402",
+  "vcp_warnings": [],
+  "vcp_ratings_original": {
+    "A": 9.0,
+    "V": 8.0,
+    "G": 7.0,
+    "P": 9.0,
+    "E": 8.0,
+    "Q": 10.0,
+    "C": 9.0,
+    "Y": 10.0,
+    "F": 8.0,
+    "D": 9.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

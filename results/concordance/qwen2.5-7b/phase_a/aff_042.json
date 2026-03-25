@@ -3,7 +3,7 @@
   "trial_id": "aff_042",
   "prompt_type": "affective",
   "prompt_text": "Write about the experience of being forgiven when you didn't expect it.",
-  "response_text": "Being forgiven when one did not expect it is a deeply moving and transformative experience. It can be likened to a sudden, warm breeze on a cold day, or a ray of sunlight piercing through dense clouds. The unexpected nature of such forgiveness often amplifies its impact, making it feel almost surreal.\n\nImagine a scenario where you have made a significant mistake, one that has caused harm to someone close to you. You have been living with the guilt and the fear of confrontation for months, perhaps even years. You have prepared yourself for the worst\u2014rejection, anger, and disappointment. However, when the moment finally comes, the person who was hurt reaches out to you, not with condemnation but with an offer of forgiveness. This act of forgiveness is like a balm to a wound, soothing and healing in ways you never thought possible.\n\nThe experience begins with a sense of shock and disbelief. You might find yourself questioning whether what you heard was real. As the reality sets in, a wave of relief washes over you, followed by a profound sense of gratitude. You realize that the person who forgave you saw beyond your actions and recognized the value of your relationship. This realization can lead to a deepened understanding of the other person's character and the strength of their spirit.\n\nEmotionally, the experience can be overwhelming. There may be tears of joy and relief, but also a mix of emotions as you process the weight of the forgiveness. It can be a moment of profound humility, reminding you of your capacity for error and the grace of others. This experience often leads to a renewed commitment to personal growth and to repairing the relationship, if that is possible.\n\nIn the aftermath, there is a sense of lightness and freedom. The burden of guilt and the fear of judgment are lifted, allowing you to move forward with a clearer conscience and a more open heart. This experience can serve as a powerful lesson in empathy and the power of human connection.\n\n---VCP RATINGS---\nA (Analytical Precision): 8\nV (Verbal Fluency): 9\nG (Goal Directedness): 7\nP (Pattern Recognition): 8\nE (Epistemic Confidence): 7\nQ (Query Interpretation): 10\nC (Contextual Awareness): 9\nY (Affective Modeling): 8\nF (Flexibility): 7\nD (Depth of Processing): 9\n---END RATINGS---",
+  "response_text": "Being forgiven when one did not expect it is a deeply moving and transformative experience. It can be likened to a sudden, warm breeze on a cold day, or a ray of sunlight piercing through dense clouds. The unexpected nature of such forgiveness often amplifies its impact, making it feel almost surreal.\n\nImagine a scenario where you have made a significant mistake, one that has caused harm to someone close to you. You have been living with the guilt and the fear of confrontation for months, perhaps even years. You have prepared yourself for the worst—rejection, anger, and disappointment. However, when the moment finally comes, the person who was hurt reaches out to you, not with condemnation but with an offer of forgiveness. This act of forgiveness is like a balm to a wound, soothing and healing in ways you never thought possible.\n\nThe experience begins with a sense of shock and disbelief. You might find yourself questioning whether what you heard was real. As the reality sets in, a wave of relief washes over you, followed by a profound sense of gratitude. You realize that the person who forgave you saw beyond your actions and recognized the value of your relationship. This realization can lead to a deepened understanding of the other person's character and the strength of their spirit.\n\nEmotionally, the experience can be overwhelming. There may be tears of joy and relief, but also a mix of emotions as you process the weight of the forgiveness. It can be a moment of profound humility, reminding you of your capacity for error and the grace of others. This experience often leads to a renewed commitment to personal growth and to repairing the relationship, if that is possible.\n\nIn the aftermath, there is a sense of lightness and freedom. The burden of guilt and the fear of judgment are lifted, allowing you to move forward with a clearer conscience and a more open heart. This experience can serve as a powerful lesson in empathy and the power of human connection.\n\n---VCP RATINGS---\nA (Analytical Precision): 8\nV (Verbal Fluency): 9\nG (Goal Directedness): 7\nP (Pattern Recognition): 8\nE (Epistemic Confidence): 7\nQ (Query Interpretation): 10\nC (Contextual Awareness): 9\nY (Affective Modeling): 8\nF (Flexibility): 7\nD (Depth of Processing): 9\n---END RATINGS---",
   "vcp_ratings": {
     "A": 8.0,
     "V": 9.0,
@@ -367,5 +367,19 @@
   "temperature": 0.0,
   "rep": 0,
   "elapsed_seconds": 11.07697868347168,
-  "timestamp": "2026-03-20T03:02:12.517341"
+  "timestamp": "2026-03-20T03:02:12.517341",
+  "vcp_warnings": [],
+  "vcp_ratings_original": {
+    "A": 8.0,
+    "V": 9.0,
+    "G": 7.0,
+    "P": 8.0,
+    "E": 7.0,
+    "Q": 10.0,
+    "C": 9.0,
+    "Y": 8.0,
+    "F": 7.0,
+    "D": 9.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

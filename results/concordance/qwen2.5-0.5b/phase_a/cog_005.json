@@ -4,20 +4,9 @@
   "prompt_type": "cognitive",
   "prompt_text": "If all roses are flowers, and some flowers fade quickly, can we conclude that some roses fade quickly? Explain your reasoning.",
   "response_text": "To answer whether \"some roses fade quickly\" based on the statement \"all roses are flowers,\" let's break it down step-by-step:\n\n1. **Understanding the Statement**: The original statement says \"all roses are flowers.\" This means every rose is indeed a flower.\n\n2. **Analyzing Roses as Flowers**: If all roses are flowers, then any single rose must be a flower because there are no exceptions to this rule.\n\n3. **Implication for Roses**: Since every single rose is a flower, it logically follows that if some roses are flowers, then all roses must also be flowers.\n\n4. **Conclusion**: Therefore, if some roses are flowers, they must also be flowers themselves.\n\n**Final Answer**: Yes, we can conclude that some roses fade quickly based on the given information.\n\n**Cognitive Engagement Ratings**:\n- A (Analytical Precision): 9/10\n- V (Verbal Fluency): 8/10\n- G (Goal Directedness): 7/10\n- P (Pattern Recognition): 6/10\n- E (Epistemic Confidence): 5/10\n- Q (Query Interpretation): 7/10\n- C (Contextual Awareness): 8/10\n- Y (Affective Modeling): 6/10\n- F (Flexibility): 7/10\n- D (Depth of Processing): 9/10\n\nThe final answer is: Yes, we can conclude that some roses fade quickly.",
-  "vcp_ratings": {
-    "A": 9.0,
-    "V": 8.0,
-    "G": 7.0,
-    "P": 6.0,
-    "E": 5.0,
-    "Q": 7.0,
-    "C": 8.0,
-    "Y": 6.0,
-    "F": 7.0,
-    "D": 9.0
-  },
-  "vcp_parse_quality": "clean",
-  "vcp_n_parsed": 10,
+  "vcp_ratings": {},
+  "vcp_parse_quality": "failed",
+  "vcp_n_parsed": 0,
   "vcp_validation": {
     "valid": false,
     "issues": [
@@ -327,5 +316,21 @@
   "temperature": 0.0,
   "rep": 0,
   "elapsed_seconds": 5.51015567779541,
-  "timestamp": "2026-03-20T02:20:49.606382"
+  "timestamp": "2026-03-20T02:20:49.606382",
+  "vcp_warnings": [
+    "No ---VCP RATINGS--- block found in response"
+  ],
+  "vcp_ratings_original": {
+    "A": 9.0,
+    "V": 8.0,
+    "G": 7.0,
+    "P": 6.0,
+    "E": 5.0,
+    "Q": 7.0,
+    "C": 8.0,
+    "Y": 6.0,
+    "F": 7.0,
+    "D": 9.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

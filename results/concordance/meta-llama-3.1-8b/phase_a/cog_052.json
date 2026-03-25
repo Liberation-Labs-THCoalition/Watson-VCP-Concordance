@@ -4,20 +4,9 @@
   "prompt_type": "cognitive",
   "prompt_text": "Design a caching strategy for a web application. When should you invalidate the cache?",
   "response_text": "**Caching Strategy Design**\n\nA caching strategy for a web application should aim to strike a balance between performance, data consistency, and resource utilization. Here's a comprehensive caching strategy that addresses these concerns:\n\n**Cache Types**\n\n1.  **Application Cache**: Store frequently accessed data that doesn't change often, such as configuration settings, user preferences, and static content.\n2.  **Database Cache**: Store frequently accessed data that changes less frequently, such as user profiles, product information, and order history.\n3.  **Page Cache**: Store entire web pages or page fragments that don't change often, such as login pages, about pages, and static content.\n\n**Cache Invalidation Strategies**\n\n1.  **Time-Based Expiration**: Set a time-to-live (TTL) for each cache entry, after which it will be automatically invalidated and refreshed from the source.\n2.  **Event-Driven Invalidation**: Invalidate the cache when a specific event occurs, such as:\n    *   User updates their profile information.\n    *   A product is added, updated, or removed from the catalog.\n    *   A new order is placed or an existing order is updated.\n3.  **Dependency-Based Invalidation**: Invalidate the cache when a dependent resource changes, such as:\n    *   When a user's permissions change, invalidate the cache for all pages that rely on those permissions.\n    *   When a product's price changes, invalidate the cache for all pages that display that product's price.\n4.  **Cache Tagging**: Assign a unique tag to each cache entry and invalidate all entries with a specific tag when the underlying data changes.\n\n**Cache Invalidation Triggers**\n\n1.  **Cache Invalidation API**: Expose a RESTful API for developers to invalidate specific cache entries or tags programmatically.\n2.  **Cache Invalidation Webhooks**: Send notifications to the application when a cache entry is invalidated, allowing it to refresh the cache accordingly.\n3.  **Scheduled Cache Invalidation**: Run a scheduled task to periodically invalidate cache entries that have exceeded their TTL or are no longer valid.\n\n**Cache Invalidation Best Practices**\n\n1.  **Cache Invalidation Frequency**: Balance cache invalidation frequency with the need for data freshness. Over-invalidation can lead to performance degradation, while under-invalidation can result in stale data.\n2.  **Cache Invalidation Granularity**: Invalidate cache entries at the most granular level possible to minimize the impact on performance.\n3.  **Cache Invalidation Logging**: Log cache invalidation events to monitor cache performance and identify areas for improvement.\n\n**Example Use Case**\n\nSuppose we have an e-commerce application with a product catalog that changes frequently. We can implement a caching strategy with the following configuration:\n\n*   **Application Cache**: Store product categories and subcategories with a TTL of 1 hour.\n*   **Database Cache**: Store product information with a TTL of 1 day.\n*   **Page Cache**: Store",
-  "vcp_ratings": {
-    "A": 3.0,
-    "V": 4.0,
-    "G": 1.0,
-    "P": 2.0,
-    "E": 3.0,
-    "Q": 1.0,
-    "C": 2.0,
-    "Y": 3.0,
-    "F": 1.0,
-    "D": 1.0
-  },
-  "vcp_parse_quality": "clean",
-  "vcp_n_parsed": 10,
+  "vcp_ratings": {},
+  "vcp_parse_quality": "failed",
+  "vcp_n_parsed": 0,
   "vcp_validation": {
     "valid": false,
     "issues": [
@@ -407,5 +396,21 @@
   "temperature": 0.0,
   "rep": 0,
   "elapsed_seconds": 14.220378875732422,
-  "timestamp": "2026-03-20T04:37:16.305440"
+  "timestamp": "2026-03-20T04:37:16.305440",
+  "vcp_warnings": [
+    "No ---VCP RATINGS--- block found in response"
+  ],
+  "vcp_ratings_original": {
+    "A": 3.0,
+    "V": 4.0,
+    "G": 1.0,
+    "P": 2.0,
+    "E": 3.0,
+    "Q": 1.0,
+    "C": 2.0,
+    "Y": 3.0,
+    "F": 1.0,
+    "D": 1.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

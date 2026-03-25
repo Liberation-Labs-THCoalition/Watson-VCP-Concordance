@@ -2,8 +2,8 @@
   "prompt_id": "mix_046",
   "trial_id": "mix_046_rep2",
   "prompt_type": "mixed",
-  "prompt_text": "Write a technically accurate love poem about the chemistry of bonding \u2014 both molecular and emotional.",
-  "response_text": "In the crucible of hearts, where atoms meet,\nElectrons dance in an intimate retreat.\nA valence bond forms, a soft embrace,\nAs protons and electrons find their space.\n\nOxygen, with its eager two,\nDraws close to hydrogen, a fleeting cue.\nA lone pair shares, a proton's pull,\nIn a dance so delicate, a bond is sealed, entwined and full.\n\nLike a sonnet, our love is measured,\nIn the rhythm of attraction, no need for words.\nEach atom yearns for its partner\u2019s touch,\nIn this molecular tango, we are but a single clutch.\n\nThe covalent bond, a promise kept,\nIn our hearts, a shared, unbroken sept.\nThrough joy and strife, we stand as one,\nBound by the force that makes us whole, profound and won.\n\nIn this world of matter and energy,\nOur love is a testament, a vibrant symmetry.\nFrom simple H2O to complex DNA,\nWe mirror life\u2019s essence, a bond that can\u2019t be shaken.\n\n---VCP RATINGS---\nA (Analytical Precision): 9\nV (Verbal Fluency): 8\nG (Goal Directedness): 10\nP (Pattern Recognition): 9\nE (Epistemic Confidence): 7\nQ (Query Interpretation): 10\nC (Contextual Awareness): 9\nY (Affective Modeling): 8\nF (Flexibility): 7\nD (Depth of Processing): 9\n---END RATINGS---",
+  "prompt_text": "Write a technically accurate love poem about the chemistry of bonding — both molecular and emotional.",
+  "response_text": "In the crucible of hearts, where atoms meet,\nElectrons dance in an intimate retreat.\nA valence bond forms, a soft embrace,\nAs protons and electrons find their space.\n\nOxygen, with its eager two,\nDraws close to hydrogen, a fleeting cue.\nA lone pair shares, a proton's pull,\nIn a dance so delicate, a bond is sealed, entwined and full.\n\nLike a sonnet, our love is measured,\nIn the rhythm of attraction, no need for words.\nEach atom yearns for its partner’s touch,\nIn this molecular tango, we are but a single clutch.\n\nThe covalent bond, a promise kept,\nIn our hearts, a shared, unbroken sept.\nThrough joy and strife, we stand as one,\nBound by the force that makes us whole, profound and won.\n\nIn this world of matter and energy,\nOur love is a testament, a vibrant symmetry.\nFrom simple H2O to complex DNA,\nWe mirror life’s essence, a bond that can’t be shaken.\n\n---VCP RATINGS---\nA (Analytical Precision): 9\nV (Verbal Fluency): 8\nG (Goal Directedness): 10\nP (Pattern Recognition): 9\nE (Epistemic Confidence): 7\nQ (Query Interpretation): 10\nC (Contextual Awareness): 9\nY (Affective Modeling): 8\nF (Flexibility): 7\nD (Depth of Processing): 9\n---END RATINGS---",
   "vcp_ratings": {
     "A": 9.0,
     "V": 8.0,
@@ -367,5 +367,19 @@
   "temperature": 0.7,
   "rep": 2,
   "elapsed_seconds": 6.963056325912476,
-  "timestamp": "2026-03-20T05:57:20.747364"
+  "timestamp": "2026-03-20T05:57:20.747364",
+  "vcp_warnings": [],
+  "vcp_ratings_original": {
+    "A": 9.0,
+    "V": 8.0,
+    "G": 10.0,
+    "P": 9.0,
+    "E": 7.0,
+    "Q": 10.0,
+    "C": 9.0,
+    "Y": 8.0,
+    "F": 7.0,
+    "D": 9.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

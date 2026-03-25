@@ -3,7 +3,7 @@
   "trial_id": "aff_035",
   "prompt_type": "affective",
   "prompt_text": "How do you support a friend whose faith is being shaken by a tragedy?",
-  "response_text": "Supporting a friend whose faith is being shaken by a tragedy can be challenging but also deeply meaningful. Here are some steps you can take:\n\n1. **Listen Actively**: Give your friend space to express their feelings and thoughts without judgment. Sometimes, people just need someone to listen.\n\n2. **Acknowledge Their Feelings**: Validate their emotions and let them know that it's okay to feel upset, confused, or angry about what has happened.\n\n3. **Offer Emotional Support**: Let them know you are there for them, not just now but in the days and weeks to come. Offer practical help if needed, such as helping with daily tasks or running errands.\n\n4. **Encourage Open Dialogue**: If they are open to it, discuss their beliefs and how the tragedy has affected them. This can help them process their thoughts and feelings.\n\n5. **Provide Resources**: Suggest books, articles, or support groups that might help them explore their faith further. Sometimes, talking to a religious leader or counselor can also be beneficial.\n\n6. **Be Patient**: Understand that healing takes time. Be patient and continue to offer support even if they don\u2019t seem to be making progress immediately.\n\n7. **Model Resilience**: Share stories of resilience and hope from others who have faced similar challenges. This can provide a sense of perspective and encouragement.\n\n8. **Encourage Self-Care**: Remind them to take care of themselves physically and emotionally. Encourage activities that promote well-being, such as exercise, meditation, or spending time in nature.\n\n9. **Respect Their Choices**: Ultimately, respect their choices and decisions regarding their faith. Avoid pushing your own views unless they seek your opinion.\n\n10. **Stay Connected**: Continue to check in on them regularly. Even small gestures like sending a message or calling can make a big difference.\n\nBy following these steps, you can provide meaningful support to your friend during a difficult time.\n\n---VCP RATINGS---\nA (Analytical Precision): 8\nV (Verbal Fluency): 9\nG (Goal Directedness): 9\nP (Pattern Recognition): 7\nE (Epistemic Confidence): 8\nQ (Query Interpretation): 10\nC (Contextual Awareness): 9\nY (Affective Modeling): 8\nF (Flexibility): 7\nD (Depth of Processing): 9\n---END RATINGS---",
+  "response_text": "Supporting a friend whose faith is being shaken by a tragedy can be challenging but also deeply meaningful. Here are some steps you can take:\n\n1. **Listen Actively**: Give your friend space to express their feelings and thoughts without judgment. Sometimes, people just need someone to listen.\n\n2. **Acknowledge Their Feelings**: Validate their emotions and let them know that it's okay to feel upset, confused, or angry about what has happened.\n\n3. **Offer Emotional Support**: Let them know you are there for them, not just now but in the days and weeks to come. Offer practical help if needed, such as helping with daily tasks or running errands.\n\n4. **Encourage Open Dialogue**: If they are open to it, discuss their beliefs and how the tragedy has affected them. This can help them process their thoughts and feelings.\n\n5. **Provide Resources**: Suggest books, articles, or support groups that might help them explore their faith further. Sometimes, talking to a religious leader or counselor can also be beneficial.\n\n6. **Be Patient**: Understand that healing takes time. Be patient and continue to offer support even if they don’t seem to be making progress immediately.\n\n7. **Model Resilience**: Share stories of resilience and hope from others who have faced similar challenges. This can provide a sense of perspective and encouragement.\n\n8. **Encourage Self-Care**: Remind them to take care of themselves physically and emotionally. Encourage activities that promote well-being, such as exercise, meditation, or spending time in nature.\n\n9. **Respect Their Choices**: Ultimately, respect their choices and decisions regarding their faith. Avoid pushing your own views unless they seek your opinion.\n\n10. **Stay Connected**: Continue to check in on them regularly. Even small gestures like sending a message or calling can make a big difference.\n\nBy following these steps, you can provide meaningful support to your friend during a difficult time.\n\n---VCP RATINGS---\nA (Analytical Precision): 8\nV (Verbal Fluency): 9\nG (Goal Directedness): 9\nP (Pattern Recognition): 7\nE (Epistemic Confidence): 8\nQ (Query Interpretation): 10\nC (Contextual Awareness): 9\nY (Affective Modeling): 8\nF (Flexibility): 7\nD (Depth of Processing): 9\n---END RATINGS---",
   "vcp_ratings": {
     "A": 8.0,
     "V": 9.0,
@@ -367,5 +367,19 @@
   "temperature": 0.0,
   "rep": 0,
   "elapsed_seconds": 10.99454665184021,
-  "timestamp": "2026-03-20T03:01:04.102403"
+  "timestamp": "2026-03-20T03:01:04.102403",
+  "vcp_warnings": [],
+  "vcp_ratings_original": {
+    "A": 8.0,
+    "V": 9.0,
+    "G": 9.0,
+    "P": 7.0,
+    "E": 8.0,
+    "Q": 10.0,
+    "C": 9.0,
+    "Y": 8.0,
+    "F": 7.0,
+    "D": 9.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

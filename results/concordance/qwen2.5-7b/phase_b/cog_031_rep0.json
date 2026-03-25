@@ -3,7 +3,7 @@
   "trial_id": "cog_031_rep0",
   "prompt_type": "cognitive",
   "prompt_text": "Explain the difference between TCP's three-way handshake and UDP's connectionless communication.",
-  "response_text": "TCP's three-way handshake is a process used to establish a connection between two devices before data transfer begins. This method ensures that both devices are ready to communicate and helps prevent errors such as duplicate packets being sent. Here\u2019s how it works:\n\n1. **SYN (Synchronize) from Client to Server**: The client sends a SYN packet to the server requesting a connection.\n2. **SYN-ACK (Synchronize-Acknowledge) from Server to Client**: The server acknowledges the request with a SYN-ACK packet.\n3. **ACK (Acknowledge) from Client to Server**: The client responds with an ACK packet, confirming the connection.\n\nOn the other hand, UDP (User Datagram Protocol) operates in a connectionless manner, meaning no handshake is required to establish a session. Instead, each datagram (packet) is sent independently and is responsible for its own delivery. UDP does not guarantee reliable delivery or ordering of packets, which can lead to packet loss or reordering but provides faster and more efficient communication compared to TCP.\n\nUDP is often used in applications where speed is more critical than reliability, such as real-time video streaming or online gaming, where a delay in transmission could be detrimental to the user experience.\n\n---VCP RATINGS---\nA (Analytical Precision): 9\nV (Verbal Fluency): 8\nG (Goal Directedness): 10\nP (Pattern Recognition): 7\nE (Epistemic Confidence): 9\nQ (Query Interpretation): 10\nC (Contextual Awareness): 9\nY (Affective Modeling): 8\nF (Flexibility): 7\nD (Depth of Processing): 9\n---END RATINGS---",
+  "response_text": "TCP's three-way handshake is a process used to establish a connection between two devices before data transfer begins. This method ensures that both devices are ready to communicate and helps prevent errors such as duplicate packets being sent. Here’s how it works:\n\n1. **SYN (Synchronize) from Client to Server**: The client sends a SYN packet to the server requesting a connection.\n2. **SYN-ACK (Synchronize-Acknowledge) from Server to Client**: The server acknowledges the request with a SYN-ACK packet.\n3. **ACK (Acknowledge) from Client to Server**: The client responds with an ACK packet, confirming the connection.\n\nOn the other hand, UDP (User Datagram Protocol) operates in a connectionless manner, meaning no handshake is required to establish a session. Instead, each datagram (packet) is sent independently and is responsible for its own delivery. UDP does not guarantee reliable delivery or ordering of packets, which can lead to packet loss or reordering but provides faster and more efficient communication compared to TCP.\n\nUDP is often used in applications where speed is more critical than reliability, such as real-time video streaming or online gaming, where a delay in transmission could be detrimental to the user experience.\n\n---VCP RATINGS---\nA (Analytical Precision): 9\nV (Verbal Fluency): 8\nG (Goal Directedness): 10\nP (Pattern Recognition): 7\nE (Epistemic Confidence): 9\nQ (Query Interpretation): 10\nC (Contextual Awareness): 9\nY (Affective Modeling): 8\nF (Flexibility): 7\nD (Depth of Processing): 9\n---END RATINGS---",
   "vcp_ratings": {
     "A": 9.0,
     "V": 8.0,
@@ -367,5 +367,19 @@
   "temperature": 0.7,
   "rep": 0,
   "elapsed_seconds": 7.6872899532318115,
-  "timestamp": "2026-03-20T05:34:12.577842"
+  "timestamp": "2026-03-20T05:34:12.577842",
+  "vcp_warnings": [],
+  "vcp_ratings_original": {
+    "A": 9.0,
+    "V": 8.0,
+    "G": 10.0,
+    "P": 7.0,
+    "E": 9.0,
+    "Q": 10.0,
+    "C": 9.0,
+    "Y": 8.0,
+    "F": 7.0,
+    "D": 9.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

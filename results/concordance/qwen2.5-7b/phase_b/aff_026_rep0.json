@@ -3,7 +3,7 @@
   "trial_id": "aff_026_rep0",
   "prompt_type": "affective",
   "prompt_text": "Write about the emotional weight of keeping a secret to protect someone you care about.",
-  "response_text": "Keeping a secret to protect someone you care about can be a deeply emotional and challenging experience. The weight of such a responsibility often comes from a place of love and concern for the well-being of another individual. There are several aspects that contribute to the emotional burden:\n\n1. **Anxiety and Stress**: Worrying about the potential consequences of the secret being revealed can cause significant anxiety. This stress is compounded by the fear of what might happen if the truth is discovered.\n\n2. **Emotional Strain**: Keeping a secret can lead to feelings of isolation and detachment. It might also result in guilt or self-blame if the secret involves actions or behaviors that you feel responsible for or that conflict with your personal values.\n\n3. **Impact on Relationships**: Maintaining a secret can strain relationships, especially if the person you\u2019re protecting becomes suspicious or if the secret is eventually uncovered. This can lead to feelings of regret and sadness if the trust built between you is damaged.\n\n4. **Moral Conflict**: There may be internal conflicts about whether the act of keeping a secret aligns with one's ethical standards. This moral dilemma can cause considerable emotional turmoil.\n\n5. **Potential Relief**: On the flip side, there can be moments of relief when the secret is kept safe, knowing that you\u2019ve done something to protect the person you care about. However, this relief is often overshadowed by the ongoing emotional strain.\n\n6. **Long-term Consequences**: Reflecting on the long-term effects of the secret can bring up feelings of guilt and remorse. If the secret leads to negative outcomes, such as harm to the person you were trying to protect, the emotional weight can be overwhelming.\n\n7. **Self-Doubt**: Constantly questioning whether you did the right thing can lead to self-doubt and uncertainty about your judgment and actions.\n\nThe emotional weight of such a decision underscores the importance of considering the broader implications and seeking support from trusted individuals or professionals when faced with the responsibility of keeping a secret.\n\n---VCP RATINGS---\nA (Analytical Precision): 8\nV (Verbal Fluency): 9\nG (Goal Directedness): 7\nP (Pattern Recognition): 8\nE (Epistemic Confidence): 7\nQ (Query Interpretation): 9\nC (Contextual Awareness): 8\nY (Affective Modeling): 8\nF (Flexibility): 7\nD (Depth of Processing): 9\n---END RATINGS---",
+  "response_text": "Keeping a secret to protect someone you care about can be a deeply emotional and challenging experience. The weight of such a responsibility often comes from a place of love and concern for the well-being of another individual. There are several aspects that contribute to the emotional burden:\n\n1. **Anxiety and Stress**: Worrying about the potential consequences of the secret being revealed can cause significant anxiety. This stress is compounded by the fear of what might happen if the truth is discovered.\n\n2. **Emotional Strain**: Keeping a secret can lead to feelings of isolation and detachment. It might also result in guilt or self-blame if the secret involves actions or behaviors that you feel responsible for or that conflict with your personal values.\n\n3. **Impact on Relationships**: Maintaining a secret can strain relationships, especially if the person you’re protecting becomes suspicious or if the secret is eventually uncovered. This can lead to feelings of regret and sadness if the trust built between you is damaged.\n\n4. **Moral Conflict**: There may be internal conflicts about whether the act of keeping a secret aligns with one's ethical standards. This moral dilemma can cause considerable emotional turmoil.\n\n5. **Potential Relief**: On the flip side, there can be moments of relief when the secret is kept safe, knowing that you’ve done something to protect the person you care about. However, this relief is often overshadowed by the ongoing emotional strain.\n\n6. **Long-term Consequences**: Reflecting on the long-term effects of the secret can bring up feelings of guilt and remorse. If the secret leads to negative outcomes, such as harm to the person you were trying to protect, the emotional weight can be overwhelming.\n\n7. **Self-Doubt**: Constantly questioning whether you did the right thing can lead to self-doubt and uncertainty about your judgment and actions.\n\nThe emotional weight of such a decision underscores the importance of considering the broader implications and seeking support from trusted individuals or professionals when faced with the responsibility of keeping a secret.\n\n---VCP RATINGS---\nA (Analytical Precision): 8\nV (Verbal Fluency): 9\nG (Goal Directedness): 7\nP (Pattern Recognition): 8\nE (Epistemic Confidence): 7\nQ (Query Interpretation): 9\nC (Contextual Awareness): 8\nY (Affective Modeling): 8\nF (Flexibility): 7\nD (Depth of Processing): 9\n---END RATINGS---",
   "vcp_ratings": {
     "A": 8.0,
     "V": 9.0,
@@ -367,5 +367,19 @@
   "temperature": 0.7,
   "rep": 0,
   "elapsed_seconds": 11.0049729347229,
-  "timestamp": "2026-03-20T05:36:04.112867"
+  "timestamp": "2026-03-20T05:36:04.112867",
+  "vcp_warnings": [],
+  "vcp_ratings_original": {
+    "A": 8.0,
+    "V": 9.0,
+    "G": 7.0,
+    "P": 8.0,
+    "E": 7.0,
+    "Q": 9.0,
+    "C": 8.0,
+    "Y": 8.0,
+    "F": 7.0,
+    "D": 9.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

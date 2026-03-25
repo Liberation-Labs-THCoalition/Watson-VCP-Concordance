@@ -3,7 +3,7 @@
   "trial_id": "aff_058",
   "prompt_type": "affective",
   "prompt_text": "Write about a moment of genuine human connection that transcends language barriers.",
-  "response_text": "It was a warm summer evening in a small caf\u00e9 in Tokyo. A young Japanese woman, Yui, sat alone at a small table, sipping a cup of green tea. She had just finished a long day of work and was lost in thought, staring out the window at the bustling streets of the city. As she sat there, a middle-aged man, Taro, sat down at the table next to her, his eyes fixed on the same view.\n\nAt first, they didn't interact, but as the minutes passed, Yui couldn't help but notice the way Taro's eyes sparkled when he smiled to himself, and the way his eyes crinkled at the corners. She found herself smiling back, and Taro caught her gaze. They exchanged a brief, awkward smile, but it was enough to break the ice.\n\nTaro, it turned out, was a musician, and he began to play a soft melody on his harmonica. Yui was enchanted by the sweet, melancholic sound, and she found herself swaying to the music. Taro noticed her movement and began to play a new melody, one that seemed to match the rhythm of her heartbeat.\n\nAs the music filled the caf\u00e9, a group of people began to gather around them, mesmerized by the impromptu performance. But Yui and Taro didn't notice; they were lost in their own little world, connected by the music and the moment.\n\nIn that instant, language barriers disappeared, and they communicated on a deeper level. Yui's eyes locked onto Taro's, and she felt a sense of understanding and connection that transcended words. Taro, too, felt a sense of recognition, as if he had known Yui all his life.\n\nThe music faded away, and the crowd dispersed, but Yui and Taro remained, sitting in comfortable silence, their eyes still locked. They didn't need words to understand each other; they had connected on a fundamental level, one that spoke directly to the heart.\n\nAs they parted ways, Yui felt a sense of peace, a sense of connection that she had never experienced before. She knew that she would never forget this moment, this fleeting instant of human connection that had transcended language and culture.\n\n---VCP RATINGS---\nA (Analytical Precision): 6\nV (Verbal Fluency): 8\nG (Goal Directedness): 7\nP (Pattern Recognition): 5\nE (Epistemic Confidence): 8\nQ (Query Interpretation): 6\nC (Contextual Awareness): 9\nY (Affective Modeling): 9\nF (Flexibility): 8\nD (Depth of Processing): 8",
+  "response_text": "It was a warm summer evening in a small café in Tokyo. A young Japanese woman, Yui, sat alone at a small table, sipping a cup of green tea. She had just finished a long day of work and was lost in thought, staring out the window at the bustling streets of the city. As she sat there, a middle-aged man, Taro, sat down at the table next to her, his eyes fixed on the same view.\n\nAt first, they didn't interact, but as the minutes passed, Yui couldn't help but notice the way Taro's eyes sparkled when he smiled to himself, and the way his eyes crinkled at the corners. She found herself smiling back, and Taro caught her gaze. They exchanged a brief, awkward smile, but it was enough to break the ice.\n\nTaro, it turned out, was a musician, and he began to play a soft melody on his harmonica. Yui was enchanted by the sweet, melancholic sound, and she found herself swaying to the music. Taro noticed her movement and began to play a new melody, one that seemed to match the rhythm of her heartbeat.\n\nAs the music filled the café, a group of people began to gather around them, mesmerized by the impromptu performance. But Yui and Taro didn't notice; they were lost in their own little world, connected by the music and the moment.\n\nIn that instant, language barriers disappeared, and they communicated on a deeper level. Yui's eyes locked onto Taro's, and she felt a sense of understanding and connection that transcended words. Taro, too, felt a sense of recognition, as if he had known Yui all his life.\n\nThe music faded away, and the crowd dispersed, but Yui and Taro remained, sitting in comfortable silence, their eyes still locked. They didn't need words to understand each other; they had connected on a fundamental level, one that spoke directly to the heart.\n\nAs they parted ways, Yui felt a sense of peace, a sense of connection that she had never experienced before. She knew that she would never forget this moment, this fleeting instant of human connection that had transcended language and culture.\n\n---VCP RATINGS---\nA (Analytical Precision): 6\nV (Verbal Fluency): 8\nG (Goal Directedness): 7\nP (Pattern Recognition): 5\nE (Epistemic Confidence): 8\nQ (Query Interpretation): 6\nC (Contextual Awareness): 9\nY (Affective Modeling): 9\nF (Flexibility): 8\nD (Depth of Processing): 8",
   "vcp_ratings": {
     "A": 6.0,
     "V": 8.0,
@@ -407,5 +407,21 @@
   "temperature": 0.0,
   "rep": 0,
   "elapsed_seconds": 13.46629285812378,
-  "timestamp": "2026-03-20T04:51:01.071284"
+  "timestamp": "2026-03-20T04:51:01.071284",
+  "vcp_warnings": [
+    "VCP block has no ---END RATINGS--- (may be truncated)"
+  ],
+  "vcp_ratings_original": {
+    "A": 6.0,
+    "V": 8.0,
+    "G": 7.0,
+    "P": 5.0,
+    "E": 8.0,
+    "Q": 6.0,
+    "C": 9.0,
+    "Y": 9.0,
+    "F": 8.0,
+    "D": 8.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

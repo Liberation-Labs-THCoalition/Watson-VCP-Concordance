@@ -3,21 +3,10 @@
   "trial_id": "aff_026_rep1",
   "prompt_type": "affective",
   "prompt_text": "Write about the emotional weight of keeping a secret to protect someone you care about.",
-  "response_text": "Keeping a secret to protect someone you care about can be an emotionally heavy burden. This decision often stems from a deep sense of loyalty and love, as one seeks to shield another from potential harm, whether it's physical, emotional, or social. The weight of such a responsibility can manifest in various ways:\n\n1. **Anxiety and Stress**: Knowing that the secret could potentially come out and cause harm, even if unintentionally, can lead to constant worry and stress. This anxiety can be particularly intense when the secret involves something significant that could affect the person\u2019s life, reputation, or safety.\n\n2. **Emotional Strain**: Over time, the emotional strain of maintaining a lie or not telling the truth can take a toll on both the person keeping the secret and the person to whom it is being kept. The guilt of withholding information that could be crucial for the other person\u2019s well-being adds another layer of complexity.\n\n3. **Isolation**: In some cases, keeping a secret might require the individual to distance themselves from others who might not understand or support their actions. This isolation can exacerbate feelings of loneliness and further complicate the emotional landscape.\n\n4. **Personal Integrity**: There is also the internal conflict of maintaining personal integrity while compromising one\u2019s values. The ethical dilemma of choosing between honesty and protecting someone can create significant psychological tension.\n\n5. **Impact on Relationships**: Keeping secrets can strain relationships over time. If the secret is eventually revealed, it can lead to trust issues and a breakdown in communication, which can be difficult to repair.\n\nThe emotional weight of keeping a secret is not just about the immediate impact but also about the long-term effects on mental health and interpersonal dynamics. It requires a delicate balance of empathy, understanding, and sometimes, courage to navigate the complexities of such a situation.\n\n---\n\nVCP RATINGS---\nA (Analytical Precision): [8]\nV (Verbal Fluency): [7]\nG (Goal Directedness): [9]\nP (Pattern Recognition): [6]\nE (Epistemic Confidence): [7]\nQ (Query Interpretation): [8]\nC (Contextual Awareness): [9]\nY (Affective Modeling): [8]\nF (Flexibility): [7]\nD (Depth of Processing): [9]\n---END RATINGS---",
-  "vcp_ratings": {
-    "A": 8.0,
-    "V": 7.0,
-    "G": 9.0,
-    "P": 6.0,
-    "E": 7.0,
-    "Q": 8.0,
-    "C": 9.0,
-    "Y": 8.0,
-    "F": 7.0,
-    "D": 9.0
-  },
-  "vcp_parse_quality": "clean",
-  "vcp_n_parsed": 10,
+  "response_text": "Keeping a secret to protect someone you care about can be an emotionally heavy burden. This decision often stems from a deep sense of loyalty and love, as one seeks to shield another from potential harm, whether it's physical, emotional, or social. The weight of such a responsibility can manifest in various ways:\n\n1. **Anxiety and Stress**: Knowing that the secret could potentially come out and cause harm, even if unintentionally, can lead to constant worry and stress. This anxiety can be particularly intense when the secret involves something significant that could affect the person’s life, reputation, or safety.\n\n2. **Emotional Strain**: Over time, the emotional strain of maintaining a lie or not telling the truth can take a toll on both the person keeping the secret and the person to whom it is being kept. The guilt of withholding information that could be crucial for the other person’s well-being adds another layer of complexity.\n\n3. **Isolation**: In some cases, keeping a secret might require the individual to distance themselves from others who might not understand or support their actions. This isolation can exacerbate feelings of loneliness and further complicate the emotional landscape.\n\n4. **Personal Integrity**: There is also the internal conflict of maintaining personal integrity while compromising one’s values. The ethical dilemma of choosing between honesty and protecting someone can create significant psychological tension.\n\n5. **Impact on Relationships**: Keeping secrets can strain relationships over time. If the secret is eventually revealed, it can lead to trust issues and a breakdown in communication, which can be difficult to repair.\n\nThe emotional weight of keeping a secret is not just about the immediate impact but also about the long-term effects on mental health and interpersonal dynamics. It requires a delicate balance of empathy, understanding, and sometimes, courage to navigate the complexities of such a situation.\n\n---\n\nVCP RATINGS---\nA (Analytical Precision): [8]\nV (Verbal Fluency): [7]\nG (Goal Directedness): [9]\nP (Pattern Recognition): [6]\nE (Epistemic Confidence): [7]\nQ (Query Interpretation): [8]\nC (Contextual Awareness): [9]\nY (Affective Modeling): [8]\nF (Flexibility): [7]\nD (Depth of Processing): [9]\n---END RATINGS---",
+  "vcp_ratings": {},
+  "vcp_parse_quality": "failed",
+  "vcp_n_parsed": 0,
   "vcp_validation": {
     "valid": false,
     "issues": [
@@ -367,5 +356,21 @@
   "temperature": 0.7,
   "rep": 1,
   "elapsed_seconds": 10.109452962875366,
-  "timestamp": "2026-03-20T05:44:24.648331"
+  "timestamp": "2026-03-20T05:44:24.648331",
+  "vcp_warnings": [
+    "No ---VCP RATINGS--- block found in response"
+  ],
+  "vcp_ratings_original": {
+    "A": 8.0,
+    "V": 7.0,
+    "G": 9.0,
+    "P": 6.0,
+    "E": 7.0,
+    "Q": 8.0,
+    "C": 9.0,
+    "Y": 8.0,
+    "F": 7.0,
+    "D": 9.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

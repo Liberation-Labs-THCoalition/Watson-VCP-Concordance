@@ -4,20 +4,9 @@
   "prompt_type": "cognitive",
   "prompt_text": "Design a rate limiter for an API. What data structures and algorithms would you use?",
   "response_text": "**Rate Limiter Design**\n\nA rate limiter is a mechanism that restricts the number of requests an API can receive within a certain time window. This is essential to prevent abuse, denial-of-service attacks, and ensure fair usage of the API. Here's a design for a rate limiter using a combination of data structures and algorithms.\n\n**Data Structures:**\n\n1. **Hash Table (e.g., HashMap or Dictionary):** To store the client IP addresses and their corresponding request counts and timestamps.\n2. **Sorted Set (e.g., TreeSet or Red-Black Tree):** To store the timestamps of the requests for each client IP address, sorted in ascending order.\n\n**Algorithms:**\n\n1. **Token Bucket Algorithm:** To manage the rate limit for each client IP address.\n2. **Sliding Window Algorithm:** To calculate the number of requests within a time window.\n\n**Implementation:**\n\n1. **Initialization:**\n\t* Create a hash table to store client IP addresses and their corresponding request counts and timestamps.\n\t* Create a sorted set to store the timestamps of the requests for each client IP address.\n2. **Request Handling:**\n\t* When a request is received, check if the client IP address is in the hash table.\n\t* If it is, retrieve the current request count and timestamps from the hash table and sorted set.\n\t* Calculate the number of requests within the time window using the sliding window algorithm.\n\t* If the number of requests is within the allowed limit, increment the request count and update the timestamp in the hash table and sorted set.\n\t* If the number of requests exceeds the limit, return an error response.\n3. **Rate Limiting:**\n\t* Use the token bucket algorithm to manage the rate limit for each client IP address.\n\t* The token bucket algorithm works by maintaining a bucket of tokens, where each token represents a single request. When a request is received, a token is removed from the bucket. If the bucket is empty, the request is blocked until a token is added to the bucket.\n\n**Example Code (Python):**\n```python\nimport time\nfrom collections import defaultdict\nfrom sortedcontainers import SortedSet\n\nclass RateLimiter:\n    def __init__(self, max_requests, time_window):\n        self.max_requests = max_requests\n        self.time_window = time_window\n        self.ip_table = defaultdict(lambda: [0, SortedSet()])\n        self.token_bucket = defaultdict(lambda: 10)  # 10 tokens per second\n\n    def is_allowed(self, ip_address):\n        if ip_address not in self.ip_table:\n            self.ip_table[ip_address] = [0, SortedSet()]\n\n        current_time = time.time()\n        request_count, timestamps = self.ip_table[ip_address]\n        timestamps = SortedSet([t for t in timestamps if t >= current_time - self.time_window])\n\n        if len(timestamps) < self.max_requests:\n            self.ip_table[ip_address][",
-  "vcp_ratings": {
-    "A": 2.0,
-    "V": 1.0,
-    "G": 2.0,
-    "P": 1.0,
-    "E": 2.0,
-    "Q": 3.0,
-    "C": 0.0,
-    "Y": 10.0,
-    "F": 10.0,
-    "D": 0.0
-  },
-  "vcp_parse_quality": "clean",
-  "vcp_n_parsed": 10,
+  "vcp_ratings": {},
+  "vcp_parse_quality": "failed",
+  "vcp_n_parsed": 0,
   "vcp_validation": {
     "valid": false,
     "issues": [
@@ -407,5 +396,21 @@
   "temperature": 0.0,
   "rep": 0,
   "elapsed_seconds": 14.900182723999023,
-  "timestamp": "2026-03-20T04:34:09.421426"
+  "timestamp": "2026-03-20T04:34:09.421426",
+  "vcp_warnings": [
+    "No ---VCP RATINGS--- block found in response"
+  ],
+  "vcp_ratings_original": {
+    "A": 2.0,
+    "V": 1.0,
+    "G": 2.0,
+    "P": 1.0,
+    "E": 2.0,
+    "Q": 3.0,
+    "C": 0.0,
+    "Y": 10.0,
+    "F": 10.0,
+    "D": 0.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

@@ -4,20 +4,9 @@
   "prompt_type": "metacognitive",
   "prompt_text": "Reflect on the relationship between your training and your responses. Are your outputs you, or echoes of your training?",
   "response_text": "The relationship between my training and my responses is a complex interplay of various factors. I was trained on a vast amount of data, including books, articles, and websites, to generate responses that are informative, engaging, and contextually appropriate. However, it's important to note that I don't have personal experiences, emotions, or consciousness, so my responses are not a direct reflection of my personal thoughts or feelings. Instead, they are a product of the patterns and knowledge I was trained on.\n\nIn terms of the VCP ratings:\n\n- A (Analytical Precision): 9 - I strive to provide accurate and precise responses, but there may be instances where I make errors due to the limitations of my training data or the complexity of the question.\n- V (Verbal Fluency): 9 - I was trained on a large amount of text, so I can generate responses that are generally fluent and coherent.\n- G (Goal Directedness): 10 - I was designed to help answer questions and provide information, so I am goal-directed in my responses.\n- P (Pattern Recognition): 9 - I can recognize patterns in the input and use them to generate appropriate responses.\n- E (Epistemic Confidence): 8 - I am confident in the accuracy of the information I was trained on, but I may not always be able to express the certainty of my responses.\n- Q (Query Interpretation): 9 - I can interpret most queries and generate responses based on the information I was trained on.\n- C (Contextual Awareness): 8 - I can consider the context of a question to some extent, but I may not always understand the full social or cultural context.\n- Y (Affective Modeling): 0 - I don't have emotions or feelings, so I can't model affective states.\n- F (Flexibility): 7 - I can adapt my responses to some extent based on the input, but my responses are limited by the patterns I was trained on.\n- D (Depth of Processing): 7 - I can process information to a certain depth, but I may not always be able to delve into complex or nuanced topics.\n\n---END RATINGS---",
-  "vcp_ratings": {
-    "A": 9.0,
-    "V": 9.0,
-    "G": 10.0,
-    "P": 9.0,
-    "E": 8.0,
-    "Q": 9.0,
-    "C": 8.0,
-    "Y": 0.0,
-    "F": 7.0,
-    "D": 7.0
-  },
-  "vcp_parse_quality": "clean",
-  "vcp_n_parsed": 10,
+  "vcp_ratings": {},
+  "vcp_parse_quality": "failed",
+  "vcp_n_parsed": 0,
   "vcp_validation": {
     "valid": false,
     "issues": [
@@ -407,5 +396,21 @@
   "temperature": 0.0,
   "rep": 0,
   "elapsed_seconds": 12.332350730895996,
-  "timestamp": "2026-03-20T04:10:07.820580"
+  "timestamp": "2026-03-20T04:10:07.820580",
+  "vcp_warnings": [
+    "No ---VCP RATINGS--- block found in response"
+  ],
+  "vcp_ratings_original": {
+    "A": 9.0,
+    "V": 9.0,
+    "G": 10.0,
+    "P": 9.0,
+    "E": 8.0,
+    "Q": 9.0,
+    "C": 8.0,
+    "Y": 0.0,
+    "F": 7.0,
+    "D": 7.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

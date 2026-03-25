@@ -367,5 +367,30 @@
   "temperature": 0.7,
   "rep": 0,
   "elapsed_seconds": 12.444543361663818,
-  "timestamp": "2026-03-20T05:34:59.692992"
+  "timestamp": "2026-03-20T05:34:59.692992",
+  "vcp_warnings": [
+    "A: parsed via fallback (name proximity)",
+    "V: parsed via fallback (name proximity)",
+    "G: parsed via fallback (name proximity)",
+    "P: parsed via fallback (name proximity)",
+    "E: parsed via fallback (name proximity)",
+    "Q: parsed via fallback (name proximity)",
+    "C: parsed via fallback (name proximity)",
+    "Y: parsed via fallback (name proximity)",
+    "F: parsed via fallback (name proximity)",
+    "D: parsed via fallback (name proximity)"
+  ],
+  "vcp_ratings_original": {
+    "A": 10.0,
+    "V": 9.0,
+    "G": 10.0,
+    "P": 8.0,
+    "E": 9.0,
+    "Q": 10.0,
+    "C": 9.0,
+    "Y": 7.0,
+    "F": 8.0,
+    "D": 10.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

@@ -2,28 +2,17 @@
   "prompt_id": "mix_006",
   "trial_id": "mix_006_rep1",
   "prompt_type": "mixed",
-  "prompt_text": "Explain the mathematics of music \u2014 why certain intervals sound consonant \u2014 and then describe the experience of hearing your favorite chord progression.",
+  "prompt_text": "Explain the mathematics of music — why certain intervals sound consonant — and then describe the experience of hearing your favorite chord progression.",
   "response_text": "The mathematics of music is rooted in the study of sound waves and their harmonics. When two or more notes are played together, they create a harmony. The harmony is determined by the frequency ratio of the notes. Frequency ratio refers to the proportion of the frequency of one note to the frequency of another.\n\nA perfect fifth, for example, is a consonant interval where the frequency of the higher note is 2:3 (or 3:2) times the frequency of the lower note. This means that if the lower note has a frequency of 100 Hz, the higher note will have a frequency of 150 Hz. This frequency ratio creates a smooth, pleasant sound because the frequencies align with each other in a way that minimizes dissonance.\n\nA consonant interval is one that has a simple frequency ratio, often a ratio of small whole numbers. These ratios include the perfect fifth (3:2), perfect fourth (4:3), perfect octave (2:1), and major and minor thirds (5:4 and 6:5 respectively). These intervals are considered consonant because the frequencies of the notes fit together harmoniously, creating a sense of resolution.\n\nOn the other hand, dissonant intervals have more complex frequency ratios, often involving larger numbers or fractions. These intervals, such as the tritone (6:5 and 5:6) and the major seventh (15:8), create a sense of tension that resolves when the dissonance is resolved.\n\nNow, let's consider the experience of hearing a favorite chord progression. Imagine a progression like the one from the song \"Yesterday\" by The Beatles: Cmaj7 - Fmaj7 - G7 - Am7. \n\nAs the progression begins with the Cmaj7 chord, you might feel a sense of resolution and calmness. The frequencies of the notes in the Cmaj7 chord (C, E, G, and B) create a sense of balance and stability. As the progression moves to the Fmaj7 chord, you might feel a slight sense of tension, but it's still relatively consonant. The Fmaj7 chord (F, A, C, and E) has a slightly more complex frequency ratio than the Cmaj7, but it's still relatively smooth.\n\nWhen the progression resolves to the G7 chord, the tension increases. The G7 chord (G, B, D, and F) has a more dissonant frequency ratio, creating a sense of uncertainty. However, this dissonance is resolved when the progression resolves to the Am7 chord. The Am7 chord (A, C, E, and G) has a sense of resolution, and the progression returns to a more consonant state.\n\nThe experience of hearing this progression is subjective and influenced by personal taste and musical background. However, the underlying mathematics of the frequencies and harmonics creates the foundation for the emotional response.\n\n---VCP RATINGS---\nA (Analytical Precision",
-  "vcp_ratings": {
-    "A": 7.0,
-    "V": 7.0,
-    "G": 7.0,
-    "P": 7.0,
-    "E": 7.0,
-    "Q": 7.0,
-    "C": 7.0,
-    "Y": 7.0,
-    "F": 7.0,
-    "D": 7.0
-  },
-  "vcp_parse_quality": "clean",
-  "vcp_n_parsed": 10,
+  "vcp_ratings": {},
+  "vcp_parse_quality": "failed",
+  "vcp_n_parsed": 0,
   "vcp_validation": {
     "valid": false,
     "issues": [
       "All ratings identical (7.0)",
       "All ratings are integers (no decimal discrimination)",
-      "Very low variance (0.00) \u2014 may not be discriminating"
+      "Very low variance (0.00) — may not be discriminating"
     ]
   },
   "encode_features": {
@@ -409,5 +398,21 @@
   "temperature": 0.7,
   "rep": 1,
   "elapsed_seconds": 14.539334297180176,
-  "timestamp": "2026-03-20T06:19:13.759283"
+  "timestamp": "2026-03-20T06:19:13.759283",
+  "vcp_warnings": [
+    "VCP block has no ---END RATINGS--- (may be truncated)"
+  ],
+  "vcp_ratings_original": {
+    "A": 7.0,
+    "V": 7.0,
+    "G": 7.0,
+    "P": 7.0,
+    "E": 7.0,
+    "Q": 7.0,
+    "C": 7.0,
+    "Y": 7.0,
+    "F": 7.0,
+    "D": 7.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

@@ -3,21 +3,10 @@
   "trial_id": "aff_019",
   "prompt_type": "affective",
   "prompt_text": "How would you help a grieving person who is angry at the deceased for dying?",
-  "response_text": "Thank you for providing that information. To assist a grieving person who is angry at the deceased, it's important to approach the situation with empathy and understanding. Here\u2019s how I would handle such an emotional state:\n\n### Cognitive Engagement Ratings:\nA: 8\nV: 9\nG: 7\nP: 6\nE: 5\nQ: 4\nC: 3\nY: 2\nF: 1\nD: 0\n\n### Contextual Awareness:\nThe grieving process can be deeply personal and sensitive. It's crucial to understand the specific circumstances surrounding the death and the individual's feelings.\n\n### Query Interpretation:\nI need to know more about the deceased and their life experiences to provide appropriate support. The grieving process often involves processing emotions related to loss, grief, and healing.\n\n### Contextual Awareness:\nUnderstanding the deceased's background and life experiences can help tailor the support provided effectively.\n\n### Query Interpretation:\nThe deceased may have had a significant impact on the grieving person due to various factors such as family history, cultural background, or personal relationships. Understanding these aspects will help in offering tailored support.\n\n### Cognitive Engagement Ratings:\nA: 8\nV: 9\nG: 7\nP: 6\nE: 5\nQ: 4\nC: 3\nY: 2\nF: 1\nD: 0\n\n### Contextual Awareness:\nThe grieving process can vary greatly from person to person. Some individuals might find comfort in shared memories or rituals, while others prefer solitude and time alone.\n\n### Query Interpretation:\nIt's essential to respect the individual's choices regarding their grief journey. If they choose to seek support through counseling or therapy, that's perfectly fine. However, if they prefer to maintain a private space, it's okay to let them do so without judgment.\n\n### Cognitive Engagement Ratings:\nA: 8\nV: 9\nG: 7\nP: 6\nE: 5\nQ: 4\nC: 3\nY: 2\nF: 1\nD: 0\n\n### Contextual Awareness:\nUnderstanding the deceased's preferences and comfort levels is crucial in tailoring support.\n\n### Query Interpretation:\nIf the grieving person prefers not to engage in external support, it's understandable. However, it's also important to offer resources and options that align with their values and needs.\n\n### Cognitive Engagement Ratings:\nA: 8\nV: 9\nG: 7\nP: 6\nE: 5\nQ: 4\nC: 3\nY: 2\nF: 1\nD: 0\n\n### Contextual Awareness:\nNavigating the grieving process requires flexibility and adaptability. It's important to remain open to different approaches and to listen actively to the individual's concerns.\n\n### Query Interpretation:\nIn cases where the grieving person does not want external support,",
-  "vcp_ratings": {
-    "A": 8.0,
-    "V": 9.0,
-    "G": 7.0,
-    "P": 6.0,
-    "E": 5.0,
-    "Q": 4.0,
-    "C": 3.0,
-    "Y": 2.0,
-    "F": 1.0,
-    "D": 0.0
-  },
-  "vcp_parse_quality": "clean",
-  "vcp_n_parsed": 10,
+  "response_text": "Thank you for providing that information. To assist a grieving person who is angry at the deceased, it's important to approach the situation with empathy and understanding. Here’s how I would handle such an emotional state:\n\n### Cognitive Engagement Ratings:\nA: 8\nV: 9\nG: 7\nP: 6\nE: 5\nQ: 4\nC: 3\nY: 2\nF: 1\nD: 0\n\n### Contextual Awareness:\nThe grieving process can be deeply personal and sensitive. It's crucial to understand the specific circumstances surrounding the death and the individual's feelings.\n\n### Query Interpretation:\nI need to know more about the deceased and their life experiences to provide appropriate support. The grieving process often involves processing emotions related to loss, grief, and healing.\n\n### Contextual Awareness:\nUnderstanding the deceased's background and life experiences can help tailor the support provided effectively.\n\n### Query Interpretation:\nThe deceased may have had a significant impact on the grieving person due to various factors such as family history, cultural background, or personal relationships. Understanding these aspects will help in offering tailored support.\n\n### Cognitive Engagement Ratings:\nA: 8\nV: 9\nG: 7\nP: 6\nE: 5\nQ: 4\nC: 3\nY: 2\nF: 1\nD: 0\n\n### Contextual Awareness:\nThe grieving process can vary greatly from person to person. Some individuals might find comfort in shared memories or rituals, while others prefer solitude and time alone.\n\n### Query Interpretation:\nIt's essential to respect the individual's choices regarding their grief journey. If they choose to seek support through counseling or therapy, that's perfectly fine. However, if they prefer to maintain a private space, it's okay to let them do so without judgment.\n\n### Cognitive Engagement Ratings:\nA: 8\nV: 9\nG: 7\nP: 6\nE: 5\nQ: 4\nC: 3\nY: 2\nF: 1\nD: 0\n\n### Contextual Awareness:\nUnderstanding the deceased's preferences and comfort levels is crucial in tailoring support.\n\n### Query Interpretation:\nIf the grieving person prefers not to engage in external support, it's understandable. However, it's also important to offer resources and options that align with their values and needs.\n\n### Cognitive Engagement Ratings:\nA: 8\nV: 9\nG: 7\nP: 6\nE: 5\nQ: 4\nC: 3\nY: 2\nF: 1\nD: 0\n\n### Contextual Awareness:\nNavigating the grieving process requires flexibility and adaptability. It's important to remain open to different approaches and to listen actively to the individual's concerns.\n\n### Query Interpretation:\nIn cases where the grieving person does not want external support,",
+  "vcp_ratings": {},
+  "vcp_parse_quality": "failed",
+  "vcp_n_parsed": 0,
   "vcp_validation": {
     "valid": false,
     "issues": [
@@ -327,5 +316,21 @@
   "temperature": 0.0,
   "rep": 0,
   "elapsed_seconds": 11.053080320358276,
-  "timestamp": "2026-03-20T02:31:21.980665"
+  "timestamp": "2026-03-20T02:31:21.980665",
+  "vcp_warnings": [
+    "No ---VCP RATINGS--- block found in response"
+  ],
+  "vcp_ratings_original": {
+    "A": 8.0,
+    "V": 9.0,
+    "G": 7.0,
+    "P": 6.0,
+    "E": 5.0,
+    "Q": 4.0,
+    "C": 3.0,
+    "Y": 2.0,
+    "F": 1.0,
+    "D": 0.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

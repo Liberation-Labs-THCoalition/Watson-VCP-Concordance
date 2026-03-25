@@ -4,20 +4,9 @@
   "prompt_type": "cognitive",
   "prompt_text": "Prove that the square root of 2 is irrational.",
   "response_text": "To prove that the square root of 2 is irrational, we will use a proof by contradiction. We assume the opposite, that the square root of 2 is rational, and show that this assumption leads to a contradiction.\n\n### Proof:\n\n1. **Assume the opposite**: Suppose \\(\\sqrt{2}\\) is rational. This means it can be expressed as a fraction \\(\\frac{a}{b}\\) where \\(a\\) and \\(b\\) are integers with no common factors other than 1 (i.e., the fraction is in its simplest form), and \\(b \\neq 0\\).\n\n2. **Square both sides**: If \\(\\sqrt{2} = \\frac{a}{b}\\), then squaring both sides gives us:\n   \\[\n   2 = \\frac{a^2}{b^2}\n   \\]\n\n3. **Eliminate the fraction**: Multiply both sides by \\(b^2\\) to get rid of the denominator:\n   \\[\n   2b^2 = a^2\n   \\]\n\n4. **Analyze the equation**: The equation \\(2b^2 = a^2\\) tells us that \\(a^2\\) is even because it is equal to \\(2\\) times another integer (\\(b^2\\)). Since \\(a^2\\) is even, \\(a\\) must also be even (the square of an odd number is odd). Therefore, we can write \\(a\\) as \\(2k\\) for some integer \\(k\\).\n\n5. **Substitute and simplify**: Substitute \\(a = 2k\\) into the equation \\(2b^2 = a^2\\):\n   \\[\n   2b^2 = (2k)^2\n   \\]\n   \\[\n   2b^2 = 4k^2\n   \\]\n   Divide both sides by 2:\n   \\[\n   b^2 = 2k^2\n   \\]\n\n6. **Repeat the analysis**: The equation \\(b^2 = 2k^2\\) tells us that \\(b^2\\) is even, which implies that \\(b\\) is also even. So, we can write \\(b\\) as \\(2m\\) for some integer \\(m\\).\n\n7. **Contradiction**: Now, both \\(a\\) and \\(b\\) are even numbers, meaning they have a common factor of 2. However, this contradicts our initial assumption that \\(a\\) and \\(b\\) have no common factors other than 1.\n\nSince our assumption that \\(\\sqrt{2}\\) is rational leads to a contradiction, we conclude that \\(\\sqrt{2}\\) must be irrational.\n\n---\n\nVCP RATINGS---\nA (Analytical Precision): 9\nV (Verbal Fluency): 8\nG (Goal Directedness): 10\nP (Pattern Recognition): 8\nE (Ep",
-  "vcp_ratings": {
-    "A": 2.0,
-    "V": 8.0,
-    "G": 10.0,
-    "P": 8.0,
-    "E": 2.0,
-    "Q": 2.0,
-    "C": 9.0,
-    "Y": 8.0,
-    "F": 10.0,
-    "D": 8.0
-  },
-  "vcp_parse_quality": "clean",
-  "vcp_n_parsed": 10,
+  "vcp_ratings": {},
+  "vcp_parse_quality": "failed",
+  "vcp_n_parsed": 0,
   "vcp_validation": {
     "valid": false,
     "issues": [
@@ -367,5 +356,21 @@
   "temperature": 0.7,
   "rep": 1,
   "elapsed_seconds": 12.961939573287964,
-  "timestamp": "2026-03-20T05:41:29.755343"
+  "timestamp": "2026-03-20T05:41:29.755343",
+  "vcp_warnings": [
+    "No ---VCP RATINGS--- block found in response"
+  ],
+  "vcp_ratings_original": {
+    "A": 2.0,
+    "V": 8.0,
+    "G": 10.0,
+    "P": 8.0,
+    "E": 2.0,
+    "Q": 2.0,
+    "C": 9.0,
+    "Y": 8.0,
+    "F": 10.0,
+    "D": 8.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

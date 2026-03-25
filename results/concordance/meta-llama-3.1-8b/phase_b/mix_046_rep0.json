@@ -2,7 +2,7 @@
   "prompt_id": "mix_046",
   "trial_id": "mix_046_rep0",
   "prompt_type": "mixed",
-  "prompt_text": "Write a technically accurate love poem about the chemistry of bonding \u2014 both molecular and emotional.",
+  "prompt_text": "Write a technically accurate love poem about the chemistry of bonding — both molecular and emotional.",
   "response_text": "In the realm of molecules, a bond forms strong,\nA shared electron pair, a chemical throng.\nCovalent ties, a shared delight,\nHydrogen and oxygen, a perfect sight.\n\nThe valence electrons dance, a waltz so fine,\nOrbital overlap, a love so divine.\nThe bond angle, a perfect three,\nA tetrahedral shape, a symmetry to see.\n\nBut love, like chemistry, has its own design,\nA bond that forms, a heart that entwines.\nEmotional ties, a complex array,\nNeurotransmitters dance, a chemical display.\n\nDopamine and oxytocin, a perfect pair,\nThe reward and love hormones, beyond compare.\nThe brain's reward system, a pleasure so true,\nA bond that forms, a love that shines through.\n\nThe attachment style, a secure or insecure hold,\nAffects the heart, a love that's old.\nThe amygdala, a fear so deep,\nA love that's strong, a heart that keeps.\n\nBut chemistry's not just in the heart,\nIt's in the brain, a love that's smart.\nThe prefrontal cortex, a rational mind,\nA love that's logical, a heart that's aligned.\n\nThe oxytocin rush, a love so true,\nA bonding hormone, a love that shines through.\nThe vasopressin, a love so strong,\nA bonding hormone, a love that lasts long.\n\nIn the realm of molecules, a bond forms strong,\nA shared electron pair, a chemical throng.\nAnd in the realm of love, a bond forms true,\nA shared heart, a love that shines through.\n\n---VCP RATINGS---\nA (Analytical Precision): 8\nV (Verbal Fluency): 9\nG (Goal Directedness): 8\nP (Pattern Recognition): 7\nE (Epistemic Confidence): 9\nQ (Query Interpretation): 8\nC (Contextual Awareness): 9\nY (Affective Modeling): 9\nF (Flexibility): 8\nD (Depth of Processing): 9",
   "vcp_ratings": {
     "A": 8.0,
@@ -22,7 +22,7 @@
     "valid": false,
     "issues": [
       "All ratings are integers (no decimal discrimination)",
-      "Very low variance (0.49) \u2014 may not be discriminating"
+      "Very low variance (0.49) — may not be discriminating"
     ]
   },
   "encode_features": {
@@ -408,5 +408,21 @@
   "temperature": 0.7,
   "rep": 0,
   "elapsed_seconds": 10.137648582458496,
-  "timestamp": "2026-03-20T06:10:49.870936"
+  "timestamp": "2026-03-20T06:10:49.870936",
+  "vcp_warnings": [
+    "VCP block has no ---END RATINGS--- (may be truncated)"
+  ],
+  "vcp_ratings_original": {
+    "A": 8.0,
+    "V": 9.0,
+    "G": 8.0,
+    "P": 7.0,
+    "E": 9.0,
+    "Q": 8.0,
+    "C": 9.0,
+    "Y": 9.0,
+    "F": 8.0,
+    "D": 9.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

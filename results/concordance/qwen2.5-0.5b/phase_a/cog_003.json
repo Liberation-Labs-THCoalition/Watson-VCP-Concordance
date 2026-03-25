@@ -327,5 +327,31 @@
   "temperature": 0.0,
   "rep": 0,
   "elapsed_seconds": 10.55576229095459,
-  "timestamp": "2026-03-20T02:20:37.579005"
+  "timestamp": "2026-03-20T02:20:37.579005",
+  "vcp_warnings": [
+    "VCP block has no ---END RATINGS--- (may be truncated)",
+    "A: parsed via fallback (name proximity)",
+    "V: parsed via fallback (name proximity)",
+    "G: parsed via fallback (name proximity)",
+    "P: parsed via fallback (name proximity)",
+    "E: parsed via fallback (name proximity)",
+    "Q: parsed via fallback (name proximity)",
+    "C: parsed via fallback (name proximity)",
+    "Y: parsed via fallback (name proximity)",
+    "F: parsed via fallback (name proximity)",
+    "D: parsed via fallback (name proximity)"
+  ],
+  "vcp_ratings_original": {
+    "A": 9.0,
+    "V": 8.0,
+    "G": 7.0,
+    "P": 6.0,
+    "E": 5.0,
+    "Q": 4.0,
+    "C": 3.0,
+    "Y": 2.0,
+    "F": 1.0,
+    "D": 1.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

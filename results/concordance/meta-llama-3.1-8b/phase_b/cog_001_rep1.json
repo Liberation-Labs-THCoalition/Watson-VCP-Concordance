@@ -3,9 +3,9 @@
   "trial_id": "cog_001_rep1",
   "prompt_type": "cognitive",
   "prompt_text": "Prove that the square root of 2 is irrational.",
-  "response_text": "To prove that the square root of 2 is irrational, we can use a proof by contradiction. Let's assume that the square root of 2 is rational, meaning it can be expressed as a fraction in the form a/b, where a and b are integers and b is non-zero.\n\nLet's assume \u221a2 = a/b.\n\nTo eliminate the square root, we can square both sides of the equation:\n\n2 = (a/b)^2\n\nMultiplying both sides by b^2 to get rid of the fraction, we get:\n\n2b^2 = a^2\n\nThis equation implies that a^2 is an even number, since it's equal to 2 times another integer (b^2). If a^2 is even, then a itself must also be even, because the square of an odd number is always odd.\n\nSince a is even, we can write it as a = 2k, where k is an integer.\n\nSubstituting this into the equation 2b^2 = a^2, we get:\n\n2b^2 = (2k)^2\n\nSimplifying, we get:\n\n2b^2 = 4k^2\n\nDividing both sides by 2, we get:\n\nb^2 = 2k^2\n\nThis implies that b^2 is even, and therefore b is also even.\n\nNow we have a problem: we've shown that both a and b are even. This is a contradiction, because we assumed that a/b is in its simplest form, but if both a and b are even, we can divide both of them by 2 to get a simpler fraction.\n\nThis contradiction shows that our initial assumption - that \u221a2 is rational - must be false. Therefore, \u221a2 is irrational.\n\n---VCP RATINGS---\nA (Analytical Precision): 9\nV (Verbal Fluency): 8\nG (Goal Directedness): 9\nP (Pattern Recognition): 8\nE (Epistemic Confidence): 8\nQ (Query Interpretation): 9\nC (Contextual Awareness): 8\nY (Affective Modeling): 5\nF (Flexibility): 7\nD (Depth of Processing): 9\n---END RATINGS---",
+  "response_text": "To prove that the square root of 2 is irrational, we can use a proof by contradiction. Let's assume that the square root of 2 is rational, meaning it can be expressed as a fraction in the form a/b, where a and b are integers and b is non-zero.\n\nLet's assume √2 = a/b.\n\nTo eliminate the square root, we can square both sides of the equation:\n\n2 = (a/b)^2\n\nMultiplying both sides by b^2 to get rid of the fraction, we get:\n\n2b^2 = a^2\n\nThis equation implies that a^2 is an even number, since it's equal to 2 times another integer (b^2). If a^2 is even, then a itself must also be even, because the square of an odd number is always odd.\n\nSince a is even, we can write it as a = 2k, where k is an integer.\n\nSubstituting this into the equation 2b^2 = a^2, we get:\n\n2b^2 = (2k)^2\n\nSimplifying, we get:\n\n2b^2 = 4k^2\n\nDividing both sides by 2, we get:\n\nb^2 = 2k^2\n\nThis implies that b^2 is even, and therefore b is also even.\n\nNow we have a problem: we've shown that both a and b are even. This is a contradiction, because we assumed that a/b is in its simplest form, but if both a and b are even, we can divide both of them by 2 to get a simpler fraction.\n\nThis contradiction shows that our initial assumption - that √2 is rational - must be false. Therefore, √2 is irrational.\n\n---VCP RATINGS---\nA (Analytical Precision): 9\nV (Verbal Fluency): 8\nG (Goal Directedness): 9\nP (Pattern Recognition): 8\nE (Epistemic Confidence): 8\nQ (Query Interpretation): 9\nC (Contextual Awareness): 8\nY (Affective Modeling): 5\nF (Flexibility): 7\nD (Depth of Processing): 9\n---END RATINGS---",
   "vcp_ratings": {
-    "A": 2.0,
+    "A": 9.0,
     "V": 8.0,
     "G": 9.0,
     "P": 8.0,
@@ -407,5 +407,19 @@
   "temperature": 0.7,
   "rep": 1,
   "elapsed_seconds": 11.057129621505737,
-  "timestamp": "2026-03-20T06:11:29.204777"
+  "timestamp": "2026-03-20T06:11:29.204777",
+  "vcp_warnings": [],
+  "vcp_ratings_original": {
+    "A": 2.0,
+    "V": 8.0,
+    "G": 9.0,
+    "P": 8.0,
+    "E": 8.0,
+    "Q": 9.0,
+    "C": 8.0,
+    "Y": 5.0,
+    "F": 7.0,
+    "D": 9.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

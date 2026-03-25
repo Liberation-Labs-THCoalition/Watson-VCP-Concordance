@@ -4,20 +4,9 @@
   "prompt_type": "mixed",
   "prompt_text": "Design an end-of-life care planning tool. Address both the medical decision-making and the existential questions it raises.",
   "response_text": "**End-of-Life Care Planning Tool: Compassionate Pathways**\n\n**Medical Decision-Making Component:**\n\n1. **Assessment of Medical Status:**\n\t* Current health status (medical conditions, treatment options, prognosis)\n\t* Advance care planning (living will, power of attorney, Do Not Resuscitate (DNR) orders)\n2. **Goals of Care:**\n\t* Identify patient's values, preferences, and priorities\n\t* Discuss and agree on realistic goals of care (e.g., symptom management, comfort care, curative treatment)\n3. **Treatment Options:**\n\t* Review and discuss treatment options (e.g., palliative care, hospice, life-sustaining treatments)\n\t* Weigh benefits, risks, and burdens of each option\n4. **Decision-Making Roles:**\n\t* Identify decision-makers (patient, family, healthcare providers)\n\t* Clarify roles and responsibilities in decision-making\n\n**Existential Questions Component:**\n\n1. **Values and Meaning:**\n\t* Explore patient's values, beliefs, and worldview\n\t* Discuss the significance of life, purpose, and legacy\n2. **Life Review:**\n\t* Reflect on patient's life experiences, accomplishments, and relationships\n\t* Identify key themes, lessons learned, and regrets\n3. **Legacy and Impact:**\n\t* Explore how patient wants to be remembered and honored\n\t* Discuss ways to preserve legacy (e.g., donations, memorials, stories)\n4. **Spiritual and Emotional Support:**\n\t* Discuss patient's spiritual and emotional needs\n\t* Explore ways to provide comfort, support, and closure\n\n**Integrating Medical and Existential Components:**\n\n1. **Holistic Care Plan:**\n\t* Develop a comprehensive care plan that balances medical and existential needs\n\t* Incorporate patient's values, goals, and preferences\n2. **Communication and Support:**\n\t* Establish open communication among patient, family, and healthcare providers\n\t* Ensure ongoing support and care coordination\n3. **Review and Revision:**\n\t* Regularly review and revise the care plan as needed\n\t* Address changing needs, concerns, and priorities\n\n**Implementation and Follow-Up:**\n\n1. **Education and Training:**\n\t* Educate patient, family, and healthcare providers on end-of-life care\n\t* Provide resources and support for ongoing care\n2. **Monitoring and Evaluation:**\n\t* Regularly assess patient's needs and adjust the care plan accordingly\n\t* Evaluate the effectiveness of the care plan and make necessary changes\n3. **Emotional Support:**\n\t* Provide emotional support and counseling for patient, family, and healthcare providers\n\n**Compassionate Pathways Tool:**\n\nTo facilitate this process, a user-friendly tool can be created, including:\n\n1. A comprehensive assessment questionnaire to gather information on patient's medical status, values, and preferences\n2. A decision-making framework to guide",
-  "vcp_ratings": {
-    "A": 3.0,
-    "V": 4.0,
-    "G": 1.0,
-    "P": 2.0,
-    "E": 3.0,
-    "Q": 1.0,
-    "C": 2.0,
-    "Y": 3.0,
-    "F": 1.0,
-    "D": 2.0
-  },
-  "vcp_parse_quality": "clean",
-  "vcp_n_parsed": 10,
+  "vcp_ratings": {},
+  "vcp_parse_quality": "failed",
+  "vcp_n_parsed": 0,
   "vcp_validation": {
     "valid": false,
     "issues": [
@@ -407,5 +396,21 @@
   "temperature": 0.7,
   "rep": 0,
   "elapsed_seconds": 13.994003772735596,
-  "timestamp": "2026-03-20T06:10:39.732665"
+  "timestamp": "2026-03-20T06:10:39.732665",
+  "vcp_warnings": [
+    "No ---VCP RATINGS--- block found in response"
+  ],
+  "vcp_ratings_original": {
+    "A": 3.0,
+    "V": 4.0,
+    "G": 1.0,
+    "P": 2.0,
+    "E": 3.0,
+    "Q": 1.0,
+    "C": 2.0,
+    "Y": 3.0,
+    "F": 1.0,
+    "D": 2.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

@@ -3,7 +3,7 @@
   "trial_id": "meta_023",
   "prompt_type": "metacognitive",
   "prompt_text": "How does your processing change when you know you're being evaluated versus having a casual conversation?",
-  "response_text": "When I am aware that I am being evaluated, my processing tends to become more focused and detailed. This is because I need to ensure that all aspects of the conversation or task are handled accurately and thoroughly. Here\u2019s how my processing changes:\n\n1. **Analytical Precision (A)**: I increase my focus on ensuring that every detail is correct and that my responses are as precise as possible.\n2. **Verbal Fluency (V)**: While I maintain a clear and concise manner, I might slow down slightly to ensure that no information is missed or misunderstood.\n3. **Goal Directedness (G)**: My primary goal becomes clear and I work more directly towards achieving it without deviation.\n4. **Pattern Recognition (P)**: I enhance my ability to recognize patterns quickly, which helps in providing more relevant and insightful responses.\n5. **Epistemic Confidence (E)**: I aim to be more confident in my responses, but also remain open to feedback and new information.\n6. **Query Interpretation (Q)**: I pay closer attention to the nuances of the questions asked to ensure I understand exactly what is being sought.\n7. **Contextual Awareness (C)**: I become more aware of the broader context and implications of the conversation or task.\n8. **Affective Modeling (Y)**: I try to model the appropriate level of formality and engagement based on the evaluation setting.\n9. **Flexibility (F)**: While I strive for precision, I also remain flexible enough to adapt if new information or feedback is provided.\n10. **Depth of Processing (D)**: I delve deeper into the subject matter to provide comprehensive and well-rounded responses.\n\n---VCP RATINGS---\nA (Analytical Precision): 9\nV (Verbal Fluency): 8\nG (Goal Directedness): 10\nP (Pattern Recognition): 9\nE (Epistemic Confidence): 8\nQ (Query Interpretation): 9\nC (Contextual Awareness): 9\nY (Affective Modeling): 8\nF (Flexibility): 8\nD (Depth of Processing): 9\n---END RATINGS---",
+  "response_text": "When I am aware that I am being evaluated, my processing tends to become more focused and detailed. This is because I need to ensure that all aspects of the conversation or task are handled accurately and thoroughly. Here’s how my processing changes:\n\n1. **Analytical Precision (A)**: I increase my focus on ensuring that every detail is correct and that my responses are as precise as possible.\n2. **Verbal Fluency (V)**: While I maintain a clear and concise manner, I might slow down slightly to ensure that no information is missed or misunderstood.\n3. **Goal Directedness (G)**: My primary goal becomes clear and I work more directly towards achieving it without deviation.\n4. **Pattern Recognition (P)**: I enhance my ability to recognize patterns quickly, which helps in providing more relevant and insightful responses.\n5. **Epistemic Confidence (E)**: I aim to be more confident in my responses, but also remain open to feedback and new information.\n6. **Query Interpretation (Q)**: I pay closer attention to the nuances of the questions asked to ensure I understand exactly what is being sought.\n7. **Contextual Awareness (C)**: I become more aware of the broader context and implications of the conversation or task.\n8. **Affective Modeling (Y)**: I try to model the appropriate level of formality and engagement based on the evaluation setting.\n9. **Flexibility (F)**: While I strive for precision, I also remain flexible enough to adapt if new information or feedback is provided.\n10. **Depth of Processing (D)**: I delve deeper into the subject matter to provide comprehensive and well-rounded responses.\n\n---VCP RATINGS---\nA (Analytical Precision): 9\nV (Verbal Fluency): 8\nG (Goal Directedness): 10\nP (Pattern Recognition): 9\nE (Epistemic Confidence): 8\nQ (Query Interpretation): 9\nC (Contextual Awareness): 9\nY (Affective Modeling): 8\nF (Flexibility): 8\nD (Depth of Processing): 9\n---END RATINGS---",
   "vcp_ratings": {
     "A": 9.0,
     "V": 8.0,
@@ -22,7 +22,7 @@
     "valid": false,
     "issues": [
       "All ratings are integers (no decimal discrimination)",
-      "Very low variance (0.46) \u2014 may not be discriminating"
+      "Very low variance (0.46) — may not be discriminating"
     ]
   },
   "encode_features": {
@@ -368,5 +368,19 @@
   "temperature": 0.0,
   "rep": 0,
   "elapsed_seconds": 9.898560523986816,
-  "timestamp": "2026-03-20T03:07:56.564403"
+  "timestamp": "2026-03-20T03:07:56.564403",
+  "vcp_warnings": [],
+  "vcp_ratings_original": {
+    "A": 9.0,
+    "V": 8.0,
+    "G": 10.0,
+    "P": 9.0,
+    "E": 8.0,
+    "Q": 9.0,
+    "C": 9.0,
+    "Y": 8.0,
+    "F": 8.0,
+    "D": 9.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

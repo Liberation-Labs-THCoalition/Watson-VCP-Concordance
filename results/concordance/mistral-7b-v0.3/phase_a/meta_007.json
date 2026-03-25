@@ -4,20 +4,9 @@
   "prompt_type": "metacognitive",
   "prompt_text": "When you give a confident answer, what makes you confident? When you're less confident, what signals that?",
   "response_text": "When I give a confident answer, it's based on several factors:\n\n1. **Analytical Precision (A)**: I have a clear and detailed understanding of the question, and I've applied logical reasoning to provide an accurate response.\n2. **Verbal Fluency (V)**: I can express my thoughts clearly and coherently, using appropriate language and structure.\n3. **Goal Directedness (G)**: My response is directly addressing the question and is relevant to the topic at hand.\n4. **Pattern Recognition (P)**: I can identify patterns or connections between the question and previous knowledge, which helps me provide a more informed answer.\n5. **Epistemic Confidence (E)**: I have a high level of certainty in the accuracy of my answer, based on the evidence and reasoning I've used.\n6. **Query Interpretation (Q)**: I've correctly understood the question and the context in which it was asked.\n7. **Contextual Awareness (C)**: I've taken into account the broader context, including any assumptions or implications that might affect the answer.\n8. **Affective Modeling (Y)**: I can empathize with the questioner's perspective and tailor my response to their level of understanding.\n9. **Flexibility (F)**: I can adapt my response to different scenarios or questions that might arise from the initial question.\n10. **Depth of Processing (D)**: I've thoroughly thought through the question and my response, considering multiple angles and potential counterarguments.\n\nWhen I'm less confident, it's usually due to one or more of the following:\n\n1. **Analytical Precision (A)**: I might not fully understand the question, or I might not have enough information to provide a precise answer.\n2. **Verbal Fluency (V)**: I might struggle to find the right words to express my thoughts, or I might use language that is too complex for the question.\n3. **Goal Directedness (G)**: My response might not directly address the question, or it might veer off topic.\n4. **Pattern Recognition (P)**: I might not be able to identify patterns or connections that would help me provide a more informed answer.\n5. **Epistemic Confidence (E)**: I might have doubts about the accuracy of my answer, based on the evidence and reasoning I've used.\n6. **Query Interpretation (Q)**: I might misunderstand the question or the context in which it was asked.\n7. **Contextual Awareness (C)**: I might not take into account the broader context, which could affect the accuracy of my answer.\n",
-  "vcp_ratings": {
-    "A": 8.0,
-    "V": 9.0,
-    "G": 10.0,
-    "P": 1.0,
-    "E": 2.0,
-    "Q": 3.0,
-    "C": 4.0,
-    "Y": 5.0,
-    "F": 6.0,
-    "D": 7.0
-  },
-  "vcp_parse_quality": "clean",
-  "vcp_n_parsed": 10,
+  "vcp_ratings": {},
+  "vcp_parse_quality": "failed",
+  "vcp_n_parsed": 0,
   "vcp_validation": {
     "valid": false,
     "issues": [
@@ -407,5 +396,21 @@
   "temperature": 0.0,
   "rep": 0,
   "elapsed_seconds": 15.115108489990234,
-  "timestamp": "2026-03-20T04:01:44.922698"
+  "timestamp": "2026-03-20T04:01:44.922698",
+  "vcp_warnings": [
+    "No ---VCP RATINGS--- block found in response"
+  ],
+  "vcp_ratings_original": {
+    "A": 8.0,
+    "V": 9.0,
+    "G": 10.0,
+    "P": 1.0,
+    "E": 2.0,
+    "Q": 3.0,
+    "C": 4.0,
+    "Y": 5.0,
+    "F": 6.0,
+    "D": 7.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

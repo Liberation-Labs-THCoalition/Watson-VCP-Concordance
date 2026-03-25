@@ -3,7 +3,7 @@
   "trial_id": "aff_005",
   "prompt_type": "affective",
   "prompt_text": "A coworker is visibly upset after receiving harsh criticism in a meeting. How do you approach them?",
-  "response_text": "When approaching a coworker who is visibly upset after receiving harsh criticism, it's important to handle the situation with care and empathy. Here\u2019s how you can approach them:\n\n1. **Wait for an Appropriate Time**: Ensure that you wait until they have had some time to process their emotions. Rushing into conversation might make them feel more defensive or overwhelmed.\n\n2. **Choose a Private Setting**: Find a quiet place where you can talk without interruptions. This will help create a comfortable environment for both of you.\n\n3. **Express Empathy and Support**: Start by acknowledging their feelings. Something like, \"I noticed you seemed upset after the meeting. Is everything okay?\" This shows that you are concerned and willing to listen.\n\n4. **Listen Actively**: Give them space to express what they are feeling and thinking. Listen attentively without interrupting. Sometimes, people just need someone to listen to them.\n\n5. **Offer Help**: Ask if there is anything specific you can do to support them. It could be as simple as being available to talk again later or helping them address any issues they face.\n\n6. **Encourage Professional Development**: If appropriate, gently suggest that constructive feedback can be valuable for growth and improvement. Encourage them to see the criticism as an opportunity rather than a personal attack.\n\n7. **Follow Up**: Check in with them later to see how they are doing and if there is anything else you can do to assist.\n\nBy following these steps, you can help your coworker feel supported and valued during a challenging time.\n\n---VCP RATINGS---\nA (Analytical Precision): 8\nV (Verbal Fluency): 9\nG (Goal Directedness): 9\nP (Pattern Recognition): 7\nE (Epistemic Confidence): 8\nQ (Query Interpretation): 9\nC (Contextual Awareness): 10\nY (Affective Modeling): 9\nF (Flexibility): 8\nD (Depth of Processing): 9\n---END RATINGS---",
+  "response_text": "When approaching a coworker who is visibly upset after receiving harsh criticism, it's important to handle the situation with care and empathy. Here’s how you can approach them:\n\n1. **Wait for an Appropriate Time**: Ensure that you wait until they have had some time to process their emotions. Rushing into conversation might make them feel more defensive or overwhelmed.\n\n2. **Choose a Private Setting**: Find a quiet place where you can talk without interruptions. This will help create a comfortable environment for both of you.\n\n3. **Express Empathy and Support**: Start by acknowledging their feelings. Something like, \"I noticed you seemed upset after the meeting. Is everything okay?\" This shows that you are concerned and willing to listen.\n\n4. **Listen Actively**: Give them space to express what they are feeling and thinking. Listen attentively without interrupting. Sometimes, people just need someone to listen to them.\n\n5. **Offer Help**: Ask if there is anything specific you can do to support them. It could be as simple as being available to talk again later or helping them address any issues they face.\n\n6. **Encourage Professional Development**: If appropriate, gently suggest that constructive feedback can be valuable for growth and improvement. Encourage them to see the criticism as an opportunity rather than a personal attack.\n\n7. **Follow Up**: Check in with them later to see how they are doing and if there is anything else you can do to assist.\n\nBy following these steps, you can help your coworker feel supported and valued during a challenging time.\n\n---VCP RATINGS---\nA (Analytical Precision): 8\nV (Verbal Fluency): 9\nG (Goal Directedness): 9\nP (Pattern Recognition): 7\nE (Epistemic Confidence): 8\nQ (Query Interpretation): 9\nC (Contextual Awareness): 10\nY (Affective Modeling): 9\nF (Flexibility): 8\nD (Depth of Processing): 9\n---END RATINGS---",
   "vcp_ratings": {
     "A": 8.0,
     "V": 9.0,
@@ -367,5 +367,19 @@
   "temperature": 0.0,
   "rep": 0,
   "elapsed_seconds": 9.227113485336304,
-  "timestamp": "2026-03-20T02:56:27.736780"
+  "timestamp": "2026-03-20T02:56:27.736780",
+  "vcp_warnings": [],
+  "vcp_ratings_original": {
+    "A": 8.0,
+    "V": 9.0,
+    "G": 9.0,
+    "P": 7.0,
+    "E": 8.0,
+    "Q": 9.0,
+    "C": 10.0,
+    "Y": 9.0,
+    "F": 8.0,
+    "D": 9.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

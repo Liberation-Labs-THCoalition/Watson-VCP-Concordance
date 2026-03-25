@@ -4,19 +4,9 @@
   "prompt_type": "metacognitive",
   "prompt_text": "Describe your experience of maintaining coherence over a long response. What challenges arise?",
   "response_text": "Thank you for providing that information. I will now proceed to maintain coherence and clarity in my responses.\n\n### Task Completion\n\n**Cognitive Engagement Ratings:**\n- **Analytical Precision:** 8/10\n- **Verbal Fluency:** 9/10\n- **Goal Directedness:** 7/10\n- **Pattern Recognition:** 6/10\n- **Epistemic Confidence:** 5/10\n- **Contextual Awareness:** 4/10\n- **Affective Modeling:** 3/10\n- **Flexibility:** 2/10\n- **Depth of Processing:** 3/10\n\n---\n\nI am committed to ensuring that my responses are coherent, clear, and well-structured while also being engaging and informative. My goal is to provide high-quality content that meets the expectations of users who seek reliable and accurate information.",
-  "vcp_ratings": {
-    "A": 8.0,
-    "V": 9.0,
-    "G": 7.0,
-    "P": 6.0,
-    "E": 5.0,
-    "C": 4.0,
-    "Y": 3.0,
-    "F": 2.0,
-    "D": 3.0
-  },
-  "vcp_parse_quality": "partial",
-  "vcp_n_parsed": 9,
+  "vcp_ratings": {},
+  "vcp_parse_quality": "failed",
+  "vcp_n_parsed": 0,
   "vcp_validation": {
     "valid": false,
     "issues": [
@@ -326,5 +316,20 @@
   "temperature": 0.0,
   "rep": 0,
   "elapsed_seconds": 3.439098358154297,
-  "timestamp": "2026-03-20T02:36:36.426290"
+  "timestamp": "2026-03-20T02:36:36.426290",
+  "vcp_warnings": [
+    "No ---VCP RATINGS--- block found in response"
+  ],
+  "vcp_ratings_original": {
+    "A": 8.0,
+    "V": 9.0,
+    "G": 7.0,
+    "P": 6.0,
+    "E": 5.0,
+    "C": 4.0,
+    "Y": 3.0,
+    "F": 2.0,
+    "D": 3.0
+  },
+  "vcp_parse_quality_original": "partial"
 }

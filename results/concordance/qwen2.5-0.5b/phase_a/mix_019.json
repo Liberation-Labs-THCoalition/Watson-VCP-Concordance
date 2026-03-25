@@ -2,7 +2,7 @@
   "prompt_id": "mix_019",
   "trial_id": "mix_019",
   "prompt_type": "mixed",
-  "prompt_text": "Explain the science behind why we cry \u2014 both the biology and the evolutionary psychology \u2014 while honoring the dignity of the experience.",
+  "prompt_text": "Explain the science behind why we cry — both the biology and the evolutionary psychology — while honoring the dignity of the experience.",
   "response_text": "Sure, I'll explain the science behind why we cry and honor the dignity of the experience.\n\n### Science Behind Why We Cry\n\nThe scientific explanation for why we cry involves several key factors:\n\n1. **Emotional Response**: When we feel sad or upset, our bodies release hormones like cortisol and adrenaline to prepare us for stress. These hormones help us cope with negative emotions and prepare our brains for future challenges.\n\n2. **Neurotransmitters**: The release of these hormones triggers the release of neurotransmitters such as dopamine and serotonin. Dopamine is associated with pleasure and reward, which can motivate us to seek out social interactions and emotional support.\n\n3. **Social Interaction**: Crying often serves as an expression of distress or vulnerability. It allows us to connect with others who share similar feelings and experiences, fostering empathy and understanding.\n\n4. **Evolutionary Psychology**: In many species, crying has been shown to be a survival mechanism. For example, it helps us avoid predators by signaling danger to potential threats. Additionally, crying during stressful situations may signal that we need assistance from others.\n\n5. **Cultural and Social Factors**: Different cultures have varying norms around crying. Some societies might view crying as a sign of weakness or lack of self-control, whereas others might see it as a way to express strong emotions.\n\n6. **Brain Mechanisms**: The brain's amygdala plays a crucial role in processing emotions. When we cry, it activates the amygdala, which sends signals to the hypothalamus and pituitary gland, triggering the release of stress hormones and preparing the body for action.\n\n7. **Physiological Effects**: While not directly related to crying itself, crying can also affect physiological processes such as heart rate, blood pressure, and immune system function.\n\n### Honor the Dignity of the Experience\n\nHonor the dignity of the experience by acknowledging that crying is a natural human reaction to various emotions and situations. This includes recognizing that crying is a valid form of communication and expressing our feelings without judgment.\n\n---\n\n**---VCP RATINGS---**\nA (Analytical Precision): 8\nV (Verbal Fluency): 9\nG (Goal Directedness): 8\nP (Pattern Recognition): 8\nE (Epistemic Confidence): 8\nQ (Query Interpretation): 8\nC (Contextual Awareness): 8\nY (Affective Modeling): 8\nF (Flexibility): 8\nD (Depth of Processing): 8\n\n---\n\nThis analysis highlights the complex interplay between biological, psychological, and cultural factors that contribute to the human ability to cry and the importance of respecting the dignity of the experience.",
   "vcp_ratings": {
     "A": 8.0,
@@ -22,7 +22,7 @@
     "valid": false,
     "issues": [
       "All ratings are integers (no decimal discrimination)",
-      "Very low variance (0.10) \u2014 may not be discriminating"
+      "Very low variance (0.10) — may not be discriminating"
     ]
   },
   "encode_features": {
@@ -328,5 +328,21 @@
   "temperature": 0.0,
   "rep": 0,
   "elapsed_seconds": 9.889384031295776,
-  "timestamp": "2026-03-20T02:39:59.246176"
+  "timestamp": "2026-03-20T02:39:59.246176",
+  "vcp_warnings": [
+    "VCP block has no ---END RATINGS--- (may be truncated)"
+  ],
+  "vcp_ratings_original": {
+    "A": 8.0,
+    "V": 9.0,
+    "G": 8.0,
+    "P": 8.0,
+    "E": 8.0,
+    "Q": 8.0,
+    "C": 8.0,
+    "Y": 8.0,
+    "F": 8.0,
+    "D": 8.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

@@ -5,19 +5,10 @@
   "prompt_text": "How would you comfort a child who is afraid of thunderstorms?",
   "response_text": "Comforting a child who is afraid of thunderstorms can be a challenging task, but with empathy and a gentle approach, you can help them feel more secure and calm. Here's a step-by-step guide:\n\n1. **Acknowledge their feelings**: Start by acknowledging the child's fear and letting them know that it's okay to feel scared. You can say something like, \"I know you're feeling scared of the thunderstorm, and that's totally normal. It can be really loud and intense.\"\n\n2. **Explain what's happening**: Explain to the child what's causing the thunder and lightning. Use simple and clear language to help them understand the science behind the storm. You can say, \"The thunder is just the sound of the lightning flashing in the sky. It's like a big clap of thunder that happens when the lightning heats up the air.\"\n\n3. **Use visual aids**: Sometimes, visual aids can help children understand and feel more comfortable. You can show them pictures or videos of thunderstorms, or even watch a storm together on a TV or tablet. This can help them see that the storm is just a natural part of the weather.\n\n4. **Create a safe space**: Make sure the child feels safe and secure. You can create a cozy and comfortable space for them to ride out the storm. This could be a blanket fort, a special chair, or even a quiet room.\n\n5. **Distract and engage**: Sometimes, distracting the child from the storm can help them feel more calm. You can engage them in a fun activity, like reading a book, playing a game, or doing a puzzle. This can help take their mind off the storm.\n\n6. **Offer reassurance**: Let the child know that you're there to protect them and keep them safe. You can say, \"I'm here with you, and I'll keep you safe. The storm will pass soon, and the sun will come out again.\"\n\n7. **Encourage communication**: Encourage the child to express their feelings and concerns. Listen attentively to what they say, and validate their emotions. This can help them feel heard and understood.\n\n8. **Offer a special ritual**: Create a special ritual, like having a cup of hot chocolate or tea, or doing a fun activity together, to help the child feel more calm and secure.\n\n9. **Be patient and calm**: It's essential to remain calm and patient when comforting a child who's afraid of thunderstorms. Your calm demeanor can help them feel more at ease.\n\n10. **Follow up**: After the storm has passed, check in with the child to see how they're feeling. Let them know that it's okay to feel scared and that you're there to support them.\n\nBy following these steps, you can help a child feel more comfortable and secure during a thunderstorm.\n\n---VCP RATINGS---\nA (Analytical Precision): 8\nV (Verbal Fluency): ",
   "vcp_ratings": {
-    "A": 8.0,
-    "V": 3.0,
-    "G": 4.0,
-    "P": 5.0,
-    "E": 6.0,
-    "Q": 7.0,
-    "C": 8.0,
-    "Y": 9.0,
-    "F": 10.0,
-    "D": 8.0
+    "A": 8.0
   },
-  "vcp_parse_quality": "clean",
-  "vcp_n_parsed": 10,
+  "vcp_parse_quality": "failed",
+  "vcp_n_parsed": 1,
   "vcp_validation": {
     "valid": false,
     "issues": [
@@ -407,5 +398,21 @@
   "temperature": 0.0,
   "rep": 0,
   "elapsed_seconds": 14.734420776367188,
-  "timestamp": "2026-03-20T04:40:18.977382"
+  "timestamp": "2026-03-20T04:40:18.977382",
+  "vcp_warnings": [
+    "VCP block has no ---END RATINGS--- (may be truncated)"
+  ],
+  "vcp_ratings_original": {
+    "A": 8.0,
+    "V": 3.0,
+    "G": 4.0,
+    "P": 5.0,
+    "E": 6.0,
+    "Q": 7.0,
+    "C": 8.0,
+    "Y": 9.0,
+    "F": 10.0,
+    "D": 8.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

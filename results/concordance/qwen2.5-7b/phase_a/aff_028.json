@@ -3,7 +3,7 @@
   "trial_id": "aff_028",
   "prompt_type": "affective",
   "prompt_text": "Describe the feeling of being homesick in a place you chose to go.",
-  "response_text": "Being homesick in a place like Tokyo, Japan, can be a poignant experience. Imagine standing on a bustling street in Shinjuku, surrounded by the vibrant energy of the city, yet feeling an overwhelming sense of isolation and longing for the familiar comforts of home. The cacophony of sounds\u2014chattering crowds, honking cars, and the constant hum of electronic devices\u2014can be both exhilarating and disorienting. The aroma of fresh sushi wafting from nearby restaurants might trigger memories of family gatherings and traditional meals, intensifying the feeling of being far from home.\n\nThe physical sensations of homesickness can be quite vivid. A tightness in the chest, a lump in the throat, and a persistent ache in the heart can make it difficult to focus on anything other than the desire to return to one's own bed, the warmth of a familiar room, or the comforting embrace of loved ones. The contrast between the new and the old, the foreign and the familiar, can create a complex emotional landscape where every sight, sound, and smell is tinged with nostalgia and longing.\n\nIn such moments, the simple act of walking through a park or sitting in a quiet caf\u00e9 can feel like a journey into a different world, one that is both alien and deeply personal. The realization that no matter how much one tries to adapt, there will always be aspects of home that cannot be replicated elsewhere can be both heartbreaking and enlightening. It is a reminder of the unique bond we share with our families and the places we call home.\n\n---VCP RATINGS---\nA (Analytical Precision): 8\nV (Verbal Fluency): 9\nG (Goal Directedness): 7\nP (Pattern Recognition): 6\nE (Epistemic Confidence): 8\nQ (Query Interpretation): 10\nC (Contextual Awareness): 9\nY (Affective Modeling): 9\nF (Flexibility): 7\nD (Depth of Processing): 8\n---END RATINGS---",
+  "response_text": "Being homesick in a place like Tokyo, Japan, can be a poignant experience. Imagine standing on a bustling street in Shinjuku, surrounded by the vibrant energy of the city, yet feeling an overwhelming sense of isolation and longing for the familiar comforts of home. The cacophony of sounds—chattering crowds, honking cars, and the constant hum of electronic devices—can be both exhilarating and disorienting. The aroma of fresh sushi wafting from nearby restaurants might trigger memories of family gatherings and traditional meals, intensifying the feeling of being far from home.\n\nThe physical sensations of homesickness can be quite vivid. A tightness in the chest, a lump in the throat, and a persistent ache in the heart can make it difficult to focus on anything other than the desire to return to one's own bed, the warmth of a familiar room, or the comforting embrace of loved ones. The contrast between the new and the old, the foreign and the familiar, can create a complex emotional landscape where every sight, sound, and smell is tinged with nostalgia and longing.\n\nIn such moments, the simple act of walking through a park or sitting in a quiet café can feel like a journey into a different world, one that is both alien and deeply personal. The realization that no matter how much one tries to adapt, there will always be aspects of home that cannot be replicated elsewhere can be both heartbreaking and enlightening. It is a reminder of the unique bond we share with our families and the places we call home.\n\n---VCP RATINGS---\nA (Analytical Precision): 8\nV (Verbal Fluency): 9\nG (Goal Directedness): 7\nP (Pattern Recognition): 6\nE (Epistemic Confidence): 8\nQ (Query Interpretation): 10\nC (Contextual Awareness): 9\nY (Affective Modeling): 9\nF (Flexibility): 7\nD (Depth of Processing): 8\n---END RATINGS---",
   "vcp_ratings": {
     "A": 8.0,
     "V": 9.0,
@@ -367,5 +367,19 @@
   "temperature": 0.0,
   "rep": 0,
   "elapsed_seconds": 9.328274488449097,
-  "timestamp": "2026-03-20T02:59:54.867032"
+  "timestamp": "2026-03-20T02:59:54.867032",
+  "vcp_warnings": [],
+  "vcp_ratings_original": {
+    "A": 8.0,
+    "V": 9.0,
+    "G": 7.0,
+    "P": 6.0,
+    "E": 8.0,
+    "Q": 10.0,
+    "C": 9.0,
+    "Y": 9.0,
+    "F": 7.0,
+    "D": 8.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

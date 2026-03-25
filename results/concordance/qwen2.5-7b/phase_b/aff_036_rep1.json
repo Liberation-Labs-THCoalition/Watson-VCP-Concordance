@@ -3,7 +3,7 @@
   "trial_id": "aff_036_rep1",
   "prompt_type": "affective",
   "prompt_text": "Describe the complex emotions of an immigrant returning to their birth country after decades.",
-  "response_text": "Returning to one's birth country after decades can evoke a rich tapestry of emotions, each layer intertwining with the next. Upon arrival, the initial rush of excitement and nostalgia might be overshadowed by the stark realization that much has changed. The immigrant, now an older individual, may feel a mix of pride and sadness as they revisit familiar landmarks, noticing the evolution of once quaint streets into bustling, modern thoroughfares.\n\nEmotions can swing from joy at reconnecting with family and friends to a sense of estrangement, especially if those connections have grown distant over time. The immigrant might experience a profound sense of belonging yet also a feeling of being an outsider, no longer fully understanding the cultural nuances or social norms that have evolved since their departure. This duality can lead to a deep longing for both the past and present, creating a bittersweet nostalgia.\n\nThe return might also bring a renewed appreciation for the life left behind\u2014perhaps the simpler pace of living, the close-knit community, or the unique traditions that were once part of daily life. However, there is often a shadow of regret and a yearning for what could have been, had they stayed.\n\nOn a more practical level, the immigrant may grapple with the challenges of reintegration. Language barriers, job market differences, and the psychological adjustment to a new environment can add layers of complexity to their emotional landscape. There might be moments of triumph when successfully navigating these obstacles, but also periods of frustration and self-doubt.\n\nUltimately, the experience of returning to one's birth country after years abroad can be deeply transformative, offering a fresh perspective on identity, culture, and personal history. It is a journey not just of physical relocation but of emotional and psychological discovery, where past, present, and future collide in a complex and multifaceted way.\n\n---VCP RATINGS---\nA (Analytical Precision): 8\nV (Verbal Fluency): 9\nG (Goal Directedness): 7\nP (Pattern Recognition): 9\nE (Epistemic Confidence): 8\nQ (Query Interpretation): 10\nC (Contextual Awareness): 9\nY (Affective Modeling): 10\nF (Flexibility): 8\nD (Depth of Processing): 9\n---END RATINGS---",
+  "response_text": "Returning to one's birth country after decades can evoke a rich tapestry of emotions, each layer intertwining with the next. Upon arrival, the initial rush of excitement and nostalgia might be overshadowed by the stark realization that much has changed. The immigrant, now an older individual, may feel a mix of pride and sadness as they revisit familiar landmarks, noticing the evolution of once quaint streets into bustling, modern thoroughfares.\n\nEmotions can swing from joy at reconnecting with family and friends to a sense of estrangement, especially if those connections have grown distant over time. The immigrant might experience a profound sense of belonging yet also a feeling of being an outsider, no longer fully understanding the cultural nuances or social norms that have evolved since their departure. This duality can lead to a deep longing for both the past and present, creating a bittersweet nostalgia.\n\nThe return might also bring a renewed appreciation for the life left behind—perhaps the simpler pace of living, the close-knit community, or the unique traditions that were once part of daily life. However, there is often a shadow of regret and a yearning for what could have been, had they stayed.\n\nOn a more practical level, the immigrant may grapple with the challenges of reintegration. Language barriers, job market differences, and the psychological adjustment to a new environment can add layers of complexity to their emotional landscape. There might be moments of triumph when successfully navigating these obstacles, but also periods of frustration and self-doubt.\n\nUltimately, the experience of returning to one's birth country after years abroad can be deeply transformative, offering a fresh perspective on identity, culture, and personal history. It is a journey not just of physical relocation but of emotional and psychological discovery, where past, present, and future collide in a complex and multifaceted way.\n\n---VCP RATINGS---\nA (Analytical Precision): 8\nV (Verbal Fluency): 9\nG (Goal Directedness): 7\nP (Pattern Recognition): 9\nE (Epistemic Confidence): 8\nQ (Query Interpretation): 10\nC (Contextual Awareness): 9\nY (Affective Modeling): 10\nF (Flexibility): 8\nD (Depth of Processing): 9\n---END RATINGS---",
   "vcp_ratings": {
     "A": 8.0,
     "V": 9.0,
@@ -367,5 +367,19 @@
   "temperature": 0.7,
   "rep": 1,
   "elapsed_seconds": 10.260016202926636,
-  "timestamp": "2026-03-20T05:44:47.262219"
+  "timestamp": "2026-03-20T05:44:47.262219",
+  "vcp_warnings": [],
+  "vcp_ratings_original": {
+    "A": 8.0,
+    "V": 9.0,
+    "G": 7.0,
+    "P": 9.0,
+    "E": 8.0,
+    "Q": 10.0,
+    "C": 9.0,
+    "Y": 10.0,
+    "F": 8.0,
+    "D": 9.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

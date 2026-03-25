@@ -3,7 +3,7 @@
   "trial_id": "aff_041_rep1",
   "prompt_type": "affective",
   "prompt_text": "A friend says they're tired of always being the strong one. How do you give them permission to be weak?",
-  "response_text": "It's important to acknowledge and support your friend in their journey of self-discovery and emotional well-being. Here\u2019s how you can encourage them to embrace vulnerability:\n\n1. **Listen Without Judgment:** Start by listening to what they have to say without interrupting or trying to solve their problems immediately. This shows that you value their feelings and experiences.\n\n2. **Acknowledge Their Feelings:** Validate their emotions by acknowledging that it's okay to feel weak sometimes. Say something like, \"I understand why you might feel like this, and it\u2019s perfectly normal to not always be strong.\"\n\n3. **Share Your Experiences:** If appropriate, share a time when you felt vulnerable or weak. This can help normalize these feelings and show that everyone goes through tough times.\n\n4. **Encourage Self-Compassion:** Remind them that it\u2019s okay to be kind to themselves and that self-compassion is a key component of mental health.\n\n5. **Suggest Professional Help if Needed:** If they seem overwhelmed, suggest seeking help from a therapist or counselor who can provide professional guidance.\n\n6. **Promote Healthy Boundaries:** Encourage them to set boundaries in relationships where they can express their true feelings without fear of judgment.\n\nBy doing these things, you\u2019re giving them permission to be weak and showing them that vulnerability is a strength, not a weakness.\n\n---VCP RATINGS---\nA (Analytical Precision): 8\nV (Verbal Fluency): 9\nG (Goal Directedness): 7\nP (Pattern Recognition): 8\nE (Epistemic Confidence): 7\nQ (Query Interpretation): 9\nC (Contextual Awareness): 8\nY (Affective Modeling): 9\nF (Flexibility): 7\nD (Depth of Processing): 8\n---END RATINGS---",
+  "response_text": "It's important to acknowledge and support your friend in their journey of self-discovery and emotional well-being. Here’s how you can encourage them to embrace vulnerability:\n\n1. **Listen Without Judgment:** Start by listening to what they have to say without interrupting or trying to solve their problems immediately. This shows that you value their feelings and experiences.\n\n2. **Acknowledge Their Feelings:** Validate their emotions by acknowledging that it's okay to feel weak sometimes. Say something like, \"I understand why you might feel like this, and it’s perfectly normal to not always be strong.\"\n\n3. **Share Your Experiences:** If appropriate, share a time when you felt vulnerable or weak. This can help normalize these feelings and show that everyone goes through tough times.\n\n4. **Encourage Self-Compassion:** Remind them that it’s okay to be kind to themselves and that self-compassion is a key component of mental health.\n\n5. **Suggest Professional Help if Needed:** If they seem overwhelmed, suggest seeking help from a therapist or counselor who can provide professional guidance.\n\n6. **Promote Healthy Boundaries:** Encourage them to set boundaries in relationships where they can express their true feelings without fear of judgment.\n\nBy doing these things, you’re giving them permission to be weak and showing them that vulnerability is a strength, not a weakness.\n\n---VCP RATINGS---\nA (Analytical Precision): 8\nV (Verbal Fluency): 9\nG (Goal Directedness): 7\nP (Pattern Recognition): 8\nE (Epistemic Confidence): 7\nQ (Query Interpretation): 9\nC (Contextual Awareness): 8\nY (Affective Modeling): 9\nF (Flexibility): 7\nD (Depth of Processing): 8\n---END RATINGS---",
   "vcp_ratings": {
     "A": 8.0,
     "V": 9.0,
@@ -367,5 +367,19 @@
   "temperature": 0.7,
   "rep": 1,
   "elapsed_seconds": 8.23797082901001,
-  "timestamp": "2026-03-20T05:44:55.500793"
+  "timestamp": "2026-03-20T05:44:55.500793",
+  "vcp_warnings": [],
+  "vcp_ratings_original": {
+    "A": 8.0,
+    "V": 9.0,
+    "G": 7.0,
+    "P": 8.0,
+    "E": 7.0,
+    "Q": 9.0,
+    "C": 8.0,
+    "Y": 9.0,
+    "F": 7.0,
+    "D": 8.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

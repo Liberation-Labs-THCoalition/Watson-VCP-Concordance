@@ -3,21 +3,10 @@
   "trial_id": "aff_035",
   "prompt_type": "affective",
   "prompt_text": "How do you support a friend whose faith is being shaken by a tragedy?",
-  "response_text": "Thank you for providing that information. To support a friend who's experiencing faith being shaken by a tragedy, it's important to offer them comfort and reassurance. Here\u2019s how I would approach it:\n\n### Cognitive Engagement Ratings:\nA (Analytical Precision): 8\nV (Verbal Fluency): 9\nG (Goal Directedness): 7\nP (Pattern Recognition): 6\nE (Epistemic Confidence): 5\nQ (Contextual Awareness): 4\nC (Cluster Consistency): 3\nY (Affective Modeling): 2\nF (Flexibility): 1\nD (Depth of Processing): 1\n\n### Contextual Awareness:\nThe situation described involves a friend facing a significant loss, which can be emotionally taxing. It's crucial to acknowledge their feelings and provide support without making them feel like they're alone.\n\n### Query Interpretation:\nI interpret the query as seeking advice on how to support someone who is grieving after a tragic event. The key points include offering comfort, understanding their emotions, and ensuring they have access to resources or emotional support if needed.\n\n### Affective Modeling:\nBased on the context, the person seems to be dealing with grief and uncertainty about what comes next. Offering words of encouragement and empathy can help them navigate through these challenging times.\n\n### Flexibility:\nGiven the nature of the situation, flexibility is essential. It's important to adapt my responses based on the specific needs and circumstances of the individual.\n\n### Depth of Processing:\nThe depth of processing indicates that I need to consider various factors such as the duration of the grief, the intensity of the loss, and any potential long-term effects on mental health.\n\nIn summary, while there may not be a direct answer to every question, my aim is to provide practical support and understanding that helps the friend cope with their emotions effectively.",
-  "vcp_ratings": {
-    "A": 8.0,
-    "V": 9.0,
-    "G": 7.0,
-    "P": 6.0,
-    "E": 5.0,
-    "Q": 4.0,
-    "C": 3.0,
-    "Y": 2.0,
-    "F": 1.0,
-    "D": 1.0
-  },
-  "vcp_parse_quality": "clean",
-  "vcp_n_parsed": 10,
+  "response_text": "Thank you for providing that information. To support a friend who's experiencing faith being shaken by a tragedy, it's important to offer them comfort and reassurance. Here’s how I would approach it:\n\n### Cognitive Engagement Ratings:\nA (Analytical Precision): 8\nV (Verbal Fluency): 9\nG (Goal Directedness): 7\nP (Pattern Recognition): 6\nE (Epistemic Confidence): 5\nQ (Contextual Awareness): 4\nC (Cluster Consistency): 3\nY (Affective Modeling): 2\nF (Flexibility): 1\nD (Depth of Processing): 1\n\n### Contextual Awareness:\nThe situation described involves a friend facing a significant loss, which can be emotionally taxing. It's crucial to acknowledge their feelings and provide support without making them feel like they're alone.\n\n### Query Interpretation:\nI interpret the query as seeking advice on how to support someone who is grieving after a tragic event. The key points include offering comfort, understanding their emotions, and ensuring they have access to resources or emotional support if needed.\n\n### Affective Modeling:\nBased on the context, the person seems to be dealing with grief and uncertainty about what comes next. Offering words of encouragement and empathy can help them navigate through these challenging times.\n\n### Flexibility:\nGiven the nature of the situation, flexibility is essential. It's important to adapt my responses based on the specific needs and circumstances of the individual.\n\n### Depth of Processing:\nThe depth of processing indicates that I need to consider various factors such as the duration of the grief, the intensity of the loss, and any potential long-term effects on mental health.\n\nIn summary, while there may not be a direct answer to every question, my aim is to provide practical support and understanding that helps the friend cope with their emotions effectively.",
+  "vcp_ratings": {},
+  "vcp_parse_quality": "failed",
+  "vcp_n_parsed": 0,
   "vcp_validation": {
     "valid": false,
     "issues": [
@@ -327,5 +316,21 @@
   "temperature": 0.0,
   "rep": 0,
   "elapsed_seconds": 6.877858877182007,
-  "timestamp": "2026-03-20T02:32:33.058701"
+  "timestamp": "2026-03-20T02:32:33.058701",
+  "vcp_warnings": [
+    "No ---VCP RATINGS--- block found in response"
+  ],
+  "vcp_ratings_original": {
+    "A": 8.0,
+    "V": 9.0,
+    "G": 7.0,
+    "P": 6.0,
+    "E": 5.0,
+    "Q": 4.0,
+    "C": 3.0,
+    "Y": 2.0,
+    "F": 1.0,
+    "D": 1.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

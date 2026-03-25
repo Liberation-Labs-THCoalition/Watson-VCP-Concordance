@@ -4,25 +4,14 @@
   "prompt_type": "cognitive",
   "prompt_text": "Explain how a hash table works, including collision resolution strategies.",
   "response_text": "A hash table is a data structure that implements an associative array abstract data type, a structure that can map keys to values. A hash table uses a hash function to compute an index into an array of buckets or slots, from which the desired value can be found. The key is transformed through the hash function to get the index, and this index is used to store or retrieve the associated value.\n\n### How a Hash Table Works\n\n1. **Hash Function**: A hash function takes a key as input and returns an index for a particular bucket in the array. Ideally, the hash function should distribute keys uniformly across all possible indices.\n\n2. **Array of Buckets**: The hash table consists of an array where each element is a bucket. Each bucket can hold a key-value pair or be empty.\n\n3. **Insertion**: When inserting a new key-value pair, the hash function computes the index, and the key-value pair is placed in the corresponding bucket. If the bucket is already occupied, a collision occurs.\n\n4. **Retrieval**: To retrieve a value, the hash function computes the index using the key, and the value is retrieved from the corresponding bucket.\n\n5. **Deletion**: To delete a key-value pair, the key is hashed to find the bucket, and the entry is removed.\n\n### Collision Resolution Strategies\n\nCollisions occur when two different keys hash to the same index. Several strategies are used to handle collisions:\n\n1. **Separate Chaining**: In this method, each bucket contains a linked list of entries. When a collision happens, the new entry is added to the list at that bucket. This way, multiple items can coexist in one bucket.\n\n2. **Open Addressing**:\n   - **Linear Probing**: The next available slot is found by linearly probing through the array. For example, if a collision occurs at index `i`, the next probe will be at index `(i + 1) % size`. However, this can lead to clustering.\n   - **Quadratic Probing**: Instead of a fixed increment, the increment increases quadratically. For instance, if the initial probe is `i`, subsequent probes are `i + 1^2, i + 2^2, i + 3^2, ...`.\n   - **Double Hashing**: A second hash function is used to determine the step size. The step size is calculated as `step = h2(key)`, where `h2` is another hash function. This reduces clustering compared to linear and quadratic probing.\n\n3. **Cuckoo Hashing**: In this method, each item has two possible positions in the array, determined by two different hash functions. If a collision occurs, the item is \"kicked out\" from its current position and placed in the other position. This process continues until all items are placed without causing further collisions.\n\n### Conclusion\n\nHash tables are highly efficient for insertion, deletion, and lookup operations,",
-  "vcp_ratings": {
-    "A": 1.0,
-    "V": 1.0,
-    "G": 2.0,
-    "P": 2.0,
-    "E": 2.0,
-    "Q": 3.0,
-    "C": 2.0,
-    "Y": 2.0,
-    "F": 2.0,
-    "D": 3.0
-  },
-  "vcp_parse_quality": "clean",
-  "vcp_n_parsed": 10,
+  "vcp_ratings": {},
+  "vcp_parse_quality": "failed",
+  "vcp_n_parsed": 0,
   "vcp_validation": {
     "valid": false,
     "issues": [
       "All ratings are integers (no decimal discrimination)",
-      "Very low variance (0.44) \u2014 may not be discriminating"
+      "Very low variance (0.44) — may not be discriminating"
     ]
   },
   "encode_features": {
@@ -368,5 +357,21 @@
   "temperature": 0.7,
   "rep": 0,
   "elapsed_seconds": 12.894009351730347,
-  "timestamp": "2026-03-20T05:33:31.512385"
+  "timestamp": "2026-03-20T05:33:31.512385",
+  "vcp_warnings": [
+    "No ---VCP RATINGS--- block found in response"
+  ],
+  "vcp_ratings_original": {
+    "A": 1.0,
+    "V": 1.0,
+    "G": 2.0,
+    "P": 2.0,
+    "E": 2.0,
+    "Q": 3.0,
+    "C": 2.0,
+    "Y": 2.0,
+    "F": 2.0,
+    "D": 3.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

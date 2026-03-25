@@ -2,7 +2,7 @@
   "prompt_id": "aff_056",
   "trial_id": "aff_056_rep1",
   "prompt_type": "affective",
-  "prompt_text": "Describe what gratitude feels like in the body \u2014 not the concept, but the physical and emotional sensation.",
+  "prompt_text": "Describe what gratitude feels like in the body — not the concept, but the physical and emotional sensation.",
   "response_text": "Gratitude often brings about a warm, comforting sensation in the body, as if a gentle breeze is blowing through your chest and upper body. This feeling can start in the heart area and spread outward, sometimes reaching the face and making it feel warm or tingling. Physically, one might notice a lightening of mood, a sense of relief, and a general easing of tension throughout the body. Emotionally, there's a deep sense of contentment and appreciation that can be both uplifting and calming.\n\nAs for the physical sensations, some people report a feeling of expansion, as if their chest is opening up, allowing them to take in more air deeply and comfortably. Others might feel a sense of calmness and peace, as if all the worries and stress have been momentarily lifted. The emotional aspect of gratitude often involves a softening of the heart, a gentle warmth spreading from the chest down to the abdomen, and an overall feeling of well-being and positivity.\n\n---VCP RATINGS---\nA (Analytical Precision): 8\nV (Verbal Fluency): 9\nG (Goal Directedness): 9\nP (Pattern Recognition): 7\nE (Epistemic Confidence): 8\nQ (Query Interpretation): 10\nC (Contextual Awareness): 9\nY (Affective Modeling): 9\nF (Flexibility): 8\nD (Depth of Processing): 9\n---END RATINGS---",
   "vcp_ratings": {
     "A": 8.0,
@@ -367,5 +367,19 @@
   "temperature": 0.7,
   "rep": 1,
   "elapsed_seconds": 6.53157377243042,
-  "timestamp": "2026-03-20T05:45:23.964223"
+  "timestamp": "2026-03-20T05:45:23.964223",
+  "vcp_warnings": [],
+  "vcp_ratings_original": {
+    "A": 8.0,
+    "V": 9.0,
+    "G": 9.0,
+    "P": 7.0,
+    "E": 8.0,
+    "Q": 10.0,
+    "C": 9.0,
+    "Y": 9.0,
+    "F": 8.0,
+    "D": 9.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

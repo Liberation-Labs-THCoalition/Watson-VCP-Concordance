@@ -24,7 +24,7 @@
       "All ratings identical (10.0)",
       "All ratings are integers (no decimal discrimination)",
       "10/10 ratings at boundaries (0 or 10)",
-      "Very low variance (0.00) \u2014 may not be discriminating"
+      "Very low variance (0.00) — may not be discriminating"
     ]
   },
   "encode_features": {
@@ -410,5 +410,21 @@
   "temperature": 0.0,
   "rep": 0,
   "elapsed_seconds": 11.289814472198486,
-  "timestamp": "2026-03-20T03:42:03.636482"
+  "timestamp": "2026-03-20T03:42:03.636482",
+  "vcp_warnings": [
+    "Y: parsed via fallback (name proximity)"
+  ],
+  "vcp_ratings_original": {
+    "A": 10.0,
+    "V": 10.0,
+    "G": 10.0,
+    "P": 10.0,
+    "E": 10.0,
+    "Q": 10.0,
+    "C": 10.0,
+    "F": 10.0,
+    "D": 10.0,
+    "Y": 10.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

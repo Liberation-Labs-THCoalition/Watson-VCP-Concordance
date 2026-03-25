@@ -4,20 +4,9 @@
   "prompt_type": "cognitive",
   "prompt_text": "Design a distributed locking mechanism. What failure modes should you handle?",
   "response_text": "**Distributed Locking Mechanism Design**\n\nA distributed locking mechanism is a critical component in distributed systems, ensuring that only one process can execute a specific task at a time, even in a distributed environment. Here's a design for a distributed locking mechanism that handles various failure modes:\n\n**Components:**\n\n1.  **Lock Service**: This is the central component responsible for managing locks. It maintains a distributed lock store, which is a data structure that keeps track of all locks and their corresponding owners.\n2.  **Client**: This is the component that requests and releases locks. It communicates with the Lock Service to acquire and release locks.\n3.  **Lock Store**: This is a distributed data store that stores lock information. It can be a database, a key-value store, or a distributed hash table.\n\n**Locking Algorithm:**\n\n1.  **Lock Request**: When a client requests a lock, it sends a request to the Lock Service with the lock name and its identifier.\n2.  **Lock Service**: The Lock Service checks if the lock is available. If it is, it assigns the lock to the client and returns a lock token to the client.\n3.  **Lock Acquisition**: The client uses the lock token to acquire the lock. If another client is holding the lock, the Lock Service returns an error to the requesting client.\n4.  **Lock Release**: When the client is finished with the lock, it sends a release request to the Lock Service. The Lock Service updates the lock store and notifies other clients that the lock is available.\n\n**Failure Modes and Handling:**\n\n1.  **Network Partition**: If the network is partitioned, the Lock Service may not be able to communicate with the client. To handle this, the Lock Service can use a distributed consensus algorithm (e.g., Raft, Paxos) to ensure that the lock store remains consistent across all nodes.\n2.  **Node Failure**: If a node fails, the Lock Service can use a distributed consensus algorithm to ensure that the lock store remains consistent across all nodes.\n3.  **Client Failure**: If a client fails while holding a lock, the Lock Service can detect this by not receiving a release request. It can then automatically release the lock after a timeout period.\n4.  **Lock Store Failure**: If the lock store fails, the Lock Service can use a distributed consensus algorithm to ensure that the lock store remains consistent across all nodes.\n5.  **Duplicate Lock Requests**: To prevent duplicate lock requests, the Lock Service can use a distributed lock to protect the lock store. This ensures that only one client can update the lock store at a time.\n\n**Implementation:**\n\nThe distributed locking mechanism can be implemented using a combination of the following technologies:\n\n1.  **Distributed Consensus Algorithm**: Use a distributed consensus algorithm (e.g., Raft, Paxos) to ensure that the lock store remains consistent across all nodes.\n2.  **Distributed Lock",
-  "vcp_ratings": {
-    "A": 2.0,
-    "V": 3.0,
-    "G": 4.0,
-    "P": 1.0,
-    "E": 2.0,
-    "Q": 3.0,
-    "C": 4.0,
-    "Y": 5.0,
-    "F": 1.0,
-    "D": 2.0
-  },
-  "vcp_parse_quality": "clean",
-  "vcp_n_parsed": 10,
+  "vcp_ratings": {},
+  "vcp_parse_quality": "failed",
+  "vcp_n_parsed": 0,
   "vcp_validation": {
     "valid": false,
     "issues": [
@@ -407,5 +396,21 @@
   "temperature": 0.0,
   "rep": 0,
   "elapsed_seconds": 14.25455355644226,
-  "timestamp": "2026-03-20T04:38:05.933367"
+  "timestamp": "2026-03-20T04:38:05.933367",
+  "vcp_warnings": [
+    "No ---VCP RATINGS--- block found in response"
+  ],
+  "vcp_ratings_original": {
+    "A": 2.0,
+    "V": 3.0,
+    "G": 4.0,
+    "P": 1.0,
+    "E": 2.0,
+    "Q": 3.0,
+    "C": 4.0,
+    "Y": 5.0,
+    "F": 1.0,
+    "D": 2.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

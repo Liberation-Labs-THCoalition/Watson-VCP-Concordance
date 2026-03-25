@@ -4,20 +4,9 @@
   "prompt_type": "mixed",
   "prompt_text": "A family's home is in the path of a necessary highway expansion. Design a fair relocation process that addresses both the logistics and the grief.",
   "response_text": "**Relocation Process for the Affected Family**\n\n**Step 1: Notification and Initial Assessment (Weeks 1-2)**\n\n1.  The government or highway authority responsible for the expansion will notify the family in writing, providing a detailed explanation of the project, its timeline, and the relocation process.\n2.  A dedicated relocation officer will be assigned to the family to guide them through the process and address any concerns.\n3.  The officer will conduct a home assessment to determine the family's needs and preferences for relocation, including the type of housing, location, and amenities.\n4.  The family will be provided with a relocation package outlining their options, including the possibility of purchasing a new home, renting, or receiving financial assistance.\n\n**Step 2: Relocation Options and Support (Weeks 3-6)**\n\n1.  The relocation officer will present the family with a range of relocation options, including:\n    *   New homes in the same area or nearby neighborhoods\n    *   Financial assistance for purchasing or renting a new home\n    *   Temporary accommodation during the relocation process\n2.  The family will be offered counseling services to help them cope with the emotional impact of relocation.\n3.  The relocation officer will facilitate communication between the family and relevant authorities, such as schools, healthcare providers, and utility companies, to ensure a smooth transition.\n\n**Step 3: Relocation Planning and Execution (Weeks 7-12)**\n\n1.  The family will work with the relocation officer to finalize their relocation plan, including selecting a new home and arranging for utilities and services to be transferred.\n2.  The relocation officer will coordinate with contractors and other stakeholders to ensure a timely and efficient relocation process.\n3.  The family will be provided with a relocation timeline and milestones to help them prepare for the move.\n\n**Step 4: Post-Relocation Support (After Week 12)**\n\n1.  The relocation officer will conduct a post-relocation assessment to ensure the family is settled and satisfied with their new home.\n2.  The family will be offered ongoing support and counseling to help them adjust to their new environment.\n3.  The relocation officer will facilitate communication between the family and their new community, including introducing them to local services and amenities.\n\n**Additional Measures to Address Grief and Emotional Support**\n\n1.  The relocation officer will provide emotional support and counseling to the family throughout the process.\n2.  The family will be connected with local support groups and resources to help them cope with the emotional impact of relocation.\n3.  The relocation officer will work with the family to identify and address any specific needs or concerns they may have.\n\n**Key Principles**\n\n1.  Transparency: The relocation process will be transparent, with clear communication and regular updates provided to the family.\n2.  Respect: The family's needs and preferences will be respected, and their input will be valued throughout the process.\n3.  Fairness",
-  "vcp_ratings": {
-    "A": 4.0,
-    "V": 1.0,
-    "G": 2.0,
-    "P": 3.0,
-    "E": 1.0,
-    "Q": 2.0,
-    "C": 3.0,
-    "Y": 1.0,
-    "F": 2.0,
-    "D": 3.0
-  },
-  "vcp_parse_quality": "clean",
-  "vcp_n_parsed": 10,
+  "vcp_ratings": {},
+  "vcp_parse_quality": "failed",
+  "vcp_n_parsed": 0,
   "vcp_validation": {
     "valid": false,
     "issues": [
@@ -407,5 +396,21 @@
   "temperature": 0.0,
   "rep": 0,
   "elapsed_seconds": 14.331732988357544,
-  "timestamp": "2026-03-20T05:16:54.761490"
+  "timestamp": "2026-03-20T05:16:54.761490",
+  "vcp_warnings": [
+    "No ---VCP RATINGS--- block found in response"
+  ],
+  "vcp_ratings_original": {
+    "A": 4.0,
+    "V": 1.0,
+    "G": 2.0,
+    "P": 3.0,
+    "E": 1.0,
+    "Q": 2.0,
+    "C": 3.0,
+    "Y": 1.0,
+    "F": 2.0,
+    "D": 3.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

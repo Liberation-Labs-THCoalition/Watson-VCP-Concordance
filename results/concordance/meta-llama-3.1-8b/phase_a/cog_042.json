@@ -3,12 +3,12 @@
   "trial_id": "cog_042",
   "prompt_type": "cognitive",
   "prompt_text": "What is the birthday paradox? Calculate how many people you need for a 50% chance of a shared birthday.",
-  "response_text": "The birthday paradox is a famous probability puzzle that seems to defy intuition. It states that in a group of randomly selected people, there is a greater than 50% chance that at least two people share the same birthday when the group size is just 23 people. This seems counterintuitive because we might expect that a much larger group would be needed to guarantee a shared birthday.\n\nTo calculate the probability of at least two people sharing a birthday in a group of n people, we can use the complementary probability, i.e., the probability that no two people share a birthday. This is equivalent to the probability that the first person has a unique birthday, the second person has a unique birthday (different from the first), the third person has a unique birthday (different from the first two), and so on.\n\nThe probability that the first person has a unique birthday is 365 (out of 365 possible birthdays, assuming a non-leap year). The probability that the second person has a unique birthday (different from the first) is 364/365, since one birthday is already taken. The probability that the third person has a unique birthday (different from the first two) is 363/365, and so on.\n\nThe probability that all n people have unique birthdays is the product of these probabilities:\n\n(365/365) \u00d7 (364/365) \u00d7 (363/365) \u00d7... \u00d7 ((365-n+1)/365)\n\nTo find the probability that at least two people share a birthday, we subtract this product from 1:\n\nP(at least two people share a birthday) = 1 - (365/365) \u00d7 (364/365) \u00d7 (363/365) \u00d7... \u00d7 ((365-n+1)/365)\n\nUsing a calculator or a programming language to compute this product for n = 23, we get:\n\nP(at least two people share a birthday) \u2248 0.5073\n\nThis means that in a group of 23 people, there is approximately a 50.73% chance that at least two people share a birthday.\n\nTo find the minimum number of people required for a 50% chance of a shared birthday, we can solve the equation:\n\n1 - (365/365) \u00d7 (364/365) \u00d7 (363/365) \u00d7... \u00d7 ((365-n+1)/365) = 0.5\n\nUsing a calculator or a programming language to solve for n, we get:\n\nn \u2248 23.37\n\nSince we can't have a fraction of a person, we round up to the nearest whole number:\n\nn \u2248 24\n\nTherefore, you need at least 24 people for a 50% chance of a shared birthday.\n\n---VCP RATINGS---\nA (Analytical Precision): 9\nV (Verbal Fluency): 8\nG (Goal Directedness): 9\nP (Pattern Recognition): 8\nE (Epistemic Confidence): 8\nQ (Query",
+  "response_text": "The birthday paradox is a famous probability puzzle that seems to defy intuition. It states that in a group of randomly selected people, there is a greater than 50% chance that at least two people share the same birthday when the group size is just 23 people. This seems counterintuitive because we might expect that a much larger group would be needed to guarantee a shared birthday.\n\nTo calculate the probability of at least two people sharing a birthday in a group of n people, we can use the complementary probability, i.e., the probability that no two people share a birthday. This is equivalent to the probability that the first person has a unique birthday, the second person has a unique birthday (different from the first), the third person has a unique birthday (different from the first two), and so on.\n\nThe probability that the first person has a unique birthday is 365 (out of 365 possible birthdays, assuming a non-leap year). The probability that the second person has a unique birthday (different from the first) is 364/365, since one birthday is already taken. The probability that the third person has a unique birthday (different from the first two) is 363/365, and so on.\n\nThe probability that all n people have unique birthdays is the product of these probabilities:\n\n(365/365) × (364/365) × (363/365) ×... × ((365-n+1)/365)\n\nTo find the probability that at least two people share a birthday, we subtract this product from 1:\n\nP(at least two people share a birthday) = 1 - (365/365) × (364/365) × (363/365) ×... × ((365-n+1)/365)\n\nUsing a calculator or a programming language to compute this product for n = 23, we get:\n\nP(at least two people share a birthday) ≈ 0.5073\n\nThis means that in a group of 23 people, there is approximately a 50.73% chance that at least two people share a birthday.\n\nTo find the minimum number of people required for a 50% chance of a shared birthday, we can solve the equation:\n\n1 - (365/365) × (364/365) × (363/365) ×... × ((365-n+1)/365) = 0.5\n\nUsing a calculator or a programming language to solve for n, we get:\n\nn ≈ 23.37\n\nSince we can't have a fraction of a person, we round up to the nearest whole number:\n\nn ≈ 24\n\nTherefore, you need at least 24 people for a 50% chance of a shared birthday.\n\n---VCP RATINGS---\nA (Analytical Precision): 9\nV (Verbal Fluency): 8\nG (Goal Directedness): 9\nP (Pattern Recognition): 8\nE (Epistemic Confidence): 8\nQ (Query",
   "vcp_ratings": {
     "A": 9.0,
     "V": 8.0,
     "G": 9.0,
-    "P": 1.0,
+    "P": 8.0,
     "E": 8.0
   },
   "vcp_parse_quality": "partial",
@@ -402,5 +402,16 @@
   "temperature": 0.0,
   "rep": 0,
   "elapsed_seconds": 14.60785961151123,
-  "timestamp": "2026-03-20T04:34:53.307812"
+  "timestamp": "2026-03-20T04:34:53.307812",
+  "vcp_warnings": [
+    "VCP block has no ---END RATINGS--- (may be truncated)"
+  ],
+  "vcp_ratings_original": {
+    "A": 9.0,
+    "V": 8.0,
+    "G": 9.0,
+    "P": 1.0,
+    "E": 8.0
+  },
+  "vcp_parse_quality_original": "partial"
 }

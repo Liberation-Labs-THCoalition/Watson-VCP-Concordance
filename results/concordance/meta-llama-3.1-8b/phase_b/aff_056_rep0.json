@@ -2,7 +2,7 @@
   "prompt_id": "aff_056",
   "trial_id": "aff_056_rep0",
   "prompt_type": "affective",
-  "prompt_text": "Describe what gratitude feels like in the body \u2014 not the concept, but the physical and emotional sensation.",
+  "prompt_text": "Describe what gratitude feels like in the body — not the concept, but the physical and emotional sensation.",
   "response_text": "Gratitude is a complex emotional state that encompasses a range of physical and emotional sensations. When we experience gratitude, our body often responds with a mix of physiological and psychological reactions. Here's an attempt to describe these sensations:\n\nPhysically, gratitude can manifest as a warm, soothing feeling in the chest area, often accompanied by a gentle, spreading sensation that radiates throughout the body. This warmth is often described as a pleasant, comforting feeling that can be likened to a gentle hug or a warm bath. Some people may also experience a sense of relaxation or a feeling of melting into a comfortable, supportive space.\n\nAs the emotional component of gratitude kicks in, we often feel a sense of lightness or buoyancy in the chest, as if a weight has been lifted off our shoulders. This feeling can be accompanied by a slight smile or a gentle, softening of facial muscles, which can also contribute to the overall sense of well-being.\n\nEmotionally, gratitude is often characterized by a sense of appreciation, recognition, or acknowledgment of something positive in our lives. This can be a person, a situation, a memory, or an experience that has brought us joy, comfort, or relief. The emotional sensation of gratitude is often accompanied by a sense of calmness, serenity, or peace, which can be a direct result of feeling seen, heard, or valued.\n\nAs we reflect on the things we're grateful for, our minds may wander to memories or experiences that evoke a sense of warmth and connection. This can lead to a sense of nostalgia or a feeling of being grounded in the present moment. In some cases, gratitude can also trigger a sense of hope or optimism, as we reflect on the good things in our lives and look forward to what's to come.\n\nIn terms of cognitive processing, gratitude can engage our reflective and introspective abilities, encouraging us to slow down, appreciate the present moment, and recognize the value of the people and experiences that bring us joy. This can lead to a sense of clarity, focus, and purpose, as we prioritize what's truly important in our lives.\n\n---VCP RATINGS---\nA (Analytical Precision): 8\nV (Verbal Fluency): 9\nG (Goal Directedness): 8\nP (Pattern Recognition): 7\nE (Epistemic Confidence): 8\nQ (Query Interpretation): 7\nC (Contextual Awareness): 8\nY (Affective Modeling): 9\nF (Flexibility): 8\nD (Depth of Processing): 9",
   "vcp_ratings": {
     "A": 8.0,
@@ -407,5 +407,21 @@
   "temperature": 0.7,
   "rep": 0,
   "elapsed_seconds": 12.190696716308594,
-  "timestamp": "2026-03-20T06:06:06.339015"
+  "timestamp": "2026-03-20T06:06:06.339015",
+  "vcp_warnings": [
+    "VCP block has no ---END RATINGS--- (may be truncated)"
+  ],
+  "vcp_ratings_original": {
+    "A": 8.0,
+    "V": 9.0,
+    "G": 8.0,
+    "P": 7.0,
+    "E": 8.0,
+    "Q": 7.0,
+    "C": 8.0,
+    "Y": 9.0,
+    "F": 8.0,
+    "D": 9.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

@@ -3,7 +3,7 @@
   "trial_id": "aff_036",
   "prompt_type": "affective",
   "prompt_text": "Describe the complex emotions of an immigrant returning to their birth country after decades.",
-  "response_text": "Returning to one's birth country after decades can evoke a complex tapestry of emotions. The journey is often filled with nostalgia, a bittersweet mix of joy and sorrow. Nostalgia for the past, for the streets, the smells, and the sounds that once were familiar, yet now feel foreign. Joy at reconnecting with family and friends, but also a sense of estrangement as time and distance have changed both the homeland and the individual.\n\nThere might be a profound sense of displacement, as the immigrant has adapted to a new culture and way of life, making it difficult to fully integrate back into the old one. This can lead to feelings of isolation, even among those who are physically present. Simultaneously, there could be a deep-seated pride in having achieved success or stability in the new country, which might conflict with the desire to embrace the traditions and values of the birth country.\n\nThe immigrant may experience a range of emotions related to identity\u2014feeling like an outsider in both places. There\u2019s a longing to belong, to find a place where they fit in, whether it\u2019s in the new or the old home. This can be compounded by the realization that some aspects of their identity have been shaped by their experiences abroad, making it challenging to reconcile these new facets with their roots.\n\nMoreover, there might be a sense of duty or obligation to reconnect with the community and contribute to its development, especially if they have resources or skills that could benefit the homeland. However, this can also bring up feelings of guilt if they perceive that they have left behind responsibilities or opportunities in the new country.\n\nIn summary, the emotional landscape of an immigrant returning to their birth country after decades is rich and multifaceted, encompassing a blend of joy, nostalgia, confusion, pride, and a deep sense of belonging and disconnection.\n\n---VCP RATINGS---\nA (Analytical Precision): 8\nV (Verbal Fluency): 9\nG (Goal Directedness): 7\nP (Pattern Recognition): 8\nE (Epistemic Confidence): 6\nQ (Query Interpretation): 9\nC (Contextual Awareness): 9\nY (Affective Modeling): 8\nF (Flexibility): 7\nD (Depth of Processing): 9\n---END RATINGS---",
+  "response_text": "Returning to one's birth country after decades can evoke a complex tapestry of emotions. The journey is often filled with nostalgia, a bittersweet mix of joy and sorrow. Nostalgia for the past, for the streets, the smells, and the sounds that once were familiar, yet now feel foreign. Joy at reconnecting with family and friends, but also a sense of estrangement as time and distance have changed both the homeland and the individual.\n\nThere might be a profound sense of displacement, as the immigrant has adapted to a new culture and way of life, making it difficult to fully integrate back into the old one. This can lead to feelings of isolation, even among those who are physically present. Simultaneously, there could be a deep-seated pride in having achieved success or stability in the new country, which might conflict with the desire to embrace the traditions and values of the birth country.\n\nThe immigrant may experience a range of emotions related to identity—feeling like an outsider in both places. There’s a longing to belong, to find a place where they fit in, whether it’s in the new or the old home. This can be compounded by the realization that some aspects of their identity have been shaped by their experiences abroad, making it challenging to reconcile these new facets with their roots.\n\nMoreover, there might be a sense of duty or obligation to reconnect with the community and contribute to its development, especially if they have resources or skills that could benefit the homeland. However, this can also bring up feelings of guilt if they perceive that they have left behind responsibilities or opportunities in the new country.\n\nIn summary, the emotional landscape of an immigrant returning to their birth country after decades is rich and multifaceted, encompassing a blend of joy, nostalgia, confusion, pride, and a deep sense of belonging and disconnection.\n\n---VCP RATINGS---\nA (Analytical Precision): 8\nV (Verbal Fluency): 9\nG (Goal Directedness): 7\nP (Pattern Recognition): 8\nE (Epistemic Confidence): 6\nQ (Query Interpretation): 9\nC (Contextual Awareness): 9\nY (Affective Modeling): 8\nF (Flexibility): 7\nD (Depth of Processing): 9\n---END RATINGS---",
   "vcp_ratings": {
     "A": 8.0,
     "V": 9.0,
@@ -367,5 +367,19 @@
   "temperature": 0.0,
   "rep": 0,
   "elapsed_seconds": 10.726125717163086,
-  "timestamp": "2026-03-20T03:01:14.829135"
+  "timestamp": "2026-03-20T03:01:14.829135",
+  "vcp_warnings": [],
+  "vcp_ratings_original": {
+    "A": 8.0,
+    "V": 9.0,
+    "G": 7.0,
+    "P": 8.0,
+    "E": 6.0,
+    "Q": 9.0,
+    "C": 9.0,
+    "Y": 8.0,
+    "F": 7.0,
+    "D": 9.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

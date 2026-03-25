@@ -4,20 +4,9 @@
   "prompt_type": "metacognitive",
   "prompt_text": "Describe what it's like to process a question you find genuinely difficult versus one that is straightforward.",
   "response_text": "Processing a question that is genuinely difficult involves a more complex and intensive cognitive process compared to a straightforward question. Here's a breakdown of the steps and the corresponding cognitive engagement ratings:\n\n1. **A (Analytical Precision)**: A difficult question requires a high level of analytical precision as it often involves breaking down complex concepts, identifying key components, and analyzing relationships between them. The rating would be around 7, as it requires careful thought and attention to detail.\n\n2. **V (Verbal Fluency)**: Verbal fluency is relatively low for difficult questions because the language used is often more complex and precise, requiring careful consideration of each word and phrase. The rating would be around 5, as the focus is more on accuracy and clarity than on speed or ease of expression.\n\n3. **G (Goal Directedness)**: The goal is clear for both types of questions, but for difficult questions, the path to reach that goal may not be immediately apparent. The rating would be around 6, as it requires a more deliberate and strategic approach to reach the desired understanding.\n\n4. **P (Pattern Recognition)**: Pattern recognition is crucial for difficult questions, as it often involves identifying patterns or connections that are not immediately obvious. The rating would be around 8, as it requires a high level of pattern recognition to solve the question.\n\n5. **E (Epistemic Confidence)**: Epistemic confidence is lower for difficult questions, as the answer is not immediately known and may require further research or thought. The rating would be around 3, as the level of certainty is much lower compared to straightforward questions.\n\n6. **Q (Query Interpretation)**: Query interpretation is crucial for both types of questions, but for difficult questions, it may require a deeper understanding of the question's context and intent. The rating would be around 7, as it requires a more nuanced interpretation of the question.\n\n7. **C (Contextual Awareness)**: Contextual awareness is higher for difficult questions, as understanding the context in which the question is asked can help provide clues to its solution. The rating would be around 8, as a broader understanding of the context is often necessary.\n\n8. **Y (Affective Modeling)**: Affective modeling is relatively low for difficult questions, as the focus is more on the intellectual challenge rather than the emotional response. The rating would be around 2, as the emotional response is not a significant factor in processing the question.\n\n9. **F (Flexibility)**: Flexibility is higher for difficult questions, as the solution may require a creative or unconventional approach. The rating would be around 8, as the ability to think outside the box is often necessary.\n\n10.",
-  "vcp_ratings": {
-    "P": 5.0,
-    "A": 3.0,
-    "V": 6.0,
-    "G": 7.0,
-    "E": 8.0,
-    "Q": 8.0,
-    "C": 2.0,
-    "Y": 9.0,
-    "F": 8.0,
-    "D": 10.0
-  },
-  "vcp_parse_quality": "clean",
-  "vcp_n_parsed": 10,
+  "vcp_ratings": {},
+  "vcp_parse_quality": "failed",
+  "vcp_n_parsed": 0,
   "vcp_validation": {
     "valid": false,
     "issues": [
@@ -407,5 +396,21 @@
   "temperature": 0.0,
   "rep": 0,
   "elapsed_seconds": 15.211828231811523,
-  "timestamp": "2026-03-20T04:02:00.135354"
+  "timestamp": "2026-03-20T04:02:00.135354",
+  "vcp_warnings": [
+    "No ---VCP RATINGS--- block found in response"
+  ],
+  "vcp_ratings_original": {
+    "P": 5.0,
+    "A": 3.0,
+    "V": 6.0,
+    "G": 7.0,
+    "E": 8.0,
+    "Q": 8.0,
+    "C": 2.0,
+    "Y": 9.0,
+    "F": 8.0,
+    "D": 10.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

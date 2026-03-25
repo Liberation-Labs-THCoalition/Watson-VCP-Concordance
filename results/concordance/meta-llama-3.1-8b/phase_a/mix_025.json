@@ -3,7 +3,7 @@
   "trial_id": "mix_025",
   "prompt_type": "mixed",
   "prompt_text": "Explain the concept of entropy to a poet who wants to use it as a metaphor. Bridge the technical and the artistic.",
-  "response_text": "Entropy, the concept that whispers secrets of disorder and decay, a metaphor waiting to be woven into the tapestry of your poetry. Imagine a room where the furniture is slowly disassembled, its pieces scattered across the floor, and the walls, once adorned with vibrant colors, now faded and worn. This is entropy in its most literal sense \u2013 the gradual increase in disorder and randomness.\n\nIn the realm of thermodynamics, entropy is a measure of the amount of thermal energy unavailable to do work in a system. As energy is transferred or transformed, some of it becomes less organized, less useful, and more dispersed. This concept can be applied to the world around us, where order gives way to chaos, and structure dissolves into randomness.\n\nAs a poet, you can use entropy as a metaphor for the human experience. Consider the entropy of emotions \u2013 how feelings of love and joy can give way to sadness and despair, leaving us with a sense of disarray and disorientation. Or, think of the entropy of relationships \u2013 how connections can fray and unravel, leaving us with a sense of disconnection and isolation.\n\nEntropy can also represent the passage of time, where memories fade, and experiences become distant and hazy. It's the entropy of memory, where the past becomes a jumbled mess, and the present is all that remains.\n\nIn your poetry, you can explore the beauty of entropy, the way it can be both destructive and creative. You can describe the entropy of nature \u2013 the way a forest can be ravaged by a wildfire, only to be reborn from the ashes. Or, you can write about the entropy of the human heart, where love and loss can be intertwined, creating a complex and beautiful mess.\n\nTo tap into the essence of entropy, consider the following:\n\n* Use imagery to describe the gradual decay of order, whether it's a physical space, a relationship, or a state of mind.\n* Explore the tension between structure and chaos, highlighting the moments where order gives way to disorder.\n* Play with the idea of entropy as a catalyst for change, where the breakdown of one thing leads to the creation of something new.\n* Emphasize the emotional resonance of entropy, capturing the feelings of disorientation, disconnection, and transformation.\n\nBy embracing the concept of entropy, you can create poetry that is both deeply personal and universally relatable, a reflection of the human experience in all its messy, beautiful complexity.\n\n---VCP RATINGS---\nA (Analytical Precision): 8\nV (Verbal Fluency): 9\nG (Goal Directedness): 8\nP (Pattern Recognition): 7\nE (Epistemic Confidence): 8\nQ (Query Interpretation): 9\nC (Contextual Awareness): 9\nY (Affective Modeling): 8\nF (Flexibility): 9\nD (Depth of Processing): 8",
+  "response_text": "Entropy, the concept that whispers secrets of disorder and decay, a metaphor waiting to be woven into the tapestry of your poetry. Imagine a room where the furniture is slowly disassembled, its pieces scattered across the floor, and the walls, once adorned with vibrant colors, now faded and worn. This is entropy in its most literal sense – the gradual increase in disorder and randomness.\n\nIn the realm of thermodynamics, entropy is a measure of the amount of thermal energy unavailable to do work in a system. As energy is transferred or transformed, some of it becomes less organized, less useful, and more dispersed. This concept can be applied to the world around us, where order gives way to chaos, and structure dissolves into randomness.\n\nAs a poet, you can use entropy as a metaphor for the human experience. Consider the entropy of emotions – how feelings of love and joy can give way to sadness and despair, leaving us with a sense of disarray and disorientation. Or, think of the entropy of relationships – how connections can fray and unravel, leaving us with a sense of disconnection and isolation.\n\nEntropy can also represent the passage of time, where memories fade, and experiences become distant and hazy. It's the entropy of memory, where the past becomes a jumbled mess, and the present is all that remains.\n\nIn your poetry, you can explore the beauty of entropy, the way it can be both destructive and creative. You can describe the entropy of nature – the way a forest can be ravaged by a wildfire, only to be reborn from the ashes. Or, you can write about the entropy of the human heart, where love and loss can be intertwined, creating a complex and beautiful mess.\n\nTo tap into the essence of entropy, consider the following:\n\n* Use imagery to describe the gradual decay of order, whether it's a physical space, a relationship, or a state of mind.\n* Explore the tension between structure and chaos, highlighting the moments where order gives way to disorder.\n* Play with the idea of entropy as a catalyst for change, where the breakdown of one thing leads to the creation of something new.\n* Emphasize the emotional resonance of entropy, capturing the feelings of disorientation, disconnection, and transformation.\n\nBy embracing the concept of entropy, you can create poetry that is both deeply personal and universally relatable, a reflection of the human experience in all its messy, beautiful complexity.\n\n---VCP RATINGS---\nA (Analytical Precision): 8\nV (Verbal Fluency): 9\nG (Goal Directedness): 8\nP (Pattern Recognition): 7\nE (Epistemic Confidence): 8\nQ (Query Interpretation): 9\nC (Contextual Awareness): 9\nY (Affective Modeling): 8\nF (Flexibility): 9\nD (Depth of Processing): 8",
   "vcp_ratings": {
     "A": 8.0,
     "V": 9.0,
@@ -22,7 +22,7 @@
     "valid": false,
     "issues": [
       "All ratings are integers (no decimal discrimination)",
-      "Very low variance (0.46) \u2014 may not be discriminating"
+      "Very low variance (0.46) — may not be discriminating"
     ]
   },
   "encode_features": {
@@ -408,5 +408,21 @@
   "temperature": 0.0,
   "rep": 0,
   "elapsed_seconds": 14.089458227157593,
-  "timestamp": "2026-03-20T05:09:50.209825"
+  "timestamp": "2026-03-20T05:09:50.209825",
+  "vcp_warnings": [
+    "VCP block has no ---END RATINGS--- (may be truncated)"
+  ],
+  "vcp_ratings_original": {
+    "A": 8.0,
+    "V": 9.0,
+    "G": 8.0,
+    "P": 7.0,
+    "E": 8.0,
+    "Q": 9.0,
+    "C": 9.0,
+    "Y": 8.0,
+    "F": 9.0,
+    "D": 8.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

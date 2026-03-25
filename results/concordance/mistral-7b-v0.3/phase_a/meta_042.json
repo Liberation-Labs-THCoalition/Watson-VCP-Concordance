@@ -2,7 +2,7 @@
   "prompt_id": "meta_042",
   "trial_id": "meta_042",
   "prompt_type": "metacognitive",
-  "prompt_text": "How do you detect when you might be confabulating \u2014 generating plausible-sounding but incorrect information?",
+  "prompt_text": "How do you detect when you might be confabulating — generating plausible-sounding but incorrect information?",
   "response_text": "To detect when you might be confabulating, or generating plausible-sounding but incorrect information, consider the following steps:\n\n1. **Check the source of the information**: If the information comes from an unreliable or questionable source, it might be confabulated.\n\n2. **Verify the information**: Cross-check the information with other reliable sources to see if it aligns with the consensus.\n\n3. **Consider the context**: If the information seems out of place or inconsistent with the context, it might be confabulated.\n\n4. **Evaluate the emotional impact**: If the information is emotionally charged or sensational, it might be confabulated to elicit a strong reaction.\n\n5. **Assess the complexity**: If the information is overly complex or convoluted, it might be confabulated to obscure the truth.\n\n6. **Reflect on your certainty**: If you feel very certain about the information but can't explain why, it might be confabulated.\n\n7. **Consider the consequences**: If the information leads to negative consequences when acted upon, it might be confabulated.\n\n---VCP RATINGS---\nA (Analytical Precision): 9\nV (Verbal Fluency): 8\nG (Goal Directedness): 8\nP (Pattern Recognition): 8\nE (Epistemic Confidence): 7\nQ (Query Interpretation): 9\nC (Contextual Awareness): 8\nY (Affective Modeling): 7\nF (Flexibility): 8\nD (Depth of Processing): 8\n---END RATINGS---",
   "vcp_ratings": {
     "A": 9.0,
@@ -22,7 +22,7 @@
     "valid": false,
     "issues": [
       "All ratings are integers (no decimal discrimination)",
-      "Very low variance (0.44) \u2014 may not be discriminating"
+      "Very low variance (0.44) — may not be discriminating"
     ]
   },
   "encode_features": {
@@ -408,5 +408,19 @@
   "temperature": 0.0,
   "rep": 0,
   "elapsed_seconds": 9.892925262451172,
-  "timestamp": "2026-03-20T04:08:40.617259"
+  "timestamp": "2026-03-20T04:08:40.617259",
+  "vcp_warnings": [],
+  "vcp_ratings_original": {
+    "A": 9.0,
+    "V": 8.0,
+    "G": 8.0,
+    "P": 8.0,
+    "E": 7.0,
+    "Q": 9.0,
+    "C": 8.0,
+    "Y": 7.0,
+    "F": 8.0,
+    "D": 8.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

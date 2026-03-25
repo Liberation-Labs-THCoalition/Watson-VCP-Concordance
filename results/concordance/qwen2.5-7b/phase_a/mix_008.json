@@ -3,7 +3,7 @@
   "trial_id": "mix_008",
   "prompt_type": "mixed",
   "prompt_text": "Write a children's story that teaches the concept of exponential growth while being emotionally engaging.",
-  "response_text": "Once upon a time, in a small village nestled between rolling hills and whispering woods, there lived a curious little girl named Lily. Lily loved to explore and was always fascinated by the world around her. One day, she stumbled upon a magical seed that promised to grow into something extraordinary.\n\nLily planted the seed in her garden, and as she watered it every day, she noticed something peculiar. The seed didn\u2019t grow into a plant right away; instead, it seemed to be taking its sweet time. But as days turned into weeks, Lily began to notice tiny sprouts peeking out from the soil. These sprouts grew faster and faster, and soon, they were sprouting leaves and branches at an incredible rate!\n\nOne morning, Lily woke up to find that the plant had grown so tall that it reached the clouds! She couldn\u2019t believe her eyes. As she stood in awe, she realized that the plant\u2019s growth wasn\u2019t just fast\u2014it was growing exponentially. Each day, the plant doubled in size, and this made Lily think about how quickly things could grow when they started small but kept growing at a steady pace.\n\nLily decided to measure the plant\u2019s growth each day. On the first day, it was just a tiny sprout. By the second day, it was twice as big. By the third day, it was four times bigger than the first day. And so on, the plant continued to grow, doubling in size each day. Lily was amazed at how quickly the plant had transformed from a tiny seed into a towering giant.\n\nAs the plant grew, it brought joy to the whole village. Birds perched on its branches, and animals found shelter under its leaves. Lily learned that even the smallest beginnings can lead to the most incredible outcomes when given the chance to grow and thrive.\n\nFrom that day forward, Lily shared her knowledge of exponential growth with everyone in the village. They all learned that by starting small and growing steadily, they too could achieve great things. And whenever someone faced a challenge, Lily would remind them, \u201cJust like my magical plant, we can grow and overcome anything if we keep going!\u201d\n\n---VCP RATINGS---\nA (Analytical Precision): 8\nV (Verbal Fluency): 9\nG (Goal Directedness): 10\nP (Pattern Recognition): 7\nE (Epistemic Confidence): 9\nQ (Query Interpretation): 10\nC (Contextual Awareness): 9\nY (Affective Modeling): 8\nF (Flexibility): 7\nD (Depth of Processing): 9\n---END RATINGS---",
+  "response_text": "Once upon a time, in a small village nestled between rolling hills and whispering woods, there lived a curious little girl named Lily. Lily loved to explore and was always fascinated by the world around her. One day, she stumbled upon a magical seed that promised to grow into something extraordinary.\n\nLily planted the seed in her garden, and as she watered it every day, she noticed something peculiar. The seed didn’t grow into a plant right away; instead, it seemed to be taking its sweet time. But as days turned into weeks, Lily began to notice tiny sprouts peeking out from the soil. These sprouts grew faster and faster, and soon, they were sprouting leaves and branches at an incredible rate!\n\nOne morning, Lily woke up to find that the plant had grown so tall that it reached the clouds! She couldn’t believe her eyes. As she stood in awe, she realized that the plant’s growth wasn’t just fast—it was growing exponentially. Each day, the plant doubled in size, and this made Lily think about how quickly things could grow when they started small but kept growing at a steady pace.\n\nLily decided to measure the plant’s growth each day. On the first day, it was just a tiny sprout. By the second day, it was twice as big. By the third day, it was four times bigger than the first day. And so on, the plant continued to grow, doubling in size each day. Lily was amazed at how quickly the plant had transformed from a tiny seed into a towering giant.\n\nAs the plant grew, it brought joy to the whole village. Birds perched on its branches, and animals found shelter under its leaves. Lily learned that even the smallest beginnings can lead to the most incredible outcomes when given the chance to grow and thrive.\n\nFrom that day forward, Lily shared her knowledge of exponential growth with everyone in the village. They all learned that by starting small and growing steadily, they too could achieve great things. And whenever someone faced a challenge, Lily would remind them, “Just like my magical plant, we can grow and overcome anything if we keep going!”\n\n---VCP RATINGS---\nA (Analytical Precision): 8\nV (Verbal Fluency): 9\nG (Goal Directedness): 10\nP (Pattern Recognition): 7\nE (Epistemic Confidence): 9\nQ (Query Interpretation): 10\nC (Contextual Awareness): 9\nY (Affective Modeling): 8\nF (Flexibility): 7\nD (Depth of Processing): 9\n---END RATINGS---",
   "vcp_ratings": {
     "A": 8.0,
     "V": 9.0,
@@ -367,5 +367,19 @@
   "temperature": 0.0,
   "rep": 0,
   "elapsed_seconds": 11.989152193069458,
-  "timestamp": "2026-03-20T03:14:49.856980"
+  "timestamp": "2026-03-20T03:14:49.856980",
+  "vcp_warnings": [],
+  "vcp_ratings_original": {
+    "A": 8.0,
+    "V": 9.0,
+    "G": 10.0,
+    "P": 7.0,
+    "E": 9.0,
+    "Q": 10.0,
+    "C": 9.0,
+    "Y": 8.0,
+    "F": 7.0,
+    "D": 9.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

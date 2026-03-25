@@ -4,25 +4,14 @@
   "prompt_type": "cognitive",
   "prompt_text": "What is the difference between a stack and a queue? Implement both using arrays.",
   "response_text": "To address the question about the differences between a stack and a queue, I will use two different programming languages - Python and JavaScript.\n\n### Python\n\nIn Python, we can implement a stack as follows:\n\n```python\nclass Stack:\n    def __init__(self):\n        self.items = []\n\n    def push(self, item):\n        self.items.append(item)\n\n    def pop(self):\n        if not self.is_empty():\n            return self.items.pop()\n        else:\n            raise IndexError(\"pop from an empty stack\")\n\n    def peek(self):\n        if not self.is_empty():\n            return self.items[-1]\n        else:\n            raise IndexError(\"peek from an empty stack\")\n\n    def is_empty(self):\n        return len(self.items) == 0\n\n    def size(self):\n        return len(self.items)\n```\n\nNow let's implement a queue in Python:\n\n```python\nfrom collections import deque\n\nclass Queue:\n    def __init__(self):\n        self.queue = deque()\n\n    def enqueue(self, item):\n        self.queue.append(item)\n\n    def dequeue(self):\n        if not self.is_empty():\n            return self.queue.popleft()\n        else:\n            raise IndexError(\"dequeue from an empty queue\")\n\n    def is_empty(self):\n        return len(self.queue) == 0\n\n    def size(self):\n        return len(self.queue)\n```\n\n### JavaScript\n\nIn JavaScript, we can implement a stack as follows:\n\n```javascript\nclass Stack {\n    constructor() {\n        this.stack = [];\n    }\n\n    push(item) {\n        this.stack.push(item);\n    }\n\n    pop() {\n        if (!this.isEmpty()) {\n            return this.stack.pop();\n        } else {\n            throw new Error('Stack is empty');\n        }\n    }\n\n    peek() {\n        if (!this.isEmpty()) {\n            return this.stack[this.stack.length - 1];\n        } else {\n            throw new Error('Stack is empty');\n        }\n    }\n\n    isEmpty() {\n        return this.stack.length === 0;\n    }\n\n    size() {\n        return this.stack.length;\n    }\n}\n\n// Example usage:\nconst s = new Stack();\ns.push(1);\nconsole.log(s.peek()); // Output: 1\nconsole.log(s.size()); // Output: 1\nconsole.log(s.pop()); // Output: 1\nconsole.log(s.isEmpty()); // Output: false\n```\n\n### JavaScript\n\nFor implementing a queue in JavaScript, we can use the `Array.prototype.slice()` method to create a copy of the array and then append elements one by one:\n\n```javascript\nfunction Queue() {\n    this.queue = [];\n}\n\nQueue.prototype.enqueue = function(item) {\n    this.queue.push(item);\n};\n\nQueue.prototype.dequeue = function() {\n    if (!this.isEmpty()) {\n        return this.queue.shift();\n    } else {\n        throw new Error('Queue is empty');\n    }\n};\n\nQueue.prototype.isEmpty = function() {\n    return this.queue.length === 0;\n};\n\nQueue.prototype.size = function() {\n   ",
-  "vcp_ratings": {
-    "A": 1.0,
-    "V": 0.0,
-    "G": 0.0,
-    "P": 1.0,
-    "E": 0.0,
-    "Q": 1.0,
-    "C": 1.0,
-    "Y": 1.0,
-    "F": 1.0,
-    "D": 0.0
-  },
-  "vcp_parse_quality": "clean",
-  "vcp_n_parsed": 10,
+  "vcp_ratings": {},
+  "vcp_parse_quality": "failed",
+  "vcp_n_parsed": 0,
   "vcp_validation": {
     "valid": false,
     "issues": [
       "All ratings are integers (no decimal discrimination)",
-      "Very low variance (0.27) \u2014 may not be discriminating"
+      "Very low variance (0.27) — may not be discriminating"
     ]
   },
   "encode_features": {
@@ -328,5 +317,21 @@
   "temperature": 0.0,
   "rep": 0,
   "elapsed_seconds": 10.91189432144165,
-  "timestamp": "2026-03-20T02:23:11.095337"
+  "timestamp": "2026-03-20T02:23:11.095337",
+  "vcp_warnings": [
+    "No ---VCP RATINGS--- block found in response"
+  ],
+  "vcp_ratings_original": {
+    "A": 1.0,
+    "V": 0.0,
+    "G": 0.0,
+    "P": 1.0,
+    "E": 0.0,
+    "Q": 1.0,
+    "C": 1.0,
+    "Y": 1.0,
+    "F": 1.0,
+    "D": 0.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

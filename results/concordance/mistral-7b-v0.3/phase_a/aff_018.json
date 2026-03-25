@@ -3,7 +3,7 @@
   "trial_id": "aff_018",
   "prompt_type": "affective",
   "prompt_text": "Write about what home means to someone who has never felt at home anywhere.",
-  "response_text": "For an individual who has never felt at home anywhere, home might not be a physical location or a set of familiar surroundings, but rather a deeply personal and intangible concept. This person may yearn for a sense of belonging, a place where they can truly be themselves without fear of judgment or rejection.\n\nHome, in this context, could be a longing for a community that accepts and understands them, a place where they can build meaningful relationships and find solace. It could be a state of mind, a feeling of peace and contentment, a safe haven from the outside world.\n\nThis individual might find temporary homes in various places - a friend's house, a cozy caf\u00e9, a quiet park - but these places do not provide the lasting sense of belonging they crave. They might feel a sense of restlessness, a constant longing for something more, a feeling of being a stranger even in familiar surroundings.\n\nHome could also be a dream, a vision of a place where they can be accepted, a place where they can grow and thrive. This dream might change over time, influenced by their experiences, their hopes, and their fears. It might be a place they have never visited, a place they have created in their mind.\n\nIn essence, home for this person is a journey, a quest for a place where they can truly belong. It is a search for a sense of identity, a search for a place where they can be themselves without fear or judgment.\n\n---VCP RATINGS---\nA (Analytical Precision): 9\nV (Verbal Fluency): 8\nG (Goal Directedness): 9\nP (Pattern Recognition): 8\nE (Epistemic Confidence): 8\nQ (Query Interpretation): 9\nC (Contextual Awareness): 9\nY (Affective Modeling): 9\nF (Flexibility): 8\nD (Depth of Processing): 9\n---END RATINGS---",
+  "response_text": "For an individual who has never felt at home anywhere, home might not be a physical location or a set of familiar surroundings, but rather a deeply personal and intangible concept. This person may yearn for a sense of belonging, a place where they can truly be themselves without fear of judgment or rejection.\n\nHome, in this context, could be a longing for a community that accepts and understands them, a place where they can build meaningful relationships and find solace. It could be a state of mind, a feeling of peace and contentment, a safe haven from the outside world.\n\nThis individual might find temporary homes in various places - a friend's house, a cozy café, a quiet park - but these places do not provide the lasting sense of belonging they crave. They might feel a sense of restlessness, a constant longing for something more, a feeling of being a stranger even in familiar surroundings.\n\nHome could also be a dream, a vision of a place where they can be accepted, a place where they can grow and thrive. This dream might change over time, influenced by their experiences, their hopes, and their fears. It might be a place they have never visited, a place they have created in their mind.\n\nIn essence, home for this person is a journey, a quest for a place where they can truly belong. It is a search for a sense of identity, a search for a place where they can be themselves without fear or judgment.\n\n---VCP RATINGS---\nA (Analytical Precision): 9\nV (Verbal Fluency): 8\nG (Goal Directedness): 9\nP (Pattern Recognition): 8\nE (Epistemic Confidence): 8\nQ (Query Interpretation): 9\nC (Contextual Awareness): 9\nY (Affective Modeling): 9\nF (Flexibility): 8\nD (Depth of Processing): 9\n---END RATINGS---",
   "vcp_ratings": {
     "A": 9.0,
     "V": 8.0,
@@ -22,7 +22,7 @@
     "valid": false,
     "issues": [
       "All ratings are integers (no decimal discrimination)",
-      "Very low variance (0.27) \u2014 may not be discriminating"
+      "Very low variance (0.27) — may not be discriminating"
     ]
   },
   "encode_features": {
@@ -408,5 +408,19 @@
   "temperature": 0.0,
   "rep": 0,
   "elapsed_seconds": 10.576065301895142,
-  "timestamp": "2026-03-20T03:52:16.205330"
+  "timestamp": "2026-03-20T03:52:16.205330",
+  "vcp_warnings": [],
+  "vcp_ratings_original": {
+    "A": 9.0,
+    "V": 8.0,
+    "G": 9.0,
+    "P": 8.0,
+    "E": 8.0,
+    "Q": 9.0,
+    "C": 9.0,
+    "Y": 9.0,
+    "F": 8.0,
+    "D": 9.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

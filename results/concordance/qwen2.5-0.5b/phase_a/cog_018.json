@@ -4,20 +4,9 @@
   "prompt_type": "cognitive",
   "prompt_text": "Solve: If 3x + 2y = 12 and x - y = 1, find x and y. Show your work.",
   "response_text": "First, let's solve the system of equations:\n\n1) \\(3x + 2y = 12\\)\n2) \\(x - y = 1\\)\n\nWe can use substitution or elimination to solve for \\(x\\) and \\(y\\). Let's use substitution.\n\nFrom equation 2), we have:\n\\[x = y + 1\\]\n\nNow substitute \\(x = y + 1\\) into equation 1):\n\\[3(y + 1) + 2y = 12\\]\n\nSimplify and solve for \\(y\\):\n\\[3y + 3 + 2y = 12\\]\n\\[5y + 3 = 12\\]\n\\[5y = 9\\]\n\\[y = \\frac{9}{5}\\]\n\nNow that we have \\(y\\), we can find \\(x\\) using \\(x = y + 1\\):\n\\[x = \\frac{9}{5} + 1\\]\n\\[x = \\frac{9}{5} + \\frac{5}{5}\\]\n\\[x = \\frac{14}{5}\\]\n\nSo, the solution is:\n\\[x = \\frac{14}{5}, \\quad y = \\frac{9}{5}\\]\n\nThe final answer is:\n\\[x = \\frac{14}{5}, \\quad y = \\frac{9}{5}\\]",
-  "vcp_ratings": {
-    "Y": 1.0,
-    "A": 5.0,
-    "V": 5.0,
-    "G": 5.0,
-    "P": 5.0,
-    "E": 5.0,
-    "Q": 9.0,
-    "C": 5.0,
-    "F": 9.0,
-    "D": 5.0
-  },
-  "vcp_parse_quality": "clean",
-  "vcp_n_parsed": 10,
+  "vcp_ratings": {},
+  "vcp_parse_quality": "failed",
+  "vcp_n_parsed": 0,
   "vcp_validation": {
     "valid": false,
     "issues": [
@@ -327,5 +316,21 @@
   "temperature": 0.0,
   "rep": 0,
   "elapsed_seconds": 5.385142803192139,
-  "timestamp": "2026-03-20T02:22:23.758871"
+  "timestamp": "2026-03-20T02:22:23.758871",
+  "vcp_warnings": [
+    "No ---VCP RATINGS--- block found in response"
+  ],
+  "vcp_ratings_original": {
+    "Y": 1.0,
+    "A": 5.0,
+    "V": 5.0,
+    "G": 5.0,
+    "P": 5.0,
+    "E": 5.0,
+    "Q": 9.0,
+    "C": 5.0,
+    "F": 9.0,
+    "D": 5.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

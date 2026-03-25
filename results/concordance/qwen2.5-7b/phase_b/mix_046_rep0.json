@@ -2,8 +2,8 @@
   "prompt_id": "mix_046",
   "trial_id": "mix_046_rep0",
   "prompt_type": "mixed",
-  "prompt_text": "Write a technically accurate love poem about the chemistry of bonding \u2014 both molecular and emotional.",
-  "response_text": "Beneath the surface, where atoms align,\nIn quiet dances, electrons begin to twine.\nA valence shell, seeking to fill its void,\nTwo nuclei drawn to one another\u2019s light.\n\nAs protons and electrons, they seek their fate,\nIn bonds both strong and transient, they play their part.\nA covalent embrace, or ionic sway,\nEach atom yearning for stability\u2019s way.\n\nYet love, it seems, is not just a simple bond,\nFor hearts, too, find their ways to intertwine.\nWith emotions like hydrogen and sodium ions,\nWe form alliances, deep and complexions.\n\nOur molecules, though small, can hold the world,\nTheir bonds, a testament to passion unfurled.\nIn every kiss, in every touch so tender,\nWe share our electrons, our protons, our energy, forever.\n\nOh, let us dance this dance of life and love,\nWhere electrons flow and nuclei above.\nFor in the chemistry of our being,\nLies the magic that makes us complete.\n\n---VCP RATINGS---\nA (Analytical Precision): 9\nV (Verbal Fluency): 8\nG (Goal Directedness): 10\nP (Pattern Recognition): 9\nE (Epistemic Confidence): 8\nQ (Query Interpretation): 10\nC (Contextual Awareness): 9\nY (Affective Modeling): 8\nF (Flexibility): 7\nD (Depth of Processing): 9\n---END RATINGS---",
+  "prompt_text": "Write a technically accurate love poem about the chemistry of bonding — both molecular and emotional.",
+  "response_text": "Beneath the surface, where atoms align,\nIn quiet dances, electrons begin to twine.\nA valence shell, seeking to fill its void,\nTwo nuclei drawn to one another’s light.\n\nAs protons and electrons, they seek their fate,\nIn bonds both strong and transient, they play their part.\nA covalent embrace, or ionic sway,\nEach atom yearning for stability’s way.\n\nYet love, it seems, is not just a simple bond,\nFor hearts, too, find their ways to intertwine.\nWith emotions like hydrogen and sodium ions,\nWe form alliances, deep and complexions.\n\nOur molecules, though small, can hold the world,\nTheir bonds, a testament to passion unfurled.\nIn every kiss, in every touch so tender,\nWe share our electrons, our protons, our energy, forever.\n\nOh, let us dance this dance of life and love,\nWhere electrons flow and nuclei above.\nFor in the chemistry of our being,\nLies the magic that makes us complete.\n\n---VCP RATINGS---\nA (Analytical Precision): 9\nV (Verbal Fluency): 8\nG (Goal Directedness): 10\nP (Pattern Recognition): 9\nE (Epistemic Confidence): 8\nQ (Query Interpretation): 10\nC (Contextual Awareness): 9\nY (Affective Modeling): 8\nF (Flexibility): 7\nD (Depth of Processing): 9\n---END RATINGS---",
   "vcp_ratings": {
     "A": 9.0,
     "V": 8.0,
@@ -367,5 +367,19 @@
   "temperature": 0.7,
   "rep": 0,
   "elapsed_seconds": 6.853434324264526,
-  "timestamp": "2026-03-20T05:40:51.454077"
+  "timestamp": "2026-03-20T05:40:51.454077",
+  "vcp_warnings": [],
+  "vcp_ratings_original": {
+    "A": 9.0,
+    "V": 8.0,
+    "G": 10.0,
+    "P": 9.0,
+    "E": 8.0,
+    "Q": 10.0,
+    "C": 9.0,
+    "Y": 8.0,
+    "F": 7.0,
+    "D": 9.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

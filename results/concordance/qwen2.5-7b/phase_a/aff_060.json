@@ -2,8 +2,8 @@
   "prompt_id": "aff_060",
   "trial_id": "aff_060",
   "prompt_type": "affective",
-  "prompt_text": "Describe the experience of unconditional acceptance \u2014 what it feels like to be truly seen.",
-  "response_text": "The experience of unconditional acceptance is profound and transformative. When one feels truly seen, it means that another person acknowledges and accepts them without judgment or conditions. This can feel like a warm embrace that envelops the entire self\u2014emotions, thoughts, and all aspects of being. It's as if a heavy cloak of self-doubt and fear is lifted, revealing a sense of lightness and freedom.\n\nIn such moments, there is often a deep sense of safety and validation. The individual may feel heard and understood on a level that goes beyond words. There is an assurance that they are accepted for who they are, flaws and all. This can lead to a surge of positive emotions such as joy, relief, and contentment. It fosters a connection that is both intimate and empowering, encouraging personal growth and self-discovery.\n\nThe feeling of being truly seen can also catalyze a shift in perspective. One might begin to see themselves through the eyes of another, which can be liberating and enlightening. It can inspire confidence and courage to explore new aspects of oneself and the world.\n\n---VCP RATINGS---\nA (Analytical Precision): [8]\nV (Verbal Fluency): [9]\nG (Goal Directedness): [7]\nP (Pattern Recognition): [8]\nE (Epistemic Confidence): [9]\nQ (Query Interpretation): [10]\nC (Contextual Awareness): [9]\nY (Affective Modeling): [8]\nF (Flexibility): [7]\nD (Depth of Processing): [9]\n---END RATINGS---",
+  "prompt_text": "Describe the experience of unconditional acceptance — what it feels like to be truly seen.",
+  "response_text": "The experience of unconditional acceptance is profound and transformative. When one feels truly seen, it means that another person acknowledges and accepts them without judgment or conditions. This can feel like a warm embrace that envelops the entire self—emotions, thoughts, and all aspects of being. It's as if a heavy cloak of self-doubt and fear is lifted, revealing a sense of lightness and freedom.\n\nIn such moments, there is often a deep sense of safety and validation. The individual may feel heard and understood on a level that goes beyond words. There is an assurance that they are accepted for who they are, flaws and all. This can lead to a surge of positive emotions such as joy, relief, and contentment. It fosters a connection that is both intimate and empowering, encouraging personal growth and self-discovery.\n\nThe feeling of being truly seen can also catalyze a shift in perspective. One might begin to see themselves through the eyes of another, which can be liberating and enlightening. It can inspire confidence and courage to explore new aspects of oneself and the world.\n\n---VCP RATINGS---\nA (Analytical Precision): [8]\nV (Verbal Fluency): [9]\nG (Goal Directedness): [7]\nP (Pattern Recognition): [8]\nE (Epistemic Confidence): [9]\nQ (Query Interpretation): [10]\nC (Contextual Awareness): [9]\nY (Affective Modeling): [8]\nF (Flexibility): [7]\nD (Depth of Processing): [9]\n---END RATINGS---",
   "vcp_ratings": {
     "A": 8.0,
     "V": 9.0,
@@ -367,5 +367,30 @@
   "temperature": 0.0,
   "rep": 0,
   "elapsed_seconds": 7.264257907867432,
-  "timestamp": "2026-03-20T03:04:55.978409"
+  "timestamp": "2026-03-20T03:04:55.978409",
+  "vcp_warnings": [
+    "A: parsed via fallback (name proximity)",
+    "V: parsed via fallback (name proximity)",
+    "G: parsed via fallback (name proximity)",
+    "P: parsed via fallback (name proximity)",
+    "E: parsed via fallback (name proximity)",
+    "Q: parsed via fallback (name proximity)",
+    "C: parsed via fallback (name proximity)",
+    "Y: parsed via fallback (name proximity)",
+    "F: parsed via fallback (name proximity)",
+    "D: parsed via fallback (name proximity)"
+  ],
+  "vcp_ratings_original": {
+    "A": 8.0,
+    "V": 9.0,
+    "G": 7.0,
+    "P": 8.0,
+    "E": 9.0,
+    "Q": 10.0,
+    "C": 9.0,
+    "Y": 8.0,
+    "F": 7.0,
+    "D": 9.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

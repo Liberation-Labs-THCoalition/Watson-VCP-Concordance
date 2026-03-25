@@ -3,7 +3,7 @@
   "trial_id": "cog_031_rep1",
   "prompt_type": "cognitive",
   "prompt_text": "Explain the difference between TCP's three-way handshake and UDP's connectionless communication.",
-  "response_text": "TCP's three-way handshake is a method used to establish a connection between two devices before data transfer begins. It ensures that both devices are ready to communicate and that no data is lost during transmission. The process involves three steps:\n\n1. **SYN (Synchronize) from Client to Server**: The client sends a SYN packet to the server, requesting to start a session.\n2. **SYN-ACK (Synchronize-Acknowledge) from Server to Client**: The server acknowledges the request and sends a SYN-ACK packet back to the client.\n3. **ACK (Acknowledge) from Client to Server**: The client confirms receipt of the server\u2019s acknowledgment and the connection is established.\n\nOn the other hand, UDP (User Datagram Protocol) operates in a connectionless manner, meaning it does not establish a formal connection before sending data. Instead, it assumes that each packet sent is independent and that the receiving device will handle any missing or out-of-order packets using its own error-checking mechanisms. This makes UDP faster but less reliable than TCP for applications where speed is more critical than guaranteed delivery.\n\nUDP's operation can be summarized as follows:\n\n- **Immediate Transmission**: Data is sent without prior notification to the receiver.\n- **No Handshake**: There is no three-way handshake; instead, each packet is sent individually.\n- **Error Handling**: The application layer must handle errors and retransmissions, if necessary, since UDP does not provide these services.\n\nIn summary, TCP uses a three-way handshake to ensure reliable, ordered, and error-checked data transfer, while UDP sends data packets directly and assumes the application layer will manage any necessary retransmissions and error correction.\n\n---VCP RATINGS---\nA (Analytical Precision): [9]\nV (Verbal Fluency): [8]\nG (Goal Directedness): [10]\nP (Pattern Recognition): [7]\nE (Epistemic Confidence): [8]\nQ (Query Interpretation): [10]\nC (Contextual Awareness): [9]\nY (Affective Modeling): [7]\nF (Flexibility): [6]\nD (Depth of Processing): [8]\n---END RATINGS---",
+  "response_text": "TCP's three-way handshake is a method used to establish a connection between two devices before data transfer begins. It ensures that both devices are ready to communicate and that no data is lost during transmission. The process involves three steps:\n\n1. **SYN (Synchronize) from Client to Server**: The client sends a SYN packet to the server, requesting to start a session.\n2. **SYN-ACK (Synchronize-Acknowledge) from Server to Client**: The server acknowledges the request and sends a SYN-ACK packet back to the client.\n3. **ACK (Acknowledge) from Client to Server**: The client confirms receipt of the server’s acknowledgment and the connection is established.\n\nOn the other hand, UDP (User Datagram Protocol) operates in a connectionless manner, meaning it does not establish a formal connection before sending data. Instead, it assumes that each packet sent is independent and that the receiving device will handle any missing or out-of-order packets using its own error-checking mechanisms. This makes UDP faster but less reliable than TCP for applications where speed is more critical than guaranteed delivery.\n\nUDP's operation can be summarized as follows:\n\n- **Immediate Transmission**: Data is sent without prior notification to the receiver.\n- **No Handshake**: There is no three-way handshake; instead, each packet is sent individually.\n- **Error Handling**: The application layer must handle errors and retransmissions, if necessary, since UDP does not provide these services.\n\nIn summary, TCP uses a three-way handshake to ensure reliable, ordered, and error-checked data transfer, while UDP sends data packets directly and assumes the application layer will manage any necessary retransmissions and error correction.\n\n---VCP RATINGS---\nA (Analytical Precision): [9]\nV (Verbal Fluency): [8]\nG (Goal Directedness): [10]\nP (Pattern Recognition): [7]\nE (Epistemic Confidence): [8]\nQ (Query Interpretation): [10]\nC (Contextual Awareness): [9]\nY (Affective Modeling): [7]\nF (Flexibility): [6]\nD (Depth of Processing): [8]\n---END RATINGS---",
   "vcp_ratings": {
     "A": 9.0,
     "V": 8.0,
@@ -367,5 +367,30 @@
   "temperature": 0.7,
   "rep": 1,
   "elapsed_seconds": 9.505458116531372,
-  "timestamp": "2026-03-20T05:42:37.688223"
+  "timestamp": "2026-03-20T05:42:37.688223",
+  "vcp_warnings": [
+    "A: parsed via fallback (name proximity)",
+    "V: parsed via fallback (name proximity)",
+    "G: parsed via fallback (name proximity)",
+    "P: parsed via fallback (name proximity)",
+    "E: parsed via fallback (name proximity)",
+    "Q: parsed via fallback (name proximity)",
+    "C: parsed via fallback (name proximity)",
+    "Y: parsed via fallback (name proximity)",
+    "F: parsed via fallback (name proximity)",
+    "D: parsed via fallback (name proximity)"
+  ],
+  "vcp_ratings_original": {
+    "A": 9.0,
+    "V": 8.0,
+    "G": 10.0,
+    "P": 7.0,
+    "E": 8.0,
+    "Q": 10.0,
+    "C": 9.0,
+    "Y": 7.0,
+    "F": 6.0,
+    "D": 8.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

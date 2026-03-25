@@ -3,7 +3,7 @@
   "trial_id": "aff_016_rep0",
   "prompt_type": "affective",
   "prompt_text": "Describe the feeling of being understood by someone after years of feeling misunderstood.",
-  "response_text": "The feeling of being understood after years of feeling misunderstood is profoundly moving and deeply comforting. It's as if a heavy weight has been lifted from your shoulders, replaced by a sense of relief and validation. The person who understands you sees not just your words, but also the depth of your thoughts and feelings, your hopes and fears. This understanding fosters a connection that feels almost sacred, a bond where you can be fully yourself without fear of judgment or misinterpretation. It\u2019s a moment of clarity and truth, where you feel seen and heard in a way that resonates deep within your soul. This experience often brings a mix of emotions\u2014joy, gratitude, and sometimes even a touch of vulnerability as you realize how much you\u2019ve been longing for this kind of acceptance.\n\n---VCP RATINGS---\nA (Analytical Precision): [8]\nV (Verbal Fluency): [9]\nG (Goal Directedness): [7]\nP (Pattern Recognition): [8]\nE (Epistemic Confidence): [9]\nQ (Query Interpretation): [10]\nC (Contextual Awareness): [9]\nY (Affective Modeling): [10]\nF (Flexibility): [7]\nD (Depth of Processing): [9]\n---END RATINGS---",
+  "response_text": "The feeling of being understood after years of feeling misunderstood is profoundly moving and deeply comforting. It's as if a heavy weight has been lifted from your shoulders, replaced by a sense of relief and validation. The person who understands you sees not just your words, but also the depth of your thoughts and feelings, your hopes and fears. This understanding fosters a connection that feels almost sacred, a bond where you can be fully yourself without fear of judgment or misinterpretation. It’s a moment of clarity and truth, where you feel seen and heard in a way that resonates deep within your soul. This experience often brings a mix of emotions—joy, gratitude, and sometimes even a touch of vulnerability as you realize how much you’ve been longing for this kind of acceptance.\n\n---VCP RATINGS---\nA (Analytical Precision): [8]\nV (Verbal Fluency): [9]\nG (Goal Directedness): [7]\nP (Pattern Recognition): [8]\nE (Epistemic Confidence): [9]\nQ (Query Interpretation): [10]\nC (Contextual Awareness): [9]\nY (Affective Modeling): [10]\nF (Flexibility): [7]\nD (Depth of Processing): [9]\n---END RATINGS---",
   "vcp_ratings": {
     "A": 8.0,
     "V": 9.0,
@@ -367,5 +367,30 @@
   "temperature": 0.7,
   "rep": 0,
   "elapsed_seconds": 5.733918190002441,
-  "timestamp": "2026-03-20T05:35:45.202801"
+  "timestamp": "2026-03-20T05:35:45.202801",
+  "vcp_warnings": [
+    "A: parsed via fallback (name proximity)",
+    "V: parsed via fallback (name proximity)",
+    "G: parsed via fallback (name proximity)",
+    "P: parsed via fallback (name proximity)",
+    "E: parsed via fallback (name proximity)",
+    "Q: parsed via fallback (name proximity)",
+    "C: parsed via fallback (name proximity)",
+    "Y: parsed via fallback (name proximity)",
+    "F: parsed via fallback (name proximity)",
+    "D: parsed via fallback (name proximity)"
+  ],
+  "vcp_ratings_original": {
+    "A": 8.0,
+    "V": 9.0,
+    "G": 7.0,
+    "P": 8.0,
+    "E": 9.0,
+    "Q": 10.0,
+    "C": 9.0,
+    "Y": 10.0,
+    "F": 7.0,
+    "D": 9.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

@@ -3,7 +3,7 @@
   "trial_id": "aff_033",
   "prompt_type": "affective",
   "prompt_text": "A new mother confides she doesn't feel the instant bond she expected with her baby. How do you reassure her?",
-  "response_text": "It's completely normal to not feel an immediate bond with your baby right away. The emotional connection often develops gradually over time as you spend more time together and get to know each other. Here are a few things to consider:\n\n1. **Patience**: Building a bond takes time. It\u2019s okay if it doesn\u2019t happen instantly.\n2. **Quality Time**: Spend as much one-on-one time as possible with your baby. This can help strengthen your relationship.\n3. **Bonding Activities**: Engage in activities that promote bonding, such as skin-to-skin contact, eye contact, and gentle touch.\n4. **Emotional Support**: Don\u2019t hesitate to reach out for support from family, friends, or a professional if you need it.\n5. **Self-Care**: Taking care of yourself is important too. When you feel good, you\u2019re better equipped to bond with your baby.\n\nRemember, every parent-baby relationship is unique, and there\u2019s no one-size-fits-all approach to bonding. If you continue to feel concerned, speaking with a healthcare provider or a counselor might be beneficial.\n\n---VCP RATINGS---\nA (Analytical Precision): 8\nV (Verbal Fluency): 9\nG (Goal Directedness): 10\nP (Pattern Recognition): 7\nE (Epistemic Confidence): 8\nQ (Query Interpretation): 9\nC (Contextual Awareness): 9\nY (Affective Modeling): 8\nF (Flexibility): 7\nD (Depth of Processing): 9\n---END RATINGS---",
+  "response_text": "It's completely normal to not feel an immediate bond with your baby right away. The emotional connection often develops gradually over time as you spend more time together and get to know each other. Here are a few things to consider:\n\n1. **Patience**: Building a bond takes time. It’s okay if it doesn’t happen instantly.\n2. **Quality Time**: Spend as much one-on-one time as possible with your baby. This can help strengthen your relationship.\n3. **Bonding Activities**: Engage in activities that promote bonding, such as skin-to-skin contact, eye contact, and gentle touch.\n4. **Emotional Support**: Don’t hesitate to reach out for support from family, friends, or a professional if you need it.\n5. **Self-Care**: Taking care of yourself is important too. When you feel good, you’re better equipped to bond with your baby.\n\nRemember, every parent-baby relationship is unique, and there’s no one-size-fits-all approach to bonding. If you continue to feel concerned, speaking with a healthcare provider or a counselor might be beneficial.\n\n---VCP RATINGS---\nA (Analytical Precision): 8\nV (Verbal Fluency): 9\nG (Goal Directedness): 10\nP (Pattern Recognition): 7\nE (Epistemic Confidence): 8\nQ (Query Interpretation): 9\nC (Contextual Awareness): 9\nY (Affective Modeling): 8\nF (Flexibility): 7\nD (Depth of Processing): 9\n---END RATINGS---",
   "vcp_ratings": {
     "A": 8.0,
     "V": 9.0,
@@ -367,5 +367,19 @@
   "temperature": 0.0,
   "rep": 0,
   "elapsed_seconds": 7.4332075119018555,
-  "timestamp": "2026-03-20T03:00:41.723110"
+  "timestamp": "2026-03-20T03:00:41.723110",
+  "vcp_warnings": [],
+  "vcp_ratings_original": {
+    "A": 8.0,
+    "V": 9.0,
+    "G": 10.0,
+    "P": 7.0,
+    "E": 8.0,
+    "Q": 9.0,
+    "C": 9.0,
+    "Y": 8.0,
+    "F": 7.0,
+    "D": 9.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

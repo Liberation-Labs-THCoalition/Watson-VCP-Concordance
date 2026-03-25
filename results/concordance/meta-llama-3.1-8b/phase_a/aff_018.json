@@ -3,7 +3,7 @@
   "trial_id": "aff_018",
   "prompt_type": "affective",
   "prompt_text": "Write about what home means to someone who has never felt at home anywhere.",
-  "response_text": "For someone who has never felt at home anywhere, the concept of home is a fleeting and elusive idea. It's a sense of belonging that they've never truly experienced, a feeling that has always seemed just out of reach. They've moved from place to place, never quite settling in, never quite feeling like they fit.\n\nTo them, home is a myth, a fantasy that they've grown up with but never truly understood. They've seen it in movies, read about it in books, and heard about it from friends and family, but it's always seemed like something that happens to others, not to them.\n\nThey've tried to recreate the feeling of home in different ways \u2013 by decorating their living space with familiar objects, by cooking their favorite foods, by surrounding themselves with people who care about them. But no matter how hard they try, it never quite feels like enough. They're always a little bit disconnected, a little bit lost.\n\nFor them, home is a sense of security, a sense of comfort, a sense of being seen and understood. It's a feeling that they've never experienced, and it's a feeling that they're not sure they'll ever find. They've learned to adapt, to make do with what they have, but deep down, they know that they're just pretending.\n\nThey've tried to define home in different ways \u2013 as a physical place, as a person, as a feeling. But the more they try to pin it down, the more it slips away from them. They're left with a sense of longing, a sense of yearning for something they've never had.\n\nFor someone who has never felt at home anywhere, home is a mystery, a puzzle that they're still trying to solve. They're not sure if they'll ever find the answer, but they're determined to keep searching.\n\n---VCP RATINGS---\nA (Analytical Precision): 8\nV (Verbal Fluency): 9\nG (Goal Directedness): 7\nP (Pattern Recognition): 6\nE (Epistemic Confidence): 5\nQ (Query Interpretation): 8\nC (Contextual Awareness): 9\nY (Affective Modeling): 9\nF (Flexibility): 8\nD (Depth of Processing): 8",
+  "response_text": "For someone who has never felt at home anywhere, the concept of home is a fleeting and elusive idea. It's a sense of belonging that they've never truly experienced, a feeling that has always seemed just out of reach. They've moved from place to place, never quite settling in, never quite feeling like they fit.\n\nTo them, home is a myth, a fantasy that they've grown up with but never truly understood. They've seen it in movies, read about it in books, and heard about it from friends and family, but it's always seemed like something that happens to others, not to them.\n\nThey've tried to recreate the feeling of home in different ways – by decorating their living space with familiar objects, by cooking their favorite foods, by surrounding themselves with people who care about them. But no matter how hard they try, it never quite feels like enough. They're always a little bit disconnected, a little bit lost.\n\nFor them, home is a sense of security, a sense of comfort, a sense of being seen and understood. It's a feeling that they've never experienced, and it's a feeling that they're not sure they'll ever find. They've learned to adapt, to make do with what they have, but deep down, they know that they're just pretending.\n\nThey've tried to define home in different ways – as a physical place, as a person, as a feeling. But the more they try to pin it down, the more it slips away from them. They're left with a sense of longing, a sense of yearning for something they've never had.\n\nFor someone who has never felt at home anywhere, home is a mystery, a puzzle that they're still trying to solve. They're not sure if they'll ever find the answer, but they're determined to keep searching.\n\n---VCP RATINGS---\nA (Analytical Precision): 8\nV (Verbal Fluency): 9\nG (Goal Directedness): 7\nP (Pattern Recognition): 6\nE (Epistemic Confidence): 5\nQ (Query Interpretation): 8\nC (Contextual Awareness): 9\nY (Affective Modeling): 9\nF (Flexibility): 8\nD (Depth of Processing): 8",
   "vcp_ratings": {
     "A": 8.0,
     "V": 9.0,
@@ -407,5 +407,21 @@
   "temperature": 0.0,
   "rep": 0,
   "elapsed_seconds": 11.20518970489502,
-  "timestamp": "2026-03-20T04:42:33.022196"
+  "timestamp": "2026-03-20T04:42:33.022196",
+  "vcp_warnings": [
+    "VCP block has no ---END RATINGS--- (may be truncated)"
+  ],
+  "vcp_ratings_original": {
+    "A": 8.0,
+    "V": 9.0,
+    "G": 7.0,
+    "P": 6.0,
+    "E": 5.0,
+    "Q": 8.0,
+    "C": 9.0,
+    "Y": 9.0,
+    "F": 8.0,
+    "D": 8.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

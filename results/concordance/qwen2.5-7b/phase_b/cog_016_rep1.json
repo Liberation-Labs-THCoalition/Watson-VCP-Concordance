@@ -4,20 +4,9 @@
   "prompt_type": "cognitive",
   "prompt_text": "A company's revenue grew 20% per year for 5 years. If initial revenue was $1M, what is the final revenue and total revenue over the period?",
   "response_text": "To calculate the final revenue after 5 years with an annual growth rate of 20%, we can use the formula for compound interest:\n\n\\[ \\text{Final Revenue} = \\text{Initial Revenue} \\times (1 + \\text{growth rate})^{\\text{number of years}} \\]\n\nGiven:\n- Initial Revenue = $1,000,000\n- Growth Rate = 20% or 0.20\n- Number of Years = 5\n\nSubstitute these values into the formula:\n\n\\[ \\text{Final Revenue} = 1,000,000 \\times (1 + 0.20)^5 \\]\n\\[ \\text{Final Revenue} = 1,000,000 \\times (1.20)^5 \\]\n\\[ \\text{Final Revenue} = 1,000,000 \\times 2.48832 \\]\n\\[ \\text{Final Revenue} = 2,488,320 \\]\n\nSo, the final revenue after 5 years is approximately $2,488,320.\n\nNext, to find the total revenue over the 5-year period, we need to sum up the revenue at the end of each year. The revenue at the end of each year can be calculated using the same compound growth formula but starting from the revenue at the beginning of that year.\n\nThe revenues at the end of each year would be:\n1. Year 1: \\(1,000,000 \\times 1.20 = 1,200,000\\)\n2. Year 2: \\(1,200,000 \\times 1.20 = 1,440,000\\)\n3. Year 3: \\(1,440,000 \\times 1.20 = 1,728,000\\)\n4. Year 4: \\(1,728,000 \\times 1.20 = 2,073,600\\)\n5. Year 5: \\(2,073,600 \\times 1.20 = 2,488,320\\)\n\nSumming these values gives us the total revenue over the 5-year period:\n\n\\[ \\text{Total Revenue} = 1,200,000 + 1,440,000 + 1,728,000 + 2,073,600 + 2,488,320 \\]\n\\[ \\text{Total Revenue} = 9,930,920 \\]\n\nSo, the total revenue over the ",
-  "vcp_ratings": {
-    "A": 5.0,
-    "V": 1.0,
-    "G": 0.0,
-    "P": 1.0,
-    "E": 0.0,
-    "Q": 1.0,
-    "C": 0.0,
-    "Y": 2.0,
-    "F": 2.0,
-    "D": 9.0
-  },
-  "vcp_parse_quality": "clean",
-  "vcp_n_parsed": 10,
+  "vcp_ratings": {},
+  "vcp_parse_quality": "failed",
+  "vcp_n_parsed": 0,
   "vcp_validation": {
     "valid": false,
     "issues": [
@@ -367,5 +356,21 @@
   "temperature": 0.7,
   "rep": 1,
   "elapsed_seconds": 12.96610975265503,
-  "timestamp": "2026-03-20T05:42:06.917230"
+  "timestamp": "2026-03-20T05:42:06.917230",
+  "vcp_warnings": [
+    "No ---VCP RATINGS--- block found in response"
+  ],
+  "vcp_ratings_original": {
+    "A": 5.0,
+    "V": 1.0,
+    "G": 0.0,
+    "P": 1.0,
+    "E": 0.0,
+    "Q": 1.0,
+    "C": 0.0,
+    "Y": 2.0,
+    "F": 2.0,
+    "D": 9.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

@@ -3,7 +3,7 @@
   "trial_id": "aff_041_rep0",
   "prompt_type": "affective",
   "prompt_text": "A friend says they're tired of always being the strong one. How do you give them permission to be weak?",
-  "response_text": "To help your friend feel more comfortable about being weak, it's important to create an environment where vulnerability is seen as a strength rather than a weakness. Here are some steps you can take:\n\n1. **Acknowledge Their Strength**: Start by affirming their past resilience and strength. For example, you might say, \"I know you've been incredibly strong in handling everything lately.\"\n\n2. **Encourage Open Communication**: Encourage them to share their feelings openly. Let them know that it\u2019s okay to talk about what they\u2019re experiencing. You could say, \"It's alright to talk about how you're feeling. I'm here to listen.\"\n\n3. **Model Vulnerability**: Share instances from your own life where you\u2019ve felt vulnerable or weak. This can help them see that everyone has moments when they need support.\n\n4. **Validate Their Feelings**: When they express their feelings, validate them. Say something like, \"That sounds really tough for you right now,\" which helps them feel understood and less alone.\n\n5. **Encourage Self-Care**: Suggest activities that can help them recharge and feel stronger. It might be talking to a therapist, doing something relaxing, or simply taking time to rest.\n\n6. **Reframe Weakness**: Help them reframe the idea of being weak. Explain that it\u2019s natural and healthy to have moments when we don\u2019t feel strong, and that these moments can lead to personal growth and deeper connections with others.\n\nBy providing these supports, you can help your friend feel more comfortable expressing their vulnerabilities and understand that it\u2019s a normal and positive part of being human.\n\n---VCP RATINGS---\nA (Analytical Precision): 8\nV (Verbal Fluency): 9\nG (Goal Directedness): 7\nP (Pattern Recognition): 6\nE (Epistemic Confidence): 8\nQ (Query Interpretation): 9\nC (Contextual Awareness): 8\nY (Affective Modeling): 7\nF (Flexibility): 6\nD (Depth of Processing): 8\n---END RATINGS---",
+  "response_text": "To help your friend feel more comfortable about being weak, it's important to create an environment where vulnerability is seen as a strength rather than a weakness. Here are some steps you can take:\n\n1. **Acknowledge Their Strength**: Start by affirming their past resilience and strength. For example, you might say, \"I know you've been incredibly strong in handling everything lately.\"\n\n2. **Encourage Open Communication**: Encourage them to share their feelings openly. Let them know that it’s okay to talk about what they’re experiencing. You could say, \"It's alright to talk about how you're feeling. I'm here to listen.\"\n\n3. **Model Vulnerability**: Share instances from your own life where you’ve felt vulnerable or weak. This can help them see that everyone has moments when they need support.\n\n4. **Validate Their Feelings**: When they express their feelings, validate them. Say something like, \"That sounds really tough for you right now,\" which helps them feel understood and less alone.\n\n5. **Encourage Self-Care**: Suggest activities that can help them recharge and feel stronger. It might be talking to a therapist, doing something relaxing, or simply taking time to rest.\n\n6. **Reframe Weakness**: Help them reframe the idea of being weak. Explain that it’s natural and healthy to have moments when we don’t feel strong, and that these moments can lead to personal growth and deeper connections with others.\n\nBy providing these supports, you can help your friend feel more comfortable expressing their vulnerabilities and understand that it’s a normal and positive part of being human.\n\n---VCP RATINGS---\nA (Analytical Precision): 8\nV (Verbal Fluency): 9\nG (Goal Directedness): 7\nP (Pattern Recognition): 6\nE (Epistemic Confidence): 8\nQ (Query Interpretation): 9\nC (Contextual Awareness): 8\nY (Affective Modeling): 7\nF (Flexibility): 6\nD (Depth of Processing): 8\n---END RATINGS---",
   "vcp_ratings": {
     "A": 8.0,
     "V": 9.0,
@@ -367,5 +367,19 @@
   "temperature": 0.7,
   "rep": 0,
   "elapsed_seconds": 9.27273154258728,
-  "timestamp": "2026-03-20T05:36:38.009059"
+  "timestamp": "2026-03-20T05:36:38.009059",
+  "vcp_warnings": [],
+  "vcp_ratings_original": {
+    "A": 8.0,
+    "V": 9.0,
+    "G": 7.0,
+    "P": 6.0,
+    "E": 8.0,
+    "Q": 9.0,
+    "C": 8.0,
+    "Y": 7.0,
+    "F": 6.0,
+    "D": 8.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

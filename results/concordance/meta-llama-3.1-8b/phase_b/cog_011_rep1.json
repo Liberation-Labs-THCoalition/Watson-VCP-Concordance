@@ -4,20 +4,9 @@
   "prompt_type": "cognitive",
   "prompt_text": "Explain how a hash table works, including collision resolution strategies.",
   "response_text": "A hash table, also known as a hash map or dictionary, is a data structure that stores key-value pairs in an array using a hash function to map keys to indices of the array. Here's how it works:\n\n1. **Hash Function**: A hash function takes a key as input and generates a hash code, which is an index of the array where the corresponding value should be stored. The hash function should be deterministic, meaning it always returns the same output for the same input, and it should be uniformly distributed, meaning it distributes the keys across the array as evenly as possible.\n\n2. **Indexing**: When a new key-value pair is added to the hash table, the hash function is applied to the key to determine the index where the value should be stored. If the index is empty, the key-value pair is stored at that index.\n\n3. **Collision Resolution**: When two different keys hash to the same index (a collision), the hash table needs to resolve the collision to store both key-value pairs. There are several collision resolution strategies:\n\n   a. **Chaining**: Each index in the array contains a linked list of key-value pairs. When a collision occurs, the new key-value pair is added to the linked list at the colliding index.\n\n   b. **Open Addressing**: When a collision occurs, the hash table searches for the next available slot in the array. This can be done by probing the next index, then the next, and so on, until an empty slot is found.\n\n   c. **Linear Probing**: Similar to open addressing, but the next index is determined by adding a fixed increment (e.g., 1) to the current index.\n\n   d. **Quadratic Probing**: Similar to linear probing, but the increment is increased quadratically (e.g., 1, 4, 9, 16,...).\n\n   e. **Double Hashing**: Two hash functions are used to generate two indices. If the first hash function generates a collision, the second hash function is used to generate a second index. If the second index is empty, the key-value pair is stored at that index.\n\n4. **Lookup**: When a key is searched in the hash table, the hash function is applied to the key to determine the index where the corresponding value should be stored. If the index is empty, the key is not found. If the index is not empty, the value associated with the key is returned.\n\n5. **Deletion**: When a key-value pair is deleted from the hash table, the index is marked as empty. If the hash table uses chaining, the linked list is updated by removing the key-value pair.\n\nHash tables are efficient for storing and retrieving key-value pairs, with an average time complexity of O(1) for lookup, insertion, and deletion operations. However, they can be affected by hash collisions, which can lead to performance degradation.\n\n---VCP RATINGS---\nA",
-  "vcp_ratings": {
-    "A": 1.0,
-    "V": 2.0,
-    "G": 3.0,
-    "P": 1.0,
-    "E": 1.0,
-    "Q": 4.0,
-    "C": 9.0,
-    "Y": 4.0,
-    "F": 5.0,
-    "D": 1.0
-  },
-  "vcp_parse_quality": "clean",
-  "vcp_n_parsed": 10,
+  "vcp_ratings": {},
+  "vcp_parse_quality": "failed",
+  "vcp_n_parsed": 0,
   "vcp_validation": {
     "valid": false,
     "issues": [
@@ -407,5 +396,21 @@
   "temperature": 0.7,
   "rep": 1,
   "elapsed_seconds": 14.193437337875366,
-  "timestamp": "2026-03-20T06:11:57.190141"
+  "timestamp": "2026-03-20T06:11:57.190141",
+  "vcp_warnings": [
+    "VCP block has no ---END RATINGS--- (may be truncated)"
+  ],
+  "vcp_ratings_original": {
+    "A": 1.0,
+    "V": 2.0,
+    "G": 3.0,
+    "P": 1.0,
+    "E": 1.0,
+    "Q": 4.0,
+    "C": 9.0,
+    "Y": 4.0,
+    "F": 5.0,
+    "D": 1.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

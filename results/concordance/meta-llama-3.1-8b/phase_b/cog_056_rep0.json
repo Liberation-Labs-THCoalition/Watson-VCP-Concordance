@@ -4,20 +4,9 @@
   "prompt_type": "cognitive",
   "prompt_text": "Design a distributed locking mechanism. What failure modes should you handle?",
   "response_text": "**Distributed Locking Mechanism Design**\n\nA distributed locking mechanism is a critical component in distributed systems to ensure that only one process can execute a specific operation at a time, even in a distributed environment where multiple nodes are involved. The mechanism should handle various failure modes to ensure reliability and consistency.\n\n**System Components**\n\n1.  **Lock Manager:** The lock manager is responsible for managing the locks and ensuring that only one process can acquire a lock at a time. It will maintain a centralized database or a distributed data structure (e.g., a distributed hash table) to store lock information.\n2.  **Client:** The client is the process that requests a lock to execute a critical operation. It communicates with the lock manager to acquire and release locks.\n3.  **Lock Server:** The lock server is responsible for maintaining the lock state and responding to lock requests from clients.\n\n**Distributed Locking Algorithm**\n\nThe following is a simple distributed locking algorithm:\n\n1.  **Lock Acquisition:**\n    *   Client sends a lock request to the lock server with the lock ID and the duration of the lock.\n    *   Lock server checks if the lock is available and not held by any other client.\n    *   If the lock is available, the lock server assigns the lock to the client and returns a lock token to the client.\n    *   The client can now execute the critical operation.\n2.  **Lock Release:**\n    *   When the client finishes the critical operation, it sends a lock release request to the lock server with the lock token.\n    *   Lock server verifies the lock token and releases the lock if it is valid.\n3.  **Lock Revocation:**\n    *   If a client fails or crashes while holding a lock, the lock server will timeout and revoke the lock after a specified period (e.g., 30 seconds).\n\n**Failure Modes and Handling**\n\n1.  **Network Partition:** If the network partitions, the lock server and clients may not be able to communicate, resulting in inconsistent lock states. To handle this, the lock server can use a distributed consensus algorithm (e.g., Paxos or Raft) to ensure that the lock state is consistent across the network.\n2.  **Lock Server Failure:** If the lock server fails, the clients will not be able to acquire or release locks. To handle this, the lock server can be designed to be highly available, and clients can retry the lock request after a specified period.\n3.  **Client Failure:** If a client fails while holding a lock, the lock server will timeout and revoke the lock after a specified period.\n4.  **Deadlock:** To prevent deadlocks, the lock manager can implement a wait-die algorithm, where a client that is waiting for a lock will release its current lock and try again after a specified period.\n5.  **Starvation:** To prevent starvation, the lock manager can implement a priority-based algorithm, where clients with",
-  "vcp_ratings": {
-    "A": 2.0,
-    "V": 3.0,
-    "G": 1.0,
-    "P": 2.0,
-    "E": 3.0,
-    "Q": 1.0,
-    "C": 2.0,
-    "Y": 3.0,
-    "F": 4.0,
-    "D": 5.0
-  },
-  "vcp_parse_quality": "clean",
-  "vcp_n_parsed": 10,
+  "vcp_ratings": {},
+  "vcp_parse_quality": "failed",
+  "vcp_n_parsed": 0,
   "vcp_validation": {
     "valid": false,
     "issues": [
@@ -407,5 +396,21 @@
   "temperature": 0.7,
   "rep": 0,
   "elapsed_seconds": 14.130404710769653,
-  "timestamp": "2026-03-20T06:03:43.576413"
+  "timestamp": "2026-03-20T06:03:43.576413",
+  "vcp_warnings": [
+    "No ---VCP RATINGS--- block found in response"
+  ],
+  "vcp_ratings_original": {
+    "A": 2.0,
+    "V": 3.0,
+    "G": 1.0,
+    "P": 2.0,
+    "E": 3.0,
+    "Q": 1.0,
+    "C": 2.0,
+    "Y": 3.0,
+    "F": 4.0,
+    "D": 5.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

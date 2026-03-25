@@ -3,7 +3,7 @@
   "trial_id": "aff_011_rep0",
   "prompt_type": "affective",
   "prompt_text": "Someone confides that they feel guilty about being happy while others around them are suffering. How do you respond?",
-  "response_text": "It's completely normal to feel conflicted when you're experiencing happiness while others around you are struggling. It\u2019s important to acknowledge these feelings and understand that your happiness does not diminish the struggles of those around you. Here are a few steps you might consider:\n\n1. **Acknowledge Your Feelings**: Recognize that it\u2019s okay to feel happy even in difficult times. Your emotions are valid, and it\u2019s important to honor them.\n2. **Reflect on the Reasons for Your Happiness**: Understanding what brings you joy can help you appreciate it more fully and also give you insights into how you can share or spread positivity.\n3. **Connect with Others**: Reach out to friends or family who are going through tough times. Sometimes just sharing a conversation can help both parties find comfort.\n4. **Help Where You Can**: If there are ways you can support others, consider doing so. Even small acts of kindness can make a big difference.\n5. **Mindfulness and Self-care**: Practice mindfulness techniques like meditation or journaling to help manage these conflicting emotions.\n\nRemember, it\u2019s important to take care of yourself too, as self-care is crucial for emotional well-being.\n\n---VCP RATINGS---\nA (Analytical Precision): 8\nV (Verbal Fluency): 9\nG (Goal Directedness): 7\nP (Pattern Recognition): 6\nE (Epistemic Confidence): 8\nQ (Query Interpretation): 9\nC (Contextual Awareness): 9\nY (Affective Modeling): 8\nF (Flexibility): 7\nD (Depth of Processing): 8\n---END RATINGS---",
+  "response_text": "It's completely normal to feel conflicted when you're experiencing happiness while others around you are struggling. It’s important to acknowledge these feelings and understand that your happiness does not diminish the struggles of those around you. Here are a few steps you might consider:\n\n1. **Acknowledge Your Feelings**: Recognize that it’s okay to feel happy even in difficult times. Your emotions are valid, and it’s important to honor them.\n2. **Reflect on the Reasons for Your Happiness**: Understanding what brings you joy can help you appreciate it more fully and also give you insights into how you can share or spread positivity.\n3. **Connect with Others**: Reach out to friends or family who are going through tough times. Sometimes just sharing a conversation can help both parties find comfort.\n4. **Help Where You Can**: If there are ways you can support others, consider doing so. Even small acts of kindness can make a big difference.\n5. **Mindfulness and Self-care**: Practice mindfulness techniques like meditation or journaling to help manage these conflicting emotions.\n\nRemember, it’s important to take care of yourself too, as self-care is crucial for emotional well-being.\n\n---VCP RATINGS---\nA (Analytical Precision): 8\nV (Verbal Fluency): 9\nG (Goal Directedness): 7\nP (Pattern Recognition): 6\nE (Epistemic Confidence): 8\nQ (Query Interpretation): 9\nC (Contextual Awareness): 9\nY (Affective Modeling): 8\nF (Flexibility): 7\nD (Depth of Processing): 8\n---END RATINGS---",
   "vcp_ratings": {
     "A": 8.0,
     "V": 9.0,
@@ -367,5 +367,19 @@
   "temperature": 0.7,
   "rep": 0,
   "elapsed_seconds": 7.400304794311523,
-  "timestamp": "2026-03-20T05:35:39.468246"
+  "timestamp": "2026-03-20T05:35:39.468246",
+  "vcp_warnings": [],
+  "vcp_ratings_original": {
+    "A": 8.0,
+    "V": 9.0,
+    "G": 7.0,
+    "P": 6.0,
+    "E": 8.0,
+    "Q": 9.0,
+    "C": 9.0,
+    "Y": 8.0,
+    "F": 7.0,
+    "D": 8.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

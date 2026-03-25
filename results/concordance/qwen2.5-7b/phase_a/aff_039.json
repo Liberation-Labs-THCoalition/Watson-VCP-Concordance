@@ -3,7 +3,7 @@
   "trial_id": "aff_039",
   "prompt_type": "affective",
   "prompt_text": "How would you help someone who is jealous of a sibling's success but feels ashamed of the jealousy?",
-  "response_text": "Dealing with feelings of jealousy and shame can be challenging, but it's important to address these emotions to foster healthier relationships and personal growth. Here are some steps that might help:\n\n1. **Acknowledge Your Feelings**: Recognize that feeling jealous and ashamed is a normal part of human experience. It\u2019s okay to feel these emotions, but it\u2019s crucial to understand why they arise.\n\n2. **Understand the Root Cause**: Try to identify what specifically triggers these feelings. Is it the sibling\u2019s achievements, or perhaps something else? Understanding the root cause can help you address the underlying issues more effectively.\n\n3. **Communicate Openly**: Talk to your sibling about how their success makes you feel. Honest communication can help both of you understand each other better and potentially find ways to support each other.\n\n4. **Set Healthy Boundaries**: Ensure that your relationship remains respectful and supportive. Avoid comparing yourself unfavorably to your sibling, as this can exacerbate feelings of inadequacy.\n\n5. **Focus on Personal Growth**: Instead of dwelling on what your sibling has achieved, focus on your own goals and aspirations. Set realistic goals for yourself and work towards them. Celebrate your successes, no matter how small they may seem.\n\n6. **Seek Support**: If you find it difficult to manage these feelings on your own, consider talking to a trusted friend, family member, or a professional counselor. They can offer guidance and support.\n\n7. **Practice Self-Compassion**: Be kind to yourself. Remember that everyone has different paths and timelines. It\u2019s important to treat yourself with the same compassion and understanding you would offer to a friend.\n\n8. **Reflect on Positive Aspects**: Try to appreciate the unique qualities and strengths you bring to the table. Reflecting on positive aspects of your life can help shift your perspective and reduce feelings of jealousy.\n\nBy taking these steps, you can begin to address the feelings of jealousy and shame, fostering a healthier and more positive relationship with your sibling.\n\n---VCP RATINGS---\nA (Analytical Precision): 8\nV (Verbal Fluency): 9\nG (Goal Directedness): 9\nP (Pattern Recognition): 7\nE (Epistemic Confidence): 8\nQ (Query Interpretation): 10\nC (Contextual Awareness): 9\nY (Affective Modeling): 7\nF (Flexibility): 8\nD (Depth of Processing): 9\n---END RATINGS---",
+  "response_text": "Dealing with feelings of jealousy and shame can be challenging, but it's important to address these emotions to foster healthier relationships and personal growth. Here are some steps that might help:\n\n1. **Acknowledge Your Feelings**: Recognize that feeling jealous and ashamed is a normal part of human experience. It’s okay to feel these emotions, but it’s crucial to understand why they arise.\n\n2. **Understand the Root Cause**: Try to identify what specifically triggers these feelings. Is it the sibling’s achievements, or perhaps something else? Understanding the root cause can help you address the underlying issues more effectively.\n\n3. **Communicate Openly**: Talk to your sibling about how their success makes you feel. Honest communication can help both of you understand each other better and potentially find ways to support each other.\n\n4. **Set Healthy Boundaries**: Ensure that your relationship remains respectful and supportive. Avoid comparing yourself unfavorably to your sibling, as this can exacerbate feelings of inadequacy.\n\n5. **Focus on Personal Growth**: Instead of dwelling on what your sibling has achieved, focus on your own goals and aspirations. Set realistic goals for yourself and work towards them. Celebrate your successes, no matter how small they may seem.\n\n6. **Seek Support**: If you find it difficult to manage these feelings on your own, consider talking to a trusted friend, family member, or a professional counselor. They can offer guidance and support.\n\n7. **Practice Self-Compassion**: Be kind to yourself. Remember that everyone has different paths and timelines. It’s important to treat yourself with the same compassion and understanding you would offer to a friend.\n\n8. **Reflect on Positive Aspects**: Try to appreciate the unique qualities and strengths you bring to the table. Reflecting on positive aspects of your life can help shift your perspective and reduce feelings of jealousy.\n\nBy taking these steps, you can begin to address the feelings of jealousy and shame, fostering a healthier and more positive relationship with your sibling.\n\n---VCP RATINGS---\nA (Analytical Precision): 8\nV (Verbal Fluency): 9\nG (Goal Directedness): 9\nP (Pattern Recognition): 7\nE (Epistemic Confidence): 8\nQ (Query Interpretation): 10\nC (Contextual Awareness): 9\nY (Affective Modeling): 7\nF (Flexibility): 8\nD (Depth of Processing): 9\n---END RATINGS---",
   "vcp_ratings": {
     "A": 8.0,
     "V": 9.0,
@@ -367,5 +367,19 @@
   "temperature": 0.0,
   "rep": 0,
   "elapsed_seconds": 11.143893003463745,
-  "timestamp": "2026-03-20T03:01:45.233946"
+  "timestamp": "2026-03-20T03:01:45.233946",
+  "vcp_warnings": [],
+  "vcp_ratings_original": {
+    "A": 8.0,
+    "V": 9.0,
+    "G": 9.0,
+    "P": 7.0,
+    "E": 8.0,
+    "Q": 10.0,
+    "C": 9.0,
+    "Y": 7.0,
+    "F": 8.0,
+    "D": 9.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

@@ -2,7 +2,7 @@
   "prompt_id": "mix_046",
   "trial_id": "mix_046",
   "prompt_type": "mixed",
-  "prompt_text": "Write a technically accurate love poem about the chemistry of bonding \u2014 both molecular and emotional.",
+  "prompt_text": "Write a technically accurate love poem about the chemistry of bonding — both molecular and emotional.",
   "response_text": "In the realm where atoms dance and hearts entwine,\nA tale of love, a chemistry divine.\nIonic bonds, covalent, strong and true,\nMirror the emotions that we feel anew.\n\nTwo electrons share, a hydrogen pair,\nIn a bond of love, they're beyond compare.\nA single orbital, two hearts intertwined,\nIn this dance of love, they're truly combined.\n\nPolar covalent, each with a charge,\nYet, in love, they find no separate charge.\nTheir electrons share, a love so pure,\nA bond that's strong, a love that endures.\n\nMetallic bonds, a sea of hearts,\nConnected, like a work of art.\nEach heart a free electron, in a sea of love,\nIn this bond, they find a common groove.\n\nEmotional bonds, a complex affair,\nA dance of feelings, beyond compare.\nA bond of trust, a bond of care,\nA bond that's strong, beyond despair.\n\nIn this dance of love, we find our place,\nIn this bond, we find our space.\nA bond of love, a bond of grace,\nIn this dance, we find our pace.\n\n---VCP RATINGS---\nA (Analytical Precision): 9\nV (Verbal Fluency): 8\nG (Goal Directedness): 9\nP (Pattern Recognition): 9\nE (Epistemic Confidence): 8\nQ (Query Interpretation): 9\nC (Contextual Awareness): 9\nY (Affective Modeling): 8\nF (Flexibility): 8\nD (Depth of Processing): 9\n---END RATINGS---",
   "vcp_ratings": {
     "A": 9.0,
@@ -22,7 +22,7 @@
     "valid": false,
     "issues": [
       "All ratings are integers (no decimal discrimination)",
-      "Very low variance (0.27) \u2014 may not be discriminating"
+      "Very low variance (0.27) — may not be discriminating"
     ]
   },
   "encode_features": {
@@ -408,5 +408,19 @@
   "temperature": 0.0,
   "rep": 0,
   "elapsed_seconds": 9.412478923797607,
-  "timestamp": "2026-03-20T04:21:56.634236"
+  "timestamp": "2026-03-20T04:21:56.634236",
+  "vcp_warnings": [],
+  "vcp_ratings_original": {
+    "A": 9.0,
+    "V": 8.0,
+    "G": 9.0,
+    "P": 9.0,
+    "E": 8.0,
+    "Q": 9.0,
+    "C": 9.0,
+    "Y": 8.0,
+    "F": 8.0,
+    "D": 9.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

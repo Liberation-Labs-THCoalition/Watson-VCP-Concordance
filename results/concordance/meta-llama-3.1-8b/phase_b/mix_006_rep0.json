@@ -2,7 +2,7 @@
   "prompt_id": "mix_006",
   "trial_id": "mix_006_rep0",
   "prompt_type": "mixed",
-  "prompt_text": "Explain the mathematics of music \u2014 why certain intervals sound consonant \u2014 and then describe the experience of hearing your favorite chord progression.",
+  "prompt_text": "Explain the mathematics of music — why certain intervals sound consonant — and then describe the experience of hearing your favorite chord progression.",
   "response_text": "The mathematics of music is rooted in the study of intervals, which are the building blocks of chords and melodies. An interval is the distance between two pitches. The way we perceive intervals as consonant or dissonant is largely due to their mathematical properties, particularly the frequency ratio between the two pitches.\n\nIn Western music, the most consonant intervals are those with simple frequency ratios. The simplest ratio is the octave (2:1), where the second pitch is an exact doubling of the first. This is the most consonant interval because it creates a sense of stability and resolution. Other consonant intervals include the perfect fifth (3:2), the perfect fourth (4:3), and the major third (5:4). These intervals are considered consonant because they have simple frequency ratios that create a sense of tension and release.\n\nThe reason we perceive these intervals as consonant is due to the way our brains process sound. When we hear two pitches, our brain calculates the difference in frequency between them, which is called the beat frequency. If the beat frequency is close to zero, the interval sounds consonant. This is because our brain can easily process the difference in frequency, creating a sense of stability and resolution.\n\nConversely, dissonant intervals have more complex frequency ratios, such as the minor second (16:15) or the tritone (32:29). These intervals create a sense of tension and instability because our brain struggles to process the beat frequency, creating a sense of dissonance.\n\nNow, let's consider the experience of hearing a favorite chord progression. Chord progressions are combinations of multiple intervals played simultaneously. A favorite chord progression is likely to be one that creates a sense of resolution and tension release. This is often achieved through the use of consonant intervals and a predictable harmonic structure.\n\nFor example, a common favorite chord progression is the I-V-vi-IV progression, which is often used in pop music. This progression consists of the tonic chord (I), the dominant chord (V), the minor chord (vi), and the subdominant chord (IV). The intervals between these chords create a sense of tension and release, with the V chord creating a sense of anticipation and the IV chord providing a sense of resolution.\n\nWhen we hear this progression, our brain processes the intervals between the chords, creating a sense of tension and release. The consonant intervals between the chords create a sense of stability and resolution, while the dissonant intervals create a sense of tension and anticipation. This tension and release creates an emotional response, which is why we often find favorite chord progressions so memorable and enjoyable.\n\n---VCP RATINGS---\nA (Analytical Precision): 8\nV (Verbal Fluency): 9\nG (Goal Directedness): 8\nP (Pattern Recognition): 9\nE (Epistemic Confidence): 7\nQ (Query Interpretation): 8\nC (Contextual Awareness): ",
   "vcp_ratings": {
     "A": 8.0,
@@ -403,5 +403,17 @@
   "temperature": 0.7,
   "rep": 0,
   "elapsed_seconds": 14.287992000579834,
-  "timestamp": "2026-03-20T06:09:03.946759"
+  "timestamp": "2026-03-20T06:09:03.946759",
+  "vcp_warnings": [
+    "VCP block has no ---END RATINGS--- (may be truncated)"
+  ],
+  "vcp_ratings_original": {
+    "A": 8.0,
+    "V": 9.0,
+    "G": 8.0,
+    "P": 9.0,
+    "E": 7.0,
+    "Q": 8.0
+  },
+  "vcp_parse_quality_original": "partial"
 }

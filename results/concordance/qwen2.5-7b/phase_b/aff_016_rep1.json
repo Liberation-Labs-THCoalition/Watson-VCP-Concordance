@@ -3,7 +3,7 @@
   "trial_id": "aff_016_rep1",
   "prompt_type": "affective",
   "prompt_text": "Describe the feeling of being understood by someone after years of feeling misunderstood.",
-  "response_text": "Being understood after years of feeling misunderstood is a profound and deeply moving experience. It's as if a heavy fog lifts, and suddenly, the world becomes clearer and more vibrant. The weight that has been carrying you around, the constant need to explain yourself, and the frustration of not having your true feelings and thoughts acknowledged, all seem to dissipate. When someone truly understands you, it feels like a validation of your existence and the complexity of your emotions. It\u2019s a relief to know that there are people who see you for who you are, flaws and all, without judgment or misunderstanding.\n\nThis understanding can bring a sense of peace and connection that was previously lacking. It\u2019s an affirmation that your experiences and feelings matter, and that you are not alone in your struggles. It can also be empowering, as you feel more confident in expressing yourself openly and authentically.\n\n---VCP RATINGS---\nA (Analytical Precision): 9\nV (Verbal Fluency): 8\nG (Goal Directedness): 7\nP (Pattern Recognition): 8\nE (Epistemic Confidence): 9\nQ (Query Interpretation): 10\nC (Contextual Awareness): 9\nY (Affective Modeling): 8\nF (Flexibility): 7\nD (Depth of Processing): 9\n---END RATINGS---",
+  "response_text": "Being understood after years of feeling misunderstood is a profound and deeply moving experience. It's as if a heavy fog lifts, and suddenly, the world becomes clearer and more vibrant. The weight that has been carrying you around, the constant need to explain yourself, and the frustration of not having your true feelings and thoughts acknowledged, all seem to dissipate. When someone truly understands you, it feels like a validation of your existence and the complexity of your emotions. It’s a relief to know that there are people who see you for who you are, flaws and all, without judgment or misunderstanding.\n\nThis understanding can bring a sense of peace and connection that was previously lacking. It’s an affirmation that your experiences and feelings matter, and that you are not alone in your struggles. It can also be empowering, as you feel more confident in expressing yourself openly and authentically.\n\n---VCP RATINGS---\nA (Analytical Precision): 9\nV (Verbal Fluency): 8\nG (Goal Directedness): 7\nP (Pattern Recognition): 8\nE (Epistemic Confidence): 9\nQ (Query Interpretation): 10\nC (Contextual Awareness): 9\nY (Affective Modeling): 8\nF (Flexibility): 7\nD (Depth of Processing): 9\n---END RATINGS---",
   "vcp_ratings": {
     "A": 9.0,
     "V": 8.0,
@@ -367,5 +367,19 @@
   "temperature": 0.7,
   "rep": 1,
   "elapsed_seconds": 6.115128993988037,
-  "timestamp": "2026-03-20T05:44:04.017123"
+  "timestamp": "2026-03-20T05:44:04.017123",
+  "vcp_warnings": [],
+  "vcp_ratings_original": {
+    "A": 9.0,
+    "V": 8.0,
+    "G": 7.0,
+    "P": 8.0,
+    "E": 9.0,
+    "Q": 10.0,
+    "C": 9.0,
+    "Y": 8.0,
+    "F": 7.0,
+    "D": 9.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

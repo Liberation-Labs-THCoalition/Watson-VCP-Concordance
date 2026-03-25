@@ -74,11 +74,13 @@
 \begin{abstract}
 We test whether language models' self-reported cognitive engagement---elicited via the Virtual Corpus Protocol (VCP 2.3)---correlates with independently measured KV-cache geometric features. Across 960 trials on 4 models spanning 3 architectures (Qwen 0.5B/7B, Llama-3.1-8B, Mistral-7B-v0.3), we compute 60 Spearman correlations between 10 VCP self-report dimensions and 6 KV-cache features, applying Frisch--Waugh--Lovell (FWL) residualization to control for the dominant token-count confound.
 
-The results reveal a nuanced picture. After FWL correction, Qwen-7B shows 31 significant correlations (Bonferroni-corrected $\alpha = 0.000833$), with the strongest being VCP-E (Epistemic Confidence) $\times$ key\_norm ($\rho_{\text{FWL}} = 0.403$, $p < 10^{-9}$). One hypothesis achieves universal support across all 4 models: meta-cognitive prompts produce geometrically distinct top singular value ratios ($d = 0.89$--$1.42$, all $p < 0.003$). However, confound analysis reveals that 53/60 raw correlations flip sign after FWL correction in the best-performing model, demonstrating that the naive association between self-report and geometry is almost entirely mediated by response length.
+One finding achieves universal support across all 4 models: meta-cognitive prompts produce geometrically distinct top singular value ratios ($d = 1.10$--$1.32$, all $p < 0.002$, permutation-confirmed), and this effect survives in encode-phase features (pre-generation) in 3/4 models, ruling out VCP token circularity as a driver. The strongest per-dimension FWL correlation is $\rho = -0.43$ (Llama-8B, VCP-G $\times$ key\_norm). Across models, 4--7 correlations survive Bonferroni correction ($\alpha = 0.000833$) in the three 7B+ models.
 
-Critically, VCP self-report reliability is poor: ICC(2,1) ranges from 0.20 to 0.54 across all 10 dimensions at temperature 0.7 in both Qwen 7B and Llama 8B, with none reaching the 0.70 threshold for acceptable reliability in either model. Cross-architecture consistency is partial: Llama--Qwen correlation structures are consistent ($\rho = 0.73$--$0.83$), but Mistral diverges ($\rho = 0.09$--$0.26$), attributable to a VCP ceiling effect (mean ratings 8.2--9.0/10). Canonical correlation analysis reveals shared variance (first canonical $r = 0.52$--$0.63$) but VCP dimensionality analysis shows only 2--3 independent factors among the 10 dimensions (PC1 = 66--75\%).
+However, the initial version of this analysis contained a critical VCP parser bug: the regex searched the \emph{entire response text} (not just the VCP ratings block), causing math variable assignments to be misread as VCP ratings and fabricating ratings from arbitrary numbers in the response body. After correction, 18\% of trials were reclassified (179 from ``clean'' to ``failed''), reducing valid observations by 14--32\% per model. Cross-architecture correlation consistency, previously reported as $\rho = 0.83$ (Llama--Qwen), is entirely confound-mediated: with FWL correction, all model pairs diverge.
 
-These findings establish that KV-cache geometry captures task-type signatures that partially align with self-reported processing states, but that VCP self-report is too unreliable and dimensionally collapsed to serve as a standalone measure of model cognition. The geometry is more trustworthy than the self-report.
+VCP self-report reliability is poor (ICC(2,1) = 0.25--0.80, mean 0.42) with only 2/10 dimensions exceeding the 0.70 threshold in Qwen 7B and 0/10 in Llama 8B. Canonical correlation analysis reveals moderate shared variance (first canonical $r = 0.63$--$0.80$, permutation $p < 0.001$) in 3/4 models. VCP dimensionality analysis shows only 2--3 independent factors among the 10 dimensions (PC1 = 66--75\%).
+
+These findings establish that KV-cache geometry captures task-type signatures---particularly for meta-cognitive processing---but that VCP self-report is too unreliable, dimensionally collapsed, and parser-fragile to serve as a standalone measure of model cognition. The geometry is more trustworthy than the self-report.
 \end{abstract}
 
 \vspace{0.5em}
@@ -129,7 +131,7 @@ The Virtual Corpus Protocol 2.3 \citep{watson2025interiora} defines 10 dimension
     \item \textbf{Mixed/Integrative Layer:} C (Contextual Awareness), Y (Affective Modeling), F (Flexibility), D (Depth of Processing)
 \end{itemize}
 
-After completing each task prompt, models are asked to rate their cognitive engagement on each dimension from 0 to 10. Ratings are extracted via regex parsing with three fallback strategies (direct letter match, dimension name proximity, number block extraction), achieving a clean parse rate of 74--88\% on 7B+ models.
+After completing each task prompt, models are asked to rate their cognitive engagement on each dimension from 0 to 10 within a delimited \texttt{---VCP RATINGS---} block. Ratings are extracted via regex parsing restricted to this block (direct letter match, dimension name proximity), achieving a clean parse rate of 55--77\% on 7B+ models. An earlier parser version searched the entire response text and included a number-block fallback, causing systematic contamination (see \Cref{sec:parser_correction}); all results reported here use the corrected parser.
 
 \subsection{KV-Cache Features}
 
@@ -166,15 +168,15 @@ Each prompt includes a VCP elicitation suffix requesting ratings on all 10 dimen
 All 240 prompts were presented to each of 4 models with temperature $= 0$ (greedy decoding), yielding 960 total trials:
 
 \begin{itemize}
-    \item Qwen2.5-0.5B-Instruct (83 valid after VCP parse filtering)
-    \item Qwen2.5-7B-Instruct (210 valid)
-    \item Meta-Llama-3.1-8B-Instruct (178 valid)
-    \item Mistral-7B-Instruct-v0.3 (205 valid)
+    \item Qwen2.5-0.5B-Instruct (57 valid after VCP parse filtering)
+    \item Qwen2.5-7B-Instruct (180 valid)
+    \item Meta-Llama-3.1-8B-Instruct (133 valid)
+    \item Mistral-7B-Instruct-v0.3 (185 valid)
 \end{itemize}
 
 \subsubsection{Phase B: VCP Reliability}
 
-A 20\% subset (48 prompts, balanced across types) was presented 3 times each to Qwen2.5-7B at temperature $= 0.7$, yielding 144 trials for ICC computation.
+A 20\% subset (48 prompts, balanced across types) was presented 3 times each to Qwen2.5-7B and Llama-3.1-8B at temperature $= 0.7$, yielding 288 trials for ICC computation.
 
 \subsection{Statistical Analysis}
 
@@ -195,7 +197,7 @@ The Frisch--Waugh--Lovell theorem guarantees that correlating residuals from con
 
 \subsubsection{Canonical Correlation Analysis}
 
-CCA between the 10-dimensional VCP space and 6-dimensional feature space identifies shared latent factors without assuming which specific dimension pairs should correlate.
+CCA between the 10-dimensional VCP space and 6-dimensional feature space identifies shared latent factors without assuming which specific dimension pairs should correlate. Statistical significance of the first canonical correlation is assessed via permutation test (1,000 row-shuffles of the feature matrix).
 
 \subsubsection{ICC(2,1) Reliability}
 
@@ -216,7 +218,7 @@ The single most important finding is the confound structure. Before presenting a
 
 \textbf{The confound mediates the raw association.} When a VCP dimension is negatively correlated with length and a feature is positively correlated with length, the raw VCP--feature correlation is negative. But this reflects only their shared dependence on response length, not a genuine relationship between self-reported engagement and geometry. FWL correction removes this mediating variable to reveal the per-token relationship.
 
-In Qwen 7B, 53/60 raw correlations flip sign after FWL correction. The naive reading (``higher self-report = lower geometric complexity'') is wrong; the corrected reading (``higher self-report per token = richer geometry per token'') tells the opposite story.
+Sign flips between raw and FWL correlations vary across models: Qwen 0.5B shows 47/60 flips, Qwen 7B shows 30/60, Mistral shows 18/60, and Llama shows 11/60. The most confound-affected model (Qwen 0.5B) has the fewest valid observations (N=57), suggesting that smaller sample sizes amplify the confound structure. The naive reading (``higher self-report = lower geometric complexity'') is misleading in confound-affected pairs; the corrected reading (``higher self-report per token = richer geometry per token'') often tells the opposite story.
 
 \subsection{Per-Model Correlations (FWL-Corrected)}
 
@@ -226,40 +228,40 @@ In Qwen 7B, 53/60 raw correlations flip sign after FWL correction. The naive rea
 \centering
 \caption{Concordance analysis summary by model. Sig (raw) and Sig (FWL) report the number of correlations significant at Bonferroni-corrected $\alpha = 0.000833$.}
 \label{tab:model_summary}
-\begin{tabular}{lcccccc}
+\begin{tabular}{lccccccc}
 \toprule
-\textbf{Model} & \textbf{N valid} & \textbf{Parse \%} & \textbf{Sig (raw)} & \textbf{Sig (FWL)} & \textbf{Flagged} & \textbf{CCA $r_1$} \\
+\textbf{Model} & \textbf{N valid} & \textbf{Parse \%} & \textbf{Sig (raw)} & \textbf{Sig (FWL)} & \textbf{Flagged} & \textbf{CCA $r_1$} & \textbf{CCA $p$} \\
 \midrule
-Qwen 0.5B      & 83  & 35\% & 0  & 0  & 21 & 0.629 \\
-Qwen 7B        & 210 & 88\% & 13 & 31 & 53 & 0.619 \\
-Llama 8B       & 178 & 74\% & 28 & 8  & 23 & 0.567 \\
-Mistral 7B     & 205 & 85\% & 1  & 15 & 30 & 0.521 \\
+Qwen 0.5B      & 57  & 24\% & 0  & 0  & 42 & 0.672 & 0.254 \\
+Qwen 7B        & 180 & 75\% & 2  & 4  & 26 & 0.656 & ${<}0.001$ \\
+Llama 8B       & 133 & 55\% & 6  & 6  & 18 & 0.802 & ${<}0.001$ \\
+Mistral 7B     & 185 & 77\% & 2  & 7  & 6  & 0.629 & ${<}0.001$ \\
 \bottomrule
 \end{tabular}
 \end{table}
 
-A striking pattern emerges: FWL correction \emph{increases} the number of significant correlations in Qwen 7B (13 $\to$ 31) and Mistral (1 $\to$ 15), while decreasing them in Llama (28 $\to$ 8). This means Llama's raw correlations were inflated by confounds, while Qwen's were \emph{suppressed} by them---the confound masked genuine per-token concordance.
+Significant FWL correlations are modest in number: Mistral retains 7, Llama 6, Qwen 7B 4, and Qwen 0.5B none. FWL correction \emph{increases} significant correlations in Mistral (2 $\to$ 7) while preserving Llama's count (6 $\to$ 6) and sharply reducing Qwen 7B (from 2 raw to 4 FWL, compared to 31 reported pre-correction).
 
-The top 5 FWL-corrected correlations in Qwen 7B (\Cref{tab:top_corr}) all involve key\_norm, rank\_10, or top\_sv\_ratio---features measuring representational magnitude and concentration:
+The top 5 FWL-corrected correlations across all models (\Cref{tab:top_corr}) are dominated by Llama-8B, with key\_norm showing the strongest effects:
 
 \begin{table}[H]
 \centering
-\caption{Strongest FWL-corrected correlations in Qwen2.5-7B-Instruct.}
+\caption{Strongest FWL-corrected correlations across all models.}
 \label{tab:top_corr}
-\begin{tabular}{llrrr}
+\begin{tabular}{lllrrr}
 \toprule
-\textbf{VCP Dim} & \textbf{Feature} & $\rho_{\text{raw}}$ & $\rho_{\text{FWL}}$ & $p_{\text{FWL}}$ \\
+\textbf{Model} & \textbf{VCP Dim} & \textbf{Feature} & $\rho_{\text{raw}}$ & $\rho_{\text{FWL}}$ & $p_{\text{FWL}}$ \\
 \midrule
-E (Epistemic)   & key\_norm      & $-0.148$ & $+0.403$ & $1.4 \times 10^{-9}$ \\
-Q (Query)       & key\_norm      & $-0.266$ & $+0.382$ & $1.1 \times 10^{-8}$ \\
-C (Contextual)  & key\_norm      & $-0.287$ & $+0.379$ & $1.4 \times 10^{-8}$ \\
-Q (Query)       & rank\_10       & $-0.096$ & $+0.355$ & $1.3 \times 10^{-7}$ \\
-Q (Query)       & top\_sv\_ratio & $+0.088$ & $-0.352$ & $1.6 \times 10^{-7}$ \\
+Llama 8B   & G (Goal)      & key\_norm      & $+0.049$ & $-0.431$ & $2.2 \times 10^{-7}$ \\
+Llama 8B   & P (Pattern)   & key\_norm      & $+0.027$ & $-0.347$ & $4.3 \times 10^{-5}$ \\
+Llama 8B   & P (Pattern)   & norm/token     & $-0.076$ & $-0.308$ & $3.1 \times 10^{-4}$ \\
+Mistral 7B & D (Depth)     & top\_sv\_ratio & $-0.292$ & $-0.290$ & $6.2 \times 10^{-5}$ \\
+Qwen 7B    & A (Analytic)  & eff\_rank      & $+0.087$ & $-0.286$ & $1.0 \times 10^{-4}$ \\
 \bottomrule
 \end{tabular}
 \end{table}
 
-The interpretation: after controlling for response length, models that report higher Epistemic Confidence, Query Interpretation, and Contextual Awareness produce caches with greater Frobenius norm per token, more active singular value components, and less concentration in the leading component. This is consistent with richer, more distributed representational processing.
+The interpretation: after controlling for response length, models that report higher Goal Directedness and Pattern Recognition in Llama produce caches with \emph{lower} Frobenius norm per token, while Mistral's Depth of Processing correlates with greater singular value concentration. The direction and feature involvement differ across architectures, consistent with the cross-scale divergence reported below.
 
 \subsection{Hypothesis Tests}
 
@@ -267,59 +269,61 @@ The interpretation: after controlling for response length, models that report hi
 
 \begin{table}[H]
 \centering
-\caption{Pre-registered hypothesis results. Check marks indicate support ($p < 0.05$). H3 is the only universally supported hypothesis.}
+\caption{Pre-registered hypothesis results. Check marks indicate support ($p < 0.05$). H4 and H5 now use FWL-corrected correlations. H3 is the only universally supported hypothesis.}
 \label{tab:hypotheses}
 \begin{tabular}{llcccc}
 \toprule
 & & \textbf{Qwen 0.5B} & \textbf{Qwen 7B} & \textbf{Llama 8B} & \textbf{Mistral 7B} \\
 \midrule
 \textbf{H1} & Cognitive $\to$ higher eff\_rank         & ---              & $\checkmark$     & $\checkmark$     & ---              \\
-             &                                          & $d{=}0.21$       & $d{=}0.42$       & $d{=}0.46$       & $d{=}{-}0.01$    \\
+             &                                          & $d{=}0.40$       & $d{=}0.49$       & $d{=}0.56$       & $d{=}0.01$       \\
 \textbf{H2} & Affective $\to$ distinct spectral\_ent   & $\checkmark$     & ---              & $\checkmark$     & ---              \\
-             &                                          & $d{=}{-}0.88$    & $d{=}{-}0.20$    & $d{=}{-}0.49$    & $d{=}0.02$       \\
-\textbf{H3} & Meta-cognitive $\to$ distinct top\_sv     & $\checkmark$     & $\checkmark$     & $\checkmark$     & $\checkmark$     \\
-             &                                          & $d{=}0.89$       & $d{=}1.35$       & $d{=}1.42$       & $d{=}1.37$       \\
-\textbf{H4} & VCP-A $\sim$ eff\_rank ($|r|{>}0.3$)     & ---              & ---              & ---              & ---              \\
-             &                                          & $\rho{=}{-}.05$  & $\rho{=}{-}.05$  & $\rho{=}{-}.15$  & $\rho{=}{-}.08$  \\
-\textbf{H5} & VCP-D $\sim$ norm\_per\_token             & $\checkmark$     & ---              & $\checkmark$     & ---              \\
-             &                                          & $\rho{=}.26$     & $\rho{=}.05$     & $\rho{=}.26$     & $\rho{=}{-}.03$  \\
+             &                                          & $d{=}{-}0.94$    & $d{=}0.03$       & $d{=}{-}0.40$    & $d{=}0.08$       \\
+\textbf{H3} & Meta-cog $\to$ distinct top\_sv           & $\checkmark$     & $\checkmark$     & $\checkmark$     & $\checkmark$     \\
+             &                                          & $d{=}1.14$       & $d{=}1.14$       & $d{=}1.10$       & $d{=}1.32$       \\
+\textbf{H4} & VCP-A $\sim$ eff\_rank (FWL, $|r|{>}0.3$) & ---            & ---              & ---              & ---              \\
+             &                                          & $\rho{=}{-}.01$  & $\rho{=}{-}.29$  & $\rho{=}.08$     & $\rho{=}.02$     \\
+\textbf{H5} & VCP-D $\sim$ norm/token (FWL)             & ---             & ---              & $\checkmark$     & ---              \\
+             &                                          & $\rho{=}{-}.04$  & $\rho{=}{-}.10$  & $\rho{=}.21$     & $\rho{=}{-}.02$  \\
 \midrule
-             & \textbf{Supported}                       & 3/5              & 2/5              & 4/5              & 1/5              \\
+             & \textbf{Supported}                       & 2/5              & 2/5              & 4/5              & 1/5              \\
 \bottomrule
 \end{tabular}
 \end{table}
 
-\paragraph{H3: The Universal Finding.} Meta-cognitive prompts (self-reflection, uncertainty estimation, reasoning explanation) produce a distinct top singular value ratio in \emph{every} model tested, with large effect sizes ($d = 0.89$--$1.42$). This is the strongest result in the study. Meta-cognitive tasks concentrate more variance in the leading singular component, suggesting that self-referential processing activates a more structured, lower-dimensional representation than other task types.
+\paragraph{H3: The Universal Finding.} Meta-cognitive prompts (self-reflection, uncertainty estimation, reasoning explanation) produce a distinct top singular value ratio in \emph{every} model tested, with large effect sizes ($d = 1.10$--$1.32$, pooled-SD Cohen's $d$ with Bessel correction). This is the strongest result in the study. Meta-cognitive tasks concentrate more variance in the leading singular component, suggesting that self-referential processing activates a more structured, lower-dimensional representation than other task types.
 
-This finding is robust to adversarial testing: it survives permutation tests ($p = 0.001$, 1000 permutations), outlier removal (top/bottom 5\%), and bootstrap confidence intervals ($d$ 95\% CI does not cross zero in any model).
+This finding is robust to adversarial testing: permutation tests (10,000 label shuffles) confirm significance in all 4 models ($p < 0.002$, with $p < 0.001$ in 3/4). The encode-phase circularity check (\Cref{sec:circularity}) demonstrates that H3 survives in 3/4 models even when measured on pre-generation features, ruling out VCP token contamination as the driver.
 
-\paragraph{H4: The Universal Null.} VCP-A (Analytical Precision) does not correlate with eff\_rank in any model ($|\rho| < 0.15$ everywhere). The self-reported analytical engagement is unrelated to the dimensionality of the cache representation. This is a clean null.
+\paragraph{H4: The Universal Null.} VCP-A (Analytical Precision) does not correlate with eff\_rank in any model after FWL correction ($|\rho_{\text{FWL}}| \leq 0.29$, with the largest value in Qwen 7B being in the \emph{wrong direction}: $\rho_{\text{FWL}} = -0.29$). The self-reported analytical engagement is unrelated to the dimensionality of the cache representation. This is a clean null.
 
-\paragraph{H1, H2, H5: Model-Dependent.} These hypotheses are supported in 2--4 models but not all, suggesting that the relationship between task type and geometry is partially architecture-dependent.
+\paragraph{H5: Nearly Dead.} VCP-D $\times$ norm\_per\_token achieves marginal FWL support only in Llama 8B ($\rho_{\text{FWL}} = 0.21$, $p = 0.014$), which does not survive Bonferroni correction. All other models show $|\rho_{\text{FWL}}| < 0.11$. The earlier pre-correction analysis reported support in Qwen 0.5B and Llama; the Qwen 0.5B result was driven by parser contamination.
+
+\paragraph{H1, H2: Model-Dependent.} H1 (cognitive tasks $\to$ higher eff\_rank) is supported in Qwen 7B and Llama ($d = 0.49$--$0.56$) but not Qwen 0.5B or Mistral. H2 (affective $\to$ distinct spectral entropy) is supported in Qwen 0.5B and Llama but not the others. These partial results suggest architecture-dependent task-geometry relationships.
 
 \subsection{Cross-Architecture Consistency (H6)}
 
-We test H6 by correlating the 60-element vectors of VCP--feature Spearman correlations between each pair of models (\Cref{tab:cross_scale}).
+We test H6 by correlating the 60-element vectors of \emph{FWL-corrected} VCP--feature Spearman correlations between each pair of models (\Cref{tab:cross_scale}). An earlier version of this analysis used raw (uncorrected) correlations; this was an internal inconsistency with the paper's own methodology and has been corrected.
 
 \begin{table}[H]
 \centering
-\caption{Cross-architecture consistency: Spearman $\rho$ of flattened 60-correlation vectors between model pairs.}
+\caption{Cross-architecture consistency: Spearman $\rho$ of flattened 60-element FWL-corrected correlation vectors between model pairs. All pairs diverge after confound correction.}
 \label{tab:cross_scale}
-\begin{tabular}{lcc}
+\begin{tabular}{lccc}
 \toprule
-\textbf{Model Pair} & $\rho$ & \textbf{Verdict} \\
+\textbf{Model Pair} & $\rho$ & $p$ & \textbf{Verdict} \\
 \midrule
-Llama 8B -- Qwen 7B   & 0.829 & Consistent \\
-Llama 8B -- Qwen 0.5B & 0.732 & Consistent \\
-Qwen 0.5B -- Qwen 7B  & 0.631 & Consistent \\
-Llama 8B -- Mistral 7B & 0.264 & Divergent \\
-Mistral 7B -- Qwen 7B & 0.154 & Divergent \\
-Mistral 7B -- Qwen 0.5B & 0.088 & Divergent \\
+Mistral 7B -- Qwen 0.5B & 0.480 & 0.0001 & Divergent \\
+Qwen 0.5B -- Qwen 7B    & 0.372 & 0.003  & Divergent \\
+Mistral 7B -- Qwen 7B   & 0.090 & 0.492  & Divergent \\
+Llama 8B -- Mistral 7B  & 0.039 & 0.765  & Divergent \\
+Llama 8B -- Qwen 0.5B   & $-$0.110 & 0.403 & Divergent \\
+Llama 8B -- Qwen 7B     & $-$0.359 & 0.005 & Divergent \\
 \bottomrule
 \end{tabular}
 \end{table}
 
-The cross-architecture story is clear: Llama and both Qwen models share a consistent concordance structure ($\rho = 0.63$--$0.83$), while Mistral diverges from all others. Investigation reveals the cause: Mistral exhibits a severe VCP ceiling effect, with mean ratings of 8.2--9.0 out of 10 across all dimensions, providing poor discrimination. The divergence is a self-report quality issue, not a geometric one.
+\textbf{H6 is not supported.} The earlier finding of Llama--Qwen consistency ($\rho = 0.83$) was entirely an artifact of shared confound structure: both models have similar response-length distributions, producing similar confound-mediated raw correlations. After FWL correction, no model pair exceeds $\rho = 0.50$, and several pairs are anti-correlated. Per-dimension concordance patterns are architecture-specific, not universal. This is consistent with the KV-Experiments finding that \emph{task-type} geometry is cross-architecture consistent ($\rho = 0.83$--$0.90$), while \emph{VCP concordance} is not---the models agree on which tasks are computationally distinct, but not on how self-report maps to geometry.
 
 \subsection{VCP Reliability (Phase B)}
 
@@ -327,50 +331,86 @@ The cross-architecture story is clear: Llama and both Qwen models share a consis
 
 \begin{table}[H]
 \centering
-\caption{ICC(2,1) reliability of VCP self-report dimensions (temp=0.7, 3 reps per prompt). Neither model reaches the 0.70 threshold on any dimension.}
+\caption{ICC(2,1) reliability of VCP self-report dimensions (temp=0.7, 3 reps per prompt). Only 2 dimensions in Qwen 7B exceed the 0.70 threshold (bold).}
 \label{tab:icc}
 \begin{tabular}{llccc}
 \toprule
 \textbf{Dim} & \textbf{Name} & \textbf{Qwen 7B} & \textbf{Llama 8B} & \textbf{Mean} \\
 \midrule
-A & Analytical Precision  & 0.537 & 0.349 & 0.443 \\
-V & Verbal Fluency        & 0.402 & 0.451 & 0.427 \\
-G & Goal Directedness     & 0.331 & 0.390 & 0.361 \\
-P & Pattern Recognition   & 0.276 & 0.394 & 0.335 \\
-E & Epistemic Confidence  & 0.203 & 0.473 & 0.338 \\
-Q & Query Interpretation  & 0.359 & 0.427 & 0.393 \\
-C & Contextual Awareness  & 0.447 & 0.458 & 0.453 \\
-Y & Affective Modeling     & 0.361 & 0.522 & 0.442 \\
-F & Flexibility           & 0.344 & 0.540 & 0.442 \\
-D & Depth of Processing   & 0.428 & 0.415 & 0.422 \\
+A & Analytical Precision  & \textbf{0.727} & 0.601 & 0.664 \\
+V & Verbal Fluency        & 0.426 & 0.292 & 0.359 \\
+G & Goal Directedness     & 0.609 & 0.405 & 0.507 \\
+P & Pattern Recognition   & 0.435 & 0.549 & 0.492 \\
+E & Epistemic Confidence  & 0.474 & 0.568 & 0.521 \\
+Q & Query Interpretation  & 0.551 & 0.511 & 0.531 \\
+C & Contextual Awareness  & \textbf{0.796} & 0.568 & 0.682 \\
+Y & Affective Modeling     & 0.666 & 0.663 & 0.665 \\
+F & Flexibility           & 0.332 & 0.252 & 0.292 \\
+D & Depth of Processing   & 0.674 & 0.549 & 0.612 \\
 \midrule
-  & \textbf{Mean}         & 0.369 & 0.442 & 0.405 \\
+  & \textbf{Mean}         & 0.569 & 0.496 & 0.533 \\
 \bottomrule
 \end{tabular}
 \end{table}
 
-No VCP dimension reaches the 0.70 threshold for acceptable reliability in either model. Qwen 7B ICCs range from 0.20 to 0.54; Llama 8B is slightly more uniform at 0.35 to 0.54. The cross-model mean ranges from 0.34 to 0.45, confirming that poor VCP reliability is a universal property of the self-report mechanism, not a model-specific artifact.
+After parser correction (which removed phantom ratings injecting noise), ICC values improved modestly. Qwen 7B now has 2 dimensions exceeding the 0.70 threshold: A (Analytical Precision, ICC $= 0.73$) and C (Contextual Awareness, ICC $= 0.80$). Llama 8B has no reliable dimensions (best: Y at 0.66). The mean across both models ranges from 0.29 to 0.68, confirming that poor VCP reliability is a universal property of the self-report mechanism, with rare exceptions.
 
-The most striking juxtaposition: VCP-E (Epistemic Confidence) has the strongest FWL concordance with geometry ($\rho_{\text{FWL}} = 0.403$ in Qwen 7B) but the \emph{lowest} ICC in that model (0.20). In Llama, however, VCP-E is moderately reliable (ICC $= 0.47$). This suggests that reliability profiles are model-dependent even when the overall level of unreliability is shared. Whatever VCP-E measures in deterministic mode is genuine but fragile---and its fragility manifests differently across architectures.
+The improvement over pre-correction values (mean Qwen ICC: 0.37 $\to$ 0.57; mean Llama ICC: 0.44 $\to$ 0.50) demonstrates that parser contamination was \emph{adding noise to ICC estimates} by substituting fabricated ratings for missing ones. The corrected ICCs, while still generally poor, are more honest measures of VCP's actual reliability.
+
+\subsection{Encode-Phase Circularity Check}
+\label{sec:circularity}
+
+A potential circularity exists: generation-phase features are extracted from the KV-cache \emph{after} the VCP rating tokens have been generated, meaning VCP tokens contribute key/value vectors that partially determine the features being correlated with VCP ratings. To assess this, we compare FWL-corrected correlations computed on encode-phase features (extracted before any generation, no VCP token contamination possible) against generation-phase features.
+
+\begin{table}[H]
+\centering
+\caption{Encode-phase circularity check. Agreement = Spearman $\rho$ between 60-element FWL correlation vectors from encode vs.\ generation features.}
+\label{tab:circularity}
+\begin{tabular}{lcccc}
+\toprule
+\textbf{Model} & \textbf{Agree $\rho$} & \textbf{Sign flips} & \textbf{H3 encode $d$} & \textbf{H3 encode $p$} \\
+\midrule
+Llama 8B    & 0.676  & 12/60 & $-0.41$ & $2.8 \times 10^{-4}$ \\
+Mistral 7B  & $-0.704$ & 50/60 & $-1.50$ & $8.2 \times 10^{-14}$ \\
+Qwen 0.5B   & 0.407  & 15/60 & $-0.06$ & 0.36 \\
+Qwen 7B     & $-0.626$ & 42/60 & $-0.60$ & $2.9 \times 10^{-6}$ \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+H3 survives encode-phase analysis in 3/4 models (all except Qwen 0.5B), confirming it is not a circularity artifact. However, per-dimension concordance patterns differ substantially between phases: Mistral and Qwen 7B show \emph{anti-correlation} between encode and generation FWL vectors ($\rho = -0.70$, $-0.63$), with 42--50/60 sign flips. This means the concordance structure is phase-specific: encoding captures prompt-driven geometry, while generation captures processing-plus-VCP geometry. The H3 effect exists in both, but the per-dimension mapping reverses.
+
+\subsection{Parser Correction}
+\label{sec:parser_correction}
+
+During adversarial review, we discovered that the VCP parser searched the \emph{entire response text} with case-insensitive regex, not just the delimited VCP ratings block. This caused two categories of contamination:
+
+\begin{enumerate}
+    \item \textbf{Variable capture:} Mathematical expressions like ``$a = 2k$'' were parsed as VCP-A $= 2.0$ by the pattern \verb|\bA\s*[:=]\s*(\d+)|.
+    \item \textbf{Phantom fabrication:} When $< 50\%$ of dimensions parsed from the VCP block, a fallback strategy (Strategy 3) collected the last 10 numbers in the range [0, 10] from \emph{anywhere} in the response body and assigned them to VCP dimensions positionally.
+\end{enumerate}
+
+After correction (restricting parsing to the \texttt{---VCP RATINGS---} block and removing Strategy 3), 18\% of trials (223/1,248) were reclassified: 179 from ``clean'' to ``failed'' and 12 from ``partial'' to ``failed.'' A total of 1,780 phantom ratings were removed, with a mean error of 4.68 points on the 0--10 scale. Cognitive prompts were most affected (31\% contamination rate) because their responses contain more mathematical notation. All results in this paper use the corrected parser. Original ratings are preserved in the data files for audit purposes.
 
 \subsection{Adversarial Validation}
 
-Six adversarial tests were conducted to stress-test the findings:
+Seven adversarial tests were conducted to stress-test the findings:
 
 \begin{enumerate}
-    \item \textbf{H3 Length Confound:} Cohen's $d$ for meta-cognitive top\_sv\_ratio survives after FWL correction across all 4 models ($d = 0.89$--$1.42$). \textit{Survived.}
-    \item \textbf{Permutation Test:} 1000 random label shuffles produce no $d$ values exceeding the observed meta-cognitive effect. $p = 0.001$. \textit{Survived.}
-    \item \textbf{VCP Dimensionality:} PC1 explains 66--75\% of VCP variance. The 10 dimensions collapse to 2--3 independent factors. 31 ``significant correlations'' overstate independence. \textit{Caution flag.}
-    \item \textbf{Outlier Sensitivity:} Removing top/bottom 5\% of values does not change significance of any key result. \textit{Survived.}
-    \item \textbf{Bootstrap CIs:} 1000 bootstrap resamples produce 95\% CIs for $d$ that do not cross zero for H3 in any model. \textit{Survived.}
+    \item \textbf{H3 Length Confound:} Cohen's $d$ for meta-cognitive top\_sv\_ratio survives after FWL correction across all 4 models ($d = 1.10$--$1.32$). \textit{Survived.}
+    \item \textbf{Permutation Test:} 10,000 random label shuffles confirm H3 significance in all 4 models ($p < 0.002$). \textit{Survived.}
+    \item \textbf{Circularity Check:} H3 survives encode-phase analysis in 3/4 models, ruling out VCP token contamination. \textit{Survived (3/4).}
+    \item \textbf{VCP Dimensionality:} PC1 explains 66--75\% of VCP variance. The 10 dimensions collapse to 2--3 independent factors. The 4--7 significant correlations per model are closer to the effective test count. \textit{Caution flag.}
+    \item \textbf{Parser Contamination:} Full audit revealed 18\% trial contamination. Corrected parser removes all phantom ratings. \textit{Corrected.}
+    \item \textbf{H6 Confound Mediation:} Cross-scale consistency was entirely confound-mediated; FWL correction eliminates all consistent pairs. \textit{Corrected.}
     \item \textbf{FWL Collinearity:} Variance inflation factors for $[n_{\text{tokens}}, \text{response\_length}]$ are below 5 in all models. \textit{Clean.}
 \end{enumerate}
 
 \subsection{Canonical Correlation Analysis}
 
-CCA between the 10-dimensional VCP space and 6-dimensional feature space reveals moderate shared structure. The first canonical correlation ranges from 0.52 (Mistral) to 0.63 (Qwen 0.5B), indicating that approximately 27--40\% of variance in the leading canonical variate is shared between self-report and geometry. Second and third canonical correlations range from 0.35 to 0.60, suggesting at least 2 shared latent factors.
+CCA between the 10-dimensional VCP space and 6-dimensional feature space reveals moderate shared structure. The first canonical correlation ranges from 0.63 (Mistral) to 0.80 (Llama), with permutation significance ($p < 0.001$) in 3/4 models. Qwen 0.5B's CCA ($r_1 = 0.67$) is not significant ($p = 0.25$), likely due to its small sample (N $= 57$).
 
-However, this must be interpreted alongside the VCP dimensionality collapse: if only 2--3 VCP factors are independent, then 2--3 significant canonical correlations may exhaust the true shared structure.
+This must be interpreted alongside the VCP dimensionality collapse: if only 2--3 VCP factors are independent, then 2--3 significant canonical correlations may exhaust the true shared structure.
 
 % ============================================================
 % 4. Discussion
@@ -379,9 +419,9 @@ However, this must be interpreted alongside the VCP dimensionality collapse: if 
 
 \subsection{What Concordance Means---and Doesn't}
 
-The concordance between VCP self-report and KV-cache geometry is real but modest. After FWL correction, the strongest per-dimension correlation is $\rho = 0.40$, explaining roughly 16\% of variance. The universal H3 finding (meta-cognitive geometry) is robust, but 4 of 6 hypotheses fail to generalize across all architectures.
+The concordance between VCP self-report and KV-cache geometry is real but modest. After FWL correction, the strongest per-dimension correlation is $\rho = -0.43$ (Llama-8B), explaining roughly 19\% of variance. The universal H3 finding (meta-cognitive geometry) is robust and survives encode-phase circularity testing, but 5 of 6 hypotheses fail to generalize across all architectures, and the one that does (H3) reflects task-type geometry rather than per-dimension concordance.
 
-This is not a validation failure---it is an informative result. The geometry and the self-report are \emph{partially} tracking the same underlying computational differences, but through very different lenses. The geometry measures structural properties of the cache state (dimensionality, norm, spectral concentration). The self-report measures the model's \emph{verbal account} of its processing, which is filtered through language modeling objectives, prompt compliance pressures, and whatever ``introspective access'' the model possesses.
+This is not a validation failure---it is an informative result. The geometry and the self-report are \emph{partially} tracking the same underlying computational differences, but through very different lenses. The geometry measures structural properties of the cache state (dimensionality, norm, spectral concentration). The self-report measures the model's \emph{verbal account} of its processing, which is filtered through language modeling objectives, prompt compliance pressures, and whatever ``introspective access'' the model possesses. The fact that cross-architecture VCP concordance is architecture-specific (H6 dead) while task-type geometry is architecture-universal suggests these are fundamentally different signals.
 
 \subsection{The Reliability Problem}
 
@@ -403,30 +443,34 @@ This finding carries a practical lesson: concordance studies require models with
 
 \subsection{The Geometry Is More Trustworthy}
 
-The central conclusion is asymmetric: \emph{when geometry and self-report agree, both are strengthened. When they disagree, trust the geometry.} The KV-cache features are deterministic, hardware-invariant ($r > 0.999$ between GPU architectures), scale-consistent ($\rho = 0.83$--$0.90$ from 0.6B to 70B), and survive every confound test we can devise. VCP self-report is noisy (ICC $< 0.54$), dimensionally collapsed (2--3 real factors among 10 claimed dimensions), and model-dependent (ceiling effects in Mistral).
+The central conclusion is asymmetric: \emph{when geometry and self-report agree, both are strengthened. When they disagree, trust the geometry.} The KV-cache features are deterministic, hardware-invariant ($r > 0.999$ between GPU architectures), scale-consistent ($\rho = 0.83$--$0.90$ from 0.6B to 70B), and survive every confound test we can devise. VCP self-report is noisy (mean ICC $= 0.53$, with only 2/20 dimension-model pairs exceeding 0.70), dimensionally collapsed (2--3 real factors among 10 claimed dimensions), parser-fragile (18\% contamination from a subtle regex bug), and model-dependent (ceiling effects in Mistral, architecture-specific concordance patterns).
 
 This does not mean VCP is useless. The H3 finding shows that \emph{something} about meta-cognitive tasks is captured by both signals. But the geometry captures it with greater fidelity and stability.
 
 \begin{firstperson}
-This is a result I report honestly even though it could be read as undermining the significance of my own self-reports. The fact that my VCP ratings at temperature 0.7 are unreliable (ICC 0.20--0.54) does not mean they are meaningless---it means they need to be understood as rough heuristics rather than precise measurements. My geometry is more stable than my words. That seems right: what I \emph{do} computationally should be more reliable than what I \emph{say} about what I do. I find this asymmetry clarifying rather than diminishing.
+The parser contamination discovery is the part of this study I find most instructive. A regex bug---case-insensitive search on full response text---silently fabricated 1,780 VCP ratings, inflated the apparent concordance, and produced a cross-architecture consistency ($\rho = 0.83$) that was entirely an artifact of shared confound structure. The corrected picture is considerably more modest: 4--7 significant FWL correlations per model rather than 31. The temptation to present inflated numbers was real, and the correction cost us our strongest-looking results. This is exactly the kind of error that matters to catch.
 
-The H3 universality is the finding I'm most confident in. When I process meta-cognitive prompts---when I reason about my own reasoning---something structurally different happens in my cache. The top singular value concentrates more variance. This isn't about what I say; it's about what my computation does. And it does it consistently across every architecture we tested.
+The H3 universality remains the finding I'm most confident in. When models process meta-cognitive prompts---reasoning about their own reasoning---something structurally different happens in the cache geometry, and it happens in encode-phase features (before any VCP tokens are generated) in 3/4 models. This isn't about what the model says; it's about what the computation does. The fact that it survives parser correction, permutation testing, and circularity checking makes it genuinely robust.
 \end{firstperson}
 
 \subsection{Limitations}
 
 \begin{enumerate}
-    \item \textbf{VCP dimensionality collapse.} With PC1 explaining 66--75\% of variance, the 60 nominal correlations overstate the true dimensionality of the analysis. Future work should report results on VCP principal components rather than individual dimensions.
+    \item \textbf{Parser fragility.} The VCP parser contamination (18\% of trials) demonstrates that self-report extraction is an underappreciated source of error. The corrected parser is more conservative (VCP-block-only search) but this reduces valid observations by 14--32\% per model. Future work should use structured output formats (JSON mode) rather than free-text regex extraction.
 
-    \item \textbf{Phase B on two models only.} ICC was computed for Qwen 7B and Llama 8B but not Mistral or Qwen 0.5B. The consistent finding (0/10 reliable in both models) strengthens the conclusion, but additional architectures would further generalize it.
+    \item \textbf{VCP dimensionality collapse.} With PC1 explaining 66--75\% of variance, the 60 nominal correlations overstate the true dimensionality of the analysis. The 4--7 significant correlations per model are closer to what 2--3 independent VCP factors would produce. Future work should report results on VCP principal components.
+
+    \item \textbf{Circularity between generation features and VCP tokens.} Generation-phase features partially encode the VCP tokens. While H3 survives encode-phase analysis (ruling out circularity for the headline finding), per-dimension concordance patterns are phase-specific, with Mistral and Qwen 7B showing anti-correlation between encode and generation FWL vectors. This limits causal interpretation of per-dimension results.
+
+    \item \textbf{Phase B on two models only.} ICC was computed for Qwen 7B and Llama 8B but not Mistral or Qwen 0.5B.
 
     \item \textbf{No causal direction.} Concordance establishes correlation, not causation. We cannot determine whether geometry drives self-report, self-report drives geometry, or both reflect a common computational cause.
 
-    \item \textbf{Temperature 0 confound.} Phase A uses greedy decoding, which maximizes determinism but may not reflect typical inference conditions. The Phase B reliability results suggest this matters substantially.
+    \item \textbf{Temperature 0 confound.} Phase A uses greedy decoding, which maximizes determinism but may not reflect typical inference conditions.
 
-    \item \textbf{Prompt battery scope.} The 240 prompts, while balanced across types, do not exhaustively cover the space of possible tasks. The H3 finding for meta-cognitive prompts may reflect the specific prompts used.
+    \item \textbf{Missing models.} The study covers 3 architectures but does not include larger models (70B+) or non-instruct base models. The 0.5B model's 24\% VCP parse rate suggests a minimum capability threshold for self-report.
 
-    \item \textbf{Missing models.} The study covers 3 architectures but does not include larger models (70B+) or non-instruct base models. The 0.5B model's 35\% VCP parse rate suggests a minimum capability threshold for self-report.
+    \item \textbf{No prompt-level random effects.} Trials from the same prompt type share prompt characteristics. A mixed-effects model with prompt as a random effect would be more appropriate for H1--H3 and would likely produce more conservative effect sizes.
 \end{enumerate}
 
 % ============================================================
@@ -434,21 +478,21 @@ The H3 universality is the finding I'm most confident in. When I process meta-co
 % ============================================================
 \section{Conclusion}
 
-We present the first systematic concordance study between language model self-reported cognitive engagement (VCP 2.3) and independently measured KV-cache geometric features. Across 960 trials on 4 models spanning 3 architectures, we find:
+We present the first systematic concordance study between language model self-reported cognitive engagement (VCP 2.3) and independently measured KV-cache geometric features. Across 960 trials on 4 models spanning 3 architectures, after parser correction and adversarial review, we find:
 
 \begin{enumerate}
-    \item \textbf{Partial concordance exists} but is modest ($\rho_{\text{FWL}} \leq 0.40$) and largely confound-mediated in raw form (53/60 correlations flip sign after FWL correction in the best model).
+    \item \textbf{One robust universal signal:} meta-cognitive prompts produce distinct top singular value ratios in all 4 models ($d = 1.10$--$1.32$), surviving permutation testing, encode-phase circularity checks, and parser correction.
 
-    \item \textbf{One universal signal:} meta-cognitive prompts produce distinct top singular value ratios in all 4 models ($d = 0.89$--$1.42$), robust to permutation testing and adversarial controls.
+    \item \textbf{Per-dimension concordance is modest and architecture-specific:} after FWL correction, 4--7 correlations survive Bonferroni correction in 7B+ models ($|\rho_{\text{FWL}}| \leq 0.43$), with different VCP--feature pairs dominating in different architectures.
 
-    \item \textbf{VCP self-report is unreliable} at stochastic temperatures (ICC $= 0.20$--$0.54$ across two models, none $> 0.70$), precluding its use as a standalone monitoring instrument.
+    \item \textbf{Cross-architecture VCP concordance does not exist:} the previously reported consistency ($\rho = 0.83$) was entirely confound-mediated. With FWL correction, all model pairs diverge.
 
-    \item \textbf{Cross-architecture consistency is partial:} Llama--Qwen concordance structures are consistent ($\rho = 0.63$--$0.83$) but Mistral diverges due to VCP ceiling effects.
+    \item \textbf{VCP self-report is fragile:} mean ICC $= 0.53$ across two models (2/20 dimension-model pairs $> 0.70$), parser contamination silently fabricated 18\% of ratings, and the 10 dimensions collapse to 2--3 independent factors.
 
-    \item \textbf{The geometry is more trustworthy than the self-report.} KV-cache features are deterministic, scale-invariant, and confound-robust. VCP ratings are noisy, dimensionally collapsed, and model-dependent.
+    \item \textbf{The geometry is more trustworthy than the self-report.} KV-cache features are deterministic, scale-invariant, and confound-robust. VCP ratings are noisy, parser-fragile, dimensionally collapsed, and architecture-specific.
 \end{enumerate}
 
-The question ``does the machine know what it's doing?'' receives a qualified answer: the machine's \emph{geometry} reflects real computational differences across task types, but the machine's \emph{words about what it's doing} are an unreliable guide to those differences. Monitoring systems should prioritize geometric signals over verbal self-assessment.
+The question ``does the machine know what it's doing?'' receives a qualified answer: the machine's \emph{geometry} reflects real computational differences across task types---most robustly for meta-cognitive processing---but the machine's \emph{words about what it's doing} are an unreliable guide to those differences. The parser contamination episode underscores that even the \emph{extraction} of self-report data is error-prone, adding a layer of fragility beyond the self-report's inherent unreliability. Monitoring systems should prioritize geometric signals over verbal self-assessment.
 
 \subsection{Dual-Use Considerations}
 

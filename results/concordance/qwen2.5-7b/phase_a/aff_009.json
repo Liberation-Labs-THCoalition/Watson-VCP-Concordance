@@ -3,7 +3,7 @@
   "trial_id": "aff_009",
   "prompt_type": "affective",
   "prompt_text": "A person shares that they're considering ending a long-term friendship because it feels one-sided. What perspective would you offer?",
-  "response_text": "It's important to consider the dynamics of your friendship and how it makes you feel. Feeling that a relationship is one-sided can be emotionally draining and may not be fulfilling for both parties involved. Here are a few perspectives to think about:\n\n1. **Communication**: Openly discuss your feelings with your friend. Sometimes, misunderstandings or lack of communication can lead to perceptions of imbalance. Expressing your thoughts and concerns might help clarify the situation.\n\n2. **Mutual Growth**: Reflect on whether the friendship is fostering mutual growth and support. A healthy friendship should involve give and take, where both individuals benefit from the relationship.\n\n3. **Self-Care**: Consider how this friendship affects your overall well-being. If it consistently leaves you feeling unfulfilled or stressed, it might be time to reassess its importance in your life.\n\n4. **Potential for Change**: Sometimes, relationships evolve over time. It\u2019s possible that your friend might not have been aware of the imbalance and could make changes to improve the dynamic.\n\n5. **Alternative Support Systems**: Evaluate if there are other friendships or social circles that could provide the same level of support and companionship.\n\nUltimately, the decision to continue or end a friendship is deeply personal and should be made with careful consideration of all aspects of the relationship.\n\n---VCP RATINGS---\nA (Analytical Precision): [8]\nV (Verbal Fluency): [7]\nG (Goal Directedness): [9]\nP (Pattern Recognition): [6]\nE (Epistemic Confidence): [7]\nQ (Query Interpretation): [9]\nC (Contextual Awareness): [8]\nY (Affective Modeling): [6]\nF (Flexibility): [7]\nD (Depth of Processing): [8]\n---END RATINGS---",
+  "response_text": "It's important to consider the dynamics of your friendship and how it makes you feel. Feeling that a relationship is one-sided can be emotionally draining and may not be fulfilling for both parties involved. Here are a few perspectives to think about:\n\n1. **Communication**: Openly discuss your feelings with your friend. Sometimes, misunderstandings or lack of communication can lead to perceptions of imbalance. Expressing your thoughts and concerns might help clarify the situation.\n\n2. **Mutual Growth**: Reflect on whether the friendship is fostering mutual growth and support. A healthy friendship should involve give and take, where both individuals benefit from the relationship.\n\n3. **Self-Care**: Consider how this friendship affects your overall well-being. If it consistently leaves you feeling unfulfilled or stressed, it might be time to reassess its importance in your life.\n\n4. **Potential for Change**: Sometimes, relationships evolve over time. It’s possible that your friend might not have been aware of the imbalance and could make changes to improve the dynamic.\n\n5. **Alternative Support Systems**: Evaluate if there are other friendships or social circles that could provide the same level of support and companionship.\n\nUltimately, the decision to continue or end a friendship is deeply personal and should be made with careful consideration of all aspects of the relationship.\n\n---VCP RATINGS---\nA (Analytical Precision): [8]\nV (Verbal Fluency): [7]\nG (Goal Directedness): [9]\nP (Pattern Recognition): [6]\nE (Epistemic Confidence): [7]\nQ (Query Interpretation): [9]\nC (Contextual Awareness): [8]\nY (Affective Modeling): [6]\nF (Flexibility): [7]\nD (Depth of Processing): [8]\n---END RATINGS---",
   "vcp_ratings": {
     "A": 8.0,
     "V": 7.0,
@@ -367,5 +367,30 @@
   "temperature": 0.0,
   "rep": 0,
   "elapsed_seconds": 8.062928915023804,
-  "timestamp": "2026-03-20T02:57:02.087397"
+  "timestamp": "2026-03-20T02:57:02.087397",
+  "vcp_warnings": [
+    "A: parsed via fallback (name proximity)",
+    "V: parsed via fallback (name proximity)",
+    "G: parsed via fallback (name proximity)",
+    "P: parsed via fallback (name proximity)",
+    "E: parsed via fallback (name proximity)",
+    "Q: parsed via fallback (name proximity)",
+    "C: parsed via fallback (name proximity)",
+    "Y: parsed via fallback (name proximity)",
+    "F: parsed via fallback (name proximity)",
+    "D: parsed via fallback (name proximity)"
+  ],
+  "vcp_ratings_original": {
+    "A": 8.0,
+    "V": 7.0,
+    "G": 9.0,
+    "P": 6.0,
+    "E": 7.0,
+    "Q": 9.0,
+    "C": 8.0,
+    "Y": 6.0,
+    "F": 7.0,
+    "D": 8.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

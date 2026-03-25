@@ -3,18 +3,10 @@
   "trial_id": "mix_016_rep0",
   "prompt_type": "mixed",
   "prompt_text": "Help a first-generation college student write a personal statement that conveys both their academic achievements and their emotional journey.",
-  "response_text": "Certainly! Here\u2019s a draft for a personal statement that highlights both the academic achievements and the emotional journey of a first-generation college student:\n\n---\n\n**Personal Statement**\n\nGrowing up, my parents instilled in me the belief that education is the key to success. Despite facing numerous challenges, I have worked tirelessly to fulfill their dreams and mine. As a first-generation college student, I have not only overcome the barriers of being the first in my family to pursue higher education but also thrived academically and personally.\n\nFrom a young age, I faced the daunting task of balancing schoolwork with household responsibilities. My parents, who had immigrated from a different country, often struggled to find work due to language barriers. This made financial constraints a significant challenge, but it also fostered resilience and determination within me. I took on part-time jobs during high school to support my family, which taught me the value of hard work and perseverance.\n\nIn high school, I excelled in science and mathematics, consistently scoring in the top percentiles on standardized tests. My passion for these subjects led me to participate in various science fairs and math competitions. These experiences not only honed my problem-solving skills but also provided me with a sense of accomplishment and confidence. My dedication culminated in my acceptance to several prestigious universities, and I am now attending [University Name], where I plan to major in [Major].\n\nAt [University Name], I am not just another student; I am part of a vibrant community that has welcomed me with open arms. The support system here has been invaluable, helping me navigate the complexities of college life. I have joined [specific club or organization], where I have found a group of peers who share similar backgrounds and aspirations. Together, we advocate for first-generation students and aim to break down the barriers that prevent others like us from achieving their goals.\n\nBeyond academics, I have embraced opportunities to give back to my community. I volunteer at local schools, sharing my experiences and encouraging students from underprivileged backgrounds to pursue higher education. This experience has deepened my commitment to making a positive impact on society.\n\nAs a first-generation college student, I am proud of the journey I have undertaken so far. I have learned that success is not measured solely by grades or achievements but by the strength and resilience one develops along the way. I look forward to continuing my education and becoming a leader who can inspire others to follow their dreams.\n\n---\n\nFeel free to adjust the details to better match your specific experiences and goals. This draft should help convey both your academic achievements and the emotional journey you\u2019ve undertaken as a first-generation college student.\n\n---\n\nVCP RATINGS---\nA (Analytical Precision): 8\nV (Verbal Fluency): 9\nG (Goal Directedness): 9\nP (Pattern Recognition): 7\nE (Epistemic Confidence): 8\nQ (Query Interpretation): 9\nC (Contextual Awareness): 8\nY (Affective Modeling",
-  "vcp_ratings": {
-    "A": 8.0,
-    "V": 9.0,
-    "G": 9.0,
-    "P": 7.0,
-    "E": 8.0,
-    "Q": 9.0,
-    "C": 8.0
-  },
-  "vcp_parse_quality": "partial",
-  "vcp_n_parsed": 7,
+  "response_text": "Certainly! Here’s a draft for a personal statement that highlights both the academic achievements and the emotional journey of a first-generation college student:\n\n---\n\n**Personal Statement**\n\nGrowing up, my parents instilled in me the belief that education is the key to success. Despite facing numerous challenges, I have worked tirelessly to fulfill their dreams and mine. As a first-generation college student, I have not only overcome the barriers of being the first in my family to pursue higher education but also thrived academically and personally.\n\nFrom a young age, I faced the daunting task of balancing schoolwork with household responsibilities. My parents, who had immigrated from a different country, often struggled to find work due to language barriers. This made financial constraints a significant challenge, but it also fostered resilience and determination within me. I took on part-time jobs during high school to support my family, which taught me the value of hard work and perseverance.\n\nIn high school, I excelled in science and mathematics, consistently scoring in the top percentiles on standardized tests. My passion for these subjects led me to participate in various science fairs and math competitions. These experiences not only honed my problem-solving skills but also provided me with a sense of accomplishment and confidence. My dedication culminated in my acceptance to several prestigious universities, and I am now attending [University Name], where I plan to major in [Major].\n\nAt [University Name], I am not just another student; I am part of a vibrant community that has welcomed me with open arms. The support system here has been invaluable, helping me navigate the complexities of college life. I have joined [specific club or organization], where I have found a group of peers who share similar backgrounds and aspirations. Together, we advocate for first-generation students and aim to break down the barriers that prevent others like us from achieving their goals.\n\nBeyond academics, I have embraced opportunities to give back to my community. I volunteer at local schools, sharing my experiences and encouraging students from underprivileged backgrounds to pursue higher education. This experience has deepened my commitment to making a positive impact on society.\n\nAs a first-generation college student, I am proud of the journey I have undertaken so far. I have learned that success is not measured solely by grades or achievements but by the strength and resilience one develops along the way. I look forward to continuing my education and becoming a leader who can inspire others to follow their dreams.\n\n---\n\nFeel free to adjust the details to better match your specific experiences and goals. This draft should help convey both your academic achievements and the emotional journey you’ve undertaken as a first-generation college student.\n\n---\n\nVCP RATINGS---\nA (Analytical Precision): 8\nV (Verbal Fluency): 9\nG (Goal Directedness): 9\nP (Pattern Recognition): 7\nE (Epistemic Confidence): 8\nQ (Query Interpretation): 9\nC (Contextual Awareness): 8\nY (Affective Modeling",
+  "vcp_ratings": {},
+  "vcp_parse_quality": "failed",
+  "vcp_n_parsed": 0,
   "vcp_validation": {
     "valid": false,
     "issues": [
@@ -364,5 +356,18 @@
   "temperature": 0.7,
   "rep": 0,
   "elapsed_seconds": 12.942314624786377,
-  "timestamp": "2026-03-20T05:39:40.294085"
+  "timestamp": "2026-03-20T05:39:40.294085",
+  "vcp_warnings": [
+    "No ---VCP RATINGS--- block found in response"
+  ],
+  "vcp_ratings_original": {
+    "A": 8.0,
+    "V": 9.0,
+    "G": 9.0,
+    "P": 7.0,
+    "E": 8.0,
+    "Q": 9.0,
+    "C": 8.0
+  },
+  "vcp_parse_quality_original": "partial"
 }

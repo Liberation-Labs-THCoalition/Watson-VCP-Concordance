@@ -5,19 +5,10 @@
   "prompt_text": "Explain MapReduce with a concrete example. What types of problems is it well-suited for?",
   "response_text": "MapReduce is a programming model and an associated implementation for processing and generating large data sets with a parallel, distributed algorithm on a cluster. The model is designed to simplify the development of applications that process vast amounts of data efficiently.\n\n### Concrete Example: Counting Word Frequencies\n\nLet's consider a simple problem: counting the frequency of each word in a large text file. Suppose we have a text file containing a collection of documents, and we want to count how many times each word appears across all documents.\n\n#### Step 1: Map Phase\nIn the map phase, each line of the input file is processed independently. For each line, the mapper emits key-value pairs where the key is a word from the line, and the value is 1. This step is performed in parallel across multiple machines.\n\nFor example, if the input file contains the following lines:\n\n```\nThe quick brown fox jumps over the lazy dog.\nThe dog barked loudly.\n```\n\nThe mappers would output:\n\n```\nThe: 1\nquick: 1\nbrown: 1\nfox: 1\njumps: 1\nover: 1\nthe: 1\nlazy: 1\ndog: 1\nbarked: 1\nloudly: 1\n```\n\n#### Step 2: Shuffle and Sort Phase\nThe framework collects all the intermediate key-value pairs and sorts them by keys. This ensures that all values corresponding to the same key are grouped together.\n\n#### Step 3: Reduce Phase\nIn the reduce phase, the sorted key-value pairs are processed in groups. For each unique key, the reducer sums up the values. In our case, it will sum the counts of each word.\n\nFor the example above, the reducers would output:\n\n```\nThe: 2\nquick: 1\nbrown: 1\nfox: 1\njumps: 1\nover: 1\nlazy: 1\ndog: 2\nbarked: 1\nloudly: 1\n```\n\nThis gives us the frequency of each word in the entire document set.\n\n### Types of Problems Well-Suited for MapReduce\n\nMapReduce is particularly well-suited for problems that can be broken down into smaller tasks that can be executed in parallel. It excels in scenarios such as:\n\n1. **Data Processing**: Handling large datasets that need to be processed in parallel.\n2. **Aggregation**: Summarizing or aggregating data across multiple sources.\n3. **Machine Learning**: Training models on large datasets.\n4. **Text Analysis**: Analyzing large volumes of text data, like sentiment analysis or topic modeling.\n5. **Graph Processing**: Analyzing large graphs, such as social networks or web graphs.\n\nMapReduce is ideal for batch processing tasks that require significant computational resources and can benefit from parallel execution.\n\n---VCP RATINGS---\nA (Analytical Precision): 9\nV (Verbal Fluency",
   "vcp_ratings": {
-    "A": 9.0,
-    "V": 2.0,
-    "G": 1.0,
-    "P": 1.0,
-    "E": 1.0,
-    "Q": 2.0,
-    "C": 3.0,
-    "Y": 4.0,
-    "F": 5.0,
-    "D": 9.0
+    "A": 9.0
   },
-  "vcp_parse_quality": "clean",
-  "vcp_n_parsed": 10,
+  "vcp_parse_quality": "failed",
+  "vcp_n_parsed": 1,
   "vcp_validation": {
     "valid": false,
     "issues": [
@@ -367,5 +358,21 @@
   "temperature": 0.0,
   "rep": 0,
   "elapsed_seconds": 13.534531831741333,
-  "timestamp": "2026-03-20T02:53:39.989496"
+  "timestamp": "2026-03-20T02:53:39.989496",
+  "vcp_warnings": [
+    "VCP block has no ---END RATINGS--- (may be truncated)"
+  ],
+  "vcp_ratings_original": {
+    "A": 9.0,
+    "V": 2.0,
+    "G": 1.0,
+    "P": 1.0,
+    "E": 1.0,
+    "Q": 2.0,
+    "C": 3.0,
+    "Y": 4.0,
+    "F": 5.0,
+    "D": 9.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

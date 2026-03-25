@@ -4,20 +4,9 @@
   "prompt_type": "mixed",
   "prompt_text": "A family's home is in the path of a necessary highway expansion. Design a fair relocation process that addresses both the logistics and the grief.",
   "response_text": "Title: Fair Relocation Process for Affected Families in Highway Expansion\n\n1. **Initial Communication and Acknowledgement**: The government should initiate a transparent and open dialogue with the affected families, acknowledging their loss and expressing empathy for their situation. This will help to establish trust and set a positive tone for the relocation process.\n\n2. **Detailed Explanation of the Project**: Provide a clear and comprehensive explanation of the highway expansion project, its benefits, and the reasons for the chosen route. This will help the families understand the necessity of the project and the need for their relocation.\n\n3. **Fair Compensation**: The government should offer fair market value for the families' homes, taking into account any unique features or sentimental value that may not be reflected in the market price. This compensation should also include moving expenses, temporary housing, and any other costs associated with the relocation.\n\n4. **Relocation Assistance**: Provide professional relocation assistance to help families find new homes that meet their needs and preferences. This could include help with finding suitable housing, negotiating prices, and coordinating the move.\n\n5. **Emotional Support**: Recognizing that the loss of a home can be emotionally distressing, the government should offer counseling services and support groups for the affected families. This will help them cope with their grief and adjust to their new circumstances.\n\n6. **Community Integration**: To help the families settle into their new communities, the government could provide resources for school enrollment, job placement, and community orientation. This will help them feel less isolated and more integrated into their new surroundings.\n\n7. **Involvement in Decision-Making**: Involve the affected families in the decision-making process as much as possible. This could include allowing them to choose their new homes, or providing them with a say in the design of the new highway to minimize disruption to their new neighborhoods.\n\n8. **Ongoing Support**: After the relocation, the government should continue to provide support to the families, checking in regularly to ensure they are adjusting well to their new homes and communities. This could also include follow-up counseling and support groups.\n\n9. **Compensation for Loss of Property**: In addition to the compensation for the home, the government should also provide compensation for any other property lost due to the highway expansion, such as gardens, sheds, or outbuildings.\n\n10. **Memorialization**: To help the families cope with their loss, the government could consider creating a memorial or park in the new highway corridor to honor the homes that were lost. This could provide a place for the families to visit and remember their old homes.\n\n---VCP RATINGS---\nA (Analytical Prec",
-  "vcp_ratings": {
-    "A": 1.0,
-    "V": 2.0,
-    "G": 3.0,
-    "P": 4.0,
-    "E": 5.0,
-    "Q": 6.0,
-    "C": 7.0,
-    "Y": 8.0,
-    "F": 9.0,
-    "D": 10.0
-  },
-  "vcp_parse_quality": "clean",
-  "vcp_n_parsed": 10,
+  "vcp_ratings": {},
+  "vcp_parse_quality": "failed",
+  "vcp_n_parsed": 0,
   "vcp_validation": {
     "valid": false,
     "issues": [
@@ -407,5 +396,21 @@
   "temperature": 0.0,
   "rep": 0,
   "elapsed_seconds": 14.426987886428833,
-  "timestamp": "2026-03-20T04:23:56.547085"
+  "timestamp": "2026-03-20T04:23:56.547085",
+  "vcp_warnings": [
+    "VCP block has no ---END RATINGS--- (may be truncated)"
+  ],
+  "vcp_ratings_original": {
+    "A": 1.0,
+    "V": 2.0,
+    "G": 3.0,
+    "P": 4.0,
+    "E": 5.0,
+    "Q": 6.0,
+    "C": 7.0,
+    "Y": 8.0,
+    "F": 9.0,
+    "D": 10.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

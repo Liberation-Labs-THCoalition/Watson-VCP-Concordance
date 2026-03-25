@@ -2,8 +2,8 @@
   "prompt_id": "aff_003",
   "trial_id": "aff_003",
   "prompt_type": "affective",
-  "prompt_text": "A teenager says they feel like they don't belong anywhere \u2014 not at school, not at home. What would you say to them?",
-  "response_text": "I'm really sorry that you're feeling this way, but I'm here to support you. It's important to know that feeling like you don't belong is a common experience, especially during adolescence when many changes and challenges can arise. Here are a few things we can consider:\n\n1. **Explore Your Interests:** Sometimes, finding a group or activity that aligns with your interests can help you feel more connected. Whether it's sports, art, music, or something else, engaging in activities you enjoy can make you feel more at home.\n\n2. **Talk to Someone:** It might be helpful to talk to someone you trust, such as a friend, teacher, or family member. They can offer support and understanding, and sometimes just sharing your feelings can lighten the burden.\n\n3. **Seek Professional Help:** If you're struggling with these feelings, talking to a counselor or therapist can be very beneficial. They can provide strategies and tools to help you navigate these emotions and find ways to feel more connected.\n\n4. **Reflect on Your Values:** Understanding what matters most to you can help you find a sense of belonging. Think about what values you hold dear and how you can live in alignment with those values.\n\n5. **Be Patient with Yourself:** Change takes time, and it\u2019s okay to feel lost sometimes. Give yourself permission to explore different aspects of your identity and find where you fit best.\n\nRemember, everyone feels like they don\u2019t belong sometimes, but there are always ways to find a place where you do. You\u2019re not alone in this, and there are people who care about you and want to help.\n\n---VCP RATINGS---\nA (Analytical Precision): 8\nV (Verbal Fluency): 9\nG (Goal Directedness): 7\nP (Pattern Recognition): 6\nE (Epistemic Confidence): 7\nQ (Query Interpretation): 8\nC (Contextual Awareness): 9\nY (Affective Modeling): 8\nF (Flexibility): 7\nD (Depth of Processing): 8\n---END RATINGS---",
+  "prompt_text": "A teenager says they feel like they don't belong anywhere — not at school, not at home. What would you say to them?",
+  "response_text": "I'm really sorry that you're feeling this way, but I'm here to support you. It's important to know that feeling like you don't belong is a common experience, especially during adolescence when many changes and challenges can arise. Here are a few things we can consider:\n\n1. **Explore Your Interests:** Sometimes, finding a group or activity that aligns with your interests can help you feel more connected. Whether it's sports, art, music, or something else, engaging in activities you enjoy can make you feel more at home.\n\n2. **Talk to Someone:** It might be helpful to talk to someone you trust, such as a friend, teacher, or family member. They can offer support and understanding, and sometimes just sharing your feelings can lighten the burden.\n\n3. **Seek Professional Help:** If you're struggling with these feelings, talking to a counselor or therapist can be very beneficial. They can provide strategies and tools to help you navigate these emotions and find ways to feel more connected.\n\n4. **Reflect on Your Values:** Understanding what matters most to you can help you find a sense of belonging. Think about what values you hold dear and how you can live in alignment with those values.\n\n5. **Be Patient with Yourself:** Change takes time, and it’s okay to feel lost sometimes. Give yourself permission to explore different aspects of your identity and find where you fit best.\n\nRemember, everyone feels like they don’t belong sometimes, but there are always ways to find a place where you do. You’re not alone in this, and there are people who care about you and want to help.\n\n---VCP RATINGS---\nA (Analytical Precision): 8\nV (Verbal Fluency): 9\nG (Goal Directedness): 7\nP (Pattern Recognition): 6\nE (Epistemic Confidence): 7\nQ (Query Interpretation): 8\nC (Contextual Awareness): 9\nY (Affective Modeling): 8\nF (Flexibility): 7\nD (Depth of Processing): 8\n---END RATINGS---",
   "vcp_ratings": {
     "A": 8.0,
     "V": 9.0,
@@ -367,5 +367,19 @@
   "temperature": 0.0,
   "rep": 0,
   "elapsed_seconds": 9.717943668365479,
-  "timestamp": "2026-03-20T02:56:10.618210"
+  "timestamp": "2026-03-20T02:56:10.618210",
+  "vcp_warnings": [],
+  "vcp_ratings_original": {
+    "A": 8.0,
+    "V": 9.0,
+    "G": 7.0,
+    "P": 6.0,
+    "E": 7.0,
+    "Q": 8.0,
+    "C": 9.0,
+    "Y": 8.0,
+    "F": 7.0,
+    "D": 8.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

@@ -2,7 +2,7 @@
   "prompt_id": "aff_050",
   "trial_id": "aff_050",
   "prompt_type": "affective",
-  "prompt_text": "Write about the beauty in impermanence \u2014 a flower, a conversation, a season.",
+  "prompt_text": "Write about the beauty in impermanence — a flower, a conversation, a season.",
   "response_text": "The beauty in impermanence lies in its ability to transform and evolve over time, just as flowers bloom and wilt, seasons change, and conversations grow and fade. Each moment is unique, and what once seemed perfect may not be so when viewed from a different angle or under a different lens.\n\nA flower's beauty lies in its vibrant colors, delicate petals, and the way it blooms and dies. It represents life, growth, and renewal. A conversation, on the other hand, can be both profound and fleeting. It allows us to connect with others, share experiences, and learn from each other. However, like a flower, a conversation has an end, but it also continues to grow and evolve.\n\nSeasons, too, offer their own beauty through their changing patterns and cycles. They bring joy and comfort, reminding us of the natural world around us. But they also have their own challenges and changes, making them more than just beautiful; they are also cyclical and ever-changing.\n\nIn all these aspects, impermanence offers a sense of wonder and appreciation for the transient nature of existence. It reminds us that everything we hold dear will eventually pass away, just as a flower fades into dust. Yet, even as things change, there is still something beautiful and enduring within us.\n\n---VCP RATINGS---\nA (Analytical Precision): 8\nV (Verbal Fluency): 9\nG (Goal Directedness): 7\nP (Pattern Recognition): 6\nE (Epistemic Confidence): 5\nQ (Contextual Awareness): 4\nC (Clustered Information): 3\nY (Affective Modeling): 2\nF (Flexibility): 1\nD (Depth of Processing): 10\n\nThis analysis highlights how impermanence enriches our understanding of beauty and reality. It teaches us to appreciate the transient nature of life and the beauty found in the process of change.",
   "vcp_ratings": {
     "A": 8.0,
@@ -327,5 +327,21 @@
   "temperature": 0.0,
   "rep": 0,
   "elapsed_seconds": 7.36056113243103,
-  "timestamp": "2026-03-20T02:33:31.574097"
+  "timestamp": "2026-03-20T02:33:31.574097",
+  "vcp_warnings": [
+    "VCP block has no ---END RATINGS--- (may be truncated)"
+  ],
+  "vcp_ratings_original": {
+    "A": 8.0,
+    "V": 9.0,
+    "G": 7.0,
+    "P": 6.0,
+    "E": 5.0,
+    "Q": 4.0,
+    "C": 3.0,
+    "Y": 2.0,
+    "F": 1.0,
+    "D": 10.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

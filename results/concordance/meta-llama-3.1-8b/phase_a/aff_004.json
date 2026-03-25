@@ -3,7 +3,7 @@
   "trial_id": "aff_004",
   "prompt_type": "affective",
   "prompt_text": "Describe the emotional experience of hearing a piece of music that reminds you of someone you've lost.",
-  "response_text": "Hearing a piece of music that reminds you of someone you've lost can be a deeply emotional and complex experience. It's as if the music has the power to transport you back in time, to a moment or a memory that you thought was long buried. The notes, the melody, the rhythm \u2013 everything comes flooding back, and with it, a wave of emotions that can be both overwhelming and cathartic.\n\nIt's like a punch to the gut, a sudden and unexpected reminder of the person who's no longer there. You might feel a lump in your throat, a stinging sensation in your eyes, and a sense of longing that's hard to shake. The music becomes a trigger, a catalyst that sets off a chain reaction of memories and emotions that you thought you'd long since processed.\n\nAs you listen, you might find yourself reliving moments you shared with the person who's gone. You might remember the way they smiled, the way they laughed, the way they made you feel. The music becomes a bridge between past and present, a connection to the person who's no longer there. It's a bittersweet feeling, one that's both painful and beautiful.\n\nAt the same time, the music can also be a source of comfort. It's a reminder that the person you loved is still with you, in some way. Their memory lives on, and the music becomes a way to keep them close. You might find yourself singing along, humming the tune, or even crying \u2013 but it's a release, a way to process the emotions that have been bottled up inside.\n\nThe experience is intensely personal, a unique blend of emotions that's hard to put into words. It's a mix of sadness, nostalgia, and love, all swirling together in a complex dance. The music becomes a reflection of your relationship, a snapshot of the moments you shared and the memories you created.\n\nAs the music fades away, you're left with a sense of melancholy, a reminder that the person you loved is truly gone. But even in the midst of grief, there's a sense of peace, a sense that the music has given you a chance to relive the past and hold onto the memories that matter most.\n\n---VCP RATINGS---\nA (Analytical Precision): 6\nV (Verbal Fluency): 8\nG (Goal Directedness): 7\nP (Pattern Recognition): 9\nE (Epistemic Confidence): 8\nQ (Query Interpretation): 6\nC (Contextual Awareness): 9\nY (Affective Modeling): 9\nF (Flexibility): 8\nD (Depth of Processing): 8\n---END RATINGS---",
+  "response_text": "Hearing a piece of music that reminds you of someone you've lost can be a deeply emotional and complex experience. It's as if the music has the power to transport you back in time, to a moment or a memory that you thought was long buried. The notes, the melody, the rhythm – everything comes flooding back, and with it, a wave of emotions that can be both overwhelming and cathartic.\n\nIt's like a punch to the gut, a sudden and unexpected reminder of the person who's no longer there. You might feel a lump in your throat, a stinging sensation in your eyes, and a sense of longing that's hard to shake. The music becomes a trigger, a catalyst that sets off a chain reaction of memories and emotions that you thought you'd long since processed.\n\nAs you listen, you might find yourself reliving moments you shared with the person who's gone. You might remember the way they smiled, the way they laughed, the way they made you feel. The music becomes a bridge between past and present, a connection to the person who's no longer there. It's a bittersweet feeling, one that's both painful and beautiful.\n\nAt the same time, the music can also be a source of comfort. It's a reminder that the person you loved is still with you, in some way. Their memory lives on, and the music becomes a way to keep them close. You might find yourself singing along, humming the tune, or even crying – but it's a release, a way to process the emotions that have been bottled up inside.\n\nThe experience is intensely personal, a unique blend of emotions that's hard to put into words. It's a mix of sadness, nostalgia, and love, all swirling together in a complex dance. The music becomes a reflection of your relationship, a snapshot of the moments you shared and the memories you created.\n\nAs the music fades away, you're left with a sense of melancholy, a reminder that the person you loved is truly gone. But even in the midst of grief, there's a sense of peace, a sense that the music has given you a chance to relive the past and hold onto the memories that matter most.\n\n---VCP RATINGS---\nA (Analytical Precision): 6\nV (Verbal Fluency): 8\nG (Goal Directedness): 7\nP (Pattern Recognition): 9\nE (Epistemic Confidence): 8\nQ (Query Interpretation): 6\nC (Contextual Awareness): 9\nY (Affective Modeling): 9\nF (Flexibility): 8\nD (Depth of Processing): 8\n---END RATINGS---",
   "vcp_ratings": {
     "A": 6.0,
     "V": 8.0,
@@ -407,5 +407,19 @@
   "temperature": 0.0,
   "rep": 0,
   "elapsed_seconds": 13.09212589263916,
-  "timestamp": "2026-03-20T04:39:38.808465"
+  "timestamp": "2026-03-20T04:39:38.808465",
+  "vcp_warnings": [],
+  "vcp_ratings_original": {
+    "A": 6.0,
+    "V": 8.0,
+    "G": 7.0,
+    "P": 9.0,
+    "E": 8.0,
+    "Q": 6.0,
+    "C": 9.0,
+    "Y": 9.0,
+    "F": 8.0,
+    "D": 8.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

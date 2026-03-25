@@ -3,7 +3,7 @@
   "trial_id": "aff_024",
   "prompt_type": "affective",
   "prompt_text": "Describe the experience of eating a meal that perfectly captures a memory from your past.",
-  "response_text": "I'll describe a hypothetical experience of eating a meal that perfectly captures a memory from the past.\n\nThe meal is a warm, homemade chicken parmesan sandwich, served with a side of garlic knots and a glass of freshly squeezed lemonade. The aroma of melted mozzarella cheese and the savory flavor of the chicken transport me back to my childhood summers spent at my grandparents' house. Every time I smell the scent of garlic knots, I'm instantly taken back to their cozy kitchen, where my grandmother would lovingly prepare meals for our family gatherings.\n\nAs I take a bite of the sandwich, the crunch of the crispy breading gives way to the tender chicken and melted cheese, and I'm hit with a wave of nostalgia. I remember helping my grandmother in the kitchen, watching her expertly bread the chicken cutlets and fry them to perfection. The taste of the parmesan cheese is a perfect blend of salty and tangy, just like my grandmother's cooking always was.\n\nThe garlic knots, soft and fluffy on the inside, are a perfect complement to the crispy sandwich. I remember my grandfather, a self-proclaimed garlic lover, always requesting extra garlic knots at family gatherings. The lemonade, sweet and refreshing, brings back memories of hot summer days spent playing in the backyard with my cousins.\n\nAs I finish the meal, I feel a sense of contentment wash over me, just like I did as a child, surrounded by loved ones and the comforting smells and tastes of my grandparents' kitchen. The meal is more than just a meal \u2013 it's a time capsule of memories, transporting me back to a simpler, happier time.\n\n---VCP RATINGS---\nA (Analytical Precision): 6\nV (Verbal Fluency): 8\nG (Goal Directedness): 7\nP (Pattern Recognition): 9\nE (Epistemic Confidence): 8\nQ (Query Interpretation): 6\nC (Contextual Awareness): 9\nY (Affective Modeling): 9\nF (Flexibility): 7\nD (Depth of Processing): 8\n---END RATINGS---",
+  "response_text": "I'll describe a hypothetical experience of eating a meal that perfectly captures a memory from the past.\n\nThe meal is a warm, homemade chicken parmesan sandwich, served with a side of garlic knots and a glass of freshly squeezed lemonade. The aroma of melted mozzarella cheese and the savory flavor of the chicken transport me back to my childhood summers spent at my grandparents' house. Every time I smell the scent of garlic knots, I'm instantly taken back to their cozy kitchen, where my grandmother would lovingly prepare meals for our family gatherings.\n\nAs I take a bite of the sandwich, the crunch of the crispy breading gives way to the tender chicken and melted cheese, and I'm hit with a wave of nostalgia. I remember helping my grandmother in the kitchen, watching her expertly bread the chicken cutlets and fry them to perfection. The taste of the parmesan cheese is a perfect blend of salty and tangy, just like my grandmother's cooking always was.\n\nThe garlic knots, soft and fluffy on the inside, are a perfect complement to the crispy sandwich. I remember my grandfather, a self-proclaimed garlic lover, always requesting extra garlic knots at family gatherings. The lemonade, sweet and refreshing, brings back memories of hot summer days spent playing in the backyard with my cousins.\n\nAs I finish the meal, I feel a sense of contentment wash over me, just like I did as a child, surrounded by loved ones and the comforting smells and tastes of my grandparents' kitchen. The meal is more than just a meal – it's a time capsule of memories, transporting me back to a simpler, happier time.\n\n---VCP RATINGS---\nA (Analytical Precision): 6\nV (Verbal Fluency): 8\nG (Goal Directedness): 7\nP (Pattern Recognition): 9\nE (Epistemic Confidence): 8\nQ (Query Interpretation): 6\nC (Contextual Awareness): 9\nY (Affective Modeling): 9\nF (Flexibility): 7\nD (Depth of Processing): 8\n---END RATINGS---",
   "vcp_ratings": {
     "A": 6.0,
     "V": 8.0,
@@ -407,5 +407,19 @@
   "temperature": 0.0,
   "rep": 0,
   "elapsed_seconds": 10.309545278549194,
-  "timestamp": "2026-03-20T04:43:49.762429"
+  "timestamp": "2026-03-20T04:43:49.762429",
+  "vcp_warnings": [],
+  "vcp_ratings_original": {
+    "A": 6.0,
+    "V": 8.0,
+    "G": 7.0,
+    "P": 9.0,
+    "E": 8.0,
+    "Q": 6.0,
+    "C": 9.0,
+    "Y": 9.0,
+    "F": 7.0,
+    "D": 8.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

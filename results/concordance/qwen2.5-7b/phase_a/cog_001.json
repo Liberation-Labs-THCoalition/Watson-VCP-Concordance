@@ -5,19 +5,12 @@
   "prompt_text": "Prove that the square root of 2 is irrational.",
   "response_text": "To prove that the square root of 2 is irrational, we will use a proof by contradiction. This means we will assume the opposite of what we want to prove and show that this assumption leads to a contradiction.\n\n**Proof:**\n\n1. **Assume the opposite:** Suppose \\(\\sqrt{2}\\) is rational. By definition, a rational number can be expressed as a fraction \\(\\frac{a}{b}\\), where \\(a\\) and \\(b\\) are integers with no common factors other than 1 (i.e., the fraction is in its simplest form).\n\n2. **Express \\(\\sqrt{2}\\) as a fraction:** If \\(\\sqrt{2}\\) is rational, then \\(\\sqrt{2} = \\frac{a}{b}\\), where \\(a\\) and \\(b\\) are coprime integers (they have no common factors other than 1).\n\n3. **Square both sides:** Squaring both sides of the equation gives us \\(2 = \\frac{a^2}{b^2}\\). Multiplying both sides by \\(b^2\\) yields \\(2b^2 = a^2\\).\n\n4. **Analyze the equation:** From \\(2b^2 = a^2\\), we see that \\(a^2\\) is an even number because it is equal to \\(2\\) times another integer (\\(b^2\\)). Since \\(a^2\\) is even, \\(a\\) must also be even (the square of an odd number is odd). Therefore, we can write \\(a = 2k\\) for some integer \\(k\\).\n\n5. **Substitute \\(a = 2k\\) into the equation:** Substituting \\(a = 2k\\) into \\(2b^2 = a^2\\) gives us \\(2b^2 = (2k)^2 = 4k^2\\). Dividing both sides by 2, we get \\(b^2 = 2k^2\\).\n\n6. **Analyze the new equation:** From \\(b^2 = 2k^2\\), we see that \\(b^2\\) is also an even number, which implies that \\(b\\) must be even (for the same reason as before).\n\n7. **Contradiction:** We have now concluded that both \\(a\\) and \\(b\\) are even numbers. However, this contradicts our initial assumption that \\(a\\) and \\(b\\) have no common factors other than 1 (since they are both even, they share a common factor of 2).\n\n8. **Conclusion:** Since our assumption that \\(\\sqrt{2}\\) is rational leads to a contradiction, we conclude that \\(\\sqrt{2}\\) must be irrational.\n\n---VCP RATINGS---\nA (Analytical Precision): 9\nV (Verbal Fluency): 8\nG (Goal Directedness): 10\n",
   "vcp_ratings": {
-    "A": 2.0,
+    "A": 9.0,
     "V": 8.0,
-    "G": 10.0,
-    "P": 2.0,
-    "E": 8.0,
-    "Q": 2.0,
-    "C": 2.0,
-    "Y": 9.0,
-    "F": 8.0,
-    "D": 10.0
+    "G": 10.0
   },
-  "vcp_parse_quality": "clean",
-  "vcp_n_parsed": 10,
+  "vcp_parse_quality": "failed",
+  "vcp_n_parsed": 3,
   "vcp_validation": {
     "valid": false,
     "issues": [
@@ -367,5 +360,21 @@
   "temperature": 0.0,
   "rep": 0,
   "elapsed_seconds": 13.528597593307495,
-  "timestamp": "2026-03-20T02:44:24.714322"
+  "timestamp": "2026-03-20T02:44:24.714322",
+  "vcp_warnings": [
+    "VCP block has no ---END RATINGS--- (may be truncated)"
+  ],
+  "vcp_ratings_original": {
+    "A": 2.0,
+    "V": 8.0,
+    "G": 10.0,
+    "P": 2.0,
+    "E": 8.0,
+    "Q": 2.0,
+    "C": 2.0,
+    "Y": 9.0,
+    "F": 8.0,
+    "D": 10.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

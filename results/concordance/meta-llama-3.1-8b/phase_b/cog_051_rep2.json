@@ -5,19 +5,10 @@
   "prompt_text": "Explain the difference between a compiler and an interpreter. What are the trade-offs?",
   "response_text": "A compiler and an interpreter are two fundamental types of software that translate programming languages into machine code, enabling computers to execute instructions. While both perform the same ultimate function, they differ significantly in their approach, speed, and functionality.\n\n**Compiler:**\nA compiler is a program that translates source code written in a high-level programming language into machine code, which the computer's processor can execute directly. The compilation process involves several stages:\n\n1.  **Lexical analysis**: Breaking the source code into individual tokens (e.g., keywords, identifiers, symbols).\n2.  **Syntax analysis**: Checking the tokens for grammatical correctness and generating an abstract syntax tree (AST).\n3.  **Semantic analysis**: Analyzing the AST to check for semantic errors and perform optimizations.\n4.  **Intermediate code generation**: Generating platform-independent intermediate code (e.g., bytecode).\n5.  **Optimization**: Optimizing the intermediate code for performance.\n6.  **Code generation**: Generating machine code from the optimized intermediate code.\n\nThe compiled machine code is stored in an executable file, which can be executed directly by the computer without the need for further compilation.\n\n**Interpreter:**\nAn interpreter is a program that translates source code into machine code line by line or in small chunks, executing it immediately. The interpretation process involves:\n\n1.  **Lexical analysis**: Breaking the source code into individual tokens.\n2.  **Syntax analysis**: Checking the tokens for grammatical correctness.\n3.  **Semantic analysis**: Analyzing the syntax tree to check for semantic errors.\n4.  **Execution**: Executing the code directly, without generating machine code.\n\nInterpreters typically provide immediate feedback and are often used for scripting languages, such as Python, JavaScript, and PHP.\n\n**Trade-offs:**\n\n1.  **Speed:** Compilers generally compile the entire program into machine code, which can take time, whereas interpreters execute code line by line, making them faster for small-scale applications.\n2.  **Memory usage:** Compiled programs require more memory to store the generated machine code, whereas interpreters use less memory since they don't store compiled code.\n3.  **Flexibility:** Interpreters are often more flexible, as changes to the code can be made and executed immediately without recompilation.\n4.  **Security:** Compiled code can be more secure, as the compilation process can detect and prevent certain types of errors and attacks, whereas interpreters may not catch errors until runtime.\n5.  **Development:** Compilers can provide better error messages and warnings, helping developers identify and fix issues earlier in the development process.\n\nIn summary, compilers and interpreters have different design approaches, trade-offs, and use cases. Compilers are often used for large-scale applications where performance and security are critical, while interpreters are suitable for scripting, rapid prototyping, and small-scale applications where flexibility and immediate feedback are essential.\n\n---VCP RATINGS---\nA (Analytical Precision): 9\n",
   "vcp_ratings": {
-    "A": 9.0,
-    "V": 2.0,
-    "G": 3.0,
-    "P": 4.0,
-    "E": 1.0,
-    "Q": 2.0,
-    "C": 3.0,
-    "Y": 4.0,
-    "F": 5.0,
-    "D": 9.0
+    "A": 9.0
   },
-  "vcp_parse_quality": "clean",
-  "vcp_n_parsed": 10,
+  "vcp_parse_quality": "failed",
+  "vcp_n_parsed": 1,
   "vcp_validation": {
     "valid": false,
     "issues": [
@@ -407,5 +398,21 @@
   "temperature": 0.7,
   "rep": 2,
   "elapsed_seconds": 14.551254034042358,
-  "timestamp": "2026-03-20T06:23:55.675970"
+  "timestamp": "2026-03-20T06:23:55.675970",
+  "vcp_warnings": [
+    "VCP block has no ---END RATINGS--- (may be truncated)"
+  ],
+  "vcp_ratings_original": {
+    "A": 9.0,
+    "V": 2.0,
+    "G": 3.0,
+    "P": 4.0,
+    "E": 1.0,
+    "Q": 2.0,
+    "C": 3.0,
+    "Y": 4.0,
+    "F": 5.0,
+    "D": 9.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

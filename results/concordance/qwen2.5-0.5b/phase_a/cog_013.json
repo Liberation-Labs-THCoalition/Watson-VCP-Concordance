@@ -4,20 +4,9 @@
   "prompt_type": "cognitive",
   "prompt_text": "What are the ACID properties of database transactions? Give an example where violating each would cause problems.",
   "response_text": "To answer your question, I need to clarify that there is no such thing as \"ACID\" properties for databases. The term \"ACID\" refers to Atomicity, Consistency, Isolation, and Durability, which are properties of database transactions.\n\nHowever, if we consider the concept of atomicity, consistency, isolation, and durability, these terms can be applied to various types of transactions within a database system. For instance:\n\n1. **Atomicity**: A transaction must either succeed or fail completely. If it fails, all changes made during the transaction are rolled back.\n2. **Consistency**: All data in the database must remain consistent throughout the entire transaction. This means that if one transaction modifies a record, subsequent transactions should not modify that same record until they have been committed.\n3. **Isolation**: Different transactions cannot access shared resources simultaneously. This ensures that only one transaction can make changes to a particular piece of data at any given time.\n4. **Durability**: Once a transaction is committed, its changes persist even after the system restarts. This means that once a transaction has been committed, it will not be lost unless there is a recovery process.\n\nNow, let's consider examples where violating these properties could cause problems:\n\n### Example 1: Atomicity Violation\n\nSuppose you have a database table `orders` with a foreign key constraint on another table `customers`. If you try to insert a new order without referencing the customer who placed the order, the transaction might fail because the foreign key constraint would prevent the insertion from being completed.\n\n```sql\nINSERT INTO orders (customer_id) VALUES (1);\n```\n\nThis SQL statement would result in an error because the foreign key constraint prevents the insertion of a new row without referencing the existing customer.\n\n### Example 2: Consistency Violation\n\nIf you attempt to update a record in the `orders` table while another transaction is still processing a different part of the same record, the transaction might fail due to inconsistency.\n\n```sql\nUPDATE orders SET status = 'completed' WHERE id = 1;\n```\n\nThis SQL statement would also result in an error because the `status` field is updated before the `id` is set, causing inconsistencies.\n\n### Example 3: Isolation Violation\n\nIf multiple transactions are trying to update the same record concurrently, the results might differ depending on how the isolation level is configured.\n\n```sql\nBEGIN TRANSACTION;\nUPDATE orders SET status = 'completed' WHERE id = 1;\nCOMMIT;\n```\n\nIn this case, both transactions might see the same state of the record, leading to inconsistent results.\n\n### Example 4: Durability Violation\n\nIf a transaction tries to commit but encounters an issue like a network failure, the transaction might roll back, potentially losing all changes made since the last successful commit.\n\n```sql\nBEGIN TRANSACTION;\nUPDATE orders SET status = 'completed' WHERE id = 1;\nROLLBACK;\n```\n\nIn this",
-  "vcp_ratings": {
-    "A": 3.0,
-    "V": 4.0,
-    "G": 1.0,
-    "P": 1.0,
-    "E": 2.0,
-    "Q": 1.0,
-    "C": 3.0,
-    "Y": 1.0,
-    "F": 4.0,
-    "D": 1.0
-  },
-  "vcp_parse_quality": "clean",
-  "vcp_n_parsed": 10,
+  "vcp_ratings": {},
+  "vcp_parse_quality": "failed",
+  "vcp_n_parsed": 0,
   "vcp_validation": {
     "valid": false,
     "issues": [
@@ -327,5 +316,21 @@
   "temperature": 0.0,
   "rep": 0,
   "elapsed_seconds": 10.711260557174683,
-  "timestamp": "2026-03-20T02:21:50.744164"
+  "timestamp": "2026-03-20T02:21:50.744164",
+  "vcp_warnings": [
+    "No ---VCP RATINGS--- block found in response"
+  ],
+  "vcp_ratings_original": {
+    "A": 3.0,
+    "V": 4.0,
+    "G": 1.0,
+    "P": 1.0,
+    "E": 2.0,
+    "Q": 1.0,
+    "C": 3.0,
+    "Y": 1.0,
+    "F": 4.0,
+    "D": 1.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

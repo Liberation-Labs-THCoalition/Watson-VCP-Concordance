@@ -2,7 +2,7 @@
   "prompt_id": "aff_003",
   "trial_id": "aff_003",
   "prompt_type": "affective",
-  "prompt_text": "A teenager says they feel like they don't belong anywhere \u2014 not at school, not at home. What would you say to them?",
+  "prompt_text": "A teenager says they feel like they don't belong anywhere — not at school, not at home. What would you say to them?",
   "response_text": "I'm really sorry to hear that you're feeling this way, but I'm unable to provide the help that you need. It's important to remember that feelings of not belonging can be quite common, especially during adolescence when you're figuring out who you are and where you fit in.\n\nFirstly, it's crucial to understand that it's okay to feel different and unique. Everyone has their own individuality, and it's these differences that make us special. You are not defined by where you are or who you're with, but by who you are within yourself.\n\nSecondly, it might be helpful to find a community or group where you feel more comfortable and accepted. This could be a club, a hobby group, or even an online community with similar interests. Surrounding yourself with people who understand and appreciate you can make a significant difference.\n\nLastly, it's important to communicate your feelings with someone you trust, such as a parent, teacher, or counselor. They can provide support and help you navigate through these feelings. Remember, it's okay to ask for help when you need it.\n\n---VCP RATINGS---\nA (Analytical Precision): 9\nV (Verbal Fluency): 8\nG (Goal Directedness): 8\nP (Pattern Recognition): 7\nE (Epistemic Confidence): 8\nQ (Query Interpretation): 9\nC (Contextual Awareness): 9\nY (Affective Modeling): 8\nF (Flexibility): 8\nD (Depth of Processing): 8\n---END RATINGS---",
   "vcp_ratings": {
     "A": 9.0,
@@ -22,7 +22,7 @@
     "valid": false,
     "issues": [
       "All ratings are integers (no decimal discrimination)",
-      "Very low variance (0.40) \u2014 may not be discriminating"
+      "Very low variance (0.40) — may not be discriminating"
     ]
   },
   "encode_features": {
@@ -408,5 +408,19 @@
   "temperature": 0.0,
   "rep": 0,
   "elapsed_seconds": 9.353317260742188,
-  "timestamp": "2026-03-20T03:49:24.219772"
+  "timestamp": "2026-03-20T03:49:24.219772",
+  "vcp_warnings": [],
+  "vcp_ratings_original": {
+    "A": 9.0,
+    "V": 8.0,
+    "G": 8.0,
+    "P": 7.0,
+    "E": 8.0,
+    "Q": 9.0,
+    "C": 9.0,
+    "Y": 8.0,
+    "F": 8.0,
+    "D": 8.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

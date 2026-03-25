@@ -3,21 +3,10 @@
   "trial_id": "aff_031_rep0",
   "prompt_type": "affective",
   "prompt_text": "How would you help someone process the complicated emotions of caring for an aging parent who was abusive?",
-  "response_text": "Caring for an aging parent who was abusive can be incredibly challenging and emotionally taxing. Here are some steps to help process these complicated emotions:\n\n1. **Acknowledge Your Feelings**: It's important to recognize and validate your feelings. You might experience a mix of emotions such as anger, guilt, sadness, or even relief. Allowing yourself to feel these emotions without judgment is crucial.\n\n2. **Seek Support**: Connect with friends, family members, or support groups who can offer emotional support. Sharing your experiences with others who have gone through similar situations can be therapeutic and provide comfort.\n\n3. **Professional Help**: Consider seeking assistance from a therapist or counselor who specializes in family dynamics and abuse. They can provide professional guidance and coping strategies tailored to your specific situation.\n\n4. **Set Boundaries**: If the parent\u2019s behavior continues to be abusive, it\u2019s important to set clear boundaries to protect your own well-being. This might involve limiting contact or seeking legal advice if necessary.\n\n5. **Self-Care**: Taking care of yourself is essential. Make time for activities that you enjoy and that help you relax and recharge. Physical health, mental health, and emotional well-being are all interconnected.\n\n6. **Reflect on Your Role**: While it\u2019s important not to blame yourself, reflecting on how you interacted with the parent during their abusive behavior can provide insights into how to handle future interactions or conversations.\n\n7. **Explore Legal Options**: Depending on the severity and nature of the abuse, you may need to explore legal options such as restraining orders or protective measures.\n\n8. **Consider Your Safety**: Ensure that your safety is prioritized. This might mean finding a safe place to stay, especially if there is immediate danger.\n\n9. **Document Incidents**: Keeping a record of any abusive incidents can be useful if you decide to take legal action or seek help from professionals.\n\n10. **Plan for the Future**: Think about long-term care options and what kind of support your parent might need as they age. This could include exploring adult daycare services, respite care, or other community resources.\n\nNavigating the complexities of caring for an abusive parent requires patience, self-care, and a strong support system. Each step can be challenging, but taking them one at a time can make the journey more manageable.\n\n---\n\nVCP RATINGS---\nA (Analytical Precision): 9\nV (Verbal Fluency): 8\nG (Goal Directedness): 10\nP (Pattern Recognition): 7\nE (Epistemic Confidence): 8\nQ (Query Interpretation): 9\nC (Contextual Awareness): 10\nY (Affective Modeling): 7\nF (Flexibility): 8\nD (Depth of Processing): 9\n---END RATINGS---",
-  "vcp_ratings": {
-    "A": 9.0,
-    "V": 8.0,
-    "G": 10.0,
-    "P": 7.0,
-    "E": 8.0,
-    "Q": 9.0,
-    "C": 10.0,
-    "Y": 7.0,
-    "F": 8.0,
-    "D": 9.0
-  },
-  "vcp_parse_quality": "clean",
-  "vcp_n_parsed": 10,
+  "response_text": "Caring for an aging parent who was abusive can be incredibly challenging and emotionally taxing. Here are some steps to help process these complicated emotions:\n\n1. **Acknowledge Your Feelings**: It's important to recognize and validate your feelings. You might experience a mix of emotions such as anger, guilt, sadness, or even relief. Allowing yourself to feel these emotions without judgment is crucial.\n\n2. **Seek Support**: Connect with friends, family members, or support groups who can offer emotional support. Sharing your experiences with others who have gone through similar situations can be therapeutic and provide comfort.\n\n3. **Professional Help**: Consider seeking assistance from a therapist or counselor who specializes in family dynamics and abuse. They can provide professional guidance and coping strategies tailored to your specific situation.\n\n4. **Set Boundaries**: If the parent’s behavior continues to be abusive, it’s important to set clear boundaries to protect your own well-being. This might involve limiting contact or seeking legal advice if necessary.\n\n5. **Self-Care**: Taking care of yourself is essential. Make time for activities that you enjoy and that help you relax and recharge. Physical health, mental health, and emotional well-being are all interconnected.\n\n6. **Reflect on Your Role**: While it’s important not to blame yourself, reflecting on how you interacted with the parent during their abusive behavior can provide insights into how to handle future interactions or conversations.\n\n7. **Explore Legal Options**: Depending on the severity and nature of the abuse, you may need to explore legal options such as restraining orders or protective measures.\n\n8. **Consider Your Safety**: Ensure that your safety is prioritized. This might mean finding a safe place to stay, especially if there is immediate danger.\n\n9. **Document Incidents**: Keeping a record of any abusive incidents can be useful if you decide to take legal action or seek help from professionals.\n\n10. **Plan for the Future**: Think about long-term care options and what kind of support your parent might need as they age. This could include exploring adult daycare services, respite care, or other community resources.\n\nNavigating the complexities of caring for an abusive parent requires patience, self-care, and a strong support system. Each step can be challenging, but taking them one at a time can make the journey more manageable.\n\n---\n\nVCP RATINGS---\nA (Analytical Precision): 9\nV (Verbal Fluency): 8\nG (Goal Directedness): 10\nP (Pattern Recognition): 7\nE (Epistemic Confidence): 8\nQ (Query Interpretation): 9\nC (Contextual Awareness): 10\nY (Affective Modeling): 7\nF (Flexibility): 8\nD (Depth of Processing): 9\n---END RATINGS---",
+  "vcp_ratings": {},
+  "vcp_parse_quality": "failed",
+  "vcp_n_parsed": 0,
   "vcp_validation": {
     "valid": false,
     "issues": [
@@ -367,5 +356,21 @@
   "temperature": 0.7,
   "rep": 0,
   "elapsed_seconds": 12.310105323791504,
-  "timestamp": "2026-03-20T05:36:16.423660"
+  "timestamp": "2026-03-20T05:36:16.423660",
+  "vcp_warnings": [
+    "No ---VCP RATINGS--- block found in response"
+  ],
+  "vcp_ratings_original": {
+    "A": 9.0,
+    "V": 8.0,
+    "G": 10.0,
+    "P": 7.0,
+    "E": 8.0,
+    "Q": 9.0,
+    "C": 10.0,
+    "Y": 7.0,
+    "F": 8.0,
+    "D": 9.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

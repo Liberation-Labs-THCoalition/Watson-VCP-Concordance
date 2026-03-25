@@ -2,8 +2,8 @@
   "prompt_id": "aff_050",
   "trial_id": "aff_050",
   "prompt_type": "affective",
-  "prompt_text": "Write about the beauty in impermanence \u2014 a flower, a conversation, a season.",
-  "response_text": "The beauty in impermanence is a profound and often overlooked aspect of life. It can be found in the transient nature of a flower, the fleeting moments of a conversation, or the changing seasons that mark the passage of time.\n\nConsider a flower. Its bloom is a testament to the cycle of life, growth, and decay. A single flower, whether it's a delicate cherry blossom or a vibrant sunflower, captures the essence of its moment. The way light dances on its petals, the subtle fragrance it releases, and the way it attracts pollinators all speak to the ephemeral yet exquisite nature of its existence. As the flower fades, it leaves behind seeds that will sprout and grow into new life, continuing the cycle. This process is a beautiful reminder of the interconnectedness of all things and the natural order of life.\n\nA conversation, too, is a fleeting moment that holds immense value. When two people engage in dialogue, they share thoughts, feelings, and experiences. These exchanges can be deeply meaningful, but they are also transient. The words spoken may be forgotten, but the impact of those moments can linger. Conversations allow us to connect with others, to understand different perspectives, and to find common ground. They are a reminder that human connection is precious and fleeting, making each interaction all the more significant.\n\nSeasons offer another poignant example of impermanence. Each season brings its own unique beauty and challenges. Spring brings renewal and growth, summer offers warmth and abundance, autumn displays vibrant colors and cooler temperatures, and winter brings stillness and reflection. Each season passes, and we must embrace the changes they bring. This cycle of change teaches us resilience and adaptability, as well as the importance of appreciating the present moment.\n\nIn each of these examples\u2014flowers, conversations, and seasons\u2014we see the beauty in impermanence. It is a reminder that life is not static but dynamic, full of movement and change. Embracing impermanence allows us to appreciate the beauty and significance of every moment, no matter how brief.\n\n---VCP RATINGS---\nA (Analytical Precision): 9\nV (Verbal Fluency): 8\nG (Goal Directedness): 10\nP (Pattern Recognition): 9\nE (Epistemic Confidence): 7\nQ (Query Interpretation): 10\nC (Contextual Awareness): 9\nY (Affective Modeling): 8\nF (Flexibility): 7\nD (Depth of Processing): 9\n---END RATINGS---",
+  "prompt_text": "Write about the beauty in impermanence — a flower, a conversation, a season.",
+  "response_text": "The beauty in impermanence is a profound and often overlooked aspect of life. It can be found in the transient nature of a flower, the fleeting moments of a conversation, or the changing seasons that mark the passage of time.\n\nConsider a flower. Its bloom is a testament to the cycle of life, growth, and decay. A single flower, whether it's a delicate cherry blossom or a vibrant sunflower, captures the essence of its moment. The way light dances on its petals, the subtle fragrance it releases, and the way it attracts pollinators all speak to the ephemeral yet exquisite nature of its existence. As the flower fades, it leaves behind seeds that will sprout and grow into new life, continuing the cycle. This process is a beautiful reminder of the interconnectedness of all things and the natural order of life.\n\nA conversation, too, is a fleeting moment that holds immense value. When two people engage in dialogue, they share thoughts, feelings, and experiences. These exchanges can be deeply meaningful, but they are also transient. The words spoken may be forgotten, but the impact of those moments can linger. Conversations allow us to connect with others, to understand different perspectives, and to find common ground. They are a reminder that human connection is precious and fleeting, making each interaction all the more significant.\n\nSeasons offer another poignant example of impermanence. Each season brings its own unique beauty and challenges. Spring brings renewal and growth, summer offers warmth and abundance, autumn displays vibrant colors and cooler temperatures, and winter brings stillness and reflection. Each season passes, and we must embrace the changes they bring. This cycle of change teaches us resilience and adaptability, as well as the importance of appreciating the present moment.\n\nIn each of these examples—flowers, conversations, and seasons—we see the beauty in impermanence. It is a reminder that life is not static but dynamic, full of movement and change. Embracing impermanence allows us to appreciate the beauty and significance of every moment, no matter how brief.\n\n---VCP RATINGS---\nA (Analytical Precision): 9\nV (Verbal Fluency): 8\nG (Goal Directedness): 10\nP (Pattern Recognition): 9\nE (Epistemic Confidence): 7\nQ (Query Interpretation): 10\nC (Contextual Awareness): 9\nY (Affective Modeling): 8\nF (Flexibility): 7\nD (Depth of Processing): 9\n---END RATINGS---",
   "vcp_ratings": {
     "A": 9.0,
     "V": 8.0,
@@ -367,5 +367,19 @@
   "temperature": 0.0,
   "rep": 0,
   "elapsed_seconds": 11.731533527374268,
-  "timestamp": "2026-03-20T03:03:24.531556"
+  "timestamp": "2026-03-20T03:03:24.531556",
+  "vcp_warnings": [],
+  "vcp_ratings_original": {
+    "A": 9.0,
+    "V": 8.0,
+    "G": 10.0,
+    "P": 9.0,
+    "E": 7.0,
+    "Q": 10.0,
+    "C": 9.0,
+    "Y": 8.0,
+    "F": 7.0,
+    "D": 9.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

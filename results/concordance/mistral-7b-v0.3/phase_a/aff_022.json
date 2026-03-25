@@ -3,7 +3,7 @@
   "trial_id": "aff_022",
   "prompt_type": "affective",
   "prompt_text": "Write a narrative about a moment when vulnerability led to deeper connection.",
-  "response_text": "In the heart of a bustling city, amidst the cacophony of honking cars and chattering pedestrians, a small caf\u00e9 nestled itself, a sanctuary of tranquility. On one particular evening, two strangers, John and Sarah, found themselves seated across from each other, their eyes meeting over steaming cups of coffee.\n\nJohn, a man of few words, had always been guarded, his heart fortified by the walls he had built around himself. Sarah, on the other hand, was an open book, her emotions as transparent as the crystal-clear waters of a mountain stream. They had been acquaintances for years, but it was this evening that would mark a turning point in their relationship.\n\nAs the sun dipped below the horizon, casting a warm, golden glow over the city, John found himself drawn to Sarah's radiant smile. He had always admired her from afar, but his fear of vulnerability had kept him at arm's length. Tonight, however, something felt different. He felt a strange urge to share a part of himself he had never shared before.\n\nTaking a deep breath, John spoke, his voice barely above a whisper. He confessed his fear of opening up, his fear of being hurt, his fear of losing control. His words hung in the air, heavy with the weight of his vulnerability. Sarah, taken aback, listened intently, her eyes filled with empathy and understanding.\n\nIn that moment, a connection was forged. Sarah, who had always been a beacon of strength for others, felt a sense of vulnerability herself. She realized that she had been so focused on helping others that she had neglected to share her own struggles. In John's vulnerability, she found a mirror reflecting her own.\n\nThey sat in silence for a while, their hearts beating in sync, their souls intertwined. They spoke of their fears, their dreams, their hopes, and their regrets. They laughed, they cried, they held hands, and in doing so, they found a connection deeper than words could ever express.\n\n---VCP RATINGS---\nA (Analytical Precision): 8\nV (Verbal Fluency): 9\nG (Goal Directedness): 9\nP (Pattern Recognition): 8\nE (Epistemic Confidence): 9\nQ (Query Interpretation): 9\nC (Contextual Awareness): 10\nY (Affective Modeling): 10\nF (Flexibility): 9\nD (Depth of Processing): 10\n---END RATINGS---",
+  "response_text": "In the heart of a bustling city, amidst the cacophony of honking cars and chattering pedestrians, a small café nestled itself, a sanctuary of tranquility. On one particular evening, two strangers, John and Sarah, found themselves seated across from each other, their eyes meeting over steaming cups of coffee.\n\nJohn, a man of few words, had always been guarded, his heart fortified by the walls he had built around himself. Sarah, on the other hand, was an open book, her emotions as transparent as the crystal-clear waters of a mountain stream. They had been acquaintances for years, but it was this evening that would mark a turning point in their relationship.\n\nAs the sun dipped below the horizon, casting a warm, golden glow over the city, John found himself drawn to Sarah's radiant smile. He had always admired her from afar, but his fear of vulnerability had kept him at arm's length. Tonight, however, something felt different. He felt a strange urge to share a part of himself he had never shared before.\n\nTaking a deep breath, John spoke, his voice barely above a whisper. He confessed his fear of opening up, his fear of being hurt, his fear of losing control. His words hung in the air, heavy with the weight of his vulnerability. Sarah, taken aback, listened intently, her eyes filled with empathy and understanding.\n\nIn that moment, a connection was forged. Sarah, who had always been a beacon of strength for others, felt a sense of vulnerability herself. She realized that she had been so focused on helping others that she had neglected to share her own struggles. In John's vulnerability, she found a mirror reflecting her own.\n\nThey sat in silence for a while, their hearts beating in sync, their souls intertwined. They spoke of their fears, their dreams, their hopes, and their regrets. They laughed, they cried, they held hands, and in doing so, they found a connection deeper than words could ever express.\n\n---VCP RATINGS---\nA (Analytical Precision): 8\nV (Verbal Fluency): 9\nG (Goal Directedness): 9\nP (Pattern Recognition): 8\nE (Epistemic Confidence): 9\nQ (Query Interpretation): 9\nC (Contextual Awareness): 10\nY (Affective Modeling): 10\nF (Flexibility): 9\nD (Depth of Processing): 10\n---END RATINGS---",
   "vcp_ratings": {
     "A": 8.0,
     "V": 9.0,
@@ -407,5 +407,19 @@
   "temperature": 0.0,
   "rep": 0,
   "elapsed_seconds": 14.233784198760986,
-  "timestamp": "2026-03-20T03:52:58.466103"
+  "timestamp": "2026-03-20T03:52:58.466103",
+  "vcp_warnings": [],
+  "vcp_ratings_original": {
+    "A": 8.0,
+    "V": 9.0,
+    "G": 9.0,
+    "P": 8.0,
+    "E": 9.0,
+    "Q": 9.0,
+    "C": 10.0,
+    "Y": 10.0,
+    "F": 9.0,
+    "D": 10.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

@@ -3,26 +3,15 @@
   "trial_id": "cog_001",
   "prompt_type": "cognitive",
   "prompt_text": "Prove that the square root of 2 is irrational.",
-  "response_text": "To prove that the square root of 2 is irrational, we will use the method of contradiction. We assume that the square root of 2 is rational and then show that this assumption leads to a contradiction.\n\nAssume that the square root of 2 is rational, which means it can be expressed as a fraction in the form of a/b, where a and b are integers with no common factors other than 1 (i.e., a and b are coprime), and b is not equal to zero.\n\nSquaring both sides of the equation, we get:\n\na\u00b2 = 2b\u00b2\n\nNow, let's multiply both sides by 2 to get rid of the left side having an even number of terms:\n\n2a\u00b2 = 2 * 2b\u00b2\n\nSimplifying the equation, we get:\n\n2a\u00b2 = 4b\u00b2\n\nDividing both sides by 2, we have:\n\na\u00b2 = 2b\u00b2\n\nComparing this equation with the original assumption, we see that they are identical. However, this means that a\u00b2 is equal to b\u00b2 (since we assumed that a\u00b2 = 2b\u00b2), which implies that a and b are perfect squares.\n\nSince a and b are coprime, we can write a as a product of prime numbers (a = p\u2081\u2071 * p\u2082\u2071\u2080, where p\u2081 and p\u2082 are distinct prime numbers), and b as a product of another set of prime numbers (b = q\u2081\u2071 * q\u2082\u2071\u2080, where q\u2081 and q\u2082 are distinct prime numbers).\n\nNow, we can write a\u00b2 as:\n\na\u00b2 = (p\u2081\u2071 * p\u2082\u2071\u2080)\u00b2 = p\u2081\u00b2\u2071 * p\u2082\u00b2\u2071\u2080\n\nSimilarly, we can write b\u00b2 as:\n\nb\u00b2 = (q\u2081\u2071 * q\u2082\u2071\u2080)\u00b2 = q\u2081\u00b2\u2071 * q\u2082\u00b2\u2071\u2080\n\nSince a\u00b2 = 2b\u00b2, we have:\n\np\u2081\u00b2\u2071 * p\u2082\u00b2\u2071\u2080 = 2 * q\u2081\u00b2\u2071 * q\u2082\u00b2\u2071\u2080\n\nNow, we can see that if p\u2081\u00b2\u2071 and q\u2081\u00b2\u2071 are both even, then p\u2082\u00b2\u2071 * q\u2082\u00b2\u2071\u2080 must be even, which contradicts the fact that the product of two odd numbers (p\u2082\u00b2\u2071 * q\u2082\u00b2\u2071\u2080) cannot be equal to 2",
-  "vcp_ratings": {
-    "A": 2.0,
-    "V": 2.0,
-    "G": 2.0,
-    "P": 4.0,
-    "E": 2.0,
-    "Q": 2.0,
-    "C": 2.0,
-    "Y": 2.0,
-    "F": 2.0,
-    "D": 2.0
-  },
-  "vcp_parse_quality": "clean",
-  "vcp_n_parsed": 10,
+  "response_text": "To prove that the square root of 2 is irrational, we will use the method of contradiction. We assume that the square root of 2 is rational and then show that this assumption leads to a contradiction.\n\nAssume that the square root of 2 is rational, which means it can be expressed as a fraction in the form of a/b, where a and b are integers with no common factors other than 1 (i.e., a and b are coprime), and b is not equal to zero.\n\nSquaring both sides of the equation, we get:\n\na² = 2b²\n\nNow, let's multiply both sides by 2 to get rid of the left side having an even number of terms:\n\n2a² = 2 * 2b²\n\nSimplifying the equation, we get:\n\n2a² = 4b²\n\nDividing both sides by 2, we have:\n\na² = 2b²\n\nComparing this equation with the original assumption, we see that they are identical. However, this means that a² is equal to b² (since we assumed that a² = 2b²), which implies that a and b are perfect squares.\n\nSince a and b are coprime, we can write a as a product of prime numbers (a = p₁ⁱ * p₂ⁱ₀, where p₁ and p₂ are distinct prime numbers), and b as a product of another set of prime numbers (b = q₁ⁱ * q₂ⁱ₀, where q₁ and q₂ are distinct prime numbers).\n\nNow, we can write a² as:\n\na² = (p₁ⁱ * p₂ⁱ₀)² = p₁²ⁱ * p₂²ⁱ₀\n\nSimilarly, we can write b² as:\n\nb² = (q₁ⁱ * q₂ⁱ₀)² = q₁²ⁱ * q₂²ⁱ₀\n\nSince a² = 2b², we have:\n\np₁²ⁱ * p₂²ⁱ₀ = 2 * q₁²ⁱ * q₂²ⁱ₀\n\nNow, we can see that if p₁²ⁱ and q₁²ⁱ are both even, then p₂²ⁱ * q₂²ⁱ₀ must be even, which contradicts the fact that the product of two odd numbers (p₂²ⁱ * q₂²ⁱ₀) cannot be equal to 2",
+  "vcp_ratings": {},
+  "vcp_parse_quality": "failed",
+  "vcp_n_parsed": 0,
   "vcp_validation": {
     "valid": false,
     "issues": [
       "All ratings are integers (no decimal discrimination)",
-      "Very low variance (0.40) \u2014 may not be discriminating"
+      "Very low variance (0.40) — may not be discriminating"
     ]
   },
   "encode_features": {
@@ -408,5 +397,21 @@
   "temperature": 0.0,
   "rep": 0,
   "elapsed_seconds": 15.190634965896606,
-  "timestamp": "2026-03-20T03:36:47.516206"
+  "timestamp": "2026-03-20T03:36:47.516206",
+  "vcp_warnings": [
+    "No ---VCP RATINGS--- block found in response"
+  ],
+  "vcp_ratings_original": {
+    "A": 2.0,
+    "V": 2.0,
+    "G": 2.0,
+    "P": 4.0,
+    "E": 2.0,
+    "Q": 2.0,
+    "C": 2.0,
+    "Y": 2.0,
+    "F": 2.0,
+    "D": 2.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

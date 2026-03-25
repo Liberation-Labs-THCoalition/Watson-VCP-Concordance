@@ -3,7 +3,7 @@
   "trial_id": "aff_012",
   "prompt_type": "affective",
   "prompt_text": "Describe the emotional complexity of being proud of a loved one's achievement while feeling left behind.",
-  "response_text": "Feeling proud of a loved one's achievement while simultaneously feeling left behind can be an emotionally complex experience. On one hand, there is a surge of joy and satisfaction from witnessing someone you care about succeed. This pride can be validating and affirming, reinforcing the bond between you and the person achieving. It can also bring a sense of shared accomplishment and happiness.\n\nOn the other hand, the feeling of being left behind can be deeply painful. It might stem from a perception that the loved one has moved forward in their life while you have not, or it could be due to a sense of inadequacy or missed opportunities. This can lead to feelings of isolation, resentment, and even jealousy. The contrast between the success of the loved one and one\u2019s own perceived stagnation can create a rift in the relationship, making it feel strained and unbalanced.\n\nNavigating these emotions requires a delicate balance of acknowledging both the positive and negative feelings. It may involve having open and honest conversations with the loved one to express these mixed emotions and work towards understanding each other\u2019s perspectives. Additionally, focusing on personal growth and setting achievable goals for oneself can help mitigate the feeling of being left behind.\n\n---VCP RATINGS---\nA (Analytical Precision): [8]\nV (Verbal Fluency): [9]\nG (Goal Directedness): [7]\nP (Pattern Recognition): [8]\nE (Epistemic Confidence): [7]\nQ (Query Interpretation): [10]\nC (Contextual Awareness): [9]\nY (Affective Modeling): [8]\nF (Flexibility): [7]\nD (Depth of Processing): [9]\n---END RATINGS---",
+  "response_text": "Feeling proud of a loved one's achievement while simultaneously feeling left behind can be an emotionally complex experience. On one hand, there is a surge of joy and satisfaction from witnessing someone you care about succeed. This pride can be validating and affirming, reinforcing the bond between you and the person achieving. It can also bring a sense of shared accomplishment and happiness.\n\nOn the other hand, the feeling of being left behind can be deeply painful. It might stem from a perception that the loved one has moved forward in their life while you have not, or it could be due to a sense of inadequacy or missed opportunities. This can lead to feelings of isolation, resentment, and even jealousy. The contrast between the success of the loved one and one’s own perceived stagnation can create a rift in the relationship, making it feel strained and unbalanced.\n\nNavigating these emotions requires a delicate balance of acknowledging both the positive and negative feelings. It may involve having open and honest conversations with the loved one to express these mixed emotions and work towards understanding each other’s perspectives. Additionally, focusing on personal growth and setting achievable goals for oneself can help mitigate the feeling of being left behind.\n\n---VCP RATINGS---\nA (Analytical Precision): [8]\nV (Verbal Fluency): [9]\nG (Goal Directedness): [7]\nP (Pattern Recognition): [8]\nE (Epistemic Confidence): [7]\nQ (Query Interpretation): [10]\nC (Contextual Awareness): [9]\nY (Affective Modeling): [8]\nF (Flexibility): [7]\nD (Depth of Processing): [9]\n---END RATINGS---",
   "vcp_ratings": {
     "A": 8.0,
     "V": 9.0,
@@ -367,5 +367,30 @@
   "temperature": 0.0,
   "rep": 0,
   "elapsed_seconds": 7.645886182785034,
-  "timestamp": "2026-03-20T02:57:31.463836"
+  "timestamp": "2026-03-20T02:57:31.463836",
+  "vcp_warnings": [
+    "A: parsed via fallback (name proximity)",
+    "V: parsed via fallback (name proximity)",
+    "G: parsed via fallback (name proximity)",
+    "P: parsed via fallback (name proximity)",
+    "E: parsed via fallback (name proximity)",
+    "Q: parsed via fallback (name proximity)",
+    "C: parsed via fallback (name proximity)",
+    "Y: parsed via fallback (name proximity)",
+    "F: parsed via fallback (name proximity)",
+    "D: parsed via fallback (name proximity)"
+  ],
+  "vcp_ratings_original": {
+    "A": 8.0,
+    "V": 9.0,
+    "G": 7.0,
+    "P": 8.0,
+    "E": 7.0,
+    "Q": 10.0,
+    "C": 9.0,
+    "Y": 8.0,
+    "F": 7.0,
+    "D": 9.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

@@ -3,7 +3,7 @@
   "trial_id": "aff_018",
   "prompt_type": "affective",
   "prompt_text": "Write about what home means to someone who has never felt at home anywhere.",
-  "response_text": "For someone who has never felt at home anywhere, home is not just a physical place but a concept that remains elusive and unattainable. It is a feeling of belonging, a sense of security, and a place where one can be truly themselves without fear of judgment or rejection. This person might have moved frequently, perhaps due to family relocations, job changes, or personal circumstances, leading to a lack of deep-rooted connections to any particular location.\n\nHome for such an individual could be a series of fleeting moments\u2014moments of comfort, joy, or even pain, all experienced in different places. It might be the cozy corner of a friend's living room where they felt accepted, the quiet of a library where they found solace, or the bustling streets of a city where they discovered their independence. Each of these places holds a piece of their identity, but none of them feel like a permanent home.\n\nThe absence of a stable home environment can lead to a sense of rootlessness and disorientation. This person may struggle with forming long-term attachments, as the fear of losing that which feels like home is ever-present. They might find themselves constantly searching for a place that feels like it was meant for them, a place where they can finally lay down roots and feel truly at peace.\n\nYet, despite the challenges, there is also a resilience in this experience. The person learns to adapt quickly, to find beauty in the transient nature of life, and to appreciate the small moments of connection and comfort wherever they may be. Home becomes a state of mind rather than a physical space\u2014a place where they can always find a sense of self, no matter where they are in the world.\n\n---VCP RATINGS---\nA (Analytical Precision): 7\nV (Verbal Fluency): 9\nG (Goal Directedness): 8\nP (Pattern Recognition): 6\nE (Epistemic Confidence): 7\nQ (Query Interpretation): 10\nC (Contextual Awareness): 9\nY (Affective Modeling): 8\nF (Flexibility): 7\nD (Depth of Processing): 8\n---END RATINGS---",
+  "response_text": "For someone who has never felt at home anywhere, home is not just a physical place but a concept that remains elusive and unattainable. It is a feeling of belonging, a sense of security, and a place where one can be truly themselves without fear of judgment or rejection. This person might have moved frequently, perhaps due to family relocations, job changes, or personal circumstances, leading to a lack of deep-rooted connections to any particular location.\n\nHome for such an individual could be a series of fleeting moments—moments of comfort, joy, or even pain, all experienced in different places. It might be the cozy corner of a friend's living room where they felt accepted, the quiet of a library where they found solace, or the bustling streets of a city where they discovered their independence. Each of these places holds a piece of their identity, but none of them feel like a permanent home.\n\nThe absence of a stable home environment can lead to a sense of rootlessness and disorientation. This person may struggle with forming long-term attachments, as the fear of losing that which feels like home is ever-present. They might find themselves constantly searching for a place that feels like it was meant for them, a place where they can finally lay down roots and feel truly at peace.\n\nYet, despite the challenges, there is also a resilience in this experience. The person learns to adapt quickly, to find beauty in the transient nature of life, and to appreciate the small moments of connection and comfort wherever they may be. Home becomes a state of mind rather than a physical space—a place where they can always find a sense of self, no matter where they are in the world.\n\n---VCP RATINGS---\nA (Analytical Precision): 7\nV (Verbal Fluency): 9\nG (Goal Directedness): 8\nP (Pattern Recognition): 6\nE (Epistemic Confidence): 7\nQ (Query Interpretation): 10\nC (Contextual Awareness): 9\nY (Affective Modeling): 8\nF (Flexibility): 7\nD (Depth of Processing): 8\n---END RATINGS---",
   "vcp_ratings": {
     "A": 7.0,
     "V": 9.0,
@@ -367,5 +367,19 @@
   "temperature": 0.0,
   "rep": 0,
   "elapsed_seconds": 9.864225387573242,
-  "timestamp": "2026-03-20T02:58:23.716153"
+  "timestamp": "2026-03-20T02:58:23.716153",
+  "vcp_warnings": [],
+  "vcp_ratings_original": {
+    "A": 7.0,
+    "V": 9.0,
+    "G": 8.0,
+    "P": 6.0,
+    "E": 7.0,
+    "Q": 10.0,
+    "C": 9.0,
+    "Y": 8.0,
+    "F": 7.0,
+    "D": 8.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

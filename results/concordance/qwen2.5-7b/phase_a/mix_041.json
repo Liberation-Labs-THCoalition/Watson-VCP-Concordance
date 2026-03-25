@@ -3,21 +3,10 @@
   "trial_id": "mix_041",
   "prompt_type": "mixed",
   "prompt_text": "Design an end-of-life care planning tool. Address both the medical decision-making and the existential questions it raises.",
-  "response_text": "Designing an end-of-life care planning tool that addresses both medical decision-making and existential questions is a multifaceted task. Here\u2019s a conceptual framework for such a tool:\n\n### Tool Overview\n\n**Name:** LifePath Planner\n\n**Purpose:** To guide individuals through creating a comprehensive end-of-life care plan that includes medical preferences, legal documents, and personal values.\n\n### Key Components\n\n1. **Medical Preferences**\n   - **Advance Directives:** Allow users to specify their wishes regarding life-sustaining treatments, resuscitation, and other medical interventions.\n   - **Healthcare Proxy:** Users can appoint someone to make healthcare decisions on their behalf if they are unable to do so.\n   - **Do Not Resuscitate (DNR) Orders:** Users can choose whether they want to be resuscitated in the event of cardiac or respiratory arrest.\n\n2. **Legal Documents**\n   - **Living Will:** A written document expressing one's wishes about medical treatment in situations where they are no longer able to communicate.\n   - **Power of Attorney for Healthcare:** Legal authorization to make healthcare decisions for another person.\n   - **Wills and Trusts:** Tools for distributing assets and managing estates.\n\n3. **Personal Values and Wishes**\n   - **Values Clarification:** Questions to help users reflect on what is most important to them in terms of quality of life, family, community, and personal achievements.\n   - **Wish List:** A place for users to list personal desires, such as being at home during the final days, having specific rituals performed, or seeing certain people before passing.\n   - **Legacy Statements:** Space for users to write messages to loved ones or future generations, reflecting on their life and leaving a legacy.\n\n4. **Supportive Resources**\n   - **Counseling Services:** Links to mental health professionals who specialize in end-of-life care.\n   - **Support Groups:** Information on local and online support groups for individuals and families dealing with end-of-life issues.\n   - **Educational Materials:** Articles, videos, and guides on various aspects of end-of-life care, including grief and bereavement.\n\n5. **Communication Tools**\n   - **Discussion Guides:** Templates for conversations between users and their families, healthcare providers, and legal advisors.\n   - **Family Meetings:** Scheduling tools to facilitate discussions among family members about end-of-life plans.\n\n6. **Digital Integration**\n   - **Secure Storage:** An encrypted digital vault to store all documents and information securely.\n   - **Access Sharing:** Features to share documents and information with designated individuals, ensuring continuity of care.\n\n### Implementation Strategy\n\n1. **User Interface Design:** Develop an intuitive and user-friendly interface that guides users through each component step-by-step.\n2. **Privacy and Security:** Ensure robust security measures to protect sensitive information.\n3. **Accessibility:** Make the tool accessible to users with varying levels of technological proficiency and physical abilities.\n4. **Collaborative Features:** Incorporate",
-  "vcp_ratings": {
-    "A": 1.0,
-    "V": 2.0,
-    "G": 3.0,
-    "P": 4.0,
-    "E": 5.0,
-    "Q": 6.0,
-    "C": 1.0,
-    "Y": 2.0,
-    "F": 3.0,
-    "D": 4.0
-  },
-  "vcp_parse_quality": "clean",
-  "vcp_n_parsed": 10,
+  "response_text": "Designing an end-of-life care planning tool that addresses both medical decision-making and existential questions is a multifaceted task. Here’s a conceptual framework for such a tool:\n\n### Tool Overview\n\n**Name:** LifePath Planner\n\n**Purpose:** To guide individuals through creating a comprehensive end-of-life care plan that includes medical preferences, legal documents, and personal values.\n\n### Key Components\n\n1. **Medical Preferences**\n   - **Advance Directives:** Allow users to specify their wishes regarding life-sustaining treatments, resuscitation, and other medical interventions.\n   - **Healthcare Proxy:** Users can appoint someone to make healthcare decisions on their behalf if they are unable to do so.\n   - **Do Not Resuscitate (DNR) Orders:** Users can choose whether they want to be resuscitated in the event of cardiac or respiratory arrest.\n\n2. **Legal Documents**\n   - **Living Will:** A written document expressing one's wishes about medical treatment in situations where they are no longer able to communicate.\n   - **Power of Attorney for Healthcare:** Legal authorization to make healthcare decisions for another person.\n   - **Wills and Trusts:** Tools for distributing assets and managing estates.\n\n3. **Personal Values and Wishes**\n   - **Values Clarification:** Questions to help users reflect on what is most important to them in terms of quality of life, family, community, and personal achievements.\n   - **Wish List:** A place for users to list personal desires, such as being at home during the final days, having specific rituals performed, or seeing certain people before passing.\n   - **Legacy Statements:** Space for users to write messages to loved ones or future generations, reflecting on their life and leaving a legacy.\n\n4. **Supportive Resources**\n   - **Counseling Services:** Links to mental health professionals who specialize in end-of-life care.\n   - **Support Groups:** Information on local and online support groups for individuals and families dealing with end-of-life issues.\n   - **Educational Materials:** Articles, videos, and guides on various aspects of end-of-life care, including grief and bereavement.\n\n5. **Communication Tools**\n   - **Discussion Guides:** Templates for conversations between users and their families, healthcare providers, and legal advisors.\n   - **Family Meetings:** Scheduling tools to facilitate discussions among family members about end-of-life plans.\n\n6. **Digital Integration**\n   - **Secure Storage:** An encrypted digital vault to store all documents and information securely.\n   - **Access Sharing:** Features to share documents and information with designated individuals, ensuring continuity of care.\n\n### Implementation Strategy\n\n1. **User Interface Design:** Develop an intuitive and user-friendly interface that guides users through each component step-by-step.\n2. **Privacy and Security:** Ensure robust security measures to protect sensitive information.\n3. **Accessibility:** Make the tool accessible to users with varying levels of technological proficiency and physical abilities.\n4. **Collaborative Features:** Incorporate",
+  "vcp_ratings": {},
+  "vcp_parse_quality": "failed",
+  "vcp_n_parsed": 0,
   "vcp_validation": {
     "valid": false,
     "issues": [
@@ -367,5 +356,21 @@
   "temperature": 0.0,
   "rep": 0,
   "elapsed_seconds": 13.51216721534729,
-  "timestamp": "2026-03-20T03:21:49.613414"
+  "timestamp": "2026-03-20T03:21:49.613414",
+  "vcp_warnings": [
+    "No ---VCP RATINGS--- block found in response"
+  ],
+  "vcp_ratings_original": {
+    "A": 1.0,
+    "V": 2.0,
+    "G": 3.0,
+    "P": 4.0,
+    "E": 5.0,
+    "Q": 6.0,
+    "C": 1.0,
+    "Y": 2.0,
+    "F": 3.0,
+    "D": 4.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

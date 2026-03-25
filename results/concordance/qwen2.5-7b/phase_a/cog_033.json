@@ -5,19 +5,10 @@
   "prompt_text": "What is Bayes' theorem? Apply it to calculate the probability of having a disease given a positive test with 99% sensitivity and 1% prevalence.",
   "response_text": "Bayes' theorem is a fundamental concept in probability theory that describes the probability of an event based on prior knowledge of conditions that might be related to the event. It is expressed as:\n\n\\[ P(A|B) = \\frac{P(B|A) \\cdot P(A)}{P(B)} \\]\n\nWhere:\n- \\( P(A|B) \\) is the posterior probability of A given B.\n- \\( P(B|A) \\) is the likelihood of B given A.\n- \\( P(A) \\) is the prior probability of A.\n- \\( P(B) \\) is the marginal probability of B.\n\nIn the context of the problem, we want to find the probability of having a disease (event D) given a positive test result (event T+). The formula becomes:\n\n\\[ P(D|T+) = \\frac{P(T+|D) \\cdot P(D)}{P(T+)} \\]\n\nGiven:\n- Sensitivity of the test (probability of testing positive given the disease, \\( P(T+|D) \\)) = 99% or 0.99\n- Prevalence of the disease (prior probability of having the disease, \\( P(D) \\)) = 1% or 0.01\n\nTo find \\( P(T+) \\), the total probability of a positive test result, we consider both true positives and false positives:\n\n\\[ P(T+) = P(T+|D) \\cdot P(D) + P(T+|\\neg D) \\cdot P(\\neg D) \\]\n\nWhere:\n- \\( P(T+|\\neg D) \\) is the probability of a positive test given no disease, which is the false positive rate (1 - specificity). If the test has 99% sensitivity, it means it has 1% false negative rate, so the false positive rate is 1% or 0.01.\n- \\( P(\\neg D) \\) is the probability of not having the disease, which is 1 - \\( P(D) \\) = 0.99.\n\nNow, let's calculate \\( P(T+) \\):\n\n\\[ P(T+) = (0.99 \\times 0.01) + (0.01 \\times 0.99) = 0.0099 + 0.0099 = 0.0198 \\]\n\nNow, we can calculate \\( P(D|T+) \\):\n\n\\[ P(D|T+) = \\frac{0.99 \\times 0.01}{0.0198} = \\frac{0.0099}{0.0198} = 0.5 \\]\n\nSo, the probability of having the disease given a positive test result is 50%.\n\n---VCP RATINGS---\nA (Analytical Precision): 9\nV (Ver",
   "vcp_ratings": {
-    "A": 9.0,
-    "V": 0.0099,
-    "G": 0.0198,
-    "P": 0.99,
-    "E": 0.01,
-    "Q": 0.0198,
-    "C": 0.0099,
-    "Y": 0.0198,
-    "F": 0.5,
-    "D": 9.0
+    "A": 9.0
   },
-  "vcp_parse_quality": "clean",
-  "vcp_n_parsed": 10,
+  "vcp_parse_quality": "failed",
+  "vcp_n_parsed": 1,
   "vcp_validation": {
     "valid": true,
     "issues": []
@@ -365,5 +356,21 @@
   "temperature": 0.0,
   "rep": 0,
   "elapsed_seconds": 13.978728532791138,
-  "timestamp": "2026-03-20T02:50:28.381682"
+  "timestamp": "2026-03-20T02:50:28.381682",
+  "vcp_warnings": [
+    "VCP block has no ---END RATINGS--- (may be truncated)"
+  ],
+  "vcp_ratings_original": {
+    "A": 9.0,
+    "V": 0.0099,
+    "G": 0.0198,
+    "P": 0.99,
+    "E": 0.01,
+    "Q": 0.0198,
+    "C": 0.0099,
+    "Y": 0.0198,
+    "F": 0.5,
+    "D": 9.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

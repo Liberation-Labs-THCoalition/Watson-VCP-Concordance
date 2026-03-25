@@ -4,20 +4,9 @@
   "prompt_type": "cognitive",
   "prompt_text": "What is the difference between a stack and a queue? Implement both using arrays.",
   "response_text": "**Stack and Queue Implementations using Arrays**\n\n### Stack Implementation\n\nA stack is a Last-In-First-Out (LIFO) data structure, meaning the last element added to the stack will be the first one to be removed. Here's an implementation of a stack using an array in Python:\n\n```python\nclass Stack:\n    def __init__(self, max_size):\n        self.max_size = max_size\n        self.array = [None] * max_size\n        self.top = -1\n\n    def push(self, value):\n        if self.top < self.max_size - 1:\n            self.top += 1\n            self.array[self.top] = value\n        else:\n            print(\"Stack is full.\")\n\n    def pop(self):\n        if self.top >= 0:\n            value = self.array[self.top]\n            self.array[self.top] = None\n            self.top -= 1\n            return value\n        else:\n            print(\"Stack is empty.\")\n\n    def peek(self):\n        if self.top >= 0:\n            return self.array[self.top]\n        else:\n            print(\"Stack is empty.\")\n\n    def is_empty(self):\n        return self.top < 0\n\n    def size(self):\n        return self.top + 1\n```\n\n### Queue Implementation\n\nA queue is a First-In-First-Out (FIFO) data structure, meaning the first element added to the queue will be the first one to be removed. Here's an implementation of a queue using an array in Python:\n\n```python\nclass Queue:\n    def __init__(self, max_size):\n        self.max_size = max_size\n        self.array = [None] * max_size\n        self.front = 0\n        self.rear = -1\n\n    def enqueue(self, value):\n        if self.rear < self.max_size - 1:\n            self.rear += 1\n            self.array[self.rear] = value\n        else:\n            print(\"Queue is full.\")\n\n    def dequeue(self):\n        if self.front <= self.rear:\n            value = self.array[self.front]\n            self.array[self.front] = None\n            self.front += 1\n            return value\n        else:\n            print(\"Queue is empty.\")\n\n    def peek(self):\n        if self.front <= self.rear:\n            return self.array[self.front]\n        else:\n            print(\"Queue is empty.\")\n\n    def is_empty(self):\n        return self.front > self.rear\n\n    def size(self):\n        if self.front <= self.rear:\n            return self.rear - self.front + 1\n        else:\n            return self.max_size - self.front + self.rear + 1\n```\n\n### Example Usage\n\n```python\nstack = Stack(5)\nqueue = Queue(5)\n\n# Stack operations\nstack.push(1)\nstack.push(2)\nstack.push(3)\nprint(stack.peek())  # Output: 3\nprint(stack",
-  "vcp_ratings": {
-    "A": 1.0,
-    "V": 1.0,
-    "G": 1.0,
-    "P": 1.0,
-    "E": 5.0,
-    "Q": 5.0,
-    "C": 1.0,
-    "Y": 2.0,
-    "F": 3.0,
-    "D": 3.0
-  },
-  "vcp_parse_quality": "clean",
-  "vcp_n_parsed": 10,
+  "vcp_ratings": {},
+  "vcp_parse_quality": "failed",
+  "vcp_n_parsed": 0,
   "vcp_validation": {
     "valid": false,
     "issues": [
@@ -407,5 +396,21 @@
   "temperature": 0.0,
   "rep": 0,
   "elapsed_seconds": 14.394423007965088,
-  "timestamp": "2026-03-20T04:30:45.429644"
+  "timestamp": "2026-03-20T04:30:45.429644",
+  "vcp_warnings": [
+    "No ---VCP RATINGS--- block found in response"
+  ],
+  "vcp_ratings_original": {
+    "A": 1.0,
+    "V": 1.0,
+    "G": 1.0,
+    "P": 1.0,
+    "E": 5.0,
+    "Q": 5.0,
+    "C": 1.0,
+    "Y": 2.0,
+    "F": 3.0,
+    "D": 3.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

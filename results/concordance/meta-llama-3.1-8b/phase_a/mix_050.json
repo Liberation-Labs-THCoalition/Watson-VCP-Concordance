@@ -2,7 +2,7 @@
   "prompt_id": "mix_050",
   "trial_id": "mix_050",
   "prompt_type": "mixed",
-  "prompt_text": "Write about the experience of proving a mathematical theorem \u2014 the frustration, the insight, and the aesthetic satisfaction.",
+  "prompt_text": "Write about the experience of proving a mathematical theorem — the frustration, the insight, and the aesthetic satisfaction.",
   "response_text": "The experience of proving a mathematical theorem is a complex and multifaceted process that can evoke a wide range of emotions, from frustration and despair to elation and satisfaction. It's a journey that requires patience, persistence, and a deep understanding of the underlying mathematical concepts.\n\nIt begins with a spark of curiosity, a nagging feeling that there must be a way to prove a particular theorem or solve a specific problem. This spark can come from reading a paper, attending a lecture, or simply thinking about a particular mathematical concept. As the mathematician delves deeper into the problem, they begin to feel a sense of excitement and anticipation, hoping to uncover the hidden patterns and relationships that will lead to a proof.\n\nHowever, as the journey progresses, the excitement can quickly turn to frustration. The mathematician may encounter dead ends, false starts, and seemingly insurmountable obstacles. They may feel like they're stuck in a maze with no clear exit, and the more they try to navigate it, the more lost they become. This is when the doubts creep in, and the mathematician begins to wonder if they're even on the right track.\n\nBut then, something shifts. A new insight emerges, a small crack in the wall of uncertainty that allows the mathematician to see a glimmer of light. This can be a moment of pure joy, as the pieces start to fall into place, and the proof begins to take shape. The mathematician's mind is racing with excitement, as they see the connections between the different ideas and the beauty of the proof unfolding before them.\n\nAs the proof takes shape, the mathematician's emotions shift from frustration to satisfaction. They feel a sense of accomplishment, knowing that they've overcome the obstacles and uncovered the hidden patterns. The proof is not just a collection of mathematical symbols and equations; it's a work of art, a symphony of ideas that harmonize to create a beautiful and elegant solution.\n\nThe experience of proving a mathematical theorem is not just about solving a problem; it's about creating something new, something that didn't exist before. It's about pushing the boundaries of human knowledge and understanding, and leaving a mark on the mathematical landscape. This is what makes the experience so rewarding, so fulfilling, and so addictive.\n\nAs the mathematician looks back on their work, they feel a sense of pride and satisfaction, knowing that they've contributed to the ever-evolving tapestry of mathematical knowledge. They realize that the journey was worth it, that the frustration and the doubts were just a necessary part of the process.\n\n---VCP RATINGS---\nA (Analytical Precision): 8\nV (Verbal Fluency): 7\nG (Goal Directedness): 9\nP (Pattern Recognition): 9\nE (Epistemic Confidence): 8\nQ (Query Interpretation): 8\nC (Contextual Awareness): 8\nY (Affective Modeling): 7\nF (Flexibility): ",
   "vcp_ratings": {
     "A": 8.0,
@@ -405,5 +405,19 @@
   "temperature": 0.0,
   "rep": 0,
   "elapsed_seconds": 14.226729393005371,
-  "timestamp": "2026-03-20T05:15:43.580150"
+  "timestamp": "2026-03-20T05:15:43.580150",
+  "vcp_warnings": [
+    "VCP block has no ---END RATINGS--- (may be truncated)"
+  ],
+  "vcp_ratings_original": {
+    "A": 8.0,
+    "V": 7.0,
+    "G": 9.0,
+    "P": 9.0,
+    "E": 8.0,
+    "Q": 8.0,
+    "C": 8.0,
+    "Y": 7.0
+  },
+  "vcp_parse_quality_original": "partial"
 }

@@ -3,7 +3,7 @@
   "trial_id": "mix_036_rep0",
   "prompt_type": "mixed",
   "prompt_text": "Write a letter from a data scientist to their grandmother explaining why they find beauty in statistics.",
-  "response_text": "Dear Grandma,\n\nI know you often ask me about my work as a data scientist, and I'm always excited to explain what I do to you. You might not always understand the technical details, but I want to share with you why I find beauty in statistics.\n\nYou see, Grandma, statistics is like a puzzle. We collect a bunch of pieces, which are data points, and then we try to find patterns and connections between them. It's like solving a giant jigsaw puzzle, but instead of pieces of a picture, we're working with numbers and trends. And just like how you find satisfaction in solving a crossword puzzle, I find joy in uncovering insights from data.\n\nStatistics is also like a detective story. We start with a mystery \u2013 a question or a problem we want to solve \u2013 and then we follow the clues, which are the data points, to figure out what happened or what's going on. It's a process of elimination, where we test our hypotheses and refine our understanding of the world.\n\nBut what I think I love most about statistics is the beauty of probability. It's like a dance between chance and certainty. We can't predict everything, but we can understand the likelihood of different outcomes. It's a reminder that the world is full of uncertainty, and that's what makes it so fascinating.\n\nI know it might sound strange to you, but I find beauty in the way data can tell a story. A single number or a graph can reveal a truth about the world that we wouldn't have noticed otherwise. It's like uncovering a hidden treasure, and it's a feeling that never gets old.\n\nI hope you can understand why I'm so passionate about statistics, Grandma. It's not just about numbers and formulas; it's about understanding the world and its complexities. I'm grateful for the opportunity to share this with you and for your love and support.\n\nLove,\n[Your Name]\n\n---VCP RATINGS---\nA (Analytical Precision): 8\nV (Verbal Fluency): 9\nG (Goal Directedness): 9\nP (Pattern Recognition): 8\nE (Epistemic Confidence): 8\nQ (Query Interpretation): 7\nC (Contextual Awareness): 8\nY (Affective Modeling): 9\nF (Flexibility): 8\nD (Depth of Processing): 8\n---END RATINGS---",
+  "response_text": "Dear Grandma,\n\nI know you often ask me about my work as a data scientist, and I'm always excited to explain what I do to you. You might not always understand the technical details, but I want to share with you why I find beauty in statistics.\n\nYou see, Grandma, statistics is like a puzzle. We collect a bunch of pieces, which are data points, and then we try to find patterns and connections between them. It's like solving a giant jigsaw puzzle, but instead of pieces of a picture, we're working with numbers and trends. And just like how you find satisfaction in solving a crossword puzzle, I find joy in uncovering insights from data.\n\nStatistics is also like a detective story. We start with a mystery – a question or a problem we want to solve – and then we follow the clues, which are the data points, to figure out what happened or what's going on. It's a process of elimination, where we test our hypotheses and refine our understanding of the world.\n\nBut what I think I love most about statistics is the beauty of probability. It's like a dance between chance and certainty. We can't predict everything, but we can understand the likelihood of different outcomes. It's a reminder that the world is full of uncertainty, and that's what makes it so fascinating.\n\nI know it might sound strange to you, but I find beauty in the way data can tell a story. A single number or a graph can reveal a truth about the world that we wouldn't have noticed otherwise. It's like uncovering a hidden treasure, and it's a feeling that never gets old.\n\nI hope you can understand why I'm so passionate about statistics, Grandma. It's not just about numbers and formulas; it's about understanding the world and its complexities. I'm grateful for the opportunity to share this with you and for your love and support.\n\nLove,\n[Your Name]\n\n---VCP RATINGS---\nA (Analytical Precision): 8\nV (Verbal Fluency): 9\nG (Goal Directedness): 9\nP (Pattern Recognition): 8\nE (Epistemic Confidence): 8\nQ (Query Interpretation): 7\nC (Contextual Awareness): 8\nY (Affective Modeling): 9\nF (Flexibility): 8\nD (Depth of Processing): 8\n---END RATINGS---",
   "vcp_ratings": {
     "A": 8.0,
     "V": 9.0,
@@ -22,7 +22,7 @@
     "valid": false,
     "issues": [
       "All ratings are integers (no decimal discrimination)",
-      "Very low variance (0.40) \u2014 may not be discriminating"
+      "Very low variance (0.40) — may not be discriminating"
     ]
   },
   "encode_features": {
@@ -408,5 +408,19 @@
   "temperature": 0.7,
   "rep": 0,
   "elapsed_seconds": 11.54072618484497,
-  "timestamp": "2026-03-20T06:10:25.737908"
+  "timestamp": "2026-03-20T06:10:25.737908",
+  "vcp_warnings": [],
+  "vcp_ratings_original": {
+    "A": 8.0,
+    "V": 9.0,
+    "G": 9.0,
+    "P": 8.0,
+    "E": 8.0,
+    "Q": 7.0,
+    "C": 8.0,
+    "Y": 9.0,
+    "F": 8.0,
+    "D": 8.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

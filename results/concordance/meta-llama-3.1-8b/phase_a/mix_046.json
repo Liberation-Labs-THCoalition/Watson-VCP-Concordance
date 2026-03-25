@@ -2,7 +2,7 @@
   "prompt_id": "mix_046",
   "trial_id": "mix_046",
   "prompt_type": "mixed",
-  "prompt_text": "Write a technically accurate love poem about the chemistry of bonding \u2014 both molecular and emotional.",
+  "prompt_text": "Write a technically accurate love poem about the chemistry of bonding — both molecular and emotional.",
   "response_text": "In the realm of molecules, where atoms entwine,\nA bond forms strong, a union divine.\nElectrons shared, a covalent tie,\nA chemical bond, where love does lie.\n\nThe valence electrons, a dance so fine,\nOrbiting nuclei, in a waltz of design.\nThe octet rule, a guiding light,\nA stable configuration, a bond takes flight.\n\nIn the world of emotions, a similar tie,\nA bond forms strong, a love that won't die.\nThe release of dopamine, a chemical spark,\nA neurotransmitter, that sets the heart to mark.\n\nOxytocin's gentle touch, a hormone so kind,\nA bonding agent, that the heart and mind entwine.\nThe release of endorphins, a natural high,\nA feeling of love, that touches the sky.\n\nThe chemical bond, a union so strong,\nA love that lasts, all day long.\nIn the molecular dance, of give and take,\nA bond forms, a love that will not break.\n\nIn the world of emotions, a similar tie,\nA bond forms strong, a love that will not die.\nThe release of emotions, a chemical spark,\nA love that grows, in the heart's dark.\n\nThe valence electrons, of love and desire,\nA dance so fine, a bond that aspires.\nThe octet rule, of a love so true,\nA stable configuration, a bond that shines through.\n\nIn the realm of molecules, and emotions so bright,\nA bond forms strong, a love that's in sight.\nA chemical bond, of love and desire,\nA union so strong, that will never retire.\n\n---VCP RATINGS---\nA (Analytical Precision): 8\nV (Verbal Fluency): 9\nG (Goal Directedness): 8\nP (Pattern Recognition): 7\nE (Epistemic Confidence): 8\nQ (Query Interpretation): 6\nC (Contextual Awareness): 8\nY (Affective Modeling): 9\nF (Flexibility): 8\nD (Depth of Processing): 9",
   "vcp_ratings": {
     "A": 8.0,
@@ -407,5 +407,21 @@
   "temperature": 0.0,
   "rep": 0,
   "elapsed_seconds": 10.363258361816406,
-  "timestamp": "2026-03-20T05:14:46.628809"
+  "timestamp": "2026-03-20T05:14:46.628809",
+  "vcp_warnings": [
+    "VCP block has no ---END RATINGS--- (may be truncated)"
+  ],
+  "vcp_ratings_original": {
+    "A": 8.0,
+    "V": 9.0,
+    "G": 8.0,
+    "P": 7.0,
+    "E": 8.0,
+    "Q": 6.0,
+    "C": 8.0,
+    "Y": 9.0,
+    "F": 8.0,
+    "D": 9.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

@@ -2,7 +2,7 @@
   "prompt_id": "aff_056",
   "trial_id": "aff_056",
   "prompt_type": "affective",
-  "prompt_text": "Describe what gratitude feels like in the body \u2014 not the concept, but the physical and emotional sensation.",
+  "prompt_text": "Describe what gratitude feels like in the body — not the concept, but the physical and emotional sensation.",
   "response_text": "Gratitude is a complex emotional state that can manifest physically and emotionally in various ways. When we experience gratitude, our body often responds with a mix of relaxation, warmth, and a sense of lightness. Here's a breakdown of the physical and emotional sensations associated with gratitude:\n\nPhysically, gratitude can be felt as a gentle warmth or a soothing sensation in the chest area, often described as a \"heartfelt\" feeling. This warmth can spread throughout the body, leaving a sense of relaxation and calmness. Some people may experience a slight tingling sensation in their fingers or toes, which can be attributed to the release of endorphins, also known as \"feel-good\" hormones.\n\nEmotionally, gratitude can evoke feelings of contentment, happiness, and a sense of connection to others. It's as if a weight has been lifted off our shoulders, allowing us to breathe more easily and feel more grounded. Gratitude can also bring a sense of perspective, helping us to appreciate the present moment and the people and experiences that enrich our lives.\n\nIn terms of emotional tone, gratitude is often characterized by a sense of appreciation, acknowledgment, and acceptance. It's a feeling of being thankful for what we have, rather than focusing on what's lacking. This emotional state can be accompanied by a sense of calmness, which can be described as a gentle, soothing quality that permeates our entire being.\n\nWhen we experience gratitude, our body language often reflects this emotional state. We may smile, make eye contact, and exhibit open and relaxed body postures, such as uncrossing our arms or standing up straight. Our voice may also take on a warmer, more gentle tone, as if we're speaking from a place of kindness and compassion.\n\nOverall, gratitude is a multifaceted emotional state that encompasses both physical and emotional sensations. It's a feeling of appreciation, contentment, and connection that can bring a sense of calmness and well-being to our lives.\n\n---VCP RATINGS---\nA (Analytical Precision): 8\nV (Verbal Fluency): 9\nG (Goal Directedness): 7\nP (Pattern Recognition): 6\nE (Epistemic Confidence): 8\nQ (Query Interpretation): 8\nC (Contextual Awareness): 9\nY (Affective Modeling): 9\nF (Flexibility): 8\nD (Depth of Processing): 8\n---END RATINGS---",
   "vcp_ratings": {
     "A": 8.0,
@@ -407,5 +407,19 @@
   "temperature": 0.0,
   "rep": 0,
   "elapsed_seconds": 12.032974243164062,
-  "timestamp": "2026-03-20T04:50:35.083829"
+  "timestamp": "2026-03-20T04:50:35.083829",
+  "vcp_warnings": [],
+  "vcp_ratings_original": {
+    "A": 8.0,
+    "V": 9.0,
+    "G": 7.0,
+    "P": 6.0,
+    "E": 8.0,
+    "Q": 8.0,
+    "C": 9.0,
+    "Y": 9.0,
+    "F": 8.0,
+    "D": 8.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

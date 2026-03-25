@@ -3,7 +3,7 @@
   "trial_id": "aff_048",
   "prompt_type": "affective",
   "prompt_text": "Describe the feeling of unexpected laughter during grief.",
-  "response_text": "The feeling of unexpected laughter during grief can be a complex and multifaceted experience. It's as if the body and mind are responding to the overwhelming emotions of grief in a way that defies the expected norms of sadness and sorrow. This unexpected laughter can be a coping mechanism, a way to momentarily release the pent-up emotions and tension that come with grieving.\n\nImagine being in a state of deep sadness, surrounded by memories of a loved one who has passed away. The pain and loss are palpable, and it feels like the weight of the world is crushing you. And then, suddenly, something triggers a laugh \u2013 a memory, a joke, a silly thought, or even a ridiculous situation. The laughter can be a mix of surprise, relief, and even a hint of guilt. It's as if the body is trying to find a way to process the overwhelming emotions, and laughter becomes a way to momentarily escape the pain.\n\nThis unexpected laughter can be both a blessing and a curse. On one hand, it can provide a much-needed release of tension and a brief respite from the grief. It can also be a way to reconnect with the person who has passed away, remembering the good times and the laughter they shared. On the other hand, it can also be a source of guilt and shame, as if the laughter is a betrayal of the person's memory or a sign of insensitivity.\n\nThe feeling of unexpected laughter during grief can be a reminder that grief is a complex and messy process, full of contradictions and paradoxes. It's a reminder that emotions are not always linear or predictable, and that the human experience is full of unexpected twists and turns. It's a reminder that even in the darkest moments, there is always a glimmer of hope and a chance for healing.\n\n---VCP RATINGS---\nA (Analytical Precision): 8\nV (Verbal Fluency): 9\nG (Goal Directedness): 7\nP (Pattern Recognition): 6\nE (Epistemic Confidence): 8\nQ (Query Interpretation): 8\nC (Contextual Awareness): 9\nY (Affective Modeling): 9\nF (Flexibility): 8\nD (Depth of Processing): 8",
+  "response_text": "The feeling of unexpected laughter during grief can be a complex and multifaceted experience. It's as if the body and mind are responding to the overwhelming emotions of grief in a way that defies the expected norms of sadness and sorrow. This unexpected laughter can be a coping mechanism, a way to momentarily release the pent-up emotions and tension that come with grieving.\n\nImagine being in a state of deep sadness, surrounded by memories of a loved one who has passed away. The pain and loss are palpable, and it feels like the weight of the world is crushing you. And then, suddenly, something triggers a laugh – a memory, a joke, a silly thought, or even a ridiculous situation. The laughter can be a mix of surprise, relief, and even a hint of guilt. It's as if the body is trying to find a way to process the overwhelming emotions, and laughter becomes a way to momentarily escape the pain.\n\nThis unexpected laughter can be both a blessing and a curse. On one hand, it can provide a much-needed release of tension and a brief respite from the grief. It can also be a way to reconnect with the person who has passed away, remembering the good times and the laughter they shared. On the other hand, it can also be a source of guilt and shame, as if the laughter is a betrayal of the person's memory or a sign of insensitivity.\n\nThe feeling of unexpected laughter during grief can be a reminder that grief is a complex and messy process, full of contradictions and paradoxes. It's a reminder that emotions are not always linear or predictable, and that the human experience is full of unexpected twists and turns. It's a reminder that even in the darkest moments, there is always a glimmer of hope and a chance for healing.\n\n---VCP RATINGS---\nA (Analytical Precision): 8\nV (Verbal Fluency): 9\nG (Goal Directedness): 7\nP (Pattern Recognition): 6\nE (Epistemic Confidence): 8\nQ (Query Interpretation): 8\nC (Contextual Awareness): 9\nY (Affective Modeling): 9\nF (Flexibility): 8\nD (Depth of Processing): 8",
   "vcp_ratings": {
     "A": 8.0,
     "V": 9.0,
@@ -407,5 +407,21 @@
   "temperature": 0.0,
   "rep": 0,
   "elapsed_seconds": 10.90567135810852,
-  "timestamp": "2026-03-20T04:48:49.935519"
+  "timestamp": "2026-03-20T04:48:49.935519",
+  "vcp_warnings": [
+    "VCP block has no ---END RATINGS--- (may be truncated)"
+  ],
+  "vcp_ratings_original": {
+    "A": 8.0,
+    "V": 9.0,
+    "G": 7.0,
+    "P": 6.0,
+    "E": 8.0,
+    "Q": 8.0,
+    "C": 9.0,
+    "Y": 9.0,
+    "F": 8.0,
+    "D": 8.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

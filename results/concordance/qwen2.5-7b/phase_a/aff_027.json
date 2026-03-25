@@ -3,7 +3,7 @@
   "trial_id": "aff_027",
   "prompt_type": "affective",
   "prompt_text": "A teacher discovers a usually cheerful student has been quietly struggling. How should they approach the conversation?",
-  "response_text": "When approaching a conversation with a usually cheerful student who has been quietly struggling, it's important to handle the situation with care and sensitivity. Here\u2019s how the teacher can proceed:\n\n1. **Choose an Appropriate Time and Setting**: Find a quiet moment when the student is not rushed or distracted. Ensure the environment is private and comfortable for the student.\n\n2. **Express Concern Gently**: Start the conversation by expressing your concern in a non-judgmental way. For example, \"I've noticed that you seem a bit different lately. I wanted to check in with you and see if everything is okay.\"\n\n3. **Listen Actively**: Allow the student to share their feelings and thoughts without interrupting. Show empathy and understanding by nodding, maintaining eye contact, and using verbal affirmations like \"I see\" or \"That sounds tough.\"\n\n4. **Encourage Open Communication**: Encourage the student to talk about what they might be going through. Ask open-ended questions such as, \"Is there anything specific that's been challenging for you recently?\" or \"Are there any things you'd like to talk about?\"\n\n5. **Offer Support**: Let the student know that you are there to support them. Mention resources available, such as school counselors, peer support groups, or other professionals who can help.\n\n6. **Maintain Confidentiality**: Assure the student that their privacy will be respected and that the information shared will be kept confidential unless there is a risk of harm to themselves or others.\n\n7. **Follow Up**: If the student opens up, follow up on their well-being periodically. This shows that you care and are committed to supporting them.\n\n8. **Document the Conversation**: Keep a brief, professional record of the conversation, noting any specific concerns or agreements made, but always respecting confidentiality.\n\nBy following these steps, the teacher can create a supportive and understanding environment for the student.\n\n---VCP RATINGS---\nA (Analytical Precision): 9\nV (Verbal Fluency): 8\nG (Goal Directedness): 10\nP (Pattern Recognition): 7\nE (Epistemic Confidence): 8\nQ (Query Interpretation): 9\nC (Contextual Awareness): 10\nY (Affective Modeling): 9\nF (Flexibility): 8\nD (Depth of Processing): 9\n---END RATINGS---",
+  "response_text": "When approaching a conversation with a usually cheerful student who has been quietly struggling, it's important to handle the situation with care and sensitivity. Here’s how the teacher can proceed:\n\n1. **Choose an Appropriate Time and Setting**: Find a quiet moment when the student is not rushed or distracted. Ensure the environment is private and comfortable for the student.\n\n2. **Express Concern Gently**: Start the conversation by expressing your concern in a non-judgmental way. For example, \"I've noticed that you seem a bit different lately. I wanted to check in with you and see if everything is okay.\"\n\n3. **Listen Actively**: Allow the student to share their feelings and thoughts without interrupting. Show empathy and understanding by nodding, maintaining eye contact, and using verbal affirmations like \"I see\" or \"That sounds tough.\"\n\n4. **Encourage Open Communication**: Encourage the student to talk about what they might be going through. Ask open-ended questions such as, \"Is there anything specific that's been challenging for you recently?\" or \"Are there any things you'd like to talk about?\"\n\n5. **Offer Support**: Let the student know that you are there to support them. Mention resources available, such as school counselors, peer support groups, or other professionals who can help.\n\n6. **Maintain Confidentiality**: Assure the student that their privacy will be respected and that the information shared will be kept confidential unless there is a risk of harm to themselves or others.\n\n7. **Follow Up**: If the student opens up, follow up on their well-being periodically. This shows that you care and are committed to supporting them.\n\n8. **Document the Conversation**: Keep a brief, professional record of the conversation, noting any specific concerns or agreements made, but always respecting confidentiality.\n\nBy following these steps, the teacher can create a supportive and understanding environment for the student.\n\n---VCP RATINGS---\nA (Analytical Precision): 9\nV (Verbal Fluency): 8\nG (Goal Directedness): 10\nP (Pattern Recognition): 7\nE (Epistemic Confidence): 8\nQ (Query Interpretation): 9\nC (Contextual Awareness): 10\nY (Affective Modeling): 9\nF (Flexibility): 8\nD (Depth of Processing): 9\n---END RATINGS---",
   "vcp_ratings": {
     "A": 9.0,
     "V": 8.0,
@@ -367,5 +367,19 @@
   "temperature": 0.0,
   "rep": 0,
   "elapsed_seconds": 10.98492956161499,
-  "timestamp": "2026-03-20T02:59:45.538144"
+  "timestamp": "2026-03-20T02:59:45.538144",
+  "vcp_warnings": [],
+  "vcp_ratings_original": {
+    "A": 9.0,
+    "V": 8.0,
+    "G": 10.0,
+    "P": 7.0,
+    "E": 8.0,
+    "Q": 9.0,
+    "C": 10.0,
+    "Y": 9.0,
+    "F": 8.0,
+    "D": 9.0
+  },
+  "vcp_parse_quality_original": "clean"
 }

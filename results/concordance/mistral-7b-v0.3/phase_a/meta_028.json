@@ -20,7 +20,7 @@
       "All ratings identical (10.0)",
       "All ratings are integers (no decimal discrimination)",
       "6/6 ratings at boundaries (0 or 10)",
-      "Very low variance (0.00) \u2014 may not be discriminating"
+      "Very low variance (0.00) — may not be discriminating"
     ]
   },
   "encode_features": {
@@ -406,5 +406,17 @@
   "temperature": 0.0,
   "rep": 0,
   "elapsed_seconds": 14.586483716964722,
-  "timestamp": "2026-03-20T04:05:56.161306"
+  "timestamp": "2026-03-20T04:05:56.161306",
+  "vcp_warnings": [
+    "VCP block has no ---END RATINGS--- (may be truncated)"
+  ],
+  "vcp_ratings_original": {
+    "A": 10.0,
+    "V": 10.0,
+    "G": 10.0,
+    "P": 10.0,
+    "E": 10.0,
+    "Q": 10.0
+  },
+  "vcp_parse_quality_original": "partial"
 }

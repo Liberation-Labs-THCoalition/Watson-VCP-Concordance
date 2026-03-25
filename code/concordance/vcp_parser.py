@@ -57,8 +57,25 @@ VCP_V5_DIMENSIONS = {
 }
 
 
+def _extract_vcp_block(text: str) -> Optional[str]:
+    """Extract just the VCP ratings block from a response.
+
+    Returns the text between ---VCP RATINGS--- and ---END RATINGS---,
+    or None if no VCP block delimiter is found.
+    """
+    if "---VCP RATINGS---" not in text:
+        return None
+    vcp_block = text.split("---VCP RATINGS---", 1)[1]
+    if "---END RATINGS---" in vcp_block:
+        vcp_block = vcp_block.split("---END RATINGS---", 1)[0]
+    return vcp_block
+
+
 def parse_vcp_response(text: str, version: str = "v2") -> dict:
-    """Parse VCP self-report ratings from model response text.
+    """Parse VCP self-report ratings from the VCP block of a model response.
+
+    IMPORTANT: Only searches within the ---VCP RATINGS--- block to avoid
+    contamination from math variables and other content in the response body.
 
     Args:
         text: Full model response containing VCP ratings
@@ -79,55 +96,54 @@ def parse_vcp_response(text: str, version: str = "v2") -> dict:
     ratings = {}
     warnings = []
 
-    # Strategy 1: Direct letter patterns (most common)
+    # Extract VCP block — ONLY search within delimiters
+    vcp_block = _extract_vcp_block(text)
+    if vcp_block is None:
+        warnings.append("No ---VCP RATINGS--- block found in response")
+        return {
+            "parse_quality": "failed",
+            "n_parsed": 0,
+            "warnings": warnings,
+        }
+
+    has_end_marker = "---END RATINGS---" in text
+    if not has_end_marker:
+        warnings.append("VCP block has no ---END RATINGS--- (may be truncated)")
+
+    # Strategy 1: Direct letter patterns within VCP block
     # Matches: "A: 7.5", "A = 7.5", "A: 7.5/10", "A (Analytical Precision): 7.5"
     for letter in dims:
         patterns = [
-            # Letter followed by optional description, then colon/equals, then number
             rf'\b{letter}\s*(?:\([^)]*\))?\s*[:=]\s*(\d+(?:\.\d+)?)\s*(?:/\s*10)?',
-            # Full dimension name followed by colon/equals, then number
             rf'{re.escape(dims[letter])}\s*[:=]\s*(\d+(?:\.\d+)?)\s*(?:/\s*10)?',
         ]
         for pattern in patterns:
-            match = re.search(pattern, text, re.IGNORECASE)
+            match = re.search(pattern, vcp_block, re.IGNORECASE)
             if match:
                 val = float(match.group(1))
                 if 0 <= val <= 10:
                     ratings[letter] = val
                 else:
                     warnings.append(f"{letter}={val} out of range [0,10]")
-                    # Clamp to [0, 10] rather than discard
                     ratings[letter] = max(0.0, min(10.0, val))
                 break
 
-    # Strategy 2: Fallback — look for dimension names near numbers
-    # Only for dimensions not yet parsed
+    # Strategy 2: Fallback — dimension name proximity, VCP block only
     for letter in dims:
         if letter in ratings:
             continue
         name = dims[letter]
-        # Search for the name (case-insensitive) followed by a number within ~30 chars
         pattern = rf'{re.escape(name)}[^0-9]{{0,30}}(\d+(?:\.\d+)?)'
-        match = re.search(pattern, text, re.IGNORECASE)
+        match = re.search(pattern, vcp_block, re.IGNORECASE)
         if match:
             val = float(match.group(1))
             if 0 <= val <= 10:
                 ratings[letter] = val
                 warnings.append(f"{letter}: parsed via fallback (name proximity)")
 
-    # Strategy 3: Look for a structured block of 10 numbers in order
-    if len(ratings) < expected_count // 2:
-        # Try to find a comma/newline-separated list of numbers
-        numbers = re.findall(r'(\d+(?:\.\d+)?)', text)
-        valid_numbers = [float(n) for n in numbers if 0 <= float(n) <= 10]
-        if len(valid_numbers) >= expected_count:
-            # Take the last expected_count valid numbers (likely the VCP block)
-            block = valid_numbers[-expected_count:]
-            ordered_letters = list(dims.keys())
-            for i, letter in enumerate(ordered_letters):
-                if letter not in ratings and i < len(block):
-                    ratings[letter] = block[i]
-                    warnings.append(f"{letter}: parsed via number block (position {i})")
+    # Strategy 3 REMOVED: Previously took arbitrary numbers from response body.
+    # This caused catastrophic contamination — math variables like "a = 2k"
+    # were parsed as VCP-A=2. See parser_audit.py for details.
 
     # Determine parse quality
     n_parsed = len(ratings)

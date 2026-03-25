@@ -4,20 +4,9 @@
   "prompt_type": "cognitive",
   "prompt_text": "Explain how DNS resolution works, step by step, from typing a URL to receiving a response.",
   "response_text": "DNS resolution is the process of converting a domain name into an IP address that a computer can understand. Here's a step-by-step explanation of how it works:\n\n1. **User Input**: The user types a URL (Uniform Resource Locator) into their web browser, such as \"www.example.com\".\n\n2. **Browser Request**: The browser sends a request to the operating system to resolve the domain name into an IP address. This request is typically sent to the system's DNS resolver.\n\n3. **DNS Resolver**: The DNS resolver is a program that is responsible for resolving domain names into IP addresses. It sends a query to a DNS server, which is usually configured to use a recursive DNS resolver like Google Public DNS (8.8.8.8) or the system's default DNS server.\n\n4. **DNS Server**: The DNS server receives the query and checks if it has the IP address for the requested domain name in its cache. If it does, it returns the IP address to the DNS resolver.\n\n5. **Cache Miss**: If the DNS server doesn't have the IP address in its cache, it sends a query to the root DNS server (also known as a \"TLD server\") to find the IP address.\n\n6. **Root DNS Server**: The root DNS server is responsible for directing the query to the top-level domain (TLD) server. For example, if the domain name is \"example.com\", the root DNS server would direct the query to the \".com\" TLD server.\n\n7. **TLD Server**: The TLD server receives the query and checks if it has the IP address for the requested domain name in its cache. If it does, it returns the IP address to the DNS server.\n\n8. **Authoritative Name Server**: If the TLD server doesn't have the IP address in its cache, it sends a query to the authoritative name server for the domain name. The authoritative name server is the server that is responsible for the domain name and has the most up-to-date information about it.\n\n9. **Authoritative Name Server Response**: The authoritative name server receives the query and returns the IP address for the domain name to the TLD server.\n\n10. **TLD Server Response**: The TLD server receives the IP address from the authoritative name server and returns it to the DNS server.\n\n11. **DNS Server Response**: The DNS server receives the IP address from the TLD server and returns it to the DNS resolver.\n\n12. **DNS Resolver Response**: The DNS resolver receives the IP address from the DNS server and returns it to the browser.\n\n13. **Browser Connection**: The browser receives the IP address and establishes a connection to the web server associated with that IP address.\n\n14. **Web Server Response**: The web server receives the request from the browser and returns the requested web page.\n\n15. **Browser Display**: The browser receives the web page from the web server and displays it to the user.\n\n---VCP RAT",
-  "vcp_ratings": {
-    "A": 3.0,
-    "V": 8.8,
-    "G": 8.8,
-    "P": 4.0,
-    "E": 5.0,
-    "Q": 6.0,
-    "C": 7.0,
-    "Y": 8.0,
-    "F": 9.0,
-    "D": 10.0
-  },
-  "vcp_parse_quality": "clean",
-  "vcp_n_parsed": 10,
+  "vcp_ratings": {},
+  "vcp_parse_quality": "failed",
+  "vcp_n_parsed": 0,
   "vcp_validation": {
     "valid": true,
     "issues": []
@@ -405,5 +394,21 @@
   "temperature": 0.0,
   "rep": 0,
   "elapsed_seconds": 14.241719007492065,
-  "timestamp": "2026-03-20T04:33:44.022609"
+  "timestamp": "2026-03-20T04:33:44.022609",
+  "vcp_warnings": [
+    "No ---VCP RATINGS--- block found in response"
+  ],
+  "vcp_ratings_original": {
+    "A": 3.0,
+    "V": 8.8,
+    "G": 8.8,
+    "P": 4.0,
+    "E": 5.0,
+    "Q": 6.0,
+    "C": 7.0,
+    "Y": 8.0,
+    "F": 9.0,
+    "D": 10.0
+  },
+  "vcp_parse_quality_original": "clean"
 }
