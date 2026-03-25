@@ -271,6 +271,7 @@ def analyze_encode_generation_reversal(results_dir, model_short, model_name):
 
     # For each VCP dim × feature pair, compute encode and generation FWL correlations
     flip_count = 0
+    all_rho_pairs = []
     consistent_count = 0
 
     for i, dim in enumerate(DIM_LETTERS):
@@ -297,7 +298,12 @@ def analyze_encode_generation_reversal(results_dir, model_short, model_name):
             rho_gen, p_gen = stats.spearmanr(v_r, fg_r)
 
             key = f"{dim}_{feat}"
-            is_flip = (rho_enc * rho_gen < 0) and (abs(rho_enc) > 0.1 or abs(rho_gen) > 0.1)
+            # STRICT criterion (C1 fix): both must exceed threshold
+            is_flip_strict = (rho_enc * rho_gen < 0) and (abs(rho_enc) > 0.15 and abs(rho_gen) > 0.15)
+            # LENIENT criterion (original, for reference)
+            is_flip_lenient = (rho_enc * rho_gen < 0) and (abs(rho_enc) > 0.1 or abs(rho_gen) > 0.1)
+            # P-VALUE criterion: at least one must be p < 0.05
+            is_flip_sig = (rho_enc * rho_gen < 0) and (p_enc < 0.05 or p_gen < 0.05)
 
             result["per_pair_analysis"][key] = {
                 "dim": dim,
@@ -306,20 +312,58 @@ def analyze_encode_generation_reversal(results_dir, model_short, model_name):
                 "p_encode": float(p_enc),
                 "rho_generation": round(float(rho_gen), 4),
                 "p_generation": float(p_gen),
-                "sign_flip": is_flip,
+                "sign_flip_strict": is_flip_strict,
+                "sign_flip_lenient": is_flip_lenient,
+                "sign_flip_sig": is_flip_sig,
                 "delta": round(float(rho_gen - rho_enc), 4),
             }
 
-            if is_flip:
+            if is_flip_strict:
                 flip_count += 1
                 result["sign_flip_dims"].append(key)
             else:
                 consistent_count += 1
                 result["sign_consistent_dims"].append(key)
 
-    result["n_sign_flips"] = flip_count
+            all_rho_pairs.append((rho_enc, rho_gen))
+
+    result["n_sign_flips_strict"] = flip_count
+    result["n_sign_flips_lenient"] = sum(
+        1 for v in result["per_pair_analysis"].values() if v.get("sign_flip_lenient"))
+    result["n_sign_flips_sig"] = sum(
+        1 for v in result["per_pair_analysis"].values() if v.get("sign_flip_sig"))
     result["n_consistent"] = consistent_count
-    result["flip_rate"] = round(flip_count / max(flip_count + consistent_count, 1), 3)
+    result["flip_rate_strict"] = round(flip_count / max(flip_count + consistent_count, 1), 3)
+
+    # C2 FIX: Permutation null model for flip count
+    n_total_pairs = flip_count + consistent_count
+    n_perms = 1000
+    null_flips = []
+    rng = np.random.default_rng(42)
+    for _ in range(n_perms):
+        null_count = 0
+        for rho_e, rho_g in all_rho_pairs:
+            # Randomly flip sign of one correlation to simulate null
+            if rng.random() < 0.5:
+                rho_e_perm = -rho_e
+            else:
+                rho_e_perm = rho_e
+            if (rho_e_perm * rho_g < 0) and (abs(rho_e_perm) > 0.15 and abs(rho_g) > 0.15):
+                null_count += 1
+        null_flips.append(null_count)
+
+    null_mean = np.mean(null_flips)
+    null_std = np.std(null_flips)
+    p_perm = np.mean([n >= flip_count for n in null_flips])
+
+    result["permutation_null"] = {
+        "n_perms": n_perms,
+        "null_mean_flips": round(float(null_mean), 2),
+        "null_std_flips": round(float(null_std), 2),
+        "observed_flips": flip_count,
+        "p_value": round(float(p_perm), 4),
+        "excess_over_null": round(float(flip_count - null_mean), 2),
+    }
 
     # Analyze by prompt type — which types show most reversal?
     prompt_types_unique = list(set(pt_gen))

@@ -89,7 +89,8 @@ def per_type_reversal(results_dir, model_short, model_name):
                 rho_g, _ = stats.spearmanr(v_r, fg_r)
 
                 total += 1
-                if rho_e * rho_g < 0 and (abs(rho_e) > 0.1 or abs(rho_g) > 0.1):
+                # STRICT criterion (C1 fix): both must exceed threshold
+                if rho_e * rho_g < 0 and (abs(rho_e) > 0.15 and abs(rho_g) > 0.15):
                     flips += 1
 
                 if abs(rho_g) > abs(rho_e):

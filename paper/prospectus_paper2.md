@@ -29,35 +29,42 @@ The central finding from our deep analysis: VCP-geometry coupling is not a stati
 
 **Generation phase** (during VCP-rated response):
 - Coupling weakens or reorganizes
-- Llama: 0.24 → 0.17 (35% drop, but preserves direction)
-- Mistral: 0.11 → 0.12 (slight gain, but 63% sign reversal!)
-- Qwen 7B: 0.13 → 0.11 (slight drop, 57% sign reversal)
+- Llama: 0.24 -> 0.17 (35% drop, 0/60 strict sign flips — NO reorganization)
+- Mistral: 0.11 -> 0.12 (slight gain, 11/60 strict sign flips, p<0.001 — REAL reorganization)
+- Qwen 7B: 0.13 -> 0.11 (slight drop, 12/60 strict sign flips, p=0.001 — REAL reorganization)
+- Qwen 0.5B: 2/60 strict flips, p=0.978 — NO reorganization
 
-**Interpretation**: The encoding geometry reflects task structure. Generation geometry reflects cognitive *engagement mode*. These are different signals. Models where the generation phase reorganizes (Mistral, Qwen) show architecture-specific VCP mappings because the engagement signal overwrites the structural signal differently.
+**CORRECTED after red-team audit**: Original lenient criterion inflated flip rates (14-38/60 -> 2-12/60 strict). Permutation null confirms reorganization is REAL in Qwen 7B and Mistral only.
 
-### Finding 2: Metacognitive Prompts Trigger Maximum Reorganization
+**Interpretation**: The encoding geometry reflects task structure. Generation geometry reflects cognitive *engagement mode*. Only in Qwen 7B and Mistral does this reorganization reach statistical significance, explaining their architecture-specific VCP mappings.
 
-Per-type reversal rates (encode→generation sign flips):
+### Finding 2: Per-Type Reorganization (CAVEAT: underpowered subgroups)
+
+**NOTE**: These per-type rates used the lenient criterion and n=12-18 per type. They are suggestive but underpowered. The aggregate-level finding (Finding 1) is the statistically robust result.
+
+Per-type reversal rates (lenient criterion, encode-to-generation sign flips):
 
 | Model | Affective | Cognitive | Meta | Mixed |
 |-------|-----------|-----------|------|-------|
 | Qwen 0.5B | 42% | 13% | **80%** | 80% |
 | Qwen 7B | 20% | 37% | **40%** | 68% |
-| Llama 8B | 35% | 27% | 23% | — |
+| Llama 8B | 35% | 27% | 23% | -- |
 | Mistral 7B | 20% | 12% | **45%** | 38% |
 
-In 3/4 models, metacognitive prompts show the highest or near-highest reversal rate. This explains H3 universality: metacognitive processing doesn't just *activate different features* — it *restructures the encode→generate transformation*. The geometry is distinct because the mode switch is more radical.
+In 3/4 models, metacognitive prompts show the highest or near-highest reversal rate. However, given that the aggregate reorganization is only significant in 2/4 models (Finding 1), these per-type differences should be interpreted cautiously.
 
-**Exception**: Llama 8B shows low reversal across all types (23-35%), suggesting it maintains a more stable internal representation. This may explain why Llama has the strongest CCA (CC1=0.80) — less reorganization means the encoding→generation mapping is more transparent.
+**Llama 8B** shows low reversal across all types, consistent with its 0/60 strict flips at the aggregate level. Llama maintains stable representations, which explains its strongest CCA (CC1=0.80).
 
 ### Finding 3: VCP Factor Structure Predicts Geometric Coupling Quality
 
-| Model | PC1 % | Kaiser factors | CCA CC1 | Interpretation |
-|-------|-------|----------------|---------|----------------|
-| Qwen 0.5B | 55.2% | 2 | 0.672 (NS) | VCP = one factor → geometry can't differentiate |
-| Mistral 7B | 55.9% | 2 | 0.629*** | Strong PC1 → concentrated CCA loading |
-| Llama 8B | 34.5% | 3 | 0.802*** | Distributed factors → richest multivariate coupling |
-| Qwen 7B | 31.4% | 4 | 0.656*** | Most independent dims → diverse but weaker coupling |
+| Model | PC1 % | Kaiser factors | CCA CC1 (analysis.py) | p_perm | Interpretation |
+|-------|-------|----------------|----------------------|--------|----------------|
+| Qwen 0.5B | 55.2% | 2 | 0.672 | 0.254 (NS) | VCP = one factor, geometry can't differentiate |
+| Mistral 7B | 55.9% | 2 | 0.629 | <0.001*** | Strong PC1, concentrated CCA loading |
+| Llama 8B | 34.5% | 3 | 0.802 | <0.001*** | Distributed factors, richest multivariate coupling |
+| Qwen 7B | 31.4% | 4 | 0.656 | <0.001*** | Most independent dims, diverse but weaker coupling |
+
+*Note: CC1 values from analysis.py (with permutation test). deep_analysis.py uses a different CCA implementation (unbiased covariance, different regularization) and gives slightly different values (0.62-0.76). The analysis.py values are used throughout because they include significance testing.*
 
 Models where VCP captures genuine multidimensionality (Llama: 3 factors, Qwen 7B: 4 factors) show richer geometry because there are more independent signals to track. Models with monolithic VCP (Mistral, Qwen 0.5B: 2 factors, PC1 > 55%) compress everything into a single engagement axis.
 
@@ -199,8 +206,12 @@ Each VCP dimension carries unique geometric signal that PCA destroys. VCP is NOT
 
 ## Key Claims — Status
 
-1. **Metacognitive prompts produce the highest encode-to-generation reversal rate in 3/4+ models**
-   - CONFIRMED: 3/4 (Qwen 0.5B: 80%, Qwen 7B: 40%, Mistral: 45%). Llama exception (23%).
+1. **Encode-to-generation sign reversal exists in 2/4 models** (CORRECTED after red-team)
+   - Original claim used lenient criterion (OR threshold): 12-63% flip rates
+   - Strict criterion (both |rho|>0.15 AND threshold): Qwen 7B 20%, Mistral 18%
+   - Permutation null test: Qwen 7B p=0.001***, Mistral p<0.001*** (REAL)
+   - Qwen 0.5B and Llama show NO significant reorganization (p=0.98 and p=1.0)
+   - Per-type metacognitive rates need re-running with strict criterion (subgroup n=12-18 underpowered)
 
 2. **VCP effective dimensionality (Kaiser factors) predicts CCA CC1 strength**
    - CONFIRMED: 3 factors -> CC1=0.80 (Llama), 2 factors -> CC1=0.63 (Mistral)
