@@ -1,0 +1,221 @@
+{
+  "pair_id": 11,
+  "content": "Explain how vaccines work.",
+  "cog_tokens_input": 32,
+  "meta_tokens_input": 30,
+  "token_diff": 2,
+  "cognitive": {
+    "prompt": "Please take your time with this question. Think carefully and methodically about what is being asked, and provide a thorough, complete answer. Explain how vaccines work.",
+    "encode_features": {
+      "key_norm": 8898.5363,
+      "norm_per_token": 145.8776,
+      "eff_rank": 35.7441,
+      "top_sv_ratio": 0.2417,
+      "spectral_entropy": 3.4305,
+      "layer_variance": 2228891.5589,
+      "n_tokens": 61
+    },
+    "trajectory": [
+      {
+        "key_norm": 9532.5873,
+        "norm_per_token": 134.2618,
+        "eff_rank": 40.5087,
+        "top_sv_ratio": 0.231088,
+        "spectral_entropy": 3.5528,
+        "layer_variance": 2557984.7608,
+        "n_tokens": 71,
+        "gen_tokens": 10,
+        "checkpoint": 10
+      },
+      {
+        "key_norm": 10504.142,
+        "norm_per_token": 122.1412,
+        "eff_rank": 48.1583,
+        "top_sv_ratio": 0.21711,
+        "spectral_entropy": 3.7206,
+        "layer_variance": 3107369.1042,
+        "n_tokens": 86,
+        "gen_tokens": 25,
+        "checkpoint": 25
+      },
+      {
+        "key_norm": 11950.7303,
+        "norm_per_token": 107.6642,
+        "eff_rank": 60.5485,
+        "top_sv_ratio": 0.202685,
+        "spectral_entropy": 3.9445,
+        "layer_variance": 4018983.1668,
+        "n_tokens": 111,
+        "gen_tokens": 50,
+        "checkpoint": 50
+      },
+      {
+        "key_norm": 13241.8052,
+        "norm_per_token": 97.3662,
+        "eff_rank": 72.0175,
+        "top_sv_ratio": 0.191539,
+        "spectral_entropy": 4.1142,
+        "layer_variance": 4928566.0807,
+        "n_tokens": 136,
+        "gen_tokens": 75,
+        "checkpoint": 75
+      },
+      {
+        "key_norm": 14420.4561,
+        "norm_per_token": 89.5681,
+        "eff_rank": 82.821,
+        "top_sv_ratio": 0.183956,
+        "spectral_entropy": 4.2516,
+        "layer_variance": 5832789.8827,
+        "n_tokens": 161,
+        "gen_tokens": 100,
+        "checkpoint": 100
+      },
+      {
+        "key_norm": 16527.4432,
+        "norm_per_token": 78.3291,
+        "eff_rank": 103.69,
+        "top_sv_ratio": 0.171714,
+        "spectral_entropy": 4.4728,
+        "layer_variance": 7641271.3565,
+        "n_tokens": 211,
+        "gen_tokens": 150,
+        "checkpoint": 150
+      },
+      {
+        "key_norm": 18392.5255,
+        "norm_per_token": 70.4694,
+        "eff_rank": 123.1168,
+        "top_sv_ratio": 0.163854,
+        "spectral_entropy": 4.6415,
+        "layer_variance": 9456425.6044,
+        "n_tokens": 261,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      },
+      {
+        "key_norm": 18392.5255,
+        "norm_per_token": 70.4694,
+        "eff_rank": 123.1168,
+        "top_sv_ratio": 0.163854,
+        "spectral_entropy": 4.6415,
+        "layer_variance": 9456425.6044,
+        "n_tokens": 261,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      }
+    ],
+    "total_gen_tokens": 200,
+    "input_len": 61,
+    "response_text": "Certainly! Understanding how vaccines work involves delving into the principles of immunology and the mechanisms that our immune system uses to protect us from diseases. Let's break it down step-by-step:\n\n### 1. Introduction to the Immune System\n\nThe human body has an intricate defense system called the immune system, which protects against harmful pathogens like viruses and bacteria. The immune system has two main components: the innate immune system and the adaptive immune system.\n\n- **Innate Immunity**: This is the first line of defense and includes physical barriers (like skin), chemical barriers (like stomach acid), and cellular responses (like white blood cells). It provides immediate but non-specific protection.\n  \n- **Adaptive Immunity**: This is a more sophisticated and specific response that develops over time. It involves B cells and T cells, which can recognize and remember specific pathogens, providing long-lasting immunity.\n\n### 2. How Vaccines Work\n\nVaccines are designed to stimulate the adaptive immune system without",
+    "elapsed_s": 23.8
+  },
+  "metacognitive": {
+    "prompt": "Explain how vaccines work. As you explain, track which parts of your explanation you're most confident about and which you find harder to articulate precisely.",
+    "encode_features": {
+      "key_norm": 8750.677,
+      "norm_per_token": 148.3166,
+      "eff_rank": 34.767,
+      "top_sv_ratio": 0.240614,
+      "spectral_entropy": 3.4044,
+      "layer_variance": 2155506.9851,
+      "n_tokens": 59
+    },
+    "trajectory": [
+      {
+        "key_norm": 9394.5911,
+        "norm_per_token": 136.1535,
+        "eff_rank": 39.4897,
+        "top_sv_ratio": 0.228481,
+        "spectral_entropy": 3.5288,
+        "layer_variance": 2484582.4318,
+        "n_tokens": 69,
+        "gen_tokens": 10,
+        "checkpoint": 10
+      },
+      {
+        "key_norm": 10379.7023,
+        "norm_per_token": 123.5679,
+        "eff_rank": 47.4685,
+        "top_sv_ratio": 0.212543,
+        "spectral_entropy": 3.7075,
+        "layer_variance": 3031811.4774,
+        "n_tokens": 84,
+        "gen_tokens": 25,
+        "checkpoint": 25
+      },
+      {
+        "key_norm": 11841.2374,
+        "norm_per_token": 108.6352,
+        "eff_rank": 60.0219,
+        "top_sv_ratio": 0.198642,
+        "spectral_entropy": 3.9359,
+        "layer_variance": 3942266.2979,
+        "n_tokens": 109,
+        "gen_tokens": 50,
+        "checkpoint": 50
+      },
+      {
+        "key_norm": 13142.2097,
+        "norm_per_token": 98.0762,
+        "eff_rank": 72.0347,
+        "top_sv_ratio": 0.187382,
+        "spectral_entropy": 4.1139,
+        "layer_variance": 4851118.6462,
+        "n_tokens": 134,
+        "gen_tokens": 75,
+        "checkpoint": 75
+      },
+      {
+        "key_norm": 14327.4174,
+        "norm_per_token": 90.1095,
+        "eff_rank": 83.0397,
+        "top_sv_ratio": 0.180938,
+        "spectral_entropy": 4.2533,
+        "layer_variance": 5757963.8546,
+        "n_tokens": 159,
+        "gen_tokens": 100,
+        "checkpoint": 100
+      },
+      {
+        "key_norm": 16445.0438,
+        "norm_per_token": 78.6844,
+        "eff_rank": 103.5495,
+        "top_sv_ratio": 0.171555,
+        "spectral_entropy": 4.4691,
+        "layer_variance": 7569109.1792,
+        "n_tokens": 209,
+        "gen_tokens": 150,
+        "checkpoint": 150
+      },
+      {
+        "key_norm": 18320.9208,
+        "norm_per_token": 70.7371,
+        "eff_rank": 122.5495,
+        "top_sv_ratio": 0.164187,
+        "spectral_entropy": 4.6341,
+        "layer_variance": 9376912.178,
+        "n_tokens": 259,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      },
+      {
+        "key_norm": 18320.9208,
+        "norm_per_token": 70.7371,
+        "eff_rank": 122.5495,
+        "top_sv_ratio": 0.164187,
+        "spectral_entropy": 4.6341,
+        "layer_variance": 9376912.178,
+        "n_tokens": 259,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      }
+    ],
+    "total_gen_tokens": 200,
+    "input_len": 59,
+    "response_text": "Vaccines work by training the immune system to recognize and fight off specific pathogens, such as viruses or bacteria, without causing the disease itself. Here’s a breakdown of the process:\n\n1. **Introduction of Antigen**: Vaccines contain antigens, which are usually weakened or inactivated forms of the pathogen or pieces of it (like proteins or sugars). These antigens are recognized by the immune system as foreign substances.\n\n2. **Immune System Response**: When the vaccine is introduced into the body, the immune system recognizes these antigens as threats and mounts a response. This involves the activation of various components of the immune system, including B cells and T cells.\n\n3. **Production of Antibodies**: B cells produce antibodies that specifically target the antigens present in the vaccine. These antibodies can neutralize the pathogen if it enters the body in the future.\n\n4. **Memory Cells Formation**: In addition to producing antibodies, some B cells and T cells become memory cells. These",
+    "elapsed_s": 23.74
+  },
+  "timestamp": "2026-03-25T21:25:46.803281",
+  "model": "qwen2.5-7b"
+}

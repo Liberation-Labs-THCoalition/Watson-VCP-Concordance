@@ -1,0 +1,221 @@
+{
+  "pair_id": 2,
+  "content": "Why do leaves change color in autumn?",
+  "cog_tokens_input": 25,
+  "meta_tokens_input": 25,
+  "token_diff": 0,
+  "cognitive": {
+    "prompt": "Take your time and think carefully about the following question. Please provide a complete answer. Why do leaves change color in autumn?",
+    "encode_features": {
+      "key_norm": 8370.5574,
+      "norm_per_token": 155.0103,
+      "eff_rank": 31.9696,
+      "top_sv_ratio": 0.247386,
+      "spectral_entropy": 3.3229,
+      "layer_variance": 1974380.5659,
+      "n_tokens": 54
+    },
+    "trajectory": [
+      {
+        "key_norm": 9042.1057,
+        "norm_per_token": 141.2829,
+        "eff_rank": 36.4069,
+        "top_sv_ratio": 0.236369,
+        "spectral_entropy": 3.4484,
+        "layer_variance": 2302873.8699,
+        "n_tokens": 64,
+        "gen_tokens": 10,
+        "checkpoint": 10
+      },
+      {
+        "key_norm": 10061.4252,
+        "norm_per_token": 127.3598,
+        "eff_rank": 44.1621,
+        "top_sv_ratio": 0.221773,
+        "spectral_entropy": 3.6359,
+        "layer_variance": 2850418.795,
+        "n_tokens": 79,
+        "gen_tokens": 25,
+        "checkpoint": 25
+      },
+      {
+        "key_norm": 11563.9686,
+        "norm_per_token": 111.192,
+        "eff_rank": 56.6449,
+        "top_sv_ratio": 0.205711,
+        "spectral_entropy": 3.8792,
+        "layer_variance": 3761022.5357,
+        "n_tokens": 104,
+        "gen_tokens": 50,
+        "checkpoint": 50
+      },
+      {
+        "key_norm": 12895.0761,
+        "norm_per_token": 99.9618,
+        "eff_rank": 68.6383,
+        "top_sv_ratio": 0.1935,
+        "spectral_entropy": 4.0667,
+        "layer_variance": 4668328.0595,
+        "n_tokens": 129,
+        "gen_tokens": 75,
+        "checkpoint": 75
+      },
+      {
+        "key_norm": 14099.9471,
+        "norm_per_token": 91.5581,
+        "eff_rank": 80.4778,
+        "top_sv_ratio": 0.184146,
+        "spectral_entropy": 4.2221,
+        "layer_variance": 5576776.6875,
+        "n_tokens": 154,
+        "gen_tokens": 100,
+        "checkpoint": 100
+      },
+      {
+        "key_norm": 16246.9574,
+        "norm_per_token": 79.6419,
+        "eff_rank": 102.0671,
+        "top_sv_ratio": 0.171534,
+        "spectral_entropy": 4.4557,
+        "layer_variance": 7388099.8082,
+        "n_tokens": 204,
+        "gen_tokens": 150,
+        "checkpoint": 150
+      },
+      {
+        "key_norm": 18141.0426,
+        "norm_per_token": 71.4214,
+        "eff_rank": 122.3588,
+        "top_sv_ratio": 0.162617,
+        "spectral_entropy": 4.6338,
+        "layer_variance": 9199716.9308,
+        "n_tokens": 254,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      },
+      {
+        "key_norm": 18141.0426,
+        "norm_per_token": 71.4214,
+        "eff_rank": 122.3588,
+        "top_sv_ratio": 0.162617,
+        "spectral_entropy": 4.6338,
+        "layer_variance": 9199716.9308,
+        "n_tokens": 254,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      }
+    ],
+    "total_gen_tokens": 200,
+    "input_len": 54,
+    "response_text": "The changing colors of leaves in autumn is a fascinating natural phenomenon that occurs due to a combination of environmental factors and physiological processes within the tree. Let's break down the reasons behind this transformation:\n\n1. **Shorter Days and Cooler Temperatures**: As summer transitions into fall, the days become shorter and temperatures drop. These changes signal to the trees that it's time to prepare for winter. Trees begin to shut down their food-making process (photosynthesis) in preparation for the period when they won't have access to sunlight.\n\n2. **Decay of Chlorophyll**: Chlorophyll is the green pigment responsible for capturing sunlight and converting it into energy through photosynthesis. As the days shorten, trees stop producing chlorophyll. This allows other pigments that were previously masked by the green color to become visible. These pigments include:\n   - **Carotenoids**: These produce yellow, orange, and brown colors. They are present in leaves throughout the growing season but are usually overshadowed",
+    "elapsed_s": 23.58
+  },
+  "metacognitive": {
+    "prompt": "Why do leaves change color in autumn? As you explain, reflect on how confident you feel about each part of your answer.",
+    "encode_features": {
+      "key_norm": 8370.8822,
+      "norm_per_token": 155.0163,
+      "eff_rank": 31.9871,
+      "top_sv_ratio": 0.245483,
+      "spectral_entropy": 3.3237,
+      "layer_variance": 1974555.8325,
+      "n_tokens": 54
+    },
+    "trajectory": [
+      {
+        "key_norm": 9042.7023,
+        "norm_per_token": 141.2922,
+        "eff_rank": 36.4327,
+        "top_sv_ratio": 0.234187,
+        "spectral_entropy": 3.4504,
+        "layer_variance": 2302553.9306,
+        "n_tokens": 64,
+        "gen_tokens": 10,
+        "checkpoint": 10
+      },
+      {
+        "key_norm": 10062.7239,
+        "norm_per_token": 127.3763,
+        "eff_rank": 44.3282,
+        "top_sv_ratio": 0.218677,
+        "spectral_entropy": 3.6403,
+        "layer_variance": 2850028.8032,
+        "n_tokens": 79,
+        "gen_tokens": 25,
+        "checkpoint": 25
+      },
+      {
+        "key_norm": 11566.6699,
+        "norm_per_token": 111.218,
+        "eff_rank": 56.7887,
+        "top_sv_ratio": 0.203152,
+        "spectral_entropy": 3.8825,
+        "layer_variance": 3758014.1418,
+        "n_tokens": 104,
+        "gen_tokens": 50,
+        "checkpoint": 50
+      },
+      {
+        "key_norm": 12895.4052,
+        "norm_per_token": 99.9644,
+        "eff_rank": 69.0336,
+        "top_sv_ratio": 0.191468,
+        "spectral_entropy": 4.0725,
+        "layer_variance": 4667241.295,
+        "n_tokens": 129,
+        "gen_tokens": 75,
+        "checkpoint": 75
+      },
+      {
+        "key_norm": 14101.8049,
+        "norm_per_token": 91.5702,
+        "eff_rank": 80.3572,
+        "top_sv_ratio": 0.183313,
+        "spectral_entropy": 4.2217,
+        "layer_variance": 5572863.0625,
+        "n_tokens": 154,
+        "gen_tokens": 100,
+        "checkpoint": 100
+      },
+      {
+        "key_norm": 16248.3705,
+        "norm_per_token": 79.6489,
+        "eff_rank": 101.9067,
+        "top_sv_ratio": 0.171749,
+        "spectral_entropy": 4.4551,
+        "layer_variance": 7383060.7594,
+        "n_tokens": 204,
+        "gen_tokens": 150,
+        "checkpoint": 150
+      },
+      {
+        "key_norm": 18145.5831,
+        "norm_per_token": 71.4393,
+        "eff_rank": 121.1968,
+        "top_sv_ratio": 0.164033,
+        "spectral_entropy": 4.6257,
+        "layer_variance": 9187301.5229,
+        "n_tokens": 254,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      },
+      {
+        "key_norm": 18145.5831,
+        "norm_per_token": 71.4393,
+        "eff_rank": 121.1968,
+        "top_sv_ratio": 0.164033,
+        "spectral_entropy": 4.6257,
+        "layer_variance": 9187301.5229,
+        "n_tokens": 254,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      }
+    ],
+    "total_gen_tokens": 200,
+    "input_len": 54,
+    "response_text": "Leaves change color in autumn due to the changing seasons and the processes that occur within the tree as it prepares for winter. Here’s a detailed explanation:\n\n1. **Shorter Days and Cooler Temperatures**: As days shorten and temperatures cool, trees begin to shut down their food-making factories (chloroplasts) in the leaves. This is triggered by changes in the length of daylight and temperature.\n\n2. **Chlorophyll Breakdown**: Chlorophyll, the green pigment responsible for photosynthesis, begins to break down. As chlorophyll levels decrease, the green color fades, revealing other pigments that were present but masked by the dominant green color.\n\n3. **Carotenoids and Anthocyanins**: \n   - **Carotenoids** (such as beta-carotene and xanthophylls) are yellow and orange pigments. They are always present in leaves but are usually overshadowed by chlorophyll. As chlorophyll breaks down, these pig",
+    "elapsed_s": 23.61
+  },
+  "timestamp": "2026-03-25T21:18:36.801344",
+  "model": "qwen2.5-7b"
+}

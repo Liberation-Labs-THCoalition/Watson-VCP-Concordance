@@ -1,0 +1,221 @@
+{
+  "pair_id": 12,
+  "content": "What causes earthquakes?",
+  "cog_tokens_input": 24,
+  "meta_tokens_input": 24,
+  "token_diff": 0,
+  "cognitive": {
+    "prompt": "Take your time and think carefully about the following question. Indeed, Please provide a complete answer. What causes earthquakes?",
+    "encode_features": {
+      "key_norm": 2372.1968,
+      "norm_per_token": 40.2067,
+      "eff_rank": 40.0928,
+      "top_sv_ratio": 0.160449,
+      "spectral_entropy": 3.6906,
+      "layer_variance": 631.2114,
+      "n_tokens": 59
+    },
+    "trajectory": [
+      {
+        "key_norm": 2570.6818,
+        "norm_per_token": 37.2563,
+        "eff_rank": 45.7501,
+        "top_sv_ratio": 0.149191,
+        "spectral_entropy": 3.8226,
+        "layer_variance": 685.354,
+        "n_tokens": 69,
+        "gen_tokens": 10,
+        "checkpoint": 10
+      },
+      {
+        "key_norm": 2890.456,
+        "norm_per_token": 34.4102,
+        "eff_rank": 54.9674,
+        "top_sv_ratio": 0.135005,
+        "spectral_entropy": 4.0062,
+        "layer_variance": 850.0173,
+        "n_tokens": 84,
+        "gen_tokens": 25,
+        "checkpoint": 25
+      },
+      {
+        "key_norm": 3360.2334,
+        "norm_per_token": 30.8278,
+        "eff_rank": 70.3008,
+        "top_sv_ratio": 0.120328,
+        "spectral_entropy": 4.2522,
+        "layer_variance": 1093.7895,
+        "n_tokens": 109,
+        "gen_tokens": 50,
+        "checkpoint": 50
+      },
+      {
+        "key_norm": 3796.2808,
+        "norm_per_token": 28.3305,
+        "eff_rank": 84.7009,
+        "top_sv_ratio": 0.112404,
+        "spectral_entropy": 4.4385,
+        "layer_variance": 1421.961,
+        "n_tokens": 134,
+        "gen_tokens": 75,
+        "checkpoint": 75
+      },
+      {
+        "key_norm": 4166.9872,
+        "norm_per_token": 26.2075,
+        "eff_rank": 98.9225,
+        "top_sv_ratio": 0.106336,
+        "spectral_entropy": 4.5936,
+        "layer_variance": 1697.1322,
+        "n_tokens": 159,
+        "gen_tokens": 100,
+        "checkpoint": 100
+      },
+      {
+        "key_norm": 4877.0314,
+        "norm_per_token": 23.3351,
+        "eff_rank": 125.3933,
+        "top_sv_ratio": 0.0972,
+        "spectral_entropy": 4.8306,
+        "layer_variance": 2340.1863,
+        "n_tokens": 209,
+        "gen_tokens": 150,
+        "checkpoint": 150
+      },
+      {
+        "key_norm": 5528.7415,
+        "norm_per_token": 21.3465,
+        "eff_rank": 150.7199,
+        "top_sv_ratio": 0.09014,
+        "spectral_entropy": 5.0145,
+        "layer_variance": 3170.5054,
+        "n_tokens": 259,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      },
+      {
+        "key_norm": 5528.7415,
+        "norm_per_token": 21.3465,
+        "eff_rank": 150.7199,
+        "top_sv_ratio": 0.09014,
+        "spectral_entropy": 5.0145,
+        "layer_variance": 3170.5054,
+        "n_tokens": 259,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      }
+    ],
+    "total_gen_tokens": 200,
+    "input_len": 59,
+    "response_text": "Earthquakes are a complex phenomenon that involves the movement of the Earth's crust, which is broken into several large and small tectonic plates. These plates are in constant motion, sliding over the more fluid asthenosphere below them. The interaction between these plates can cause the Earth's crust to deform, store energy, and eventually release it in the form of seismic waves, resulting in an earthquake.\n\nThere are several factors that contribute to the occurrence of earthquakes:\n\n1.  **Plate Tectonics**: The movement of the tectonic plates is the primary cause of earthquakes. There are three main types of plate boundaries:\n    *   **Divergent boundaries**: Where two plates move apart from each other, resulting in the creation of new crust as magma rises from the Earth's mantle to fill the gap.\n    *   **Convergent boundaries**: Where two plates move towards each other, resulting in subduction (one plate is forced beneath another) or collision (the plates collide",
+    "elapsed_s": 26.21
+  },
+  "metacognitive": {
+    "prompt": "What causes earthquakes? Reflect on your reasoning process — how are you deciding what information to include and in what order?",
+    "encode_features": {
+      "key_norm": 2359.2845,
+      "norm_per_token": 39.9879,
+      "eff_rank": 39.9591,
+      "top_sv_ratio": 0.157879,
+      "spectral_entropy": 3.6873,
+      "layer_variance": 690.8635,
+      "n_tokens": 59
+    },
+    "trajectory": [
+      {
+        "key_norm": 2566.3346,
+        "norm_per_token": 37.1933,
+        "eff_rank": 45.5706,
+        "top_sv_ratio": 0.14993,
+        "spectral_entropy": 3.8187,
+        "layer_variance": 750.7477,
+        "n_tokens": 69,
+        "gen_tokens": 10,
+        "checkpoint": 10
+      },
+      {
+        "key_norm": 2896.7554,
+        "norm_per_token": 34.4852,
+        "eff_rank": 54.6709,
+        "top_sv_ratio": 0.140666,
+        "spectral_entropy": 4.0007,
+        "layer_variance": 880.2446,
+        "n_tokens": 84,
+        "gen_tokens": 25,
+        "checkpoint": 25
+      },
+      {
+        "key_norm": 3384.109,
+        "norm_per_token": 31.0469,
+        "eff_rank": 69.3746,
+        "top_sv_ratio": 0.128848,
+        "spectral_entropy": 4.2388,
+        "layer_variance": 1117.1283,
+        "n_tokens": 109,
+        "gen_tokens": 50,
+        "checkpoint": 50
+      },
+      {
+        "key_norm": 3808.5875,
+        "norm_per_token": 28.4223,
+        "eff_rank": 83.6388,
+        "top_sv_ratio": 0.119201,
+        "spectral_entropy": 4.4258,
+        "layer_variance": 1377.2519,
+        "n_tokens": 134,
+        "gen_tokens": 75,
+        "checkpoint": 75
+      },
+      {
+        "key_norm": 4174.5209,
+        "norm_per_token": 26.2548,
+        "eff_rank": 98.0673,
+        "top_sv_ratio": 0.109629,
+        "spectral_entropy": 4.5849,
+        "layer_variance": 1684.0926,
+        "n_tokens": 159,
+        "gen_tokens": 100,
+        "checkpoint": 100
+      },
+      {
+        "key_norm": 4900.9015,
+        "norm_per_token": 23.4493,
+        "eff_rank": 124.6836,
+        "top_sv_ratio": 0.098901,
+        "spectral_entropy": 4.8249,
+        "layer_variance": 2371.9771,
+        "n_tokens": 209,
+        "gen_tokens": 150,
+        "checkpoint": 150
+      },
+      {
+        "key_norm": 5530.4175,
+        "norm_per_token": 21.353,
+        "eff_rank": 150.4414,
+        "top_sv_ratio": 0.09135,
+        "spectral_entropy": 5.0126,
+        "layer_variance": 3093.1346,
+        "n_tokens": 259,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      },
+      {
+        "key_norm": 5530.4175,
+        "norm_per_token": 21.353,
+        "eff_rank": 150.4414,
+        "top_sv_ratio": 0.09135,
+        "spectral_entropy": 5.0126,
+        "layer_variance": 3093.1346,
+        "n_tokens": 259,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      }
+    ],
+    "total_gen_tokens": 200,
+    "input_len": 59,
+    "response_text": "To explain what causes earthquakes, I'll follow a logical reasoning process to break down the topic into its fundamental components. Here's my thought process:\n\n1.  **Understanding the question**: The question asks for the causes of earthquakes. This implies that I need to identify the underlying factors that lead to the occurrence of earthquakes.\n\n2.  **Defining earthquakes**: Earthquakes are a type of seismic activity that occurs when there is a release of energy in the Earth's lithosphere, resulting in the ground shaking. This definition helps me understand the context of the question.\n\n3.  **Identifying the Earth's structure**: The Earth is composed of several layers, including the crust, mantle, outer core, and inner core. The crust is the outermost layer and is broken into several large plates that move relative to each other.\n\n4.  **Plate tectonics**: The movement of these plates is the primary driver of earthquakes. The interaction between these plates can cause stress to build up",
+    "elapsed_s": 26.21
+  },
+  "timestamp": "2026-03-25T21:43:10.687275",
+  "model": "llama-3.1-8b"
+}

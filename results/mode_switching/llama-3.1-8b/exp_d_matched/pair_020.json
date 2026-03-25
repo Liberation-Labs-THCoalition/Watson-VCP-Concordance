@@ -1,0 +1,221 @@
+{
+  "pair_id": 20,
+  "content": "What causes inflation in an economy?",
+  "cog_tokens_input": 25,
+  "meta_tokens_input": 24,
+  "token_diff": 1,
+  "cognitive": {
+    "prompt": "Take your time and think carefully about the following question. Please provide a complete answer. What causes inflation in an economy?",
+    "encode_features": {
+      "key_norm": 2392.734,
+      "norm_per_token": 39.8789,
+      "eff_rank": 40.6572,
+      "top_sv_ratio": 0.158839,
+      "spectral_entropy": 3.7046,
+      "layer_variance": 636.3335,
+      "n_tokens": 60
+    },
+    "trajectory": [
+      {
+        "key_norm": 2588.7114,
+        "norm_per_token": 36.9816,
+        "eff_rank": 46.376,
+        "top_sv_ratio": 0.14809,
+        "spectral_entropy": 3.8362,
+        "layer_variance": 700.595,
+        "n_tokens": 70,
+        "gen_tokens": 10,
+        "checkpoint": 10
+      },
+      {
+        "key_norm": 2913.1426,
+        "norm_per_token": 34.2723,
+        "eff_rank": 55.198,
+        "top_sv_ratio": 0.138563,
+        "spectral_entropy": 4.0103,
+        "layer_variance": 841.1524,
+        "n_tokens": 85,
+        "gen_tokens": 25,
+        "checkpoint": 25
+      },
+      {
+        "key_norm": 3365.752,
+        "norm_per_token": 30.5977,
+        "eff_rank": 69.934,
+        "top_sv_ratio": 0.125836,
+        "spectral_entropy": 4.2468,
+        "layer_variance": 1051.9896,
+        "n_tokens": 110,
+        "gen_tokens": 50,
+        "checkpoint": 50
+      },
+      {
+        "key_norm": 3791.1283,
+        "norm_per_token": 28.0824,
+        "eff_rank": 84.06,
+        "top_sv_ratio": 0.115804,
+        "spectral_entropy": 4.4307,
+        "layer_variance": 1315.7213,
+        "n_tokens": 135,
+        "gen_tokens": 75,
+        "checkpoint": 75
+      },
+      {
+        "key_norm": 4184.4491,
+        "norm_per_token": 26.1528,
+        "eff_rank": 97.9146,
+        "top_sv_ratio": 0.107782,
+        "spectral_entropy": 4.5833,
+        "layer_variance": 1624.225,
+        "n_tokens": 160,
+        "gen_tokens": 100,
+        "checkpoint": 100
+      },
+      {
+        "key_norm": 4865.3377,
+        "norm_per_token": 23.1683,
+        "eff_rank": 125.1226,
+        "top_sv_ratio": 0.097126,
+        "spectral_entropy": 4.8284,
+        "layer_variance": 2192.9875,
+        "n_tokens": 210,
+        "gen_tokens": 150,
+        "checkpoint": 150
+      },
+      {
+        "key_norm": 5523.9122,
+        "norm_per_token": 21.2458,
+        "eff_rank": 149.2838,
+        "top_sv_ratio": 0.09135,
+        "spectral_entropy": 5.0049,
+        "layer_variance": 2827.4566,
+        "n_tokens": 260,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      },
+      {
+        "key_norm": 5523.9122,
+        "norm_per_token": 21.2458,
+        "eff_rank": 149.2838,
+        "top_sv_ratio": 0.09135,
+        "spectral_entropy": 5.0049,
+        "layer_variance": 2827.4566,
+        "n_tokens": 260,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      }
+    ],
+    "total_gen_tokens": 200,
+    "input_len": 60,
+    "response_text": "Inflation is a complex and multifaceted phenomenon that can be caused by a combination of various factors. Here's a comprehensive explanation of the main causes of inflation in an economy:\n\n**Monetary Factors:**\n\n1.  **Excessive Money Supply:** An increase in the money supply, often caused by an expansionary monetary policy, can lead to inflation. When there is more money circulating in the economy, businesses can raise their prices, and consumers have more money to spend, which can drive up demand and prices.\n2.  **Central Bank Actions:** Central banks, like the Federal Reserve in the United States, can cause inflation by printing more money or lowering interest rates, making borrowing cheaper and increasing the money supply.\n3.  **Credit Expansion:** An increase in credit availability, often caused by low interest rates or lax lending standards, can lead to an increase in borrowing and spending, which can drive up prices.\n\n**Demand-Pull Factors:**\n\n1.  **Increased Demand:** When",
+    "elapsed_s": 26.24
+  },
+  "metacognitive": {
+    "prompt": "What causes inflation in an economy? As you explain, describe how confident you feel about each causal mechanism you identify.",
+    "encode_features": {
+      "key_norm": 2338.3558,
+      "norm_per_token": 39.6331,
+      "eff_rank": 40.2232,
+      "top_sv_ratio": 0.155478,
+      "spectral_entropy": 3.6938,
+      "layer_variance": 666.9068,
+      "n_tokens": 59
+    },
+    "trajectory": [
+      {
+        "key_norm": 2545.6469,
+        "norm_per_token": 36.8934,
+        "eff_rank": 45.8199,
+        "top_sv_ratio": 0.147834,
+        "spectral_entropy": 3.8241,
+        "layer_variance": 733.6271,
+        "n_tokens": 69,
+        "gen_tokens": 10,
+        "checkpoint": 10
+      },
+      {
+        "key_norm": 2864.5966,
+        "norm_per_token": 34.1023,
+        "eff_rank": 54.9905,
+        "top_sv_ratio": 0.138044,
+        "spectral_entropy": 4.0065,
+        "layer_variance": 892.6026,
+        "n_tokens": 84,
+        "gen_tokens": 25,
+        "checkpoint": 25
+      },
+      {
+        "key_norm": 3334.8655,
+        "norm_per_token": 30.5951,
+        "eff_rank": 70.0801,
+        "top_sv_ratio": 0.123658,
+        "spectral_entropy": 4.2489,
+        "layer_variance": 1146.4703,
+        "n_tokens": 109,
+        "gen_tokens": 50,
+        "checkpoint": 50
+      },
+      {
+        "key_norm": 3758.2716,
+        "norm_per_token": 28.0468,
+        "eff_rank": 84.9018,
+        "top_sv_ratio": 0.112612,
+        "spectral_entropy": 4.4407,
+        "layer_variance": 1417.0146,
+        "n_tokens": 134,
+        "gen_tokens": 75,
+        "checkpoint": 75
+      },
+      {
+        "key_norm": 4161.5936,
+        "norm_per_token": 26.1735,
+        "eff_rank": 98.87,
+        "top_sv_ratio": 0.10555,
+        "spectral_entropy": 4.5929,
+        "layer_variance": 1719.415,
+        "n_tokens": 159,
+        "gen_tokens": 100,
+        "checkpoint": 100
+      },
+      {
+        "key_norm": 4852.4695,
+        "norm_per_token": 23.2176,
+        "eff_rank": 126.2803,
+        "top_sv_ratio": 0.095815,
+        "spectral_entropy": 4.8375,
+        "layer_variance": 2377.5838,
+        "n_tokens": 209,
+        "gen_tokens": 150,
+        "checkpoint": 150
+      },
+      {
+        "key_norm": 5501.2164,
+        "norm_per_token": 21.2402,
+        "eff_rank": 150.8889,
+        "top_sv_ratio": 0.089737,
+        "spectral_entropy": 5.0154,
+        "layer_variance": 3069.1245,
+        "n_tokens": 259,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      },
+      {
+        "key_norm": 5501.2164,
+        "norm_per_token": 21.2402,
+        "eff_rank": 150.8889,
+        "top_sv_ratio": 0.089737,
+        "spectral_entropy": 5.0154,
+        "layer_variance": 3069.1245,
+        "n_tokens": 259,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      }
+    ],
+    "total_gen_tokens": 200,
+    "input_len": 59,
+    "response_text": "I'll explain the main causes of inflation, along with my confidence level in each mechanism, based on the current understanding of economics.\n\n1. **Demand-Pull Inflation (Confidence level: 9/10)**: Demand-pull inflation occurs when aggregate demand exceeds the available supply of goods and services, leading to higher prices. This can happen when there's a surge in consumer spending, investment, or government spending, which increases the demand for goods and services. As demand outstrips supply, businesses raise their prices to capture the excess demand. This is a well-established concept in economics, and there's a strong body of evidence supporting its validity.\n\n2. **Cost-Push Inflation (Confidence level: 8.5/10)**: Cost-push inflation occurs when there's an increase in production costs, such as higher wages, raw materials, or transportation costs, which leads to higher prices. This can happen due to factors like supply chain disruptions, natural disasters, or global",
+    "elapsed_s": 26.22
+  },
+  "timestamp": "2026-03-25T21:50:15.146375",
+  "model": "llama-3.1-8b"
+}

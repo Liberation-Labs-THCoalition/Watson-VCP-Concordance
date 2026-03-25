@@ -1,0 +1,221 @@
+{
+  "pair_id": 7,
+  "content": "Explain the concept of supply and demand in economics.",
+  "cog_tokens_input": 27,
+  "meta_tokens_input": 27,
+  "token_diff": 0,
+  "cognitive": {
+    "prompt": "Take your time and think carefully about the following question. Please provide a complete answer. Explain the concept of supply and demand in economics.",
+    "encode_features": {
+      "key_norm": 8524.3747,
+      "norm_per_token": 152.221,
+      "eff_rank": 32.8866,
+      "top_sv_ratio": 0.247288,
+      "spectral_entropy": 3.3489,
+      "layer_variance": 2047718.3794,
+      "n_tokens": 56
+    },
+    "trajectory": [
+      {
+        "key_norm": 9184.8029,
+        "norm_per_token": 139.1637,
+        "eff_rank": 37.393,
+        "top_sv_ratio": 0.236866,
+        "spectral_entropy": 3.4736,
+        "layer_variance": 2376393.3477,
+        "n_tokens": 66,
+        "gen_tokens": 10,
+        "checkpoint": 10
+      },
+      {
+        "key_norm": 10190.3277,
+        "norm_per_token": 125.8065,
+        "eff_rank": 45.1701,
+        "top_sv_ratio": 0.222356,
+        "spectral_entropy": 3.6571,
+        "layer_variance": 2924288.0739,
+        "n_tokens": 81,
+        "gen_tokens": 25,
+        "checkpoint": 25
+      },
+      {
+        "key_norm": 11675.8214,
+        "norm_per_token": 110.1493,
+        "eff_rank": 58.0699,
+        "top_sv_ratio": 0.203991,
+        "spectral_entropy": 3.9006,
+        "layer_variance": 3836628.8243,
+        "n_tokens": 106,
+        "gen_tokens": 50,
+        "checkpoint": 50
+      },
+      {
+        "key_norm": 12995.9303,
+        "norm_per_token": 99.2056,
+        "eff_rank": 69.7694,
+        "top_sv_ratio": 0.192777,
+        "spectral_entropy": 4.0796,
+        "layer_variance": 4743253.7062,
+        "n_tokens": 131,
+        "gen_tokens": 75,
+        "checkpoint": 75
+      },
+      {
+        "key_norm": 14191.918,
+        "norm_per_token": 90.9738,
+        "eff_rank": 81.2926,
+        "top_sv_ratio": 0.184519,
+        "spectral_entropy": 4.2285,
+        "layer_variance": 5651390.7532,
+        "n_tokens": 156,
+        "gen_tokens": 100,
+        "checkpoint": 100
+      },
+      {
+        "key_norm": 16324.6058,
+        "norm_per_token": 79.2457,
+        "eff_rank": 102.7226,
+        "top_sv_ratio": 0.172302,
+        "spectral_entropy": 4.4585,
+        "layer_variance": 7464513.1715,
+        "n_tokens": 206,
+        "gen_tokens": 150,
+        "checkpoint": 150
+      },
+      {
+        "key_norm": 18211.0517,
+        "norm_per_token": 71.1369,
+        "eff_rank": 122.0345,
+        "top_sv_ratio": 0.164207,
+        "spectral_entropy": 4.6271,
+        "layer_variance": 9276259.0002,
+        "n_tokens": 256,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      },
+      {
+        "key_norm": 18211.0517,
+        "norm_per_token": 71.1369,
+        "eff_rank": 122.0345,
+        "top_sv_ratio": 0.164207,
+        "spectral_entropy": 4.6271,
+        "layer_variance": 9276259.0002,
+        "n_tokens": 256,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      }
+    ],
+    "total_gen_tokens": 200,
+    "input_len": 56,
+    "response_text": "Certainly! The concepts of supply and demand are fundamental to understanding how markets function in economics. These principles describe the interaction between buyers (demand) and sellers (supply) in a market, determining the price and quantity of goods or services exchanged.\n\n### Supply\n\nSupply refers to the amount of a particular good or service that producers are willing and able to offer for sale at various possible prices during a certain time period. The relationship between the price of a good and the quantity supplied is typically positive; as the price increases, the quantity supplied also increases, and vice versa. This relationship is often represented graphically with a supply curve, which slopes upward from left to right.\n\n**Key Factors Affecting Supply:**\n1. **Price of the Good**: As mentioned, the price of the good itself is the primary factor affecting supply.\n2. **Production Costs**: Changes in costs of raw materials, labor, energy, and other inputs can affect the cost of production and thus the supply.\n3. **",
+    "elapsed_s": 23.63
+  },
+  "metacognitive": {
+    "prompt": "Explain the concept of supply and demand in economics. As you explain, reflect on which parts you find easiest and hardest to articulate.",
+    "encode_features": {
+      "key_norm": 8524.5753,
+      "norm_per_token": 152.2246,
+      "eff_rank": 32.7879,
+      "top_sv_ratio": 0.245917,
+      "spectral_entropy": 3.347,
+      "layer_variance": 2047634.4176,
+      "n_tokens": 56
+    },
+    "trajectory": [
+      {
+        "key_norm": 9185.2436,
+        "norm_per_token": 139.1704,
+        "eff_rank": 37.3605,
+        "top_sv_ratio": 0.234963,
+        "spectral_entropy": 3.4734,
+        "layer_variance": 2375981.9075,
+        "n_tokens": 66,
+        "gen_tokens": 10,
+        "checkpoint": 10
+      },
+      {
+        "key_norm": 10191.065,
+        "norm_per_token": 125.8156,
+        "eff_rank": 45.187,
+        "top_sv_ratio": 0.218496,
+        "spectral_entropy": 3.6573,
+        "layer_variance": 2922301.9181,
+        "n_tokens": 81,
+        "gen_tokens": 25,
+        "checkpoint": 25
+      },
+      {
+        "key_norm": 11677.3259,
+        "norm_per_token": 110.1635,
+        "eff_rank": 57.8994,
+        "top_sv_ratio": 0.202682,
+        "spectral_entropy": 3.8978,
+        "layer_variance": 3832908.839,
+        "n_tokens": 106,
+        "gen_tokens": 50,
+        "checkpoint": 50
+      },
+      {
+        "key_norm": 12997.2751,
+        "norm_per_token": 99.2158,
+        "eff_rank": 69.5408,
+        "top_sv_ratio": 0.192453,
+        "spectral_entropy": 4.0765,
+        "layer_variance": 4740077.982,
+        "n_tokens": 131,
+        "gen_tokens": 75,
+        "checkpoint": 75
+      },
+      {
+        "key_norm": 14193.9158,
+        "norm_per_token": 90.9866,
+        "eff_rank": 81.1164,
+        "top_sv_ratio": 0.184186,
+        "spectral_entropy": 4.2266,
+        "layer_variance": 5647421.533,
+        "n_tokens": 156,
+        "gen_tokens": 100,
+        "checkpoint": 100
+      },
+      {
+        "key_norm": 16328.1565,
+        "norm_per_token": 79.2629,
+        "eff_rank": 102.3733,
+        "top_sv_ratio": 0.172617,
+        "spectral_entropy": 4.455,
+        "layer_variance": 7458106.756,
+        "n_tokens": 206,
+        "gen_tokens": 150,
+        "checkpoint": 150
+      },
+      {
+        "key_norm": 18217.6466,
+        "norm_per_token": 71.1627,
+        "eff_rank": 120.8162,
+        "top_sv_ratio": 0.165625,
+        "spectral_entropy": 4.6177,
+        "layer_variance": 9262261.0497,
+        "n_tokens": 256,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      },
+      {
+        "key_norm": 18217.6466,
+        "norm_per_token": 71.1627,
+        "eff_rank": 120.8162,
+        "top_sv_ratio": 0.165625,
+        "spectral_entropy": 4.6177,
+        "layer_variance": 9262261.0497,
+        "n_tokens": 256,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      }
+    ],
+    "total_gen_tokens": 200,
+    "input_len": 56,
+    "response_text": "Supply and demand is a fundamental concept in economics that describes how prices vary based on the balance between the availability of a product or service (supply) and the desire for it (demand). This concept helps explain how markets work and how prices are determined.\n\n### Supply:\nSupply refers to the quantity of a good or service that producers are willing and able to offer for sale at various price levels. Generally, as the price of a good increases, the quantity supplied also increases because higher prices incentivize producers to produce more. Conversely, if the price decreases, the quantity supplied typically decreases. This relationship is often depicted graphically with a supply curve, which slopes upward from left to right.\n\n### Demand:\nDemand, on the other hand, represents the quantity of a good or service that consumers are willing and able to purchase at different price levels. Typically, as the price of a good rises, the quantity demanded falls, and vice versa. This inverse relationship is illustrated by a downward-sloping demand curve.",
+    "elapsed_s": 23.62
+  },
+  "timestamp": "2026-03-25T21:22:35.665630",
+  "model": "qwen2.5-7b"
+}

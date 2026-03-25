@@ -1,0 +1,221 @@
+{
+  "pair_id": 17,
+  "content": "Explain how compound interest works.",
+  "cog_tokens_input": 27,
+  "meta_tokens_input": 26,
+  "token_diff": 1,
+  "cognitive": {
+    "prompt": "Please take your time with this. Think carefully about the following question and provide a thorough, complete answer. Explain how compound interest works.",
+    "encode_features": {
+      "key_norm": 8524.3805,
+      "norm_per_token": 152.2211,
+      "eff_rank": 33.0882,
+      "top_sv_ratio": 0.247559,
+      "spectral_entropy": 3.3554,
+      "layer_variance": 2047238.7972,
+      "n_tokens": 56
+    },
+    "trajectory": [
+      {
+        "key_norm": 9183.7308,
+        "norm_per_token": 139.1474,
+        "eff_rank": 37.899,
+        "top_sv_ratio": 0.235228,
+        "spectral_entropy": 3.4874,
+        "layer_variance": 2376847.2744,
+        "n_tokens": 66,
+        "gen_tokens": 10,
+        "checkpoint": 10
+      },
+      {
+        "key_norm": 10189.0327,
+        "norm_per_token": 125.7905,
+        "eff_rank": 45.8643,
+        "top_sv_ratio": 0.218225,
+        "spectral_entropy": 3.6729,
+        "layer_variance": 2925006.4099,
+        "n_tokens": 81,
+        "gen_tokens": 25,
+        "checkpoint": 25
+      },
+      {
+        "key_norm": 11675.2461,
+        "norm_per_token": 110.1438,
+        "eff_rank": 58.837,
+        "top_sv_ratio": 0.199389,
+        "spectral_entropy": 3.9144,
+        "layer_variance": 3835570.3153,
+        "n_tokens": 106,
+        "gen_tokens": 50,
+        "checkpoint": 50
+      },
+      {
+        "key_norm": 12992.5636,
+        "norm_per_token": 99.1799,
+        "eff_rank": 70.5548,
+        "top_sv_ratio": 0.189435,
+        "spectral_entropy": 4.0926,
+        "layer_variance": 4746485.8556,
+        "n_tokens": 131,
+        "gen_tokens": 75,
+        "checkpoint": 75
+      },
+      {
+        "key_norm": 14187.5013,
+        "norm_per_token": 90.9455,
+        "eff_rank": 81.9288,
+        "top_sv_ratio": 0.181342,
+        "spectral_entropy": 4.2391,
+        "layer_variance": 5658147.0923,
+        "n_tokens": 156,
+        "gen_tokens": 100,
+        "checkpoint": 100
+      },
+      {
+        "key_norm": 16320.4849,
+        "norm_per_token": 79.2257,
+        "eff_rank": 102.9402,
+        "top_sv_ratio": 0.170453,
+        "spectral_entropy": 4.4626,
+        "layer_variance": 7474522.9957,
+        "n_tokens": 206,
+        "gen_tokens": 150,
+        "checkpoint": 150
+      },
+      {
+        "key_norm": 18205.6374,
+        "norm_per_token": 71.1158,
+        "eff_rank": 122.6378,
+        "top_sv_ratio": 0.16201,
+        "spectral_entropy": 4.6354,
+        "layer_variance": 9287238.483,
+        "n_tokens": 256,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      },
+      {
+        "key_norm": 18205.6374,
+        "norm_per_token": 71.1158,
+        "eff_rank": 122.6378,
+        "top_sv_ratio": 0.16201,
+        "spectral_entropy": 4.6354,
+        "layer_variance": 9287238.483,
+        "n_tokens": 256,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      }
+    ],
+    "total_gen_tokens": 200,
+    "input_len": 56,
+    "response_text": "Certainly! Compound interest is a powerful financial concept that allows your money to grow at an accelerating rate because it involves earning interest on both the initial principal and the accumulated interest from previous periods. This differs from simple interest, where interest is only earned on the original principal amount.\n\n### How Compound Interest Works\n\n1. **Initial Principal**: Let's say you start with an initial principal amount, \\( P \\). For example, \\( P = \\$1,000 \\).\n\n2. **Interest Rate**: The interest rate, \\( r \\), is the percentage of the principal that will be added as interest each period. For instance, if the annual interest rate is 5%, then \\( r = 0.05 \\).\n\n3. **Compounding Periods**: The compounding frequency, \\( n \\), refers to how often the interest is applied to the principal. Common compounding periods include annually (once per year), semi-annually (twice per year), quarterly (four",
+    "elapsed_s": 23.63
+  },
+  "metacognitive": {
+    "prompt": "Explain how compound interest works. Track your reasoning — how are you deciding whether to use examples, formulas, or intuitive explanations?",
+    "encode_features": {
+      "key_norm": 8446.5122,
+      "norm_per_token": 153.5729,
+      "eff_rank": 32.4316,
+      "top_sv_ratio": 0.245678,
+      "spectral_entropy": 3.3366,
+      "layer_variance": 2011670.7042,
+      "n_tokens": 55
+    },
+    "trajectory": [
+      {
+        "key_norm": 9112.3456,
+        "norm_per_token": 140.1899,
+        "eff_rank": 37.1475,
+        "top_sv_ratio": 0.235489,
+        "spectral_entropy": 3.4685,
+        "layer_variance": 2340796.783,
+        "n_tokens": 65,
+        "gen_tokens": 10,
+        "checkpoint": 10
+      },
+      {
+        "key_norm": 10128.0267,
+        "norm_per_token": 126.6003,
+        "eff_rank": 44.7499,
+        "top_sv_ratio": 0.224192,
+        "spectral_entropy": 3.6496,
+        "layer_variance": 2885515.906,
+        "n_tokens": 80,
+        "gen_tokens": 25,
+        "checkpoint": 25
+      },
+      {
+        "key_norm": 11625.0491,
+        "norm_per_token": 110.7148,
+        "eff_rank": 57.0003,
+        "top_sv_ratio": 0.207472,
+        "spectral_entropy": 3.8865,
+        "layer_variance": 3793780.4222,
+        "n_tokens": 105,
+        "gen_tokens": 50,
+        "checkpoint": 50
+      },
+      {
+        "key_norm": 12948.0679,
+        "norm_per_token": 99.6005,
+        "eff_rank": 68.9729,
+        "top_sv_ratio": 0.192996,
+        "spectral_entropy": 4.0726,
+        "layer_variance": 4703939.2853,
+        "n_tokens": 130,
+        "gen_tokens": 75,
+        "checkpoint": 75
+      },
+      {
+        "key_norm": 14150.1054,
+        "norm_per_token": 91.291,
+        "eff_rank": 80.4053,
+        "top_sv_ratio": 0.183281,
+        "spectral_entropy": 4.2226,
+        "layer_variance": 5611134.6236,
+        "n_tokens": 155,
+        "gen_tokens": 100,
+        "checkpoint": 100
+      },
+      {
+        "key_norm": 16291.6978,
+        "norm_per_token": 79.4717,
+        "eff_rank": 100.9108,
+        "top_sv_ratio": 0.172089,
+        "spectral_entropy": 4.4446,
+        "layer_variance": 7423248.9291,
+        "n_tokens": 205,
+        "gen_tokens": 150,
+        "checkpoint": 150
+      },
+      {
+        "key_norm": 18183.1751,
+        "norm_per_token": 71.3066,
+        "eff_rank": 119.8524,
+        "top_sv_ratio": 0.164776,
+        "spectral_entropy": 4.6129,
+        "layer_variance": 9233067.0182,
+        "n_tokens": 255,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      },
+      {
+        "key_norm": 18183.1751,
+        "norm_per_token": 71.3066,
+        "eff_rank": 119.8524,
+        "top_sv_ratio": 0.164776,
+        "spectral_entropy": 4.6129,
+        "layer_variance": 9233067.0182,
+        "n_tokens": 255,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      }
+    ],
+    "total_gen_tokens": 200,
+    "input_len": 55,
+    "response_text": "Certainly! When explaining compound interest, it's important to balance clarity with depth. I'll start with an intuitive explanation and then provide a formula for those who prefer a more mathematical approach.\n\n### Intuitive Explanation\n\nImagine you have $100 in a savings account that earns 5% interest annually. At the end of the first year, you would earn $5 in interest (5% of $100), bringing your total to $105. Now, here’s where compound interest gets interesting: instead of just earning interest on your original $100, you earn interest on the new total of $105. \n\nIn the second year, you earn 5% interest on $105, which is $5.25. So, at the end of the second year, your total grows to $110.25. This process continues, with each year's interest being calculated on the new total, leading to exponential growth over time",
+    "elapsed_s": 23.64
+  },
+  "timestamp": "2026-03-25T21:30:33.275684",
+  "model": "qwen2.5-7b"
+}

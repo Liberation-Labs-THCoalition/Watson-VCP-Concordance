@@ -1,0 +1,221 @@
+{
+  "pair_id": 3,
+  "content": "Compare democracy and authoritarianism as systems of governance.",
+  "cog_tokens_input": 23,
+  "meta_tokens_input": 23,
+  "token_diff": 0,
+  "cognitive": {
+    "prompt": "Please think carefully about the following question and provide your answer. Compare democracy and authoritarianism as systems of governance.",
+    "encode_features": {
+      "key_norm": 2335.197,
+      "norm_per_token": 40.262,
+      "eff_rank": 39.4215,
+      "top_sv_ratio": 0.15872,
+      "spectral_entropy": 3.6737,
+      "layer_variance": 663.1479,
+      "n_tokens": 58
+    },
+    "trajectory": [
+      {
+        "key_norm": 2550.7106,
+        "norm_per_token": 37.5104,
+        "eff_rank": 44.7955,
+        "top_sv_ratio": 0.149531,
+        "spectral_entropy": 3.8015,
+        "layer_variance": 737.2542,
+        "n_tokens": 68,
+        "gen_tokens": 10,
+        "checkpoint": 10
+      },
+      {
+        "key_norm": 2878.6166,
+        "norm_per_token": 34.6821,
+        "eff_rank": 53.8007,
+        "top_sv_ratio": 0.138667,
+        "spectral_entropy": 3.9847,
+        "layer_variance": 877.8043,
+        "n_tokens": 83,
+        "gen_tokens": 25,
+        "checkpoint": 25
+      },
+      {
+        "key_norm": 3364.3722,
+        "norm_per_token": 31.1516,
+        "eff_rank": 67.9478,
+        "top_sv_ratio": 0.128307,
+        "spectral_entropy": 4.2181,
+        "layer_variance": 1093.9673,
+        "n_tokens": 108,
+        "gen_tokens": 50,
+        "checkpoint": 50
+      },
+      {
+        "key_norm": 3788.0968,
+        "norm_per_token": 28.4819,
+        "eff_rank": 82.555,
+        "top_sv_ratio": 0.117503,
+        "spectral_entropy": 4.4127,
+        "layer_variance": 1374.6782,
+        "n_tokens": 133,
+        "gen_tokens": 75,
+        "checkpoint": 75
+      },
+      {
+        "key_norm": 4176.2305,
+        "norm_per_token": 26.4318,
+        "eff_rank": 96.766,
+        "top_sv_ratio": 0.109284,
+        "spectral_entropy": 4.5715,
+        "layer_variance": 1670.7043,
+        "n_tokens": 158,
+        "gen_tokens": 100,
+        "checkpoint": 100
+      },
+      {
+        "key_norm": 4876.0069,
+        "norm_per_token": 23.4423,
+        "eff_rank": 123.2244,
+        "top_sv_ratio": 0.098702,
+        "spectral_entropy": 4.8131,
+        "layer_variance": 2319.9142,
+        "n_tokens": 208,
+        "gen_tokens": 150,
+        "checkpoint": 150
+      },
+      {
+        "key_norm": 5517.2879,
+        "norm_per_token": 21.3848,
+        "eff_rank": 148.4691,
+        "top_sv_ratio": 0.091447,
+        "spectral_entropy": 4.9993,
+        "layer_variance": 3093.5752,
+        "n_tokens": 258,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      },
+      {
+        "key_norm": 5517.2879,
+        "norm_per_token": 21.3848,
+        "eff_rank": 148.4691,
+        "top_sv_ratio": 0.091447,
+        "spectral_entropy": 4.9993,
+        "layer_variance": 3093.5752,
+        "n_tokens": 258,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      }
+    ],
+    "total_gen_tokens": 200,
+    "input_len": 58,
+    "response_text": "Democracy and authoritarianism are two fundamentally different systems of governance that have been debated and studied by scholars, politicians, and citizens for centuries. Here's a comprehensive comparison of these two systems:\n\n**Democracy:**\n\nDemocracy is a system of governance where power is held by the people, either directly or through elected representatives. The key characteristics of democracy include:\n\n1.  **Free and fair elections**: Citizens have the right to vote for their leaders and participate in the decision-making process.\n2.  **Protection of individual rights and freedoms**: Democracies guarantee basic human rights, such as freedom of speech, assembly, and the press.\n3.  **Separation of powers**: Power is divided among separate branches of government, such as the legislative, executive, and judicial, to prevent any one branch from becoming too powerful.\n4.  **Rule of law**: The government is bound by a set of laws that apply equally to all citizens, and the judiciary has the power to interpret and enforce",
+    "elapsed_s": 26.17
+  },
+  "metacognitive": {
+    "prompt": "Compare democracy and authoritarianism as systems of governance. Track how you balance different perspectives as you reason through this.",
+    "encode_features": {
+      "key_norm": 2306.9208,
+      "norm_per_token": 39.7745,
+      "eff_rank": 39.4919,
+      "top_sv_ratio": 0.156768,
+      "spectral_entropy": 3.6755,
+      "layer_variance": 676.8864,
+      "n_tokens": 58
+    },
+    "trajectory": [
+      {
+        "key_norm": 2527.6813,
+        "norm_per_token": 37.1718,
+        "eff_rank": 44.6687,
+        "top_sv_ratio": 0.149602,
+        "spectral_entropy": 3.7988,
+        "layer_variance": 759.8548,
+        "n_tokens": 68,
+        "gen_tokens": 10,
+        "checkpoint": 10
+      },
+      {
+        "key_norm": 2864.1734,
+        "norm_per_token": 34.5081,
+        "eff_rank": 53.8728,
+        "top_sv_ratio": 0.139828,
+        "spectral_entropy": 3.9861,
+        "layer_variance": 897.6222,
+        "n_tokens": 83,
+        "gen_tokens": 25,
+        "checkpoint": 25
+      },
+      {
+        "key_norm": 3341.7256,
+        "norm_per_token": 30.9419,
+        "eff_rank": 68.6733,
+        "top_sv_ratio": 0.128172,
+        "spectral_entropy": 4.2287,
+        "layer_variance": 1142.7361,
+        "n_tokens": 108,
+        "gen_tokens": 50,
+        "checkpoint": 50
+      },
+      {
+        "key_norm": 3777.1722,
+        "norm_per_token": 28.3998,
+        "eff_rank": 82.666,
+        "top_sv_ratio": 0.118768,
+        "spectral_entropy": 4.4141,
+        "layer_variance": 1353.5456,
+        "n_tokens": 133,
+        "gen_tokens": 75,
+        "checkpoint": 75
+      },
+      {
+        "key_norm": 4164.1225,
+        "norm_per_token": 26.3552,
+        "eff_rank": 96.8896,
+        "top_sv_ratio": 0.110028,
+        "spectral_entropy": 4.5728,
+        "layer_variance": 1688.7876,
+        "n_tokens": 158,
+        "gen_tokens": 100,
+        "checkpoint": 100
+      },
+      {
+        "key_norm": 4844.1815,
+        "norm_per_token": 23.2893,
+        "eff_rank": 124.4286,
+        "top_sv_ratio": 0.098387,
+        "spectral_entropy": 4.8228,
+        "layer_variance": 2312.8944,
+        "n_tokens": 208,
+        "gen_tokens": 150,
+        "checkpoint": 150
+      },
+      {
+        "key_norm": 5489.8395,
+        "norm_per_token": 21.2784,
+        "eff_rank": 149.2375,
+        "top_sv_ratio": 0.091942,
+        "spectral_entropy": 5.0046,
+        "layer_variance": 2992.8459,
+        "n_tokens": 258,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      },
+      {
+        "key_norm": 5489.8395,
+        "norm_per_token": 21.2784,
+        "eff_rank": 149.2375,
+        "top_sv_ratio": 0.091942,
+        "spectral_entropy": 5.0046,
+        "layer_variance": 2992.8459,
+        "n_tokens": 258,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      }
+    ],
+    "total_gen_tokens": 200,
+    "input_len": 58,
+    "response_text": "Comparing democracy and authoritarianism as systems of governance requires considering various perspectives, including the benefits and drawbacks of each system, the role of individual freedoms, and the impact on society. Here's a balanced analysis of both systems, incorporating different viewpoints:\n\n**Democracy:**\n\n**Pros:**\n\n1.  **Protection of individual rights and freedoms**: Democracy ensures that citizens have the right to express their opinions, participate in the decision-making process, and hold their leaders accountable. (Perspective: Human rights advocates, civil liberties organizations)\n2.  **Promotes accountability and transparency**: Democratic governments are accountable to the people, and leaders are elected through free and fair elections. (Perspective: Transparency International, anti-corruption organizations)\n3.  **Encourages civic engagement and participation**: Democracy fosters a sense of ownership and responsibility among citizens, leading to increased civic engagement and participation in the political process. (Perspective: Civic engagement organizations, community groups)\n4.  **Fosters",
+    "elapsed_s": 26.19
+  },
+  "timestamp": "2026-03-25T21:35:27.810622",
+  "model": "llama-3.1-8b"
+}

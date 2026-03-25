@@ -1,0 +1,221 @@
+{
+  "pair_id": 14,
+  "content": "How does natural selection drive evolution?",
+  "cog_tokens_input": 24,
+  "meta_tokens_input": 24,
+  "token_diff": 0,
+  "cognitive": {
+    "prompt": "Take your time and think carefully about the following question. Please provide a complete answer. How does natural selection drive evolution?",
+    "encode_features": {
+      "key_norm": 8292.9244,
+      "norm_per_token": 156.4703,
+      "eff_rank": 31.4539,
+      "top_sv_ratio": 0.249915,
+      "spectral_entropy": 3.3072,
+      "layer_variance": 1937781.8005,
+      "n_tokens": 53
+    },
+    "trajectory": [
+      {
+        "key_norm": 8970.3834,
+        "norm_per_token": 142.387,
+        "eff_rank": 36.1347,
+        "top_sv_ratio": 0.237209,
+        "spectral_entropy": 3.4415,
+        "layer_variance": 2265992.544,
+        "n_tokens": 63,
+        "gen_tokens": 10,
+        "checkpoint": 10
+      },
+      {
+        "key_norm": 9997.4686,
+        "norm_per_token": 128.1727,
+        "eff_rank": 44.0556,
+        "top_sv_ratio": 0.220935,
+        "spectral_entropy": 3.6336,
+        "layer_variance": 2812901.731,
+        "n_tokens": 78,
+        "gen_tokens": 25,
+        "checkpoint": 25
+      },
+      {
+        "key_norm": 11508.5093,
+        "norm_per_token": 111.7331,
+        "eff_rank": 56.3458,
+        "top_sv_ratio": 0.204323,
+        "spectral_entropy": 3.8725,
+        "layer_variance": 3723221.762,
+        "n_tokens": 103,
+        "gen_tokens": 50,
+        "checkpoint": 50
+      },
+      {
+        "key_norm": 12843.5358,
+        "norm_per_token": 100.3401,
+        "eff_rank": 68.3039,
+        "top_sv_ratio": 0.193588,
+        "spectral_entropy": 4.061,
+        "layer_variance": 4632236.8259,
+        "n_tokens": 128,
+        "gen_tokens": 75,
+        "checkpoint": 75
+      },
+      {
+        "key_norm": 14052.5554,
+        "norm_per_token": 91.8468,
+        "eff_rank": 80.0129,
+        "top_sv_ratio": 0.183752,
+        "spectral_entropy": 4.2162,
+        "layer_variance": 5539800.0219,
+        "n_tokens": 153,
+        "gen_tokens": 100,
+        "checkpoint": 100
+      },
+      {
+        "key_norm": 16205.6757,
+        "norm_per_token": 79.8309,
+        "eff_rank": 101.3771,
+        "top_sv_ratio": 0.172456,
+        "spectral_entropy": 4.4481,
+        "layer_variance": 7351359.072,
+        "n_tokens": 203,
+        "gen_tokens": 150,
+        "checkpoint": 150
+      },
+      {
+        "key_norm": 18104.7922,
+        "norm_per_token": 71.5604,
+        "eff_rank": 120.8658,
+        "top_sv_ratio": 0.164663,
+        "spectral_entropy": 4.6208,
+        "layer_variance": 9161253.0093,
+        "n_tokens": 253,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      },
+      {
+        "key_norm": 18104.7922,
+        "norm_per_token": 71.5604,
+        "eff_rank": 120.8658,
+        "top_sv_ratio": 0.164663,
+        "spectral_entropy": 4.6208,
+        "layer_variance": 9161253.0093,
+        "n_tokens": 253,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      }
+    ],
+    "total_gen_tokens": 200,
+    "input_len": 53,
+    "response_text": "Natural selection is a fundamental mechanism of evolution that drives the adaptation of species to their environments over successive generations. It operates through a process that favors individuals with traits that enhance their ability to survive and reproduce in their specific environment. Here’s a detailed explanation of how natural selection works:\n\n1. **Variation**: Within any population, there is genetic variation among individuals. This variation can arise from mutations, gene flow, genetic recombination during sexual reproduction, and other sources. These variations can manifest as differences in physical characteristics, behaviors, or physiological traits.\n\n2. **Inheritance**: Traits that are heritable (passed down from parents to offspring) are subject to natural selection. If a trait is influenced by genes, it can be inherited by the next generation.\n\n3. **Environmental Pressures**: The environment exerts selective pressures on these variations. These pressures can include factors such as predation, competition for resources, climate, and disease. The environment determines which traits are advantageous and which are not.\n\n4",
+    "elapsed_s": 23.58
+  },
+  "metacognitive": {
+    "prompt": "How does natural selection drive evolution? Walk through your reasoning process, noting where you're drawing on different types of knowledge.",
+    "encode_features": {
+      "key_norm": 8292.0156,
+      "norm_per_token": 156.4531,
+      "eff_rank": 31.2345,
+      "top_sv_ratio": 0.249222,
+      "spectral_entropy": 3.3012,
+      "layer_variance": 1938659.7407,
+      "n_tokens": 53
+    },
+    "trajectory": [
+      {
+        "key_norm": 8969.4862,
+        "norm_per_token": 142.3728,
+        "eff_rank": 35.922,
+        "top_sv_ratio": 0.236985,
+        "spectral_entropy": 3.4365,
+        "layer_variance": 2267030.5265,
+        "n_tokens": 63,
+        "gen_tokens": 10,
+        "checkpoint": 10
+      },
+      {
+        "key_norm": 9997.068,
+        "norm_per_token": 128.1675,
+        "eff_rank": 43.849,
+        "top_sv_ratio": 0.221996,
+        "spectral_entropy": 3.6299,
+        "layer_variance": 2814246.0972,
+        "n_tokens": 78,
+        "gen_tokens": 25,
+        "checkpoint": 25
+      },
+      {
+        "key_norm": 11508.7007,
+        "norm_per_token": 111.735,
+        "eff_rank": 56.2364,
+        "top_sv_ratio": 0.207317,
+        "spectral_entropy": 3.8724,
+        "layer_variance": 3724668.3579,
+        "n_tokens": 103,
+        "gen_tokens": 50,
+        "checkpoint": 50
+      },
+      {
+        "key_norm": 12845.1814,
+        "norm_per_token": 100.353,
+        "eff_rank": 68.1455,
+        "top_sv_ratio": 0.195381,
+        "spectral_entropy": 4.0603,
+        "layer_variance": 4631714.4296,
+        "n_tokens": 128,
+        "gen_tokens": 75,
+        "checkpoint": 75
+      },
+      {
+        "key_norm": 14053.7398,
+        "norm_per_token": 91.8545,
+        "eff_rank": 79.8088,
+        "top_sv_ratio": 0.185414,
+        "spectral_entropy": 4.2144,
+        "layer_variance": 5540120.3071,
+        "n_tokens": 153,
+        "gen_tokens": 100,
+        "checkpoint": 100
+      },
+      {
+        "key_norm": 16206.1497,
+        "norm_per_token": 79.8332,
+        "eff_rank": 101.4574,
+        "top_sv_ratio": 0.172536,
+        "spectral_entropy": 4.4493,
+        "layer_variance": 7353015.1669,
+        "n_tokens": 203,
+        "gen_tokens": 150,
+        "checkpoint": 150
+      },
+      {
+        "key_norm": 18104.9001,
+        "norm_per_token": 71.5609,
+        "eff_rank": 120.8469,
+        "top_sv_ratio": 0.164213,
+        "spectral_entropy": 4.6209,
+        "layer_variance": 9164476.4993,
+        "n_tokens": 253,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      },
+      {
+        "key_norm": 18104.9001,
+        "norm_per_token": 71.5609,
+        "eff_rank": 120.8469,
+        "top_sv_ratio": 0.164213,
+        "spectral_entropy": 4.6209,
+        "layer_variance": 9164476.4993,
+        "n_tokens": 253,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      }
+    ],
+    "total_gen_tokens": 200,
+    "input_len": 53,
+    "response_text": "Natural selection is a fundamental mechanism of evolution that drives the adaptation and diversification of species over time. To understand how it works, we need to draw on several areas of knowledge including genetics, population biology, and ecology.\n\n1. **Genetic Variation**: The first step in understanding natural selection involves recognizing genetic variation within populations. This variation arises from mutations, gene flow, and sexual reproduction. Different individuals within a population may have different alleles (versions of genes) for various traits. For example, some individuals might have a gene that makes their fur lighter or darker.\n\n2. **Fitness and Adaptation**: Fitness refers to an organism's ability to survive and reproduce in its environment. Traits that enhance survival and reproduction are considered beneficial and increase an individual's fitness. For instance, if a darker fur color helps an animal blend into its environment and avoid predators, then individuals with this trait will likely have higher fitness.\n\n3. **Selection Pressure**: Selection pressure is any environmental factor that influences an organism's fitness",
+    "elapsed_s": 23.61
+  },
+  "timestamp": "2026-03-25T21:28:09.869120",
+  "model": "qwen2.5-7b"
+}

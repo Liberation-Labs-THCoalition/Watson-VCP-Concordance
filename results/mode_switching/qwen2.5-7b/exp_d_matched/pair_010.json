@@ -1,0 +1,221 @@
+{
+  "pair_id": 10,
+  "content": "What is the significance of the Pythagorean theorem?",
+  "cog_tokens_input": 23,
+  "meta_tokens_input": 23,
+  "token_diff": 0,
+  "cognitive": {
+    "prompt": "Please think carefully about the following question and provide your answer. What is the significance of the Pythagorean theorem?",
+    "encode_features": {
+      "key_norm": 8213.077,
+      "norm_per_token": 157.9438,
+      "eff_rank": 30.7345,
+      "top_sv_ratio": 0.251672,
+      "spectral_entropy": 3.2843,
+      "layer_variance": 1902346.4762,
+      "n_tokens": 52
+    },
+    "trajectory": [
+      {
+        "key_norm": 8896.5827,
+        "norm_per_token": 143.4933,
+        "eff_rank": 35.1156,
+        "top_sv_ratio": 0.240251,
+        "spectral_entropy": 3.4134,
+        "layer_variance": 2230957.5056,
+        "n_tokens": 62,
+        "gen_tokens": 10,
+        "checkpoint": 10
+      },
+      {
+        "key_norm": 9931.609,
+        "norm_per_token": 128.9819,
+        "eff_rank": 43.0062,
+        "top_sv_ratio": 0.224916,
+        "spectral_entropy": 3.6109,
+        "layer_variance": 2777954.9145,
+        "n_tokens": 77,
+        "gen_tokens": 25,
+        "checkpoint": 25
+      },
+      {
+        "key_norm": 11452.0047,
+        "norm_per_token": 112.2746,
+        "eff_rank": 55.2401,
+        "top_sv_ratio": 0.207313,
+        "spectral_entropy": 3.8548,
+        "layer_variance": 3688886.7886,
+        "n_tokens": 102,
+        "gen_tokens": 50,
+        "checkpoint": 50
+      },
+      {
+        "key_norm": 12793.3076,
+        "norm_per_token": 100.7347,
+        "eff_rank": 67.4195,
+        "top_sv_ratio": 0.195394,
+        "spectral_entropy": 4.0499,
+        "layer_variance": 4598050.1808,
+        "n_tokens": 127,
+        "gen_tokens": 75,
+        "checkpoint": 75
+      },
+      {
+        "key_norm": 14007.7792,
+        "norm_per_token": 92.1564,
+        "eff_rank": 78.9123,
+        "top_sv_ratio": 0.184438,
+        "spectral_entropy": 4.203,
+        "layer_variance": 5504939.5264,
+        "n_tokens": 152,
+        "gen_tokens": 100,
+        "checkpoint": 100
+      },
+      {
+        "key_norm": 16165.8208,
+        "norm_per_token": 80.0288,
+        "eff_rank": 99.9619,
+        "top_sv_ratio": 0.172071,
+        "spectral_entropy": 4.4339,
+        "layer_variance": 7320388.1066,
+        "n_tokens": 202,
+        "gen_tokens": 150,
+        "checkpoint": 150
+      },
+      {
+        "key_norm": 18068.4584,
+        "norm_per_token": 71.7002,
+        "eff_rank": 119.4112,
+        "top_sv_ratio": 0.164217,
+        "spectral_entropy": 4.6086,
+        "layer_variance": 9135276.0356,
+        "n_tokens": 252,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      },
+      {
+        "key_norm": 18068.4584,
+        "norm_per_token": 71.7002,
+        "eff_rank": 119.4112,
+        "top_sv_ratio": 0.164217,
+        "spectral_entropy": 4.6086,
+        "layer_variance": 9135276.0356,
+        "n_tokens": 252,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      }
+    ],
+    "total_gen_tokens": 200,
+    "input_len": 52,
+    "response_text": "The Pythagorean theorem is one of the most fundamental and widely recognized theorems in mathematics. It has profound significance across various fields, including geometry, trigonometry, physics, engineering, and even some areas of modern technology. Here are several key points that highlight its importance:\n\n1. **Geometric Foundation**: The theorem states that in a right-angled triangle, the square of the length of the hypotenuse (the side opposite the right angle) is equal to the sum of the squares of the lengths of the other two sides. This relationship is expressed as \\(a^2 + b^2 = c^2\\), where \\(c\\) represents the length of the hypotenuse, and \\(a\\) and \\(b\\) represent the lengths of the other two sides. This simple yet powerful equation provides a basis for understanding and calculating distances and angles in two-dimensional space.\n\n2. **Trigonometry**: The Pythagorean theorem is foundational to trigonometry, which studies",
+    "elapsed_s": 23.65
+  },
+  "metacognitive": {
+    "prompt": "What is the significance of the Pythagorean theorem? Describe how your understanding unfolds as you think through this question.",
+    "encode_features": {
+      "key_norm": 8213.2246,
+      "norm_per_token": 157.9466,
+      "eff_rank": 30.5959,
+      "top_sv_ratio": 0.250466,
+      "spectral_entropy": 3.2807,
+      "layer_variance": 1902931.5196,
+      "n_tokens": 52
+    },
+    "trajectory": [
+      {
+        "key_norm": 8896.4718,
+        "norm_per_token": 143.4915,
+        "eff_rank": 34.9895,
+        "top_sv_ratio": 0.239244,
+        "spectral_entropy": 3.4111,
+        "layer_variance": 2231717.1998,
+        "n_tokens": 62,
+        "gen_tokens": 10,
+        "checkpoint": 10
+      },
+      {
+        "key_norm": 9931.6167,
+        "norm_per_token": 128.982,
+        "eff_rank": 42.8627,
+        "top_sv_ratio": 0.223912,
+        "spectral_entropy": 3.6087,
+        "layer_variance": 2779163.2404,
+        "n_tokens": 77,
+        "gen_tokens": 25,
+        "checkpoint": 25
+      },
+      {
+        "key_norm": 11452.2818,
+        "norm_per_token": 112.2773,
+        "eff_rank": 54.9489,
+        "top_sv_ratio": 0.208662,
+        "spectral_entropy": 3.8512,
+        "layer_variance": 3688096.5793,
+        "n_tokens": 102,
+        "gen_tokens": 50,
+        "checkpoint": 50
+      },
+      {
+        "key_norm": 12794.459,
+        "norm_per_token": 100.7438,
+        "eff_rank": 66.8707,
+        "top_sv_ratio": 0.194359,
+        "spectral_entropy": 4.042,
+        "layer_variance": 4595282.9199,
+        "n_tokens": 127,
+        "gen_tokens": 75,
+        "checkpoint": 75
+      },
+      {
+        "key_norm": 14008.6402,
+        "norm_per_token": 92.1621,
+        "eff_rank": 77.9615,
+        "top_sv_ratio": 0.185845,
+        "spectral_entropy": 4.1919,
+        "layer_variance": 5502939.1555,
+        "n_tokens": 152,
+        "gen_tokens": 100,
+        "checkpoint": 100
+      },
+      {
+        "key_norm": 16168.4565,
+        "norm_per_token": 80.0419,
+        "eff_rank": 98.4226,
+        "top_sv_ratio": 0.174385,
+        "spectral_entropy": 4.4195,
+        "layer_variance": 7315993.9897,
+        "n_tokens": 202,
+        "gen_tokens": 150,
+        "checkpoint": 150
+      },
+      {
+        "key_norm": 18072.2189,
+        "norm_per_token": 71.7152,
+        "eff_rank": 118.3997,
+        "top_sv_ratio": 0.164868,
+        "spectral_entropy": 4.6012,
+        "layer_variance": 9127240.1475,
+        "n_tokens": 252,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      },
+      {
+        "key_norm": 18072.2189,
+        "norm_per_token": 71.7152,
+        "eff_rank": 118.3997,
+        "top_sv_ratio": 0.164868,
+        "spectral_entropy": 4.6012,
+        "layer_variance": 9127240.1475,
+        "n_tokens": 252,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      }
+    ],
+    "total_gen_tokens": 200,
+    "input_len": 52,
+    "response_text": "The Pythagorean theorem is a fundamental principle in Euclidean geometry that has profound implications and applications across various fields. Let's explore its significance step-by-step:\n\n1. **Basic Understanding**: The Pythagorean theorem states that in a right-angled triangle, the square of the length of the hypotenuse (the side opposite the right angle) is equal to the sum of the squares of the lengths of the other two sides. Mathematically, it can be expressed as \\(a^2 + b^2 = c^2\\), where \\(c\\) is the length of the hypotenuse, and \\(a\\) and \\(b\\) are the lengths of the other two sides.\n\n2. **Historical Context**: The theorem is named after the ancient Greek mathematician Pythagoras, although evidence suggests that it was known to earlier civilizations such as the Babylonians and Indians. Its historical significance lies in its early recognition of mathematical relationships and its role in the development of mathematics as a",
+    "elapsed_s": 23.59
+  },
+  "timestamp": "2026-03-25T21:24:58.788216",
+  "model": "qwen2.5-7b"
+}

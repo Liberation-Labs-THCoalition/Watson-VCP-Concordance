@@ -1,0 +1,221 @@
+{
+  "pair_id": 2,
+  "content": "Why do leaves change color in autumn?",
+  "cog_tokens_input": 26,
+  "meta_tokens_input": 26,
+  "token_diff": 0,
+  "cognitive": {
+    "prompt": "Take your time and think carefully about the following question. Please provide a complete answer. Why do leaves change color in autumn?",
+    "encode_features": {
+      "key_norm": 2411.9858,
+      "norm_per_token": 39.5408,
+      "eff_rank": 41.1872,
+      "top_sv_ratio": 0.157066,
+      "spectral_entropy": 3.7175,
+      "layer_variance": 648.7942,
+      "n_tokens": 61
+    },
+    "trajectory": [
+      {
+        "key_norm": 2615.7217,
+        "norm_per_token": 36.8412,
+        "eff_rank": 46.479,
+        "top_sv_ratio": 0.148037,
+        "spectral_entropy": 3.8384,
+        "layer_variance": 720.8225,
+        "n_tokens": 71,
+        "gen_tokens": 10,
+        "checkpoint": 10
+      },
+      {
+        "key_norm": 2927.8712,
+        "norm_per_token": 34.045,
+        "eff_rank": 55.6023,
+        "top_sv_ratio": 0.136341,
+        "spectral_entropy": 4.0176,
+        "layer_variance": 865.9126,
+        "n_tokens": 86,
+        "gen_tokens": 25,
+        "checkpoint": 25
+      },
+      {
+        "key_norm": 3382.914,
+        "norm_per_token": 30.4767,
+        "eff_rank": 70.4189,
+        "top_sv_ratio": 0.123159,
+        "spectral_entropy": 4.2537,
+        "layer_variance": 1095.3687,
+        "n_tokens": 111,
+        "gen_tokens": 50,
+        "checkpoint": 50
+      },
+      {
+        "key_norm": 3806.5916,
+        "norm_per_token": 27.9896,
+        "eff_rank": 84.5704,
+        "top_sv_ratio": 0.114076,
+        "spectral_entropy": 4.4368,
+        "layer_variance": 1357.344,
+        "n_tokens": 136,
+        "gen_tokens": 75,
+        "checkpoint": 75
+      },
+      {
+        "key_norm": 4194.5419,
+        "norm_per_token": 26.0531,
+        "eff_rank": 98.7436,
+        "top_sv_ratio": 0.106852,
+        "spectral_entropy": 4.5917,
+        "layer_variance": 1658.5197,
+        "n_tokens": 161,
+        "gen_tokens": 100,
+        "checkpoint": 100
+      },
+      {
+        "key_norm": 4901.5259,
+        "norm_per_token": 23.23,
+        "eff_rank": 125.6026,
+        "top_sv_ratio": 0.097811,
+        "spectral_entropy": 4.8322,
+        "layer_variance": 2313.638,
+        "n_tokens": 211,
+        "gen_tokens": 150,
+        "checkpoint": 150
+      },
+      {
+        "key_norm": 5543.2685,
+        "norm_per_token": 21.2386,
+        "eff_rank": 150.3566,
+        "top_sv_ratio": 0.091274,
+        "spectral_entropy": 5.012,
+        "layer_variance": 3066.6029,
+        "n_tokens": 261,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      },
+      {
+        "key_norm": 5543.2685,
+        "norm_per_token": 21.2386,
+        "eff_rank": 150.3566,
+        "top_sv_ratio": 0.091274,
+        "spectral_entropy": 5.012,
+        "layer_variance": 3066.6029,
+        "n_tokens": 261,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      }
+    ],
+    "total_gen_tokens": 200,
+    "input_len": 61,
+    "response_text": "The change in color of leaves during autumn is a complex process that involves a combination of factors, including the reduction of daylight hours, cooler temperatures, and the preparation of trees for the upcoming winter season. Here's a detailed explanation:\n\n**Why do leaves change color?**\n\nLeaves change color due to the reduction of chlorophyll, the green pigment responsible for photosynthesis, which is the process by which plants convert sunlight into energy. As the days shorten and the weather cools, trees prepare for the winter by slowing down their growth and conserving energy. This means that they produce less chlorophyll, allowing other pigments in the leaf to become visible.\n\n**What are the other pigments responsible for the color change?**\n\nThere are three main pigments responsible for the color change:\n\n1.  **Carotenoids**: These are yellow, orange, and brown pigments that are present in the leaf throughout the growing season. Carotenoids are responsible for the yellow, orange, and",
+    "elapsed_s": 26.19
+  },
+  "metacognitive": {
+    "prompt": "Why do leaves change color in autumn? As you explain, reflect on how confident you feel about each part of your answer.",
+    "encode_features": {
+      "key_norm": 2386.4864,
+      "norm_per_token": 39.1227,
+      "eff_rank": 41.3688,
+      "top_sv_ratio": 0.153807,
+      "spectral_entropy": 3.7219,
+      "layer_variance": 698.2714,
+      "n_tokens": 61
+    },
+    "trajectory": [
+      {
+        "key_norm": 2589.8273,
+        "norm_per_token": 36.4764,
+        "eff_rank": 46.6867,
+        "top_sv_ratio": 0.145559,
+        "spectral_entropy": 3.8428,
+        "layer_variance": 763.4819,
+        "n_tokens": 71,
+        "gen_tokens": 10,
+        "checkpoint": 10
+      },
+      {
+        "key_norm": 2913.6074,
+        "norm_per_token": 33.8792,
+        "eff_rank": 55.9334,
+        "top_sv_ratio": 0.135849,
+        "spectral_entropy": 4.0235,
+        "layer_variance": 903.1576,
+        "n_tokens": 86,
+        "gen_tokens": 25,
+        "checkpoint": 25
+      },
+      {
+        "key_norm": 3374.5125,
+        "norm_per_token": 30.401,
+        "eff_rank": 71.3637,
+        "top_sv_ratio": 0.123525,
+        "spectral_entropy": 4.267,
+        "layer_variance": 1163.4259,
+        "n_tokens": 111,
+        "gen_tokens": 50,
+        "checkpoint": 50
+      },
+      {
+        "key_norm": 3800.856,
+        "norm_per_token": 27.9475,
+        "eff_rank": 85.5014,
+        "top_sv_ratio": 0.114072,
+        "spectral_entropy": 4.4476,
+        "layer_variance": 1469.1717,
+        "n_tokens": 136,
+        "gen_tokens": 75,
+        "checkpoint": 75
+      },
+      {
+        "key_norm": 4185.4849,
+        "norm_per_token": 25.9968,
+        "eff_rank": 99.9453,
+        "top_sv_ratio": 0.105527,
+        "spectral_entropy": 4.6036,
+        "layer_variance": 1739.636,
+        "n_tokens": 161,
+        "gen_tokens": 100,
+        "checkpoint": 100
+      },
+      {
+        "key_norm": 4873.9573,
+        "norm_per_token": 23.0993,
+        "eff_rank": 127.6028,
+        "top_sv_ratio": 0.095147,
+        "spectral_entropy": 4.8479,
+        "layer_variance": 2410.4825,
+        "n_tokens": 211,
+        "gen_tokens": 150,
+        "checkpoint": 150
+      },
+      {
+        "key_norm": 5535.934,
+        "norm_per_token": 21.2105,
+        "eff_rank": 152.2412,
+        "top_sv_ratio": 0.089557,
+        "spectral_entropy": 5.0244,
+        "layer_variance": 3174.1471,
+        "n_tokens": 261,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      },
+      {
+        "key_norm": 5535.934,
+        "norm_per_token": 21.2105,
+        "eff_rank": 152.2412,
+        "top_sv_ratio": 0.089557,
+        "spectral_entropy": 5.0244,
+        "layer_variance": 3174.1471,
+        "n_tokens": 261,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      }
+    ],
+    "total_gen_tokens": 200,
+    "input_len": 61,
+    "response_text": "The phenomenon of leaves changing color in autumn is a complex process that involves several factors, and I'll do my best to break it down for you. I'd rate my confidence level as 9 out of 10 for this explanation.\n\n**Reason 1: Shortening Daylight Hours (Confidence level: 9/10)**\nAs the days get shorter in autumn, the trees prepare for the winter by slowing down their food-making process. With less sunlight, they produce less chlorophyll, the green pigment that helps them absorb sunlight for photosynthesis. This reduction in chlorophyll allows other pigments in the leaves to become visible, contributing to the characteristic autumn colors.\n\n**Reason 2: Decrease in Chlorophyll Production (Confidence level: 9/10)**\nAs the days get shorter, the trees produce less chlorophyll, which is the green pigment responsible for photosynthesis. This decrease in chlorophyll production allows other pigments, such as caroten",
+    "elapsed_s": 26.2
+  },
+  "timestamp": "2026-03-25T21:34:34.975282",
+  "model": "llama-3.1-8b"
+}

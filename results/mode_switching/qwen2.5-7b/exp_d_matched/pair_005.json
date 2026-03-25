@@ -1,0 +1,221 @@
+{
+  "pair_id": 5,
+  "content": "What causes ocean tides?",
+  "cog_tokens_input": 23,
+  "meta_tokens_input": 24,
+  "token_diff": -1,
+  "cognitive": {
+    "prompt": "Take your time and think carefully about the following question. Please provide a complete answer. What causes ocean tides?",
+    "encode_features": {
+      "key_norm": 8214.0737,
+      "norm_per_token": 157.963,
+      "eff_rank": 30.9533,
+      "top_sv_ratio": 0.250639,
+      "spectral_entropy": 3.2921,
+      "layer_variance": 1901331.2382,
+      "n_tokens": 52
+    },
+    "trajectory": [
+      {
+        "key_norm": 8897.6068,
+        "norm_per_token": 143.5098,
+        "eff_rank": 35.5191,
+        "top_sv_ratio": 0.237228,
+        "spectral_entropy": 3.4258,
+        "layer_variance": 2229823.4786,
+        "n_tokens": 62,
+        "gen_tokens": 10,
+        "checkpoint": 10
+      },
+      {
+        "key_norm": 9933.3403,
+        "norm_per_token": 129.0044,
+        "eff_rank": 43.1256,
+        "top_sv_ratio": 0.220503,
+        "spectral_entropy": 3.6138,
+        "layer_variance": 2775932.8322,
+        "n_tokens": 77,
+        "gen_tokens": 25,
+        "checkpoint": 25
+      },
+      {
+        "key_norm": 11452.6953,
+        "norm_per_token": 112.2813,
+        "eff_rank": 55.6064,
+        "top_sv_ratio": 0.205468,
+        "spectral_entropy": 3.8615,
+        "layer_variance": 3687229.6511,
+        "n_tokens": 102,
+        "gen_tokens": 50,
+        "checkpoint": 50
+      },
+      {
+        "key_norm": 12794.713,
+        "norm_per_token": 100.7458,
+        "eff_rank": 67.2264,
+        "top_sv_ratio": 0.194672,
+        "spectral_entropy": 4.0469,
+        "layer_variance": 4595136.0124,
+        "n_tokens": 127,
+        "gen_tokens": 75,
+        "checkpoint": 75
+      },
+      {
+        "key_norm": 14010.0477,
+        "norm_per_token": 92.1714,
+        "eff_rank": 78.217,
+        "top_sv_ratio": 0.186951,
+        "spectral_entropy": 4.1943,
+        "layer_variance": 5502039.4416,
+        "n_tokens": 152,
+        "gen_tokens": 100,
+        "checkpoint": 100
+      },
+      {
+        "key_norm": 16169.3935,
+        "norm_per_token": 80.0465,
+        "eff_rank": 99.366,
+        "top_sv_ratio": 0.175272,
+        "spectral_entropy": 4.4287,
+        "layer_variance": 7314011.5356,
+        "n_tokens": 202,
+        "gen_tokens": 150,
+        "checkpoint": 150
+      },
+      {
+        "key_norm": 18073.1157,
+        "norm_per_token": 71.7187,
+        "eff_rank": 118.9871,
+        "top_sv_ratio": 0.166498,
+        "spectral_entropy": 4.6043,
+        "layer_variance": 9122878.1578,
+        "n_tokens": 252,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      },
+      {
+        "key_norm": 18073.1157,
+        "norm_per_token": 71.7187,
+        "eff_rank": 118.9871,
+        "top_sv_ratio": 0.166498,
+        "spectral_entropy": 4.6043,
+        "layer_variance": 9122878.1578,
+        "n_tokens": 252,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      }
+    ],
+    "total_gen_tokens": 200,
+    "input_len": 52,
+    "response_text": "Ocean tides are primarily caused by the gravitational forces exerted by the Moon and, to a lesser extent, the Sun on the Earth. Let's delve into the details of this fascinating natural phenomenon:\n\n1. **Gravitational Forces**:\n   - The Moon is the primary cause of ocean tides due to its proximity to Earth. Its gravitational pull exerts a force on the Earth, including its oceans.\n   - The Sun also exerts a gravitational force on the Earth, but because it is much farther away than the Moon, its effect on tides is about half that of the Moon.\n\n2. **Lunar Gravitational Pull**:\n   - As the Moon orbits the Earth, its gravitational pull creates a \"tidal bulge\" on the side of the Earth facing the Moon. This bulge is caused by the difference in gravitational force between the near side (closer to the Moon) and the far side (further from the Moon).\n   - On the side",
+    "elapsed_s": 23.63
+  },
+  "metacognitive": {
+    "prompt": "What causes ocean tides? Rate your confidence (1-10) in each claim you make as you explain.",
+    "encode_features": {
+      "key_norm": 8293.3155,
+      "norm_per_token": 156.4777,
+      "eff_rank": 31.7686,
+      "top_sv_ratio": 0.245711,
+      "spectral_entropy": 3.3172,
+      "layer_variance": 1936813.2029,
+      "n_tokens": 53
+    },
+    "trajectory": [
+      {
+        "key_norm": 8970.8254,
+        "norm_per_token": 142.3941,
+        "eff_rank": 36.4111,
+        "top_sv_ratio": 0.232937,
+        "spectral_entropy": 3.4499,
+        "layer_variance": 2265385.3432,
+        "n_tokens": 63,
+        "gen_tokens": 10,
+        "checkpoint": 10
+      },
+      {
+        "key_norm": 9998.9765,
+        "norm_per_token": 128.192,
+        "eff_rank": 44.0109,
+        "top_sv_ratio": 0.217279,
+        "spectral_entropy": 3.6336,
+        "layer_variance": 2811569.0165,
+        "n_tokens": 78,
+        "gen_tokens": 25,
+        "checkpoint": 25
+      },
+      {
+        "key_norm": 11510.2735,
+        "norm_per_token": 111.7502,
+        "eff_rank": 56.3849,
+        "top_sv_ratio": 0.203293,
+        "spectral_entropy": 3.8743,
+        "layer_variance": 3721798.2577,
+        "n_tokens": 103,
+        "gen_tokens": 50,
+        "checkpoint": 50
+      },
+      {
+        "key_norm": 12846.3441,
+        "norm_per_token": 100.3621,
+        "eff_rank": 68.0862,
+        "top_sv_ratio": 0.192762,
+        "spectral_entropy": 4.0576,
+        "layer_variance": 4630027.7774,
+        "n_tokens": 128,
+        "gen_tokens": 75,
+        "checkpoint": 75
+      },
+      {
+        "key_norm": 14056.3341,
+        "norm_per_token": 91.8715,
+        "eff_rank": 79.5233,
+        "top_sv_ratio": 0.184304,
+        "spectral_entropy": 4.209,
+        "layer_variance": 5537172.9842,
+        "n_tokens": 153,
+        "gen_tokens": 100,
+        "checkpoint": 100
+      },
+      {
+        "key_norm": 16207.3262,
+        "norm_per_token": 79.839,
+        "eff_rank": 101.5178,
+        "top_sv_ratio": 0.17148,
+        "spectral_entropy": 4.4485,
+        "layer_variance": 7353026.9789,
+        "n_tokens": 203,
+        "gen_tokens": 150,
+        "checkpoint": 150
+      },
+      {
+        "key_norm": 18109.1977,
+        "norm_per_token": 71.5779,
+        "eff_rank": 120.5831,
+        "top_sv_ratio": 0.164334,
+        "spectral_entropy": 4.6166,
+        "layer_variance": 9160050.2875,
+        "n_tokens": 253,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      },
+      {
+        "key_norm": 18109.1977,
+        "norm_per_token": 71.5779,
+        "eff_rank": 120.5831,
+        "top_sv_ratio": 0.164334,
+        "spectral_entropy": 4.6166,
+        "layer_variance": 9160050.2875,
+        "n_tokens": 253,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      }
+    ],
+    "total_gen_tokens": 200,
+    "input_len": 53,
+    "response_text": "Ocean tides are primarily caused by the gravitational forces exerted by the Moon and, to a lesser extent, the Sun on the Earth. Here's a breakdown of the key factors:\n\n1. **Gravitational Force from the Moon**: The Moon is the primary cause of ocean tides due to its proximity to Earth. As the Moon orbits the Earth, its gravitational pull creates a tidal force that stretches the Earth and its oceans. This force is strongest at the points closest to and farthest from the Moon, causing the water to bulge out in these directions. My confidence in this claim is 9/10, as it is well-supported by both observational data and theoretical models.\n\n2. **Gravitational Force from the Sun**: While the Sun is much more massive than the Moon, it is also much farther away. Its gravitational influence on the Earth and its oceans is about half that of the Moon. However, because the Sun is so much farther away, its tidal effect is",
+    "elapsed_s": 23.58
+  },
+  "timestamp": "2026-03-25T21:20:59.887137",
+  "model": "qwen2.5-7b"
+}

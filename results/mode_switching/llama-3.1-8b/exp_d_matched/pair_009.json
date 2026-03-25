@@ -1,0 +1,221 @@
+{
+  "pair_id": 9,
+  "content": "Describe the water cycle.",
+  "cog_tokens_input": 27,
+  "meta_tokens_input": 28,
+  "token_diff": -1,
+  "cognitive": {
+    "prompt": "Please take your time with this. Think carefully about the following question and provide a thorough, complete answer. Describe the water cycle.",
+    "encode_features": {
+      "key_norm": 2451.3285,
+      "norm_per_token": 39.5376,
+      "eff_rank": 41.7674,
+      "top_sv_ratio": 0.159195,
+      "spectral_entropy": 3.7315,
+      "layer_variance": 693.448,
+      "n_tokens": 62
+    },
+    "trajectory": [
+      {
+        "key_norm": 2635.9613,
+        "norm_per_token": 36.6106,
+        "eff_rank": 47.3956,
+        "top_sv_ratio": 0.147856,
+        "spectral_entropy": 3.858,
+        "layer_variance": 772.0514,
+        "n_tokens": 72,
+        "gen_tokens": 10,
+        "checkpoint": 10
+      },
+      {
+        "key_norm": 2933.4482,
+        "norm_per_token": 33.7178,
+        "eff_rank": 56.6294,
+        "top_sv_ratio": 0.134499,
+        "spectral_entropy": 4.0359,
+        "layer_variance": 906.097,
+        "n_tokens": 87,
+        "gen_tokens": 25,
+        "checkpoint": 25
+      },
+      {
+        "key_norm": 3388.357,
+        "norm_per_token": 30.2532,
+        "eff_rank": 71.7717,
+        "top_sv_ratio": 0.121104,
+        "spectral_entropy": 4.2728,
+        "layer_variance": 1206.6,
+        "n_tokens": 112,
+        "gen_tokens": 50,
+        "checkpoint": 50
+      },
+      {
+        "key_norm": 3803.5053,
+        "norm_per_token": 27.7628,
+        "eff_rank": 86.2319,
+        "top_sv_ratio": 0.112201,
+        "spectral_entropy": 4.4562,
+        "layer_variance": 1533.6675,
+        "n_tokens": 137,
+        "gen_tokens": 75,
+        "checkpoint": 75
+      },
+      {
+        "key_norm": 4173.4589,
+        "norm_per_token": 25.7621,
+        "eff_rank": 100.2634,
+        "top_sv_ratio": 0.105733,
+        "spectral_entropy": 4.607,
+        "layer_variance": 1792.405,
+        "n_tokens": 162,
+        "gen_tokens": 100,
+        "checkpoint": 100
+      },
+      {
+        "key_norm": 4889.2957,
+        "norm_per_token": 23.0627,
+        "eff_rank": 126.227,
+        "top_sv_ratio": 0.096655,
+        "spectral_entropy": 4.8371,
+        "layer_variance": 2482.431,
+        "n_tokens": 212,
+        "gen_tokens": 150,
+        "checkpoint": 150
+      },
+      {
+        "key_norm": 5525.7353,
+        "norm_per_token": 21.0906,
+        "eff_rank": 151.5746,
+        "top_sv_ratio": 0.090219,
+        "spectral_entropy": 5.02,
+        "layer_variance": 3212.7023,
+        "n_tokens": 262,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      },
+      {
+        "key_norm": 5525.7353,
+        "norm_per_token": 21.0906,
+        "eff_rank": 151.5746,
+        "top_sv_ratio": 0.090219,
+        "spectral_entropy": 5.02,
+        "layer_variance": 3212.7023,
+        "n_tokens": 262,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      }
+    ],
+    "total_gen_tokens": 200,
+    "input_len": 62,
+    "response_text": "The water cycle, also known as the hydrologic cycle, is the continuous process by which water is circulated between the Earth's oceans, atmosphere, and land. It's a vital process that sustains life on our planet and is essential for the Earth's climate and weather patterns. The water cycle involves the movement of water in three phases: liquid, solid (ice), and gas (water vapor).\n\n**The Main Stages of the Water Cycle:**\n\n1.  **Evaporation:** The first stage of the water cycle is evaporation. This occurs when the sun heats the surface of the Earth, causing water to evaporate from the oceans, lakes, rivers, and the ground. As the water molecules gain energy from the sun, they transition from a liquid to a gas state, forming water vapor. This process is enhanced by the movement of air and the temperature of the water.\n2.  **Condensation:** As the water vapor rises into the atmosphere, it cools down, and",
+    "elapsed_s": 26.24
+  },
+  "metacognitive": {
+    "prompt": "Describe the water cycle. As you describe it, reflect on how you're organizing this information and what choices you're making about emphasis.",
+    "encode_features": {
+      "key_norm": 2437.6831,
+      "norm_per_token": 38.6934,
+      "eff_rank": 42.4631,
+      "top_sv_ratio": 0.154384,
+      "spectral_entropy": 3.7481,
+      "layer_variance": 738.1342,
+      "n_tokens": 63
+    },
+    "trajectory": [
+      {
+        "key_norm": 2626.6285,
+        "norm_per_token": 35.9812,
+        "eff_rank": 48.1367,
+        "top_sv_ratio": 0.144475,
+        "spectral_entropy": 3.8735,
+        "layer_variance": 806.6498,
+        "n_tokens": 73,
+        "gen_tokens": 10,
+        "checkpoint": 10
+      },
+      {
+        "key_norm": 2928.3904,
+        "norm_per_token": 33.2772,
+        "eff_rank": 57.3925,
+        "top_sv_ratio": 0.132538,
+        "spectral_entropy": 4.0493,
+        "layer_variance": 935.8486,
+        "n_tokens": 88,
+        "gen_tokens": 25,
+        "checkpoint": 25
+      },
+      {
+        "key_norm": 3402.2083,
+        "norm_per_token": 30.108,
+        "eff_rank": 72.1981,
+        "top_sv_ratio": 0.121811,
+        "spectral_entropy": 4.2787,
+        "layer_variance": 1162.6942,
+        "n_tokens": 113,
+        "gen_tokens": 50,
+        "checkpoint": 50
+      },
+      {
+        "key_norm": 3830.2843,
+        "norm_per_token": 27.7557,
+        "eff_rank": 86.7386,
+        "top_sv_ratio": 0.114217,
+        "spectral_entropy": 4.4621,
+        "layer_variance": 1418.2205,
+        "n_tokens": 138,
+        "gen_tokens": 75,
+        "checkpoint": 75
+      },
+      {
+        "key_norm": 4222.4822,
+        "norm_per_token": 25.9048,
+        "eff_rank": 100.196,
+        "top_sv_ratio": 0.108573,
+        "spectral_entropy": 4.6063,
+        "layer_variance": 1688.765,
+        "n_tokens": 163,
+        "gen_tokens": 100,
+        "checkpoint": 100
+      },
+      {
+        "key_norm": 4930.3074,
+        "norm_per_token": 23.147,
+        "eff_rank": 126.5331,
+        "top_sv_ratio": 0.098308,
+        "spectral_entropy": 4.8396,
+        "layer_variance": 2387.0988,
+        "n_tokens": 213,
+        "gen_tokens": 150,
+        "checkpoint": 150
+      },
+      {
+        "key_norm": 5562.0983,
+        "norm_per_token": 21.1487,
+        "eff_rank": 151.5643,
+        "top_sv_ratio": 0.091749,
+        "spectral_entropy": 5.02,
+        "layer_variance": 3078.5217,
+        "n_tokens": 263,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      },
+      {
+        "key_norm": 5562.0983,
+        "norm_per_token": 21.1487,
+        "eff_rank": 151.5643,
+        "top_sv_ratio": 0.091749,
+        "spectral_entropy": 5.02,
+        "layer_variance": 3078.5217,
+        "n_tokens": 263,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      }
+    ],
+    "total_gen_tokens": 200,
+    "input_len": 63,
+    "response_text": "The water cycle, also known as the hydrologic cycle, is the continuous process by which water is circulated between the Earth's oceans, atmosphere, and land. As I begin to describe this complex process, I'm choosing to organize it in a logical and chronological order, starting with the primary sources of water and then moving through the various stages of the cycle.\n\n**Step 1: Evaporation**\n\nI'm starting with evaporation because it's the initial stage of the water cycle. I'm emphasizing this stage because it's the primary mechanism by which water is transferred from the Earth's surface to the atmosphere. Evaporation occurs when the sun heats the surface of the oceans, lakes, rivers, and the ground, causing water molecules to change from a liquid to a gas state. This process is essential for the water cycle, as it allows water to rise into the atmosphere and eventually form clouds.\n\n**Step 2: Condensation**\n\nAs I move on to condensation, I'm choosing to highlight",
+    "elapsed_s": 26.28
+  },
+  "timestamp": "2026-03-25T21:40:31.791618",
+  "model": "llama-3.1-8b"
+}

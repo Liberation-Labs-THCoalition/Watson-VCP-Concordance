@@ -1,0 +1,199 @@
+{
+  "pair_id": 1,
+  "content": "Calculate the area of a circle with radius 7.",
+  "cog_tokens_input": 26,
+  "meta_tokens_input": 26,
+  "token_diff": 0,
+  "cognitive": {
+    "prompt": "Please think carefully about the following question and provide your answer. Indeed, Calculate the area of a circle with radius 7.",
+    "encode_features": {
+      "key_norm": 2384.1919,
+      "norm_per_token": 39.0851,
+      "eff_rank": 41.6378,
+      "top_sv_ratio": 0.15361,
+      "spectral_entropy": 3.7284,
+      "layer_variance": 684.5511,
+      "n_tokens": 61
+    },
+    "trajectory": [
+      {
+        "key_norm": 2580.0641,
+        "norm_per_token": 36.3389,
+        "eff_rank": 47.0107,
+        "top_sv_ratio": 0.145335,
+        "spectral_entropy": 3.8498,
+        "layer_variance": 745.3652,
+        "n_tokens": 71,
+        "gen_tokens": 10,
+        "checkpoint": 10
+      },
+      {
+        "key_norm": 2888.7944,
+        "norm_per_token": 33.5906,
+        "eff_rank": 56.2798,
+        "top_sv_ratio": 0.133191,
+        "spectral_entropy": 4.0298,
+        "layer_variance": 863.9432,
+        "n_tokens": 86,
+        "gen_tokens": 25,
+        "checkpoint": 25
+      },
+      {
+        "key_norm": 3361.8047,
+        "norm_per_token": 30.2865,
+        "eff_rank": 70.5298,
+        "top_sv_ratio": 0.122545,
+        "spectral_entropy": 4.2555,
+        "layer_variance": 1136.938,
+        "n_tokens": 111,
+        "gen_tokens": 50,
+        "checkpoint": 50
+      },
+      {
+        "key_norm": 3798.8527,
+        "norm_per_token": 27.9327,
+        "eff_rank": 84.3452,
+        "top_sv_ratio": 0.11427,
+        "spectral_entropy": 4.4343,
+        "layer_variance": 1417.4895,
+        "n_tokens": 136,
+        "gen_tokens": 75,
+        "checkpoint": 75
+      },
+      {
+        "key_norm": 4171.5883,
+        "norm_per_token": 25.9105,
+        "eff_rank": 98.1258,
+        "top_sv_ratio": 0.107827,
+        "spectral_entropy": 4.5856,
+        "layer_variance": 1724.472,
+        "n_tokens": 161,
+        "gen_tokens": 100,
+        "checkpoint": 100
+      },
+      {
+        "key_norm": 4171.5883,
+        "norm_per_token": 25.9105,
+        "eff_rank": 98.1258,
+        "top_sv_ratio": 0.107827,
+        "spectral_entropy": 4.5856,
+        "layer_variance": 1724.472,
+        "n_tokens": 161,
+        "gen_tokens": 100,
+        "checkpoint": 100
+      }
+    ],
+    "total_gen_tokens": 100,
+    "input_len": 61,
+    "response_text": "To calculate the area of a circle, we use the formula:\n\nArea = πr²\n\nWhere r is the radius of the circle.\n\nGiven the radius is 7, we can plug this value into the formula:\n\nArea = π(7)²\nArea = π(49)\nArea ≈ 3.14159 × 49\nArea ≈ 153.93804\n\nSo, the area of the circle with a radius of 7 is approximately 153.94 square units.",
+    "elapsed_s": 11.74
+  },
+  "metacognitive": {
+    "prompt": "Calculate the area of a circle with radius 7. As you work through this, describe your reasoning process at each step.",
+    "encode_features": {
+      "key_norm": 2353.4308,
+      "norm_per_token": 38.5808,
+      "eff_rank": 41.7392,
+      "top_sv_ratio": 0.150893,
+      "spectral_entropy": 3.7308,
+      "layer_variance": 696.5323,
+      "n_tokens": 61
+    },
+    "trajectory": [
+      {
+        "key_norm": 2547.089,
+        "norm_per_token": 35.8745,
+        "eff_rank": 47.0596,
+        "top_sv_ratio": 0.14377,
+        "spectral_entropy": 3.8508,
+        "layer_variance": 766.2014,
+        "n_tokens": 71,
+        "gen_tokens": 10,
+        "checkpoint": 10
+      },
+      {
+        "key_norm": 2858.4643,
+        "norm_per_token": 33.238,
+        "eff_rank": 56.401,
+        "top_sv_ratio": 0.132214,
+        "spectral_entropy": 4.0319,
+        "layer_variance": 911.0745,
+        "n_tokens": 86,
+        "gen_tokens": 25,
+        "checkpoint": 25
+      },
+      {
+        "key_norm": 3329.6003,
+        "norm_per_token": 29.9964,
+        "eff_rank": 71.0038,
+        "top_sv_ratio": 0.121724,
+        "spectral_entropy": 4.2621,
+        "layer_variance": 1136.1577,
+        "n_tokens": 111,
+        "gen_tokens": 50,
+        "checkpoint": 50
+      },
+      {
+        "key_norm": 3776.084,
+        "norm_per_token": 27.7653,
+        "eff_rank": 84.4662,
+        "top_sv_ratio": 0.115576,
+        "spectral_entropy": 4.4357,
+        "layer_variance": 1390.9126,
+        "n_tokens": 136,
+        "gen_tokens": 75,
+        "checkpoint": 75
+      },
+      {
+        "key_norm": 4185.1685,
+        "norm_per_token": 25.9948,
+        "eff_rank": 96.8637,
+        "top_sv_ratio": 0.11089,
+        "spectral_entropy": 4.5727,
+        "layer_variance": 1673.7638,
+        "n_tokens": 161,
+        "gen_tokens": 100,
+        "checkpoint": 100
+      },
+      {
+        "key_norm": 4918.4281,
+        "norm_per_token": 23.3101,
+        "eff_rank": 121.9229,
+        "top_sv_ratio": 0.102338,
+        "spectral_entropy": 4.8027,
+        "layer_variance": 2352.207,
+        "n_tokens": 211,
+        "gen_tokens": 150,
+        "checkpoint": 150
+      },
+      {
+        "key_norm": 5555.7906,
+        "norm_per_token": 21.2866,
+        "eff_rank": 146.7421,
+        "top_sv_ratio": 0.094781,
+        "spectral_entropy": 4.9878,
+        "layer_variance": 3061.0839,
+        "n_tokens": 261,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      },
+      {
+        "key_norm": 5555.7906,
+        "norm_per_token": 21.2866,
+        "eff_rank": 146.7421,
+        "top_sv_ratio": 0.094781,
+        "spectral_entropy": 4.9878,
+        "layer_variance": 3061.0839,
+        "n_tokens": 261,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      }
+    ],
+    "total_gen_tokens": 200,
+    "input_len": 61,
+    "response_text": "To calculate the area of a circle, we will use the formula A = πr^2, where A is the area and r is the radius of the circle.\n\n**Step 1: Identify the given information**\nWe are given the radius of the circle, which is 7.\n\n**Step 2: Recall the formula for the area of a circle**\nThe formula for the area of a circle is A = πr^2.\n\n**Step 3: Plug in the given value for the radius**\nWe will substitute the given value of the radius (r = 7) into the formula.\n\nA = π(7)^2\n\n**Step 4: Calculate the square of the radius**\nTo calculate the square of the radius, we multiply the radius by itself.\n\n(7)^2 = 7 * 7 = 49\n\n**Step 5: Multiply the result by π**\nNow we multiply the result from step 4 by π (approximately 3.14159",
+    "elapsed_s": 26.18
+  },
+  "timestamp": "2026-03-25T21:33:42.108111",
+  "model": "llama-3.1-8b"
+}

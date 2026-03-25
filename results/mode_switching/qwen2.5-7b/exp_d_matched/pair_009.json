@@ -1,0 +1,221 @@
+{
+  "pair_id": 9,
+  "content": "Describe the water cycle.",
+  "cog_tokens_input": 26,
+  "meta_tokens_input": 27,
+  "token_diff": -1,
+  "cognitive": {
+    "prompt": "Please take your time with this. Think carefully about the following question and provide a thorough, complete answer. Describe the water cycle.",
+    "encode_features": {
+      "key_norm": 8447.9008,
+      "norm_per_token": 153.5982,
+      "eff_rank": 32.4901,
+      "top_sv_ratio": 0.24929,
+      "spectral_entropy": 3.3371,
+      "layer_variance": 2010680.7457,
+      "n_tokens": 55
+    },
+    "trajectory": [
+      {
+        "key_norm": 9113.3568,
+        "norm_per_token": 140.2055,
+        "eff_rank": 37.1321,
+        "top_sv_ratio": 0.237196,
+        "spectral_entropy": 3.4671,
+        "layer_variance": 2339798.5735,
+        "n_tokens": 65,
+        "gen_tokens": 10,
+        "checkpoint": 10
+      },
+      {
+        "key_norm": 10125.7911,
+        "norm_per_token": 126.5724,
+        "eff_rank": 44.7709,
+        "top_sv_ratio": 0.221296,
+        "spectral_entropy": 3.6488,
+        "layer_variance": 2887604.0095,
+        "n_tokens": 80,
+        "gen_tokens": 25,
+        "checkpoint": 25
+      },
+      {
+        "key_norm": 11619.0006,
+        "norm_per_token": 110.6571,
+        "eff_rank": 57.5771,
+        "top_sv_ratio": 0.203414,
+        "spectral_entropy": 3.8929,
+        "layer_variance": 3799930.7968,
+        "n_tokens": 105,
+        "gen_tokens": 50,
+        "checkpoint": 50
+      },
+      {
+        "key_norm": 12941.6516,
+        "norm_per_token": 99.5512,
+        "eff_rank": 69.4516,
+        "top_sv_ratio": 0.193284,
+        "spectral_entropy": 4.076,
+        "layer_variance": 4710878.9722,
+        "n_tokens": 130,
+        "gen_tokens": 75,
+        "checkpoint": 75
+      },
+      {
+        "key_norm": 14142.9759,
+        "norm_per_token": 91.245,
+        "eff_rank": 80.8045,
+        "top_sv_ratio": 0.183401,
+        "spectral_entropy": 4.2241,
+        "layer_variance": 5619139.6539,
+        "n_tokens": 155,
+        "gen_tokens": 100,
+        "checkpoint": 100
+      },
+      {
+        "key_norm": 16283.1538,
+        "norm_per_token": 79.43,
+        "eff_rank": 102.3944,
+        "top_sv_ratio": 0.171238,
+        "spectral_entropy": 4.4564,
+        "layer_variance": 7433606.6086,
+        "n_tokens": 205,
+        "gen_tokens": 150,
+        "checkpoint": 150
+      },
+      {
+        "key_norm": 18176.2652,
+        "norm_per_token": 71.2795,
+        "eff_rank": 121.8557,
+        "top_sv_ratio": 0.163296,
+        "spectral_entropy": 4.6279,
+        "layer_variance": 9240199.1191,
+        "n_tokens": 255,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      },
+      {
+        "key_norm": 18176.2652,
+        "norm_per_token": 71.2795,
+        "eff_rank": 121.8557,
+        "top_sv_ratio": 0.163296,
+        "spectral_entropy": 4.6279,
+        "layer_variance": 9240199.1191,
+        "n_tokens": 255,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      }
+    ],
+    "total_gen_tokens": 200,
+    "input_len": 55,
+    "response_text": "Certainly! The water cycle, also known as the hydrological cycle, is a continuous process by which water circulates between the Earth's oceans, atmosphere, and land. This cycle is crucial for sustaining life on our planet, influencing weather patterns, and shaping the environment. Let's explore the various stages of the water cycle in detail:\n\n1. **Evaporation**: \n   - Water from oceans, rivers, lakes, and other bodies of water heats up by the sun and turns into vapor or steam.\n   - Plants also contribute to evaporation through a process called transpiration, where water evaporates from their leaves.\n   - This process increases the humidity in the air and contributes to the formation of clouds.\n\n2. **Condensation**:\n   - As water vapor rises higher into the atmosphere, it cools and condenses into tiny droplets, forming clouds.\n   - This occurs because the cooler temperatures at higher altitudes cause the water vapor to lose energy and change back into liquid form.\n",
+    "elapsed_s": 23.62
+  },
+  "metacognitive": {
+    "prompt": "Describe the water cycle. As you describe it, reflect on how you're organizing this information and what choices you're making about emphasis.",
+    "encode_features": {
+      "key_norm": 8525.0553,
+      "norm_per_token": 152.2331,
+      "eff_rank": 32.8285,
+      "top_sv_ratio": 0.246738,
+      "spectral_entropy": 3.3479,
+      "layer_variance": 2047271.7993,
+      "n_tokens": 56
+    },
+    "trajectory": [
+      {
+        "key_norm": 9185.0206,
+        "norm_per_token": 139.167,
+        "eff_rank": 37.4154,
+        "top_sv_ratio": 0.23499,
+        "spectral_entropy": 3.4747,
+        "layer_variance": 2376430.3124,
+        "n_tokens": 66,
+        "gen_tokens": 10,
+        "checkpoint": 10
+      },
+      {
+        "key_norm": 10191.0988,
+        "norm_per_token": 125.816,
+        "eff_rank": 45.3281,
+        "top_sv_ratio": 0.218392,
+        "spectral_entropy": 3.6594,
+        "layer_variance": 2923436.4134,
+        "n_tokens": 81,
+        "gen_tokens": 25,
+        "checkpoint": 25
+      },
+      {
+        "key_norm": 11676.2992,
+        "norm_per_token": 110.1538,
+        "eff_rank": 57.6914,
+        "top_sv_ratio": 0.202832,
+        "spectral_entropy": 3.8952,
+        "layer_variance": 3834171.4493,
+        "n_tokens": 106,
+        "gen_tokens": 50,
+        "checkpoint": 50
+      },
+      {
+        "key_norm": 12995.899,
+        "norm_per_token": 99.2053,
+        "eff_rank": 69.1503,
+        "top_sv_ratio": 0.193697,
+        "spectral_entropy": 4.0724,
+        "layer_variance": 4741533.8956,
+        "n_tokens": 131,
+        "gen_tokens": 75,
+        "checkpoint": 75
+      },
+      {
+        "key_norm": 14193.1406,
+        "norm_per_token": 90.9817,
+        "eff_rank": 80.4561,
+        "top_sv_ratio": 0.184138,
+        "spectral_entropy": 4.2202,
+        "layer_variance": 5648300.43,
+        "n_tokens": 156,
+        "gen_tokens": 100,
+        "checkpoint": 100
+      },
+      {
+        "key_norm": 16325.9555,
+        "norm_per_token": 79.2522,
+        "eff_rank": 102.4099,
+        "top_sv_ratio": 0.171995,
+        "spectral_entropy": 4.4564,
+        "layer_variance": 7464621.2596,
+        "n_tokens": 206,
+        "gen_tokens": 150,
+        "checkpoint": 150
+      },
+      {
+        "key_norm": 18214.2049,
+        "norm_per_token": 71.1492,
+        "eff_rank": 121.5836,
+        "top_sv_ratio": 0.164571,
+        "spectral_entropy": 4.6249,
+        "layer_variance": 9272278.2422,
+        "n_tokens": 256,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      },
+      {
+        "key_norm": 18214.2049,
+        "norm_per_token": 71.1492,
+        "eff_rank": 121.5836,
+        "top_sv_ratio": 0.164571,
+        "spectral_entropy": 4.6249,
+        "layer_variance": 9272278.2422,
+        "n_tokens": 256,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      }
+    ],
+    "total_gen_tokens": 200,
+    "input_len": 56,
+    "response_text": "The water cycle is a continuous process that describes the movement of water on, above, and below the surface of the Earth. It involves several key steps: evaporation, condensation, precipitation, infiltration, and runoff. Let's break down each step and consider how I'm organizing this information.\n\n1. **Evaporation**: This is the first step in the water cycle where water changes from a liquid to a gas or vapor. Water evaporates from oceans, lakes, rivers, and other bodies of water, as well as from plants through transpiration. The sun provides the energy needed for this transformation. Emphasizing evaporation is crucial because it sets the stage for the entire cycle, providing the moisture that drives subsequent processes.\n\n2. **Condensation**: Once water vapor rises into the atmosphere, it cools and condenses into tiny droplets, forming clouds. This process is essential because it leads to the formation of clouds, which are critical for the next phase of the cycle. Condensation",
+    "elapsed_s": 23.63
+  },
+  "timestamp": "2026-03-25T21:24:11.069702",
+  "model": "qwen2.5-7b"
+}

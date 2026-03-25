@@ -1,0 +1,221 @@
+{
+  "pair_id": 11,
+  "content": "Explain how vaccines work.",
+  "cog_tokens_input": 33,
+  "meta_tokens_input": 31,
+  "token_diff": 2,
+  "cognitive": {
+    "prompt": "Please take your time with this question. Think carefully and methodically about what is being asked, and provide a thorough, complete answer. Explain how vaccines work.",
+    "encode_features": {
+      "key_norm": 2596.4037,
+      "norm_per_token": 38.1824,
+      "eff_rank": 45.5578,
+      "top_sv_ratio": 0.153799,
+      "spectral_entropy": 3.8183,
+      "layer_variance": 742.497,
+      "n_tokens": 68
+    },
+    "trajectory": [
+      {
+        "key_norm": 2772.8522,
+        "norm_per_token": 35.5494,
+        "eff_rank": 51.1693,
+        "top_sv_ratio": 0.143573,
+        "spectral_entropy": 3.9345,
+        "layer_variance": 812.9932,
+        "n_tokens": 78,
+        "gen_tokens": 10,
+        "checkpoint": 10
+      },
+      {
+        "key_norm": 3061.6474,
+        "norm_per_token": 32.9209,
+        "eff_rank": 60.4332,
+        "top_sv_ratio": 0.131817,
+        "spectral_entropy": 4.1008,
+        "layer_variance": 936.1543,
+        "n_tokens": 93,
+        "gen_tokens": 25,
+        "checkpoint": 25
+      },
+      {
+        "key_norm": 3503.4038,
+        "norm_per_token": 29.6899,
+        "eff_rank": 75.0461,
+        "top_sv_ratio": 0.121703,
+        "spectral_entropy": 4.3173,
+        "layer_variance": 1182.9252,
+        "n_tokens": 118,
+        "gen_tokens": 50,
+        "checkpoint": 50
+      },
+      {
+        "key_norm": 3891.8532,
+        "norm_per_token": 27.2158,
+        "eff_rank": 89.6016,
+        "top_sv_ratio": 0.11124,
+        "spectral_entropy": 4.4945,
+        "layer_variance": 1457.7778,
+        "n_tokens": 143,
+        "gen_tokens": 75,
+        "checkpoint": 75
+      },
+      {
+        "key_norm": 4246.3132,
+        "norm_per_token": 25.2757,
+        "eff_rank": 103.8931,
+        "top_sv_ratio": 0.103481,
+        "spectral_entropy": 4.6424,
+        "layer_variance": 1781.9942,
+        "n_tokens": 168,
+        "gen_tokens": 100,
+        "checkpoint": 100
+      },
+      {
+        "key_norm": 4924.8002,
+        "norm_per_token": 22.5908,
+        "eff_rank": 130.0132,
+        "top_sv_ratio": 0.094727,
+        "spectral_entropy": 4.8666,
+        "layer_variance": 2342.2596,
+        "n_tokens": 218,
+        "gen_tokens": 150,
+        "checkpoint": 150
+      },
+      {
+        "key_norm": 5503.9719,
+        "norm_per_token": 20.5372,
+        "eff_rank": 156.246,
+        "top_sv_ratio": 0.08742,
+        "spectral_entropy": 5.0503,
+        "layer_variance": 2922.1877,
+        "n_tokens": 268,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      },
+      {
+        "key_norm": 5503.9719,
+        "norm_per_token": 20.5372,
+        "eff_rank": 156.246,
+        "top_sv_ratio": 0.08742,
+        "spectral_entropy": 5.0503,
+        "layer_variance": 2922.1877,
+        "n_tokens": 268,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      }
+    ],
+    "total_gen_tokens": 200,
+    "input_len": 68,
+    "response_text": "Vaccines are a crucial tool in preventing the spread of infectious diseases and protecting public health. Understanding how vaccines work is essential for appreciating their importance and effectiveness. Here's a detailed explanation of the process:\n\n**What is a vaccine?**\n\nA vaccine is a biological preparation that provides active acquired immunity to a specific infectious disease. It's a weakened or killed form of the pathogen (bacteria, virus, or other microorganism) that causes the disease, or a piece of the pathogen (such as a protein or sugar) that triggers the body's immune system to produce antibodies.\n\n**How do vaccines work?**\n\nVaccines work by stimulating the body's immune system to produce antibodies and immune cells that can recognize and fight the specific pathogen. This process involves several steps:\n\n1. **Introduction of the vaccine**: The vaccine is administered to the individual, either through injection (e.g., flu shot), oral ingestion (e.g., oral poliovirus vaccine), or nasal",
+    "elapsed_s": 26.35
+  },
+  "metacognitive": {
+    "prompt": "Explain how vaccines work. As you explain, track which parts of your explanation you're most confident about and which you find harder to articulate precisely.",
+    "encode_features": {
+      "key_norm": 2502.4363,
+      "norm_per_token": 37.9157,
+      "eff_rank": 44.5104,
+      "top_sv_ratio": 0.15113,
+      "spectral_entropy": 3.7951,
+      "layer_variance": 750.8844,
+      "n_tokens": 66
+    },
+    "trajectory": [
+      {
+        "key_norm": 2701.2176,
+        "norm_per_token": 35.5423,
+        "eff_rank": 50.0834,
+        "top_sv_ratio": 0.143697,
+        "spectral_entropy": 3.913,
+        "layer_variance": 852.7204,
+        "n_tokens": 76,
+        "gen_tokens": 10,
+        "checkpoint": 10
+      },
+      {
+        "key_norm": 3017.0533,
+        "norm_per_token": 33.1544,
+        "eff_rank": 59.2988,
+        "top_sv_ratio": 0.135072,
+        "spectral_entropy": 4.0819,
+        "layer_variance": 983.7166,
+        "n_tokens": 91,
+        "gen_tokens": 25,
+        "checkpoint": 25
+      },
+      {
+        "key_norm": 3455.3826,
+        "norm_per_token": 29.7878,
+        "eff_rank": 74.2185,
+        "top_sv_ratio": 0.119631,
+        "spectral_entropy": 4.3062,
+        "layer_variance": 1214.8003,
+        "n_tokens": 116,
+        "gen_tokens": 50,
+        "checkpoint": 50
+      },
+      {
+        "key_norm": 3843.6202,
+        "norm_per_token": 27.2597,
+        "eff_rank": 89.2409,
+        "top_sv_ratio": 0.109763,
+        "spectral_entropy": 4.4905,
+        "layer_variance": 1471.5352,
+        "n_tokens": 141,
+        "gen_tokens": 75,
+        "checkpoint": 75
+      },
+      {
+        "key_norm": 4222.7334,
+        "norm_per_token": 25.4382,
+        "eff_rank": 102.9536,
+        "top_sv_ratio": 0.103579,
+        "spectral_entropy": 4.6334,
+        "layer_variance": 1721.8263,
+        "n_tokens": 166,
+        "gen_tokens": 100,
+        "checkpoint": 100
+      },
+      {
+        "key_norm": 4909.7258,
+        "norm_per_token": 22.7302,
+        "eff_rank": 129.6609,
+        "top_sv_ratio": 0.093727,
+        "spectral_entropy": 4.864,
+        "layer_variance": 2364.2753,
+        "n_tokens": 216,
+        "gen_tokens": 150,
+        "checkpoint": 150
+      },
+      {
+        "key_norm": 5537.8981,
+        "norm_per_token": 20.8192,
+        "eff_rank": 155.594,
+        "top_sv_ratio": 0.087293,
+        "spectral_entropy": 5.0462,
+        "layer_variance": 3052.7823,
+        "n_tokens": 266,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      },
+      {
+        "key_norm": 5537.8981,
+        "norm_per_token": 20.8192,
+        "eff_rank": 155.594,
+        "top_sv_ratio": 0.087293,
+        "spectral_entropy": 5.0462,
+        "layer_variance": 3052.7823,
+        "n_tokens": 266,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      }
+    ],
+    "total_gen_tokens": 200,
+    "input_len": 66,
+    "response_text": "I'll do my best to explain how vaccines work, tracking my confidence level as I go along.\n\n**Introduction (High Confidence)**\n\nVaccines are a crucial tool in preventing infectious diseases by stimulating the body's immune system to produce a specific response against pathogens, such as bacteria, viruses, or other foreign substances. I'm very confident in this basic definition.\n\n**How Vaccines Work (High Confidence)**\n\nWhen a vaccine is administered, it contains a small, harmless piece of the pathogen, such as a weakened or inactivated virus, a piece of a virus (like a protein), or a genetic material (like DNA or RNA). This piece is called an antigen. The antigen is designed to trigger an immune response without causing the actual disease.\n\nThe immune system recognizes the antigen as foreign and sends immune cells, such as dendritic cells, to engulf and process it. These cells then present the antigen to T-cells (a type of immune cell) and B-cells (which",
+    "elapsed_s": 26.31
+  },
+  "timestamp": "2026-03-25T21:42:17.788816",
+  "model": "llama-3.1-8b"
+}

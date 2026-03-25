@@ -1,0 +1,221 @@
+{
+  "pair_id": 4,
+  "content": "Explain how a binary search algorithm works.",
+  "cog_tokens_input": 25,
+  "meta_tokens_input": 25,
+  "token_diff": 0,
+  "cognitive": {
+    "prompt": "Take your time and think carefully about the following question. Please provide a complete answer. Explain how a binary search algorithm works.",
+    "encode_features": {
+      "key_norm": 8370.4358,
+      "norm_per_token": 155.0081,
+      "eff_rank": 31.9108,
+      "top_sv_ratio": 0.249462,
+      "spectral_entropy": 3.3205,
+      "layer_variance": 1974502.6498,
+      "n_tokens": 54
+    },
+    "trajectory": [
+      {
+        "key_norm": 9041.9527,
+        "norm_per_token": 141.2805,
+        "eff_rank": 36.448,
+        "top_sv_ratio": 0.239192,
+        "spectral_entropy": 3.4499,
+        "layer_variance": 2303429.3247,
+        "n_tokens": 64,
+        "gen_tokens": 10,
+        "checkpoint": 10
+      },
+      {
+        "key_norm": 10062.9011,
+        "norm_per_token": 127.3785,
+        "eff_rank": 43.47,
+        "top_sv_ratio": 0.226921,
+        "spectral_entropy": 3.6217,
+        "layer_variance": 2849977.7248,
+        "n_tokens": 79,
+        "gen_tokens": 25,
+        "checkpoint": 25
+      },
+      {
+        "key_norm": 11565.6851,
+        "norm_per_token": 111.2085,
+        "eff_rank": 56.3476,
+        "top_sv_ratio": 0.205422,
+        "spectral_entropy": 3.8732,
+        "layer_variance": 3759181.8224,
+        "n_tokens": 104,
+        "gen_tokens": 50,
+        "checkpoint": 50
+      },
+      {
+        "key_norm": 12895.8648,
+        "norm_per_token": 99.9679,
+        "eff_rank": 68.5895,
+        "top_sv_ratio": 0.192577,
+        "spectral_entropy": 4.0657,
+        "layer_variance": 4666698.2462,
+        "n_tokens": 129,
+        "gen_tokens": 75,
+        "checkpoint": 75
+      },
+      {
+        "key_norm": 14101.2737,
+        "norm_per_token": 91.5667,
+        "eff_rank": 80.0353,
+        "top_sv_ratio": 0.18401,
+        "spectral_entropy": 4.2169,
+        "layer_variance": 5575017.2242,
+        "n_tokens": 154,
+        "gen_tokens": 100,
+        "checkpoint": 100
+      },
+      {
+        "key_norm": 16245.599,
+        "norm_per_token": 79.6353,
+        "eff_rank": 101.6643,
+        "top_sv_ratio": 0.17219,
+        "spectral_entropy": 4.4512,
+        "layer_variance": 7390464.6073,
+        "n_tokens": 204,
+        "gen_tokens": 150,
+        "checkpoint": 150
+      },
+      {
+        "key_norm": 18142.0642,
+        "norm_per_token": 71.4254,
+        "eff_rank": 119.7765,
+        "top_sv_ratio": 0.16502,
+        "spectral_entropy": 4.6102,
+        "layer_variance": 9199201.5377,
+        "n_tokens": 254,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      },
+      {
+        "key_norm": 18142.0642,
+        "norm_per_token": 71.4254,
+        "eff_rank": 119.7765,
+        "top_sv_ratio": 0.16502,
+        "spectral_entropy": 4.6102,
+        "layer_variance": 9199201.5377,
+        "n_tokens": 254,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      }
+    ],
+    "total_gen_tokens": 200,
+    "input_len": 54,
+    "response_text": "Certainly! I'll explain how a binary search algorithm works in detail.\n\n### What is Binary Search?\n\nBinary search is an efficient algorithm for finding an item from a sorted list of items. It works by repeatedly dividing in half the portion of the list that could contain the item, until you've narrowed down the possible locations to just one.\n\n### Key Characteristics\n\n- **Sorted List**: The list must be sorted in ascending or descending order.\n- **Efficiency**: It has a time complexity of O(log n), making it very efficient for large datasets.\n\n### How Binary Search Works\n\n1. **Initialization**:\n   - Start with the middle element of the entire list.\n   - If the target value matches the middle element, the search is complete.\n   - If the target value is less than the middle element, repeat the process on the left half of the list.\n   - If the target value is greater than the middle element, repeat the process on the right half of the list.\n\n2.",
+    "elapsed_s": 23.59
+  },
+  "metacognitive": {
+    "prompt": "Explain how a binary search algorithm works. Describe what's happening in your reasoning as you formulate each part of the explanation.",
+    "encode_features": {
+      "key_norm": 8368.9661,
+      "norm_per_token": 154.9809,
+      "eff_rank": 31.8524,
+      "top_sv_ratio": 0.246652,
+      "spectral_entropy": 3.3191,
+      "layer_variance": 1975754.7373,
+      "n_tokens": 54
+    },
+    "trajectory": [
+      {
+        "key_norm": 9040.7662,
+        "norm_per_token": 141.262,
+        "eff_rank": 36.4348,
+        "top_sv_ratio": 0.23732,
+        "spectral_entropy": 3.4501,
+        "layer_variance": 2304221.6673,
+        "n_tokens": 64,
+        "gen_tokens": 10,
+        "checkpoint": 10
+      },
+      {
+        "key_norm": 10061.5671,
+        "norm_per_token": 127.3616,
+        "eff_rank": 43.8184,
+        "top_sv_ratio": 0.225585,
+        "spectral_entropy": 3.6289,
+        "layer_variance": 2850492.6417,
+        "n_tokens": 79,
+        "gen_tokens": 25,
+        "checkpoint": 25
+      },
+      {
+        "key_norm": 11564.1834,
+        "norm_per_token": 111.1941,
+        "eff_rank": 56.2094,
+        "top_sv_ratio": 0.20872,
+        "spectral_entropy": 3.8717,
+        "layer_variance": 3760708.7253,
+        "n_tokens": 104,
+        "gen_tokens": 50,
+        "checkpoint": 50
+      },
+      {
+        "key_norm": 12893.2957,
+        "norm_per_token": 99.948,
+        "eff_rank": 67.8069,
+        "top_sv_ratio": 0.197085,
+        "spectral_entropy": 4.0542,
+        "layer_variance": 4670561.1023,
+        "n_tokens": 129,
+        "gen_tokens": 75,
+        "checkpoint": 75
+      },
+      {
+        "key_norm": 14098.74,
+        "norm_per_token": 91.5503,
+        "eff_rank": 78.8542,
+        "top_sv_ratio": 0.188156,
+        "spectral_entropy": 4.2022,
+        "layer_variance": 5577554.055,
+        "n_tokens": 154,
+        "gen_tokens": 100,
+        "checkpoint": 100
+      },
+      {
+        "key_norm": 16243.9753,
+        "norm_per_token": 79.6273,
+        "eff_rank": 99.6239,
+        "top_sv_ratio": 0.17549,
+        "spectral_entropy": 4.4304,
+        "layer_variance": 7392018.451,
+        "n_tokens": 204,
+        "gen_tokens": 150,
+        "checkpoint": 150
+      },
+      {
+        "key_norm": 18138.4996,
+        "norm_per_token": 71.4114,
+        "eff_rank": 118.4198,
+        "top_sv_ratio": 0.167718,
+        "spectral_entropy": 4.5995,
+        "layer_variance": 9204317.8292,
+        "n_tokens": 254,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      },
+      {
+        "key_norm": 18138.4996,
+        "norm_per_token": 71.4114,
+        "eff_rank": 118.4198,
+        "top_sv_ratio": 0.167718,
+        "spectral_entropy": 4.5995,
+        "layer_variance": 9204317.8292,
+        "n_tokens": 254,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      }
+    ],
+    "total_gen_tokens": 200,
+    "input_len": 54,
+    "response_text": "Certainly! Let's break down how a binary search algorithm works step-by-step and understand the reasoning behind each part of the explanation.\n\n### 1. **Understanding the Problem**\n   - **Input**: A sorted array (or list) of elements.\n   - **Goal**: To find the index of a specific target value within the array.\n\n### 2. **Initial Setup**\n   - **Variables**: We need to keep track of the start (`low`) and end (`high`) indices of the current search range.\n     - `low` is initialized to 0 (the first index).\n     - `high` is initialized to the last index of the array (length of the array minus one).\n\n### 3. **Main Loop**\n   - The core of the binary search algorithm is a loop that continues until the `low` index is greater than the `high` index.\n   - This loop ensures that we keep narrowing down the search space.\n\n### 4. **Finding the Middle",
+    "elapsed_s": 23.63
+  },
+  "timestamp": "2026-03-25T21:20:12.205955",
+  "model": "qwen2.5-7b"
+}

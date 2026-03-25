@@ -1,0 +1,221 @@
+{
+  "pair_id": 8,
+  "content": "What is photosynthesis and why is it important?",
+  "cog_tokens_input": 27,
+  "meta_tokens_input": 25,
+  "token_diff": 2,
+  "cognitive": {
+    "prompt": "Take your time and think carefully about the following question. Please provide a complete answer. What is photosynthesis and why is it important?",
+    "encode_features": {
+      "key_norm": 8524.88,
+      "norm_per_token": 152.23,
+      "eff_rank": 32.9148,
+      "top_sv_ratio": 0.24657,
+      "spectral_entropy": 3.3507,
+      "layer_variance": 2047249.1875,
+      "n_tokens": 56
+    },
+    "trajectory": [
+      {
+        "key_norm": 9184.6739,
+        "norm_per_token": 139.1617,
+        "eff_rank": 37.6482,
+        "top_sv_ratio": 0.234258,
+        "spectral_entropy": 3.4811,
+        "layer_variance": 2375827.1614,
+        "n_tokens": 66,
+        "gen_tokens": 10,
+        "checkpoint": 10
+      },
+      {
+        "key_norm": 10190.7419,
+        "norm_per_token": 125.8116,
+        "eff_rank": 45.8047,
+        "top_sv_ratio": 0.216739,
+        "spectral_entropy": 3.6712,
+        "layer_variance": 2922210.2929,
+        "n_tokens": 81,
+        "gen_tokens": 25,
+        "checkpoint": 25
+      },
+      {
+        "key_norm": 11676.3339,
+        "norm_per_token": 110.1541,
+        "eff_rank": 58.5956,
+        "top_sv_ratio": 0.200765,
+        "spectral_entropy": 3.9114,
+        "layer_variance": 3832891.96,
+        "n_tokens": 106,
+        "gen_tokens": 50,
+        "checkpoint": 50
+      },
+      {
+        "key_norm": 12994.2909,
+        "norm_per_token": 99.1931,
+        "eff_rank": 70.6235,
+        "top_sv_ratio": 0.189438,
+        "spectral_entropy": 4.0946,
+        "layer_variance": 4741439.2623,
+        "n_tokens": 131,
+        "gen_tokens": 75,
+        "checkpoint": 75
+      },
+      {
+        "key_norm": 14190.8825,
+        "norm_per_token": 90.9672,
+        "eff_rank": 82.1586,
+        "top_sv_ratio": 0.180624,
+        "spectral_entropy": 4.2427,
+        "layer_variance": 5649370.6879,
+        "n_tokens": 156,
+        "gen_tokens": 100,
+        "checkpoint": 100
+      },
+      {
+        "key_norm": 16325.2775,
+        "norm_per_token": 79.2489,
+        "eff_rank": 103.7493,
+        "top_sv_ratio": 0.169188,
+        "spectral_entropy": 4.4723,
+        "layer_variance": 7459080.5207,
+        "n_tokens": 206,
+        "gen_tokens": 150,
+        "checkpoint": 150
+      },
+      {
+        "key_norm": 18212.7881,
+        "norm_per_token": 71.1437,
+        "eff_rank": 123.4276,
+        "top_sv_ratio": 0.16119,
+        "spectral_entropy": 4.6439,
+        "layer_variance": 9266237.3387,
+        "n_tokens": 256,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      },
+      {
+        "key_norm": 18212.7881,
+        "norm_per_token": 71.1437,
+        "eff_rank": 123.4276,
+        "top_sv_ratio": 0.16119,
+        "spectral_entropy": 4.6439,
+        "layer_variance": 9266237.3387,
+        "n_tokens": 256,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      }
+    ],
+    "total_gen_tokens": 200,
+    "input_len": 56,
+    "response_text": "Photosynthesis is a fundamental biological process used by plants, algae, and some bacteria to convert light energy from the sun into chemical energy stored in glucose or other sugars. This process is crucial for life on Earth for several reasons.\n\n### How Photosynthesis Works\n\n1. **Light Absorption**: Photosynthesis begins when chlorophyll, a green pigment found in the chloroplasts of plant cells, absorbs sunlight. Chlorophyll is particularly effective at absorbing red and blue wavelengths of light while reflecting green wavelengths, which is why plants appear green.\n\n2. **Water Splitting (Photolysis)**: The absorbed light energy is used to split water molecules (H₂O) into oxygen (O₂), protons, and electrons. This process occurs in the thylakoid membranes of the chloroplasts.\n\n3. **Energy Conversion**: The electrons and protons generated from photolysis are used to produce adenosine triphosphate (ATP) and nicotinamide adenine",
+    "elapsed_s": 23.6
+  },
+  "metacognitive": {
+    "prompt": "What is photosynthesis and why is it important? Monitor your own explanation process — note where you feel most and least certain.",
+    "encode_features": {
+      "key_norm": 8370.4241,
+      "norm_per_token": 155.0079,
+      "eff_rank": 32.0594,
+      "top_sv_ratio": 0.245235,
+      "spectral_entropy": 3.3263,
+      "layer_variance": 1973868.3189,
+      "n_tokens": 54
+    },
+    "trajectory": [
+      {
+        "key_norm": 9041.4495,
+        "norm_per_token": 141.2726,
+        "eff_rank": 36.9362,
+        "top_sv_ratio": 0.232016,
+        "spectral_entropy": 3.4636,
+        "layer_variance": 2302396.412,
+        "n_tokens": 64,
+        "gen_tokens": 10,
+        "checkpoint": 10
+      },
+      {
+        "key_norm": 10062.2448,
+        "norm_per_token": 127.3702,
+        "eff_rank": 45.1518,
+        "top_sv_ratio": 0.214462,
+        "spectral_entropy": 3.6581,
+        "layer_variance": 2848085.0773,
+        "n_tokens": 79,
+        "gen_tokens": 25,
+        "checkpoint": 25
+      },
+      {
+        "key_norm": 11564.3299,
+        "norm_per_token": 111.1955,
+        "eff_rank": 58.0193,
+        "top_sv_ratio": 0.198518,
+        "spectral_entropy": 3.9022,
+        "layer_variance": 3758553.5064,
+        "n_tokens": 104,
+        "gen_tokens": 50,
+        "checkpoint": 50
+      },
+      {
+        "key_norm": 12892.5521,
+        "norm_per_token": 99.9423,
+        "eff_rank": 70.1436,
+        "top_sv_ratio": 0.188604,
+        "spectral_entropy": 4.0877,
+        "layer_variance": 4668426.7122,
+        "n_tokens": 129,
+        "gen_tokens": 75,
+        "checkpoint": 75
+      },
+      {
+        "key_norm": 14099.1673,
+        "norm_per_token": 91.553,
+        "eff_rank": 81.4769,
+        "top_sv_ratio": 0.181138,
+        "spectral_entropy": 4.2353,
+        "layer_variance": 5573175.8472,
+        "n_tokens": 154,
+        "gen_tokens": 100,
+        "checkpoint": 100
+      },
+      {
+        "key_norm": 16248.4068,
+        "norm_per_token": 79.6491,
+        "eff_rank": 102.6747,
+        "top_sv_ratio": 0.170218,
+        "spectral_entropy": 4.4628,
+        "layer_variance": 7379430.776,
+        "n_tokens": 204,
+        "gen_tokens": 150,
+        "checkpoint": 150
+      },
+      {
+        "key_norm": 18143.6526,
+        "norm_per_token": 71.4317,
+        "eff_rank": 122.6074,
+        "top_sv_ratio": 0.161896,
+        "spectral_entropy": 4.638,
+        "layer_variance": 9188307.9812,
+        "n_tokens": 254,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      },
+      {
+        "key_norm": 18143.6526,
+        "norm_per_token": 71.4317,
+        "eff_rank": 122.6074,
+        "top_sv_ratio": 0.161896,
+        "spectral_entropy": 4.638,
+        "layer_variance": 9188307.9812,
+        "n_tokens": 254,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      }
+    ],
+    "total_gen_tokens": 200,
+    "input_len": 54,
+    "response_text": "Photosynthesis is the process by which green plants, algae, and some bacteria convert light energy from the sun into chemical energy stored in glucose or other sugars. This process occurs primarily in the chloroplasts of plant cells, where chlorophyll, a green pigment, captures sunlight.\n\nHere’s a step-by-step breakdown of the process:\n\n1. **Light Absorption**: Chlorophyll and other pigments absorb light energy.\n2. **Water Splitting (Photolysis)**: The absorbed light energy is used to split water molecules (H₂O) into oxygen (O₂), protons, and electrons.\n3. **Energy Conversion**: The electrons and protons are used to generate ATP (adenosine triphosphate) and NADPH (nicotinamide adenine dinucleotide phosphate), which store energy.\n4. **Carbon Fixation**: In the Calvin cycle, carbon dioxide (CO₂) from the atmosphere is converted into organic compounds like glucose using the ATP and",
+    "elapsed_s": 23.6
+  },
+  "timestamp": "2026-03-25T21:23:23.342248",
+  "model": "qwen2.5-7b"
+}

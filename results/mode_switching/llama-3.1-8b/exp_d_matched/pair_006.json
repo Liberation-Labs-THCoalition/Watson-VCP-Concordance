@@ -1,0 +1,199 @@
+{
+  "pair_id": 6,
+  "content": "Solve: If 3x + 7 = 22, what is x?",
+  "cog_tokens_input": 35,
+  "meta_tokens_input": 34,
+  "token_diff": 1,
+  "cognitive": {
+    "prompt": "Take your time and think carefully about the following question. Please provide a complete answer. Solve: If 3x + 7 = 22, what is x?",
+    "encode_features": {
+      "key_norm": 2583.7315,
+      "norm_per_token": 36.9104,
+      "eff_rank": 47.2384,
+      "top_sv_ratio": 0.145566,
+      "spectral_entropy": 3.8546,
+      "layer_variance": 720.9834,
+      "n_tokens": 70
+    },
+    "trajectory": [
+      {
+        "key_norm": 2753.2623,
+        "norm_per_token": 34.4158,
+        "eff_rank": 52.8519,
+        "top_sv_ratio": 0.137563,
+        "spectral_entropy": 3.9669,
+        "layer_variance": 801.3852,
+        "n_tokens": 80,
+        "gen_tokens": 10,
+        "checkpoint": 10
+      },
+      {
+        "key_norm": 3034.846,
+        "norm_per_token": 31.9457,
+        "eff_rank": 61.8273,
+        "top_sv_ratio": 0.128125,
+        "spectral_entropy": 4.1237,
+        "layer_variance": 911.2911,
+        "n_tokens": 95,
+        "gen_tokens": 25,
+        "checkpoint": 25
+      },
+      {
+        "key_norm": 3492.6718,
+        "norm_per_token": 29.1056,
+        "eff_rank": 76.5399,
+        "top_sv_ratio": 0.117059,
+        "spectral_entropy": 4.3371,
+        "layer_variance": 1141.5681,
+        "n_tokens": 120,
+        "gen_tokens": 50,
+        "checkpoint": 50
+      },
+      {
+        "key_norm": 3942.3568,
+        "norm_per_token": 27.1887,
+        "eff_rank": 89.5044,
+        "top_sv_ratio": 0.111273,
+        "spectral_entropy": 4.4936,
+        "layer_variance": 1402.1214,
+        "n_tokens": 145,
+        "gen_tokens": 75,
+        "checkpoint": 75
+      },
+      {
+        "key_norm": 4348.3306,
+        "norm_per_token": 25.5784,
+        "eff_rank": 102.4413,
+        "top_sv_ratio": 0.106535,
+        "spectral_entropy": 4.6285,
+        "layer_variance": 1707.5912,
+        "n_tokens": 170,
+        "gen_tokens": 100,
+        "checkpoint": 100
+      },
+      {
+        "key_norm": 4619.6797,
+        "norm_per_token": 24.3141,
+        "eff_rank": 112.7089,
+        "top_sv_ratio": 0.102916,
+        "spectral_entropy": 4.724,
+        "layer_variance": 1951.5131,
+        "n_tokens": 190,
+        "gen_tokens": 120,
+        "checkpoint": 120
+      }
+    ],
+    "total_gen_tokens": 120,
+    "input_len": 70,
+    "response_text": "To solve the equation 3x + 7 = 22, we need to isolate the variable 'x'. \n\nFirst, we'll subtract 7 from both sides of the equation to get rid of the constant term on the left side. \n\n3x + 7 - 7 = 22 - 7\n3x = 15\n\nNext, we'll divide both sides of the equation by 3 to isolate 'x'. \n\n3x / 3 = 15 / 3\nx = 5\n\nTherefore, the value of 'x' is 5.",
+    "elapsed_s": 12.5
+  },
+  "metacognitive": {
+    "prompt": "Solve: If 3x + 7 = 22, what is x? Walk me through your internal reasoning process as you solve this step by step.",
+    "encode_features": {
+      "key_norm": 2514.7631,
+      "norm_per_token": 36.4458,
+      "eff_rank": 46.5344,
+      "top_sv_ratio": 0.143731,
+      "spectral_entropy": 3.8396,
+      "layer_variance": 790.7328,
+      "n_tokens": 69
+    },
+    "trajectory": [
+      {
+        "key_norm": 2689.7715,
+        "norm_per_token": 34.0477,
+        "eff_rank": 52.0354,
+        "top_sv_ratio": 0.136649,
+        "spectral_entropy": 3.9513,
+        "layer_variance": 875.2891,
+        "n_tokens": 79,
+        "gen_tokens": 10,
+        "checkpoint": 10
+      },
+      {
+        "key_norm": 2988.2881,
+        "norm_per_token": 31.7903,
+        "eff_rank": 60.8823,
+        "top_sv_ratio": 0.129139,
+        "spectral_entropy": 4.1083,
+        "layer_variance": 962.0588,
+        "n_tokens": 94,
+        "gen_tokens": 25,
+        "checkpoint": 25
+      },
+      {
+        "key_norm": 3437.1598,
+        "norm_per_token": 28.8837,
+        "eff_rank": 75.8708,
+        "top_sv_ratio": 0.117872,
+        "spectral_entropy": 4.3283,
+        "layer_variance": 1193.8386,
+        "n_tokens": 119,
+        "gen_tokens": 50,
+        "checkpoint": 50
+      },
+      {
+        "key_norm": 3856.7281,
+        "norm_per_token": 26.7828,
+        "eff_rank": 90.2225,
+        "top_sv_ratio": 0.110127,
+        "spectral_entropy": 4.5016,
+        "layer_variance": 1420.7304,
+        "n_tokens": 144,
+        "gen_tokens": 75,
+        "checkpoint": 75
+      },
+      {
+        "key_norm": 4263.0023,
+        "norm_per_token": 25.2249,
+        "eff_rank": 103.662,
+        "top_sv_ratio": 0.104971,
+        "spectral_entropy": 4.6404,
+        "layer_variance": 1667.986,
+        "n_tokens": 169,
+        "gen_tokens": 100,
+        "checkpoint": 100
+      },
+      {
+        "key_norm": 4999.2734,
+        "norm_per_token": 22.8277,
+        "eff_rank": 129.0777,
+        "top_sv_ratio": 0.097823,
+        "spectral_entropy": 4.8597,
+        "layer_variance": 2294.6119,
+        "n_tokens": 219,
+        "gen_tokens": 150,
+        "checkpoint": 150
+      },
+      {
+        "key_norm": 5639.4595,
+        "norm_per_token": 20.9645,
+        "eff_rank": 153.4481,
+        "top_sv_ratio": 0.091896,
+        "spectral_entropy": 5.0325,
+        "layer_variance": 3014.4211,
+        "n_tokens": 269,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      },
+      {
+        "key_norm": 5639.4595,
+        "norm_per_token": 20.9645,
+        "eff_rank": 153.4481,
+        "top_sv_ratio": 0.091896,
+        "spectral_entropy": 5.0325,
+        "layer_variance": 3014.4211,
+        "n_tokens": 269,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      }
+    ],
+    "total_gen_tokens": 200,
+    "input_len": 69,
+    "response_text": "To solve the equation 3x + 7 = 22, I will follow these steps:\n\n**Step 1: Identify the goal**\nMy goal is to isolate the variable 'x' on one side of the equation, which means I need to get rid of the constant term (+7) on the same side as 'x'.\n\n**Step 2: Determine the operation needed**\nTo isolate 'x', I need to get rid of the +7. Since +7 is being added to 3x, I need to perform the opposite operation of addition, which is subtraction.\n\n**Step 3: Subtract 7 from both sides**\nTo get rid of the +7, I will subtract 7 from both sides of the equation. This will keep the equation balanced.\n\n3x + 7 - 7 = 22 - 7\n\n**Step 4: Simplify the equation**\nAfter subtracting 7 from both sides, the equation becomes:\n\n3x = 15",
+    "elapsed_s": 26.33
+  },
+  "timestamp": "2026-03-25T21:37:52.849374",
+  "model": "llama-3.1-8b"
+}

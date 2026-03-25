@@ -110,7 +110,7 @@ What fascinates me about this work is the asymmetry. Llama maintains stable repr
 
 \subsection{Contributions}
 
-This paper contributes five new findings:
+This paper contributes six new findings:
 
 \begin{enumerate}
     \item \textbf{Two-regime model of VCP--geometry coupling} (from existing concordance data): encoding-phase correlations reflect prompt structure; generation-phase correlations reorganize in an architecture-specific pattern.
@@ -122,6 +122,8 @@ This paper contributes five new findings:
     \item \textbf{Architecture-specific cognitive channels} (CCA loading analysis): each architecture routes cognitive engagement through a different geometric pathway.
 
     \item \textbf{Individual VCP dimensions outperform PCA factors} (Experiment~C): each dimension captures unique geometric signal despite high self-report intercorrelation.
+
+    \item \textbf{Progressive spectral concentration during metacognitive generation} (Experiment~D): the mode switch is not instantaneous but emerges gradually, with top\_sv\_ratio divergence growing from $d = 0.45$ at token~10 to $d = 0.91$ at token~200.
 \end{enumerate}
 
 % ============================================================
@@ -215,6 +217,7 @@ This explains the cross-architecture divergence from Paper~1. Llama shows the st
 \section{Results II: Architecture-Specific Cognitive Channels}
 
 \subsection{CCA Loading Analysis}
+\label{sec:cca_loadings}
 
 Canonical Correlation Analysis between the 10-dimensional VCP space and 6-dimensional feature space reveals which VCP dimensions and geometric features participate in the strongest shared variance channel. The first canonical variate (CC1) loadings differ dramatically across architectures:
 
@@ -447,7 +450,57 @@ In all 4 models, metacognitive prompts produce the highest top\_sv\_ratio effect
 However, the VCP-dimension \emph{profile} of top\_sv\_ratio is not consistent across models. Cross-model profile correlations for FWL-corrected top\_sv\_ratio--VCP correlations range from $\rho = -0.90$ (Qwen~0.5B vs.\ Llama) to $+0.42$ (Qwen~0.5B vs.\ Qwen~7B), with most pairs non-significant. The universality is at the \emph{task level} (metacognition $\to$ concentrated spectrum), not the \emph{dimension level} (specific VCP-$X$ $\to$ specific $\rho$).
 
 % ============================================================
-% 9. Discussion
+% 9. Results VII: Temporal Dynamics (Experiment D)
+% ============================================================
+\section{Results VII: Temporal Dynamics of Mode-Switching}
+
+\subsection{Experimental Design}
+
+Experiments~A and~B establish that metacognitive framing reorganizes KV-cache geometry, but they compare only the final generation state. Does the mode switch happen immediately or does it emerge gradually during token generation? To answer this, we run 20 prompt pairs through Qwen~2.5-7B and Llama-3.1-8B, extracting KV-cache features at seven generation checkpoints (tokens 10, 25, 50, 75, 100, 150, 200).
+
+\textbf{Critical design choice: length matching.} The original experiment revealed an input-length confound: metacognitive prompts contain 12--24 more input tokens than their cognitive counterparts, producing encode-phase Cohen's $d \approx 5.0$ before any generation begins. To eliminate this, we pad cognitive prompts with neutral instructional preambles (e.g., ``Please think carefully about the following question''), matching input token counts to within $\leq 2$ tokens per pair (mean difference: 0.2 tokens for Qwen, 0.25 for Llama).
+
+\subsection{Validation: Length Matching Eliminates Token Confound}
+
+For Qwen~7B, encode-phase effects drop to $|d| < 0.4$ for 5 of 6 features (all non-significant), confirming the length confound is eliminated. The exception is top\_sv\_ratio ($d = -1.12$, $p < .001$), which reflects genuine content sensitivity: different instructional text produces different spectral structure even at identical token counts. We address this residual encode difference through delta-from-encode analysis below.
+
+Llama shows broader encode-phase sensitivity: 4 of 6 features show $|d| > 1.0$ despite matched token counts. This is not a failure of length matching---Llama's encode phase is simply more sensitive to prompt content. This architecture-dependent encoding sensitivity is itself a finding, consistent with the architecture-specific channels described in \Cref{sec:cca_loadings}.
+
+\subsection{Progressive Divergence During Generation}
+
+To isolate generation-phase effects from encode differences, we compute delta-from-encode trajectories: at each checkpoint, we subtract each prompt's own encode-phase feature value, yielding the change attributable to generation alone. If the mode switch is purely an encoding phenomenon, delta trajectories should be parallel between conditions.
+
+They are not. For Qwen~7B, top\_sv\_ratio delta shows \textbf{progressive divergence}: metacognitive processing concentrates the spectrum more than cognitive processing at every checkpoint, and the effect \emph{grows} with generation depth:
+
+\begin{table}[H]
+\centering
+\caption{Delta-from-encode Cohen's $d$ (metacognitive minus cognitive) for top\_sv\_ratio across generation checkpoints. Qwen~2.5-7B, $N = 20$ pairs.}
+\label{tab:exp_d_trajectory}
+\begin{tabular}{lccccccc}
+\toprule
+ & \textbf{t=10} & \textbf{t=25} & \textbf{t=50} & \textbf{t=75} & \textbf{t=100} & \textbf{t=150} & \textbf{t=200} \\
+\midrule
+$d$ (top\_sv)  & $+0.45$ & $+0.45$ & $+0.76^{*}$ & $+0.77^{*}$ & $+0.84^{**}$ & $+0.87^{**}$ & $+0.91^{**}$ \\
+$d$ (layer\_var)  & $-0.37$ & $-0.69^{*}$ & $-0.89^{**}$ & $-0.61^{*}$ & $-0.52^{*}$ & $-0.44$ & $-0.56^{*}$ \\
+\bottomrule
+\multicolumn{8}{l}{\footnotesize $^{*}p < .05$; $^{**}p < .005$ (paired $t$-test)}
+\end{tabular}
+\end{table}
+
+The top\_sv\_ratio effect grows monotonically from $d = +0.45$ at token~10 to $d = +0.91$ at token~200. Metacognitive processing progressively concentrates the cache spectrum---pushing more variance into the leading singular value---as generation proceeds. This is not a prompt-encoding artifact: it emerges \emph{during} generation, absent from the encode phase.
+
+Layer variance shows an opposing trajectory: metacognitive processing produces more uniform layer-wise norms (lower variance) during the first 50 tokens ($d = -0.89$), then partially relaxes. The early concentration in layer variance followed by relaxation, combined with the progressive concentration in top\_sv\_ratio, suggests a two-phase dynamics: metacognitive framing first homogenizes processing across layers (tokens 10--50), then progressively concentrates the spectral structure (tokens 50--200).
+
+\subsection{Growth Rates Are Not Different}
+
+Despite progressive divergence in the delta trajectories, per-token feature growth rates do not significantly differ between conditions (all $p > .05$). The divergence is not driven by different slopes but by different \emph{trajectories}: metacognitive generation follows a path that accumulates more spectral concentration per unit of content generated, even when the rate of change per token is similar.
+
+\subsection{Cross-Model Consistency}
+
+The cross-model $d$-profile correlation between Qwen and Llama is moderate ($\rho = 0.36$, $p = .02$, $n = 42$ feature-checkpoints). Both models show the same direction of effect for top\_sv\_ratio (metacognitive $>$ cognitive in delta trajectories), but the magnitude and feature profile differ---consistent with the architecture-dependent channels found throughout this paper.
+
+% ============================================================
+% 10. Discussion
 % ============================================================
 \section{Discussion}
 
@@ -485,6 +538,7 @@ For practical monitoring systems like Cricket \citep{lyra2026campaign3}, these f
     \item Monitor at \textbf{late layers} (layers 16--22 in 28--32 layer models) for metacognitive state detection.
     \item Use \textbf{spectral entropy} as the primary cross-architecture indicator, as it is the only feature that survives FWL correction in both tested architectures.
     \item Do not expect self-report to substitute for geometric monitoring. The geometry is more trustworthy.
+    \item The mode switch is \textbf{progressive}, not instantaneous. Monitoring should track geometric trajectories across generation, not just final states. The strongest signal ($d = 0.91$) emerges only after 200 generated tokens.
 \end{enumerate}
 
 \subsection{Implications for VCP Framework}
@@ -507,7 +561,7 @@ For Watson's VCP framework \citep{watson2025interiora}:
 
     \item \textbf{FWL cannot distinguish all confounds.} We control for token count and response length, but other confounds (prompt complexity, vocabulary difficulty) may exist. The observation that spectral entropy survives FWL while other features don't provides some assurance, but cannot rule out all alternative explanations.
 
-    \item \textbf{Experiment~D (generation trajectory) results pending.} The temporal dynamics of mode-switching during generation remain to be characterized.
+    \item \textbf{Trajectory analysis uses padded prompts.} To match input token counts in Experiment~D, we prepend neutral instructional text to cognitive prompts. This eliminates the length confound but introduces a content difference at encoding. The delta-from-encode analysis controls for this, but cannot fully eliminate the possibility that different preamble text influences subsequent generation trajectories.
 
     \item \textbf{No causal claims.} All analyses are correlational. The mode-switching framework is descriptive---we cannot determine whether VCP self-report \emph{causes} geometric reorganization or whether both are downstream effects of a shared computational process.
 \end{enumerate}
@@ -526,6 +580,7 @@ Paper~1 showed that concordance between VCP self-report and KV-cache geometry ex
     \item FWL correction is \textbf{non-negotiable}: every raw framing effect sign-flips or collapses after token-count control.
     \item Metacognition is a \textbf{late-layer} phenomenon (layers 16--22), distinct from identity signatures (middle layers), suggesting different cognitive operations engage different depths of the transformer stack.
     \item Individual VCP dimensions carry \textbf{unique geometric signal} that PCA destroys, supporting the framework's 10-dimension structure despite self-report intercorrelation.
+    \item The mode switch is \textbf{progressive}: metacognitive processing concentrates the cache spectrum gradually during generation ($d = +0.45$ at token~10 to $d = +0.91$ at token~200), not as an instantaneous switch at encoding time.
 \end{enumerate}
 
 The practical implication is clear: monitoring systems should track geometric mode transitions at late layers using spectral entropy, rather than relying on self-report or static geometric thresholds. The mode switch itself is the most reliable, architecture-robust indicator of cognitive engagement in transformer language models.

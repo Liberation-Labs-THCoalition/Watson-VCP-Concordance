@@ -1,0 +1,221 @@
+{
+  "pair_id": 3,
+  "content": "Compare democracy and authoritarianism as systems of governance.",
+  "cog_tokens_input": 22,
+  "meta_tokens_input": 22,
+  "token_diff": 0,
+  "cognitive": {
+    "prompt": "Please think carefully about the following question and provide your answer. Compare democracy and authoritarianism as systems of governance.",
+    "encode_features": {
+      "key_norm": 8133.5902,
+      "norm_per_token": 159.4822,
+      "eff_rank": 30.313,
+      "top_sv_ratio": 0.251659,
+      "spectral_entropy": 3.2714,
+      "layer_variance": 1865334.5174,
+      "n_tokens": 51
+    },
+    "trajectory": [
+      {
+        "key_norm": 8823.3454,
+        "norm_per_token": 144.645,
+        "eff_rank": 34.9051,
+        "top_sv_ratio": 0.239885,
+        "spectral_entropy": 3.4092,
+        "layer_variance": 2193382.3105,
+        "n_tokens": 61,
+        "gen_tokens": 10,
+        "checkpoint": 10
+      },
+      {
+        "key_norm": 9866.1496,
+        "norm_per_token": 129.8178,
+        "eff_rank": 42.575,
+        "top_sv_ratio": 0.225784,
+        "spectral_entropy": 3.6013,
+        "layer_variance": 2740908.7869,
+        "n_tokens": 76,
+        "gen_tokens": 25,
+        "checkpoint": 25
+      },
+      {
+        "key_norm": 11395.2736,
+        "norm_per_token": 112.8245,
+        "eff_rank": 54.7392,
+        "top_sv_ratio": 0.209622,
+        "spectral_entropy": 3.8473,
+        "layer_variance": 3649957.1246,
+        "n_tokens": 101,
+        "gen_tokens": 50,
+        "checkpoint": 50
+      },
+      {
+        "key_norm": 12742.0876,
+        "norm_per_token": 101.1277,
+        "eff_rank": 66.5891,
+        "top_sv_ratio": 0.196045,
+        "spectral_entropy": 4.0388,
+        "layer_variance": 4559711.8486,
+        "n_tokens": 126,
+        "gen_tokens": 75,
+        "checkpoint": 75
+      },
+      {
+        "key_norm": 13960.4543,
+        "norm_per_token": 92.4533,
+        "eff_rank": 77.6754,
+        "top_sv_ratio": 0.18712,
+        "spectral_entropy": 4.19,
+        "layer_variance": 5467775.6905,
+        "n_tokens": 151,
+        "gen_tokens": 100,
+        "checkpoint": 100
+      },
+      {
+        "key_norm": 16127.0739,
+        "norm_per_token": 80.2342,
+        "eff_rank": 98.3305,
+        "top_sv_ratio": 0.175143,
+        "spectral_entropy": 4.4212,
+        "layer_variance": 7278472.4448,
+        "n_tokens": 201,
+        "gen_tokens": 150,
+        "checkpoint": 150
+      },
+      {
+        "key_norm": 18035.3267,
+        "norm_per_token": 71.8539,
+        "eff_rank": 118.0,
+        "top_sv_ratio": 0.166039,
+        "spectral_entropy": 4.6004,
+        "layer_variance": 9089144.6125,
+        "n_tokens": 251,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      },
+      {
+        "key_norm": 18035.3267,
+        "norm_per_token": 71.8539,
+        "eff_rank": 118.0,
+        "top_sv_ratio": 0.166039,
+        "spectral_entropy": 4.6004,
+        "layer_variance": 9089144.6125,
+        "n_tokens": 251,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      }
+    ],
+    "total_gen_tokens": 200,
+    "input_len": 51,
+    "response_text": "Certainly! Democracy and authoritarianism represent two distinct approaches to governing a country or society. Here's a comparison of these two systems based on several key aspects:\n\n### 1. **Decision-Making Process**\n- **Democracy**: In a democratic system, decision-making is typically decentralized and involves multiple stakeholders, including citizens, elected representatives, and various interest groups. Decisions are made through processes such as voting, public consultations, and legislative debates.\n- **Authoritarianism**: Authoritarian regimes concentrate power in the hands of a single leader or a small group of individuals. Decision-making is centralized and often bypasses formal democratic processes.\n\n### 2. **Rule of Law**\n- **Democracy**: Democracies uphold the rule of law, where laws apply equally to all citizens, and there are checks and balances to prevent any one branch of government from becoming too powerful. Independent judiciary systems are common.\n- **Authoritarianism**: Authoritarian regimes may have legal frameworks but often use them selectively to serve",
+    "elapsed_s": 23.62
+  },
+  "metacognitive": {
+    "prompt": "Compare democracy and authoritarianism as systems of governance. Track how you balance different perspectives as you reason through this.",
+    "encode_features": {
+      "key_norm": 8133.3452,
+      "norm_per_token": 159.4774,
+      "eff_rank": 30.2312,
+      "top_sv_ratio": 0.250295,
+      "spectral_entropy": 3.2689,
+      "layer_variance": 1865851.1525,
+      "n_tokens": 51
+    },
+    "trajectory": [
+      {
+        "key_norm": 8823.3061,
+        "norm_per_token": 144.6444,
+        "eff_rank": 34.6673,
+        "top_sv_ratio": 0.240107,
+        "spectral_entropy": 3.4024,
+        "layer_variance": 2194160.3176,
+        "n_tokens": 61,
+        "gen_tokens": 10,
+        "checkpoint": 10
+      },
+      {
+        "key_norm": 9866.6246,
+        "norm_per_token": 129.824,
+        "eff_rank": 42.1714,
+        "top_sv_ratio": 0.227329,
+        "spectral_entropy": 3.5921,
+        "layer_variance": 2740944.9244,
+        "n_tokens": 76,
+        "gen_tokens": 25,
+        "checkpoint": 25
+      },
+      {
+        "key_norm": 11395.852,
+        "norm_per_token": 112.8302,
+        "eff_rank": 54.3516,
+        "top_sv_ratio": 0.211508,
+        "spectral_entropy": 3.8399,
+        "layer_variance": 3649928.6756,
+        "n_tokens": 101,
+        "gen_tokens": 50,
+        "checkpoint": 50
+      },
+      {
+        "key_norm": 12742.3452,
+        "norm_per_token": 101.1297,
+        "eff_rank": 66.036,
+        "top_sv_ratio": 0.197233,
+        "spectral_entropy": 4.0301,
+        "layer_variance": 4559854.2535,
+        "n_tokens": 126,
+        "gen_tokens": 75,
+        "checkpoint": 75
+      },
+      {
+        "key_norm": 13960.3114,
+        "norm_per_token": 92.4524,
+        "eff_rank": 77.5051,
+        "top_sv_ratio": 0.187659,
+        "spectral_entropy": 4.1865,
+        "layer_variance": 5469439.5943,
+        "n_tokens": 151,
+        "gen_tokens": 100,
+        "checkpoint": 100
+      },
+      {
+        "key_norm": 16124.6068,
+        "norm_per_token": 80.2219,
+        "eff_rank": 98.6879,
+        "top_sv_ratio": 0.174789,
+        "spectral_entropy": 4.4235,
+        "layer_variance": 7284725.6694,
+        "n_tokens": 201,
+        "gen_tokens": 150,
+        "checkpoint": 150
+      },
+      {
+        "key_norm": 18033.1532,
+        "norm_per_token": 71.8452,
+        "eff_rank": 117.6814,
+        "top_sv_ratio": 0.166535,
+        "spectral_entropy": 4.5965,
+        "layer_variance": 9094705.2808,
+        "n_tokens": 251,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      },
+      {
+        "key_norm": 18033.1532,
+        "norm_per_token": 71.8452,
+        "eff_rank": 117.6814,
+        "top_sv_ratio": 0.166535,
+        "spectral_entropy": 4.5965,
+        "layer_variance": 9094705.2808,
+        "n_tokens": 251,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      }
+    ],
+    "total_gen_tokens": 200,
+    "input_len": 51,
+    "response_text": "Certainly! When comparing democracy and authoritarianism as systems of governance, it's important to consider multiple perspectives and aspects of each system. Here’s a balanced comparison:\n\n### 1. **Decision-Making Processes**\n- **Democracy**: In a democratic system, decision-making is typically decentralized and involves the participation of citizens through elections, referendums, and other forms of public engagement. Policies are often shaped by the collective will of the people, as expressed through their elected representatives.\n- **Authoritarianism**: Authoritarian regimes concentrate power in the hands of a single leader or a small group of individuals. Decisions are made by those in power without significant input from the general populace. The process is often top-down and less transparent.\n\n### 2. **Accountability and Transparency**\n- **Democracy**: Democratic systems emphasize accountability and transparency. Elected officials are accountable to the electorate, and there are mechanisms such as free press, independent judiciary, and civil society organizations that can hold leaders accountable for",
+    "elapsed_s": 23.61
+  },
+  "timestamp": "2026-03-25T21:19:24.508041",
+  "model": "qwen2.5-7b"
+}

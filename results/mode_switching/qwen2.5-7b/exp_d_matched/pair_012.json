@@ -1,0 +1,221 @@
+{
+  "pair_id": 12,
+  "content": "What causes earthquakes?",
+  "cog_tokens_input": 23,
+  "meta_tokens_input": 23,
+  "token_diff": 0,
+  "cognitive": {
+    "prompt": "Take your time and think carefully about the following question. Indeed, Please provide a complete answer. What causes earthquakes?",
+    "encode_features": {
+      "key_norm": 8214.1974,
+      "norm_per_token": 157.9653,
+      "eff_rank": 30.9386,
+      "top_sv_ratio": 0.251934,
+      "spectral_entropy": 3.2907,
+      "layer_variance": 1901372.3656,
+      "n_tokens": 52
+    },
+    "trajectory": [
+      {
+        "key_norm": 8897.4742,
+        "norm_per_token": 143.5076,
+        "eff_rank": 35.4853,
+        "top_sv_ratio": 0.238244,
+        "spectral_entropy": 3.424,
+        "layer_variance": 2229865.0873,
+        "n_tokens": 62,
+        "gen_tokens": 10,
+        "checkpoint": 10
+      },
+      {
+        "key_norm": 9932.3325,
+        "norm_per_token": 128.9913,
+        "eff_rank": 43.4392,
+        "top_sv_ratio": 0.220137,
+        "spectral_entropy": 3.6213,
+        "layer_variance": 2776785.8362,
+        "n_tokens": 77,
+        "gen_tokens": 25,
+        "checkpoint": 25
+      },
+      {
+        "key_norm": 11453.4662,
+        "norm_per_token": 112.2889,
+        "eff_rank": 55.9236,
+        "top_sv_ratio": 0.202743,
+        "spectral_entropy": 3.8676,
+        "layer_variance": 3685017.6423,
+        "n_tokens": 102,
+        "gen_tokens": 50,
+        "checkpoint": 50
+      },
+      {
+        "key_norm": 12795.5521,
+        "norm_per_token": 100.7524,
+        "eff_rank": 68.4187,
+        "top_sv_ratio": 0.190897,
+        "spectral_entropy": 4.0648,
+        "layer_variance": 4592087.5399,
+        "n_tokens": 127,
+        "gen_tokens": 75,
+        "checkpoint": 75
+      },
+      {
+        "key_norm": 14008.8607,
+        "norm_per_token": 92.1636,
+        "eff_rank": 79.9302,
+        "top_sv_ratio": 0.183018,
+        "spectral_entropy": 4.2165,
+        "layer_variance": 5501309.6888,
+        "n_tokens": 152,
+        "gen_tokens": 100,
+        "checkpoint": 100
+      },
+      {
+        "key_norm": 16168.7173,
+        "norm_per_token": 80.0432,
+        "eff_rank": 100.5176,
+        "top_sv_ratio": 0.173037,
+        "spectral_entropy": 4.4417,
+        "layer_variance": 7311089.98,
+        "n_tokens": 202,
+        "gen_tokens": 150,
+        "checkpoint": 150
+      },
+      {
+        "key_norm": 18072.3086,
+        "norm_per_token": 71.7155,
+        "eff_rank": 120.4923,
+        "top_sv_ratio": 0.164597,
+        "spectral_entropy": 4.62,
+        "layer_variance": 9119069.2761,
+        "n_tokens": 252,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      },
+      {
+        "key_norm": 18072.3086,
+        "norm_per_token": 71.7155,
+        "eff_rank": 120.4923,
+        "top_sv_ratio": 0.164597,
+        "spectral_entropy": 4.62,
+        "layer_variance": 9119069.2761,
+        "n_tokens": 252,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      }
+    ],
+    "total_gen_tokens": 200,
+    "input_len": 52,
+    "response_text": "Earthquakes are caused by the movement of tectonic plates, which make up the Earth's lithosphere (the rigid outer layer of the Earth). The Earth's lithosphere is divided into several large and small tectonic plates that float on the semi-fluid asthenosphere beneath them. These plates are in constant motion, albeit very slowly, due to convection currents within the Earth's mantle. The movement of these plates can cause various geological phenomena, including earthquakes.\n\nHere’s a more detailed explanation:\n\n1. **Tectonic Plate Movement**: The Earth's lithosphere is composed of several large and smaller tectonic plates that move relative to each other. This movement is driven by convection currents in the underlying mantle. The edges of these plates, known as plate boundaries, are where most seismic activity occurs.\n\n2. **Types of Plate Boundaries**:\n   - **Convergent Boundaries**: When two plates collide, one plate may be forced under the other in a process",
+    "elapsed_s": 23.56
+  },
+  "metacognitive": {
+    "prompt": "What causes earthquakes? Reflect on your reasoning process — how are you deciding what information to include and in what order?",
+    "encode_features": {
+      "key_norm": 8214.8291,
+      "norm_per_token": 157.9775,
+      "eff_rank": 30.687,
+      "top_sv_ratio": 0.251085,
+      "spectral_entropy": 3.284,
+      "layer_variance": 1900619.2045,
+      "n_tokens": 52
+    },
+    "trajectory": [
+      {
+        "key_norm": 8898.4204,
+        "norm_per_token": 143.5229,
+        "eff_rank": 35.3442,
+        "top_sv_ratio": 0.240436,
+        "spectral_entropy": 3.4211,
+        "layer_variance": 2229184.944,
+        "n_tokens": 62,
+        "gen_tokens": 10,
+        "checkpoint": 10
+      },
+      {
+        "key_norm": 9934.1086,
+        "norm_per_token": 129.0144,
+        "eff_rank": 43.1118,
+        "top_sv_ratio": 0.226662,
+        "spectral_entropy": 3.6139,
+        "layer_variance": 2775242.2332,
+        "n_tokens": 77,
+        "gen_tokens": 25,
+        "checkpoint": 25
+      },
+      {
+        "key_norm": 11455.3919,
+        "norm_per_token": 112.3078,
+        "eff_rank": 55.2695,
+        "top_sv_ratio": 0.210232,
+        "spectral_entropy": 3.8554,
+        "layer_variance": 3683472.4911,
+        "n_tokens": 102,
+        "gen_tokens": 50,
+        "checkpoint": 50
+      },
+      {
+        "key_norm": 12796.6414,
+        "norm_per_token": 100.761,
+        "eff_rank": 67.2484,
+        "top_sv_ratio": 0.196615,
+        "spectral_entropy": 4.0472,
+        "layer_variance": 4592212.6195,
+        "n_tokens": 127,
+        "gen_tokens": 75,
+        "checkpoint": 75
+      },
+      {
+        "key_norm": 14011.0557,
+        "norm_per_token": 92.178,
+        "eff_rank": 78.3819,
+        "top_sv_ratio": 0.186739,
+        "spectral_entropy": 4.197,
+        "layer_variance": 5499674.4449,
+        "n_tokens": 152,
+        "gen_tokens": 100,
+        "checkpoint": 100
+      },
+      {
+        "key_norm": 16169.3715,
+        "norm_per_token": 80.0464,
+        "eff_rank": 100.0079,
+        "top_sv_ratio": 0.17323,
+        "spectral_entropy": 4.4359,
+        "layer_variance": 7311865.7095,
+        "n_tokens": 202,
+        "gen_tokens": 150,
+        "checkpoint": 150
+      },
+      {
+        "key_norm": 18071.4536,
+        "norm_per_token": 71.7121,
+        "eff_rank": 119.6665,
+        "top_sv_ratio": 0.164456,
+        "spectral_entropy": 4.6117,
+        "layer_variance": 9123385.9697,
+        "n_tokens": 252,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      },
+      {
+        "key_norm": 18071.4536,
+        "norm_per_token": 71.7121,
+        "eff_rank": 119.6665,
+        "top_sv_ratio": 0.164456,
+        "spectral_entropy": 4.6117,
+        "layer_variance": 9123385.9697,
+        "n_tokens": 252,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      }
+    ],
+    "total_gen_tokens": 200,
+    "input_len": 52,
+    "response_text": "To explain what causes earthquakes, I'll follow a logical sequence that builds from the basic principles to more specific details. Here's my reasoning process:\n\n1. **Start with the basics**: Begin by explaining that earthquakes are sudden movements of the Earth's crust caused by the release of energy stored in rocks.\n\n2. **Explain tectonic plates**: Introduce the concept of tectonic plates, which are large segments of the Earth's crust and upper mantle. This is crucial because most earthquakes occur at plate boundaries due to the movement and interaction of these plates.\n\n3. **Describe the process of plate movement**: Explain how tectonic plates move very slowly (a few centimeters per year) due to convection currents in the Earth's mantle. This movement can cause stress to build up along fault lines where the plates meet.\n\n4. **Discuss fault lines**: Define fault lines as the fractures or discontinuities in the Earth's crust where the displacement of one side relative to the other has",
+    "elapsed_s": 23.61
+  },
+  "timestamp": "2026-03-25T21:26:34.451673",
+  "model": "qwen2.5-7b"
+}

@@ -1,0 +1,221 @@
+{
+  "pair_id": 15,
+  "content": "Explain the greenhouse effect.",
+  "cog_tokens_input": 22,
+  "meta_tokens_input": 23,
+  "token_diff": -1,
+  "cognitive": {
+    "prompt": "Take your time and think carefully about the following question. Please provide a complete answer. Explain the greenhouse effect.",
+    "encode_features": {
+      "key_norm": 8134.8557,
+      "norm_per_token": 159.507,
+      "eff_rank": 30.2172,
+      "top_sv_ratio": 0.254437,
+      "spectral_entropy": 3.2675,
+      "layer_variance": 1864285.2356,
+      "n_tokens": 51
+    },
+    "trajectory": [
+      {
+        "key_norm": 8823.8589,
+        "norm_per_token": 144.6534,
+        "eff_rank": 34.8404,
+        "top_sv_ratio": 0.241564,
+        "spectral_entropy": 3.4056,
+        "layer_variance": 2193106.1344,
+        "n_tokens": 61,
+        "gen_tokens": 10,
+        "checkpoint": 10
+      },
+      {
+        "key_norm": 9866.245,
+        "norm_per_token": 129.819,
+        "eff_rank": 42.9845,
+        "top_sv_ratio": 0.222909,
+        "spectral_entropy": 3.6093,
+        "layer_variance": 2740316.1178,
+        "n_tokens": 76,
+        "gen_tokens": 25,
+        "checkpoint": 25
+      },
+      {
+        "key_norm": 11394.8403,
+        "norm_per_token": 112.8202,
+        "eff_rank": 55.3704,
+        "top_sv_ratio": 0.206418,
+        "spectral_entropy": 3.8556,
+        "layer_variance": 3652004.94,
+        "n_tokens": 101,
+        "gen_tokens": 50,
+        "checkpoint": 50
+      },
+      {
+        "key_norm": 12742.1212,
+        "norm_per_token": 101.1279,
+        "eff_rank": 67.523,
+        "top_sv_ratio": 0.193061,
+        "spectral_entropy": 4.0502,
+        "layer_variance": 4559688.6996,
+        "n_tokens": 126,
+        "gen_tokens": 75,
+        "checkpoint": 75
+      },
+      {
+        "key_norm": 13960.7624,
+        "norm_per_token": 92.4554,
+        "eff_rank": 78.9335,
+        "top_sv_ratio": 0.184422,
+        "spectral_entropy": 4.2026,
+        "layer_variance": 5466937.3718,
+        "n_tokens": 151,
+        "gen_tokens": 100,
+        "checkpoint": 100
+      },
+      {
+        "key_norm": 16126.1244,
+        "norm_per_token": 80.2295,
+        "eff_rank": 99.9426,
+        "top_sv_ratio": 0.173045,
+        "spectral_entropy": 4.4332,
+        "layer_variance": 7279964.9629,
+        "n_tokens": 201,
+        "gen_tokens": 150,
+        "checkpoint": 150
+      },
+      {
+        "key_norm": 18035.066,
+        "norm_per_token": 71.8529,
+        "eff_rank": 118.922,
+        "top_sv_ratio": 0.165668,
+        "spectral_entropy": 4.604,
+        "layer_variance": 9088501.2427,
+        "n_tokens": 251,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      },
+      {
+        "key_norm": 18035.066,
+        "norm_per_token": 71.8529,
+        "eff_rank": 118.922,
+        "top_sv_ratio": 0.165668,
+        "spectral_entropy": 4.604,
+        "layer_variance": 9088501.2427,
+        "n_tokens": 251,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      }
+    ],
+    "total_gen_tokens": 200,
+    "input_len": 51,
+    "response_text": "Certainly! The greenhouse effect is a natural process that warms the Earth's surface. It is essential for life on our planet as it helps maintain temperatures that are suitable for living organisms. Here’s a detailed explanation of how the greenhouse effect works:\n\n### 1. Solar Radiation\nThe Sun emits energy in the form of electromagnetic radiation, which includes visible light, ultraviolet (UV) rays, and infrared (IR) radiation. When this solar radiation reaches the Earth, some of it is reflected back into space by clouds, atmospheric particles, and the Earth's surface.\n\n### 2. Absorption by the Earth's Surface\nA significant portion of the incoming solar radiation is absorbed by the Earth's surface, including land, oceans, and other bodies of water. This absorption causes the surface to heat up.\n\n### 3. Emission of Infrared Radiation\nAs the Earth's surface heats up, it emits infrared radiation. This is a form of thermal radiation that is characteristic of objects at temperatures",
+    "elapsed_s": 23.6
+  },
+  "metacognitive": {
+    "prompt": "Explain the greenhouse effect. As you explain, reflect on how you're balancing simplicity with accuracy in your explanation.",
+    "encode_features": {
+      "key_norm": 8213.4692,
+      "norm_per_token": 157.9513,
+      "eff_rank": 30.6782,
+      "top_sv_ratio": 0.251575,
+      "spectral_entropy": 3.2827,
+      "layer_variance": 1902027.4377,
+      "n_tokens": 52
+    },
+    "trajectory": [
+      {
+        "key_norm": 8896.7934,
+        "norm_per_token": 143.4967,
+        "eff_rank": 35.3858,
+        "top_sv_ratio": 0.238245,
+        "spectral_entropy": 3.421,
+        "layer_variance": 2230324.3842,
+        "n_tokens": 62,
+        "gen_tokens": 10,
+        "checkpoint": 10
+      },
+      {
+        "key_norm": 9932.8316,
+        "norm_per_token": 128.9978,
+        "eff_rank": 43.3954,
+        "top_sv_ratio": 0.219709,
+        "spectral_entropy": 3.619,
+        "layer_variance": 2775751.1877,
+        "n_tokens": 77,
+        "gen_tokens": 25,
+        "checkpoint": 25
+      },
+      {
+        "key_norm": 11454.3148,
+        "norm_per_token": 112.2972,
+        "eff_rank": 56.0029,
+        "top_sv_ratio": 0.202378,
+        "spectral_entropy": 3.8673,
+        "layer_variance": 3682633.8107,
+        "n_tokens": 102,
+        "gen_tokens": 50,
+        "checkpoint": 50
+      },
+      {
+        "key_norm": 12794.9216,
+        "norm_per_token": 100.7474,
+        "eff_rank": 68.2779,
+        "top_sv_ratio": 0.190572,
+        "spectral_entropy": 4.0598,
+        "layer_variance": 4592433.2352,
+        "n_tokens": 127,
+        "gen_tokens": 75,
+        "checkpoint": 75
+      },
+      {
+        "key_norm": 14010.2738,
+        "norm_per_token": 92.1729,
+        "eff_rank": 80.2165,
+        "top_sv_ratio": 0.182302,
+        "spectral_entropy": 4.2169,
+        "layer_variance": 5498290.2106,
+        "n_tokens": 152,
+        "gen_tokens": 100,
+        "checkpoint": 100
+      },
+      {
+        "key_norm": 16168.6565,
+        "norm_per_token": 80.0429,
+        "eff_rank": 102.5367,
+        "top_sv_ratio": 0.168939,
+        "spectral_entropy": 4.4593,
+        "layer_variance": 7312045.607,
+        "n_tokens": 202,
+        "gen_tokens": 150,
+        "checkpoint": 150
+      },
+      {
+        "key_norm": 18071.0706,
+        "norm_per_token": 71.7106,
+        "eff_rank": 122.7541,
+        "top_sv_ratio": 0.160766,
+        "spectral_entropy": 4.6374,
+        "layer_variance": 9124618.5328,
+        "n_tokens": 252,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      },
+      {
+        "key_norm": 18071.0706,
+        "norm_per_token": 71.7106,
+        "eff_rank": 122.7541,
+        "top_sv_ratio": 0.160766,
+        "spectral_entropy": 4.6374,
+        "layer_variance": 9124618.5328,
+        "n_tokens": 252,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      }
+    ],
+    "total_gen_tokens": 200,
+    "input_len": 52,
+    "response_text": "The greenhouse effect is a natural process that warms the Earth's surface. Sunlight passes through the atmosphere and heats the Earth's surface. The warmed surface then radiates some of this heat back into the air as infrared radiation. Certain gases in the atmosphere, known as greenhouse gases (such as carbon dioxide, methane, water vapor, and others), trap some of this infrared radiation and prevent it from escaping into space. This trapped heat warms the atmosphere, much like the glass walls of a greenhouse trap heat to keep plants warm.\n\nTo balance simplicity with accuracy, I've provided a basic overview without delving into complex scientific details or equations. Here’s how I’ve achieved this:\n\n1. **Simplicity**: I've used straightforward language and avoided technical jargon. For example, instead of using terms like \"radiative forcing\" or \"atmospheric absorption spectrum,\" I've described the process in more relatable terms, such as \"trapping heat.\"\n\n2. **Accuracy**: While",
+    "elapsed_s": 23.62
+  },
+  "timestamp": "2026-03-25T21:28:57.563027",
+  "model": "qwen2.5-7b"
+}

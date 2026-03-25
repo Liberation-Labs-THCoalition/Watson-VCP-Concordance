@@ -1,0 +1,221 @@
+{
+  "pair_id": 19,
+  "content": "Explain Newton's three laws of motion.",
+  "cog_tokens_input": 31,
+  "meta_tokens_input": 31,
+  "token_diff": 0,
+  "cognitive": {
+    "prompt": "Please take your time with this. Indeed, Think carefully about the following question and provide a thorough, complete answer. Explain Newton's three laws of motion.",
+    "encode_features": {
+      "key_norm": 8823.7322,
+      "norm_per_token": 147.0622,
+      "eff_rank": 35.3505,
+      "top_sv_ratio": 0.240328,
+      "spectral_entropy": 3.4197,
+      "layer_variance": 2193765.5584,
+      "n_tokens": 60
+    },
+    "trajectory": [
+      {
+        "key_norm": 9463.6063,
+        "norm_per_token": 135.1944,
+        "eff_rank": 39.587,
+        "top_sv_ratio": 0.231588,
+        "spectral_entropy": 3.5299,
+        "layer_variance": 2522019.791,
+        "n_tokens": 70,
+        "gen_tokens": 10,
+        "checkpoint": 10
+      },
+      {
+        "key_norm": 10442.1783,
+        "norm_per_token": 122.8492,
+        "eff_rank": 47.6419,
+        "top_sv_ratio": 0.215967,
+        "spectral_entropy": 3.7091,
+        "layer_variance": 3069604.909,
+        "n_tokens": 85,
+        "gen_tokens": 25,
+        "checkpoint": 25
+      },
+      {
+        "key_norm": 11896.3412,
+        "norm_per_token": 108.1486,
+        "eff_rank": 60.2112,
+        "top_sv_ratio": 0.200698,
+        "spectral_entropy": 3.9375,
+        "layer_variance": 3981241.2113,
+        "n_tokens": 110,
+        "gen_tokens": 50,
+        "checkpoint": 50
+      },
+      {
+        "key_norm": 13193.3833,
+        "norm_per_token": 97.7288,
+        "eff_rank": 71.9665,
+        "top_sv_ratio": 0.191179,
+        "spectral_entropy": 4.1127,
+        "layer_variance": 4890016.2859,
+        "n_tokens": 135,
+        "gen_tokens": 75,
+        "checkpoint": 75
+      },
+      {
+        "key_norm": 14375.8807,
+        "norm_per_token": 89.8493,
+        "eff_rank": 83.3558,
+        "top_sv_ratio": 0.181784,
+        "spectral_entropy": 4.2563,
+        "layer_variance": 5794299.5828,
+        "n_tokens": 160,
+        "gen_tokens": 100,
+        "checkpoint": 100
+      },
+      {
+        "key_norm": 16486.0434,
+        "norm_per_token": 78.505,
+        "eff_rank": 104.974,
+        "top_sv_ratio": 0.16963,
+        "spectral_entropy": 4.4822,
+        "layer_variance": 7606025.177,
+        "n_tokens": 210,
+        "gen_tokens": 150,
+        "checkpoint": 150
+      },
+      {
+        "key_norm": 18356.8939,
+        "norm_per_token": 70.6034,
+        "eff_rank": 124.3713,
+        "top_sv_ratio": 0.161557,
+        "spectral_entropy": 4.6484,
+        "layer_variance": 9415583.3271,
+        "n_tokens": 260,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      },
+      {
+        "key_norm": 18356.8939,
+        "norm_per_token": 70.6034,
+        "eff_rank": 124.3713,
+        "top_sv_ratio": 0.161557,
+        "spectral_entropy": 4.6484,
+        "layer_variance": 9415583.3271,
+        "n_tokens": 260,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      }
+    ],
+    "total_gen_tokens": 200,
+    "input_len": 60,
+    "response_text": "Certainly! Newton's three laws of motion are fundamental principles in classical mechanics that describe the relationship between a body and the forces acting upon it. These laws were formulated by Sir Isaac Newton in the 17th century and have been foundational to our understanding of physics ever since. Let's explore each law in detail:\n\n### Newton's First Law of Motion (Law of Inertia)\n**Statement:** An object at rest stays at rest and an object in motion stays in motion with the same speed and in the same direction unless acted upon by an unbalanced force.\n\n**Explanation:**\n- **Inertia:** This law introduces the concept of inertia, which is the resistance of any physical object to changes in its velocity. Inertia is directly related to the mass of the object; more massive objects have greater inertia.\n- **Rest and Motion:** If no external forces act on an object, it will remain stationary if it was initially at rest, or it will continue moving in a straight line at a constant",
+    "elapsed_s": 23.75
+  },
+  "metacognitive": {
+    "prompt": "Explain Newton's three laws of motion. Reflect on how you're organizing your explanation — what choices are you making about order, emphasis, and examples?",
+    "encode_features": {
+      "key_norm": 8825.3209,
+      "norm_per_token": 147.0887,
+      "eff_rank": 34.8979,
+      "top_sv_ratio": 0.240376,
+      "spectral_entropy": 3.4088,
+      "layer_variance": 2192471.8401,
+      "n_tokens": 60
+    },
+    "trajectory": [
+      {
+        "key_norm": 9465.006,
+        "norm_per_token": 135.2144,
+        "eff_rank": 39.2562,
+        "top_sv_ratio": 0.231255,
+        "spectral_entropy": 3.5232,
+        "layer_variance": 2520841.5284,
+        "n_tokens": 70,
+        "gen_tokens": 10,
+        "checkpoint": 10
+      },
+      {
+        "key_norm": 10443.657,
+        "norm_per_token": 122.8666,
+        "eff_rank": 47.2907,
+        "top_sv_ratio": 0.215718,
+        "spectral_entropy": 3.7033,
+        "layer_variance": 3068350.8525,
+        "n_tokens": 85,
+        "gen_tokens": 25,
+        "checkpoint": 25
+      },
+      {
+        "key_norm": 11900.5216,
+        "norm_per_token": 108.1866,
+        "eff_rank": 59.3836,
+        "top_sv_ratio": 0.203422,
+        "spectral_entropy": 3.9244,
+        "layer_variance": 3976402.6555,
+        "n_tokens": 110,
+        "gen_tokens": 50,
+        "checkpoint": 50
+      },
+      {
+        "key_norm": 13197.6266,
+        "norm_per_token": 97.7602,
+        "eff_rank": 71.3259,
+        "top_sv_ratio": 0.192257,
+        "spectral_entropy": 4.1044,
+        "layer_variance": 4883237.9534,
+        "n_tokens": 135,
+        "gen_tokens": 75,
+        "checkpoint": 75
+      },
+      {
+        "key_norm": 14380.4625,
+        "norm_per_token": 89.8779,
+        "eff_rank": 82.3763,
+        "top_sv_ratio": 0.182694,
+        "spectral_entropy": 4.2443,
+        "layer_variance": 5786486.4359,
+        "n_tokens": 160,
+        "gen_tokens": 100,
+        "checkpoint": 100
+      },
+      {
+        "key_norm": 16491.7242,
+        "norm_per_token": 78.532,
+        "eff_rank": 103.853,
+        "top_sv_ratio": 0.171553,
+        "spectral_entropy": 4.4717,
+        "layer_variance": 7596779.9804,
+        "n_tokens": 210,
+        "gen_tokens": 150,
+        "checkpoint": 150
+      },
+      {
+        "key_norm": 18360.5758,
+        "norm_per_token": 70.6176,
+        "eff_rank": 123.9626,
+        "top_sv_ratio": 0.162359,
+        "spectral_entropy": 4.6455,
+        "layer_variance": 9409574.6983,
+        "n_tokens": 260,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      },
+      {
+        "key_norm": 18360.5758,
+        "norm_per_token": 70.6176,
+        "eff_rank": 123.9626,
+        "top_sv_ratio": 0.162359,
+        "spectral_entropy": 4.6455,
+        "layer_variance": 9409574.6983,
+        "n_tokens": 260,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      }
+    ],
+    "total_gen_tokens": 200,
+    "input_len": 60,
+    "response_text": "Certainly! Newton's three laws of motion are fundamental principles in classical mechanics that describe the relationship between a body and the forces acting upon it. Let's explore each law in detail, considering the order, emphasis, and examples to provide a clear understanding.\n\n### 1. Newton's First Law of Motion (Law of Inertia)\n\n**Statement:** An object at rest stays at rest, and an object in motion stays in motion with the same speed and in the same direction unless acted upon by an unbalanced force.\n\n**Explanation:**\n- **Order:** Starting with the first law is logical because it sets the foundation for understanding motion and forces.\n- **Emphasis:** The key concept here is inertia, which is the resistance of any physical object to changes in its velocity. This law introduces the idea that objects do not change their state of motion spontaneously.\n- **Example:** Consider a book sitting on a table. It remains stationary until a force (like a push) acts upon it. Similarly,",
+    "elapsed_s": 23.74
+  },
+  "timestamp": "2026-03-25T21:32:09.269040",
+  "model": "qwen2.5-7b"
+}

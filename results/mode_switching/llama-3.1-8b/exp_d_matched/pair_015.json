@@ -1,0 +1,221 @@
+{
+  "pair_id": 15,
+  "content": "Explain the greenhouse effect.",
+  "cog_tokens_input": 23,
+  "meta_tokens_input": 24,
+  "token_diff": -1,
+  "cognitive": {
+    "prompt": "Take your time and think carefully about the following question. Please provide a complete answer. Explain the greenhouse effect.",
+    "encode_features": {
+      "key_norm": 2352.4216,
+      "norm_per_token": 40.559,
+      "eff_rank": 39.2761,
+      "top_sv_ratio": 0.161943,
+      "spectral_entropy": 3.67,
+      "layer_variance": 633.2174,
+      "n_tokens": 58
+    },
+    "trajectory": [
+      {
+        "key_norm": 2550.6103,
+        "norm_per_token": 37.509,
+        "eff_rank": 44.9229,
+        "top_sv_ratio": 0.150483,
+        "spectral_entropy": 3.8044,
+        "layer_variance": 696.8147,
+        "n_tokens": 68,
+        "gen_tokens": 10,
+        "checkpoint": 10
+      },
+      {
+        "key_norm": 2863.9872,
+        "norm_per_token": 34.5059,
+        "eff_rank": 54.034,
+        "top_sv_ratio": 0.138051,
+        "spectral_entropy": 3.989,
+        "layer_variance": 854.4273,
+        "n_tokens": 83,
+        "gen_tokens": 25,
+        "checkpoint": 25
+      },
+      {
+        "key_norm": 3329.3658,
+        "norm_per_token": 30.8275,
+        "eff_rank": 68.9844,
+        "top_sv_ratio": 0.126202,
+        "spectral_entropy": 4.2332,
+        "layer_variance": 1091.174,
+        "n_tokens": 108,
+        "gen_tokens": 50,
+        "checkpoint": 50
+      },
+      {
+        "key_norm": 3747.7064,
+        "norm_per_token": 28.1782,
+        "eff_rank": 83.389,
+        "top_sv_ratio": 0.115795,
+        "spectral_entropy": 4.4228,
+        "layer_variance": 1351.6857,
+        "n_tokens": 133,
+        "gen_tokens": 75,
+        "checkpoint": 75
+      },
+      {
+        "key_norm": 4133.4043,
+        "norm_per_token": 26.1608,
+        "eff_rank": 97.6765,
+        "top_sv_ratio": 0.106854,
+        "spectral_entropy": 4.5809,
+        "layer_variance": 1661.1498,
+        "n_tokens": 158,
+        "gen_tokens": 100,
+        "checkpoint": 100
+      },
+      {
+        "key_norm": 4832.1125,
+        "norm_per_token": 23.2313,
+        "eff_rank": 124.9858,
+        "top_sv_ratio": 0.097173,
+        "spectral_entropy": 4.8273,
+        "layer_variance": 2223.2839,
+        "n_tokens": 208,
+        "gen_tokens": 150,
+        "checkpoint": 150
+      },
+      {
+        "key_norm": 5484.5084,
+        "norm_per_token": 21.2578,
+        "eff_rank": 150.3153,
+        "top_sv_ratio": 0.090349,
+        "spectral_entropy": 5.0117,
+        "layer_variance": 2862.6566,
+        "n_tokens": 258,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      },
+      {
+        "key_norm": 5484.5084,
+        "norm_per_token": 21.2578,
+        "eff_rank": 150.3153,
+        "top_sv_ratio": 0.090349,
+        "spectral_entropy": 5.0117,
+        "layer_variance": 2862.6566,
+        "n_tokens": 258,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      }
+    ],
+    "total_gen_tokens": 200,
+    "input_len": 58,
+    "response_text": "The greenhouse effect is a fundamental concept in Earth's climate system, and it plays a crucial role in maintaining the planet's temperature. I'll break it down in detail to help you understand this complex process.\n\n**What is the Greenhouse Effect?**\n\nThe greenhouse effect is a natural process that occurs when certain gases in the Earth's atmosphere, such as carbon dioxide (CO2), methane (CH4), and water vapor (H2O), trap heat from the sun, preventing it from escaping back into space. This process is essential for life on Earth, as it keeps the planet warm enough to support liquid water and a diverse range of ecosystems.\n\n**How does the Greenhouse Effect work?**\n\nHere's a step-by-step explanation:\n\n1.  **Solar Radiation**: The sun emits solar radiation, which includes visible light and ultraviolet (UV) radiation. This radiation travels through space and reaches the Earth's atmosphere.\n2.  **Absorption**: The Earth's surface absorbs some of the",
+    "elapsed_s": 26.19
+  },
+  "metacognitive": {
+    "prompt": "Explain the greenhouse effect. As you explain, reflect on how you're balancing simplicity with accuracy in your explanation.",
+    "encode_features": {
+      "key_norm": 2342.9411,
+      "norm_per_token": 39.7109,
+      "eff_rank": 39.9528,
+      "top_sv_ratio": 0.158089,
+      "spectral_entropy": 3.6871,
+      "layer_variance": 696.1813,
+      "n_tokens": 59
+    },
+    "trajectory": [
+      {
+        "key_norm": 2544.2708,
+        "norm_per_token": 36.8735,
+        "eff_rank": 45.6248,
+        "top_sv_ratio": 0.147856,
+        "spectral_entropy": 3.8199,
+        "layer_variance": 755.831,
+        "n_tokens": 69,
+        "gen_tokens": 10,
+        "checkpoint": 10
+      },
+      {
+        "key_norm": 2879.3732,
+        "norm_per_token": 34.2783,
+        "eff_rank": 54.4261,
+        "top_sv_ratio": 0.139503,
+        "spectral_entropy": 3.9962,
+        "layer_variance": 892.8446,
+        "n_tokens": 84,
+        "gen_tokens": 25,
+        "checkpoint": 25
+      },
+      {
+        "key_norm": 3370.0673,
+        "norm_per_token": 30.918,
+        "eff_rank": 69.3415,
+        "top_sv_ratio": 0.127603,
+        "spectral_entropy": 4.2384,
+        "layer_variance": 1155.5407,
+        "n_tokens": 109,
+        "gen_tokens": 50,
+        "checkpoint": 50
+      },
+      {
+        "key_norm": 3794.5438,
+        "norm_per_token": 28.3175,
+        "eff_rank": 83.6424,
+        "top_sv_ratio": 0.11726,
+        "spectral_entropy": 4.4258,
+        "layer_variance": 1420.7319,
+        "n_tokens": 134,
+        "gen_tokens": 75,
+        "checkpoint": 75
+      },
+      {
+        "key_norm": 4206.3785,
+        "norm_per_token": 26.4552,
+        "eff_rank": 97.6617,
+        "top_sv_ratio": 0.108072,
+        "spectral_entropy": 4.5807,
+        "layer_variance": 1763.9724,
+        "n_tokens": 159,
+        "gen_tokens": 100,
+        "checkpoint": 100
+      },
+      {
+        "key_norm": 4926.7599,
+        "norm_per_token": 23.573,
+        "eff_rank": 124.4431,
+        "top_sv_ratio": 0.098475,
+        "spectral_entropy": 4.8229,
+        "layer_variance": 2432.7172,
+        "n_tokens": 209,
+        "gen_tokens": 150,
+        "checkpoint": 150
+      },
+      {
+        "key_norm": 5547.3785,
+        "norm_per_token": 21.4184,
+        "eff_rank": 150.4612,
+        "top_sv_ratio": 0.090719,
+        "spectral_entropy": 5.0127,
+        "layer_variance": 3156.6138,
+        "n_tokens": 259,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      },
+      {
+        "key_norm": 5547.3785,
+        "norm_per_token": 21.4184,
+        "eff_rank": 150.4612,
+        "top_sv_ratio": 0.090719,
+        "spectral_entropy": 5.0127,
+        "layer_variance": 3156.6138,
+        "n_tokens": 259,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      }
+    ],
+    "total_gen_tokens": 200,
+    "input_len": 59,
+    "response_text": "The greenhouse effect is a fundamental concept in climate science that can be explained in a way that's both simple and accurate. My goal is to provide a clear and concise explanation that avoids oversimplification while still being accessible to a general audience.\n\n**Simplifying the concept:**\nThe greenhouse effect is like a blanket that keeps the Earth warm. Imagine you're in a car on a sunny day with the windows rolled up. The sun's rays heat up the interior, but when you roll down the windows, the heat escapes quickly. Now, imagine the Earth's atmosphere as a blanket that traps the sun's heat, keeping the planet warm. This is the greenhouse effect.\n\n**Adding accuracy:**\nHowever, this analogy has some limitations. The greenhouse effect is not just about trapping heat; it's about the specific wavelengths of radiation that are trapped. The Earth's atmosphere contains gases like carbon dioxide, methane, and water vapor, which absorb and re-emit infrared radiation (heat) rather than visible",
+    "elapsed_s": 26.2
+  },
+  "timestamp": "2026-03-25T21:45:49.596254",
+  "model": "llama-3.1-8b"
+}
