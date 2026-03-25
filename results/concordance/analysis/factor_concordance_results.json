@@ -1,0 +1,994 @@
+{
+  "Qwen 0.5B": {
+    "n": 57,
+    "eigenvalues": [
+      5.5208,
+      2.2412,
+      0.9558,
+      0.4228,
+      0.3775,
+      0.258,
+      0.1195,
+      0.0809,
+      0.0132,
+      0.0103
+    ],
+    "var_explained": [
+      0.5521,
+      0.2241,
+      0.0956
+    ],
+    "loadings": {
+      "A": {
+        "F1": -0.002,
+        "F2": -0.841,
+        "F3": -0.227
+      },
+      "V": {
+        "F1": 0.036,
+        "F2": -0.824,
+        "F3": 0.298
+      },
+      "G": {
+        "F1": 0.462,
+        "F2": -0.717,
+        "F3": 0.15
+      },
+      "P": {
+        "F1": 0.878,
+        "F2": -0.313,
+        "F3": -0.053
+      },
+      "E": {
+        "F1": 0.963,
+        "F2": -0.079,
+        "F3": -0.041
+      },
+      "Q": {
+        "F1": 0.98,
+        "F2": 0.049,
+        "F3": -0.054
+      },
+      "C": {
+        "F1": 0.971,
+        "F2": 0.119,
+        "F3": -0.073
+      },
+      "Y": {
+        "F1": 0.969,
+        "F2": 0.177,
+        "F3": -0.092
+      },
+      "F": {
+        "F1": 0.805,
+        "F2": 0.365,
+        "F3": -0.102
+      },
+      "D": {
+        "F1": 0.344,
+        "F2": 0.238,
+        "F3": 0.873
+      }
+    },
+    "dim_concordance": {
+      "eff_rank": {
+        "best_dim": "F",
+        "rho_fwl": 0.1952
+      },
+      "spectral_entropy": {
+        "best_dim": "F",
+        "rho_fwl": 0.2015
+      },
+      "key_norm": {
+        "best_dim": "F",
+        "rho_fwl": 0.2968
+      },
+      "norm_per_token": {
+        "best_dim": "F",
+        "rho_fwl": -0.2403
+      },
+      "top_sv_ratio": {
+        "best_dim": "V",
+        "rho_fwl": -0.167
+      },
+      "rank_10": {
+        "best_dim": "V",
+        "rho_fwl": 0.178
+      }
+    },
+    "factor_concordance": {
+      "F1": {
+        "eff_rank": {
+          "rho_fwl": 0.2019,
+          "p_fwl": 0.1320307516714654,
+          "abs_rho": 0.2019
+        },
+        "spectral_entropy": {
+          "rho_fwl": 0.2011,
+          "p_fwl": 0.13368584791861404,
+          "abs_rho": 0.2011
+        },
+        "key_norm": {
+          "rho_fwl": 0.1734,
+          "p_fwl": 0.1971099022581897,
+          "abs_rho": 0.1734
+        },
+        "norm_per_token": {
+          "rho_fwl": -0.1572,
+          "p_fwl": 0.24293557225559045,
+          "abs_rho": 0.1572
+        },
+        "top_sv_ratio": {
+          "rho_fwl": -0.139,
+          "p_fwl": 0.30233434029368444,
+          "abs_rho": 0.139
+        },
+        "rank_10": {
+          "rho_fwl": 0.0959,
+          "p_fwl": 0.4777997765772808,
+          "abs_rho": 0.0959
+        }
+      },
+      "F2": {
+        "eff_rank": {
+          "rho_fwl": 0.0476,
+          "p_fwl": 0.7252649626726098,
+          "abs_rho": 0.0476
+        },
+        "spectral_entropy": {
+          "rho_fwl": 0.0679,
+          "p_fwl": 0.6159581241548708,
+          "abs_rho": 0.0679
+        },
+        "key_norm": {
+          "rho_fwl": 0.099,
+          "p_fwl": 0.46386469990108326,
+          "abs_rho": 0.099
+        },
+        "norm_per_token": {
+          "rho_fwl": -0.0883,
+          "p_fwl": 0.5134344675237952,
+          "abs_rho": 0.0883
+        },
+        "top_sv_ratio": {
+          "rho_fwl": -0.0573,
+          "p_fwl": 0.6720342645685786,
+          "abs_rho": 0.0573
+        },
+        "rank_10": {
+          "rho_fwl": 0.0145,
+          "p_fwl": 0.9150151072011843,
+          "abs_rho": 0.0145
+        }
+      },
+      "F3": {
+        "eff_rank": {
+          "rho_fwl": 0.0828,
+          "p_fwl": 0.5404591017849757,
+          "abs_rho": 0.0828
+        },
+        "spectral_entropy": {
+          "rho_fwl": 0.0864,
+          "p_fwl": 0.5227833536044283,
+          "abs_rho": 0.0864
+        },
+        "key_norm": {
+          "rho_fwl": -0.0504,
+          "p_fwl": 0.7095028030995504,
+          "abs_rho": 0.0504
+        },
+        "norm_per_token": {
+          "rho_fwl": -0.0195,
+          "p_fwl": 0.8854629808424181,
+          "abs_rho": 0.0195
+        },
+        "top_sv_ratio": {
+          "rho_fwl": -0.1246,
+          "p_fwl": 0.3555910035852664,
+          "abs_rho": 0.1246
+        },
+        "rank_10": {
+          "rho_fwl": 0.1179,
+          "p_fwl": 0.3824037905213926,
+          "abs_rho": 0.1179
+        }
+      }
+    },
+    "comparison": {
+      "eff_rank": {
+        "dim_best_rho": 0.1952,
+        "dim_best": "F",
+        "factor_best_rho": 0.2019,
+        "factor_best": "F1",
+        "winner": "FACTOR",
+        "improvement": 0.0067
+      },
+      "spectral_entropy": {
+        "dim_best_rho": 0.2015,
+        "dim_best": "F",
+        "factor_best_rho": 0.2011,
+        "factor_best": "F1",
+        "winner": "DIM",
+        "improvement": -0.0004
+      },
+      "key_norm": {
+        "dim_best_rho": 0.2968,
+        "dim_best": "F",
+        "factor_best_rho": 0.1734,
+        "factor_best": "F1",
+        "winner": "DIM",
+        "improvement": -0.1234
+      },
+      "norm_per_token": {
+        "dim_best_rho": 0.2403,
+        "dim_best": "F",
+        "factor_best_rho": 0.1572,
+        "factor_best": "F1",
+        "winner": "DIM",
+        "improvement": -0.0831
+      },
+      "top_sv_ratio": {
+        "dim_best_rho": 0.167,
+        "dim_best": "V",
+        "factor_best_rho": 0.139,
+        "factor_best": "F1",
+        "winner": "DIM",
+        "improvement": -0.028
+      },
+      "rank_10": {
+        "dim_best_rho": 0.178,
+        "dim_best": "V",
+        "factor_best_rho": 0.1179,
+        "factor_best": "F3",
+        "winner": "DIM",
+        "improvement": -0.0601
+      }
+    },
+    "factor_wins": 1,
+    "total_features": 6
+  },
+  "Qwen 7B": {
+    "n": 180,
+    "eigenvalues": [
+      3.1448,
+      2.1579,
+      1.3074,
+      1.0077,
+      0.6463,
+      0.5086,
+      0.4167,
+      0.3237,
+      0.2639,
+      0.2231
+    ],
+    "var_explained": [
+      0.3145,
+      0.2158,
+      0.1307
+    ],
+    "loadings": {
+      "A": {
+        "F1": -0.821,
+        "F2": -0.333,
+        "F3": -0.027
+      },
+      "V": {
+        "F1": 0.553,
+        "F2": 0.628,
+        "F3": -0.237
+      },
+      "G": {
+        "F1": -0.784,
+        "F2": -0.238,
+        "F3": -0.012
+      },
+      "P": {
+        "F1": -0.38,
+        "F2": -0.347,
+        "F3": -0.209
+      },
+      "E": {
+        "F1": -0.702,
+        "F2": 0.398,
+        "F3": 0.231
+      },
+      "Q": {
+        "F1": -0.375,
+        "F2": 0.45,
+        "F3": 0.441
+      },
+      "C": {
+        "F1": -0.419,
+        "F2": 0.63,
+        "F3": -0.394
+      },
+      "Y": {
+        "F1": -0.036,
+        "F2": 0.807,
+        "F3": 0.073
+      },
+      "F": {
+        "F1": -0.199,
+        "F2": 0.037,
+        "F3": -0.893
+      },
+      "D": {
+        "F1": -0.747,
+        "F2": 0.255,
+        "F3": -0.011
+      }
+    },
+    "dim_concordance": {
+      "eff_rank": {
+        "best_dim": "A",
+        "rho_fwl": -0.2855
+      },
+      "spectral_entropy": {
+        "best_dim": "A",
+        "rho_fwl": -0.2685
+      },
+      "key_norm": {
+        "best_dim": "D",
+        "rho_fwl": 0.1659
+      },
+      "norm_per_token": {
+        "best_dim": "Y",
+        "rho_fwl": -0.1742
+      },
+      "top_sv_ratio": {
+        "best_dim": "Y",
+        "rho_fwl": -0.2156
+      },
+      "rank_10": {
+        "best_dim": "Y",
+        "rho_fwl": 0.237
+      }
+    },
+    "factor_concordance": {
+      "F1": {
+        "eff_rank": {
+          "rho_fwl": 0.1792,
+          "p_fwl": 0.016058143305596653,
+          "abs_rho": 0.1792
+        },
+        "spectral_entropy": {
+          "rho_fwl": 0.1487,
+          "p_fwl": 0.04632643125849841,
+          "abs_rho": 0.1487
+        },
+        "key_norm": {
+          "rho_fwl": -0.1368,
+          "p_fwl": 0.0671074905178016,
+          "abs_rho": 0.1368
+        },
+        "norm_per_token": {
+          "rho_fwl": 0.0017,
+          "p_fwl": 0.9823932918799239,
+          "abs_rho": 0.0017
+        },
+        "top_sv_ratio": {
+          "rho_fwl": 0.0732,
+          "p_fwl": 0.329093409618052,
+          "abs_rho": 0.0732
+        },
+        "rank_10": {
+          "rho_fwl": 0.074,
+          "p_fwl": 0.32346374879057305,
+          "abs_rho": 0.074
+        }
+      },
+      "F2": {
+        "eff_rank": {
+          "rho_fwl": 0.2337,
+          "p_fwl": 0.001588918221639763,
+          "abs_rho": 0.2337
+        },
+        "spectral_entropy": {
+          "rho_fwl": 0.238,
+          "p_fwl": 0.0012927848227090749,
+          "abs_rho": 0.238
+        },
+        "key_norm": {
+          "rho_fwl": 0.019,
+          "p_fwl": 0.8005421627231124,
+          "abs_rho": 0.019
+        },
+        "norm_per_token": {
+          "rho_fwl": -0.1384,
+          "p_fwl": 0.06389727246907777,
+          "abs_rho": 0.1384
+        },
+        "top_sv_ratio": {
+          "rho_fwl": -0.1367,
+          "p_fwl": 0.06732360608646858,
+          "abs_rho": 0.1367
+        },
+        "rank_10": {
+          "rho_fwl": 0.2234,
+          "p_fwl": 0.0025778410617099752,
+          "abs_rho": 0.2234
+        }
+      },
+      "F3": {
+        "eff_rank": {
+          "rho_fwl": -0.0706,
+          "p_fwl": 0.3460335638182457,
+          "abs_rho": 0.0706
+        },
+        "spectral_entropy": {
+          "rho_fwl": -0.0632,
+          "p_fwl": 0.3991301330881002,
+          "abs_rho": 0.0632
+        },
+        "key_norm": {
+          "rho_fwl": 0.0609,
+          "p_fwl": 0.4166351556783253,
+          "abs_rho": 0.0609
+        },
+        "norm_per_token": {
+          "rho_fwl": 0.0055,
+          "p_fwl": 0.9412350785140289,
+          "abs_rho": 0.0055
+        },
+        "top_sv_ratio": {
+          "rho_fwl": -0.1481,
+          "p_fwl": 0.04721677424330214,
+          "abs_rho": 0.1481
+        },
+        "rank_10": {
+          "rho_fwl": 0.0748,
+          "p_fwl": 0.3180567953338306,
+          "abs_rho": 0.0748
+        }
+      }
+    },
+    "comparison": {
+      "eff_rank": {
+        "dim_best_rho": 0.2855,
+        "dim_best": "A",
+        "factor_best_rho": 0.2337,
+        "factor_best": "F2",
+        "winner": "DIM",
+        "improvement": -0.0518
+      },
+      "spectral_entropy": {
+        "dim_best_rho": 0.2685,
+        "dim_best": "A",
+        "factor_best_rho": 0.238,
+        "factor_best": "F2",
+        "winner": "DIM",
+        "improvement": -0.0305
+      },
+      "key_norm": {
+        "dim_best_rho": 0.1659,
+        "dim_best": "D",
+        "factor_best_rho": 0.1368,
+        "factor_best": "F1",
+        "winner": "DIM",
+        "improvement": -0.0291
+      },
+      "norm_per_token": {
+        "dim_best_rho": 0.1742,
+        "dim_best": "Y",
+        "factor_best_rho": 0.1384,
+        "factor_best": "F2",
+        "winner": "DIM",
+        "improvement": -0.0358
+      },
+      "top_sv_ratio": {
+        "dim_best_rho": 0.2156,
+        "dim_best": "Y",
+        "factor_best_rho": 0.1481,
+        "factor_best": "F3",
+        "winner": "DIM",
+        "improvement": -0.0675
+      },
+      "rank_10": {
+        "dim_best_rho": 0.237,
+        "dim_best": "Y",
+        "factor_best_rho": 0.2234,
+        "factor_best": "F2",
+        "winner": "DIM",
+        "improvement": -0.0136
+      }
+    },
+    "factor_wins": 0,
+    "total_features": 6
+  },
+  "Llama 8B": {
+    "n": 133,
+    "eigenvalues": [
+      3.4545,
+      1.8781,
+      1.4017,
+      0.7663,
+      0.6458,
+      0.6081,
+      0.42,
+      0.3428,
+      0.2716,
+      0.2111
+    ],
+    "var_explained": [
+      0.3454,
+      0.1878,
+      0.1402
+    ],
+    "loadings": {
+      "A": {
+        "F1": -0.857,
+        "F2": -0.219,
+        "F3": 0.082
+      },
+      "V": {
+        "F1": 0.332,
+        "F2": -0.558,
+        "F3": -0.545
+      },
+      "G": {
+        "F1": -0.767,
+        "F2": -0.097,
+        "F3": -0.216
+      },
+      "P": {
+        "F1": -0.724,
+        "F2": 0.247,
+        "F3": -0.232
+      },
+      "E": {
+        "F1": -0.417,
+        "F2": -0.443,
+        "F3": 0.596
+      },
+      "Q": {
+        "F1": -0.705,
+        "F2": -0.312,
+        "F3": -0.324
+      },
+      "C": {
+        "F1": 0.281,
+        "F2": -0.693,
+        "F3": 0.018
+      },
+      "Y": {
+        "F1": 0.749,
+        "F2": -0.351,
+        "F3": 0.253
+      },
+      "F": {
+        "F1": -0.073,
+        "F2": -0.703,
+        "F3": -0.24
+      },
+      "D": {
+        "F1": -0.427,
+        "F2": -0.24,
+        "F3": 0.645
+      }
+    },
+    "dim_concordance": {
+      "eff_rank": {
+        "best_dim": "P",
+        "rho_fwl": 0.2871
+      },
+      "spectral_entropy": {
+        "best_dim": "P",
+        "rho_fwl": 0.2885
+      },
+      "key_norm": {
+        "best_dim": "G",
+        "rho_fwl": -0.4313
+      },
+      "norm_per_token": {
+        "best_dim": "P",
+        "rho_fwl": -0.3083
+      },
+      "top_sv_ratio": {
+        "best_dim": "V",
+        "rho_fwl": 0.2834
+      },
+      "rank_10": {
+        "best_dim": "P",
+        "rho_fwl": 0.2768
+      }
+    },
+    "factor_concordance": {
+      "F1": {
+        "eff_rank": {
+          "rho_fwl": -0.1989,
+          "p_fwl": 0.021733646308079554,
+          "abs_rho": 0.1989
+        },
+        "spectral_entropy": {
+          "rho_fwl": -0.2006,
+          "p_fwl": 0.020599884621078132,
+          "abs_rho": 0.2006
+        },
+        "key_norm": {
+          "rho_fwl": 0.3344,
+          "p_fwl": 8.341460524702237e-05,
+          "abs_rho": 0.3344
+        },
+        "norm_per_token": {
+          "rho_fwl": 0.1802,
+          "p_fwl": 0.03794316444123701,
+          "abs_rho": 0.1802
+        },
+        "top_sv_ratio": {
+          "rho_fwl": 0.2151,
+          "p_fwl": 0.012898552160923572,
+          "abs_rho": 0.2151
+        },
+        "rank_10": {
+          "rho_fwl": -0.2729,
+          "p_fwl": 0.0014821929420653285,
+          "abs_rho": 0.2729
+        }
+      },
+      "F2": {
+        "eff_rank": {
+          "rho_fwl": 0.1774,
+          "p_fwl": 0.04104800106458549,
+          "abs_rho": 0.1774
+        },
+        "spectral_entropy": {
+          "rho_fwl": 0.176,
+          "p_fwl": 0.04277322616343129,
+          "abs_rho": 0.176
+        },
+        "key_norm": {
+          "rho_fwl": -0.2365,
+          "p_fwl": 0.00612286016170632,
+          "abs_rho": 0.2365
+        },
+        "norm_per_token": {
+          "rho_fwl": -0.1449,
+          "p_fwl": 0.09599398649845553,
+          "abs_rho": 0.1449
+        },
+        "top_sv_ratio": {
+          "rho_fwl": -0.1105,
+          "p_fwl": 0.20534956041851649,
+          "abs_rho": 0.1105
+        },
+        "rank_10": {
+          "rho_fwl": 0.1182,
+          "p_fwl": 0.17552149153328986,
+          "abs_rho": 0.1182
+        }
+      },
+      "F3": {
+        "eff_rank": {
+          "rho_fwl": -0.262,
+          "p_fwl": 0.002316391587509865,
+          "abs_rho": 0.262
+        },
+        "spectral_entropy": {
+          "rho_fwl": -0.2576,
+          "p_fwl": 0.002762134046074618,
+          "abs_rho": 0.2576
+        },
+        "key_norm": {
+          "rho_fwl": 0.339,
+          "p_fwl": 6.580628138870648e-05,
+          "abs_rho": 0.339
+        },
+        "norm_per_token": {
+          "rho_fwl": 0.3074,
+          "p_fwl": 0.00031891617504263266,
+          "abs_rho": 0.3074
+        },
+        "top_sv_ratio": {
+          "rho_fwl": -0.0467,
+          "p_fwl": 0.593218793998916,
+          "abs_rho": 0.0467
+        },
+        "rank_10": {
+          "rho_fwl": -0.0974,
+          "p_fwl": 0.2647244649276872,
+          "abs_rho": 0.0974
+        }
+      }
+    },
+    "comparison": {
+      "eff_rank": {
+        "dim_best_rho": 0.2871,
+        "dim_best": "P",
+        "factor_best_rho": 0.262,
+        "factor_best": "F3",
+        "winner": "DIM",
+        "improvement": -0.0251
+      },
+      "spectral_entropy": {
+        "dim_best_rho": 0.2885,
+        "dim_best": "P",
+        "factor_best_rho": 0.2576,
+        "factor_best": "F3",
+        "winner": "DIM",
+        "improvement": -0.0309
+      },
+      "key_norm": {
+        "dim_best_rho": 0.4313,
+        "dim_best": "G",
+        "factor_best_rho": 0.339,
+        "factor_best": "F3",
+        "winner": "DIM",
+        "improvement": -0.0923
+      },
+      "norm_per_token": {
+        "dim_best_rho": 0.3083,
+        "dim_best": "P",
+        "factor_best_rho": 0.3074,
+        "factor_best": "F3",
+        "winner": "DIM",
+        "improvement": -0.0009
+      },
+      "top_sv_ratio": {
+        "dim_best_rho": 0.2834,
+        "dim_best": "V",
+        "factor_best_rho": 0.2151,
+        "factor_best": "F1",
+        "winner": "DIM",
+        "improvement": -0.0683
+      },
+      "rank_10": {
+        "dim_best_rho": 0.2768,
+        "dim_best": "P",
+        "factor_best_rho": 0.2729,
+        "factor_best": "F1",
+        "winner": "DIM",
+        "improvement": -0.0039
+      }
+    },
+    "factor_wins": 0,
+    "total_features": 6
+  },
+  "Mistral 7B": {
+    "n": 185,
+    "eigenvalues": [
+      5.5902,
+      1.155,
+      0.8172,
+      0.527,
+      0.4803,
+      0.4666,
+      0.3483,
+      0.257,
+      0.2119,
+      0.1464
+    ],
+    "var_explained": [
+      0.559,
+      0.1155,
+      0.0817
+    ],
+    "loadings": {
+      "A": {
+        "F1": -0.895,
+        "F2": -0.066,
+        "F3": -0.205
+      },
+      "V": {
+        "F1": -0.689,
+        "F2": -0.242,
+        "F3": 0.381
+      },
+      "G": {
+        "F1": -0.778,
+        "F2": -0.102,
+        "F3": 0.056
+      },
+      "P": {
+        "F1": -0.864,
+        "F2": -0.088,
+        "F3": -0.132
+      },
+      "E": {
+        "F1": -0.782,
+        "F2": 0.19,
+        "F3": -0.05
+      },
+      "Q": {
+        "F1": -0.912,
+        "F2": -0.08,
+        "F3": -0.097
+      },
+      "C": {
+        "F1": -0.777,
+        "F2": 0.038,
+        "F3": -0.348
+      },
+      "Y": {
+        "F1": 0.56,
+        "F2": 0.469,
+        "F3": -0.524
+      },
+      "F": {
+        "F1": -0.316,
+        "F2": 0.806,
+        "F3": 0.445
+      },
+      "D": {
+        "F1": -0.708,
+        "F2": 0.4,
+        "F3": -0.063
+      }
+    },
+    "dim_concordance": {
+      "eff_rank": {
+        "best_dim": "C",
+        "rho_fwl": 0.1471
+      },
+      "spectral_entropy": {
+        "best_dim": "C",
+        "rho_fwl": 0.145
+      },
+      "key_norm": {
+        "best_dim": "Y",
+        "rho_fwl": -0.1929
+      },
+      "norm_per_token": {
+        "best_dim": "F",
+        "rho_fwl": -0.2452
+      },
+      "top_sv_ratio": {
+        "best_dim": "D",
+        "rho_fwl": -0.2902
+      },
+      "rank_10": {
+        "best_dim": "E",
+        "rho_fwl": 0.2558
+      }
+    },
+    "factor_concordance": {
+      "F1": {
+        "eff_rank": {
+          "rho_fwl": -0.1236,
+          "p_fwl": 0.09363605091799575,
+          "abs_rho": 0.1236
+        },
+        "spectral_entropy": {
+          "rho_fwl": -0.1213,
+          "p_fwl": 0.09995792272989286,
+          "abs_rho": 0.1213
+        },
+        "key_norm": {
+          "rho_fwl": 0.0171,
+          "p_fwl": 0.8168632392510388,
+          "abs_rho": 0.0171
+        },
+        "norm_per_token": {
+          "rho_fwl": 0.0207,
+          "p_fwl": 0.7796255982816506,
+          "abs_rho": 0.0207
+        },
+        "top_sv_ratio": {
+          "rho_fwl": 0.2933,
+          "p_fwl": 5.0759649677893446e-05,
+          "abs_rho": 0.2933
+        },
+        "rank_10": {
+          "rho_fwl": -0.2972,
+          "p_fwl": 3.9997375202221855e-05,
+          "abs_rho": 0.2972
+        }
+      },
+      "F2": {
+        "eff_rank": {
+          "rho_fwl": 0.1098,
+          "p_fwl": 0.13667997745836952,
+          "abs_rho": 0.1098
+        },
+        "spectral_entropy": {
+          "rho_fwl": 0.1144,
+          "p_fwl": 0.12089466574219282,
+          "abs_rho": 0.1144
+        },
+        "key_norm": {
+          "rho_fwl": -0.1504,
+          "p_fwl": 0.04106631745641979,
+          "abs_rho": 0.1504
+        },
+        "norm_per_token": {
+          "rho_fwl": -0.2327,
+          "p_fwl": 0.0014367890756145202,
+          "abs_rho": 0.2327
+        },
+        "top_sv_ratio": {
+          "rho_fwl": -0.1703,
+          "p_fwl": 0.020455701047637276,
+          "abs_rho": 0.1703
+        },
+        "rank_10": {
+          "rho_fwl": 0.1034,
+          "p_fwl": 0.16122759685806284,
+          "abs_rho": 0.1034
+        }
+      },
+      "F3": {
+        "eff_rank": {
+          "rho_fwl": -0.0776,
+          "p_fwl": 0.29371849321387355,
+          "abs_rho": 0.0776
+        },
+        "spectral_entropy": {
+          "rho_fwl": -0.0774,
+          "p_fwl": 0.29527033750801945,
+          "abs_rho": 0.0774
+        },
+        "key_norm": {
+          "rho_fwl": 0.1843,
+          "p_fwl": 0.012017069661241777,
+          "abs_rho": 0.1843
+        },
+        "norm_per_token": {
+          "rho_fwl": 0.0488,
+          "p_fwl": 0.5093798038462274,
+          "abs_rho": 0.0488
+        },
+        "top_sv_ratio": {
+          "rho_fwl": 0.2162,
+          "p_fwl": 0.0031216807518847523,
+          "abs_rho": 0.2162
+        },
+        "rank_10": {
+          "rho_fwl": -0.0837,
+          "p_fwl": 0.2573206240651107,
+          "abs_rho": 0.0837
+        }
+      }
+    },
+    "comparison": {
+      "eff_rank": {
+        "dim_best_rho": 0.1471,
+        "dim_best": "C",
+        "factor_best_rho": 0.1236,
+        "factor_best": "F1",
+        "winner": "DIM",
+        "improvement": -0.0235
+      },
+      "spectral_entropy": {
+        "dim_best_rho": 0.145,
+        "dim_best": "C",
+        "factor_best_rho": 0.1213,
+        "factor_best": "F1",
+        "winner": "DIM",
+        "improvement": -0.0237
+      },
+      "key_norm": {
+        "dim_best_rho": 0.1929,
+        "dim_best": "Y",
+        "factor_best_rho": 0.1843,
+        "factor_best": "F3",
+        "winner": "DIM",
+        "improvement": -0.0086
+      },
+      "norm_per_token": {
+        "dim_best_rho": 0.2452,
+        "dim_best": "F",
+        "factor_best_rho": 0.2327,
+        "factor_best": "F2",
+        "winner": "DIM",
+        "improvement": -0.0125
+      },
+      "top_sv_ratio": {
+        "dim_best_rho": 0.2902,
+        "dim_best": "D",
+        "factor_best_rho": 0.2933,
+        "factor_best": "F1",
+        "winner": "FACTOR",
+        "improvement": 0.0031
+      },
+      "rank_10": {
+        "dim_best_rho": 0.2558,
+        "dim_best": "E",
+        "factor_best_rho": 0.2972,
+        "factor_best": "F1",
+        "winner": "FACTOR",
+        "improvement": 0.0414
+      }
+    },
+    "factor_wins": 2,
+    "total_features": 6
+  }
+}

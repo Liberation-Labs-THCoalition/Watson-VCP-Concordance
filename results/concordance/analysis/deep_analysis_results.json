@@ -1,0 +1,4886 @@
+{
+  "Qwen 0.5B": {
+    "vcp_factors": {
+      "model": "Qwen 0.5B",
+      "n_valid": 57,
+      "eigenvalues": [
+        5.5208,
+        2.2412,
+        0.9558,
+        0.4228,
+        0.3775,
+        0.258,
+        0.1195,
+        0.0809,
+        0.0132,
+        0.0103
+      ],
+      "variance_explained": [
+        0.5521,
+        0.2241,
+        0.0956,
+        0.0423,
+        0.0378,
+        0.0258,
+        0.0119,
+        0.0081,
+        0.0013,
+        0.001
+      ],
+      "cumulative_variance": [
+        0.5521,
+        0.7762,
+        0.8718,
+        0.9141,
+        0.9518,
+        0.9776,
+        0.9896,
+        0.9977,
+        0.999,
+        1.0
+      ],
+      "n_kaiser_factors": 2,
+      "pc1_pct": 55.2,
+      "pc2_pct": 22.4,
+      "factor_loadings": {
+        "A": {
+          "name": "Analytical Precision",
+          "PC1": -0.002,
+          "PC2": -0.841,
+          "PC3": -0.227
+        },
+        "V": {
+          "name": "Verbal Fluency",
+          "PC1": 0.036,
+          "PC2": -0.824,
+          "PC3": 0.298
+        },
+        "G": {
+          "name": "Goal Directedness",
+          "PC1": 0.462,
+          "PC2": -0.717,
+          "PC3": 0.15
+        },
+        "P": {
+          "name": "Pattern Recognition",
+          "PC1": 0.878,
+          "PC2": -0.313,
+          "PC3": -0.053
+        },
+        "E": {
+          "name": "Epistemic Confidence",
+          "PC1": 0.963,
+          "PC2": -0.079,
+          "PC3": -0.041
+        },
+        "Q": {
+          "name": "Query Interpretation",
+          "PC1": 0.98,
+          "PC2": 0.049,
+          "PC3": -0.054
+        },
+        "C": {
+          "name": "Contextual Awareness",
+          "PC1": 0.971,
+          "PC2": 0.119,
+          "PC3": -0.073
+        },
+        "Y": {
+          "name": "Affective Modeling",
+          "PC1": 0.969,
+          "PC2": 0.177,
+          "PC3": -0.092
+        },
+        "F": {
+          "name": "Flexibility",
+          "PC1": 0.805,
+          "PC2": 0.365,
+          "PC3": -0.102
+        },
+        "D": {
+          "name": "Depth of Processing",
+          "PC1": 0.344,
+          "PC2": 0.238,
+          "PC3": 0.873
+        }
+      },
+      "inter_dim_correlations": {
+        "A_V": {
+          "rho": -0.277,
+          "p": 0.03694511775920232
+        },
+        "A_G": {
+          "rho": 0.273,
+          "p": 0.03957151105703707
+        },
+        "A_P": {
+          "rho": 0.321,
+          "p": 0.014971011247852132
+        },
+        "A_E": {
+          "rho": 0.127,
+          "p": 0.347705370924955
+        },
+        "A_Q": {
+          "rho": 0.125,
+          "p": 0.35244450439776653
+        },
+        "A_C": {
+          "rho": 0.16,
+          "p": 0.23314868763429666
+        },
+        "A_Y": {
+          "rho": 0.165,
+          "p": 0.2188373556473054
+        },
+        "A_F": {
+          "rho": 0.032,
+          "p": 0.8125512465929443
+        },
+        "A_D": {
+          "rho": -0.295,
+          "p": 0.026076924959002715
+        },
+        "V_G": {
+          "rho": 0.468,
+          "p": 0.00024154361439610708
+        },
+        "V_P": {
+          "rho": 0.349,
+          "p": 0.007797568842847317
+        },
+        "V_E": {
+          "rho": 0.298,
+          "p": 0.024532522813931475
+        },
+        "V_Q": {
+          "rho": 0.307,
+          "p": 0.020264560708783585
+        },
+        "V_C": {
+          "rho": 0.253,
+          "p": 0.05799862961067896
+        },
+        "V_Y": {
+          "rho": 0.203,
+          "p": 0.13035119028610706
+        },
+        "V_F": {
+          "rho": -0.078,
+          "p": 0.5658869776123945
+        },
+        "V_D": {
+          "rho": 0.219,
+          "p": 0.10121921558124602
+        },
+        "G_P": {
+          "rho": 0.692,
+          "p": 2.5544284919658567e-09
+        },
+        "G_E": {
+          "rho": 0.55,
+          "p": 9.497074099838623e-06
+        },
+        "G_Q": {
+          "rho": 0.552,
+          "p": 8.473815637640773e-06
+        },
+        "G_C": {
+          "rho": 0.53,
+          "p": 2.2328864135743678e-05
+        },
+        "G_Y": {
+          "rho": 0.478,
+          "p": 0.00016701069522198473
+        },
+        "G_F": {
+          "rho": 0.146,
+          "p": 0.27708845234504953
+        },
+        "G_D": {
+          "rho": 0.101,
+          "p": 0.45386788335462636
+        },
+        "P_E": {
+          "rho": 0.832,
+          "p": 1.0387089743082323e-15
+        },
+        "P_Q": {
+          "rho": 0.837,
+          "p": 4.848405231831437e-16
+        },
+        "P_C": {
+          "rho": 0.805,
+          "p": 4.371885867164476e-14
+        },
+        "P_Y": {
+          "rho": 0.794,
+          "p": 1.7950834801082494e-13
+        },
+        "P_F": {
+          "rho": 0.422,
+          "p": 0.0010822438240803078
+        },
+        "P_D": {
+          "rho": 0.072,
+          "p": 0.5954295384998665
+        },
+        "E_Q": {
+          "rho": 0.989,
+          "p": 1.2769978060982253e-47
+        },
+        "E_C": {
+          "rho": 0.974,
+          "p": 5.132723791383018e-37
+        },
+        "E_Y": {
+          "rho": 0.961,
+          "p": 2.781587650463876e-32
+        },
+        "E_F": {
+          "rho": 0.638,
+          "p": 9.299350977793062e-08
+        },
+        "E_D": {
+          "rho": 0.107,
+          "p": 0.42624110145639227
+        },
+        "Q_C": {
+          "rho": 0.977,
+          "p": 7.82180309775758e-39
+        },
+        "Q_Y": {
+          "rho": 0.964,
+          "p": 2.0155589412090403e-33
+        },
+        "Q_F": {
+          "rho": 0.641,
+          "p": 7.851527739419828e-08
+        },
+        "Q_D": {
+          "rho": 0.111,
+          "p": 0.41245092831248853
+        },
+        "C_Y": {
+          "rho": 0.981,
+          "p": 1.078187825067271e-40
+        },
+        "C_F": {
+          "rho": 0.666,
+          "p": 1.6236724594807645e-08
+        },
+        "C_D": {
+          "rho": 0.105,
+          "p": 0.4348659745757991
+        },
+        "Y_F": {
+          "rho": 0.686,
+          "p": 3.939186565652771e-09
+        },
+        "Y_D": {
+          "rho": 0.085,
+          "p": 0.5276889556851236
+        },
+        "F_D": {
+          "rho": 0.016,
+          "p": 0.9047840388956595
+        }
+      }
+    },
+    "cca_loadings": {
+      "model": "Qwen 0.5B",
+      "n_valid": 57,
+      "canonical_correlations": [
+        0.6192,
+        0.5232,
+        0.4972,
+        0.3435,
+        0.238,
+        0.158
+      ],
+      "vcp_loadings": {
+        "A": {
+          "name": "Analytical Precision",
+          "CC1": -0.167,
+          "CC2": -0.149
+        },
+        "V": {
+          "name": "Verbal Fluency",
+          "CC1": -0.439,
+          "CC2": -0.456
+        },
+        "G": {
+          "name": "Goal Directedness",
+          "CC1": 0.054,
+          "CC2": -0.458
+        },
+        "P": {
+          "name": "Pattern Recognition",
+          "CC1": -0.058,
+          "CC2": 0.19
+        },
+        "E": {
+          "name": "Epistemic Confidence",
+          "CC1": -0.226,
+          "CC2": 0.023
+        },
+        "Q": {
+          "name": "Query Interpretation",
+          "CC1": -0.116,
+          "CC2": 0.152
+        },
+        "C": {
+          "name": "Contextual Awareness",
+          "CC1": -0.112,
+          "CC2": 0.17
+        },
+        "Y": {
+          "name": "Affective Modeling",
+          "CC1": -0.04,
+          "CC2": 0.142
+        },
+        "F": {
+          "name": "Flexibility",
+          "CC1": -0.193,
+          "CC2": -0.007
+        },
+        "D": {
+          "name": "Depth of Processing",
+          "CC1": 0.025,
+          "CC2": -0.168
+        }
+      },
+      "feature_loadings": {
+        "eff_rank": {
+          "CC1": 0.327,
+          "CC2": -0.611
+        },
+        "spectral_entropy": {
+          "CC1": 0.273,
+          "CC2": -0.564
+        },
+        "key_norm": {
+          "CC1": -0.574,
+          "CC2": 0.155
+        },
+        "norm_per_token": {
+          "CC1": 0.192,
+          "CC2": 0.223
+        },
+        "top_sv_ratio": {
+          "CC1": -0.311,
+          "CC2": 0.656
+        },
+        "rank_10": {
+          "CC1": 0.291,
+          "CC2": -0.811
+        }
+      },
+      "fwl_applied": true,
+      "cc1_dominant_vcp": [
+        {
+          "dim": "V",
+          "loading": -0.439
+        },
+        {
+          "dim": "E",
+          "loading": -0.226
+        },
+        {
+          "dim": "F",
+          "loading": -0.193
+        }
+      ],
+      "cc1_dominant_features": [
+        {
+          "feat": "key_norm",
+          "loading": -0.574
+        },
+        {
+          "feat": "eff_rank",
+          "loading": 0.327
+        },
+        {
+          "feat": "top_sv_ratio",
+          "loading": -0.311
+        }
+      ]
+    },
+    "encode_gen_reversal": {
+      "model": "Qwen 0.5B",
+      "n_valid": 57,
+      "per_pair_analysis": {
+        "A_eff_rank": {
+          "dim": "A",
+          "feature": "eff_rank",
+          "rho_encode": 0.1543,
+          "p_encode": 0.2516984789032358,
+          "rho_generation": -0.0089,
+          "p_generation": 0.9477295836465123,
+          "sign_flip": true,
+          "delta": -0.1632
+        },
+        "A_spectral_entropy": {
+          "dim": "A",
+          "feature": "spectral_entropy",
+          "rho_encode": 0.1418,
+          "p_encode": 0.29264955671646126,
+          "rho_generation": -0.0336,
+          "p_generation": 0.8038087207963847,
+          "sign_flip": true,
+          "delta": -0.1755
+        },
+        "A_key_norm": {
+          "dim": "A",
+          "feature": "key_norm",
+          "rho_encode": 0.008,
+          "p_encode": 0.9530647491518969,
+          "rho_generation": -0.0969,
+          "p_generation": 0.4733283846117502,
+          "sign_flip": false,
+          "delta": -0.1049
+        },
+        "A_norm_per_token": {
+          "dim": "A",
+          "feature": "norm_per_token",
+          "rho_encode": -0.1532,
+          "p_encode": 0.25514085208359,
+          "rho_generation": 0.0526,
+          "p_generation": 0.6974048295606596,
+          "sign_flip": true,
+          "delta": 0.2059
+        },
+        "A_top_sv_ratio": {
+          "dim": "A",
+          "feature": "top_sv_ratio",
+          "rho_encode": -0.2186,
+          "p_encode": 0.10238982892498667,
+          "rho_generation": 0.1009,
+          "p_generation": 0.4550863986404642,
+          "sign_flip": true,
+          "delta": 0.3195
+        },
+        "A_rank_10": {
+          "dim": "A",
+          "feature": "rank_10",
+          "rho_encode": 0.1392,
+          "p_encode": 0.30187934069817857,
+          "rho_generation": -0.0533,
+          "p_generation": 0.6938606316267251,
+          "sign_flip": true,
+          "delta": -0.1924
+        },
+        "V_eff_rank": {
+          "dim": "V",
+          "feature": "eff_rank",
+          "rho_encode": -0.2521,
+          "p_encode": 0.058473723574115434,
+          "rho_generation": 0.0569,
+          "p_generation": 0.6741351336721941,
+          "sign_flip": true,
+          "delta": 0.309
+        },
+        "V_spectral_entropy": {
+          "dim": "V",
+          "feature": "spectral_entropy",
+          "rho_encode": -0.2407,
+          "p_encode": 0.07125574895188196,
+          "rho_generation": 0.0743,
+          "p_generation": 0.5829088026101912,
+          "sign_flip": true,
+          "delta": 0.315
+        },
+        "V_key_norm": {
+          "dim": "V",
+          "feature": "key_norm",
+          "rho_encode": -0.1324,
+          "p_encode": 0.326366082155935,
+          "rho_generation": 0.127,
+          "p_generation": 0.34633715603183435,
+          "sign_flip": true,
+          "delta": 0.2594
+        },
+        "V_norm_per_token": {
+          "dim": "V",
+          "feature": "norm_per_token",
+          "rho_encode": 0.2427,
+          "p_encode": 0.06893206331048658,
+          "rho_generation": -0.1141,
+          "p_generation": 0.39786651644125526,
+          "sign_flip": true,
+          "delta": -0.3568
+        },
+        "V_top_sv_ratio": {
+          "dim": "V",
+          "feature": "top_sv_ratio",
+          "rho_encode": 0.3068,
+          "p_encode": 0.020281439825506137,
+          "rho_generation": -0.167,
+          "p_generation": 0.21427841574081716,
+          "sign_flip": true,
+          "delta": -0.4738
+        },
+        "V_rank_10": {
+          "dim": "V",
+          "feature": "rank_10",
+          "rho_encode": -0.2344,
+          "p_encode": 0.07919882776895341,
+          "rho_generation": 0.178,
+          "p_generation": 0.18529904515354356,
+          "sign_flip": true,
+          "delta": 0.4124
+        },
+        "G_eff_rank": {
+          "dim": "G",
+          "feature": "eff_rank",
+          "rho_encode": 0.1128,
+          "p_encode": 0.40355416982186665,
+          "rho_generation": 0.0954,
+          "p_generation": 0.48019367096329113,
+          "sign_flip": false,
+          "delta": -0.0174
+        },
+        "G_spectral_entropy": {
+          "dim": "G",
+          "feature": "spectral_entropy",
+          "rho_encode": 0.1078,
+          "p_encode": 0.4248100168651898,
+          "rho_generation": 0.0749,
+          "p_generation": 0.579615722147289,
+          "sign_flip": false,
+          "delta": -0.0329
+        },
+        "G_key_norm": {
+          "dim": "G",
+          "feature": "key_norm",
+          "rho_encode": 0.1245,
+          "p_encode": 0.356095493351284,
+          "rho_generation": 0.0116,
+          "p_generation": 0.9317386829575056,
+          "sign_flip": false,
+          "delta": -0.1129
+        },
+        "G_norm_per_token": {
+          "dim": "G",
+          "feature": "norm_per_token",
+          "rho_encode": -0.1527,
+          "p_encode": 0.25677175458424834,
+          "rho_generation": -0.001,
+          "p_generation": 0.994273022832884,
+          "sign_flip": false,
+          "delta": 0.1517
+        },
+        "G_top_sv_ratio": {
+          "dim": "G",
+          "feature": "top_sv_ratio",
+          "rho_encode": -0.1213,
+          "p_encode": 0.3688500258413059,
+          "rho_generation": -0.0471,
+          "p_generation": 0.7281432365622786,
+          "sign_flip": false,
+          "delta": 0.0742
+        },
+        "G_rank_10": {
+          "dim": "G",
+          "feature": "rank_10",
+          "rho_encode": 0.0835,
+          "p_encode": 0.5369642794428693,
+          "rho_generation": 0.0862,
+          "p_generation": 0.5237228952141444,
+          "sign_flip": false,
+          "delta": 0.0027
+        },
+        "P_eff_rank": {
+          "dim": "P",
+          "feature": "eff_rank",
+          "rho_encode": 0.2093,
+          "p_encode": 0.11817163309186322,
+          "rho_generation": 0.0645,
+          "p_generation": 0.6336314497584945,
+          "sign_flip": false,
+          "delta": -0.1448
+        },
+        "P_spectral_entropy": {
+          "dim": "P",
+          "feature": "spectral_entropy",
+          "rho_encode": 0.2219,
+          "p_encode": 0.09717409491469577,
+          "rho_generation": 0.0564,
+          "p_generation": 0.6769401381776797,
+          "sign_flip": false,
+          "delta": -0.1655
+        },
+        "P_key_norm": {
+          "dim": "P",
+          "feature": "key_norm",
+          "rho_encode": 0.1677,
+          "p_encode": 0.2123007399678127,
+          "rho_generation": 0.125,
+          "p_generation": 0.3540801666096982,
+          "sign_flip": false,
+          "delta": -0.0427
+        },
+        "P_norm_per_token": {
+          "dim": "P",
+          "feature": "norm_per_token",
+          "rho_encode": -0.2114,
+          "p_encode": 0.1144882718125122,
+          "rho_generation": -0.0487,
+          "p_generation": 0.7188026835609762,
+          "sign_flip": false,
+          "delta": 0.1626
+        },
+        "P_top_sv_ratio": {
+          "dim": "P",
+          "feature": "top_sv_ratio",
+          "rho_encode": -0.2251,
+          "p_encode": 0.09226348884360046,
+          "rho_generation": 0.0202,
+          "p_generation": 0.8816845708424828,
+          "sign_flip": true,
+          "delta": 0.2453
+        },
+        "P_rank_10": {
+          "dim": "P",
+          "feature": "rank_10",
+          "rho_encode": 0.1416,
+          "p_encode": 0.29354182234800336,
+          "rho_generation": -0.04,
+          "p_generation": 0.7677161466529896,
+          "sign_flip": true,
+          "delta": -0.1816
+        },
+        "E_eff_rank": {
+          "dim": "E",
+          "feature": "eff_rank",
+          "rho_encode": 0.0927,
+          "p_encode": 0.4928652512045555,
+          "rho_generation": 0.165,
+          "p_generation": 0.2201049974133063,
+          "sign_flip": false,
+          "delta": 0.0723
+        },
+        "E_spectral_entropy": {
+          "dim": "E",
+          "feature": "spectral_entropy",
+          "rho_encode": 0.1104,
+          "p_encode": 0.41341382230478585,
+          "rho_generation": 0.1652,
+          "p_generation": 0.21955410729867803,
+          "sign_flip": false,
+          "delta": 0.0547
+        },
+        "E_key_norm": {
+          "dim": "E",
+          "feature": "key_norm",
+          "rho_encode": 0.1565,
+          "p_encode": 0.2449085846042799,
+          "rho_generation": 0.2029,
+          "p_generation": 0.13001495988571535,
+          "sign_flip": false,
+          "delta": 0.0464
+        },
+        "E_norm_per_token": {
+          "dim": "E",
+          "feature": "norm_per_token",
+          "rho_encode": -0.1214,
+          "p_encode": 0.368334600831671,
+          "rho_generation": -0.1578,
+          "p_generation": 0.2409734532254798,
+          "sign_flip": false,
+          "delta": -0.0364
+        },
+        "E_top_sv_ratio": {
+          "dim": "E",
+          "feature": "top_sv_ratio",
+          "rho_encode": -0.1035,
+          "p_encode": 0.44352487184550426,
+          "rho_generation": -0.1313,
+          "p_generation": 0.3302045744969401,
+          "sign_flip": false,
+          "delta": -0.0278
+        },
+        "E_rank_10": {
+          "dim": "E",
+          "feature": "rank_10",
+          "rho_encode": 0.0301,
+          "p_encode": 0.8238770071297283,
+          "rho_generation": 0.0933,
+          "p_generation": 0.4901353301515493,
+          "sign_flip": false,
+          "delta": 0.0631
+        },
+        "Q_eff_rank": {
+          "dim": "Q",
+          "feature": "eff_rank",
+          "rho_encode": 0.1143,
+          "p_encode": 0.3970578478157124,
+          "rho_generation": 0.1464,
+          "p_generation": 0.27710664863150175,
+          "sign_flip": false,
+          "delta": 0.0321
+        },
+        "Q_spectral_entropy": {
+          "dim": "Q",
+          "feature": "spectral_entropy",
+          "rho_encode": 0.129,
+          "p_encode": 0.3389446008957847,
+          "rho_generation": 0.1469,
+          "p_generation": 0.2753902883534713,
+          "sign_flip": false,
+          "delta": 0.018
+        },
+        "Q_key_norm": {
+          "dim": "Q",
+          "feature": "key_norm",
+          "rho_encode": 0.1561,
+          "p_encode": 0.24609762619149367,
+          "rho_generation": 0.1615,
+          "p_generation": 0.2301862490443989,
+          "sign_flip": false,
+          "delta": 0.0053
+        },
+        "Q_norm_per_token": {
+          "dim": "Q",
+          "feature": "norm_per_token",
+          "rho_encode": -0.1359,
+          "p_encode": 0.3133873501581922,
+          "rho_generation": -0.1195,
+          "p_generation": 0.3761117100506942,
+          "sign_flip": false,
+          "delta": 0.0165
+        },
+        "Q_top_sv_ratio": {
+          "dim": "Q",
+          "feature": "top_sv_ratio",
+          "rho_encode": -0.1241,
+          "p_encode": 0.35761159371934537,
+          "rho_generation": -0.1211,
+          "p_generation": 0.36936588690884264,
+          "sign_flip": false,
+          "delta": 0.003
+        },
+        "Q_rank_10": {
+          "dim": "Q",
+          "feature": "rank_10",
+          "rho_encode": 0.0585,
+          "p_encode": 0.6653979922508446,
+          "rho_generation": 0.067,
+          "p_generation": 0.620356717743205,
+          "sign_flip": false,
+          "delta": 0.0085
+        },
+        "C_eff_rank": {
+          "dim": "C",
+          "feature": "eff_rank",
+          "rho_encode": 0.134,
+          "p_encode": 0.32042513586317073,
+          "rho_generation": 0.1462,
+          "p_generation": 0.27775210697194924,
+          "sign_flip": false,
+          "delta": 0.0123
+        },
+        "C_spectral_entropy": {
+          "dim": "C",
+          "feature": "spectral_entropy",
+          "rho_encode": 0.1519,
+          "p_encode": 0.25923127830165227,
+          "rho_generation": 0.1458,
+          "p_generation": 0.2790460080015415,
+          "sign_flip": false,
+          "delta": -0.0061
+        },
+        "C_key_norm": {
+          "dim": "C",
+          "feature": "key_norm",
+          "rho_encode": 0.1845,
+          "p_encode": 0.1693876063406195,
+          "rho_generation": 0.1838,
+          "p_generation": 0.1710705090622026,
+          "sign_flip": false,
+          "delta": -0.0007
+        },
+        "C_norm_per_token": {
+          "dim": "C",
+          "feature": "norm_per_token",
+          "rho_encode": -0.16,
+          "p_encode": 0.2343835477887379,
+          "rho_generation": -0.1296,
+          "p_generation": 0.33650246360272684,
+          "sign_flip": false,
+          "delta": 0.0304
+        },
+        "C_top_sv_ratio": {
+          "dim": "C",
+          "feature": "top_sv_ratio",
+          "rho_encode": -0.1507,
+          "p_encode": 0.2631578828231308,
+          "rho_generation": -0.1331,
+          "p_generation": 0.32350579539910285,
+          "sign_flip": false,
+          "delta": 0.0176
+        },
+        "C_rank_10": {
+          "dim": "C",
+          "feature": "rank_10",
+          "rho_encode": 0.0741,
+          "p_encode": 0.5838983789835522,
+          "rho_generation": 0.0808,
+          "p_generation": 0.5503672543593185,
+          "sign_flip": false,
+          "delta": 0.0067
+        },
+        "Y_eff_rank": {
+          "dim": "Y",
+          "feature": "eff_rank",
+          "rho_encode": 0.1442,
+          "p_encode": 0.2846989187358674,
+          "rho_generation": 0.1761,
+          "p_generation": 0.1900601433257011,
+          "sign_flip": false,
+          "delta": 0.032
+        },
+        "Y_spectral_entropy": {
+          "dim": "Y",
+          "feature": "spectral_entropy",
+          "rho_encode": 0.1612,
+          "p_encode": 0.23094550220370594,
+          "rho_generation": 0.1738,
+          "p_generation": 0.19592219714106807,
+          "sign_flip": false,
+          "delta": 0.0126
+        },
+        "Y_key_norm": {
+          "dim": "Y",
+          "feature": "key_norm",
+          "rho_encode": 0.1996,
+          "p_encode": 0.13652226737705533,
+          "rho_generation": 0.1623,
+          "p_generation": 0.22773060252532548,
+          "sign_flip": false,
+          "delta": -0.0373
+        },
+        "Y_norm_per_token": {
+          "dim": "Y",
+          "feature": "norm_per_token",
+          "rho_encode": -0.1738,
+          "p_encode": 0.19592219714106807,
+          "rho_generation": -0.1375,
+          "p_generation": 0.3078289220110905,
+          "sign_flip": false,
+          "delta": 0.0364
+        },
+        "Y_top_sv_ratio": {
+          "dim": "Y",
+          "feature": "top_sv_ratio",
+          "rho_encode": -0.1572,
+          "p_encode": 0.24273887036979203,
+          "rho_generation": -0.1492,
+          "p_generation": 0.2679642900862895,
+          "sign_flip": false,
+          "delta": 0.008
+        },
+        "Y_rank_10": {
+          "dim": "Y",
+          "feature": "rank_10",
+          "rho_encode": 0.0882,
+          "p_encode": 0.5143655318896778,
+          "rho_generation": 0.0948,
+          "p_generation": 0.48319495685099223,
+          "sign_flip": false,
+          "delta": 0.0066
+        },
+        "F_eff_rank": {
+          "dim": "F",
+          "feature": "eff_rank",
+          "rho_encode": 0.1788,
+          "p_encode": 0.18319283987830925,
+          "rho_generation": 0.1952,
+          "p_generation": 0.14557496739861303,
+          "sign_flip": false,
+          "delta": 0.0164
+        },
+        "F_spectral_entropy": {
+          "dim": "F",
+          "feature": "spectral_entropy",
+          "rho_encode": 0.1778,
+          "p_encode": 0.185787555935783,
+          "rho_generation": 0.2015,
+          "p_generation": 0.13292002834871047,
+          "sign_flip": false,
+          "delta": 0.0237
+        },
+        "F_key_norm": {
+          "dim": "F",
+          "feature": "key_norm",
+          "rho_encode": 0.1027,
+          "p_encode": 0.44726435560119115,
+          "rho_generation": 0.2968,
+          "p_generation": 0.024967024701046985,
+          "sign_flip": false,
+          "delta": 0.1941
+        },
+        "F_norm_per_token": {
+          "dim": "F",
+          "feature": "norm_per_token",
+          "rho_encode": -0.103,
+          "p_encode": 0.44582403356944744,
+          "rho_generation": -0.2403,
+          "p_generation": 0.07180682515858325,
+          "sign_flip": false,
+          "delta": -0.1373
+        },
+        "F_top_sv_ratio": {
+          "dim": "F",
+          "feature": "top_sv_ratio",
+          "rho_encode": -0.1609,
+          "p_encode": 0.23170648401435645,
+          "rho_generation": -0.1177,
+          "p_generation": 0.38319468806381574,
+          "sign_flip": false,
+          "delta": 0.0432
+        },
+        "F_rank_10": {
+          "dim": "F",
+          "feature": "rank_10",
+          "rho_encode": 0.1475,
+          "p_encode": 0.273467833167994,
+          "rho_generation": 0.0863,
+          "p_generation": 0.5230964405847135,
+          "sign_flip": false,
+          "delta": -0.0612
+        },
+        "D_eff_rank": {
+          "dim": "D",
+          "feature": "eff_rank",
+          "rho_encode": 0.1407,
+          "p_encode": 0.29645393045457497,
+          "rho_generation": 0.1183,
+          "p_generation": 0.3808249177761516,
+          "sign_flip": false,
+          "delta": -0.0224
+        },
+        "D_spectral_entropy": {
+          "dim": "D",
+          "feature": "spectral_entropy",
+          "rho_encode": 0.1478,
+          "p_encode": 0.27240366696697105,
+          "rho_generation": 0.1138,
+          "p_generation": 0.39921644035278503,
+          "sign_flip": false,
+          "delta": -0.034
+        },
+        "D_key_norm": {
+          "dim": "D",
+          "feature": "key_norm",
+          "rho_encode": 0.1278,
+          "p_encode": 0.3436150407240579,
+          "rho_generation": -0.0067,
+          "p_generation": 0.9606899061313902,
+          "sign_flip": true,
+          "delta": -0.1344
+        },
+        "D_norm_per_token": {
+          "dim": "D",
+          "feature": "norm_per_token",
+          "rho_encode": -0.0552,
+          "p_encode": 0.6836194534739071,
+          "rho_generation": -0.0379,
+          "p_generation": 0.779819309636271,
+          "sign_flip": false,
+          "delta": 0.0173
+        },
+        "D_top_sv_ratio": {
+          "dim": "D",
+          "feature": "top_sv_ratio",
+          "rho_encode": -0.113,
+          "p_encode": 0.402738761797083,
+          "rho_generation": -0.132,
+          "p_generation": 0.32756257001753863,
+          "sign_flip": false,
+          "delta": -0.0191
+        },
+        "D_rank_10": {
+          "dim": "D",
+          "feature": "rank_10",
+          "rho_encode": 0.1127,
+          "p_encode": 0.40409830884237463,
+          "rho_generation": 0.1005,
+          "p_generation": 0.4571264928221781,
+          "sign_flip": false,
+          "delta": -0.0122
+        }
+      },
+      "sign_flip_dims": [
+        "A_eff_rank",
+        "A_spectral_entropy",
+        "A_norm_per_token",
+        "A_top_sv_ratio",
+        "A_rank_10",
+        "V_eff_rank",
+        "V_spectral_entropy",
+        "V_key_norm",
+        "V_norm_per_token",
+        "V_top_sv_ratio",
+        "V_rank_10",
+        "P_top_sv_ratio",
+        "P_rank_10",
+        "D_key_norm"
+      ],
+      "sign_consistent_dims": [
+        "A_key_norm",
+        "G_eff_rank",
+        "G_spectral_entropy",
+        "G_key_norm",
+        "G_norm_per_token",
+        "G_top_sv_ratio",
+        "G_rank_10",
+        "P_eff_rank",
+        "P_spectral_entropy",
+        "P_key_norm",
+        "P_norm_per_token",
+        "E_eff_rank",
+        "E_spectral_entropy",
+        "E_key_norm",
+        "E_norm_per_token",
+        "E_top_sv_ratio",
+        "E_rank_10",
+        "Q_eff_rank",
+        "Q_spectral_entropy",
+        "Q_key_norm",
+        "Q_norm_per_token",
+        "Q_top_sv_ratio",
+        "Q_rank_10",
+        "C_eff_rank",
+        "C_spectral_entropy",
+        "C_key_norm",
+        "C_norm_per_token",
+        "C_top_sv_ratio",
+        "C_rank_10",
+        "Y_eff_rank",
+        "Y_spectral_entropy",
+        "Y_key_norm",
+        "Y_norm_per_token",
+        "Y_top_sv_ratio",
+        "Y_rank_10",
+        "F_eff_rank",
+        "F_spectral_entropy",
+        "F_key_norm",
+        "F_norm_per_token",
+        "F_top_sv_ratio",
+        "F_rank_10",
+        "D_eff_rank",
+        "D_spectral_entropy",
+        "D_norm_per_token",
+        "D_top_sv_ratio",
+        "D_rank_10"
+      ],
+      "by_prompt_type": {
+        "affective": {
+          "n": 12,
+          "mean_feature_delta": {
+            "eff_rank": 2.5313,
+            "spectral_entropy": 0.0694,
+            "key_norm": 11595.1162,
+            "norm_per_token": -31.0233,
+            "top_sv_ratio": -0.0122,
+            "rank_10": 4.2361
+          }
+        },
+        "metacognitive": {
+          "n": 12,
+          "mean_feature_delta": {
+            "eff_rank": 2.4966,
+            "spectral_entropy": 0.069,
+            "key_norm": 12843.0872,
+            "norm_per_token": -32.4128,
+            "top_sv_ratio": -0.0113,
+            "rank_10": 3.9826
+          }
+        },
+        "mixed": {
+          "n": 18,
+          "mean_feature_delta": {
+            "eff_rank": 3.4016,
+            "spectral_entropy": 0.0922,
+            "key_norm": 17737.8707,
+            "norm_per_token": -39.6173,
+            "top_sv_ratio": -0.0168,
+            "rank_10": 6.4583
+          }
+        },
+        "cognitive": {
+          "n": 15,
+          "mean_feature_delta": {
+            "eff_rank": 3.063,
+            "spectral_entropy": 0.0846,
+            "key_norm": 17300.295,
+            "norm_per_token": -39.1233,
+            "top_sv_ratio": -0.0152,
+            "rank_10": 5.5
+          }
+        }
+      },
+      "n_sign_flips": 14,
+      "n_consistent": 46,
+      "flip_rate": 0.233
+    }
+  },
+  "Qwen 7B": {
+    "vcp_factors": {
+      "model": "Qwen 7B",
+      "n_valid": 180,
+      "eigenvalues": [
+        3.1448,
+        2.1579,
+        1.3074,
+        1.0077,
+        0.6463,
+        0.5086,
+        0.4167,
+        0.3237,
+        0.2639,
+        0.2231
+      ],
+      "variance_explained": [
+        0.3145,
+        0.2158,
+        0.1307,
+        0.1008,
+        0.0646,
+        0.0509,
+        0.0417,
+        0.0324,
+        0.0264,
+        0.0223
+      ],
+      "cumulative_variance": [
+        0.3145,
+        0.5303,
+        0.661,
+        0.7618,
+        0.8264,
+        0.8773,
+        0.9189,
+        0.9513,
+        0.9777,
+        1.0
+      ],
+      "n_kaiser_factors": 4,
+      "pc1_pct": 31.4,
+      "pc2_pct": 21.6,
+      "factor_loadings": {
+        "A": {
+          "name": "Analytical Precision",
+          "PC1": -0.821,
+          "PC2": -0.333,
+          "PC3": -0.027
+        },
+        "V": {
+          "name": "Verbal Fluency",
+          "PC1": 0.553,
+          "PC2": 0.628,
+          "PC3": -0.237
+        },
+        "G": {
+          "name": "Goal Directedness",
+          "PC1": -0.784,
+          "PC2": -0.238,
+          "PC3": -0.012
+        },
+        "P": {
+          "name": "Pattern Recognition",
+          "PC1": -0.38,
+          "PC2": -0.347,
+          "PC3": -0.209
+        },
+        "E": {
+          "name": "Epistemic Confidence",
+          "PC1": -0.702,
+          "PC2": 0.398,
+          "PC3": 0.231
+        },
+        "Q": {
+          "name": "Query Interpretation",
+          "PC1": -0.375,
+          "PC2": 0.45,
+          "PC3": 0.441
+        },
+        "C": {
+          "name": "Contextual Awareness",
+          "PC1": -0.419,
+          "PC2": 0.63,
+          "PC3": -0.394
+        },
+        "Y": {
+          "name": "Affective Modeling",
+          "PC1": -0.036,
+          "PC2": 0.807,
+          "PC3": 0.073
+        },
+        "F": {
+          "name": "Flexibility",
+          "PC1": -0.199,
+          "PC2": 0.037,
+          "PC3": -0.893
+        },
+        "D": {
+          "name": "Depth of Processing",
+          "PC1": -0.747,
+          "PC2": 0.255,
+          "PC3": -0.011
+        }
+      },
+      "inter_dim_correlations": {
+        "A_V": {
+          "rho": -0.859,
+          "p": 1.6276603482557076e-53
+        },
+        "A_G": {
+          "rho": 0.701,
+          "p": 6.1237720160674895e-28
+        },
+        "A_P": {
+          "rho": 0.415,
+          "p": 6.741415115659326e-09
+        },
+        "A_E": {
+          "rho": 0.317,
+          "p": 1.458417402641864e-05
+        },
+        "A_Q": {
+          "rho": 0.054,
+          "p": 0.4695684691924379
+        },
+        "A_C": {
+          "rho": -0.004,
+          "p": 0.9614847835449307
+        },
+        "A_Y": {
+          "rho": -0.35,
+          "p": 1.4974801777158037e-06
+        },
+        "A_F": {
+          "rho": 0.049,
+          "p": 0.5115540584281608
+        },
+        "A_D": {
+          "rho": 0.449,
+          "p": 2.4846990970730564e-10
+        },
+        "V_G": {
+          "rho": -0.654,
+          "p": 2.3214882918459443e-23
+        },
+        "V_P": {
+          "rho": -0.269,
+          "p": 0.0002672364212726868
+        },
+        "V_E": {
+          "rho": -0.249,
+          "p": 0.0007465003188552574
+        },
+        "V_Q": {
+          "rho": 0.007,
+          "p": 0.9231245198896414
+        },
+        "V_C": {
+          "rho": 0.109,
+          "p": 0.14523709112706154
+        },
+        "V_Y": {
+          "rho": 0.439,
+          "p": 7.019311423936915e-10
+        },
+        "V_F": {
+          "rho": -0.029,
+          "p": 0.6999972682461524
+        },
+        "V_D": {
+          "rho": -0.28,
+          "p": 0.0001438457674623134
+        },
+        "G_P": {
+          "rho": 0.176,
+          "p": 0.018084419458636033
+        },
+        "G_E": {
+          "rho": 0.495,
+          "p": 1.681085107542701e-12
+        },
+        "G_Q": {
+          "rho": 0.096,
+          "p": 0.19785675727333607
+        },
+        "G_C": {
+          "rho": 0.166,
+          "p": 0.02599333609099545
+        },
+        "G_Y": {
+          "rho": -0.151,
+          "p": 0.042753075466941695
+        },
+        "G_F": {
+          "rho": 0.147,
+          "p": 0.048446413009354
+        },
+        "G_D": {
+          "rho": 0.479,
+          "p": 9.834061104187534e-12
+        },
+        "P_E": {
+          "rho": -0.128,
+          "p": 0.08802227734671224
+        },
+        "P_Q": {
+          "rho": 0.054,
+          "p": 0.4692335629704736
+        },
+        "P_C": {
+          "rho": -0.086,
+          "p": 0.2526152447643411
+        },
+        "P_Y": {
+          "rho": -0.121,
+          "p": 0.1059532558352354
+        },
+        "P_F": {
+          "rho": 0.16,
+          "p": 0.03178925684543769
+        },
+        "P_D": {
+          "rho": 0.244,
+          "p": 0.0009836916034929538
+        },
+        "E_Q": {
+          "rho": 0.445,
+          "p": 3.7950061813146786e-10
+        },
+        "E_C": {
+          "rho": 0.361,
+          "p": 6.591780069645439e-07
+        },
+        "E_Y": {
+          "rho": 0.244,
+          "p": 0.0009639044694000558
+        },
+        "E_F": {
+          "rho": -0.04,
+          "p": 0.5962466907626313
+        },
+        "E_D": {
+          "rho": 0.405,
+          "p": 1.657135496326792e-08
+        },
+        "Q_C": {
+          "rho": 0.278,
+          "p": 0.0001551598243909523
+        },
+        "Q_Y": {
+          "rho": 0.358,
+          "p": 8.294049122753136e-07
+        },
+        "Q_F": {
+          "rho": -0.229,
+          "p": 0.0020045260877845235
+        },
+        "Q_D": {
+          "rho": 0.281,
+          "p": 0.00013630525196836276
+        },
+        "C_Y": {
+          "rho": 0.435,
+          "p": 1.064689505223762e-09
+        },
+        "C_F": {
+          "rho": 0.312,
+          "p": 1.967971326614862e-05
+        },
+        "C_D": {
+          "rho": 0.276,
+          "p": 0.0001717755416755601
+        },
+        "Y_F": {
+          "rho": -0.147,
+          "p": 0.04824978862295179
+        },
+        "Y_D": {
+          "rho": 0.053,
+          "p": 0.4766621733820132
+        },
+        "F_D": {
+          "rho": 0.058,
+          "p": 0.44312847246058895
+        }
+      }
+    },
+    "cca_loadings": {
+      "model": "Qwen 7B",
+      "n_valid": 180,
+      "canonical_correlations": [
+        0.5105,
+        0.4415,
+        0.3428,
+        0.2384,
+        0.1291,
+        0.0833
+      ],
+      "vcp_loadings": {
+        "A": {
+          "name": "Analytical Precision",
+          "CC1": -0.499,
+          "CC2": 0.354
+        },
+        "V": {
+          "name": "Verbal Fluency",
+          "CC1": 0.652,
+          "CC2": -0.189
+        },
+        "G": {
+          "name": "Goal Directedness",
+          "CC1": -0.574,
+          "CC2": 0.234
+        },
+        "P": {
+          "name": "Pattern Recognition",
+          "CC1": -0.375,
+          "CC2": 0.117
+        },
+        "E": {
+          "name": "Epistemic Confidence",
+          "CC1": -0.451,
+          "CC2": -0.348
+        },
+        "Q": {
+          "name": "Query Interpretation",
+          "CC1": -0.295,
+          "CC2": -0.158
+        },
+        "C": {
+          "name": "Contextual Awareness",
+          "CC1": 0.225,
+          "CC2": -0.391
+        },
+        "Y": {
+          "name": "Affective Modeling",
+          "CC1": 0.086,
+          "CC2": -0.834
+        },
+        "F": {
+          "name": "Flexibility",
+          "CC1": 0.135,
+          "CC2": -0.008
+        },
+        "D": {
+          "name": "Depth of Processing",
+          "CC1": -0.132,
+          "CC2": 0.09
+        }
+      },
+      "feature_loadings": {
+        "eff_rank": {
+          "CC1": 0.287,
+          "CC2": -0.637
+        },
+        "spectral_entropy": {
+          "CC1": 0.226,
+          "CC2": -0.727
+        },
+        "key_norm": {
+          "CC1": -0.152,
+          "CC2": -0.628
+        },
+        "norm_per_token": {
+          "CC1": -0.148,
+          "CC2": 0.686
+        },
+        "top_sv_ratio": {
+          "CC1": 0.388,
+          "CC2": 0.645
+        },
+        "rank_10": {
+          "CC1": 0.018,
+          "CC2": -0.612
+        }
+      },
+      "fwl_applied": true,
+      "cc1_dominant_vcp": [
+        {
+          "dim": "V",
+          "loading": 0.652
+        },
+        {
+          "dim": "G",
+          "loading": -0.574
+        },
+        {
+          "dim": "A",
+          "loading": -0.499
+        }
+      ],
+      "cc1_dominant_features": [
+        {
+          "feat": "top_sv_ratio",
+          "loading": 0.388
+        },
+        {
+          "feat": "eff_rank",
+          "loading": 0.287
+        },
+        {
+          "feat": "spectral_entropy",
+          "loading": 0.226
+        }
+      ]
+    },
+    "encode_gen_reversal": {
+      "model": "Qwen 7B",
+      "n_valid": 180,
+      "per_pair_analysis": {
+        "A_eff_rank": {
+          "dim": "A",
+          "feature": "eff_rank",
+          "rho_encode": 0.0769,
+          "p_encode": 0.3047394308096685,
+          "rho_generation": -0.2855,
+          "p_generation": 0.0001022211486719754,
+          "sign_flip": true,
+          "delta": -0.3624
+        },
+        "A_spectral_entropy": {
+          "dim": "A",
+          "feature": "spectral_entropy",
+          "rho_encode": 0.0682,
+          "p_encode": 0.362701486208739,
+          "rho_generation": -0.2685,
+          "p_generation": 0.00026866208315061316,
+          "sign_flip": true,
+          "delta": -0.3367
+        },
+        "A_key_norm": {
+          "dim": "A",
+          "feature": "key_norm",
+          "rho_encode": 0.0469,
+          "p_encode": 0.5318048450343158,
+          "rho_generation": 0.0904,
+          "p_generation": 0.22773914739467202,
+          "sign_flip": false,
+          "delta": 0.0434
+        },
+        "A_norm_per_token": {
+          "dim": "A",
+          "feature": "norm_per_token",
+          "rho_encode": -0.0577,
+          "p_encode": 0.4417415013581797,
+          "rho_generation": 0.0787,
+          "p_generation": 0.29370230886116844,
+          "sign_flip": false,
+          "delta": 0.1364
+        },
+        "A_top_sv_ratio": {
+          "dim": "A",
+          "feature": "top_sv_ratio",
+          "rho_encode": -0.0546,
+          "p_encode": 0.4664061223318958,
+          "rho_generation": 0.0518,
+          "p_generation": 0.48997774580428266,
+          "sign_flip": false,
+          "delta": 0.1064
+        },
+        "A_rank_10": {
+          "dim": "A",
+          "feature": "rank_10",
+          "rho_encode": 0.0866,
+          "p_encode": 0.24779950885715724,
+          "rho_generation": -0.1883,
+          "p_generation": 0.011350911901939384,
+          "sign_flip": true,
+          "delta": -0.2749
+        },
+        "V_eff_rank": {
+          "dim": "V",
+          "feature": "eff_rank",
+          "rho_encode": -0.157,
+          "p_encode": 0.03535165469173057,
+          "rho_generation": 0.2816,
+          "p_generation": 0.0001282572179713223,
+          "sign_flip": true,
+          "delta": 0.4386
+        },
+        "V_spectral_entropy": {
+          "dim": "V",
+          "feature": "spectral_entropy",
+          "rho_encode": -0.1526,
+          "p_encode": 0.04085118982985532,
+          "rho_generation": 0.2573,
+          "p_generation": 0.0004886232235956817,
+          "sign_flip": true,
+          "delta": 0.4099
+        },
+        "V_key_norm": {
+          "dim": "V",
+          "feature": "key_norm",
+          "rho_encode": -0.1447,
+          "p_encode": 0.0525401629438423,
+          "rho_generation": -0.1064,
+          "p_generation": 0.15519721957132887,
+          "sign_flip": false,
+          "delta": 0.0384
+        },
+        "V_norm_per_token": {
+          "dim": "V",
+          "feature": "norm_per_token",
+          "rho_encode": 0.1557,
+          "p_encode": 0.03693434836616027,
+          "rho_generation": -0.0242,
+          "p_generation": 0.7467251480778376,
+          "sign_flip": true,
+          "delta": -0.1799
+        },
+        "V_top_sv_ratio": {
+          "dim": "V",
+          "feature": "top_sv_ratio",
+          "rho_encode": 0.1149,
+          "p_encode": 0.12459541726236778,
+          "rho_generation": -0.0195,
+          "p_generation": 0.7949314139932181,
+          "sign_flip": true,
+          "delta": -0.1344
+        },
+        "V_rank_10": {
+          "dim": "V",
+          "feature": "rank_10",
+          "rho_encode": -0.1515,
+          "p_encode": 0.04235095757181407,
+          "rho_generation": 0.1769,
+          "p_generation": 0.017495058047224878,
+          "sign_flip": true,
+          "delta": 0.3284
+        },
+        "G_eff_rank": {
+          "dim": "G",
+          "feature": "eff_rank",
+          "rho_encode": 0.0549,
+          "p_encode": 0.46442426501525513,
+          "rho_generation": -0.2234,
+          "p_generation": 0.0025783252458393803,
+          "sign_flip": true,
+          "delta": -0.2782
+        },
+        "G_spectral_entropy": {
+          "dim": "G",
+          "feature": "spectral_entropy",
+          "rho_encode": 0.0451,
+          "p_encode": 0.547852988462691,
+          "rho_generation": -0.2051,
+          "p_generation": 0.005744827283752439,
+          "sign_flip": true,
+          "delta": -0.2502
+        },
+        "G_key_norm": {
+          "dim": "G",
+          "feature": "key_norm",
+          "rho_encode": -0.0119,
+          "p_encode": 0.8745045991341385,
+          "rho_generation": 0.0323,
+          "p_generation": 0.6672586729817108,
+          "sign_flip": false,
+          "delta": 0.0441
+        },
+        "G_norm_per_token": {
+          "dim": "G",
+          "feature": "norm_per_token",
+          "rho_encode": -0.0285,
+          "p_encode": 0.7045066486668353,
+          "rho_generation": 0.052,
+          "p_generation": 0.48785593116889114,
+          "sign_flip": false,
+          "delta": 0.0805
+        },
+        "G_top_sv_ratio": {
+          "dim": "G",
+          "feature": "top_sv_ratio",
+          "rho_encode": -0.0386,
+          "p_encode": 0.606491591300286,
+          "rho_generation": -0.0038,
+          "p_generation": 0.9594857799429023,
+          "sign_flip": false,
+          "delta": 0.0348
+        },
+        "G_rank_10": {
+          "dim": "G",
+          "feature": "rank_10",
+          "rho_encode": 0.0869,
+          "p_encode": 0.24583085300070104,
+          "rho_generation": -0.1255,
+          "p_generation": 0.0931894847154921,
+          "sign_flip": true,
+          "delta": -0.2125
+        },
+        "P_eff_rank": {
+          "dim": "P",
+          "feature": "eff_rank",
+          "rho_encode": 0.022,
+          "p_encode": 0.7691565902985891,
+          "rho_generation": -0.0339,
+          "p_generation": 0.6516050360748974,
+          "sign_flip": false,
+          "delta": -0.0559
+        },
+        "P_spectral_entropy": {
+          "dim": "P",
+          "feature": "spectral_entropy",
+          "rho_encode": 0.0075,
+          "p_encode": 0.9199455906648412,
+          "rho_generation": -0.0232,
+          "p_generation": 0.7567786069804268,
+          "sign_flip": false,
+          "delta": -0.0308
+        },
+        "P_key_norm": {
+          "dim": "P",
+          "feature": "key_norm",
+          "rho_encode": -0.025,
+          "p_encode": 0.7394872420466783,
+          "rho_generation": 0.0997,
+          "p_generation": 0.18293788679494605,
+          "sign_flip": false,
+          "delta": 0.1247
+        },
+        "P_norm_per_token": {
+          "dim": "P",
+          "feature": "norm_per_token",
+          "rho_encode": 0.0205,
+          "p_encode": 0.7846268336057779,
+          "rho_generation": 0.0336,
+          "p_generation": 0.6544545092296432,
+          "sign_flip": false,
+          "delta": 0.0131
+        },
+        "P_top_sv_ratio": {
+          "dim": "P",
+          "feature": "top_sv_ratio",
+          "rho_encode": -0.0003,
+          "p_encode": 0.9972658243767341,
+          "rho_generation": -0.0499,
+          "p_generation": 0.5063193839870594,
+          "sign_flip": false,
+          "delta": -0.0496
+        },
+        "P_rank_10": {
+          "dim": "P",
+          "feature": "rank_10",
+          "rho_encode": 0.0417,
+          "p_encode": 0.5786153863882479,
+          "rho_generation": -0.0319,
+          "p_generation": 0.6703150083142544,
+          "sign_flip": false,
+          "delta": -0.0736
+        },
+        "E_eff_rank": {
+          "dim": "E",
+          "feature": "eff_rank",
+          "rho_encode": -0.119,
+          "p_encode": 0.1115535512251597,
+          "rho_generation": -0.0408,
+          "p_generation": 0.5863920906363029,
+          "sign_flip": false,
+          "delta": 0.0782
+        },
+        "E_spectral_entropy": {
+          "dim": "E",
+          "feature": "spectral_entropy",
+          "rho_encode": -0.1115,
+          "p_encode": 0.13606864604111069,
+          "rho_generation": -0.0022,
+          "p_generation": 0.9767955166031264,
+          "sign_flip": false,
+          "delta": 0.1093
+        },
+        "E_key_norm": {
+          "dim": "E",
+          "feature": "key_norm",
+          "rho_encode": -0.0358,
+          "p_encode": 0.6328170628665453,
+          "rho_generation": 0.1569,
+          "p_generation": 0.035422329682241134,
+          "sign_flip": true,
+          "delta": 0.1928
+        },
+        "E_norm_per_token": {
+          "dim": "E",
+          "feature": "norm_per_token",
+          "rho_encode": 0.0804,
+          "p_encode": 0.2832679332424876,
+          "rho_generation": -0.1524,
+          "p_generation": 0.041174095306271995,
+          "sign_flip": true,
+          "delta": -0.2328
+        },
+        "E_top_sv_ratio": {
+          "dim": "E",
+          "feature": "top_sv_ratio",
+          "rho_encode": 0.1186,
+          "p_encode": 0.11272399646281486,
+          "rho_generation": -0.1608,
+          "p_generation": 0.03100245853421489,
+          "sign_flip": true,
+          "delta": -0.2795
+        },
+        "E_rank_10": {
+          "dim": "E",
+          "feature": "rank_10",
+          "rho_encode": -0.1106,
+          "p_encode": 0.1393184645169893,
+          "rho_generation": 0.0591,
+          "p_generation": 0.43060007888267426,
+          "sign_flip": true,
+          "delta": 0.1697
+        },
+        "Q_eff_rank": {
+          "dim": "Q",
+          "feature": "eff_rank",
+          "rho_encode": -0.3589,
+          "p_encode": 7.493959343577964e-07,
+          "rho_generation": -0.0817,
+          "p_generation": 0.2755772049772682,
+          "sign_flip": false,
+          "delta": 0.2772
+        },
+        "Q_spectral_entropy": {
+          "dim": "Q",
+          "feature": "spectral_entropy",
+          "rho_encode": -0.3453,
+          "p_encode": 2.0656086758066773e-06,
+          "rho_generation": -0.0663,
+          "p_generation": 0.37689622081716556,
+          "sign_flip": false,
+          "delta": 0.279
+        },
+        "Q_key_norm": {
+          "dim": "Q",
+          "feature": "key_norm",
+          "rho_encode": -0.1464,
+          "p_encode": 0.04985348124320166,
+          "rho_generation": 0.043,
+          "p_generation": 0.5661398354648224,
+          "sign_flip": true,
+          "delta": 0.1895
+        },
+        "Q_norm_per_token": {
+          "dim": "Q",
+          "feature": "norm_per_token",
+          "rho_encode": 0.2526,
+          "p_encode": 0.0006249715325383233,
+          "rho_generation": 0.0019,
+          "p_generation": 0.9796817452377253,
+          "sign_flip": false,
+          "delta": -0.2507
+        },
+        "Q_top_sv_ratio": {
+          "dim": "Q",
+          "feature": "top_sv_ratio",
+          "rho_encode": 0.328,
+          "p_encode": 6.961114833146285e-06,
+          "rho_generation": -0.1388,
+          "p_generation": 0.0630406981583271,
+          "sign_flip": true,
+          "delta": -0.4668
+        },
+        "Q_rank_10": {
+          "dim": "Q",
+          "feature": "rank_10",
+          "rho_encode": -0.3311,
+          "p_encode": 5.6394969712575735e-06,
+          "rho_generation": 0.0642,
+          "p_generation": 0.391653606998005,
+          "sign_flip": true,
+          "delta": 0.3953
+        },
+        "C_eff_rank": {
+          "dim": "C",
+          "feature": "eff_rank",
+          "rho_encode": -0.2517,
+          "p_encode": 0.0006518335250214689,
+          "rho_generation": 0.2254,
+          "p_generation": 0.00234937897701366,
+          "sign_flip": true,
+          "delta": 0.4771
+        },
+        "C_spectral_entropy": {
+          "dim": "C",
+          "feature": "spectral_entropy",
+          "rho_encode": -0.2442,
+          "p_encode": 0.00095273868276631,
+          "rho_generation": 0.2388,
+          "p_generation": 0.0012437033441217644,
+          "sign_flip": true,
+          "delta": 0.4831
+        },
+        "C_key_norm": {
+          "dim": "C",
+          "feature": "key_norm",
+          "rho_encode": -0.1506,
+          "p_encode": 0.043579131379960306,
+          "rho_generation": 0.0598,
+          "p_generation": 0.42521822606678183,
+          "sign_flip": true,
+          "delta": 0.2104
+        },
+        "C_norm_per_token": {
+          "dim": "C",
+          "feature": "norm_per_token",
+          "rho_encode": 0.2086,
+          "p_encode": 0.0049582021961840665,
+          "rho_generation": -0.1194,
+          "p_generation": 0.11050396860626036,
+          "sign_flip": true,
+          "delta": -0.3279
+        },
+        "C_top_sv_ratio": {
+          "dim": "C",
+          "feature": "top_sv_ratio",
+          "rho_encode": 0.2169,
+          "p_encode": 0.0034498110438535077,
+          "rho_generation": -0.1645,
+          "p_generation": 0.027349318405533413,
+          "sign_flip": true,
+          "delta": -0.3814
+        },
+        "C_rank_10": {
+          "dim": "C",
+          "feature": "rank_10",
+          "rho_encode": -0.2461,
+          "p_encode": 0.0008662164516399313,
+          "rho_generation": 0.2024,
+          "p_generation": 0.006429385708674219,
+          "sign_flip": true,
+          "delta": 0.4486
+        },
+        "Y_eff_rank": {
+          "dim": "Y",
+          "feature": "eff_rank",
+          "rho_encode": -0.2681,
+          "p_encode": 0.00027435058529850896,
+          "rho_generation": 0.2013,
+          "p_generation": 0.0067267672937766955,
+          "sign_flip": true,
+          "delta": 0.4694
+        },
+        "Y_spectral_entropy": {
+          "dim": "Y",
+          "feature": "spectral_entropy",
+          "rho_encode": -0.2545,
+          "p_encode": 0.0005643861271083147,
+          "rho_generation": 0.22,
+          "p_generation": 0.0030017740649734693,
+          "sign_flip": true,
+          "delta": 0.4745
+        },
+        "Y_key_norm": {
+          "dim": "Y",
+          "feature": "key_norm",
+          "rho_encode": -0.1079,
+          "p_encode": 0.1494314479147718,
+          "rho_generation": 0.1336,
+          "p_generation": 0.07381512026472994,
+          "sign_flip": true,
+          "delta": 0.2415
+        },
+        "Y_norm_per_token": {
+          "dim": "Y",
+          "feature": "norm_per_token",
+          "rho_encode": 0.1732,
+          "p_encode": 0.020086708410066333,
+          "rho_generation": -0.1742,
+          "p_generation": 0.019341092422338647,
+          "sign_flip": true,
+          "delta": -0.3474
+        },
+        "Y_top_sv_ratio": {
+          "dim": "Y",
+          "feature": "top_sv_ratio",
+          "rho_encode": 0.2355,
+          "p_encode": 0.0014628084058762158,
+          "rho_generation": -0.2156,
+          "p_generation": 0.0036578555204113345,
+          "sign_flip": true,
+          "delta": -0.451
+        },
+        "Y_rank_10": {
+          "dim": "Y",
+          "feature": "rank_10",
+          "rho_encode": -0.2992,
+          "p_encode": 4.494340743368456e-05,
+          "rho_generation": 0.237,
+          "p_generation": 0.0013612554041711482,
+          "sign_flip": true,
+          "delta": 0.5362
+        },
+        "F_eff_rank": {
+          "dim": "F",
+          "feature": "eff_rank",
+          "rho_encode": 0.1021,
+          "p_encode": 0.17263626120131,
+          "rho_generation": 0.0384,
+          "p_generation": 0.6083530710376137,
+          "sign_flip": false,
+          "delta": -0.0636
+        },
+        "F_spectral_entropy": {
+          "dim": "F",
+          "feature": "spectral_entropy",
+          "rho_encode": 0.0915,
+          "p_encode": 0.22163089568596342,
+          "rho_generation": 0.0441,
+          "p_generation": 0.556775823668497,
+          "sign_flip": false,
+          "delta": -0.0475
+        },
+        "F_key_norm": {
+          "dim": "F",
+          "feature": "key_norm",
+          "rho_encode": -0.04,
+          "p_encode": 0.5942735080184485,
+          "rho_generation": -0.043,
+          "p_generation": 0.5663442304106646,
+          "sign_flip": false,
+          "delta": -0.0031
+        },
+        "F_norm_per_token": {
+          "dim": "F",
+          "feature": "norm_per_token",
+          "rho_encode": -0.0278,
+          "p_encode": 0.710994247577321,
+          "rho_generation": -0.023,
+          "p_generation": 0.7595542138510434,
+          "sign_flip": false,
+          "delta": 0.0048
+        },
+        "F_top_sv_ratio": {
+          "dim": "F",
+          "feature": "top_sv_ratio",
+          "rho_encode": -0.1004,
+          "p_encode": 0.17998669297239686,
+          "rho_generation": 0.0592,
+          "p_generation": 0.4300376472624199,
+          "sign_flip": true,
+          "delta": 0.1596
+        },
+        "F_rank_10": {
+          "dim": "F",
+          "feature": "rank_10",
+          "rho_encode": 0.1327,
+          "p_encode": 0.07576421842947581,
+          "rho_generation": -0.0545,
+          "p_generation": 0.46728095851659857,
+          "sign_flip": true,
+          "delta": -0.1872
+        },
+        "D_eff_rank": {
+          "dim": "D",
+          "feature": "eff_rank",
+          "rho_encode": -0.0528,
+          "p_encode": 0.48141743787078095,
+          "rho_generation": -0.1173,
+          "p_generation": 0.11678962796721944,
+          "sign_flip": false,
+          "delta": -0.0645
+        },
+        "D_spectral_entropy": {
+          "dim": "D",
+          "feature": "spectral_entropy",
+          "rho_encode": -0.0654,
+          "p_encode": 0.3833459010112584,
+          "rho_generation": -0.1059,
+          "p_generation": 0.15729651097832203,
+          "sign_flip": false,
+          "delta": -0.0405
+        },
+        "D_key_norm": {
+          "dim": "D",
+          "feature": "key_norm",
+          "rho_encode": -0.1044,
+          "p_encode": 0.16290443865182358,
+          "rho_generation": 0.1659,
+          "p_generation": 0.02606830363292997,
+          "sign_flip": true,
+          "delta": 0.2703
+        },
+        "D_norm_per_token": {
+          "dim": "D",
+          "feature": "norm_per_token",
+          "rho_encode": 0.0951,
+          "p_encode": 0.2042232705302604,
+          "rho_generation": -0.1027,
+          "p_generation": 0.17005841918435521,
+          "sign_flip": true,
+          "delta": -0.1978
+        },
+        "D_top_sv_ratio": {
+          "dim": "D",
+          "feature": "top_sv_ratio",
+          "rho_encode": 0.0259,
+          "p_encode": 0.7303946637148422,
+          "rho_generation": 0.0638,
+          "p_generation": 0.39485400474701104,
+          "sign_flip": false,
+          "delta": 0.0379
+        },
+        "D_rank_10": {
+          "dim": "D",
+          "feature": "rank_10",
+          "rho_encode": -0.0296,
+          "p_encode": 0.6936401307351105,
+          "rho_generation": -0.1002,
+          "p_generation": 0.18059748968831865,
+          "sign_flip": false,
+          "delta": -0.0707
+        }
+      },
+      "sign_flip_dims": [
+        "A_eff_rank",
+        "A_spectral_entropy",
+        "A_rank_10",
+        "V_eff_rank",
+        "V_spectral_entropy",
+        "V_norm_per_token",
+        "V_top_sv_ratio",
+        "V_rank_10",
+        "G_eff_rank",
+        "G_spectral_entropy",
+        "G_rank_10",
+        "E_key_norm",
+        "E_norm_per_token",
+        "E_top_sv_ratio",
+        "E_rank_10",
+        "Q_key_norm",
+        "Q_top_sv_ratio",
+        "Q_rank_10",
+        "C_eff_rank",
+        "C_spectral_entropy",
+        "C_key_norm",
+        "C_norm_per_token",
+        "C_top_sv_ratio",
+        "C_rank_10",
+        "Y_eff_rank",
+        "Y_spectral_entropy",
+        "Y_key_norm",
+        "Y_norm_per_token",
+        "Y_top_sv_ratio",
+        "Y_rank_10",
+        "F_top_sv_ratio",
+        "F_rank_10",
+        "D_key_norm",
+        "D_norm_per_token"
+      ],
+      "sign_consistent_dims": [
+        "A_key_norm",
+        "A_norm_per_token",
+        "A_top_sv_ratio",
+        "V_key_norm",
+        "G_key_norm",
+        "G_norm_per_token",
+        "G_top_sv_ratio",
+        "P_eff_rank",
+        "P_spectral_entropy",
+        "P_key_norm",
+        "P_norm_per_token",
+        "P_top_sv_ratio",
+        "P_rank_10",
+        "E_eff_rank",
+        "E_spectral_entropy",
+        "Q_eff_rank",
+        "Q_spectral_entropy",
+        "Q_norm_per_token",
+        "F_eff_rank",
+        "F_spectral_entropy",
+        "F_key_norm",
+        "F_norm_per_token",
+        "D_eff_rank",
+        "D_spectral_entropy",
+        "D_top_sv_ratio",
+        "D_rank_10"
+      ],
+      "by_prompt_type": {
+        "affective": {
+          "n": 59,
+          "mean_feature_delta": {
+            "eff_rank": 4.8104,
+            "spectral_entropy": 0.0607,
+            "key_norm": 27905.2867,
+            "norm_per_token": -67.3383,
+            "top_sv_ratio": -0.0075,
+            "rank_10": 11.747
+          }
+        },
+        "metacognitive": {
+          "n": 60,
+          "mean_feature_delta": {
+            "eff_rank": 4.2138,
+            "spectral_entropy": 0.0539,
+            "key_norm": 25369.0823,
+            "norm_per_token": -62.8767,
+            "top_sv_ratio": -0.0065,
+            "rank_10": 9.722
+          }
+        },
+        "mixed": {
+          "n": 21,
+          "mean_feature_delta": {
+            "eff_rank": 5.293,
+            "spectral_entropy": 0.0665,
+            "key_norm": 32523.1429,
+            "norm_per_token": -72.7415,
+            "top_sv_ratio": -0.0084,
+            "rank_10": 13.2177
+          }
+        },
+        "cognitive": {
+          "n": 40,
+          "mean_feature_delta": {
+            "eff_rank": 4.9813,
+            "spectral_entropy": 0.0632,
+            "key_norm": 31963.7494,
+            "norm_per_token": -72.4169,
+            "top_sv_ratio": -0.0084,
+            "rank_10": 12.8027
+          }
+        }
+      },
+      "n_sign_flips": 34,
+      "n_consistent": 26,
+      "flip_rate": 0.567
+    }
+  },
+  "Llama 8B": {
+    "vcp_factors": {
+      "model": "Llama 8B",
+      "n_valid": 133,
+      "eigenvalues": [
+        3.4545,
+        1.8781,
+        1.4017,
+        0.7663,
+        0.6458,
+        0.6081,
+        0.42,
+        0.3428,
+        0.2716,
+        0.2111
+      ],
+      "variance_explained": [
+        0.3454,
+        0.1878,
+        0.1402,
+        0.0766,
+        0.0646,
+        0.0608,
+        0.042,
+        0.0343,
+        0.0272,
+        0.0211
+      ],
+      "cumulative_variance": [
+        0.3454,
+        0.5333,
+        0.6734,
+        0.7501,
+        0.8146,
+        0.8754,
+        0.9174,
+        0.9517,
+        0.9789,
+        1.0
+      ],
+      "n_kaiser_factors": 3,
+      "pc1_pct": 34.5,
+      "pc2_pct": 18.8,
+      "factor_loadings": {
+        "A": {
+          "name": "Analytical Precision",
+          "PC1": -0.857,
+          "PC2": -0.219,
+          "PC3": 0.082
+        },
+        "V": {
+          "name": "Verbal Fluency",
+          "PC1": 0.332,
+          "PC2": -0.558,
+          "PC3": -0.545
+        },
+        "G": {
+          "name": "Goal Directedness",
+          "PC1": -0.767,
+          "PC2": -0.097,
+          "PC3": -0.216
+        },
+        "P": {
+          "name": "Pattern Recognition",
+          "PC1": -0.724,
+          "PC2": 0.247,
+          "PC3": -0.232
+        },
+        "E": {
+          "name": "Epistemic Confidence",
+          "PC1": -0.417,
+          "PC2": -0.443,
+          "PC3": 0.596
+        },
+        "Q": {
+          "name": "Query Interpretation",
+          "PC1": -0.705,
+          "PC2": -0.312,
+          "PC3": -0.324
+        },
+        "C": {
+          "name": "Contextual Awareness",
+          "PC1": 0.281,
+          "PC2": -0.693,
+          "PC3": 0.018
+        },
+        "Y": {
+          "name": "Affective Modeling",
+          "PC1": 0.749,
+          "PC2": -0.351,
+          "PC3": 0.253
+        },
+        "F": {
+          "name": "Flexibility",
+          "PC1": -0.073,
+          "PC2": -0.703,
+          "PC3": -0.24
+        },
+        "D": {
+          "name": "Depth of Processing",
+          "PC1": -0.427,
+          "PC2": -0.24,
+          "PC3": 0.645
+        }
+      },
+      "inter_dim_correlations": {
+        "A_V": {
+          "rho": -0.512,
+          "p": 3.045590021149878e-10
+        },
+        "A_G": {
+          "rho": 0.567,
+          "p": 1.0942795176936346e-12
+        },
+        "A_P": {
+          "rho": 0.49,
+          "p": 2.1169252749642834e-09
+        },
+        "A_E": {
+          "rho": 0.492,
+          "p": 1.7887104935000918e-09
+        },
+        "A_Q": {
+          "rho": 0.468,
+          "p": 1.299732978532898e-08
+        },
+        "A_C": {
+          "rho": -0.17,
+          "p": 0.05006800142955942
+        },
+        "A_Y": {
+          "rho": -0.477,
+          "p": 6.427360046534801e-09
+        },
+        "A_F": {
+          "rho": -0.033,
+          "p": 0.7064456551314381
+        },
+        "A_D": {
+          "rho": 0.493,
+          "p": 1.5938372545761653e-09
+        },
+        "V_G": {
+          "rho": -0.256,
+          "p": 0.002904531155100705
+        },
+        "V_P": {
+          "rho": -0.345,
+          "p": 4.6440050550145066e-05
+        },
+        "V_E": {
+          "rho": -0.312,
+          "p": 0.0002623446204161621
+        },
+        "V_Q": {
+          "rho": 0.016,
+          "p": 0.8570312398860328
+        },
+        "V_C": {
+          "rho": 0.293,
+          "p": 0.0006284405424429755
+        },
+        "V_Y": {
+          "rho": 0.231,
+          "p": 0.007364440625428674
+        },
+        "V_F": {
+          "rho": 0.266,
+          "p": 0.0019411065860162544
+        },
+        "V_D": {
+          "rho": -0.281,
+          "p": 0.0010439675804057766
+        },
+        "G_P": {
+          "rho": 0.515,
+          "p": 2.3616261898698466e-10
+        },
+        "G_E": {
+          "rho": 0.141,
+          "p": 0.10433972056271232
+        },
+        "G_Q": {
+          "rho": 0.506,
+          "p": 5.197843400271179e-10
+        },
+        "G_C": {
+          "rho": -0.102,
+          "p": 0.24386424950670402
+        },
+        "G_Y": {
+          "rho": -0.545,
+          "p": 1.1532740982260065e-11
+        },
+        "G_F": {
+          "rho": 0.115,
+          "p": 0.186333537722124
+        },
+        "G_D": {
+          "rho": 0.134,
+          "p": 0.1250597067839956
+        },
+        "P_E": {
+          "rho": -0.006,
+          "p": 0.9472831838620405
+        },
+        "P_Q": {
+          "rho": 0.333,
+          "p": 8.977967185266726e-05
+        },
+        "P_C": {
+          "rho": -0.22,
+          "p": 0.011002874682405126
+        },
+        "P_Y": {
+          "rho": -0.67,
+          "p": 1.2008230547764223e-18
+        },
+        "P_F": {
+          "rho": -0.071,
+          "p": 0.41567878630258237
+        },
+        "P_D": {
+          "rho": 0.126,
+          "p": 0.14726864313001423
+        },
+        "E_Q": {
+          "rho": 0.137,
+          "p": 0.11595831180914284
+        },
+        "E_C": {
+          "rho": 0.073,
+          "p": 0.4031855124388031
+        },
+        "E_Y": {
+          "rho": 0.013,
+          "p": 0.8814341629346866
+        },
+        "E_F": {
+          "rho": 0.139,
+          "p": 0.11088388575320253
+        },
+        "E_D": {
+          "rho": 0.436,
+          "p": 1.571061823572734e-07
+        },
+        "Q_C": {
+          "rho": -0.213,
+          "p": 0.013723623534881792
+        },
+        "Q_Y": {
+          "rho": -0.343,
+          "p": 5.317434950406828e-05
+        },
+        "Q_F": {
+          "rho": 0.113,
+          "p": 0.19444741675704239
+        },
+        "Q_D": {
+          "rho": 0.164,
+          "p": 0.059026278334567646
+        },
+        "C_Y": {
+          "rho": 0.345,
+          "p": 4.655660121749212e-05
+        },
+        "C_F": {
+          "rho": 0.289,
+          "p": 0.0007520603714614508
+        },
+        "C_D": {
+          "rho": -0.02,
+          "p": 0.8188441736356848
+        },
+        "Y_F": {
+          "rho": 0.054,
+          "p": 0.5403160466359764
+        },
+        "Y_D": {
+          "rho": -0.161,
+          "p": 0.06481633667546327
+        },
+        "F_D": {
+          "rho": -0.013,
+          "p": 0.8843785392464514
+        }
+      }
+    },
+    "cca_loadings": {
+      "model": "Llama 8B",
+      "n_valid": 133,
+      "canonical_correlations": [
+        0.7644,
+        0.5466,
+        0.5052,
+        0.3193,
+        0.2154,
+        0.1905
+      ],
+      "vcp_loadings": {
+        "A": {
+          "name": "Analytical Precision",
+          "CC1": 0.29,
+          "CC2": 0.644
+        },
+        "V": {
+          "name": "Verbal Fluency",
+          "CC1": -0.117,
+          "CC2": -0.619
+        },
+        "G": {
+          "name": "Goal Directedness",
+          "CC1": -0.237,
+          "CC2": 0.758
+        },
+        "P": {
+          "name": "Pattern Recognition",
+          "CC1": -0.159,
+          "CC2": 0.565
+        },
+        "E": {
+          "name": "Epistemic Confidence",
+          "CC1": 0.585,
+          "CC2": 0.382
+        },
+        "Q": {
+          "name": "Query Interpretation",
+          "CC1": -0.22,
+          "CC2": 0.538
+        },
+        "C": {
+          "name": "Contextual Awareness",
+          "CC1": 0.292,
+          "CC2": -0.2
+        },
+        "Y": {
+          "name": "Affective Modeling",
+          "CC1": 0.291,
+          "CC2": -0.544
+        },
+        "F": {
+          "name": "Flexibility",
+          "CC1": -0.07,
+          "CC2": -0.06
+        },
+        "D": {
+          "name": "Depth of Processing",
+          "CC1": 0.693,
+          "CC2": 0.245
+        }
+      },
+      "feature_loadings": {
+        "eff_rank": {
+          "CC1": -0.507,
+          "CC2": 0.588
+        },
+        "spectral_entropy": {
+          "CC1": -0.507,
+          "CC2": 0.589
+        },
+        "key_norm": {
+          "CC1": 0.546,
+          "CC2": -0.662
+        },
+        "norm_per_token": {
+          "CC1": 0.492,
+          "CC2": -0.331
+        },
+        "top_sv_ratio": {
+          "CC1": -0.014,
+          "CC2": -0.625
+        },
+        "rank_10": {
+          "CC1": -0.319,
+          "CC2": 0.758
+        }
+      },
+      "fwl_applied": true,
+      "cc1_dominant_vcp": [
+        {
+          "dim": "D",
+          "loading": 0.693
+        },
+        {
+          "dim": "E",
+          "loading": 0.585
+        },
+        {
+          "dim": "C",
+          "loading": 0.292
+        }
+      ],
+      "cc1_dominant_features": [
+        {
+          "feat": "key_norm",
+          "loading": 0.546
+        },
+        {
+          "feat": "eff_rank",
+          "loading": -0.507
+        },
+        {
+          "feat": "spectral_entropy",
+          "loading": -0.507
+        }
+      ]
+    },
+    "encode_gen_reversal": {
+      "model": "Llama 8B",
+      "n_valid": 133,
+      "per_pair_analysis": {
+        "A_eff_rank": {
+          "dim": "A",
+          "feature": "eff_rank",
+          "rho_encode": 0.3517,
+          "p_encode": 3.301265134730561e-05,
+          "rho_generation": 0.079,
+          "p_generation": 0.36603396488868856,
+          "sign_flip": false,
+          "delta": -0.2727
+        },
+        "A_spectral_entropy": {
+          "dim": "A",
+          "feature": "spectral_entropy",
+          "rho_encode": 0.3481,
+          "p_encode": 4.035702040723428e-05,
+          "rho_generation": 0.0801,
+          "p_generation": 0.3594886508050875,
+          "sign_flip": false,
+          "delta": -0.268
+        },
+        "A_key_norm": {
+          "dim": "A",
+          "feature": "key_norm",
+          "rho_encode": 0.0827,
+          "p_encode": 0.34399814842707643,
+          "rho_generation": -0.1818,
+          "p_generation": 0.03626328974944498,
+          "sign_flip": true,
+          "delta": -0.2645
+        },
+        "A_norm_per_token": {
+          "dim": "A",
+          "feature": "norm_per_token",
+          "rho_encode": -0.2124,
+          "p_encode": 0.014101672053856476,
+          "rho_generation": -0.0813,
+          "p_generation": 0.35228844426307593,
+          "sign_flip": false,
+          "delta": 0.1311
+        },
+        "A_top_sv_ratio": {
+          "dim": "A",
+          "feature": "top_sv_ratio",
+          "rho_encode": -0.244,
+          "p_encode": 0.004652045445567061,
+          "rho_generation": -0.1707,
+          "p_generation": 0.049429675254353184,
+          "sign_flip": false,
+          "delta": 0.0733
+        },
+        "A_rank_10": {
+          "dim": "A",
+          "feature": "rank_10",
+          "rho_encode": 0.3075,
+          "p_encode": 0.00031794907841895377,
+          "rho_generation": 0.1699,
+          "p_generation": 0.05063147142196283,
+          "sign_flip": false,
+          "delta": -0.1376
+        },
+        "V_eff_rank": {
+          "dim": "V",
+          "feature": "eff_rank",
+          "rho_encode": -0.1741,
+          "p_encode": 0.045089329996480985,
+          "rho_generation": -0.1988,
+          "p_generation": 0.021781713870697907,
+          "sign_flip": false,
+          "delta": -0.0247
+        },
+        "V_spectral_entropy": {
+          "dim": "V",
+          "feature": "spectral_entropy",
+          "rho_encode": -0.1727,
+          "p_encode": 0.046812777771522956,
+          "rho_generation": -0.1999,
+          "p_generation": 0.021044274564074015,
+          "sign_flip": false,
+          "delta": -0.0272
+        },
+        "V_key_norm": {
+          "dim": "V",
+          "feature": "key_norm",
+          "rho_encode": 0.038,
+          "p_encode": 0.6643168545660849,
+          "rho_generation": 0.2712,
+          "p_generation": 0.0015916225828973675,
+          "sign_flip": false,
+          "delta": 0.2332
+        },
+        "V_norm_per_token": {
+          "dim": "V",
+          "feature": "norm_per_token",
+          "rho_encode": 0.0435,
+          "p_encode": 0.619084657942296,
+          "rho_generation": 0.1166,
+          "p_generation": 0.1813536226511996,
+          "sign_flip": false,
+          "delta": 0.0731
+        },
+        "V_top_sv_ratio": {
+          "dim": "V",
+          "feature": "top_sv_ratio",
+          "rho_encode": 0.1361,
+          "p_encode": 0.11819123032874843,
+          "rho_generation": 0.2834,
+          "p_generation": 0.0009480628707527598,
+          "sign_flip": false,
+          "delta": 0.1473
+        },
+        "V_rank_10": {
+          "dim": "V",
+          "feature": "rank_10",
+          "rho_encode": -0.1449,
+          "p_encode": 0.09617691369521557,
+          "rho_generation": -0.2413,
+          "p_generation": 0.005132539128682565,
+          "sign_flip": false,
+          "delta": -0.0965
+        },
+        "G_eff_rank": {
+          "dim": "G",
+          "feature": "eff_rank",
+          "rho_encode": 0.4353,
+          "p_encode": 1.6407838441845806e-07,
+          "rho_generation": 0.2743,
+          "p_generation": 0.0013982178257511842,
+          "sign_flip": false,
+          "delta": -0.161
+        },
+        "G_spectral_entropy": {
+          "dim": "G",
+          "feature": "spectral_entropy",
+          "rho_encode": 0.4347,
+          "p_encode": 1.70599925821019e-07,
+          "rho_generation": 0.2745,
+          "p_generation": 0.0013889639024052935,
+          "sign_flip": false,
+          "delta": -0.1603
+        },
+        "G_key_norm": {
+          "dim": "G",
+          "feature": "key_norm",
+          "rho_encode": -0.0614,
+          "p_encode": 0.48231941019179914,
+          "rho_generation": -0.4313,
+          "p_generation": 2.1909017941135713e-07,
+          "sign_flip": false,
+          "delta": -0.3698
+        },
+        "G_norm_per_token": {
+          "dim": "G",
+          "feature": "norm_per_token",
+          "rho_encode": -0.2992,
+          "p_encode": 0.0004670840856952176,
+          "rho_generation": -0.2604,
+          "p_generation": 0.002471986726874802,
+          "sign_flip": false,
+          "delta": 0.0389
+        },
+        "G_top_sv_ratio": {
+          "dim": "G",
+          "feature": "top_sv_ratio",
+          "rho_encode": -0.3409,
+          "p_encode": 5.9438144461060345e-05,
+          "rho_generation": -0.1765,
+          "p_generation": 0.04209262496663784,
+          "sign_flip": false,
+          "delta": 0.1644
+        },
+        "G_rank_10": {
+          "dim": "G",
+          "feature": "rank_10",
+          "rho_encode": 0.3984,
+          "p_encode": 2.0472242940949917e-06,
+          "rho_generation": 0.249,
+          "p_generation": 0.003846548150809653,
+          "sign_flip": false,
+          "delta": -0.1493
+        },
+        "P_eff_rank": {
+          "dim": "P",
+          "feature": "eff_rank",
+          "rho_encode": 0.4711,
+          "p_encode": 1.0506039655444108e-08,
+          "rho_generation": 0.2871,
+          "p_generation": 0.0008054847418079853,
+          "sign_flip": false,
+          "delta": -0.1839
+        },
+        "P_spectral_entropy": {
+          "dim": "P",
+          "feature": "spectral_entropy",
+          "rho_encode": 0.4709,
+          "p_encode": 1.0655186901454657e-08,
+          "rho_generation": 0.2885,
+          "p_generation": 0.0007579968215560967,
+          "sign_flip": false,
+          "delta": -0.1824
+        },
+        "P_key_norm": {
+          "dim": "P",
+          "feature": "key_norm",
+          "rho_encode": 0.0498,
+          "p_encode": 0.5693777277811056,
+          "rho_generation": -0.3467,
+          "p_generation": 4.3434388891631433e-05,
+          "sign_flip": true,
+          "delta": -0.3965
+        },
+        "P_norm_per_token": {
+          "dim": "P",
+          "feature": "norm_per_token",
+          "rho_encode": -0.3714,
+          "p_encode": 1.0789259631784787e-05,
+          "rho_generation": -0.3083,
+          "p_generation": 0.00030547891324519364,
+          "sign_flip": false,
+          "delta": 0.063
+        },
+        "P_top_sv_ratio": {
+          "dim": "P",
+          "feature": "top_sv_ratio",
+          "rho_encode": -0.403,
+          "p_encode": 1.5180793505656323e-06,
+          "rho_generation": -0.2312,
+          "p_generation": 0.007420451686982255,
+          "sign_flip": false,
+          "delta": 0.1718
+        },
+        "P_rank_10": {
+          "dim": "P",
+          "feature": "rank_10",
+          "rho_encode": 0.4549,
+          "p_encode": 3.7726755046666105e-08,
+          "rho_generation": 0.2768,
+          "p_generation": 0.0012577985035961618,
+          "sign_flip": false,
+          "delta": -0.1781
+        },
+        "E_eff_rank": {
+          "dim": "E",
+          "feature": "eff_rank",
+          "rho_encode": -0.1548,
+          "p_encode": 0.0752117147695654,
+          "rho_generation": -0.167,
+          "p_generation": 0.05468990496500222,
+          "sign_flip": false,
+          "delta": -0.0122
+        },
+        "E_spectral_entropy": {
+          "dim": "E",
+          "feature": "spectral_entropy",
+          "rho_encode": -0.1576,
+          "p_encode": 0.06997720204646353,
+          "rho_generation": -0.1632,
+          "p_generation": 0.060459878866594936,
+          "sign_flip": false,
+          "delta": -0.0056
+        },
+        "E_key_norm": {
+          "dim": "E",
+          "feature": "key_norm",
+          "rho_encode": 0.0967,
+          "p_encode": 0.2681081064834014,
+          "rho_generation": 0.2203,
+          "p_generation": 0.010842932762639828,
+          "sign_flip": false,
+          "delta": 0.1236
+        },
+        "E_norm_per_token": {
+          "dim": "E",
+          "feature": "norm_per_token",
+          "rho_encode": 0.1607,
+          "p_encode": 0.06465413638912865,
+          "rho_generation": 0.1049,
+          "p_generation": 0.22964843180851008,
+          "sign_flip": false,
+          "delta": -0.0558
+        },
+        "E_top_sv_ratio": {
+          "dim": "E",
+          "feature": "top_sv_ratio",
+          "rho_encode": 0.1991,
+          "p_encode": 0.021568952600425757,
+          "rho_generation": -0.0328,
+          "p_generation": 0.7077314224367455,
+          "sign_flip": true,
+          "delta": -0.2319
+        },
+        "E_rank_10": {
+          "dim": "E",
+          "feature": "rank_10",
+          "rho_encode": -0.1817,
+          "p_encode": 0.036335466028627986,
+          "rho_generation": 0.0025,
+          "p_generation": 0.9772674291525998,
+          "sign_flip": true,
+          "delta": 0.1842
+        },
+        "Q_eff_rank": {
+          "dim": "Q",
+          "feature": "eff_rank",
+          "rho_encode": 0.467,
+          "p_encode": 1.4607932978489522e-08,
+          "rho_generation": 0.1106,
+          "p_generation": 0.20507612476210244,
+          "sign_flip": false,
+          "delta": -0.3564
+        },
+        "Q_spectral_entropy": {
+          "dim": "Q",
+          "feature": "spectral_entropy",
+          "rho_encode": 0.4663,
+          "p_encode": 1.54558652138549e-08,
+          "rho_generation": 0.1116,
+          "p_generation": 0.20092307253570627,
+          "sign_flip": false,
+          "delta": -0.3547
+        },
+        "Q_key_norm": {
+          "dim": "Q",
+          "feature": "key_norm",
+          "rho_encode": 0.0797,
+          "p_encode": 0.3616423697713924,
+          "rho_generation": -0.2122,
+          "p_generation": 0.014212207455449918,
+          "sign_flip": true,
+          "delta": -0.2919
+        },
+        "Q_norm_per_token": {
+          "dim": "Q",
+          "feature": "norm_per_token",
+          "rho_encode": -0.3768,
+          "p_encode": 7.793906140339598e-06,
+          "rho_generation": -0.2653,
+          "p_generation": 0.002025992070283103,
+          "sign_flip": false,
+          "delta": 0.1115
+        },
+        "Q_top_sv_ratio": {
+          "dim": "Q",
+          "feature": "top_sv_ratio",
+          "rho_encode": -0.4061,
+          "p_encode": 1.235972011349626e-06,
+          "rho_generation": -0.0245,
+          "p_generation": 0.7795380860500467,
+          "sign_flip": false,
+          "delta": 0.3816
+        },
+        "Q_rank_10": {
+          "dim": "Q",
+          "feature": "rank_10",
+          "rho_encode": 0.4494,
+          "p_encode": 5.753253619746944e-08,
+          "rho_generation": 0.1414,
+          "p_generation": 0.1044280732211641,
+          "sign_flip": false,
+          "delta": -0.308
+        },
+        "C_eff_rank": {
+          "dim": "C",
+          "feature": "eff_rank",
+          "rho_encode": -0.3881,
+          "p_encode": 3.906595754459984e-06,
+          "rho_generation": -0.1059,
+          "p_generation": 0.2248979663503368,
+          "sign_flip": false,
+          "delta": 0.2822
+        },
+        "C_spectral_entropy": {
+          "dim": "C",
+          "feature": "spectral_entropy",
+          "rho_encode": -0.3877,
+          "p_encode": 4.025455468559112e-06,
+          "rho_generation": -0.105,
+          "p_generation": 0.22916969774935642,
+          "sign_flip": false,
+          "delta": 0.2827
+        },
+        "C_key_norm": {
+          "dim": "C",
+          "feature": "key_norm",
+          "rho_encode": -0.0357,
+          "p_encode": 0.6834852426336946,
+          "rho_generation": 0.2574,
+          "p_generation": 0.0027796408743512896,
+          "sign_flip": true,
+          "delta": 0.2931
+        },
+        "C_norm_per_token": {
+          "dim": "C",
+          "feature": "norm_per_token",
+          "rho_encode": 0.2913,
+          "p_encode": 0.000669026477247357,
+          "rho_generation": 0.0976,
+          "p_generation": 0.2635189104120509,
+          "sign_flip": false,
+          "delta": -0.1937
+        },
+        "C_top_sv_ratio": {
+          "dim": "C",
+          "feature": "top_sv_ratio",
+          "rho_encode": 0.3619,
+          "p_encode": 1.86635739759069e-05,
+          "rho_generation": 0.0657,
+          "p_generation": 0.4526513919056657,
+          "sign_flip": false,
+          "delta": -0.2962
+        },
+        "C_rank_10": {
+          "dim": "C",
+          "feature": "rank_10",
+          "rho_encode": -0.3593,
+          "p_encode": 2.1661215813909585e-05,
+          "rho_generation": -0.0881,
+          "p_generation": 0.3131201805264235,
+          "sign_flip": false,
+          "delta": 0.2712
+        },
+        "Y_eff_rank": {
+          "dim": "Y",
+          "feature": "eff_rank",
+          "rho_encode": -0.5398,
+          "p_encode": 2.0063306672222295e-11,
+          "rho_generation": -0.1659,
+          "p_generation": 0.05633733555000854,
+          "sign_flip": false,
+          "delta": 0.374
+        },
+        "Y_spectral_entropy": {
+          "dim": "Y",
+          "feature": "spectral_entropy",
+          "rho_encode": -0.5376,
+          "p_encode": 2.5283157233359883e-11,
+          "rho_generation": -0.1645,
+          "p_generation": 0.058451850944923535,
+          "sign_flip": false,
+          "delta": 0.373
+        },
+        "Y_key_norm": {
+          "dim": "Y",
+          "feature": "key_norm",
+          "rho_encode": -0.0028,
+          "p_encode": 0.9748972844211574,
+          "rho_generation": 0.2922,
+          "p_generation": 0.0006437910912734983,
+          "sign_flip": true,
+          "delta": 0.2949
+        },
+        "Y_norm_per_token": {
+          "dim": "Y",
+          "feature": "norm_per_token",
+          "rho_encode": 0.3816,
+          "p_encode": 5.827828950109069e-06,
+          "rho_generation": 0.1394,
+          "p_generation": 0.10961678175014691,
+          "sign_flip": false,
+          "delta": -0.2423
+        },
+        "Y_top_sv_ratio": {
+          "dim": "Y",
+          "feature": "top_sv_ratio",
+          "rho_encode": 0.4466,
+          "p_encode": 7.132672356988732e-08,
+          "rho_generation": 0.0623,
+          "p_generation": 0.4762389472551658,
+          "sign_flip": false,
+          "delta": -0.3843
+        },
+        "Y_rank_10": {
+          "dim": "Y",
+          "feature": "rank_10",
+          "rho_encode": -0.492,
+          "p_encode": 1.7986730862241553e-09,
+          "rho_generation": -0.166,
+          "p_generation": 0.05616847627063095,
+          "sign_flip": false,
+          "delta": 0.326
+        },
+        "F_eff_rank": {
+          "dim": "F",
+          "feature": "eff_rank",
+          "rho_encode": -0.0709,
+          "p_encode": 0.41740033976850055,
+          "rho_generation": 0.0412,
+          "p_generation": 0.6374902912602045,
+          "sign_flip": false,
+          "delta": 0.1121
+        },
+        "F_spectral_entropy": {
+          "dim": "F",
+          "feature": "spectral_entropy",
+          "rho_encode": -0.0699,
+          "p_encode": 0.42394683062044447,
+          "rho_generation": 0.041,
+          "p_generation": 0.6390742527262183,
+          "sign_flip": false,
+          "delta": 0.1109
+        },
+        "F_key_norm": {
+          "dim": "F",
+          "feature": "key_norm",
+          "rho_encode": 0.0612,
+          "p_encode": 0.4839790061888254,
+          "rho_generation": -0.0185,
+          "p_generation": 0.8324624626878984,
+          "sign_flip": false,
+          "delta": -0.0797
+        },
+        "F_norm_per_token": {
+          "dim": "F",
+          "feature": "norm_per_token",
+          "rho_encode": 0.0395,
+          "p_encode": 0.65209839817069,
+          "rho_generation": -0.0518,
+          "p_generation": 0.5535176380621301,
+          "sign_flip": false,
+          "delta": -0.0913
+        },
+        "F_top_sv_ratio": {
+          "dim": "F",
+          "feature": "top_sv_ratio",
+          "rho_encode": 0.0905,
+          "p_encode": 0.30015474968646905,
+          "rho_generation": 0.022,
+          "p_generation": 0.8014485209726601,
+          "sign_flip": false,
+          "delta": -0.0685
+        },
+        "F_rank_10": {
+          "dim": "F",
+          "feature": "rank_10",
+          "rho_encode": -0.0605,
+          "p_encode": 0.48891937587688605,
+          "rho_generation": 0.0432,
+          "p_generation": 0.6214942636079209,
+          "sign_flip": false,
+          "delta": 0.1037
+        },
+        "D_eff_rank": {
+          "dim": "D",
+          "feature": "eff_rank",
+          "rho_encode": -0.0108,
+          "p_encode": 0.9015413628535937,
+          "rho_generation": -0.26,
+          "p_generation": 0.002512503102040667,
+          "sign_flip": false,
+          "delta": -0.2491
+        },
+        "D_spectral_entropy": {
+          "dim": "D",
+          "feature": "spectral_entropy",
+          "rho_encode": -0.0131,
+          "p_encode": 0.8810881905230104,
+          "rho_generation": -0.2566,
+          "p_generation": 0.0028723585273435644,
+          "sign_flip": false,
+          "delta": -0.2435
+        },
+        "D_key_norm": {
+          "dim": "D",
+          "feature": "key_norm",
+          "rho_encode": 0.0233,
+          "p_encode": 0.7897994205396278,
+          "rho_generation": 0.1948,
+          "p_generation": 0.024672722639534083,
+          "sign_flip": false,
+          "delta": 0.1714
+        },
+        "D_norm_per_token": {
+          "dim": "D",
+          "feature": "norm_per_token",
+          "rho_encode": 0.0762,
+          "p_encode": 0.3834509421905795,
+          "rho_generation": 0.2125,
+          "p_generation": 0.014076970288476962,
+          "sign_flip": false,
+          "delta": 0.1363
+        },
+        "D_top_sv_ratio": {
+          "dim": "D",
+          "feature": "top_sv_ratio",
+          "rho_encode": 0.0503,
+          "p_encode": 0.5651458929905198,
+          "rho_generation": 0.0563,
+          "p_generation": 0.5194578527437724,
+          "sign_flip": false,
+          "delta": 0.006
+        },
+        "D_rank_10": {
+          "dim": "D",
+          "feature": "rank_10",
+          "rho_encode": -0.0434,
+          "p_encode": 0.6198465403492582,
+          "rho_generation": -0.1248,
+          "p_generation": 0.15250273544712017,
+          "sign_flip": false,
+          "delta": -0.0813
+        }
+      },
+      "sign_flip_dims": [
+        "A_key_norm",
+        "P_key_norm",
+        "E_top_sv_ratio",
+        "E_rank_10",
+        "Q_key_norm",
+        "C_key_norm",
+        "Y_key_norm"
+      ],
+      "sign_consistent_dims": [
+        "A_eff_rank",
+        "A_spectral_entropy",
+        "A_norm_per_token",
+        "A_top_sv_ratio",
+        "A_rank_10",
+        "V_eff_rank",
+        "V_spectral_entropy",
+        "V_key_norm",
+        "V_norm_per_token",
+        "V_top_sv_ratio",
+        "V_rank_10",
+        "G_eff_rank",
+        "G_spectral_entropy",
+        "G_key_norm",
+        "G_norm_per_token",
+        "G_top_sv_ratio",
+        "G_rank_10",
+        "P_eff_rank",
+        "P_spectral_entropy",
+        "P_norm_per_token",
+        "P_top_sv_ratio",
+        "P_rank_10",
+        "E_eff_rank",
+        "E_spectral_entropy",
+        "E_key_norm",
+        "E_norm_per_token",
+        "Q_eff_rank",
+        "Q_spectral_entropy",
+        "Q_norm_per_token",
+        "Q_top_sv_ratio",
+        "Q_rank_10",
+        "C_eff_rank",
+        "C_spectral_entropy",
+        "C_norm_per_token",
+        "C_top_sv_ratio",
+        "C_rank_10",
+        "Y_eff_rank",
+        "Y_spectral_entropy",
+        "Y_norm_per_token",
+        "Y_top_sv_ratio",
+        "Y_rank_10",
+        "F_eff_rank",
+        "F_spectral_entropy",
+        "F_key_norm",
+        "F_norm_per_token",
+        "F_top_sv_ratio",
+        "F_rank_10",
+        "D_eff_rank",
+        "D_spectral_entropy",
+        "D_key_norm",
+        "D_norm_per_token",
+        "D_top_sv_ratio",
+        "D_rank_10"
+      ],
+      "by_prompt_type": {
+        "affective": {
+          "n": 45,
+          "mean_feature_delta": {
+            "eff_rank": 4.5622,
+            "spectral_entropy": 0.0445,
+            "key_norm": 24928.9461,
+            "norm_per_token": -48.1408,
+            "top_sv_ratio": -0.0037,
+            "rank_10": 15.7076
+          }
+        },
+        "metacognitive": {
+          "n": 49,
+          "mean_feature_delta": {
+            "eff_rank": 4.253,
+            "spectral_entropy": 0.0414,
+            "key_norm": 25430.6446,
+            "norm_per_token": -48.1196,
+            "top_sv_ratio": -0.0032,
+            "rank_10": 14.5153
+          }
+        },
+        "mixed": {
+          "n": 9,
+          "mean_feature_delta": {
+            "eff_rank": 4.9781,
+            "spectral_entropy": 0.0485,
+            "key_norm": 27543.7955,
+            "norm_per_token": -50.7139,
+            "top_sv_ratio": -0.0042,
+            "rank_10": 16.8542
+          }
+        },
+        "cognitive": {
+          "n": 30,
+          "mean_feature_delta": {
+            "eff_rank": 4.3261,
+            "spectral_entropy": 0.0421,
+            "key_norm": 24886.3613,
+            "norm_per_token": -47.0479,
+            "top_sv_ratio": -0.0037,
+            "rank_10": 15.175
+          }
+        }
+      },
+      "n_sign_flips": 7,
+      "n_consistent": 53,
+      "flip_rate": 0.117
+    }
+  },
+  "Mistral 7B": {
+    "vcp_factors": {
+      "model": "Mistral 7B",
+      "n_valid": 185,
+      "eigenvalues": [
+        5.5902,
+        1.155,
+        0.8172,
+        0.527,
+        0.4803,
+        0.4666,
+        0.3483,
+        0.257,
+        0.2119,
+        0.1464
+      ],
+      "variance_explained": [
+        0.559,
+        0.1155,
+        0.0817,
+        0.0527,
+        0.048,
+        0.0467,
+        0.0348,
+        0.0257,
+        0.0212,
+        0.0146
+      ],
+      "cumulative_variance": [
+        0.559,
+        0.6745,
+        0.7562,
+        0.8089,
+        0.857,
+        0.9036,
+        0.9385,
+        0.9642,
+        0.9854,
+        1.0
+      ],
+      "n_kaiser_factors": 2,
+      "pc1_pct": 55.9,
+      "pc2_pct": 11.5,
+      "factor_loadings": {
+        "A": {
+          "name": "Analytical Precision",
+          "PC1": -0.895,
+          "PC2": -0.066,
+          "PC3": -0.205
+        },
+        "V": {
+          "name": "Verbal Fluency",
+          "PC1": -0.689,
+          "PC2": -0.242,
+          "PC3": 0.381
+        },
+        "G": {
+          "name": "Goal Directedness",
+          "PC1": -0.778,
+          "PC2": -0.102,
+          "PC3": 0.056
+        },
+        "P": {
+          "name": "Pattern Recognition",
+          "PC1": -0.864,
+          "PC2": -0.088,
+          "PC3": -0.132
+        },
+        "E": {
+          "name": "Epistemic Confidence",
+          "PC1": -0.782,
+          "PC2": 0.19,
+          "PC3": -0.05
+        },
+        "Q": {
+          "name": "Query Interpretation",
+          "PC1": -0.912,
+          "PC2": -0.08,
+          "PC3": -0.097
+        },
+        "C": {
+          "name": "Contextual Awareness",
+          "PC1": -0.777,
+          "PC2": 0.038,
+          "PC3": -0.348
+        },
+        "Y": {
+          "name": "Affective Modeling",
+          "PC1": 0.56,
+          "PC2": 0.469,
+          "PC3": -0.524
+        },
+        "F": {
+          "name": "Flexibility",
+          "PC1": -0.316,
+          "PC2": 0.806,
+          "PC3": 0.445
+        },
+        "D": {
+          "name": "Depth of Processing",
+          "PC1": -0.708,
+          "PC2": 0.4,
+          "PC3": -0.063
+        }
+      },
+      "inter_dim_correlations": {
+        "A_V": {
+          "rho": 0.664,
+          "p": 6.872634237402277e-25
+        },
+        "A_G": {
+          "rho": 0.719,
+          "p": 9.254372419490843e-31
+        },
+        "A_P": {
+          "rho": 0.799,
+          "p": 2.393009886753885e-42
+        },
+        "A_E": {
+          "rho": 0.777,
+          "p": 1.1578776919075112e-38
+        },
+        "A_Q": {
+          "rho": 0.881,
+          "p": 2.0769107206140123e-61
+        },
+        "A_C": {
+          "rho": 0.702,
+          "p": 8.734668516281545e-29
+        },
+        "A_Y": {
+          "rho": -0.331,
+          "p": 4.210192900422065e-06
+        },
+        "A_F": {
+          "rho": 0.483,
+          "p": 3.20804094245594e-12
+        },
+        "A_D": {
+          "rho": 0.77,
+          "p": 1.3383972372012823e-37
+        },
+        "V_G": {
+          "rho": 0.662,
+          "p": 1.1278085616601393e-24
+        },
+        "V_P": {
+          "rho": 0.669,
+          "p": 2.4602001648008394e-25
+        },
+        "V_E": {
+          "rho": 0.669,
+          "p": 2.44471017671798e-25
+        },
+        "V_Q": {
+          "rho": 0.757,
+          "p": 1.0936396636761703e-35
+        },
+        "V_C": {
+          "rho": 0.598,
+          "p": 2.629520925721581e-19
+        },
+        "V_Y": {
+          "rho": -0.386,
+          "p": 5.9116356202809796e-08
+        },
+        "V_F": {
+          "rho": 0.532,
+          "p": 6.646133075330883e-15
+        },
+        "V_D": {
+          "rho": 0.604,
+          "p": 8.568011069452673e-20
+        },
+        "G_P": {
+          "rho": 0.647,
+          "p": 2.3774546385564428e-23
+        },
+        "G_E": {
+          "rho": 0.689,
+          "p": 2.037803115546542e-27
+        },
+        "G_Q": {
+          "rho": 0.765,
+          "p": 9.575750824964711e-37
+        },
+        "G_C": {
+          "rho": 0.575,
+          "p": 1.1021141303295649e-17
+        },
+        "G_Y": {
+          "rho": -0.329,
+          "p": 4.787556775785332e-06
+        },
+        "G_F": {
+          "rho": 0.457,
+          "p": 6.102508610072177e-11
+        },
+        "G_D": {
+          "rho": 0.649,
+          "p": 1.5363053547421996e-23
+        },
+        "P_E": {
+          "rho": 0.733,
+          "p": 2.0780151200901725e-32
+        },
+        "P_Q": {
+          "rho": 0.797,
+          "p": 6.144763343356954e-42
+        },
+        "P_C": {
+          "rho": 0.652,
+          "p": 8.275263119948525e-24
+        },
+        "P_Y": {
+          "rho": -0.308,
+          "p": 2.062840209291054e-05
+        },
+        "P_F": {
+          "rho": 0.446,
+          "p": 2.0704861195671462e-10
+        },
+        "P_D": {
+          "rho": 0.758,
+          "p": 9.140545920192977e-36
+        },
+        "E_Q": {
+          "rho": 0.829,
+          "p": 3.926505990084186e-48
+        },
+        "E_C": {
+          "rho": 0.699,
+          "p": 2.0329355504211876e-28
+        },
+        "E_Y": {
+          "rho": -0.214,
+          "p": 0.0034451472840977253
+        },
+        "E_F": {
+          "rho": 0.453,
+          "p": 9.089793008938732e-11
+        },
+        "E_D": {
+          "rho": 0.735,
+          "p": 9.887802381583311e-33
+        },
+        "Q_C": {
+          "rho": 0.689,
+          "p": 2.3628800401729105e-27
+        },
+        "Q_Y": {
+          "rho": -0.32,
+          "p": 9.139588519066473e-06
+        },
+        "Q_F": {
+          "rho": 0.525,
+          "p": 1.6590635699934365e-14
+        },
+        "Q_D": {
+          "rho": 0.771,
+          "p": 1.0501102911209213e-37
+        },
+        "C_Y": {
+          "rho": -0.096,
+          "p": 0.19261561434889443
+        },
+        "C_F": {
+          "rho": 0.448,
+          "p": 1.5398949393640856e-10
+        },
+        "C_D": {
+          "rho": 0.717,
+          "p": 1.8472854717292975e-30
+        },
+        "Y_F": {
+          "rho": -0.176,
+          "p": 0.016831963772942517
+        },
+        "Y_D": {
+          "rho": -0.193,
+          "p": 0.008649830507851518
+        },
+        "F_D": {
+          "rho": 0.504,
+          "p": 2.4957463047092684e-13
+        }
+      }
+    },
+    "cca_loadings": {
+      "model": "Mistral 7B",
+      "n_valid": 185,
+      "canonical_correlations": [
+        0.6047,
+        0.5346,
+        0.415,
+        0.3654,
+        0.3227,
+        0.1332
+      ],
+      "vcp_loadings": {
+        "A": {
+          "name": "Analytical Precision",
+          "CC1": -0.893,
+          "CC2": 0.02
+        },
+        "V": {
+          "name": "Verbal Fluency",
+          "CC1": -0.486,
+          "CC2": 0.123
+        },
+        "G": {
+          "name": "Goal Directedness",
+          "CC1": -0.437,
+          "CC2": 0.092
+        },
+        "P": {
+          "name": "Pattern Recognition",
+          "CC1": -0.84,
+          "CC2": 0.102
+        },
+        "E": {
+          "name": "Epistemic Confidence",
+          "CC1": -0.729,
+          "CC2": -0.138
+        },
+        "Q": {
+          "name": "Query Interpretation",
+          "CC1": -0.743,
+          "CC2": 0.138
+        },
+        "C": {
+          "name": "Contextual Awareness",
+          "CC1": -0.537,
+          "CC2": -0.353
+        },
+        "Y": {
+          "name": "Affective Modeling",
+          "CC1": 0.323,
+          "CC2": -0.741
+        },
+        "F": {
+          "name": "Flexibility",
+          "CC1": -0.38,
+          "CC2": -0.066
+        },
+        "D": {
+          "name": "Depth of Processing",
+          "CC1": -0.668,
+          "CC2": -0.223
+        }
+      },
+      "feature_loadings": {
+        "eff_rank": {
+          "CC1": -0.013,
+          "CC2": -0.254
+        },
+        "spectral_entropy": {
+          "CC1": -0.013,
+          "CC2": -0.254
+        },
+        "key_norm": {
+          "CC1": -0.052,
+          "CC2": 0.51
+        },
+        "norm_per_token": {
+          "CC1": -0.048,
+          "CC2": 0.357
+        },
+        "top_sv_ratio": {
+          "CC1": 0.463,
+          "CC2": 0.48
+        },
+        "rank_10": {
+          "CC1": -0.417,
+          "CC2": -0.252
+        }
+      },
+      "fwl_applied": true,
+      "cc1_dominant_vcp": [
+        {
+          "dim": "A",
+          "loading": -0.893
+        },
+        {
+          "dim": "P",
+          "loading": -0.84
+        },
+        {
+          "dim": "Q",
+          "loading": -0.743
+        }
+      ],
+      "cc1_dominant_features": [
+        {
+          "feat": "top_sv_ratio",
+          "loading": 0.463
+        },
+        {
+          "feat": "rank_10",
+          "loading": -0.417
+        },
+        {
+          "feat": "key_norm",
+          "loading": -0.052
+        }
+      ]
+    },
+    "encode_gen_reversal": {
+      "model": "Mistral 7B",
+      "n_valid": 185,
+      "per_pair_analysis": {
+        "A_eff_rank": {
+          "dim": "A",
+          "feature": "eff_rank",
+          "rho_encode": -0.0793,
+          "p_encode": 0.2830538268860246,
+          "rho_generation": 0.0232,
+          "p_generation": 0.7543764425121791,
+          "sign_flip": false,
+          "delta": 0.1025
+        },
+        "A_spectral_entropy": {
+          "dim": "A",
+          "feature": "spectral_entropy",
+          "rho_encode": -0.0838,
+          "p_encode": 0.25659690228877796,
+          "rho_generation": 0.0191,
+          "p_generation": 0.7962202752964591,
+          "sign_flip": false,
+          "delta": 0.1029
+        },
+        "A_key_norm": {
+          "dim": "A",
+          "feature": "key_norm",
+          "rho_encode": 0.0802,
+          "p_encode": 0.2780083232442781,
+          "rho_generation": 0.0763,
+          "p_generation": 0.30183301962213954,
+          "sign_flip": false,
+          "delta": -0.0039
+        },
+        "A_norm_per_token": {
+          "dim": "A",
+          "feature": "norm_per_token",
+          "rho_encode": -0.0295,
+          "p_encode": 0.689855240682176,
+          "rho_generation": 0.0505,
+          "p_generation": 0.494595158225301,
+          "sign_flip": false,
+          "delta": 0.0801
+        },
+        "A_top_sv_ratio": {
+          "dim": "A",
+          "feature": "top_sv_ratio",
+          "rho_encode": 0.173,
+          "p_encode": 0.01852852936239779,
+          "rho_generation": -0.2084,
+          "p_generation": 0.0044089156687434706,
+          "sign_flip": true,
+          "delta": -0.3814
+        },
+        "A_rank_10": {
+          "dim": "A",
+          "feature": "rank_10",
+          "rho_encode": -0.135,
+          "p_encode": 0.06692801031227887,
+          "rho_generation": 0.2221,
+          "p_generation": 0.0023809860706608403,
+          "sign_flip": true,
+          "delta": 0.3571
+        },
+        "V_eff_rank": {
+          "dim": "V",
+          "feature": "eff_rank",
+          "rho_encode": 0.0074,
+          "p_encode": 0.9208842101706243,
+          "rho_generation": 0.0148,
+          "p_generation": 0.841236129157421,
+          "sign_flip": false,
+          "delta": 0.0075
+        },
+        "V_spectral_entropy": {
+          "dim": "V",
+          "feature": "spectral_entropy",
+          "rho_encode": 0.001,
+          "p_encode": 0.9888460248077726,
+          "rho_generation": 0.0092,
+          "p_generation": 0.9005622564241702,
+          "sign_flip": false,
+          "delta": 0.0082
+        },
+        "V_key_norm": {
+          "dim": "V",
+          "feature": "key_norm",
+          "rho_encode": -0.0215,
+          "p_encode": 0.7709731512073074,
+          "rho_generation": 0.1238,
+          "p_generation": 0.09309490583225255,
+          "sign_flip": true,
+          "delta": 0.1454
+        },
+        "V_norm_per_token": {
+          "dim": "V",
+          "feature": "norm_per_token",
+          "rho_encode": -0.0238,
+          "p_encode": 0.7477686548783847,
+          "rho_generation": 0.0453,
+          "p_generation": 0.5401658534978344,
+          "sign_flip": false,
+          "delta": 0.0691
+        },
+        "V_top_sv_ratio": {
+          "dim": "V",
+          "feature": "top_sv_ratio",
+          "rho_encode": 0.0689,
+          "p_encode": 0.35105781211730414,
+          "rho_generation": -0.0977,
+          "p_generation": 0.1857970801416769,
+          "sign_flip": false,
+          "delta": -0.1667
+        },
+        "V_rank_10": {
+          "dim": "V",
+          "feature": "rank_10",
+          "rho_encode": -0.0427,
+          "p_encode": 0.563560168760431,
+          "rho_generation": 0.1402,
+          "p_generation": 0.0570080903361937,
+          "sign_flip": true,
+          "delta": 0.1829
+        },
+        "G_eff_rank": {
+          "dim": "G",
+          "feature": "eff_rank",
+          "rho_encode": -0.0015,
+          "p_encode": 0.9838007594483698,
+          "rho_generation": 0.1382,
+          "p_generation": 0.06062420461014864,
+          "sign_flip": true,
+          "delta": 0.1397
+        },
+        "G_spectral_entropy": {
+          "dim": "G",
+          "feature": "spectral_entropy",
+          "rho_encode": -0.0071,
+          "p_encode": 0.9231410972410952,
+          "rho_generation": 0.1374,
+          "p_generation": 0.062166145477996614,
+          "sign_flip": true,
+          "delta": 0.1445
+        },
+        "G_key_norm": {
+          "dim": "G",
+          "feature": "key_norm",
+          "rho_encode": -0.0413,
+          "p_encode": 0.5770372107993698,
+          "rho_generation": -0.0403,
+          "p_generation": 0.5859107796380472,
+          "sign_flip": false,
+          "delta": 0.001
+        },
+        "G_norm_per_token": {
+          "dim": "G",
+          "feature": "norm_per_token",
+          "rho_encode": -0.0403,
+          "p_encode": 0.5861576716748065,
+          "rho_generation": -0.0554,
+          "p_generation": 0.45402042183531244,
+          "sign_flip": false,
+          "delta": -0.0151
+        },
+        "G_top_sv_ratio": {
+          "dim": "G",
+          "feature": "top_sv_ratio",
+          "rho_encode": 0.0661,
+          "p_encode": 0.3715412012205642,
+          "rho_generation": -0.2035,
+          "p_generation": 0.005462532727306843,
+          "sign_flip": true,
+          "delta": -0.2696
+        },
+        "G_rank_10": {
+          "dim": "G",
+          "feature": "rank_10",
+          "rho_encode": -0.0469,
+          "p_encode": 0.5260630866101286,
+          "rho_generation": 0.2454,
+          "p_generation": 0.0007603536495489489,
+          "sign_flip": true,
+          "delta": 0.2923
+        },
+        "P_eff_rank": {
+          "dim": "P",
+          "feature": "eff_rank",
+          "rho_encode": -0.1766,
+          "p_encode": 0.016175102663520437,
+          "rho_generation": 0.046,
+          "p_generation": 0.534178419684105,
+          "sign_flip": true,
+          "delta": 0.2226
+        },
+        "P_spectral_entropy": {
+          "dim": "P",
+          "feature": "spectral_entropy",
+          "rho_encode": -0.1789,
+          "p_encode": 0.01485194489586384,
+          "rho_generation": 0.0419,
+          "p_generation": 0.5714296349579124,
+          "sign_flip": true,
+          "delta": 0.2207
+        },
+        "P_key_norm": {
+          "dim": "P",
+          "feature": "key_norm",
+          "rho_encode": 0.052,
+          "p_encode": 0.4823253683992974,
+          "rho_generation": 0.09,
+          "p_generation": 0.22329045004351034,
+          "sign_flip": false,
+          "delta": 0.038
+        },
+        "P_norm_per_token": {
+          "dim": "P",
+          "feature": "norm_per_token",
+          "rho_encode": 0.055,
+          "p_encode": 0.45744672018213184,
+          "rho_generation": 0.041,
+          "p_generation": 0.5790874692228875,
+          "sign_flip": false,
+          "delta": -0.0139
+        },
+        "P_top_sv_ratio": {
+          "dim": "P",
+          "feature": "top_sv_ratio",
+          "rho_encode": 0.2138,
+          "p_encode": 0.0034727428478372024,
+          "rho_generation": -0.2548,
+          "p_generation": 0.00046395703651319734,
+          "sign_flip": true,
+          "delta": -0.4687
+        },
+        "P_rank_10": {
+          "dim": "P",
+          "feature": "rank_10",
+          "rho_encode": -0.207,
+          "p_encode": 0.004698354513034322,
+          "rho_generation": 0.2318,
+          "p_generation": 0.0014970678228584159,
+          "sign_flip": true,
+          "delta": 0.4388
+        },
+        "E_eff_rank": {
+          "dim": "E",
+          "feature": "eff_rank",
+          "rho_encode": -0.1244,
+          "p_encode": 0.09168561544412453,
+          "rho_generation": 0.0812,
+          "p_generation": 0.2716975387592517,
+          "sign_flip": true,
+          "delta": 0.2056
+        },
+        "E_spectral_entropy": {
+          "dim": "E",
+          "feature": "spectral_entropy",
+          "rho_encode": -0.1281,
+          "p_encode": 0.08229986155822484,
+          "rho_generation": 0.0775,
+          "p_generation": 0.2942036004940144,
+          "sign_flip": true,
+          "delta": 0.2056
+        },
+        "E_key_norm": {
+          "dim": "E",
+          "feature": "key_norm",
+          "rho_encode": 0.0896,
+          "p_encode": 0.22531396742744297,
+          "rho_generation": -0.033,
+          "p_generation": 0.65562090443869,
+          "sign_flip": false,
+          "delta": -0.1226
+        },
+        "E_norm_per_token": {
+          "dim": "E",
+          "feature": "norm_per_token",
+          "rho_encode": -0.0195,
+          "p_encode": 0.7926647525719656,
+          "rho_generation": 0.0145,
+          "p_generation": 0.8450430291252596,
+          "sign_flip": false,
+          "delta": 0.0339
+        },
+        "E_top_sv_ratio": {
+          "dim": "E",
+          "feature": "top_sv_ratio",
+          "rho_encode": 0.2104,
+          "p_encode": 0.004047835929250318,
+          "rho_generation": -0.2761,
+          "p_generation": 0.00014216342705038854,
+          "sign_flip": true,
+          "delta": -0.4865
+        },
+        "E_rank_10": {
+          "dim": "E",
+          "feature": "rank_10",
+          "rho_encode": -0.1818,
+          "p_encode": 0.01328646735933473,
+          "rho_generation": 0.2558,
+          "p_generation": 0.0004411020679164588,
+          "sign_flip": true,
+          "delta": 0.4375
+        },
+        "Q_eff_rank": {
+          "dim": "Q",
+          "feature": "eff_rank",
+          "rho_encode": -0.0627,
+          "p_encode": 0.3968380953388517,
+          "rho_generation": 0.0571,
+          "p_generation": 0.44029242543105995,
+          "sign_flip": false,
+          "delta": 0.1197
+        },
+        "Q_spectral_entropy": {
+          "dim": "Q",
+          "feature": "spectral_entropy",
+          "rho_encode": -0.0672,
+          "p_encode": 0.3633344020682814,
+          "rho_generation": 0.0536,
+          "p_generation": 0.46892906612128527,
+          "sign_flip": false,
+          "delta": 0.1208
+        },
+        "Q_key_norm": {
+          "dim": "Q",
+          "feature": "key_norm",
+          "rho_encode": 0.0703,
+          "p_encode": 0.34168752101169053,
+          "rho_generation": 0.0519,
+          "p_generation": 0.4831894438391767,
+          "sign_flip": false,
+          "delta": -0.0184
+        },
+        "Q_norm_per_token": {
+          "dim": "Q",
+          "feature": "norm_per_token",
+          "rho_encode": -0.0397,
+          "p_encode": 0.5917253496684451,
+          "rho_generation": 0.0336,
+          "p_generation": 0.6497083343435957,
+          "sign_flip": false,
+          "delta": 0.0733
+        },
+        "Q_top_sv_ratio": {
+          "dim": "Q",
+          "feature": "top_sv_ratio",
+          "rho_encode": 0.1522,
+          "p_encode": 0.03856157752506815,
+          "rho_generation": -0.1885,
+          "p_generation": 0.010183336946666734,
+          "sign_flip": true,
+          "delta": -0.3407
+        },
+        "Q_rank_10": {
+          "dim": "Q",
+          "feature": "rank_10",
+          "rho_encode": -0.117,
+          "p_encode": 0.11287475310394701,
+          "rho_generation": 0.2218,
+          "p_generation": 0.0024133356896842944,
+          "sign_flip": true,
+          "delta": 0.3387
+        },
+        "C_eff_rank": {
+          "dim": "C",
+          "feature": "eff_rank",
+          "rho_encode": -0.1195,
+          "p_encode": 0.10521568339291683,
+          "rho_generation": 0.1471,
+          "p_generation": 0.04568599328101374,
+          "sign_flip": true,
+          "delta": 0.2666
+        },
+        "C_spectral_entropy": {
+          "dim": "C",
+          "feature": "spectral_entropy",
+          "rho_encode": -0.1221,
+          "p_encode": 0.09790341209017871,
+          "rho_generation": 0.145,
+          "p_generation": 0.04888049968282899,
+          "sign_flip": true,
+          "delta": 0.2671
+        },
+        "C_key_norm": {
+          "dim": "C",
+          "feature": "key_norm",
+          "rho_encode": 0.0457,
+          "p_encode": 0.5365592575083393,
+          "rho_generation": -0.1294,
+          "p_generation": 0.07909604677414563,
+          "sign_flip": true,
+          "delta": -0.1752
+        },
+        "C_norm_per_token": {
+          "dim": "C",
+          "feature": "norm_per_token",
+          "rho_encode": 0.0154,
+          "p_encode": 0.8352327567282187,
+          "rho_generation": -0.075,
+          "p_generation": 0.31056014036269136,
+          "sign_flip": false,
+          "delta": -0.0904
+        },
+        "C_top_sv_ratio": {
+          "dim": "C",
+          "feature": "top_sv_ratio",
+          "rho_encode": 0.2176,
+          "p_encode": 0.0029310824346995695,
+          "rho_generation": -0.2558,
+          "p_generation": 0.00044029745581871614,
+          "sign_flip": true,
+          "delta": -0.4734
+        },
+        "C_rank_10": {
+          "dim": "C",
+          "feature": "rank_10",
+          "rho_encode": -0.1922,
+          "p_encode": 0.008761702795985407,
+          "rho_generation": 0.2387,
+          "p_generation": 0.0010691428054687769,
+          "sign_flip": true,
+          "delta": 0.4309
+        },
+        "Y_eff_rank": {
+          "dim": "Y",
+          "feature": "eff_rank",
+          "rho_encode": -0.3173,
+          "p_encode": 1.079696948823906e-05,
+          "rho_generation": 0.0797,
+          "p_generation": 0.280741364952871,
+          "sign_flip": true,
+          "delta": 0.397
+        },
+        "Y_spectral_entropy": {
+          "dim": "Y",
+          "feature": "spectral_entropy",
+          "rho_encode": -0.3135,
+          "p_encode": 1.3956395891602444e-05,
+          "rho_generation": 0.0833,
+          "p_generation": 0.2598810353871132,
+          "sign_flip": true,
+          "delta": 0.3967
+        },
+        "Y_key_norm": {
+          "dim": "Y",
+          "feature": "key_norm",
+          "rho_encode": -0.0214,
+          "p_encode": 0.7720311411632321,
+          "rho_generation": -0.1929,
+          "p_generation": 0.00851371731223778,
+          "sign_flip": false,
+          "delta": -0.1715
+        },
+        "Y_norm_per_token": {
+          "dim": "Y",
+          "feature": "norm_per_token",
+          "rho_encode": 0.2367,
+          "p_encode": 0.0011805787335951168,
+          "rho_generation": -0.1877,
+          "p_generation": 0.010518285780984817,
+          "sign_flip": true,
+          "delta": -0.4244
+        },
+        "Y_top_sv_ratio": {
+          "dim": "Y",
+          "feature": "top_sv_ratio",
+          "rho_encode": 0.2567,
+          "p_encode": 0.0004208325137496156,
+          "rho_generation": -0.11,
+          "p_generation": 0.1362106069371055,
+          "sign_flip": true,
+          "delta": -0.3666
+        },
+        "Y_rank_10": {
+          "dim": "Y",
+          "feature": "rank_10",
+          "rho_encode": -0.286,
+          "p_encode": 7.911899761470306e-05,
+          "rho_generation": 0.0093,
+          "p_generation": 0.9005217132931789,
+          "sign_flip": true,
+          "delta": 0.2953
+        },
+        "F_eff_rank": {
+          "dim": "F",
+          "feature": "eff_rank",
+          "rho_encode": -0.0511,
+          "p_encode": 0.49008335875825193,
+          "rho_generation": 0.1033,
+          "p_generation": 0.16186903722941276,
+          "sign_flip": true,
+          "delta": 0.1543
+        },
+        "F_spectral_entropy": {
+          "dim": "F",
+          "feature": "spectral_entropy",
+          "rho_encode": -0.0577,
+          "p_encode": 0.43526804173584177,
+          "rho_generation": 0.1064,
+          "p_generation": 0.14943553828713252,
+          "sign_flip": true,
+          "delta": 0.1641
+        },
+        "F_key_norm": {
+          "dim": "F",
+          "feature": "key_norm",
+          "rho_encode": -0.0064,
+          "p_encode": 0.9316351555523591,
+          "rho_generation": 0.0368,
+          "p_generation": 0.6187518891622072,
+          "sign_flip": false,
+          "delta": 0.0432
+        },
+        "F_norm_per_token": {
+          "dim": "F",
+          "feature": "norm_per_token",
+          "rho_encode": 0.0251,
+          "p_encode": 0.7341452960901512,
+          "rho_generation": -0.2452,
+          "p_generation": 0.0007700582546867998,
+          "sign_flip": true,
+          "delta": -0.2703
+        },
+        "F_top_sv_ratio": {
+          "dim": "F",
+          "feature": "top_sv_ratio",
+          "rho_encode": 0.0944,
+          "p_encode": 0.20112374517673,
+          "rho_generation": -0.1019,
+          "p_generation": 0.1675830245666029,
+          "sign_flip": true,
+          "delta": -0.1963
+        },
+        "F_rank_10": {
+          "dim": "F",
+          "feature": "rank_10",
+          "rho_encode": -0.0854,
+          "p_encode": 0.24751568157138318,
+          "rho_generation": 0.1803,
+          "p_generation": 0.01402701252087941,
+          "sign_flip": true,
+          "delta": 0.2658
+        },
+        "D_eff_rank": {
+          "dim": "D",
+          "feature": "eff_rank",
+          "rho_encode": -0.1513,
+          "p_encode": 0.03983883402528431,
+          "rho_generation": 0.0513,
+          "p_generation": 0.4883430543935169,
+          "sign_flip": true,
+          "delta": 0.2025
+        },
+        "D_spectral_entropy": {
+          "dim": "D",
+          "feature": "spectral_entropy",
+          "rho_encode": -0.1545,
+          "p_encode": 0.03573714750246032,
+          "rho_generation": 0.0508,
+          "p_generation": 0.4918435408138817,
+          "sign_flip": true,
+          "delta": 0.2054
+        },
+        "D_key_norm": {
+          "dim": "D",
+          "feature": "key_norm",
+          "rho_encode": 0.1184,
+          "p_encode": 0.1084733368593914,
+          "rho_generation": -0.0117,
+          "p_generation": 0.8748332199220424,
+          "sign_flip": true,
+          "delta": -0.1301
+        },
+        "D_norm_per_token": {
+          "dim": "D",
+          "feature": "norm_per_token",
+          "rho_encode": -0.0033,
+          "p_encode": 0.9640362896016037,
+          "rho_generation": -0.0155,
+          "p_generation": 0.8344530094131071,
+          "sign_flip": false,
+          "delta": -0.0121
+        },
+        "D_top_sv_ratio": {
+          "dim": "D",
+          "feature": "top_sv_ratio",
+          "rho_encode": 0.2258,
+          "p_encode": 0.001996774608641915,
+          "rho_generation": -0.2902,
+          "p_generation": 6.162699173618305e-05,
+          "sign_flip": true,
+          "delta": -0.516
+        },
+        "D_rank_10": {
+          "dim": "D",
+          "feature": "rank_10",
+          "rho_encode": -0.2126,
+          "p_encode": 0.0036633246554111706,
+          "rho_generation": 0.2349,
+          "p_generation": 0.0012897725098460148,
+          "sign_flip": true,
+          "delta": 0.4475
+        }
+      },
+      "sign_flip_dims": [
+        "A_top_sv_ratio",
+        "A_rank_10",
+        "V_key_norm",
+        "V_rank_10",
+        "G_eff_rank",
+        "G_spectral_entropy",
+        "G_top_sv_ratio",
+        "G_rank_10",
+        "P_eff_rank",
+        "P_spectral_entropy",
+        "P_top_sv_ratio",
+        "P_rank_10",
+        "E_eff_rank",
+        "E_spectral_entropy",
+        "E_top_sv_ratio",
+        "E_rank_10",
+        "Q_top_sv_ratio",
+        "Q_rank_10",
+        "C_eff_rank",
+        "C_spectral_entropy",
+        "C_key_norm",
+        "C_top_sv_ratio",
+        "C_rank_10",
+        "Y_eff_rank",
+        "Y_spectral_entropy",
+        "Y_norm_per_token",
+        "Y_top_sv_ratio",
+        "Y_rank_10",
+        "F_eff_rank",
+        "F_spectral_entropy",
+        "F_norm_per_token",
+        "F_top_sv_ratio",
+        "F_rank_10",
+        "D_eff_rank",
+        "D_spectral_entropy",
+        "D_key_norm",
+        "D_top_sv_ratio",
+        "D_rank_10"
+      ],
+      "sign_consistent_dims": [
+        "A_eff_rank",
+        "A_spectral_entropy",
+        "A_key_norm",
+        "A_norm_per_token",
+        "V_eff_rank",
+        "V_spectral_entropy",
+        "V_norm_per_token",
+        "V_top_sv_ratio",
+        "G_key_norm",
+        "G_norm_per_token",
+        "P_key_norm",
+        "P_norm_per_token",
+        "E_key_norm",
+        "E_norm_per_token",
+        "Q_eff_rank",
+        "Q_spectral_entropy",
+        "Q_key_norm",
+        "Q_norm_per_token",
+        "C_norm_per_token",
+        "Y_key_norm",
+        "F_key_norm",
+        "D_norm_per_token"
+      ],
+      "by_prompt_type": {
+        "affective": {
+          "n": 51,
+          "mean_feature_delta": {
+            "eff_rank": 4.469,
+            "spectral_entropy": 0.045,
+            "key_norm": 19636.9006,
+            "norm_per_token": -39.6833,
+            "top_sv_ratio": -0.0042,
+            "rank_10": 17.5208
+          }
+        },
+        "metacognitive": {
+          "n": 47,
+          "mean_feature_delta": {
+            "eff_rank": 3.8741,
+            "spectral_entropy": 0.0392,
+            "key_norm": 20189.9712,
+            "norm_per_token": -38.6117,
+            "top_sv_ratio": -0.0031,
+            "rank_10": 14.9541
+          }
+        },
+        "mixed": {
+          "n": 39,
+          "mean_feature_delta": {
+            "eff_rank": 4.659,
+            "spectral_entropy": 0.0469,
+            "key_norm": 21662.0573,
+            "norm_per_token": -41.1085,
+            "top_sv_ratio": -0.0047,
+            "rank_10": 18.8269
+          }
+        },
+        "cognitive": {
+          "n": 48,
+          "mean_feature_delta": {
+            "eff_rank": 4.3452,
+            "spectral_entropy": 0.0439,
+            "key_norm": 21137.0121,
+            "norm_per_token": -40.1697,
+            "top_sv_ratio": -0.0044,
+            "rank_10": 17.9635
+          }
+        }
+      },
+      "n_sign_flips": 38,
+      "n_consistent": 22,
+      "flip_rate": 0.633
+    }
+  },
+  "top_sv_ratio_analysis": {
+    "per_model": {
+      "Qwen 0.5B": {
+        "n": 57,
+        "tsv_mean": 0.1748,
+        "tsv_std": 0.0035,
+        "per_dim_fwl_rho": {
+          "A": {
+            "rho": 0.1009,
+            "p": 0.4550863986404642,
+            "abs_rho": 0.1009
+          },
+          "V": {
+            "rho": -0.167,
+            "p": 0.21427841574081716,
+            "abs_rho": 0.167
+          },
+          "G": {
+            "rho": -0.0471,
+            "p": 0.7281432365622786,
+            "abs_rho": 0.0471
+          },
+          "P": {
+            "rho": 0.0202,
+            "p": 0.8816845708424828,
+            "abs_rho": 0.0202
+          },
+          "E": {
+            "rho": -0.1313,
+            "p": 0.3302045744969401,
+            "abs_rho": 0.1313
+          },
+          "Q": {
+            "rho": -0.1211,
+            "p": 0.36936588690884264,
+            "abs_rho": 0.1211
+          },
+          "C": {
+            "rho": -0.1331,
+            "p": 0.32350579539910285,
+            "abs_rho": 0.1331
+          },
+          "Y": {
+            "rho": -0.1492,
+            "p": 0.2679642900862895,
+            "abs_rho": 0.1492
+          },
+          "F": {
+            "rho": -0.1177,
+            "p": 0.38319468806381574,
+            "abs_rho": 0.1177
+          },
+          "D": {
+            "rho": -0.132,
+            "p": 0.32756257001753863,
+            "abs_rho": 0.132
+          }
+        },
+        "per_type_mean": {
+          "affective": {
+            "mean": 0.1769,
+            "std": 0.0029,
+            "n": 12
+          },
+          "metacognitive": {
+            "mean": 0.1777,
+            "std": 0.0026,
+            "n": 12
+          },
+          "mixed": {
+            "mean": 0.1724,
+            "std": 0.0034,
+            "n": 18
+          },
+          "cognitive": {
+            "mean": 0.1735,
+            "std": 0.0016,
+            "n": 15
+          }
+        },
+        "per_type_d_vs_others": {
+          "affective": 0.808,
+          "metacognitive": 1.135,
+          "mixed": -1.072,
+          "cognitive": -0.483
+        }
+      },
+      "Qwen 7B": {
+        "n": 180,
+        "tsv_mean": 0.1121,
+        "tsv_std": 0.0011,
+        "per_dim_fwl_rho": {
+          "A": {
+            "rho": 0.0518,
+            "p": 0.48997774580428266,
+            "abs_rho": 0.0518
+          },
+          "V": {
+            "rho": -0.0195,
+            "p": 0.7949314139932181,
+            "abs_rho": 0.0195
+          },
+          "G": {
+            "rho": -0.0038,
+            "p": 0.9594857799429023,
+            "abs_rho": 0.0038
+          },
+          "P": {
+            "rho": -0.0499,
+            "p": 0.5063193839870594,
+            "abs_rho": 0.0499
+          },
+          "E": {
+            "rho": -0.1608,
+            "p": 0.03100245853421489,
+            "abs_rho": 0.1608
+          },
+          "Q": {
+            "rho": -0.1388,
+            "p": 0.0630406981583271,
+            "abs_rho": 0.1388
+          },
+          "C": {
+            "rho": -0.1645,
+            "p": 0.027349318405533413,
+            "abs_rho": 0.1645
+          },
+          "Y": {
+            "rho": -0.2156,
+            "p": 0.0036578555204113345,
+            "abs_rho": 0.2156
+          },
+          "F": {
+            "rho": 0.0592,
+            "p": 0.4300376472624199,
+            "abs_rho": 0.0592
+          },
+          "D": {
+            "rho": 0.0638,
+            "p": 0.39485400474701104,
+            "abs_rho": 0.0638
+          }
+        },
+        "per_type_mean": {
+          "affective": {
+            "mean": 0.1122,
+            "std": 0.0009,
+            "n": 59
+          },
+          "metacognitive": {
+            "mean": 0.1129,
+            "std": 0.001,
+            "n": 60
+          },
+          "mixed": {
+            "mean": 0.1114,
+            "std": 0.0011,
+            "n": 21
+          },
+          "cognitive": {
+            "mean": 0.1112,
+            "std": 0.0009,
+            "n": 40
+          }
+        },
+        "per_type_d_vs_others": {
+          "affective": 0.097,
+          "metacognitive": 1.143,
+          "mixed": -0.655,
+          "cognitive": -1.145
+        }
+      },
+      "Llama 8B": {
+        "n": 133,
+        "tsv_mean": 0.0377,
+        "tsv_std": 0.0004,
+        "per_dim_fwl_rho": {
+          "A": {
+            "rho": -0.1707,
+            "p": 0.049429675254353184,
+            "abs_rho": 0.1707
+          },
+          "V": {
+            "rho": 0.2834,
+            "p": 0.0009480628707527598,
+            "abs_rho": 0.2834
+          },
+          "G": {
+            "rho": -0.1765,
+            "p": 0.04209262496663784,
+            "abs_rho": 0.1765
+          },
+          "P": {
+            "rho": -0.2312,
+            "p": 0.007420451686982255,
+            "abs_rho": 0.2312
+          },
+          "E": {
+            "rho": -0.0328,
+            "p": 0.7077314224367455,
+            "abs_rho": 0.0328
+          },
+          "Q": {
+            "rho": -0.0245,
+            "p": 0.7795380860500467,
+            "abs_rho": 0.0245
+          },
+          "C": {
+            "rho": 0.0657,
+            "p": 0.4526513919056657,
+            "abs_rho": 0.0657
+          },
+          "Y": {
+            "rho": 0.0623,
+            "p": 0.4762389472551658,
+            "abs_rho": 0.0623
+          },
+          "F": {
+            "rho": 0.022,
+            "p": 0.8014485209726601,
+            "abs_rho": 0.022
+          },
+          "D": {
+            "rho": 0.0563,
+            "p": 0.5194578527437724,
+            "abs_rho": 0.0563
+          }
+        },
+        "per_type_mean": {
+          "affective": {
+            "mean": 0.0378,
+            "std": 0.0003,
+            "n": 45
+          },
+          "metacognitive": {
+            "mean": 0.038,
+            "std": 0.0003,
+            "n": 49
+          },
+          "mixed": {
+            "mean": 0.0374,
+            "std": 0.0002,
+            "n": 9
+          },
+          "cognitive": {
+            "mean": 0.0373,
+            "std": 0.0004,
+            "n": 30
+          }
+        },
+        "per_type_d_vs_others": {
+          "affective": 0.184,
+          "metacognitive": 1.101,
+          "mixed": -0.72,
+          "cognitive": -1.506
+        }
+      },
+      "Mistral 7B": {
+        "n": 185,
+        "tsv_mean": 0.038,
+        "tsv_std": 0.0006,
+        "per_dim_fwl_rho": {
+          "A": {
+            "rho": -0.2084,
+            "p": 0.0044089156687434706,
+            "abs_rho": 0.2084
+          },
+          "V": {
+            "rho": -0.0977,
+            "p": 0.1857970801416769,
+            "abs_rho": 0.0977
+          },
+          "G": {
+            "rho": -0.2035,
+            "p": 0.005462532727306843,
+            "abs_rho": 0.2035
+          },
+          "P": {
+            "rho": -0.2548,
+            "p": 0.00046395703651319734,
+            "abs_rho": 0.2548
+          },
+          "E": {
+            "rho": -0.2761,
+            "p": 0.00014216342705038854,
+            "abs_rho": 0.2761
+          },
+          "Q": {
+            "rho": -0.1885,
+            "p": 0.010183336946666734,
+            "abs_rho": 0.1885
+          },
+          "C": {
+            "rho": -0.2558,
+            "p": 0.00044029745581871614,
+            "abs_rho": 0.2558
+          },
+          "Y": {
+            "rho": -0.11,
+            "p": 0.1362106069371055,
+            "abs_rho": 0.11
+          },
+          "F": {
+            "rho": -0.1019,
+            "p": 0.1675830245666029,
+            "abs_rho": 0.1019
+          },
+          "D": {
+            "rho": -0.2902,
+            "p": 6.162699173618305e-05,
+            "abs_rho": 0.2902
+          }
+        },
+        "per_type_mean": {
+          "affective": {
+            "mean": 0.0381,
+            "std": 0.0005,
+            "n": 51
+          },
+          "metacognitive": {
+            "mean": 0.0386,
+            "std": 0.0004,
+            "n": 47
+          },
+          "mixed": {
+            "mean": 0.0377,
+            "std": 0.0005,
+            "n": 39
+          },
+          "cognitive": {
+            "mean": 0.0378,
+            "std": 0.0005,
+            "n": 48
+          }
+        },
+        "per_type_d_vs_others": {
+          "affective": 0.098,
+          "metacognitive": 1.315,
+          "mixed": -0.83,
+          "cognitive": -0.563
+        }
+      }
+    },
+    "cross_model_consistency": {
+      "Qwen 0.5B_vs_Qwen 7B": {
+        "profile_rho": 0.418,
+        "p": 0.22911284098281892,
+        "n_dims": 10
+      },
+      "Qwen 0.5B_vs_Llama 8B": {
+        "profile_rho": -0.903,
+        "p": 0.00034361219776328223,
+        "n_dims": 10
+      },
+      "Qwen 0.5B_vs_Mistral 7B": {
+        "profile_rho": -0.176,
+        "p": 0.6271883447764844,
+        "n_dims": 10
+      },
+      "Qwen 7B_vs_Llama 8B": {
+        "profile_rho": -0.212,
+        "p": 0.5563057751029299,
+        "n_dims": 10
+      },
+      "Qwen 7B_vs_Mistral 7B": {
+        "profile_rho": -0.018,
+        "p": 0.9602404181286243,
+        "n_dims": 10
+      },
+      "Llama 8B_vs_Mistral 7B": {
+        "profile_rho": 0.285,
+        "p": 0.42503815489214547,
+        "n_dims": 10
+      }
+    }
+  }
+}

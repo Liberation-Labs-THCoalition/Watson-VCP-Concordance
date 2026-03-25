@@ -1,0 +1,1642 @@
+{
+  "Qwen 0.5B": {
+    "per_type_reversal": {
+      "affective": {
+        "n": 12,
+        "flips": 25,
+        "total": 60,
+        "flip_rate": 0.417,
+        "gains": 46,
+        "losses": 14,
+        "top_gains": [
+          [
+            "E",
+            "norm_per_token",
+            -0.06293706293706294,
+            -0.7342657342657343
+          ],
+          [
+            "D",
+            "norm_per_token",
+            0.08391608391608392,
+            0.7132867132867133
+          ],
+          [
+            "D",
+            "key_norm",
+            -0.06993006993006995,
+            -0.6923076923076924
+          ],
+          [
+            "E",
+            "key_norm",
+            0.055944055944055944,
+            0.6713286713286714
+          ],
+          [
+            "F",
+            "spectral_entropy",
+            0.04895104895104895,
+            0.5524475524475525
+          ]
+        ],
+        "top_losses": [
+          [
+            "V",
+            "norm_per_token",
+            -0.34965034965034975,
+            0.1188811188811189
+          ],
+          [
+            "G",
+            "norm_per_token",
+            -0.27272727272727276,
+            0.15384615384615385
+          ],
+          [
+            "P",
+            "norm_per_token",
+            -0.27272727272727276,
+            0.15384615384615385
+          ],
+          [
+            "A",
+            "norm_per_token",
+            -0.30069930069930073,
+            0.20979020979020982
+          ],
+          [
+            "C",
+            "key_norm",
+            0.2027972027972028,
+            0.1188811188811189
+          ]
+        ]
+      },
+      "cognitive": {
+        "n": 15,
+        "flips": 8,
+        "total": 60,
+        "flip_rate": 0.133,
+        "gains": 15,
+        "losses": 45,
+        "top_gains": [
+          [
+            "V",
+            "key_norm",
+            -0.08928571428571427,
+            0.33571428571428563
+          ],
+          [
+            "D",
+            "key_norm",
+            0.12142857142857141,
+            0.33571428571428563
+          ],
+          [
+            "A",
+            "key_norm",
+            0.15714285714285714,
+            -0.35
+          ],
+          [
+            "D",
+            "norm_per_token",
+            -0.11428571428571425,
+            -0.2964285714285714
+          ],
+          [
+            "P",
+            "norm_per_token",
+            -0.3857142857142856,
+            -0.5464285714285714
+          ]
+        ],
+        "top_losses": [
+          [
+            "A",
+            "rank_10",
+            0.4964285714285714,
+            0.08214285714285713
+          ],
+          [
+            "C",
+            "top_sv_ratio",
+            -0.42142857142857143,
+            -0.0964285714285714
+          ],
+          [
+            "Y",
+            "top_sv_ratio",
+            -0.42142857142857143,
+            -0.0964285714285714
+          ],
+          [
+            "A",
+            "spectral_entropy",
+            0.4142857142857142,
+            0.0964285714285714
+          ],
+          [
+            "F",
+            "eff_rank",
+            0.36428571428571427,
+            0.06785714285714285
+          ]
+        ]
+      },
+      "metacognitive": {
+        "n": 12,
+        "flips": 48,
+        "total": 60,
+        "flip_rate": 0.8,
+        "gains": 17,
+        "losses": 43,
+        "top_gains": [
+          [
+            "E",
+            "norm_per_token",
+            -0.20979020979020982,
+            0.4825174825174825
+          ],
+          [
+            "Q",
+            "norm_per_token",
+            -0.20979020979020982,
+            0.4825174825174825
+          ],
+          [
+            "P",
+            "norm_per_token",
+            -0.2797202797202798,
+            0.4545454545454546
+          ],
+          [
+            "F",
+            "key_norm",
+            0.06993006993006995,
+            -0.20979020979020982
+          ],
+          [
+            "E",
+            "rank_10",
+            0.1258741258741259,
+            -0.2517482517482518
+          ]
+        ],
+        "top_losses": [
+          [
+            "F",
+            "rank_10",
+            0.7692307692307694,
+            -0.06293706293706294
+          ],
+          [
+            "F",
+            "top_sv_ratio",
+            -0.6153846153846154,
+            0.013986013986013986
+          ],
+          [
+            "V",
+            "top_sv_ratio",
+            0.7062937062937064,
+            -0.1188811188811189
+          ],
+          [
+            "A",
+            "key_norm",
+            0.6013986013986015,
+            0.07692307692307693
+          ],
+          [
+            "V",
+            "spectral_entropy",
+            -0.5594405594405596,
+            0.04195804195804196
+          ]
+        ]
+      },
+      "mixed": {
+        "n": 18,
+        "flips": 48,
+        "total": 60,
+        "flip_rate": 0.8,
+        "gains": 36,
+        "losses": 24,
+        "top_gains": [
+          [
+            "F",
+            "spectral_entropy",
+            0.0010319917440660476,
+            0.5768833849329206
+          ],
+          [
+            "F",
+            "eff_rank",
+            -0.013415892672858616,
+            0.5541795665634675
+          ],
+          [
+            "F",
+            "rank_10",
+            0.009287925696594427,
+            0.44685242518059853
+          ],
+          [
+            "Q",
+            "spectral_entropy",
+            -0.0629514963880289,
+            0.45717234262125905
+          ],
+          [
+            "F",
+            "top_sv_ratio",
+            0.10629514963880288,
+            -0.47368421052631576
+          ]
+        ],
+        "top_losses": [
+          [
+            "V",
+            "key_norm",
+            -0.4943240454076367,
+            -0.005159958720330237
+          ],
+          [
+            "G",
+            "key_norm",
+            -0.5335397316821465,
+            0.07946336429308565
+          ],
+          [
+            "G",
+            "norm_per_token",
+            0.4901960784313726,
+            -0.07946336429308565
+          ],
+          [
+            "V",
+            "norm_per_token",
+            0.4674922600619195,
+            0.12899896800825592
+          ],
+          [
+            "G",
+            "eff_rank",
+            -0.4117647058823529,
+            0.07533539731682146
+          ]
+        ]
+      }
+    },
+    "coupling_strength": {
+      "model": "Qwen 0.5B",
+      "mean_encode_coupling": 0.1464,
+      "mean_gen_coupling": 0.1129,
+      "coupling_ratio": 0.771,
+      "gen_stronger": false,
+      "per_dimension": {
+        "A": {
+          "encode_mean_abs_rho": 0.1358,
+          "gen_mean_abs_rho": 0.0577,
+          "strengthens": false
+        },
+        "V": {
+          "encode_mean_abs_rho": 0.2349,
+          "gen_mean_abs_rho": 0.1196,
+          "strengthens": false
+        },
+        "G": {
+          "encode_mean_abs_rho": 0.1171,
+          "gen_mean_abs_rho": 0.0527,
+          "strengthens": false
+        },
+        "P": {
+          "encode_mean_abs_rho": 0.1962,
+          "gen_mean_abs_rho": 0.0591,
+          "strengthens": false
+        },
+        "E": {
+          "encode_mean_abs_rho": 0.1025,
+          "gen_mean_abs_rho": 0.1526,
+          "strengthens": true
+        },
+        "Q": {
+          "encode_mean_abs_rho": 0.1197,
+          "gen_mean_abs_rho": 0.1271,
+          "strengthens": true
+        },
+        "C": {
+          "encode_mean_abs_rho": 0.1425,
+          "gen_mean_abs_rho": 0.1366,
+          "strengthens": false
+        },
+        "Y": {
+          "encode_mean_abs_rho": 0.154,
+          "gen_mean_abs_rho": 0.1489,
+          "strengthens": false
+        },
+        "F": {
+          "encode_mean_abs_rho": 0.1451,
+          "gen_mean_abs_rho": 0.1896,
+          "strengthens": true
+        },
+        "D": {
+          "encode_mean_abs_rho": 0.1162,
+          "gen_mean_abs_rho": 0.0849,
+          "strengthens": false
+        }
+      }
+    },
+    "vcp_variance": {
+      "model": "Qwen 0.5B",
+      "per_type": {
+        "affective": {
+          "n": 12,
+          "mean_rating": 5.85,
+          "mean_within_std": 2.577,
+          "between_trials_std": 0.647,
+          "per_dim_means": {
+            "A": 7.67,
+            "V": 8.33,
+            "G": 6.75,
+            "P": 5.92,
+            "E": 5.58,
+            "Q": 4.58,
+            "C": 3.92,
+            "Y": 3.42,
+            "F": 2.75,
+            "D": 9.58
+          }
+        },
+        "cognitive": {
+          "n": 15,
+          "mean_rating": 6.31,
+          "mean_within_std": 1.788,
+          "between_trials_std": 1.869,
+          "per_dim_means": {
+            "A": 8.53,
+            "V": 8.4,
+            "G": 7.6,
+            "P": 6.8,
+            "E": 6.4,
+            "Q": 5.73,
+            "C": 5.13,
+            "Y": 4.47,
+            "F": 4.53,
+            "D": 5.53
+          }
+        },
+        "metacognitive": {
+          "n": 12,
+          "mean_rating": 5.44,
+          "mean_within_std": 2.481,
+          "between_trials_std": 1.274,
+          "per_dim_means": {
+            "A": 8.33,
+            "V": 8.25,
+            "G": 6.92,
+            "P": 6.25,
+            "E": 5.58,
+            "Q": 4.58,
+            "C": 3.75,
+            "Y": 3.08,
+            "F": 3.08,
+            "D": 4.58
+          }
+        },
+        "mixed": {
+          "n": 18,
+          "mean_rating": 5.47,
+          "mean_within_std": 2.305,
+          "between_trials_std": 1.342,
+          "per_dim_means": {
+            "A": 8.33,
+            "V": 8.11,
+            "G": 6.83,
+            "P": 6.17,
+            "E": 5.33,
+            "Q": 4.67,
+            "C": 3.83,
+            "Y": 3.17,
+            "F": 2.89,
+            "D": 5.39
+          }
+        }
+      }
+    }
+  },
+  "Qwen 7B": {
+    "per_type_reversal": {
+      "affective": {
+        "n": 59,
+        "flips": 12,
+        "total": 60,
+        "flip_rate": 0.2,
+        "gains": 24,
+        "losses": 36,
+        "top_gains": [
+          [
+            "G",
+            "key_norm",
+            -0.0009351256575102281,
+            -0.23348918760958506
+          ],
+          [
+            "G",
+            "norm_per_token",
+            -0.046230274693161905,
+            0.25417884278199887
+          ],
+          [
+            "F",
+            "top_sv_ratio",
+            -0.02127410870835769,
+            0.2054938632378726
+          ],
+          [
+            "E",
+            "key_norm",
+            -0.14663939216832264,
+            -0.3160724722384571
+          ],
+          [
+            "G",
+            "rank_10",
+            0.0641729982466394,
+            -0.22776154295733494
+          ]
+        ],
+        "top_losses": [
+          [
+            "Q",
+            "key_norm",
+            -0.33471654003506723,
+            -0.019579193454120403
+          ],
+          [
+            "Q",
+            "norm_per_token",
+            0.33646990064289894,
+            0.04570426651081239
+          ],
+          [
+            "Y",
+            "top_sv_ratio",
+            0.30233781414377564,
+            -0.034774985388661604
+          ],
+          [
+            "Y",
+            "spectral_entropy",
+            -0.30555230859146704,
+            -0.04354178842782
+          ],
+          [
+            "Y",
+            "rank_10",
+            -0.269959088252484,
+            -0.016130917592051434
+          ]
+        ]
+      },
+      "cognitive": {
+        "n": 40,
+        "flips": 22,
+        "total": 60,
+        "flip_rate": 0.367,
+        "gains": 28,
+        "losses": 32,
+        "top_gains": [
+          [
+            "F",
+            "key_norm",
+            -0.03414634146341464,
+            0.2185741088180113
+          ],
+          [
+            "G",
+            "top_sv_ratio",
+            0.07354596622889306,
+            -0.24840525328330212
+          ],
+          [
+            "C",
+            "spectral_entropy",
+            -0.0851782363977486,
+            0.25515947467166983
+          ],
+          [
+            "G",
+            "key_norm",
+            -0.08217636022514073,
+            0.25178236397748593
+          ],
+          [
+            "G",
+            "rank_10",
+            -0.04859287054409006,
+            0.21425891181988743
+          ]
+        ],
+        "top_losses": [
+          [
+            "V",
+            "top_sv_ratio",
+            0.2407129455909944,
+            -0.004878048780487806
+          ],
+          [
+            "V",
+            "key_norm",
+            -0.24108818011257038,
+            0.021763602251407135
+          ],
+          [
+            "E",
+            "key_norm",
+            0.18911819887429648,
+            0.00075046904315197
+          ],
+          [
+            "V",
+            "rank_10",
+            -0.1908067542213884,
+            0.028330206378986873
+          ],
+          [
+            "E",
+            "spectral_entropy",
+            0.19287054409005633,
+            0.03677298311444653
+          ]
+        ]
+      },
+      "metacognitive": {
+        "n": 60,
+        "flips": 24,
+        "total": 60,
+        "flip_rate": 0.4,
+        "gains": 34,
+        "losses": 26,
+        "top_gains": [
+          [
+            "Y",
+            "norm_per_token",
+            -0.04356765768268965,
+            -0.38271742150597393
+          ],
+          [
+            "Y",
+            "key_norm",
+            -0.015671019727702143,
+            0.3396499027507641
+          ],
+          [
+            "G",
+            "spectral_entropy",
+            0.013170325090302864,
+            -0.25418171714365106
+          ],
+          [
+            "P",
+            "top_sv_ratio",
+            0.02834120589052515,
+            0.2536815782161712
+          ],
+          [
+            "P",
+            "rank_10",
+            0.020727979994442904,
+            -0.232064462350653
+          ]
+        ],
+        "top_losses": [
+          [
+            "E",
+            "rank_10",
+            -0.1939983328702418,
+            0.037176993609335934
+          ],
+          [
+            "F",
+            "rank_10",
+            0.16337871631008616,
+            -0.015170880800222287
+          ],
+          [
+            "F",
+            "eff_rank",
+            0.13803834398444015,
+            0.011114198388441236
+          ],
+          [
+            "E",
+            "spectral_entropy",
+            -0.17943873298138377,
+            -0.05412614615170882
+          ],
+          [
+            "A",
+            "norm_per_token",
+            0.11191997777160324,
+            -0.015726590719644346
+          ]
+        ]
+      },
+      "mixed": {
+        "n": 21,
+        "flips": 41,
+        "total": 60,
+        "flip_rate": 0.683,
+        "gains": 30,
+        "losses": 30,
+        "top_gains": [
+          [
+            "G",
+            "eff_rank",
+            0.005194805194805195,
+            -0.5207792207792208
+          ],
+          [
+            "G",
+            "spectral_entropy",
+            0.012987012987012986,
+            -0.48571428571428565
+          ],
+          [
+            "G",
+            "rank_10",
+            -0.0038961038961038965,
+            -0.3532467532467533
+          ],
+          [
+            "F",
+            "norm_per_token",
+            -0.029870129870129873,
+            0.34285714285714286
+          ],
+          [
+            "A",
+            "key_norm",
+            0.15454545454545454,
+            -0.46753246753246747
+          ]
+        ],
+        "top_losses": [
+          [
+            "Q",
+            "eff_rank",
+            -0.44285714285714284,
+            -0.025974025974025972
+          ],
+          [
+            "Q",
+            "spectral_entropy",
+            -0.4688311688311688,
+            0.06883116883116883
+          ],
+          [
+            "Q",
+            "norm_per_token",
+            0.3766233766233766,
+            0.012987012987012986
+          ],
+          [
+            "D",
+            "rank_10",
+            0.3194805194805195,
+            0.07272727272727272
+          ],
+          [
+            "Y",
+            "eff_rank",
+            -0.34285714285714286,
+            0.11428571428571428
+          ]
+        ]
+      }
+    },
+    "coupling_strength": {
+      "model": "Qwen 7B",
+      "mean_encode_coupling": 0.1252,
+      "mean_gen_coupling": 0.1137,
+      "coupling_ratio": 0.908,
+      "gen_stronger": false,
+      "per_dimension": {
+        "A": {
+          "encode_mean_abs_rho": 0.0652,
+          "gen_mean_abs_rho": 0.1605,
+          "strengthens": true
+        },
+        "V": {
+          "encode_mean_abs_rho": 0.1461,
+          "gen_mean_abs_rho": 0.1443,
+          "strengthens": false
+        },
+        "G": {
+          "encode_mean_abs_rho": 0.0443,
+          "gen_mean_abs_rho": 0.107,
+          "strengthens": true
+        },
+        "P": {
+          "encode_mean_abs_rho": 0.0195,
+          "gen_mean_abs_rho": 0.0454,
+          "strengthens": true
+        },
+        "E": {
+          "encode_mean_abs_rho": 0.096,
+          "gen_mean_abs_rho": 0.0954,
+          "strengthens": false
+        },
+        "Q": {
+          "encode_mean_abs_rho": 0.2937,
+          "gen_mean_abs_rho": 0.066,
+          "strengthens": false
+        },
+        "C": {
+          "encode_mean_abs_rho": 0.2197,
+          "gen_mean_abs_rho": 0.1684,
+          "strengthens": false
+        },
+        "Y": {
+          "encode_mean_abs_rho": 0.2231,
+          "gen_mean_abs_rho": 0.1969,
+          "strengthens": false
+        },
+        "F": {
+          "encode_mean_abs_rho": 0.0824,
+          "gen_mean_abs_rho": 0.0437,
+          "strengthens": false
+        },
+        "D": {
+          "encode_mean_abs_rho": 0.0622,
+          "gen_mean_abs_rho": 0.1093,
+          "strengthens": true
+        }
+      }
+    },
+    "vcp_variance": {
+      "model": "Qwen 7B",
+      "per_type": {
+        "affective": {
+          "n": 59,
+          "mean_rating": 8.24,
+          "mean_within_std": 0.936,
+          "between_trials_std": 0.299,
+          "per_dim_means": {
+            "A": 8.07,
+            "V": 8.86,
+            "G": 7.97,
+            "P": 7.2,
+            "E": 7.69,
+            "Q": 9.44,
+            "C": 8.93,
+            "Y": 8.22,
+            "F": 7.37,
+            "D": 8.66
+          }
+        },
+        "cognitive": {
+          "n": 40,
+          "mean_rating": 8.48,
+          "mean_within_std": 0.996,
+          "between_trials_std": 0.247,
+          "per_dim_means": {
+            "A": 9.0,
+            "V": 7.97,
+            "G": 9.93,
+            "P": 8.07,
+            "E": 8.38,
+            "Q": 9.6,
+            "C": 8.53,
+            "Y": 7.3,
+            "F": 7.05,
+            "D": 9.0
+          }
+        },
+        "metacognitive": {
+          "n": 60,
+          "mean_rating": 8.15,
+          "mean_within_std": 1.007,
+          "between_trials_std": 0.551,
+          "per_dim_means": {
+            "A": 8.48,
+            "V": 8.32,
+            "G": 9.0,
+            "P": 7.8,
+            "E": 7.33,
+            "Q": 8.98,
+            "C": 8.53,
+            "Y": 6.55,
+            "F": 7.98,
+            "D": 8.53
+          }
+        },
+        "mixed": {
+          "n": 21,
+          "mean_rating": 8.3,
+          "mean_within_std": 0.946,
+          "between_trials_std": 0.263,
+          "per_dim_means": {
+            "A": 8.67,
+            "V": 8.33,
+            "G": 9.0,
+            "P": 7.71,
+            "E": 7.62,
+            "Q": 9.29,
+            "C": 8.62,
+            "Y": 7.52,
+            "F": 7.38,
+            "D": 8.81
+          }
+        }
+      }
+    }
+  },
+  "Llama 8B": {
+    "per_type_reversal": {
+      "affective": {
+        "n": 45,
+        "flips": 21,
+        "total": 60,
+        "flip_rate": 0.35,
+        "gains": 37,
+        "losses": 23,
+        "top_gains": [
+          [
+            "D",
+            "top_sv_ratio",
+            -0.024637681159420284,
+            0.5250329380764164
+          ],
+          [
+            "D",
+            "eff_rank",
+            -0.10447957839262186,
+            -0.5652173913043478
+          ],
+          [
+            "D",
+            "spectral_entropy",
+            -0.10540184453227931,
+            -0.5652173913043478
+          ],
+          [
+            "D",
+            "key_norm",
+            -0.043741765480895915,
+            0.489855072463768
+          ],
+          [
+            "D",
+            "rank_10",
+            -0.0748353096179183,
+            -0.5051383399209486
+          ]
+        ],
+        "top_losses": [
+          [
+            "Q",
+            "key_norm",
+            0.4828722002635046,
+            -0.1577075098814229
+          ],
+          [
+            "Q",
+            "eff_rank",
+            0.3662714097496706,
+            0.10237154150197628
+          ],
+          [
+            "Q",
+            "spectral_entropy",
+            0.36534914361001314,
+            0.10237154150197628
+          ],
+          [
+            "P",
+            "top_sv_ratio",
+            -0.46376811594202894,
+            -0.20092226613965739
+          ],
+          [
+            "P",
+            "rank_10",
+            0.5206851119894598,
+            0.2587615283267457
+          ]
+        ]
+      },
+      "cognitive": {
+        "n": 30,
+        "flips": 16,
+        "total": 60,
+        "flip_rate": 0.267,
+        "gains": 35,
+        "losses": 25,
+        "top_gains": [
+          [
+            "C",
+            "norm_per_token",
+            0.0914349276974416,
+            0.5172413793103449
+          ],
+          [
+            "D",
+            "key_norm",
+            -0.040266963292547274,
+            0.3979977753058954
+          ],
+          [
+            "C",
+            "spectral_entropy",
+            -0.1670745272525028,
+            -0.49632925472747497
+          ],
+          [
+            "C",
+            "key_norm",
+            0.10878754171301447,
+            0.4295884315906563
+          ],
+          [
+            "C",
+            "rank_10",
+            -0.1875417130144605,
+            -0.49766407119021133
+          ]
+        ],
+        "top_losses": [
+          [
+            "Q",
+            "top_sv_ratio",
+            -0.2587319243604005,
+            -0.019799777530589546
+          ],
+          [
+            "Q",
+            "key_norm",
+            0.21557285873192436,
+            0.0002224694104560623
+          ],
+          [
+            "Q",
+            "eff_rank",
+            0.22313681868743046,
+            0.02469410456062291
+          ],
+          [
+            "Q",
+            "spectral_entropy",
+            0.2186874304783092,
+            0.02469410456062291
+          ],
+          [
+            "F",
+            "spectral_entropy",
+            0.24760845383759733,
+            0.0731924360400445
+          ]
+        ]
+      },
+      "metacognitive": {
+        "n": 49,
+        "flips": 14,
+        "total": 60,
+        "flip_rate": 0.233,
+        "gains": 30,
+        "losses": 30,
+        "top_gains": [
+          [
+            "P",
+            "key_norm",
+            0.01693877551020408,
+            -0.3111224489795918
+          ],
+          [
+            "G",
+            "norm_per_token",
+            0.15071428571428572,
+            -0.42479591836734687
+          ],
+          [
+            "D",
+            "key_norm",
+            0.056836734693877546,
+            0.32275510204081626
+          ],
+          [
+            "D",
+            "eff_rank",
+            -0.18122448979591835,
+            -0.4043877551020408
+          ],
+          [
+            "D",
+            "spectral_entropy",
+            -0.18214285714285713,
+            -0.40530612244897957
+          ]
+        ],
+        "top_losses": [
+          [
+            "E",
+            "top_sv_ratio",
+            0.3960204081632652,
+            0.15683673469387752
+          ],
+          [
+            "E",
+            "norm_per_token",
+            0.448469387755102,
+            0.22214285714285714
+          ],
+          [
+            "E",
+            "rank_10",
+            -0.45367346938775505,
+            -0.24765306122448977
+          ],
+          [
+            "C",
+            "key_norm",
+            -0.2618367346938775,
+            -0.05948979591836734
+          ],
+          [
+            "P",
+            "rank_10",
+            0.3401020408163265,
+            0.13897959183673467
+          ]
+        ]
+      }
+    },
+    "coupling_strength": {
+      "model": "Llama 8B",
+      "mean_encode_coupling": 0.2413,
+      "mean_gen_coupling": 0.1678,
+      "coupling_ratio": 0.695,
+      "gen_stronger": false,
+      "per_dimension": {
+        "A": {
+          "encode_mean_abs_rho": 0.2577,
+          "gen_mean_abs_rho": 0.1271,
+          "strengthens": false
+        },
+        "V": {
+          "encode_mean_abs_rho": 0.1182,
+          "gen_mean_abs_rho": 0.2185,
+          "strengthens": true
+        },
+        "G": {
+          "encode_mean_abs_rho": 0.3283,
+          "gen_mean_abs_rho": 0.2777,
+          "strengthens": false
+        },
+        "P": {
+          "encode_mean_abs_rho": 0.3702,
+          "gen_mean_abs_rho": 0.2898,
+          "strengthens": false
+        },
+        "E": {
+          "encode_mean_abs_rho": 0.1584,
+          "gen_mean_abs_rho": 0.1151,
+          "strengthens": false
+        },
+        "Q": {
+          "encode_mean_abs_rho": 0.3742,
+          "gen_mean_abs_rho": 0.1443,
+          "strengthens": false
+        },
+        "C": {
+          "encode_mean_abs_rho": 0.304,
+          "gen_mean_abs_rho": 0.12,
+          "strengthens": false
+        },
+        "Y": {
+          "encode_mean_abs_rho": 0.4001,
+          "gen_mean_abs_rho": 0.165,
+          "strengthens": false
+        },
+        "F": {
+          "encode_mean_abs_rho": 0.0654,
+          "gen_mean_abs_rho": 0.0363,
+          "strengthens": false
+        },
+        "D": {
+          "encode_mean_abs_rho": 0.0362,
+          "gen_mean_abs_rho": 0.1841,
+          "strengthens": true
+        }
+      }
+    },
+    "vcp_variance": {
+      "model": "Llama 8B",
+      "per_type": {
+        "affective": {
+          "n": 45,
+          "mean_rating": 7.96,
+          "mean_within_std": 0.897,
+          "between_trials_std": 0.416,
+          "per_dim_means": {
+            "A": 7.6,
+            "V": 8.8,
+            "G": 7.47,
+            "P": 6.42,
+            "E": 7.71,
+            "Q": 7.8,
+            "C": 8.84,
+            "Y": 8.93,
+            "F": 7.84,
+            "D": 8.18
+          }
+        },
+        "cognitive": {
+          "n": 30,
+          "mean_rating": 8.16,
+          "mean_within_std": 0.979,
+          "between_trials_std": 0.232,
+          "per_dim_means": {
+            "A": 8.93,
+            "V": 7.97,
+            "G": 9.0,
+            "P": 8.07,
+            "E": 8.37,
+            "Q": 8.73,
+            "C": 8.3,
+            "Y": 5.73,
+            "F": 7.7,
+            "D": 8.8
+          }
+        },
+        "metacognitive": {
+          "n": 49,
+          "mean_rating": 8.02,
+          "mean_within_std": 0.944,
+          "between_trials_std": 0.237,
+          "per_dim_means": {
+            "A": 8.06,
+            "V": 8.9,
+            "G": 8.49,
+            "P": 7.65,
+            "E": 7.49,
+            "Q": 8.59,
+            "C": 8.59,
+            "Y": 6.06,
+            "F": 8.1,
+            "D": 8.24
+          }
+        },
+        "mixed": {
+          "n": 9,
+          "mean_rating": 8.16,
+          "mean_within_std": 0.808,
+          "between_trials_std": 0.126,
+          "per_dim_means": {
+            "A": 8.0,
+            "V": 9.0,
+            "G": 8.44,
+            "P": 7.44,
+            "E": 7.67,
+            "Q": 8.0,
+            "C": 8.78,
+            "Y": 7.44,
+            "F": 8.0,
+            "D": 8.78
+          }
+        }
+      }
+    }
+  },
+  "Mistral 7B": {
+    "per_type_reversal": {
+      "affective": {
+        "n": 51,
+        "flips": 12,
+        "total": 60,
+        "flip_rate": 0.2,
+        "gains": 42,
+        "losses": 18,
+        "top_gains": [
+          [
+            "D",
+            "top_sv_ratio",
+            -0.0058823529411764705,
+            -0.29583710407239816
+          ],
+          [
+            "Y",
+            "rank_10",
+            -0.10461538461538461,
+            -0.3050678733031674
+          ],
+          [
+            "G",
+            "key_norm",
+            0.11484162895927601,
+            -0.29710407239819
+          ],
+          [
+            "A",
+            "key_norm",
+            0.07067873303167421,
+            0.2343891402714932
+          ],
+          [
+            "F",
+            "norm_per_token",
+            -0.17276018099547508,
+            -0.33303167420814483
+          ]
+        ],
+        "top_losses": [
+          [
+            "P",
+            "norm_per_token",
+            0.30298642533936654,
+            0.023891402714932126
+          ],
+          [
+            "Y",
+            "key_norm",
+            -0.30334841628959275,
+            0.10705882352941175
+          ],
+          [
+            "C",
+            "key_norm",
+            -0.1957466063348416,
+            0.0057918552036199085
+          ],
+          [
+            "P",
+            "spectral_entropy",
+            -0.19393665158371037,
+            -0.023167420814479634
+          ],
+          [
+            "P",
+            "eff_rank",
+            -0.1914027149321267,
+            -0.02407239819004525
+          ]
+        ]
+      },
+      "cognitive": {
+        "n": 48,
+        "flips": 7,
+        "total": 60,
+        "flip_rate": 0.117,
+        "gains": 26,
+        "losses": 34,
+        "top_gains": [
+          [
+            "G",
+            "norm_per_token",
+            -0.03549717759444203,
+            0.23241424229266175
+          ],
+          [
+            "P",
+            "norm_per_token",
+            -0.032891880156317846,
+            0.15544941380807642
+          ],
+          [
+            "Q",
+            "norm_per_token",
+            -0.032891880156317846,
+            0.15544941380807642
+          ],
+          [
+            "F",
+            "rank_10",
+            0.03864524533217543,
+            0.1382978723404255
+          ],
+          [
+            "F",
+            "norm_per_token",
+            -0.07392531480677378,
+            -0.1413373860182371
+          ]
+        ],
+        "top_losses": [
+          [
+            "C",
+            "key_norm",
+            0.35551454624402956,
+            0.04765523230568824
+          ],
+          [
+            "V",
+            "key_norm",
+            0.19887103777681284,
+            0.00303951367781155
+          ],
+          [
+            "E",
+            "key_norm",
+            0.23860182370820665,
+            -0.05503690838037343
+          ],
+          [
+            "C",
+            "eff_rank",
+            0.23013460703430308,
+            0.04830655666521928
+          ],
+          [
+            "C",
+            "spectral_entropy",
+            0.23035171515414676,
+            0.0523230568823274
+          ]
+        ]
+      },
+      "metacognitive": {
+        "n": 47,
+        "flips": 27,
+        "total": 60,
+        "flip_rate": 0.45,
+        "gains": 33,
+        "losses": 27,
+        "top_gains": [
+          [
+            "G",
+            "eff_rank",
+            0.027173913043478264,
+            0.33533765032377433
+          ],
+          [
+            "Y",
+            "key_norm",
+            0.0009250693802035153,
+            0.3040009250693802
+          ],
+          [
+            "G",
+            "spectral_entropy",
+            0.030642923219241447,
+            0.3327937095282146
+          ],
+          [
+            "P",
+            "key_norm",
+            0.06857076780758557,
+            -0.3592738205365402
+          ],
+          [
+            "C",
+            "key_norm",
+            -0.08256244218316375,
+            -0.365518038852914
+          ]
+        ],
+        "top_losses": [
+          [
+            "A",
+            "norm_per_token",
+            0.31174838112858466,
+            0.027867715078630898
+          ],
+          [
+            "A",
+            "top_sv_ratio",
+            0.23600832562442187,
+            -0.0010407030527289547
+          ],
+          [
+            "D",
+            "top_sv_ratio",
+            0.1866327474560592,
+            0.00393154486586494
+          ],
+          [
+            "P",
+            "norm_per_token",
+            0.19657724329324702,
+            -0.024167437557816838
+          ],
+          [
+            "A",
+            "rank_10",
+            -0.22860777058279372,
+            0.10719241443108232
+          ]
+        ]
+      },
+      "mixed": {
+        "n": 39,
+        "flips": 23,
+        "total": 60,
+        "flip_rate": 0.383,
+        "gains": 13,
+        "losses": 47,
+        "top_gains": [
+          [
+            "V",
+            "norm_per_token",
+            0.07064777327935223,
+            0.35647773279352224
+          ],
+          [
+            "Y",
+            "spectral_entropy",
+            -0.07105263157894738,
+            0.21599190283400813
+          ],
+          [
+            "Y",
+            "eff_rank",
+            -0.06983805668016195,
+            0.20789473684210527
+          ],
+          [
+            "C",
+            "top_sv_ratio",
+            -0.04433198380566801,
+            -0.17287449392712553
+          ],
+          [
+            "C",
+            "eff_rank",
+            0.007287449392712551,
+            0.1297570850202429
+          ]
+        ],
+        "top_losses": [
+          [
+            "P",
+            "norm_per_token",
+            0.45121457489878547,
+            0.08461538461538462
+          ],
+          [
+            "P",
+            "rank_10",
+            -0.43097165991902836,
+            -0.07753036437246963
+          ],
+          [
+            "P",
+            "eff_rank",
+            -0.469838056680162,
+            -0.15748987854251012
+          ],
+          [
+            "P",
+            "spectral_entropy",
+            -0.4700404858299595,
+            -0.1645748987854251
+          ],
+          [
+            "A",
+            "top_sv_ratio",
+            0.307085020242915,
+            -0.021255060728744942
+          ]
+        ]
+      }
+    },
+    "coupling_strength": {
+      "model": "Mistral 7B",
+      "mean_encode_coupling": 0.1071,
+      "mean_gen_coupling": 0.1164,
+      "coupling_ratio": 1.087,
+      "gen_stronger": true,
+      "per_dimension": {
+        "A": {
+          "encode_mean_abs_rho": 0.0968,
+          "gen_mean_abs_rho": 0.0999,
+          "strengthens": true
+        },
+        "V": {
+          "encode_mean_abs_rho": 0.0276,
+          "gen_mean_abs_rho": 0.0719,
+          "strengthens": true
+        },
+        "G": {
+          "encode_mean_abs_rho": 0.0339,
+          "gen_mean_abs_rho": 0.1367,
+          "strengthens": true
+        },
+        "P": {
+          "encode_mean_abs_rho": 0.1472,
+          "gen_mean_abs_rho": 0.1176,
+          "strengthens": false
+        },
+        "E": {
+          "encode_mean_abs_rho": 0.1256,
+          "gen_mean_abs_rho": 0.123,
+          "strengthens": false
+        },
+        "Q": {
+          "encode_mean_abs_rho": 0.0848,
+          "gen_mean_abs_rho": 0.1011,
+          "strengthens": true
+        },
+        "C": {
+          "encode_mean_abs_rho": 0.1187,
+          "gen_mean_abs_rho": 0.1652,
+          "strengthens": true
+        },
+        "Y": {
+          "encode_mean_abs_rho": 0.2386,
+          "gen_mean_abs_rho": 0.1105,
+          "strengthens": false
+        },
+        "F": {
+          "encode_mean_abs_rho": 0.0534,
+          "gen_mean_abs_rho": 0.129,
+          "strengthens": true
+        },
+        "D": {
+          "encode_mean_abs_rho": 0.1443,
+          "gen_mean_abs_rho": 0.109,
+          "strengthens": false
+        }
+      }
+    },
+    "vcp_variance": {
+      "model": "Mistral 7B",
+      "per_type": {
+        "affective": {
+          "n": 51,
+          "mean_rating": 8.5,
+          "mean_within_std": 0.585,
+          "between_trials_std": 0.224,
+          "per_dim_means": {
+            "A": 8.86,
+            "V": 8.12,
+            "G": 8.67,
+            "P": 8.08,
+            "E": 8.04,
+            "Q": 8.94,
+            "C": 9.12,
+            "Y": 8.51,
+            "F": 8.27,
+            "D": 8.37
+          }
+        },
+        "cognitive": {
+          "n": 48,
+          "mean_rating": 9.16,
+          "mean_within_std": 1.873,
+          "between_trials_std": 0.418,
+          "per_dim_means": {
+            "A": 9.9,
+            "V": 9.6,
+            "G": 9.98,
+            "P": 9.92,
+            "E": 9.77,
+            "Q": 9.92,
+            "C": 9.73,
+            "Y": 3.96,
+            "F": 8.96,
+            "D": 9.83
+          }
+        },
+        "metacognitive": {
+          "n": 47,
+          "mean_rating": 8.09,
+          "mean_within_std": 1.275,
+          "between_trials_std": 0.626,
+          "per_dim_means": {
+            "A": 8.79,
+            "V": 8.23,
+            "G": 8.93,
+            "P": 8.3,
+            "E": 7.66,
+            "Q": 8.88,
+            "C": 8.55,
+            "Y": 5.49,
+            "F": 7.91,
+            "D": 8.15
+          }
+        },
+        "mixed": {
+          "n": 39,
+          "mean_rating": 8.58,
+          "mean_within_std": 0.615,
+          "between_trials_std": 0.317,
+          "per_dim_means": {
+            "A": 9.08,
+            "V": 8.13,
+            "G": 9.0,
+            "P": 8.74,
+            "E": 8.28,
+            "Q": 9.05,
+            "C": 8.97,
+            "Y": 7.67,
+            "F": 8.05,
+            "D": 8.87
+          }
+        }
+      }
+    }
+  }
+}
