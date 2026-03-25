@@ -26,6 +26,20 @@ from concordance.analysis import (
 DIM_LETTERS = list(VCP_V2_DIMENSIONS.keys())
 DIM_NAMES = list(VCP_V2_DIMENSIONS.values())
 
+
+def bootstrap_spearman_ci(x, y, n_boot=2000, ci=0.95, seed=42):
+    """Bootstrap 95% CI for Spearman rho."""
+    rng = np.random.default_rng(seed)
+    n = len(x)
+    rhos = np.empty(n_boot)
+    for b in range(n_boot):
+        idx = rng.integers(0, n, size=n)
+        rhos[b], _ = stats.spearmanr(x[idx], y[idx])
+    alpha = (1 - ci) / 2
+    lo = float(np.nanpercentile(rhos, 100 * alpha))
+    hi = float(np.nanpercentile(rhos, 100 * (1 - alpha)))
+    return lo, hi
+
 MODELS = {
     "qwen2.5-0.5b": "Qwen 0.5B",
     "qwen2.5-7b": "Qwen 7B",
@@ -255,10 +269,14 @@ def analyze_encode_generation_reversal(results_dir, model_short, model_name):
     feat_enc = feat_enc[:N]
     vcp_gen = vcp_gen[:N]
     feat_gen = feat_gen[:N]
-    tc = tc_gen[:N]
-    rl = rl_gen[:N]
+    # M1 FIX: Use phase-specific confounds, not generation for both
+    tc_enc = tc_enc[:N]
+    rl_enc = rl_enc[:N]
+    tc_gen = tc_gen[:N]
+    rl_gen = rl_gen[:N]
 
-    conf = np.column_stack([tc, rl])
+    conf_enc = np.column_stack([tc_enc, rl_enc])
+    conf_gen = np.column_stack([tc_gen, rl_gen])
 
     result = {
         "model": model_name,
@@ -287,15 +305,23 @@ def analyze_encode_generation_reversal(results_dir, model_short, model_name):
             v = vcp_col[valid]
             fe = feat_enc_col[valid]
             fg = feat_gen_col[valid]
-            c = conf[valid]
+            c_enc = conf_enc[valid]
+            c_gen = conf_gen[valid]
 
-            # FWL residualize
-            v_r = fwl_residualize(v, c)
-            fe_r = fwl_residualize(fe, c)
-            fg_r = fwl_residualize(fg, c)
+            # M1 FIX: Phase-specific FWL residualization
+            # VCP comes from generation phase, so use gen confounds
+            v_r = fwl_residualize(v, c_gen)
+            # Encode features use encode confounds
+            fe_r = fwl_residualize(fe, c_enc)
+            # Generation features use generation confounds
+            fg_r = fwl_residualize(fg, c_gen)
 
             rho_enc, p_enc = stats.spearmanr(v_r, fe_r)
             rho_gen, p_gen = stats.spearmanr(v_r, fg_r)
+
+            # MC2 FIX: Bootstrap 95% CIs for both correlations
+            ci_enc = bootstrap_spearman_ci(v_r, fe_r)
+            ci_gen = bootstrap_spearman_ci(v_r, fg_r)
 
             key = f"{dim}_{feat}"
             # STRICT criterion (C1 fix): both must exceed threshold
@@ -310,8 +336,10 @@ def analyze_encode_generation_reversal(results_dir, model_short, model_name):
                 "feature": feat,
                 "rho_encode": round(float(rho_enc), 4),
                 "p_encode": float(p_enc),
+                "rho_encode_ci95": [round(ci_enc[0], 4), round(ci_enc[1], 4)],
                 "rho_generation": round(float(rho_gen), 4),
                 "p_generation": float(p_gen),
+                "rho_generation_ci95": [round(ci_gen[0], 4), round(ci_gen[1], 4)],
                 "sign_flip_strict": is_flip_strict,
                 "sign_flip_lenient": is_flip_lenient,
                 "sign_flip_sig": is_flip_sig,
@@ -540,8 +568,8 @@ def run_deep_analysis(results_dir):
         print(f"\n  --- Encode-Generation Reversal ---")
         reversal = analyze_encode_generation_reversal(results_dir, model_short, model_name)
         if "error" not in reversal:
-            print(f"  Sign flips: {reversal['n_sign_flips']}/{reversal['n_sign_flips'] + reversal['n_consistent']}")
-            print(f"  Flip rate: {reversal['flip_rate']:.1%}")
+            print(f"  Sign flips: {reversal['n_sign_flips_strict']}/{reversal['n_sign_flips_strict'] + reversal['n_consistent']}")
+            print(f"  Flip rate: {reversal['flip_rate_strict']:.1%}")
             if reversal["sign_flip_dims"]:
                 print(f"  Flipped pairs: {reversal['sign_flip_dims'][:10]}")
 

@@ -3,9 +3,9 @@
     "per_type_reversal": {
       "affective": {
         "n": 12,
-        "flips": 25,
+        "flips": 11,
         "total": 60,
-        "flip_rate": 0.417,
+        "flip_rate": 0.183,
         "gains": 46,
         "losses": 14,
         "top_gains": [
@@ -75,9 +75,9 @@
       },
       "cognitive": {
         "n": 15,
-        "flips": 8,
+        "flips": 3,
         "total": 60,
-        "flip_rate": 0.133,
+        "flip_rate": 0.05,
         "gains": 15,
         "losses": 45,
         "top_gains": [
@@ -147,9 +147,9 @@
       },
       "metacognitive": {
         "n": 12,
-        "flips": 48,
+        "flips": 23,
         "total": 60,
-        "flip_rate": 0.8,
+        "flip_rate": 0.383,
         "gains": 17,
         "losses": 43,
         "top_gains": [
@@ -219,9 +219,9 @@
       },
       "mixed": {
         "n": 18,
-        "flips": 48,
+        "flips": 19,
         "total": 60,
-        "flip_rate": 0.8,
+        "flip_rate": 0.317,
         "gains": 36,
         "losses": 24,
         "top_gains": [
@@ -431,9 +431,9 @@
     "per_type_reversal": {
       "affective": {
         "n": 59,
-        "flips": 12,
+        "flips": 0,
         "total": 60,
-        "flip_rate": 0.2,
+        "flip_rate": 0.0,
         "gains": 24,
         "losses": 36,
         "top_gains": [
@@ -503,9 +503,9 @@
       },
       "cognitive": {
         "n": 40,
-        "flips": 22,
+        "flips": 1,
         "total": 60,
-        "flip_rate": 0.367,
+        "flip_rate": 0.017,
         "gains": 28,
         "losses": 32,
         "top_gains": [
@@ -575,9 +575,9 @@
       },
       "metacognitive": {
         "n": 60,
-        "flips": 24,
+        "flips": 2,
         "total": 60,
-        "flip_rate": 0.4,
+        "flip_rate": 0.033,
         "gains": 34,
         "losses": 26,
         "top_gains": [
@@ -647,9 +647,9 @@
       },
       "mixed": {
         "n": 21,
-        "flips": 41,
+        "flips": 21,
         "total": 60,
-        "flip_rate": 0.683,
+        "flip_rate": 0.35,
         "gains": 30,
         "losses": 30,
         "top_gains": [
@@ -859,9 +859,9 @@
     "per_type_reversal": {
       "affective": {
         "n": 45,
-        "flips": 21,
+        "flips": 3,
         "total": 60,
-        "flip_rate": 0.35,
+        "flip_rate": 0.05,
         "gains": 37,
         "losses": 23,
         "top_gains": [
@@ -931,9 +931,9 @@
       },
       "cognitive": {
         "n": 30,
-        "flips": 16,
+        "flips": 2,
         "total": 60,
-        "flip_rate": 0.267,
+        "flip_rate": 0.033,
         "gains": 35,
         "losses": 25,
         "top_gains": [
@@ -1003,9 +1003,9 @@
       },
       "metacognitive": {
         "n": 49,
-        "flips": 14,
+        "flips": 1,
         "total": 60,
-        "flip_rate": 0.233,
+        "flip_rate": 0.017,
         "gains": 30,
         "losses": 30,
         "top_gains": [
@@ -1215,9 +1215,9 @@
     "per_type_reversal": {
       "affective": {
         "n": 51,
-        "flips": 12,
+        "flips": 1,
         "total": 60,
-        "flip_rate": 0.2,
+        "flip_rate": 0.017,
         "gains": 42,
         "losses": 18,
         "top_gains": [
@@ -1287,9 +1287,9 @@
       },
       "cognitive": {
         "n": 48,
-        "flips": 7,
+        "flips": 0,
         "total": 60,
-        "flip_rate": 0.117,
+        "flip_rate": 0.0,
         "gains": 26,
         "losses": 34,
         "top_gains": [
@@ -1359,9 +1359,9 @@
       },
       "metacognitive": {
         "n": 47,
-        "flips": 27,
+        "flips": 4,
         "total": 60,
-        "flip_rate": 0.45,
+        "flip_rate": 0.067,
         "gains": 33,
         "losses": 27,
         "top_gains": [
@@ -1431,9 +1431,9 @@
       },
       "mixed": {
         "n": 39,
-        "flips": 23,
+        "flips": 3,
         "total": 60,
-        "flip_rate": 0.383,
+        "flip_rate": 0.05,
         "gains": 13,
         "losses": 47,
         "top_gains": [

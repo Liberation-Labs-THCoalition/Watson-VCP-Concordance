@@ -46,10 +46,14 @@ def per_type_reversal(results_dir, model_short, model_name):
     vcp = vcp_gen[:N]
     feat_g = feat_gen[:N]
     feat_e = feat_enc[:N]
-    tc = tc_gen[:N]
-    rl = rl_gen[:N]
+    # M1 FIX: Phase-specific confounds
+    tc_g = tc_gen[:N]
+    rl_g = rl_gen[:N]
+    tc_e = tc_enc[:N]
+    rl_e = rl_enc[:N]
     pt = pt_gen[:N]
-    conf = np.column_stack([tc, rl])
+    conf_gen = np.column_stack([tc_g, rl_g])
+    conf_enc = np.column_stack([tc_e, rl_e])
 
     types = sorted(set(pt))
     result = {}
@@ -63,7 +67,8 @@ def per_type_reversal(results_dir, model_short, model_name):
         v_t = vcp[mask]
         fg_t = feat_g[mask]
         fe_t = feat_e[mask]
-        c_t = conf[mask]
+        c_gen_t = conf_gen[mask]
+        c_enc_t = conf_enc[mask]
 
         flips = 0
         total = 0
@@ -79,11 +84,13 @@ def per_type_reversal(results_dir, model_short, model_name):
                 v = v_t[valid, i]
                 fg = fg_t[valid, j]
                 fe = fe_t[valid, j]
-                c = c_t[valid]
+                c_g = c_gen_t[valid]
+                c_e = c_enc_t[valid]
 
-                v_r = fwl_residualize(v, c)
-                fg_r = fwl_residualize(fg, c)
-                fe_r = fwl_residualize(fe, c)
+                # M1 FIX: Phase-specific FWL
+                v_r = fwl_residualize(v, c_g)  # VCP from gen phase
+                fg_r = fwl_residualize(fg, c_g)  # Gen features, gen confounds
+                fe_r = fwl_residualize(fe, c_e)  # Encode features, encode confounds
 
                 rho_e, _ = stats.spearmanr(v_r, fe_r)
                 rho_g, _ = stats.spearmanr(v_r, fg_r)
@@ -128,9 +135,9 @@ def coupling_strength_by_phase(results_dir, model_short, model_name):
     vcp = vcp_gen[:N]
     fg = feat_gen[:N]
     fe = feat_enc[:N]
-    tc = tc_gen[:N]
-    rl = rl_gen[:N]
-    conf = np.column_stack([tc, rl])
+    # M1 FIX: Phase-specific confounds
+    conf_enc = np.column_stack([tc_enc[:N], rl_enc[:N]])
+    conf_gen = np.column_stack([tc_gen[:N], rl_gen[:N]])
 
     encode_rhos = []
     gen_rhos = []
@@ -145,11 +152,13 @@ def coupling_strength_by_phase(results_dir, model_short, model_name):
             v = vcp[valid, i]
             fgv = fg[valid, j]
             fev = fe[valid, j]
-            c = conf[valid]
+            c_g = conf_gen[valid]
+            c_e = conf_enc[valid]
 
-            v_r = fwl_residualize(v, c)
-            fg_r = fwl_residualize(fgv, c)
-            fe_r = fwl_residualize(fev, c)
+            # M1 FIX: Phase-specific FWL
+            v_r = fwl_residualize(v, c_g)  # VCP from gen phase
+            fg_r = fwl_residualize(fgv, c_g)
+            fe_r = fwl_residualize(fev, c_e)  # Encode features, encode confounds
 
             rho_e, _ = stats.spearmanr(v_r, fe_r)
             rho_g, _ = stats.spearmanr(v_r, fg_r)

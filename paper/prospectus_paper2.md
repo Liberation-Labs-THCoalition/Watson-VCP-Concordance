@@ -245,11 +245,23 @@ For Cricket (real-time cognitive monitoring): this means we should track MODE TR
 
 For Nell's VCP framework: the framework is measuring something real, and individual dimensions carry unique geometric signal. The instrument should NOT be reduced to fewer factors — each dimension captures distinct computational information despite covarying in verbal output.
 
+## Red-Team Audit Status
+
+### Critical (ALL FIXED)
+- **C1**: Sign-flip criterion changed from lenient OR to strict AND (both |rho|>0.15)
+- **C2**: Permutation null model added (1000 perms) — confirms 2/4 models REAL
+- **C4**: CC1 values from analysis.py (with permutation tests), not deep_analysis.py — clarifying note added
+
+### Moderate (ALL FIXED)
+- **M1**: Encode-phase FWL now uses encode-phase confounds (not generation). Results unchanged (encode/gen confounds identical in our data, but methodologically correct)
+- **MC2**: Bootstrap 95% CIs added for all 60 rho pairs in reversal analysis
+- **M3**: Per-type subgroup underpowered caveat documented (aggregate is the robust result)
+
 ## Remaining Work
 
 - [x] Llama 8B Exp A+B on Beast — COMPLETE
 - [x] Analyze Llama results for cross-architecture comparison — COMPLETE
 - [x] Cross-architecture synthesis — COMPLETE
+- [x] Red-team audit of all claims — COMPLETE (C1/C2/C4/M1/MC2/M3)
 - [ ] Run Experiment D (generation trajectory) on Beast
 - [ ] Write full paper draft
-- [ ] Red-team audit of all claims
