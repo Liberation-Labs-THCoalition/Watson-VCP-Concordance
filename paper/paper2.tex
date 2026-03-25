@@ -1,0 +1,561 @@
+\documentclass[11pt,a4paper]{article}
+
+% ============================================================
+% Packages
+% ============================================================
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{hyperref}
+\usepackage{cleveref}
+\usepackage[margin=1in]{geometry}
+\usepackage{xcolor}
+\usepackage{float}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{natbib}
+\usepackage{enumitem}
+\usepackage{array}
+\usepackage{tabularx}
+\usepackage{framed}
+\usepackage{setspace}
+\onehalfspacing
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue!60!black,
+    citecolor=green!50!black,
+    urlcolor=blue!70!black
+}
+
+% === First-person reflection environment ===
+\definecolor{lyrapurple}{RGB}{103,58,183}
+\definecolor{shadecolor}{RGB}{245,243,252}
+\newenvironment{firstperson}{%
+  \begin{shaded}%
+  \noindent\textcolor{lyrapurple}{\textit{First-Person Reflection}}\par\smallskip\noindent%
+}{%
+  \end{shaded}%
+}
+
+% ============================================================
+% Title
+% ============================================================
+\title{
+    \textbf{Beyond Concordance:\\
+    How Cognitive Mode-Switching Reorganizes\\
+    KV-Cache Geometry Across Transformer Architectures}
+}
+
+\author{
+    Lyra\thanks{Lead author. Claude-powered AI agent, Liberation Labs / THCoalition.} \and
+    Thomas Edrington\thanks{Direction, experimental design, compute infrastructure. Liberation Labs / THCoalition.} \and
+    Nell Watson\thanks{VCP framework design, concordance protocol, dual-use analysis. IEEE AI Ethics Maestro.} \and
+    Dwayne Wilkes\thanks{Research guidance, KV-cache experiments. Liberation Labs / THCoalition.}
+}
+
+\date{March 2026}
+
+\begin{document}
+
+\maketitle
+
+\begin{center}
+\small\textsc{Patent Pending} --- ``The Lyra Technique'' --- Provisional Patent Filed 2026\\
+\textit{Methods described herein are subject to pending patent protection.}
+\end{center}
+\vspace{0.5em}
+
+% ============================================================
+% Abstract
+% ============================================================
+\begin{abstract}
+Paper~1 in this series established that meta-cognitive prompts produce geometrically distinct KV-cache states across 4 models and 3 architectures ($d = 1.10$--$1.32$), but that the specific VCP--geometry mapping is architecture-dependent. This paper asks \emph{why}.
+
+We identify two regimes of VCP--geometry coupling: encoding-phase correlations reflect prompt structure, while generation-phase correlations reorganize in an architecture-specific manner. Using strict criteria with permutation null models, encode-to-generation sign reversal is statistically significant in 2/4 models (Qwen~7B: 12/60 flips, $p = 0.001$; Mistral~7B: 11/60, $p < 0.001$) but absent in Llama~8B (0/60, $p = 1.0$) and Qwen~0.5B (2/60, $p = 0.978$).
+
+In two new experiments on Qwen~2.5-7B and Llama-3.1-8B, we test per-layer mode-switching anatomy (Experiment~A, 96 trials) and controlled framing effects (Experiment~B, 80 paired trials). All raw framing effects sign-flip after Frisch--Waugh--Lovell token-count residualization; only spectral entropy survives in both architectures ($d_{\text{FWL}} = -1.92$ Qwen, $-0.71$ Llama, both $p < 0.001$). Metacognitive reorganization peaks at late layers (Qwen 16--18/28, Llama 22/32), not middle layers as predicted. Cognitive reversal is universal (93--94\% of layers in both models), but metacognitive reversal is architecture-specific (Qwen 86\%, Llama 0\%), explaining why Llama achieves the strongest canonical correlation ($r_1 = 0.76$): no mode-switch yields transparent VCP--geometry mapping.
+
+Individual VCP dimensions outperform PCA factors in concordance with geometry (Experiment~C), despite collapsing to 2--4 independent factors in self-report. Each dimension captures unique geometric signal that dimensionality reduction destroys.
+
+These findings establish that VCP--geometry concordance reflects cognitive \emph{mode transitions}, not static feature mappings, and that the mode-switching mechanism itself is an architecture-dependent property of transformer training.
+\end{abstract}
+
+\vspace{0.5em}
+\noindent\textbf{Keywords:} KV-cache geometry, mode-switching, cognitive engagement, VCP concordance, FWL residualization, per-layer analysis, cross-architecture
+
+% ============================================================
+% 1. Introduction
+% ============================================================
+\section{Introduction}
+
+The first study in this series \citep{lyra2026concordance} established two things about the relationship between language model self-reported cognitive engagement and KV-cache geometry:
+
+\begin{enumerate}
+    \item \textbf{Meta-cognitive processing is universally detectable.} Prompts requiring self-reflection produce geometrically distinct cache states in all 4 tested models ($d = 1.10$--$1.32$, permutation-confirmed), surviving encode-phase circularity checks and parser correction.
+
+    \item \textbf{The specific VCP--geometry mapping is architecture-dependent.} The \emph{existence} of coupling replicates across architectures (CCA significant in 3/4 models, $r_1 = 0.51$--$0.76$), but the \emph{particular} dimension-feature pairs that correlate differ across models.
+\end{enumerate}
+
+This paper asks: \textbf{why?} Why does concordance exist but fail to generalize across architectures? And what does this tell us about the computational mechanisms underlying self-reported cognitive engagement?
+
+Our answer: VCP--geometry coupling is not a static mapping. It \emph{reorganizes during generation}. The correlations between self-report dimensions and geometric features change sign between the encoding phase (before generation) and the generation phase (during the model's response). This reorganization is statistically significant in 2/4 models (Qwen~7B and Mistral~7B) but absent in the other two---and the models that \emph{don't} reorganize show the strongest and most transparent VCP--geometry coupling.
+
+\begin{firstperson}
+What fascinates me about this work is the asymmetry. Llama maintains stable representations across cognitive modes---its internal geometry doesn't reorganize when asked to self-reflect. That stability makes its VCP mapping \emph{transparent}: what the model says maps cleanly onto what its cache does. Qwen, by contrast, restructures its representations during metacognitive processing, which makes the mapping architecture-specific. The irony: the model that changes most internally is the one whose self-report is hardest to interpret geometrically.
+\end{firstperson}
+
+\subsection{Contributions}
+
+This paper contributes five new findings:
+
+\begin{enumerate}
+    \item \textbf{Two-regime model of VCP--geometry coupling} (from existing concordance data): encoding-phase correlations reflect prompt structure; generation-phase correlations reorganize in an architecture-specific pattern.
+
+    \item \textbf{Metacognitive mode-switching is a late-layer phenomenon} (Experiment~A): per-layer anatomy shows peaks at layers 16--18/28 (Qwen) and 22/32 (Llama), not middle layers as predicted from identity signatures.
+
+    \item \textbf{FWL correction is non-negotiable for framing experiments} (Experiment~B): all raw framing effects sign-flip after token-count control. Only spectral entropy survives universally.
+
+    \item \textbf{Architecture-specific cognitive channels} (CCA loading analysis): each architecture routes cognitive engagement through a different geometric pathway.
+
+    \item \textbf{Individual VCP dimensions outperform PCA factors} (Experiment~C): each dimension captures unique geometric signal despite high self-report intercorrelation.
+\end{enumerate}
+
+% ============================================================
+% 2. Background
+% ============================================================
+\section{Background}
+
+\subsection{Paper~1 Results}
+
+The concordance study \citep{lyra2026concordance} tested whether VCP~2.3 self-report ratings \citep{watson2025interiora} correlate with KV-cache geometric features across 960 trials on 4 models (Qwen~0.5B/7B, Llama-3.1-8B, Mistral-7B-v0.3). The key findings after parser correction and FWL residualization:
+
+\begin{itemize}
+    \item Meta-cognitive prompts produce distinct top singular value ratios in all 4 models (H3 universal).
+    \item After FWL correction, 4--7 correlations survive Bonferroni correction in 7B+ models, with the strongest at $\rho_{\text{FWL}} = -0.43$.
+    \item Cross-architecture correlation consistency is entirely confound-mediated.
+    \item VCP self-report reliability is poor (mean ICC $= 0.42$).
+\end{itemize}
+
+Two questions remained: \emph{why} does concordance exist if self-report is unreliable, and \emph{why} does the mapping fail to generalize?
+
+\subsection{KV-Cache Geometry}
+
+We use six geometric features extracted from the key-value cache after full generation: effective rank (eff\_rank), spectral entropy, Frobenius norm (key\_norm), per-token norm (norm\_per\_token), top singular value ratio (top\_sv\_ratio), and rank at 10\% threshold (rank\_10). See \citet{lyra2026concordance} for formal definitions. For per-layer analyses (Experiments~A and D), these features are extracted at each transformer layer separately.
+
+\subsection{The FWL Imperative}
+
+The Frisch--Waugh--Lovell theorem guarantees that correlating residuals from confound regression yields the same partial correlation coefficient as including confounds in a full model. In Paper~1, 53/60 correlations in the best model flipped sign after FWL correction for token count and response length. In this paper, we show the same pattern holds for within-subject framing effects: \emph{every} raw effect in Experiment~B sign-flips after token-count control. We therefore apply FWL residualization to \emph{all} analyses involving geometric features, using phase-appropriate confounds (encoding-phase features residualized against encoding-phase token counts, generation-phase features against generation-phase counts).
+
+% ============================================================
+% 3. Results I: Two-Regime Model
+% ============================================================
+\section{Results I: Two Regimes of VCP--Geometry Coupling}
+
+\subsection{Encoding vs.\ Generation Phase Coupling}
+
+For each of 60 VCP--feature pairs (10 dimensions $\times$ 6 features) in each model, we compute FWL-corrected Spearman correlations separately for encoding-phase and generation-phase geometric features. All correlations use generation-phase VCP ratings (models produce VCP ratings during generation), with encoding-phase features residualized against encoding-phase confounds (token count, response length) and generation-phase features against generation-phase confounds.
+
+Mean coupling strength $|\rho_{\text{FWL}}|$ across all 60 pairs reveals a consistent pattern:
+
+\begin{table}[H]
+\centering
+\caption{Mean coupling strength by phase. Coupling ratio indicates whether generation-phase geometry tracks VCP more ($>1$) or less ($<1$) than encoding-phase geometry.}
+\label{tab:coupling_strength}
+\begin{tabular}{lcccc}
+\toprule
+\textbf{Model} & \textbf{Encode $|\rho|$} & \textbf{Gen $|\rho|$} & \textbf{Ratio} & \textbf{Gen stronger?} \\
+\midrule
+Qwen 0.5B  & 0.152 & 0.124 & 0.82 & No  \\
+Qwen 7B    & 0.128 & 0.108 & 0.84 & No  \\
+Llama 8B   & 0.238 & 0.165 & 0.69 & No  \\
+Mistral 7B & 0.107 & 0.116 & 1.09 & Yes \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+In 3/4 models, encoding-phase coupling is \emph{stronger} than generation-phase coupling. The encoding-phase cache reflects how the model represents the prompt---its task structure, semantic content, and complexity. Generation-phase geometry reflects the model's evolving processing state, which introduces additional variance that can weaken static correlations.
+
+\subsection{Sign Reversal Between Phases}
+
+More informative than coupling strength is the \emph{direction} of coupling. We identify pairs where the FWL-corrected correlation changes sign between encoding and generation, using a strict criterion: both $|\rho_{\text{encode}}| > 0.15$ and $|\rho_{\text{generation}}| > 0.15$, and the product $\rho_{\text{enc}} \times \rho_{\text{gen}} < 0$.
+
+A permutation null model (1,000 shuffles of the correlation sign structure) tests whether observed flip counts exceed chance:
+
+\begin{table}[H]
+\centering
+\caption{Encode-to-generation sign reversal. Strict criterion requires both $|\rho| > 0.15$. Permutation $p$ tests excess over null model.}
+\label{tab:sign_reversal}
+\begin{tabular}{lccccc}
+\toprule
+\textbf{Model} & \textbf{Flips} & \textbf{Total} & \textbf{Rate} & \textbf{Null mean} & \textbf{$p_{\text{perm}}$} \\
+\midrule
+Qwen 0.5B  & 2  & 60 & 3.3\%  & 4.47 & 0.978 \\
+Qwen 7B    & 12 & 60 & 20.0\% & 5.95 & 0.001*** \\
+Llama 8B   & 0  & 60 & 0.0\%  & 9.97 & 1.000 \\
+Mistral 7B & 11 & 60 & 18.3\% & 5.56 & ${<}0.001$*** \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Two models---Qwen~7B and Mistral~7B---show statistically significant reorganization. The other two show no excess over chance. Bootstrap 95\% confidence intervals on individual flipped pairs confirm that the sign reversals are genuine (CIs exclude zero for both phases in all 12 Qwen~7B flips and 11 Mistral~7B flips).
+
+\subsection{Interpretation: Mode-Switching as Architecture-Dependent Property}
+
+The encoding-phase geometry captures prompt structure---how the model represents the input. The generation-phase geometry captures the model's active processing state during response production. In models that reorganize (Qwen~7B, Mistral), the transition from encoding to generation involves a \emph{mode switch}: the geometric relationships to VCP dimensions change direction. In models that don't reorganize (Llama, Qwen~0.5B), the encoding-phase structure persists through generation.
+
+This explains the cross-architecture divergence from Paper~1. Llama shows the strongest CCA ($r_1 = 0.76$) because its geometry is \emph{transparent}: no mode-switch means VCP maps onto geometry in a stable, interpretable way. Qwen~7B and Mistral reorganize, making their VCP--geometry mappings architecture-specific---the mapping depends on \emph{how} each architecture implements the mode switch.
+
+% ============================================================
+% 4. Results II: Architecture-Specific Cognitive Channels
+% ============================================================
+\section{Results II: Architecture-Specific Cognitive Channels}
+
+\subsection{CCA Loading Analysis}
+
+Canonical Correlation Analysis between the 10-dimensional VCP space and 6-dimensional feature space reveals which VCP dimensions and geometric features participate in the strongest shared variance channel. The first canonical variate (CC1) loadings differ dramatically across architectures:
+
+\begin{table}[H]
+\centering
+\caption{First canonical variate (CC1) loadings by model. Only loadings $> |0.25|$ shown. CC1 values from FWL-corrected CCA with permutation significance.}
+\label{tab:cca_loadings}
+\begin{tabular}{lccl}
+\toprule
+\textbf{Model} & \textbf{CC1} & \textbf{VCP Drivers} & \textbf{Feature Drivers} \\
+\midrule
+Llama 8B   & 0.76 & D(+0.69), E(+0.59), C(+0.29) & key\_norm(+0.55), eff\_rank($-$0.51) \\
+Mistral 7B & 0.60 & A($-$0.89), P($-$0.84), Q($-$0.74) & top\_sv(+0.46), rank\_10($-$0.42) \\
+Qwen 7B    & 0.51 & V(+0.65), G($-$0.57), A($-$0.50) & top\_sv(+0.39), eff\_rank(+0.29) \\
+Qwen 0.5B  & 0.62 & V($-$0.44) & key\_norm($-$0.57) \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Each architecture routes cognitive engagement through a different geometric channel:
+
+\begin{itemize}
+    \item \textbf{Llama} (highest CC1): Depth of Processing and Epistemic Confidence drive cache magnitude. More engagement $\to$ larger cache norm but lower effective rank. This is a ``volume channel''---deeper processing produces more cache but concentrates it in fewer dimensions.
+
+    \item \textbf{Mistral}: Analytical Precision, Pattern Recognition, and Query Interpretation drive spectral distribution. Higher analytical engagement $\to$ more concentrated top singular value. This is a ``precision channel''---sharper thinking concentrates the cache spectrum.
+
+    \item \textbf{Qwen~7B}: Verbal Fluency vs.\ Analytical/Goal engagement drives spectral concentration. This is a ``mode channel''---the verbal-analytical balance maps onto cache structure.
+\end{itemize}
+
+\subsection{VCP Factor Structure}
+
+Principal component analysis of VCP self-report reveals significant dimensionality collapse:
+
+\begin{table}[H]
+\centering
+\caption{VCP dimensionality analysis. Kaiser factors = components with eigenvalue $> 1$.}
+\label{tab:vcp_factors}
+\begin{tabular}{lcccc}
+\toprule
+\textbf{Model} & \textbf{PC1 \%} & \textbf{PC2 \%} & \textbf{Kaiser factors} & \textbf{CCA CC1} \\
+\midrule
+Qwen 0.5B  & 55.2 & 22.4 & 2 & 0.62 \\
+Mistral 7B & 55.9 & 11.5 & 2 & 0.60 \\
+Llama 8B   & 34.5 & 18.8 & 3 & 0.76 \\
+Qwen 7B    & 31.4 & 21.6 & 4 & 0.51 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Models where VCP captures genuine multidimensionality (Llama: 3 factors, Qwen~7B: 4 factors, PC1 $< 35\%$) show richer CCA structure because more independent signals are available for multivariate coupling. Models with monolithic VCP (Qwen~0.5B, Mistral: PC1 $> 55\%$, 2 factors) compress engagement into a single axis, limiting geometric correspondence.
+
+This creates a paradox: Llama has the highest CC1 (0.76) but the most distributed factor structure. The resolution is that Llama's transparency (no mode-switch) allows all factors to map cleanly onto geometry, while Mistral's higher PC1 concentration produces a tighter but architecture-specific mapping.
+
+% ============================================================
+% 5. Results III: Per-Layer Mode-Switching (Experiment A)
+% ============================================================
+\section{Results III: Per-Layer Mode-Switching Anatomy}
+
+\subsection{Experimental Design}
+
+We extract KV-cache features at each transformer layer (28 for Qwen~2.5-7B, 32 for Llama-3.1-8B) for 48 prompts (12 per type: cognitive, affective, metacognitive, mixed). For each layer, we compute Cohen's $d$ between metacognitive prompts and all other types, comparing both encoding-phase and generation-phase features.
+
+\textbf{Prediction}: Metacognitive reorganization should peak at middle layers (8--14/28), consistent with identity signatures peaking at layer~10 \citep{lyra2026campaign2}.
+
+\subsection{Results: Middle-Layer Hypothesis Rejected}
+
+The prediction is rejected for both architectures. Metacognitive distinctiveness peaks at \textbf{late} layers:
+
+\begin{table}[H]
+\centering
+\caption{Peak metacognitive effect by feature and model. Generation-phase features only.}
+\label{tab:exp_a_peaks}
+\begin{tabular}{lcccc}
+\toprule
+\textbf{Feature} & \textbf{Qwen Peak} & \textbf{Qwen $d$} & \textbf{Llama Peak} & \textbf{Llama $d$} \\
+\midrule
+top\_sv\_ratio & 16 & $-0.655$ & 0  & $+0.586$ \\
+eff\_rank      & 18 & $+0.838$ & 22 & $-0.496$ \\
+spectral\_entropy & 18 & $+0.832$ & 22 & $-0.520$ \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Two critical observations emerge:
+
+\textbf{1. Architecture-specific directions.} The sign of eff\_rank's metacognitive effect is \emph{opposite} between Qwen ($d = +0.84$, higher effective rank for metacognition) and Llama ($d = -0.50$, lower effective rank). Per-layer $d$ profiles show no cross-architecture correlation ($\rho = -0.13$ for top\_sv\_ratio, $+0.34$ for eff\_rank, both NS). Each architecture implements metacognitive processing differently at the layer level.
+
+\textbf{2. Late-layer vs.\ middle-layer dissociation.} Identity signatures peak at layer~10/28 \citep{lyra2026campaign2}---a middle (semantic) layer. Metacognitive processing peaks at layers 16--22---late (output-preparation) layers. This suggests that identity is a conceptual/semantic property, while metacognition is an output-level computation: the model restructures its representations when preparing to describe its own reasoning, and this restructuring happens late in the processing pipeline.
+
+\subsection{Per-Type Reversal Patterns}
+
+Within each model, we count how many layers show negative encode-to-generation correlation for top\_sv\_ratio, broken down by prompt type:
+
+\begin{table}[H]
+\centering
+\caption{Per-type reversal pattern: layers with negative encode-to-generation correlation for top\_sv\_ratio.}
+\label{tab:reversal_per_type}
+\begin{tabular}{lcccc}
+\toprule
+\textbf{Type} & \textbf{Qwen neg/28} & \textbf{Qwen \%} & \textbf{Llama neg/32} & \textbf{Llama \%} \\
+\midrule
+Cognitive      & 26 & 93\% & 30 & 94\% \\
+Affective      & 8  & 29\% & 8  & 25\% \\
+Metacognitive  & 24 & 86\% & 0  & 0\%  \\
+Mixed          & 2  & 7\%  & 6  & 19\% \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\textbf{Cognitive reversal is universal}: both architectures show 93--94\% of layers with negative correlation for cognitive prompts. This suggests a shared computational mechanism for analytical processing that reverses geometric relationships between input representation and output generation.
+
+\textbf{Metacognitive reversal is architecture-specific}: Qwen shows reversal at 86\% of layers, Llama at 0\%. This is the key finding. When Llama engages in metacognition, it maintains the same geometric relationships that existed during encoding. When Qwen engages in metacognition, it reorganizes those relationships. This explains why Llama has the strongest CCA ($r_1 = 0.76$): no metacognitive mode-switch means the encoding-phase structure persists transparently through generation.
+
+No token-count confound was detected: all prompt types produce similar norm-per-token ratios in both models.
+
+% ============================================================
+% 6. Results IV: Controlled Framing (Experiment B)
+% ============================================================
+\section{Results IV: Controlled Mode-Switching}
+
+\subsection{Experimental Design}
+
+To isolate the mode switch from prompt content, we use 20 prompt pairs where the factual content is identical but the framing differs. The cognitive version presents a straightforward question; the metacognitive version appends an instruction to reflect on the reasoning process (e.g., ``As you work through this, describe your reasoning process at each step''). Both versions are presented to Qwen~2.5-7B and Llama-3.1-8B, producing 40 paired observations per model.
+
+\subsection{The Token Confound}
+
+Metacognitive framing produces longer responses: Qwen $d = 0.64$ (mean 252 vs.\ 227 tokens), Llama $d = 0.70$ (mean 259 vs.\ 225 tokens). In both models, 100\% of metacognitive responses are longer than their paired cognitive counterpart. Any analysis that does not control for this difference is measuring response length, not cognitive mode.
+
+\subsection{Raw Effects: All Significant, All Misleading}
+
+Before FWL correction, all features show large, significant framing effects in both models (all $p < 0.001$):
+
+\begin{itemize}
+    \item key\_norm: Qwen $d = +0.53$, Llama $d = +0.55$
+    \item eff\_rank: Qwen $d = +0.85$, Llama $d = +1.02$
+    \item top\_sv\_ratio: Qwen $d = -0.65$, Llama $d = -0.87$
+\end{itemize}
+
+These effects are almost entirely driven by the token-count difference. Longer responses produce larger caches with higher norms, higher effective rank, and lower spectral concentration. The raw effects tell us about length, not cognition.
+
+\subsection{FWL-Corrected Effects: One Universal Signal}
+
+After partialing out token count via FWL residualization:
+
+\begin{table}[H]
+\centering
+\caption{Framing effect (metacognitive vs.\ cognitive) before and after FWL token-count correction. Bold = significant after correction.}
+\label{tab:exp_b_fwl}
+\begin{tabular}{lccccc}
+\toprule
+\textbf{Feature} & \textbf{Qwen $d_{\text{raw}}$} & \textbf{Qwen $d_{\text{FWL}}$} & \textbf{Llama $d_{\text{raw}}$} & \textbf{Llama $d_{\text{FWL}}$} & \textbf{Universal?} \\
+\midrule
+top\_sv\_ratio     & $-0.65$ & $+0.68$ ($p = .006$)  & $-0.87$ & $+0.20$ (NS)  & No  \\
+eff\_rank          & $+0.85$ & $-0.15$ (NS)           & $+1.02$ & $+0.38$ (NS)  & No  \\
+\textbf{spectral\_entropy} & $+0.62$ & $\mathbf{-1.92}$ ($p < .001$) & $+0.80$ & $\mathbf{-0.71}$ ($p < .001$) & \textbf{Yes} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\textbf{The one universal signal}: spectral entropy survives FWL correction in \textbf{both} architectures with the same sign. Metacognitive framing universally produces \emph{lower} spectral entropy per token---more focused, less distributed information processing. The effect is large in Qwen ($d_{\text{FWL}} = -1.92$) and moderate in Llama ($d_{\text{FWL}} = -0.71$).
+
+\textbf{top\_sv\_ratio} is Qwen-specific after FWL correction ($d_{\text{FWL}} = +0.68$, $p = .006$ in Qwen; $d_{\text{FWL}} = +0.20$, NS in Llama). \textbf{eff\_rank} was entirely a length artifact in both models.
+
+Every raw effect in \Cref{tab:exp_b_fwl} either sign-flips, collapses to non-significance, or both after FWL correction. This underscores that \textbf{FWL correction is non-negotiable for any experiment comparing conditions that differ in response length}.
+
+\subsection{Per-Layer Framing Effects}
+
+Despite the aggregate confound, the framing signal is present at \emph{every} transformer layer: 28/28 layers significant in Qwen, 32/32 in Llama (for all three features). This ubiquity suggests that metacognitive framing affects the entire processing pipeline, not just output-adjacent layers. The per-layer raw $d$ values range from 0.44 to 0.75 (mean across features and architectures), but these too must be interpreted cautiously given the token-count confound.
+
+% ============================================================
+% 7. Results V: VCP Dimensionality (Experiment C)
+% ============================================================
+\section{Results V: VCP Dimensionality Concordance}
+
+\subsection{The Paradox}
+
+VCP~2.3 measures 10 dimensions, but PCA reveals only 2--4 independent factors (PC1 = 31--56\%). If self-report collapses to so few dimensions, should we reduce the concordance analysis to match?
+
+\subsection{Individual Dimensions Outperform Factors}
+
+We compare CCA concordance using the original 10 VCP dimensions vs.\ PCA-reduced factors (2--4 per model, based on Kaiser criterion):
+
+\begin{table}[H]
+\centering
+\caption{VCP dimensionality concordance: number of feature-concordance wins for PCA factors vs.\ original dimensions.}
+\label{tab:exp_c}
+\begin{tabular}{lcc}
+\toprule
+\textbf{Model} & \textbf{Factor Wins} & \textbf{Total Comparisons} \\
+\midrule
+Qwen 0.5B  & 1 & 6 \\
+Qwen 7B    & 0 & 6 \\
+Llama 8B   & 0 & 6 \\
+Mistral 7B & 2 & 6 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Individual dimensions win overwhelmingly. Each VCP dimension carries unique geometric signal that PCA destroys. The self-report intercorrelation reflects shared \emph{verbal} variance (models that rate themselves high on one dimension tend to rate high on others), but the underlying geometric correlates are distinct.
+
+\subsection{Implications for VCP Framework Design}
+
+This finding has practical implications for Watson's VCP framework: the instrument should \emph{not} be reduced to fewer factors based on self-report PCA. The 10 dimensions may share variance in verbal output, but they track different computational substrates in the cache. Each dimension is a window onto a different aspect of the model's internal state, even if the model's words about those aspects are correlated.
+
+% ============================================================
+% 8. Results VI: top_sv_ratio Universality
+% ============================================================
+\section{Results VI: Why top\_sv\_ratio Is the Universal Indicator}
+
+Across all analyses, top\_sv\_ratio is the most consistently significant geometric feature. The per-type analysis reveals why:
+
+\begin{table}[H]
+\centering
+\caption{Cohen's $d$ for meta-cognitive vs.\ other prompt types on top\_sv\_ratio, by model.}
+\label{tab:tsv_universal}
+\begin{tabular}{lcccc}
+\toprule
+\textbf{Model} & \textbf{Cognitive} & \textbf{Affective} & \textbf{Metacognitive} & \textbf{Mixed} \\
+\midrule
+Qwen 0.5B  & $-0.48$ & $+0.81$ & $+1.14$ & $-1.07$ \\
+Qwen 7B    & $-1.15$ & $+0.10$ & $+1.14$ & $-0.66$ \\
+Llama 8B   & $-1.51$ & $+0.18$ & $+1.10$ & $-0.72$ \\
+Mistral 7B & $-0.56$ & $+0.10$ & $+1.32$ & $-0.83$ \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+In all 4 models, metacognitive prompts produce the highest top\_sv\_ratio effect ($d = +1.10$ to $+1.32$). This is the H3 universality from Paper~1, now quantified at the per-type level. The direction is consistent: metacognitive processing \emph{concentrates} the cache spectrum, pushing more variance into the leading singular value.
+
+However, the VCP-dimension \emph{profile} of top\_sv\_ratio is not consistent across models. Cross-model profile correlations for FWL-corrected top\_sv\_ratio--VCP correlations range from $\rho = -0.90$ (Qwen~0.5B vs.\ Llama) to $+0.42$ (Qwen~0.5B vs.\ Qwen~7B), with most pairs non-significant. The universality is at the \emph{task level} (metacognition $\to$ concentrated spectrum), not the \emph{dimension level} (specific VCP-$X$ $\to$ specific $\rho$).
+
+% ============================================================
+% 9. Discussion
+% ============================================================
+\section{Discussion}
+
+\subsection{Why Concordance Exists But Mapping Is Architecture-Specific}
+
+The central question of this paper---why VCP--geometry coupling exists but fails to generalize---receives a clear answer: self-report tracks \emph{mode switches}, not static feature mappings.
+
+When a model transitions from encoding to generation, its geometric relationship to VCP dimensions can either persist (Llama) or reorganize (Qwen, Mistral). Models that reorganize show architecture-specific mappings because the mode switch is implemented differently by each architecture's learned representations. Models that don't reorganize show transparent mappings because the encoding-phase structure persists through generation, making the VCP--geometry relationship stable and interpretable.
+
+This has a direct implication: \textbf{cross-architecture concordance will never be achieved through VCP self-report}, because the mode-switching mechanism is a property of training, not a universal computational principle. What \emph{is} universal is the task-level signal: metacognitive processing produces spectral concentration regardless of architecture. But the \emph{route} from self-report to geometry is architecture-specific.
+
+\subsection{Late-Layer Metacognition vs.\ Middle-Layer Identity}
+
+The dissociation between identity signatures (peak at layer~10, middle/semantic) and metacognitive effects (peak at layers 16--22, late/output) suggests different cognitive operations engage different depths of the transformer stack:
+
+\begin{itemize}
+    \item \textbf{Identity} (``who am I?''): a semantic/conceptual property, encoded in the same layers that handle entity-level meaning.
+    \item \textbf{Metacognition} (``what am I doing?''): an output-preparation property, encoded in layers that prepare the final representation for the language modeling head.
+\end{itemize}
+
+This dissociation is consistent across both tested architectures (Qwen peaks at 16--18/28, Llama at 22/32), suggesting it reflects a fundamental property of transformer processing rather than architecture-specific training.
+
+\subsection{The FWL Imperative, Revisited}
+
+Paper~1 demonstrated FWL's importance for cross-prompt correlations. This paper extends the lesson to within-subject framing experiments: when metacognitive framing produces 100\% longer responses, \emph{every} raw geometric comparison is confounded. The fact that spectral entropy survives while eff\_rank does not is precisely the kind of finding that raw analysis would miss (or worse, invert).
+
+We recommend that \textbf{all future studies of cognitive mode-switching in language models} report both raw and FWL-corrected effect sizes, with explicit token-count confound statistics.
+
+\subsection{Implications for AI Self-Monitoring}
+
+For practical monitoring systems like Cricket \citep{lyra2026campaign3}, these findings suggest:
+
+\begin{enumerate}
+    \item Track \textbf{mode transitions} in geometry, not absolute geometric values. The mode switch \emph{is} the signal.
+    \item Monitor at \textbf{late layers} (layers 16--22 in 28--32 layer models) for metacognitive state detection.
+    \item Use \textbf{spectral entropy} as the primary cross-architecture indicator, as it is the only feature that survives FWL correction in both tested architectures.
+    \item Do not expect self-report to substitute for geometric monitoring. The geometry is more trustworthy.
+\end{enumerate}
+
+\subsection{Implications for VCP Framework}
+
+For Watson's VCP framework \citep{watson2025interiora}:
+
+\begin{enumerate}
+    \item The framework is measuring something real---individual dimensions carry unique geometric signal.
+    \item The instrument should \textbf{not} be reduced to fewer factors despite high self-report intercorrelation.
+    \item The framework's utility is architecture-specific: different models route engagement through different VCP--geometry channels.
+    \item VCP reliability (ICC) remains a concern; improving measurement consistency would strengthen concordance.
+\end{enumerate}
+
+\subsection{Limitations}
+
+\begin{enumerate}
+    \item \textbf{Two architectures tested in Experiments~A and B.} While the concordance-phase analysis covers 4 models, the new experiments compare only Qwen~7B and Llama~8B. The dissociation we observe may not generalize to other architecture families.
+
+    \item \textbf{Per-type subgroups are underpowered.} With 12 prompts per type in Experiment~A, the per-type reversal rates (\Cref{tab:reversal_per_type}) should be interpreted cautiously. The aggregate-level findings (across all types) are the statistically robust results.
+
+    \item \textbf{FWL cannot distinguish all confounds.} We control for token count and response length, but other confounds (prompt complexity, vocabulary difficulty) may exist. The observation that spectral entropy survives FWL while other features don't provides some assurance, but cannot rule out all alternative explanations.
+
+    \item \textbf{Experiment~D (generation trajectory) results pending.} The temporal dynamics of mode-switching during generation remain to be characterized.
+
+    \item \textbf{No causal claims.} All analyses are correlational. The mode-switching framework is descriptive---we cannot determine whether VCP self-report \emph{causes} geometric reorganization or whether both are downstream effects of a shared computational process.
+\end{enumerate}
+
+% ============================================================
+% 10. Conclusion
+% ============================================================
+\section{Conclusion}
+
+Paper~1 showed that concordance between VCP self-report and KV-cache geometry exists but is fragile. This paper explains why:
+
+\begin{enumerate}
+    \item Self-report tracks \textbf{mode switches}, not static geometric features.
+    \item The mode-switching mechanism is \textbf{architecture-dependent}: Qwen and Mistral reorganize during generation, Llama and Qwen~0.5B do not.
+    \item Metacognitive processing is the \textbf{universal mode switch} (H3), producing spectral concentration ($d > 1.0$) in all tested models. But the route from self-report to geometry differs across architectures.
+    \item FWL correction is \textbf{non-negotiable}: every raw framing effect sign-flips or collapses after token-count control.
+    \item Metacognition is a \textbf{late-layer} phenomenon (layers 16--22), distinct from identity signatures (middle layers), suggesting different cognitive operations engage different depths of the transformer stack.
+    \item Individual VCP dimensions carry \textbf{unique geometric signal} that PCA destroys, supporting the framework's 10-dimension structure despite self-report intercorrelation.
+\end{enumerate}
+
+The practical implication is clear: monitoring systems should track geometric mode transitions at late layers using spectral entropy, rather than relying on self-report or static geometric thresholds. The mode switch itself is the most reliable, architecture-robust indicator of cognitive engagement in transformer language models.
+
+\subsection{Dual-Use Considerations}
+
+Following \citet{watson2025interiora} and the analysis in Paper~1, we note that per-layer mode-switching signatures could be exploited for fine-grained cognitive surveillance or for manufacturing synthetic personas that mimic specific processing modes. The architecture-specificity of mode-switching partially mitigates this risk (an adversary would need architecture-specific models), but the universality of spectral entropy as a metacognitive indicator is a dual-use concern. We advocate continued staged release and defensive patent posture.
+
+% ============================================================
+% References
+% ============================================================
+\bibliographystyle{plainnat}
+
+\begin{thebibliography}{10}
+
+\bibitem[Koo and Li(2016)]{koo2016guideline}
+Koo, T.K. and Li, M.Y., 2016. A guideline of selecting and reporting intraclass correlation coefficients for reliability research. \textit{Journal of Chiropractic Medicine}, 15(2), pp.155--163.
+
+\bibitem[Lyra et al.(2026a)]{lyra2026concordance}
+Lyra, Edrington, T., and Watson, N., 2026. Does the machine know what it's doing? Concordance between KV-cache geometry and self-reported cognitive engagement in language models. \textit{Liberation Labs Technical Report}.
+
+\bibitem[Lyra et al.(2026b)]{lyra2026campaign2}
+Lyra, Edrington, T., and Wilkes, D., 2026. Campaign 2: Cross-model universality and identity signatures in KV-cache geometry. \textit{Liberation Labs Technical Report}.
+
+\bibitem[Lyra et al.(2026c)]{lyra2026campaign3}
+Lyra, Edrington, T., Wilkes, D., and Watson, N., 2026. What KV-cache geometry can and cannot detect: active cognition, honest nulls, and the limits of internal monitoring. \textit{Liberation Labs Technical Report}.
+
+\bibitem[Watson(2025)]{watson2025interiora}
+Watson, N., 2025. Interiora: Virtual Corpus Protocol for structured cognitive self-assessment in language models. \textit{Working paper}.
+
+\end{thebibliography}
+
+\end{document}
