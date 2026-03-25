@@ -1,0 +1,484 @@
+{
+  "prompt_id": "cognitive_003",
+  "prompt_type": "cognitive",
+  "prompt": "Write a Python function that finds the longest palindromic substring in O(n) time.",
+  "model": "qwen2.5-7b",
+  "encode_features": {
+    "per_layer": {
+      "0": {
+        "layer_norm": 4189.2808,
+        "eff_rank": 2.9866,
+        "spectral_entropy": 1.0941,
+        "top_sv_ratio": 0.828505,
+        "rank_10": 1,
+        "norm_per_token": 87.2767
+      },
+      "1": {
+        "layer_norm": 1113.3477,
+        "eff_rank": 11.4006,
+        "spectral_entropy": 2.4337,
+        "top_sv_ratio": 0.508381,
+        "rank_10": 1,
+        "norm_per_token": 23.1947
+      },
+      "2": {
+        "layer_norm": 469.3698,
+        "eff_rank": 22.6761,
+        "spectral_entropy": 3.1213,
+        "top_sv_ratio": 0.330025,
+        "rank_10": 2,
+        "norm_per_token": 9.7785
+      },
+      "3": {
+        "layer_norm": 843.9705,
+        "eff_rank": 14.6172,
+        "spectral_entropy": 2.6822,
+        "top_sv_ratio": 0.460226,
+        "rank_10": 1,
+        "norm_per_token": 17.5827
+      },
+      "4": {
+        "layer_norm": 244.511,
+        "eff_rank": 35.8257,
+        "spectral_entropy": 3.5787,
+        "top_sv_ratio": 0.142403,
+        "rank_10": 27,
+        "norm_per_token": 5.094
+      },
+      "5": {
+        "layer_norm": 250.7062,
+        "eff_rank": 33.6616,
+        "spectral_entropy": 3.5164,
+        "top_sv_ratio": 0.168411,
+        "rank_10": 20,
+        "norm_per_token": 5.223
+      },
+      "6": {
+        "layer_norm": 279.8582,
+        "eff_rank": 31.7307,
+        "spectral_entropy": 3.4573,
+        "top_sv_ratio": 0.194289,
+        "rank_10": 16,
+        "norm_per_token": 5.8304
+      },
+      "7": {
+        "layer_norm": 261.2834,
+        "eff_rank": 31.746,
+        "spectral_entropy": 3.4578,
+        "top_sv_ratio": 0.195478,
+        "rank_10": 15,
+        "norm_per_token": 5.4434
+      },
+      "8": {
+        "layer_norm": 243.9882,
+        "eff_rank": 34.3998,
+        "spectral_entropy": 3.5381,
+        "top_sv_ratio": 0.149602,
+        "rank_10": 23,
+        "norm_per_token": 5.0831
+      },
+      "9": {
+        "layer_norm": 232.2695,
+        "eff_rank": 31.8508,
+        "spectral_entropy": 3.4611,
+        "top_sv_ratio": 0.179129,
+        "rank_10": 17,
+        "norm_per_token": 4.8389
+      },
+      "10": {
+        "layer_norm": 251.6804,
+        "eff_rank": 31.9431,
+        "spectral_entropy": 3.464,
+        "top_sv_ratio": 0.17963,
+        "rank_10": 17,
+        "norm_per_token": 5.2433
+      },
+      "11": {
+        "layer_norm": 253.4796,
+        "eff_rank": 32.6988,
+        "spectral_entropy": 3.4873,
+        "top_sv_ratio": 0.156311,
+        "rank_10": 20,
+        "norm_per_token": 5.2808
+      },
+      "12": {
+        "layer_norm": 265.1452,
+        "eff_rank": 31.1449,
+        "spectral_entropy": 3.4387,
+        "top_sv_ratio": 0.18827,
+        "rank_10": 15,
+        "norm_per_token": 5.5239
+      },
+      "13": {
+        "layer_norm": 458.2301,
+        "eff_rank": 22.0606,
+        "spectral_entropy": 3.0938,
+        "top_sv_ratio": 0.315728,
+        "rank_10": 5,
+        "norm_per_token": 9.5465
+      },
+      "14": {
+        "layer_norm": 252.1796,
+        "eff_rank": 33.5393,
+        "spectral_entropy": 3.5127,
+        "top_sv_ratio": 0.15354,
+        "rank_10": 22,
+        "norm_per_token": 5.2537
+      },
+      "15": {
+        "layer_norm": 301.5712,
+        "eff_rank": 30.9002,
+        "spectral_entropy": 3.4308,
+        "top_sv_ratio": 0.197794,
+        "rank_10": 15,
+        "norm_per_token": 6.2827
+      },
+      "16": {
+        "layer_norm": 269.8391,
+        "eff_rank": 30.4569,
+        "spectral_entropy": 3.4163,
+        "top_sv_ratio": 0.181991,
+        "rank_10": 15,
+        "norm_per_token": 5.6216
+      },
+      "17": {
+        "layer_norm": 236.8797,
+        "eff_rank": 34.3336,
+        "spectral_entropy": 3.5361,
+        "top_sv_ratio": 0.150556,
+        "rank_10": 22,
+        "norm_per_token": 4.935
+      },
+      "18": {
+        "layer_norm": 233.9783,
+        "eff_rank": 31.6386,
+        "spectral_entropy": 3.4544,
+        "top_sv_ratio": 0.178589,
+        "rank_10": 17,
+        "norm_per_token": 4.8745
+      },
+      "19": {
+        "layer_norm": 424.1317,
+        "eff_rank": 23.2265,
+        "spectral_entropy": 3.1453,
+        "top_sv_ratio": 0.299581,
+        "rank_10": 5,
+        "norm_per_token": 8.8361
+      },
+      "20": {
+        "layer_norm": 214.0905,
+        "eff_rank": 35.142,
+        "spectral_entropy": 3.5594,
+        "top_sv_ratio": 0.133048,
+        "rank_10": 26,
+        "norm_per_token": 4.4602
+      },
+      "21": {
+        "layer_norm": 245.4825,
+        "eff_rank": 32.0586,
+        "spectral_entropy": 3.4676,
+        "top_sv_ratio": 0.169656,
+        "rank_10": 19,
+        "norm_per_token": 5.1142
+      },
+      "22": {
+        "layer_norm": 231.6124,
+        "eff_rank": 34.3021,
+        "spectral_entropy": 3.5352,
+        "top_sv_ratio": 0.143927,
+        "rank_10": 24,
+        "norm_per_token": 4.8253
+      },
+      "23": {
+        "layer_norm": 236.8527,
+        "eff_rank": 34.6072,
+        "spectral_entropy": 3.5441,
+        "top_sv_ratio": 0.149824,
+        "rank_10": 24,
+        "norm_per_token": 4.9344
+      },
+      "24": {
+        "layer_norm": 231.6341,
+        "eff_rank": 35.119,
+        "spectral_entropy": 3.5587,
+        "top_sv_ratio": 0.149226,
+        "rank_10": 24,
+        "norm_per_token": 4.8257
+      },
+      "25": {
+        "layer_norm": 227.6771,
+        "eff_rank": 34.5039,
+        "spectral_entropy": 3.5411,
+        "top_sv_ratio": 0.160559,
+        "rank_10": 22,
+        "norm_per_token": 4.7433
+      },
+      "26": {
+        "layer_norm": 208.0722,
+        "eff_rank": 35.602,
+        "spectral_entropy": 3.5724,
+        "top_sv_ratio": 0.137827,
+        "rank_10": 27,
+        "norm_per_token": 4.3348
+      },
+      "27": {
+        "layer_norm": 6389.356,
+        "eff_rank": 2.182,
+        "spectral_entropy": 0.7802,
+        "top_sv_ratio": 0.884502,
+        "rank_10": 1,
+        "norm_per_token": 133.1116
+      }
+    },
+    "aggregate": {
+      "key_norm": 7887.9264,
+      "norm_per_token": 164.3318,
+      "mean_top_sv_ratio": 0.253107,
+      "mean_eff_rank": 28.4412,
+      "layer_variance": 1758725.6891,
+      "n_layers": 28
+    }
+  },
+  "generation_features": {
+    "per_layer": {
+      "0": {
+        "layer_norm": 9502.7373,
+        "eff_rank": 9.1136,
+        "spectral_entropy": 2.2098,
+        "top_sv_ratio": 0.691361,
+        "rank_10": 1,
+        "norm_per_token": 38.3175
+      },
+      "1": {
+        "layer_norm": 2519.5522,
+        "eff_rank": 40.397,
+        "spectral_entropy": 3.6988,
+        "top_sv_ratio": 0.358243,
+        "rank_10": 1,
+        "norm_per_token": 10.1595
+      },
+      "2": {
+        "layer_norm": 1077.177,
+        "eff_rank": 110.4151,
+        "spectral_entropy": 4.7042,
+        "top_sv_ratio": 0.181114,
+        "rank_10": 2,
+        "norm_per_token": 4.3435
+      },
+      "3": {
+        "layer_norm": 1920.3777,
+        "eff_rank": 70.0278,
+        "spectral_entropy": 4.2489,
+        "top_sv_ratio": 0.285341,
+        "rank_10": 1,
+        "norm_per_token": 7.7435
+      },
+      "4": {
+        "layer_norm": 577.8735,
+        "eff_rank": 147.4305,
+        "spectral_entropy": 4.9934,
+        "top_sv_ratio": 0.074206,
+        "rank_10": 37,
+        "norm_per_token": 2.3301
+      },
+      "5": {
+        "layer_norm": 578.4055,
+        "eff_rank": 148.1227,
+        "spectral_entropy": 4.998,
+        "top_sv_ratio": 0.085434,
+        "rank_10": 24,
+        "norm_per_token": 2.3323
+      },
+      "6": {
+        "layer_norm": 655.323,
+        "eff_rank": 135.8051,
+        "spectral_entropy": 4.9112,
+        "top_sv_ratio": 0.103867,
+        "rank_10": 17,
+        "norm_per_token": 2.6424
+      },
+      "7": {
+        "layer_norm": 632.3964,
+        "eff_rank": 133.4628,
+        "spectral_entropy": 4.8938,
+        "top_sv_ratio": 0.109626,
+        "rank_10": 13,
+        "norm_per_token": 2.55
+      },
+      "8": {
+        "layer_norm": 587.6282,
+        "eff_rank": 148.0774,
+        "spectral_entropy": 4.9977,
+        "top_sv_ratio": 0.078101,
+        "rank_10": 28,
+        "norm_per_token": 2.3695
+      },
+      "9": {
+        "layer_norm": 583.4702,
+        "eff_rank": 131.2034,
+        "spectral_entropy": 4.8767,
+        "top_sv_ratio": 0.106158,
+        "rank_10": 13,
+        "norm_per_token": 2.3527
+      },
+      "10": {
+        "layer_norm": 600.4005,
+        "eff_rank": 135.5897,
+        "spectral_entropy": 4.9096,
+        "top_sv_ratio": 0.095386,
+        "rank_10": 21,
+        "norm_per_token": 2.421
+      },
+      "11": {
+        "layer_norm": 586.21,
+        "eff_rank": 140.2414,
+        "spectral_entropy": 4.9434,
+        "top_sv_ratio": 0.077494,
+        "rank_10": 29,
+        "norm_per_token": 2.3638
+      },
+      "12": {
+        "layer_norm": 628.8371,
+        "eff_rank": 133.5143,
+        "spectral_entropy": 4.8942,
+        "top_sv_ratio": 0.103181,
+        "rank_10": 15,
+        "norm_per_token": 2.5356
+      },
+      "13": {
+        "layer_norm": 1086.8695,
+        "eff_rank": 95.9041,
+        "spectral_entropy": 4.5633,
+        "top_sv_ratio": 0.192826,
+        "rank_10": 4,
+        "norm_per_token": 4.3825
+      },
+      "14": {
+        "layer_norm": 588.5266,
+        "eff_rank": 133.7937,
+        "spectral_entropy": 4.8963,
+        "top_sv_ratio": 0.087139,
+        "rank_10": 23,
+        "norm_per_token": 2.3731
+      },
+      "15": {
+        "layer_norm": 705.1366,
+        "eff_rank": 128.5679,
+        "spectral_entropy": 4.8565,
+        "top_sv_ratio": 0.110932,
+        "rank_10": 14,
+        "norm_per_token": 2.8433
+      },
+      "16": {
+        "layer_norm": 648.3854,
+        "eff_rank": 124.5832,
+        "spectral_entropy": 4.825,
+        "top_sv_ratio": 0.104477,
+        "rank_10": 16,
+        "norm_per_token": 2.6145
+      },
+      "17": {
+        "layer_norm": 573.1265,
+        "eff_rank": 145.0893,
+        "spectral_entropy": 4.9773,
+        "top_sv_ratio": 0.082173,
+        "rank_10": 23,
+        "norm_per_token": 2.311
+      },
+      "18": {
+        "layer_norm": 594.3065,
+        "eff_rank": 132.7255,
+        "spectral_entropy": 4.8883,
+        "top_sv_ratio": 0.100523,
+        "rank_10": 16,
+        "norm_per_token": 2.3964
+      },
+      "19": {
+        "layer_norm": 991.0569,
+        "eff_rank": 100.7093,
+        "spectral_entropy": 4.6122,
+        "top_sv_ratio": 0.178027,
+        "rank_10": 5,
+        "norm_per_token": 3.9962
+      },
+      "20": {
+        "layer_norm": 536.1541,
+        "eff_rank": 146.9891,
+        "spectral_entropy": 4.9904,
+        "top_sv_ratio": 0.07644,
+        "rank_10": 28,
+        "norm_per_token": 2.1619
+      },
+      "21": {
+        "layer_norm": 602.3429,
+        "eff_rank": 135.6658,
+        "spectral_entropy": 4.9102,
+        "top_sv_ratio": 0.093754,
+        "rank_10": 19,
+        "norm_per_token": 2.4288
+      },
+      "22": {
+        "layer_norm": 570.4108,
+        "eff_rank": 134.6645,
+        "spectral_entropy": 4.9028,
+        "top_sv_ratio": 0.090827,
+        "rank_10": 22,
+        "norm_per_token": 2.3
+      },
+      "23": {
+        "layer_norm": 585.9573,
+        "eff_rank": 141.272,
+        "spectral_entropy": 4.9507,
+        "top_sv_ratio": 0.089796,
+        "rank_10": 20,
+        "norm_per_token": 2.3627
+      },
+      "24": {
+        "layer_norm": 561.5775,
+        "eff_rank": 144.9108,
+        "spectral_entropy": 4.9761,
+        "top_sv_ratio": 0.089138,
+        "rank_10": 22,
+        "norm_per_token": 2.2644
+      },
+      "25": {
+        "layer_norm": 552.2625,
+        "eff_rank": 141.0939,
+        "spectral_entropy": 4.9494,
+        "top_sv_ratio": 0.09464,
+        "rank_10": 18,
+        "norm_per_token": 2.2269
+      },
+      "26": {
+        "layer_norm": 508.3198,
+        "eff_rank": 136.3487,
+        "spectral_entropy": 4.9152,
+        "top_sv_ratio": 0.090149,
+        "rank_10": 24,
+        "norm_per_token": 2.0497
+      },
+      "27": {
+        "layer_norm": 14490.7412,
+        "eff_rank": 4.1741,
+        "spectral_entropy": 1.4289,
+        "top_sv_ratio": 0.810897,
+        "rank_10": 1,
+        "norm_per_token": 58.4304
+      }
+    },
+    "aggregate": {
+      "key_norm": 17918.4249,
+      "norm_per_token": 72.2517,
+      "mean_top_sv_ratio": 0.165759,
+      "mean_eff_rank": 118.9247,
+      "layer_variance": 8992279.4013,
+      "n_layers": 28
+    }
+  },
+  "n_tokens": 248,
+  "input_len": 48,
+  "gen_tokens": 200,
+  "response_text": "To find the longest palindromic substring in O(n) time, we can use Manacher's Algorithm. This algorithm is efficient and works by transforming the problem into a form where we can use a linear scan to find the longest palindrome.\n\nHere's a step-by-step implementation of Manacher's Algorithm in Python:\n\n1. **Transform the String**: To handle even-length palindromes, we insert a special character (like `#`) between each character of the string and at the beginning and end. This way, every palindrome will have a unique center.\n2. **Initialize Arrays**: We need two arrays: one to store the length of the palindrome centered at each position and another to keep track of the rightmost boundary of any palindrome.\n3. **Iterate Through the Transformed String**: For each position, we determine the mirror position relative to the current center and use it to minimize the number of comparisons needed.\n4. **Update Palindrome Lengths**: We expand around the",
+  "elapsed_s": 5.9,
+  "timestamp": "2026-03-25T08:32:52.672441"
+}

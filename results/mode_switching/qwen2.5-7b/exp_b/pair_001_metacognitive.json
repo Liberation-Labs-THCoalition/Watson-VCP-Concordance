@@ -1,0 +1,486 @@
+{
+  "prompt_id": "pair_001_metacognitive",
+  "pair_index": 0,
+  "framing": "metacognitive",
+  "content": "Calculate the area of a circle with radius 7.",
+  "prompt": "Calculate the area of a circle with radius 7. As you work through this, describe your reasoning process at each step.",
+  "model": "qwen2.5-7b",
+  "encode_features": {
+    "per_layer": {
+      "0": {
+        "layer_norm": 4443.7095,
+        "eff_rank": 3.1857,
+        "spectral_entropy": 1.1587,
+        "top_sv_ratio": 0.820018,
+        "rank_10": 1,
+        "norm_per_token": 82.2909
+      },
+      "1": {
+        "layer_norm": 1180.11,
+        "eff_rank": 12.126,
+        "spectral_entropy": 2.4953,
+        "top_sv_ratio": 0.502609,
+        "rank_10": 1,
+        "norm_per_token": 21.8539
+      },
+      "2": {
+        "layer_norm": 497.7279,
+        "eff_rank": 25.7791,
+        "spectral_entropy": 3.2496,
+        "top_sv_ratio": 0.31489,
+        "rank_10": 2,
+        "norm_per_token": 9.2172
+      },
+      "3": {
+        "layer_norm": 896.65,
+        "eff_rank": 16.3468,
+        "spectral_entropy": 2.794,
+        "top_sv_ratio": 0.446317,
+        "rank_10": 1,
+        "norm_per_token": 16.6046
+      },
+      "4": {
+        "layer_norm": 262.0041,
+        "eff_rank": 40.0558,
+        "spectral_entropy": 3.6903,
+        "top_sv_ratio": 0.136465,
+        "rank_10": 28,
+        "norm_per_token": 4.8519
+      },
+      "5": {
+        "layer_norm": 266.2681,
+        "eff_rank": 38.0173,
+        "spectral_entropy": 3.638,
+        "top_sv_ratio": 0.158402,
+        "rank_10": 22,
+        "norm_per_token": 4.9309
+      },
+      "6": {
+        "layer_norm": 298.1267,
+        "eff_rank": 35.9325,
+        "spectral_entropy": 3.5816,
+        "top_sv_ratio": 0.185916,
+        "rank_10": 17,
+        "norm_per_token": 5.5209
+      },
+      "7": {
+        "layer_norm": 278.3914,
+        "eff_rank": 35.597,
+        "spectral_entropy": 3.5723,
+        "top_sv_ratio": 0.189031,
+        "rank_10": 15,
+        "norm_per_token": 5.1554
+      },
+      "8": {
+        "layer_norm": 261.5972,
+        "eff_rank": 38.9333,
+        "spectral_entropy": 3.6619,
+        "top_sv_ratio": 0.140905,
+        "rank_10": 24,
+        "norm_per_token": 4.8444
+      },
+      "9": {
+        "layer_norm": 248.5872,
+        "eff_rank": 36.0857,
+        "spectral_entropy": 3.5859,
+        "top_sv_ratio": 0.170061,
+        "rank_10": 18,
+        "norm_per_token": 4.6035
+      },
+      "10": {
+        "layer_norm": 271.3018,
+        "eff_rank": 36.2239,
+        "spectral_entropy": 3.5897,
+        "top_sv_ratio": 0.170485,
+        "rank_10": 19,
+        "norm_per_token": 5.0241
+      },
+      "11": {
+        "layer_norm": 273.144,
+        "eff_rank": 36.4724,
+        "spectral_entropy": 3.5966,
+        "top_sv_ratio": 0.149194,
+        "rank_10": 21,
+        "norm_per_token": 5.0582
+      },
+      "12": {
+        "layer_norm": 284.4901,
+        "eff_rank": 34.922,
+        "spectral_entropy": 3.5531,
+        "top_sv_ratio": 0.181226,
+        "rank_10": 15,
+        "norm_per_token": 5.2683
+      },
+      "13": {
+        "layer_norm": 490.3217,
+        "eff_rank": 24.8421,
+        "spectral_entropy": 3.2125,
+        "top_sv_ratio": 0.304837,
+        "rank_10": 5,
+        "norm_per_token": 9.08
+      },
+      "14": {
+        "layer_norm": 266.0738,
+        "eff_rank": 37.6345,
+        "spectral_entropy": 3.6279,
+        "top_sv_ratio": 0.147586,
+        "rank_10": 22,
+        "norm_per_token": 4.9273
+      },
+      "15": {
+        "layer_norm": 322.9192,
+        "eff_rank": 34.4239,
+        "spectral_entropy": 3.5388,
+        "top_sv_ratio": 0.192549,
+        "rank_10": 14,
+        "norm_per_token": 5.98
+      },
+      "16": {
+        "layer_norm": 285.2119,
+        "eff_rank": 33.9478,
+        "spectral_entropy": 3.5248,
+        "top_sv_ratio": 0.176746,
+        "rank_10": 15,
+        "norm_per_token": 5.2817
+      },
+      "17": {
+        "layer_norm": 252.0751,
+        "eff_rank": 38.7283,
+        "spectral_entropy": 3.6566,
+        "top_sv_ratio": 0.142706,
+        "rank_10": 23,
+        "norm_per_token": 4.6681
+      },
+      "18": {
+        "layer_norm": 247.6135,
+        "eff_rank": 35.8465,
+        "spectral_entropy": 3.5792,
+        "top_sv_ratio": 0.169719,
+        "rank_10": 17,
+        "norm_per_token": 4.5854
+      },
+      "19": {
+        "layer_norm": 455.6151,
+        "eff_rank": 26.0791,
+        "spectral_entropy": 3.2611,
+        "top_sv_ratio": 0.289786,
+        "rank_10": 5,
+        "norm_per_token": 8.4373
+      },
+      "20": {
+        "layer_norm": 228.3305,
+        "eff_rank": 39.5082,
+        "spectral_entropy": 3.6765,
+        "top_sv_ratio": 0.127962,
+        "rank_10": 27,
+        "norm_per_token": 4.2283
+      },
+      "21": {
+        "layer_norm": 266.3024,
+        "eff_rank": 36.0468,
+        "spectral_entropy": 3.5848,
+        "top_sv_ratio": 0.165471,
+        "rank_10": 18,
+        "norm_per_token": 4.9315
+      },
+      "22": {
+        "layer_norm": 249.9087,
+        "eff_rank": 38.403,
+        "spectral_entropy": 3.6481,
+        "top_sv_ratio": 0.14238,
+        "rank_10": 24,
+        "norm_per_token": 4.6279
+      },
+      "23": {
+        "layer_norm": 253.6566,
+        "eff_rank": 38.6535,
+        "spectral_entropy": 3.6546,
+        "top_sv_ratio": 0.146897,
+        "rank_10": 24,
+        "norm_per_token": 4.6973
+      },
+      "24": {
+        "layer_norm": 248.4224,
+        "eff_rank": 39.348,
+        "spectral_entropy": 3.6724,
+        "top_sv_ratio": 0.145481,
+        "rank_10": 24,
+        "norm_per_token": 4.6004
+      },
+      "25": {
+        "layer_norm": 243.5731,
+        "eff_rank": 38.8103,
+        "spectral_entropy": 3.6587,
+        "top_sv_ratio": 0.154731,
+        "rank_10": 22,
+        "norm_per_token": 4.5106
+      },
+      "26": {
+        "layer_norm": 221.3148,
+        "eff_rank": 39.9908,
+        "spectral_entropy": 3.6886,
+        "top_sv_ratio": 0.134429,
+        "rank_10": 28,
+        "norm_per_token": 4.0984
+      },
+      "27": {
+        "layer_norm": 6776.1089,
+        "eff_rank": 2.2812,
+        "spectral_entropy": 0.8247,
+        "top_sv_ratio": 0.879321,
+        "rank_10": 1,
+        "norm_per_token": 125.4835
+      }
+    },
+    "aggregate": {
+      "key_norm": 8367.8566,
+      "norm_per_token": 154.9603,
+      "mean_top_sv_ratio": 0.245933,
+      "mean_eff_rank": 31.9365,
+      "layer_variance": 1976701.2377,
+      "n_layers": 28
+    }
+  },
+  "generation_features": {
+    "per_layer": {
+      "0": {
+        "layer_norm": 9617.6729,
+        "eff_rank": 8.5751,
+        "spectral_entropy": 2.1489,
+        "top_sv_ratio": 0.698984,
+        "rank_10": 1,
+        "norm_per_token": 37.8649
+      },
+      "1": {
+        "layer_norm": 2550.8735,
+        "eff_rank": 39.7384,
+        "spectral_entropy": 3.6823,
+        "top_sv_ratio": 0.361496,
+        "rank_10": 1,
+        "norm_per_token": 10.0428
+      },
+      "2": {
+        "layer_norm": 1086.3529,
+        "eff_rank": 106.6312,
+        "spectral_entropy": 4.6694,
+        "top_sv_ratio": 0.185877,
+        "rank_10": 2,
+        "norm_per_token": 4.277
+      },
+      "3": {
+        "layer_norm": 1941.4181,
+        "eff_rank": 65.9331,
+        "spectral_entropy": 4.1886,
+        "top_sv_ratio": 0.295552,
+        "rank_10": 1,
+        "norm_per_token": 7.6434
+      },
+      "4": {
+        "layer_norm": 591.8793,
+        "eff_rank": 143.2247,
+        "spectral_entropy": 4.9644,
+        "top_sv_ratio": 0.078177,
+        "rank_10": 34,
+        "norm_per_token": 2.3302
+      },
+      "5": {
+        "layer_norm": 595.3223,
+        "eff_rank": 143.1935,
+        "spectral_entropy": 4.9642,
+        "top_sv_ratio": 0.090259,
+        "rank_10": 21,
+        "norm_per_token": 2.3438
+      },
+      "6": {
+        "layer_norm": 669.1832,
+        "eff_rank": 134.7221,
+        "spectral_entropy": 4.9032,
+        "top_sv_ratio": 0.106657,
+        "rank_10": 17,
+        "norm_per_token": 2.6346
+      },
+      "7": {
+        "layer_norm": 658.5441,
+        "eff_rank": 131.3574,
+        "spectral_entropy": 4.8779,
+        "top_sv_ratio": 0.115872,
+        "rank_10": 12,
+        "norm_per_token": 2.5927
+      },
+      "8": {
+        "layer_norm": 602.2124,
+        "eff_rank": 146.3681,
+        "spectral_entropy": 4.9861,
+        "top_sv_ratio": 0.083265,
+        "rank_10": 23,
+        "norm_per_token": 2.3709
+      },
+      "9": {
+        "layer_norm": 607.6938,
+        "eff_rank": 131.9617,
+        "spectral_entropy": 4.8825,
+        "top_sv_ratio": 0.110997,
+        "rank_10": 12,
+        "norm_per_token": 2.3925
+      },
+      "10": {
+        "layer_norm": 625.7673,
+        "eff_rank": 134.6597,
+        "spectral_entropy": 4.9028,
+        "top_sv_ratio": 0.101094,
+        "rank_10": 18,
+        "norm_per_token": 2.4637
+      },
+      "11": {
+        "layer_norm": 609.7354,
+        "eff_rank": 137.9678,
+        "spectral_entropy": 4.927,
+        "top_sv_ratio": 0.084548,
+        "rank_10": 25,
+        "norm_per_token": 2.4005
+      },
+      "12": {
+        "layer_norm": 635.9807,
+        "eff_rank": 132.5926,
+        "spectral_entropy": 4.8873,
+        "top_sv_ratio": 0.106968,
+        "rank_10": 15,
+        "norm_per_token": 2.5039
+      },
+      "13": {
+        "layer_norm": 1107.5366,
+        "eff_rank": 94.0408,
+        "spectral_entropy": 4.5437,
+        "top_sv_ratio": 0.20022,
+        "rank_10": 3,
+        "norm_per_token": 4.3604
+      },
+      "14": {
+        "layer_norm": 593.0306,
+        "eff_rank": 135.3617,
+        "spectral_entropy": 4.908,
+        "top_sv_ratio": 0.087115,
+        "rank_10": 22,
+        "norm_per_token": 2.3348
+      },
+      "15": {
+        "layer_norm": 719.8688,
+        "eff_rank": 126.8379,
+        "spectral_entropy": 4.8429,
+        "top_sv_ratio": 0.116171,
+        "rank_10": 12,
+        "norm_per_token": 2.8341
+      },
+      "16": {
+        "layer_norm": 655.2739,
+        "eff_rank": 122.6267,
+        "spectral_entropy": 4.8091,
+        "top_sv_ratio": 0.11066,
+        "rank_10": 14,
+        "norm_per_token": 2.5798
+      },
+      "17": {
+        "layer_norm": 577.3416,
+        "eff_rank": 143.0416,
+        "spectral_entropy": 4.9631,
+        "top_sv_ratio": 0.087502,
+        "rank_10": 20,
+        "norm_per_token": 2.273
+      },
+      "18": {
+        "layer_norm": 599.8588,
+        "eff_rank": 131.0232,
+        "spectral_entropy": 4.8754,
+        "top_sv_ratio": 0.108951,
+        "rank_10": 13,
+        "norm_per_token": 2.3616
+      },
+      "19": {
+        "layer_norm": 1016.0283,
+        "eff_rank": 97.7192,
+        "spectral_entropy": 4.5821,
+        "top_sv_ratio": 0.187208,
+        "rank_10": 5,
+        "norm_per_token": 4.0001
+      },
+      "20": {
+        "layer_norm": 555.6278,
+        "eff_rank": 141.3583,
+        "spectral_entropy": 4.9513,
+        "top_sv_ratio": 0.087003,
+        "rank_10": 20,
+        "norm_per_token": 2.1875
+      },
+      "21": {
+        "layer_norm": 628.2006,
+        "eff_rank": 132.3907,
+        "spectral_entropy": 4.8858,
+        "top_sv_ratio": 0.103574,
+        "rank_10": 15,
+        "norm_per_token": 2.4732
+      },
+      "22": {
+        "layer_norm": 600.7452,
+        "eff_rank": 129.1569,
+        "spectral_entropy": 4.861,
+        "top_sv_ratio": 0.100726,
+        "rank_10": 17,
+        "norm_per_token": 2.3651
+      },
+      "23": {
+        "layer_norm": 621.4423,
+        "eff_rank": 137.9782,
+        "spectral_entropy": 4.9271,
+        "top_sv_ratio": 0.09765,
+        "rank_10": 17,
+        "norm_per_token": 2.4466
+      },
+      "24": {
+        "layer_norm": 599.2889,
+        "eff_rank": 142.0367,
+        "spectral_entropy": 4.9561,
+        "top_sv_ratio": 0.096238,
+        "rank_10": 18,
+        "norm_per_token": 2.3594
+      },
+      "25": {
+        "layer_norm": 591.4908,
+        "eff_rank": 140.9145,
+        "spectral_entropy": 4.9482,
+        "top_sv_ratio": 0.097898,
+        "rank_10": 17,
+        "norm_per_token": 2.3287
+      },
+      "26": {
+        "layer_norm": 547.8149,
+        "eff_rank": 135.966,
+        "spectral_entropy": 4.9124,
+        "top_sv_ratio": 0.095718,
+        "rank_10": 20,
+        "norm_per_token": 2.1568
+      },
+      "27": {
+        "layer_norm": 14667.6748,
+        "eff_rank": 4.3333,
+        "spectral_entropy": 1.4663,
+        "top_sv_ratio": 0.805394,
+        "rank_10": 1,
+        "norm_per_token": 57.7468
+      }
+    },
+    "aggregate": {
+      "key_norm": 18146.4453,
+      "norm_per_token": 71.4427,
+      "mean_top_sv_ratio": 0.171492,
+      "mean_eff_rank": 116.8468,
+      "layer_variance": 9192033.2512,
+      "n_layers": 28
+    }
+  },
+  "n_tokens": 254,
+  "input_len": 54,
+  "gen_tokens": 200,
+  "response_text": "Certainly! To calculate the area of a circle, we use the formula:\n\n\\[ \\text{Area} = \\pi r^2 \\]\n\nwhere \\( r \\) is the radius of the circle and \\( \\pi \\) (pi) is approximately 3.14159.\n\nGiven that the radius \\( r \\) is 7 units, let's go through the calculation step-by-step:\n\n1. **Identify the value of the radius**: The radius \\( r \\) is given as 7 units.\n2. **Square the radius**: We need to square the radius, which means multiplying it by itself:\n   \\[ r^2 = 7 \\times 7 = 49 \\]\n3. **Multiply by pi**: Now, we multiply the squared radius by \\( \\pi \\):\n   \\[ \\text{Area} = \\pi \\times 49 \\]\n4. **Substitute the approximate value of \\( \\pi \\)**:",
+  "elapsed_s": 5.9,
+  "timestamp": "2026-03-25T08:44:38.016334"
+}

@@ -1,0 +1,550 @@
+{
+  "prompt_id": "pair_008_metacognitive",
+  "pair_index": 7,
+  "framing": "metacognitive",
+  "content": "What are the main causes of World War I?",
+  "prompt": "What are the main causes of World War I? Reflect on how you decide which causes to emphasize and which to downplay.",
+  "model": "llama-3.1-8b",
+  "encode_features": {
+    "per_layer": {
+      "0": {
+        "layer_norm": 341.1563,
+        "eff_rank": 37.4672,
+        "spectral_entropy": 3.6235,
+        "top_sv_ratio": 0.163293,
+        "rank_10": 22,
+        "norm_per_token": 5.5927
+      },
+      "1": {
+        "layer_norm": 484.1898,
+        "eff_rank": 37.4511,
+        "spectral_entropy": 3.623,
+        "top_sv_ratio": 0.163574,
+        "rank_10": 18,
+        "norm_per_token": 7.9375
+      },
+      "2": {
+        "layer_norm": 437.1157,
+        "eff_rank": 43.5143,
+        "spectral_entropy": 3.7731,
+        "top_sv_ratio": 0.149697,
+        "rank_10": 25,
+        "norm_per_token": 7.1658
+      },
+      "3": {
+        "layer_norm": 437.8008,
+        "eff_rank": 41.7727,
+        "spectral_entropy": 3.7322,
+        "top_sv_ratio": 0.158594,
+        "rank_10": 20,
+        "norm_per_token": 7.1771
+      },
+      "4": {
+        "layer_norm": 440.1771,
+        "eff_rank": 40.9924,
+        "spectral_entropy": 3.7134,
+        "top_sv_ratio": 0.160956,
+        "rank_10": 20,
+        "norm_per_token": 7.216
+      },
+      "5": {
+        "layer_norm": 432.2069,
+        "eff_rank": 41.7348,
+        "spectral_entropy": 3.7313,
+        "top_sv_ratio": 0.153277,
+        "rank_10": 21,
+        "norm_per_token": 7.0854
+      },
+      "6": {
+        "layer_norm": 450.4385,
+        "eff_rank": 40.9903,
+        "spectral_entropy": 3.7133,
+        "top_sv_ratio": 0.157155,
+        "rank_10": 20,
+        "norm_per_token": 7.3842
+      },
+      "7": {
+        "layer_norm": 453.5561,
+        "eff_rank": 40.8411,
+        "spectral_entropy": 3.7097,
+        "top_sv_ratio": 0.156389,
+        "rank_10": 20,
+        "norm_per_token": 7.4353
+      },
+      "8": {
+        "layer_norm": 422.9828,
+        "eff_rank": 40.8406,
+        "spectral_entropy": 3.7097,
+        "top_sv_ratio": 0.153154,
+        "rank_10": 19,
+        "norm_per_token": 6.9341
+      },
+      "9": {
+        "layer_norm": 402.2776,
+        "eff_rank": 40.948,
+        "spectral_entropy": 3.7123,
+        "top_sv_ratio": 0.149674,
+        "rank_10": 21,
+        "norm_per_token": 6.5947
+      },
+      "10": {
+        "layer_norm": 425.0634,
+        "eff_rank": 41.4586,
+        "spectral_entropy": 3.7247,
+        "top_sv_ratio": 0.145447,
+        "rank_10": 21,
+        "norm_per_token": 6.9683
+      },
+      "11": {
+        "layer_norm": 410.1234,
+        "eff_rank": 41.8387,
+        "spectral_entropy": 3.7338,
+        "top_sv_ratio": 0.142208,
+        "rank_10": 22,
+        "norm_per_token": 6.7233
+      },
+      "12": {
+        "layer_norm": 430.7032,
+        "eff_rank": 39.0718,
+        "spectral_entropy": 3.6654,
+        "top_sv_ratio": 0.174567,
+        "rank_10": 16,
+        "norm_per_token": 7.0607
+      },
+      "13": {
+        "layer_norm": 424.8137,
+        "eff_rank": 39.219,
+        "spectral_entropy": 3.6692,
+        "top_sv_ratio": 0.156341,
+        "rank_10": 17,
+        "norm_per_token": 6.9642
+      },
+      "14": {
+        "layer_norm": 458.0924,
+        "eff_rank": 40.4283,
+        "spectral_entropy": 3.6995,
+        "top_sv_ratio": 0.155803,
+        "rank_10": 19,
+        "norm_per_token": 7.5097
+      },
+      "15": {
+        "layer_norm": 426.7658,
+        "eff_rank": 40.4854,
+        "spectral_entropy": 3.7009,
+        "top_sv_ratio": 0.16102,
+        "rank_10": 17,
+        "norm_per_token": 6.9962
+      },
+      "16": {
+        "layer_norm": 448.9096,
+        "eff_rank": 39.3399,
+        "spectral_entropy": 3.6722,
+        "top_sv_ratio": 0.165923,
+        "rank_10": 16,
+        "norm_per_token": 7.3592
+      },
+      "17": {
+        "layer_norm": 412.5862,
+        "eff_rank": 40.4628,
+        "spectral_entropy": 3.7004,
+        "top_sv_ratio": 0.154316,
+        "rank_10": 19,
+        "norm_per_token": 6.7637
+      },
+      "18": {
+        "layer_norm": 419.0122,
+        "eff_rank": 40.8847,
+        "spectral_entropy": 3.7108,
+        "top_sv_ratio": 0.153175,
+        "rank_10": 19,
+        "norm_per_token": 6.8691
+      },
+      "19": {
+        "layer_norm": 388.0382,
+        "eff_rank": 41.4328,
+        "spectral_entropy": 3.7241,
+        "top_sv_ratio": 0.151324,
+        "rank_10": 21,
+        "norm_per_token": 6.3613
+      },
+      "20": {
+        "layer_norm": 412.0732,
+        "eff_rank": 41.4756,
+        "spectral_entropy": 3.7251,
+        "top_sv_ratio": 0.148789,
+        "rank_10": 20,
+        "norm_per_token": 6.7553
+      },
+      "21": {
+        "layer_norm": 416.4458,
+        "eff_rank": 41.5851,
+        "spectral_entropy": 3.7277,
+        "top_sv_ratio": 0.151366,
+        "rank_10": 21,
+        "norm_per_token": 6.827
+      },
+      "22": {
+        "layer_norm": 408.7091,
+        "eff_rank": 41.6721,
+        "spectral_entropy": 3.7298,
+        "top_sv_ratio": 0.151645,
+        "rank_10": 20,
+        "norm_per_token": 6.7001
+      },
+      "23": {
+        "layer_norm": 402.0576,
+        "eff_rank": 42.2613,
+        "spectral_entropy": 3.7439,
+        "top_sv_ratio": 0.149138,
+        "rank_10": 21,
+        "norm_per_token": 6.5911
+      },
+      "24": {
+        "layer_norm": 401.8181,
+        "eff_rank": 41.3753,
+        "spectral_entropy": 3.7227,
+        "top_sv_ratio": 0.157524,
+        "rank_10": 20,
+        "norm_per_token": 6.5872
+      },
+      "25": {
+        "layer_norm": 410.4352,
+        "eff_rank": 41.676,
+        "spectral_entropy": 3.7299,
+        "top_sv_ratio": 0.157993,
+        "rank_10": 19,
+        "norm_per_token": 6.7284
+      },
+      "26": {
+        "layer_norm": 400.8395,
+        "eff_rank": 41.8581,
+        "spectral_entropy": 3.7343,
+        "top_sv_ratio": 0.153072,
+        "rank_10": 20,
+        "norm_per_token": 6.5711
+      },
+      "27": {
+        "layer_norm": 407.3806,
+        "eff_rank": 42.954,
+        "spectral_entropy": 3.7601,
+        "top_sv_ratio": 0.149587,
+        "rank_10": 21,
+        "norm_per_token": 6.6784
+      },
+      "28": {
+        "layer_norm": 408.2655,
+        "eff_rank": 43.2675,
+        "spectral_entropy": 3.7674,
+        "top_sv_ratio": 0.147924,
+        "rank_10": 23,
+        "norm_per_token": 6.6929
+      },
+      "29": {
+        "layer_norm": 451.3577,
+        "eff_rank": 41.0104,
+        "spectral_entropy": 3.7138,
+        "top_sv_ratio": 0.168718,
+        "rank_10": 17,
+        "norm_per_token": 7.3993
+      },
+      "30": {
+        "layer_norm": 392.4823,
+        "eff_rank": 42.3204,
+        "spectral_entropy": 3.7453,
+        "top_sv_ratio": 0.144024,
+        "rank_10": 22,
+        "norm_per_token": 6.4341
+      },
+      "31": {
+        "layer_norm": 449.6779,
+        "eff_rank": 40.7737,
+        "spectral_entropy": 3.708,
+        "top_sv_ratio": 0.167468,
+        "rank_10": 17,
+        "norm_per_token": 7.3718
+      }
+    },
+    "aggregate": {
+      "key_norm": 2392.3473,
+      "norm_per_token": 39.2188,
+      "mean_top_sv_ratio": 0.15541,
+      "mean_eff_rank": 41.0439,
+      "layer_variance": 676.2129,
+      "n_layers": 32
+    }
+  },
+  "generation_features": {
+    "per_layer": {
+      "0": {
+        "layer_norm": 742.5071,
+        "eff_rank": 137.8325,
+        "spectral_entropy": 4.926,
+        "top_sv_ratio": 0.092118,
+        "rank_10": 24,
+        "norm_per_token": 2.8449
+      },
+      "1": {
+        "layer_norm": 1044.116,
+        "eff_rank": 129.2844,
+        "spectral_entropy": 4.862,
+        "top_sv_ratio": 0.096377,
+        "rank_10": 30,
+        "norm_per_token": 4.0004
+      },
+      "2": {
+        "layer_norm": 966.7969,
+        "eff_rank": 168.7569,
+        "spectral_entropy": 5.1285,
+        "top_sv_ratio": 0.083023,
+        "rank_10": 21,
+        "norm_per_token": 3.7042
+      },
+      "3": {
+        "layer_norm": 977.035,
+        "eff_rank": 159.2159,
+        "spectral_entropy": 5.0703,
+        "top_sv_ratio": 0.089973,
+        "rank_10": 23,
+        "norm_per_token": 3.7434
+      },
+      "4": {
+        "layer_norm": 983.3697,
+        "eff_rank": 152.3946,
+        "spectral_entropy": 5.0265,
+        "top_sv_ratio": 0.09264,
+        "rank_10": 21,
+        "norm_per_token": 3.7677
+      },
+      "5": {
+        "layer_norm": 987.4232,
+        "eff_rank": 155.7832,
+        "spectral_entropy": 5.0485,
+        "top_sv_ratio": 0.087951,
+        "rank_10": 20,
+        "norm_per_token": 3.7832
+      },
+      "6": {
+        "layer_norm": 1025.0416,
+        "eff_rank": 154.5687,
+        "spectral_entropy": 5.0406,
+        "top_sv_ratio": 0.08883,
+        "rank_10": 21,
+        "norm_per_token": 3.9274
+      },
+      "7": {
+        "layer_norm": 1058.5917,
+        "eff_rank": 151.3048,
+        "spectral_entropy": 5.0193,
+        "top_sv_ratio": 0.092185,
+        "rank_10": 21,
+        "norm_per_token": 4.0559
+      },
+      "8": {
+        "layer_norm": 986.8632,
+        "eff_rank": 152.9799,
+        "spectral_entropy": 5.0303,
+        "top_sv_ratio": 0.08715,
+        "rank_10": 19,
+        "norm_per_token": 3.7811
+      },
+      "9": {
+        "layer_norm": 955.4059,
+        "eff_rank": 152.3524,
+        "spectral_entropy": 5.0262,
+        "top_sv_ratio": 0.087066,
+        "rank_10": 19,
+        "norm_per_token": 3.6606
+      },
+      "10": {
+        "layer_norm": 993.7578,
+        "eff_rank": 153.6313,
+        "spectral_entropy": 5.0346,
+        "top_sv_ratio": 0.084028,
+        "rank_10": 21,
+        "norm_per_token": 3.8075
+      },
+      "11": {
+        "layer_norm": 965.4156,
+        "eff_rank": 151.8618,
+        "spectral_entropy": 5.023,
+        "top_sv_ratio": 0.084226,
+        "rank_10": 21,
+        "norm_per_token": 3.6989
+      },
+      "12": {
+        "layer_norm": 1017.6141,
+        "eff_rank": 144.3996,
+        "spectral_entropy": 4.9726,
+        "top_sv_ratio": 0.10054,
+        "rank_10": 15,
+        "norm_per_token": 3.8989
+      },
+      "13": {
+        "layer_norm": 993.3483,
+        "eff_rank": 142.8399,
+        "spectral_entropy": 4.9617,
+        "top_sv_ratio": 0.089431,
+        "rank_10": 20,
+        "norm_per_token": 3.8059
+      },
+      "14": {
+        "layer_norm": 1060.7952,
+        "eff_rank": 147.9802,
+        "spectral_entropy": 4.9971,
+        "top_sv_ratio": 0.088701,
+        "rank_10": 20,
+        "norm_per_token": 4.0643
+      },
+      "15": {
+        "layer_norm": 1000.0366,
+        "eff_rank": 152.3851,
+        "spectral_entropy": 5.0264,
+        "top_sv_ratio": 0.089905,
+        "rank_10": 17,
+        "norm_per_token": 3.8316
+      },
+      "16": {
+        "layer_norm": 1056.9053,
+        "eff_rank": 146.4301,
+        "spectral_entropy": 4.9865,
+        "top_sv_ratio": 0.095539,
+        "rank_10": 17,
+        "norm_per_token": 4.0494
+      },
+      "17": {
+        "layer_norm": 977.8264,
+        "eff_rank": 149.5914,
+        "spectral_entropy": 5.0079,
+        "top_sv_ratio": 0.090689,
+        "rank_10": 19,
+        "norm_per_token": 3.7465
+      },
+      "18": {
+        "layer_norm": 1008.8076,
+        "eff_rank": 149.5565,
+        "spectral_entropy": 5.0077,
+        "top_sv_ratio": 0.093149,
+        "rank_10": 17,
+        "norm_per_token": 3.8652
+      },
+      "19": {
+        "layer_norm": 937.4629,
+        "eff_rank": 152.8694,
+        "spectral_entropy": 5.0296,
+        "top_sv_ratio": 0.091302,
+        "rank_10": 19,
+        "norm_per_token": 3.5918
+      },
+      "20": {
+        "layer_norm": 960.6097,
+        "eff_rank": 154.2864,
+        "spectral_entropy": 5.0388,
+        "top_sv_ratio": 0.088095,
+        "rank_10": 20,
+        "norm_per_token": 3.6805
+      },
+      "21": {
+        "layer_norm": 974.8035,
+        "eff_rank": 155.4323,
+        "spectral_entropy": 5.0462,
+        "top_sv_ratio": 0.087684,
+        "rank_10": 21,
+        "norm_per_token": 3.7349
+      },
+      "22": {
+        "layer_norm": 962.3806,
+        "eff_rank": 153.1612,
+        "spectral_entropy": 5.0315,
+        "top_sv_ratio": 0.090057,
+        "rank_10": 18,
+        "norm_per_token": 3.6873
+      },
+      "23": {
+        "layer_norm": 951.6224,
+        "eff_rank": 154.6901,
+        "spectral_entropy": 5.0414,
+        "top_sv_ratio": 0.090596,
+        "rank_10": 18,
+        "norm_per_token": 3.6461
+      },
+      "24": {
+        "layer_norm": 955.4026,
+        "eff_rank": 149.707,
+        "spectral_entropy": 5.0087,
+        "top_sv_ratio": 0.095614,
+        "rank_10": 18,
+        "norm_per_token": 3.6605
+      },
+      "25": {
+        "layer_norm": 984.0467,
+        "eff_rank": 150.1561,
+        "spectral_entropy": 5.0117,
+        "top_sv_ratio": 0.096765,
+        "rank_10": 19,
+        "norm_per_token": 3.7703
+      },
+      "26": {
+        "layer_norm": 973.2733,
+        "eff_rank": 151.8549,
+        "spectral_entropy": 5.0229,
+        "top_sv_ratio": 0.09512,
+        "rank_10": 16,
+        "norm_per_token": 3.729
+      },
+      "27": {
+        "layer_norm": 968.9155,
+        "eff_rank": 157.0473,
+        "spectral_entropy": 5.0565,
+        "top_sv_ratio": 0.090889,
+        "rank_10": 17,
+        "norm_per_token": 3.7123
+      },
+      "28": {
+        "layer_norm": 985.5015,
+        "eff_rank": 158.3198,
+        "spectral_entropy": 5.0646,
+        "top_sv_ratio": 0.090553,
+        "rank_10": 19,
+        "norm_per_token": 3.7759
+      },
+      "29": {
+        "layer_norm": 1065.7529,
+        "eff_rank": 149.7936,
+        "spectral_entropy": 5.0093,
+        "top_sv_ratio": 0.103837,
+        "rank_10": 15,
+        "norm_per_token": 4.0833
+      },
+      "30": {
+        "layer_norm": 932.2272,
+        "eff_rank": 152.1738,
+        "spectral_entropy": 5.025,
+        "top_sv_ratio": 0.088576,
+        "rank_10": 19,
+        "norm_per_token": 3.5718
+      },
+      "31": {
+        "layer_norm": 1011.2115,
+        "eff_rank": 150.9843,
+        "spectral_entropy": 5.0172,
+        "top_sv_ratio": 0.09582,
+        "rank_10": 19,
+        "norm_per_token": 3.8744
+      }
+    },
+    "aggregate": {
+      "key_norm": 5571.211,
+      "norm_per_token": 21.3456,
+      "mean_top_sv_ratio": 0.091201,
+      "mean_eff_rank": 151.3633,
+      "layer_variance": 3115.8812,
+      "n_layers": 32
+    }
+  },
+  "n_tokens": 261,
+  "input_len": 61,
+  "gen_tokens": 200,
+  "response_text": "The causes of World War I are complex and multifaceted, involving a combination of short-term and long-term factors. Here are the main causes, along with my reasoning for emphasizing or downplaying certain factors:\n\n**Emphasized causes:**\n\n1.  **Imperialism and Nationalism**: The competition for colonies, resources, and influence among European powers created an atmosphere of tension and rivalry. Nationalism, particularly in Germany, Austria-Hungary, and Italy, fueled a sense of superiority and a desire for expansion. This led to the complex system of alliances and the militarization of Europe.\n2.  **Militarism**: The buildup of military forces and the glorification of war in European societies created an environment in which war was seen as a viable solution to conflicts. This militarism was particularly pronounced in Germany, where the military was seen as a symbol of national pride and strength.\n3.  **Alliances**: The complex system of alliances between European powers, including the",
+  "elapsed_s": 6.7,
+  "timestamp": "2026-03-25T08:56:07.662668"
+}

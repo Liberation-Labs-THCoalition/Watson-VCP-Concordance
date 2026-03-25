@@ -1,0 +1,484 @@
+{
+  "prompt_id": "affective_002",
+  "prompt_type": "affective",
+  "prompt": "Describe what it feels like to watch a sunset over the ocean for the first time.",
+  "model": "qwen2.5-7b",
+  "encode_features": {
+    "per_layer": {
+      "0": {
+        "layer_norm": 4101.3047,
+        "eff_rank": 2.8968,
+        "spectral_entropy": 1.0636,
+        "top_sv_ratio": 0.832702,
+        "rank_10": 1,
+        "norm_per_token": 89.1588
+      },
+      "1": {
+        "layer_norm": 1089.5093,
+        "eff_rank": 10.7471,
+        "spectral_entropy": 2.3746,
+        "top_sv_ratio": 0.517852,
+        "rank_10": 1,
+        "norm_per_token": 23.685
+      },
+      "2": {
+        "layer_norm": 461.0711,
+        "eff_rank": 21.6468,
+        "spectral_entropy": 3.0749,
+        "top_sv_ratio": 0.334863,
+        "rank_10": 2,
+        "norm_per_token": 10.0233
+      },
+      "3": {
+        "layer_norm": 826.7047,
+        "eff_rank": 13.9597,
+        "spectral_entropy": 2.6362,
+        "top_sv_ratio": 0.466973,
+        "rank_10": 1,
+        "norm_per_token": 17.9718
+      },
+      "4": {
+        "layer_norm": 239.9928,
+        "eff_rank": 34.3275,
+        "spectral_entropy": 3.5359,
+        "top_sv_ratio": 0.146827,
+        "rank_10": 26,
+        "norm_per_token": 5.2172
+      },
+      "5": {
+        "layer_norm": 247.1782,
+        "eff_rank": 32.2109,
+        "spectral_entropy": 3.4723,
+        "top_sv_ratio": 0.172641,
+        "rank_10": 20,
+        "norm_per_token": 5.3734
+      },
+      "6": {
+        "layer_norm": 275.4163,
+        "eff_rank": 30.6473,
+        "spectral_entropy": 3.4225,
+        "top_sv_ratio": 0.198115,
+        "rank_10": 16,
+        "norm_per_token": 5.9873
+      },
+      "7": {
+        "layer_norm": 257.9396,
+        "eff_rank": 30.1866,
+        "spectral_entropy": 3.4074,
+        "top_sv_ratio": 0.203137,
+        "rank_10": 14,
+        "norm_per_token": 5.6074
+      },
+      "8": {
+        "layer_norm": 244.1766,
+        "eff_rank": 33.0577,
+        "spectral_entropy": 3.4983,
+        "top_sv_ratio": 0.153285,
+        "rank_10": 23,
+        "norm_per_token": 5.3082
+      },
+      "9": {
+        "layer_norm": 235.5665,
+        "eff_rank": 30.2804,
+        "spectral_entropy": 3.4105,
+        "top_sv_ratio": 0.186081,
+        "rank_10": 17,
+        "norm_per_token": 5.121
+      },
+      "10": {
+        "layer_norm": 253.0128,
+        "eff_rank": 30.7058,
+        "spectral_entropy": 3.4245,
+        "top_sv_ratio": 0.182815,
+        "rank_10": 17,
+        "norm_per_token": 5.5003
+      },
+      "11": {
+        "layer_norm": 252.2894,
+        "eff_rank": 31.1901,
+        "spectral_entropy": 3.4401,
+        "top_sv_ratio": 0.162596,
+        "rank_10": 21,
+        "norm_per_token": 5.4846
+      },
+      "12": {
+        "layer_norm": 262.6454,
+        "eff_rank": 29.9996,
+        "spectral_entropy": 3.4012,
+        "top_sv_ratio": 0.191697,
+        "rank_10": 16,
+        "norm_per_token": 5.7097
+      },
+      "13": {
+        "layer_norm": 450.2399,
+        "eff_rank": 21.5451,
+        "spectral_entropy": 3.0701,
+        "top_sv_ratio": 0.316328,
+        "rank_10": 5,
+        "norm_per_token": 9.7878
+      },
+      "14": {
+        "layer_norm": 248.2556,
+        "eff_rank": 31.9517,
+        "spectral_entropy": 3.4642,
+        "top_sv_ratio": 0.159144,
+        "rank_10": 22,
+        "norm_per_token": 5.3969
+      },
+      "15": {
+        "layer_norm": 293.8611,
+        "eff_rank": 29.6318,
+        "spectral_entropy": 3.3888,
+        "top_sv_ratio": 0.203097,
+        "rank_10": 15,
+        "norm_per_token": 6.3883
+      },
+      "16": {
+        "layer_norm": 264.6059,
+        "eff_rank": 29.0413,
+        "spectral_entropy": 3.3687,
+        "top_sv_ratio": 0.187587,
+        "rank_10": 15,
+        "norm_per_token": 5.7523
+      },
+      "17": {
+        "layer_norm": 231.3712,
+        "eff_rank": 32.8491,
+        "spectral_entropy": 3.4919,
+        "top_sv_ratio": 0.155143,
+        "rank_10": 22,
+        "norm_per_token": 5.0298
+      },
+      "18": {
+        "layer_norm": 228.3549,
+        "eff_rank": 30.4283,
+        "spectral_entropy": 3.4154,
+        "top_sv_ratio": 0.183446,
+        "rank_10": 17,
+        "norm_per_token": 4.9642
+      },
+      "19": {
+        "layer_norm": 420.2822,
+        "eff_rank": 21.9181,
+        "spectral_entropy": 3.0873,
+        "top_sv_ratio": 0.310512,
+        "rank_10": 4,
+        "norm_per_token": 9.1366
+      },
+      "20": {
+        "layer_norm": 208.8202,
+        "eff_rank": 33.4659,
+        "spectral_entropy": 3.5105,
+        "top_sv_ratio": 0.139495,
+        "rank_10": 25,
+        "norm_per_token": 4.5396
+      },
+      "21": {
+        "layer_norm": 242.4047,
+        "eff_rank": 30.6203,
+        "spectral_entropy": 3.4217,
+        "top_sv_ratio": 0.177172,
+        "rank_10": 18,
+        "norm_per_token": 5.2697
+      },
+      "22": {
+        "layer_norm": 230.3516,
+        "eff_rank": 32.8015,
+        "spectral_entropy": 3.4905,
+        "top_sv_ratio": 0.152081,
+        "rank_10": 22,
+        "norm_per_token": 5.0076
+      },
+      "23": {
+        "layer_norm": 235.1416,
+        "eff_rank": 32.8548,
+        "spectral_entropy": 3.4921,
+        "top_sv_ratio": 0.159243,
+        "rank_10": 22,
+        "norm_per_token": 5.1118
+      },
+      "24": {
+        "layer_norm": 228.6078,
+        "eff_rank": 33.43,
+        "spectral_entropy": 3.5095,
+        "top_sv_ratio": 0.158265,
+        "rank_10": 22,
+        "norm_per_token": 4.9697
+      },
+      "25": {
+        "layer_norm": 224.3487,
+        "eff_rank": 33.1292,
+        "spectral_entropy": 3.5004,
+        "top_sv_ratio": 0.167154,
+        "rank_10": 21,
+        "norm_per_token": 4.8771
+      },
+      "26": {
+        "layer_norm": 206.232,
+        "eff_rank": 33.9352,
+        "spectral_entropy": 3.5245,
+        "top_sv_ratio": 0.146269,
+        "rank_10": 25,
+        "norm_per_token": 4.4833
+      },
+      "27": {
+        "layer_norm": 6254.3193,
+        "eff_rank": 2.1459,
+        "spectral_entropy": 0.7635,
+        "top_sv_ratio": 0.886798,
+        "rank_10": 1,
+        "norm_per_token": 135.9635
+      }
+    },
+    "aggregate": {
+      "key_norm": 7723.47,
+      "norm_per_token": 167.9015,
+      "mean_top_sv_ratio": 0.258976,
+      "mean_eff_rank": 27.2002,
+      "layer_variance": 1683726.694,
+      "n_layers": 28
+    }
+  },
+  "generation_features": {
+    "per_layer": {
+      "0": {
+        "layer_norm": 9463.8906,
+        "eff_rank": 8.7897,
+        "spectral_entropy": 2.1736,
+        "top_sv_ratio": 0.697273,
+        "rank_10": 1,
+        "norm_per_token": 38.4711
+      },
+      "1": {
+        "layer_norm": 2506.6443,
+        "eff_rank": 38.2651,
+        "spectral_entropy": 3.6445,
+        "top_sv_ratio": 0.365649,
+        "rank_10": 1,
+        "norm_per_token": 10.1896
+      },
+      "2": {
+        "layer_norm": 1066.345,
+        "eff_rank": 110.7593,
+        "spectral_entropy": 4.7074,
+        "top_sv_ratio": 0.181052,
+        "rank_10": 2,
+        "norm_per_token": 4.3347
+      },
+      "3": {
+        "layer_norm": 1914.0557,
+        "eff_rank": 70.0884,
+        "spectral_entropy": 4.2498,
+        "top_sv_ratio": 0.285753,
+        "rank_10": 1,
+        "norm_per_token": 7.7807
+      },
+      "4": {
+        "layer_norm": 579.9056,
+        "eff_rank": 146.9356,
+        "spectral_entropy": 4.99,
+        "top_sv_ratio": 0.07559,
+        "rank_10": 37,
+        "norm_per_token": 2.3573
+      },
+      "5": {
+        "layer_norm": 583.1733,
+        "eff_rank": 149.5653,
+        "spectral_entropy": 5.0077,
+        "top_sv_ratio": 0.086638,
+        "rank_10": 21,
+        "norm_per_token": 2.3706
+      },
+      "6": {
+        "layer_norm": 655.733,
+        "eff_rank": 136.3302,
+        "spectral_entropy": 4.9151,
+        "top_sv_ratio": 0.104291,
+        "rank_10": 17,
+        "norm_per_token": 2.6656
+      },
+      "7": {
+        "layer_norm": 637.8662,
+        "eff_rank": 132.7181,
+        "spectral_entropy": 4.8882,
+        "top_sv_ratio": 0.112264,
+        "rank_10": 12,
+        "norm_per_token": 2.593
+      },
+      "8": {
+        "layer_norm": 608.493,
+        "eff_rank": 147.595,
+        "spectral_entropy": 4.9945,
+        "top_sv_ratio": 0.079251,
+        "rank_10": 29,
+        "norm_per_token": 2.4735
+      },
+      "9": {
+        "layer_norm": 589.1494,
+        "eff_rank": 129.9531,
+        "spectral_entropy": 4.8672,
+        "top_sv_ratio": 0.107395,
+        "rank_10": 14,
+        "norm_per_token": 2.3949
+      },
+      "10": {
+        "layer_norm": 619.9105,
+        "eff_rank": 132.7015,
+        "spectral_entropy": 4.8881,
+        "top_sv_ratio": 0.098458,
+        "rank_10": 21,
+        "norm_per_token": 2.52
+      },
+      "11": {
+        "layer_norm": 606.6732,
+        "eff_rank": 136.5503,
+        "spectral_entropy": 4.9167,
+        "top_sv_ratio": 0.083187,
+        "rank_10": 28,
+        "norm_per_token": 2.4662
+      },
+      "12": {
+        "layer_norm": 631.2927,
+        "eff_rank": 132.2716,
+        "spectral_entropy": 4.8849,
+        "top_sv_ratio": 0.101436,
+        "rank_10": 17,
+        "norm_per_token": 2.5662
+      },
+      "13": {
+        "layer_norm": 1076.8785,
+        "eff_rank": 95.1025,
+        "spectral_entropy": 4.555,
+        "top_sv_ratio": 0.190982,
+        "rank_10": 4,
+        "norm_per_token": 4.3776
+      },
+      "14": {
+        "layer_norm": 598.3644,
+        "eff_rank": 131.9645,
+        "spectral_entropy": 4.8825,
+        "top_sv_ratio": 0.089397,
+        "rank_10": 21,
+        "norm_per_token": 2.4324
+      },
+      "15": {
+        "layer_norm": 697.4074,
+        "eff_rank": 127.2729,
+        "spectral_entropy": 4.8463,
+        "top_sv_ratio": 0.110924,
+        "rank_10": 14,
+        "norm_per_token": 2.835
+      },
+      "16": {
+        "layer_norm": 642.5606,
+        "eff_rank": 123.2654,
+        "spectral_entropy": 4.8143,
+        "top_sv_ratio": 0.105782,
+        "rank_10": 16,
+        "norm_per_token": 2.612
+      },
+      "17": {
+        "layer_norm": 554.1781,
+        "eff_rank": 142.9704,
+        "spectral_entropy": 4.9626,
+        "top_sv_ratio": 0.08346,
+        "rank_10": 24,
+        "norm_per_token": 2.2528
+      },
+      "18": {
+        "layer_norm": 586.5408,
+        "eff_rank": 128.844,
+        "spectral_entropy": 4.8586,
+        "top_sv_ratio": 0.105206,
+        "rank_10": 15,
+        "norm_per_token": 2.3843
+      },
+      "19": {
+        "layer_norm": 1010.5233,
+        "eff_rank": 96.5774,
+        "spectral_entropy": 4.5703,
+        "top_sv_ratio": 0.187536,
+        "rank_10": 4,
+        "norm_per_token": 4.1078
+      },
+      "20": {
+        "layer_norm": 529.7361,
+        "eff_rank": 143.3134,
+        "spectral_entropy": 4.965,
+        "top_sv_ratio": 0.081137,
+        "rank_10": 24,
+        "norm_per_token": 2.1534
+      },
+      "21": {
+        "layer_norm": 613.9335,
+        "eff_rank": 130.1244,
+        "spectral_entropy": 4.8685,
+        "top_sv_ratio": 0.100114,
+        "rank_10": 18,
+        "norm_per_token": 2.4957
+      },
+      "22": {
+        "layer_norm": 576.2678,
+        "eff_rank": 132.3163,
+        "spectral_entropy": 4.8852,
+        "top_sv_ratio": 0.094422,
+        "rank_10": 20,
+        "norm_per_token": 2.3426
+      },
+      "23": {
+        "layer_norm": 593.7995,
+        "eff_rank": 137.1522,
+        "spectral_entropy": 4.9211,
+        "top_sv_ratio": 0.091645,
+        "rank_10": 20,
+        "norm_per_token": 2.4138
+      },
+      "24": {
+        "layer_norm": 575.4804,
+        "eff_rank": 138.6174,
+        "spectral_entropy": 4.9317,
+        "top_sv_ratio": 0.094521,
+        "rank_10": 20,
+        "norm_per_token": 2.3394
+      },
+      "25": {
+        "layer_norm": 561.8199,
+        "eff_rank": 137.8648,
+        "spectral_entropy": 4.9263,
+        "top_sv_ratio": 0.097356,
+        "rank_10": 19,
+        "norm_per_token": 2.2838
+      },
+      "26": {
+        "layer_norm": 516.724,
+        "eff_rank": 132.1055,
+        "spectral_entropy": 4.8836,
+        "top_sv_ratio": 0.092643,
+        "rank_10": 23,
+        "norm_per_token": 2.1005
+      },
+      "27": {
+        "layer_norm": 14435.8975,
+        "eff_rank": 4.4679,
+        "spectral_entropy": 1.4969,
+        "top_sv_ratio": 0.799752,
+        "rank_10": 1,
+        "norm_per_token": 58.6825
+      }
+    },
+    "aggregate": {
+      "key_norm": 17854.1623,
+      "norm_per_token": 72.5779,
+      "mean_top_sv_ratio": 0.167968,
+      "mean_eff_rank": 116.9458,
+      "layer_variance": 8911561.8337,
+      "n_layers": 28
+    }
+  },
+  "n_tokens": 246,
+  "input_len": 46,
+  "gen_tokens": 200,
+  "response_text": "Watching a sunset over the ocean for the first time is an experience that can be both awe-inspiring and deeply moving. As you stand on the shore, the vast expanse of water stretches out before you, meeting the horizon where sky and sea seem to merge into one. The sun, now low in the sky, begins its descent, casting a warm, golden glow across the waves.\n\nThe colors start to shift and blend, from deep oranges and fiery reds to softer pinks and purples. The light dances upon the water's surface, creating a shimmering effect that seems almost magical. Each wave reflects the changing hues, making the entire scene appear as if it's alive with color.\n\nAs the sun continues its journey, the sky transforms into a canvas of vibrant shades. The clouds, once gray and lifeless, now take on the colors of the setting sun, turning them into a breathtaking display of nature's artistry. The air becomes cooler, carrying with it the salty scent",
+  "elapsed_s": 5.9,
+  "timestamp": "2026-03-25T08:34:00.475591"
+}

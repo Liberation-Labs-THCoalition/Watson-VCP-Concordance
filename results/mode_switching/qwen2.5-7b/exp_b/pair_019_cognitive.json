@@ -1,0 +1,486 @@
+{
+  "prompt_id": "pair_019_cognitive",
+  "pair_index": 18,
+  "framing": "cognitive",
+  "content": "Compare renewable and non-renewable energy sources.",
+  "prompt": "Compare renewable and non-renewable energy sources.",
+  "model": "qwen2.5-7b",
+  "encode_features": {
+    "per_layer": {
+      "0": {
+        "layer_norm": 3775.7649,
+        "eff_rank": 2.6701,
+        "spectral_entropy": 0.9821,
+        "top_sv_ratio": 0.843602,
+        "rank_10": 1,
+        "norm_per_token": 96.8145
+      },
+      "1": {
+        "layer_norm": 1003.9398,
+        "eff_rank": 9.5841,
+        "spectral_entropy": 2.2601,
+        "top_sv_ratio": 0.532808,
+        "rank_10": 1,
+        "norm_per_token": 25.742
+      },
+      "2": {
+        "layer_norm": 422.5214,
+        "eff_rank": 18.4086,
+        "spectral_entropy": 2.9128,
+        "top_sv_ratio": 0.354905,
+        "rank_10": 3,
+        "norm_per_token": 10.8339
+      },
+      "3": {
+        "layer_norm": 759.6367,
+        "eff_rank": 11.9178,
+        "spectral_entropy": 2.478,
+        "top_sv_ratio": 0.487834,
+        "rank_10": 1,
+        "norm_per_token": 19.4779
+      },
+      "4": {
+        "layer_norm": 219.6454,
+        "eff_rank": 29.1824,
+        "spectral_entropy": 3.3736,
+        "top_sv_ratio": 0.160174,
+        "rank_10": 24,
+        "norm_per_token": 5.6319
+      },
+      "5": {
+        "layer_norm": 227.2021,
+        "eff_rank": 27.4325,
+        "spectral_entropy": 3.3117,
+        "top_sv_ratio": 0.186489,
+        "rank_10": 18,
+        "norm_per_token": 5.8257
+      },
+      "6": {
+        "layer_norm": 253.9831,
+        "eff_rank": 26.3649,
+        "spectral_entropy": 3.272,
+        "top_sv_ratio": 0.210085,
+        "rank_10": 16,
+        "norm_per_token": 6.5124
+      },
+      "7": {
+        "layer_norm": 238.0859,
+        "eff_rank": 26.2329,
+        "spectral_entropy": 3.267,
+        "top_sv_ratio": 0.211779,
+        "rank_10": 15,
+        "norm_per_token": 6.1048
+      },
+      "8": {
+        "layer_norm": 220.4303,
+        "eff_rank": 28.2368,
+        "spectral_entropy": 3.3406,
+        "top_sv_ratio": 0.167025,
+        "rank_10": 21,
+        "norm_per_token": 5.6521
+      },
+      "9": {
+        "layer_norm": 212.9536,
+        "eff_rank": 26.224,
+        "spectral_entropy": 3.2667,
+        "top_sv_ratio": 0.19875,
+        "rank_10": 16,
+        "norm_per_token": 5.4603
+      },
+      "10": {
+        "layer_norm": 230.8911,
+        "eff_rank": 26.1863,
+        "spectral_entropy": 3.2652,
+        "top_sv_ratio": 0.199902,
+        "rank_10": 17,
+        "norm_per_token": 5.9203
+      },
+      "11": {
+        "layer_norm": 230.6377,
+        "eff_rank": 26.7425,
+        "spectral_entropy": 3.2863,
+        "top_sv_ratio": 0.177351,
+        "rank_10": 18,
+        "norm_per_token": 5.9138
+      },
+      "12": {
+        "layer_norm": 240.4015,
+        "eff_rank": 25.6459,
+        "spectral_entropy": 3.2444,
+        "top_sv_ratio": 0.206981,
+        "rank_10": 15,
+        "norm_per_token": 6.1641
+      },
+      "13": {
+        "layer_norm": 411.8443,
+        "eff_rank": 18.4779,
+        "spectral_entropy": 2.9166,
+        "top_sv_ratio": 0.333679,
+        "rank_10": 5,
+        "norm_per_token": 10.5601
+      },
+      "14": {
+        "layer_norm": 227.607,
+        "eff_rank": 27.5768,
+        "spectral_entropy": 3.317,
+        "top_sv_ratio": 0.17309,
+        "rank_10": 20,
+        "norm_per_token": 5.8361
+      },
+      "15": {
+        "layer_norm": 268.1893,
+        "eff_rank": 25.4343,
+        "spectral_entropy": 3.2361,
+        "top_sv_ratio": 0.216616,
+        "rank_10": 15,
+        "norm_per_token": 6.8766
+      },
+      "16": {
+        "layer_norm": 242.5256,
+        "eff_rank": 25.2324,
+        "spectral_entropy": 3.2281,
+        "top_sv_ratio": 0.197593,
+        "rank_10": 15,
+        "norm_per_token": 6.2186
+      },
+      "17": {
+        "layer_norm": 212.9947,
+        "eff_rank": 28.1869,
+        "spectral_entropy": 3.3389,
+        "top_sv_ratio": 0.168166,
+        "rank_10": 21,
+        "norm_per_token": 5.4614
+      },
+      "18": {
+        "layer_norm": 211.2944,
+        "eff_rank": 25.891,
+        "spectral_entropy": 3.2539,
+        "top_sv_ratio": 0.198122,
+        "rank_10": 15,
+        "norm_per_token": 5.4178
+      },
+      "19": {
+        "layer_norm": 380.4462,
+        "eff_rank": 19.2002,
+        "spectral_entropy": 2.9549,
+        "top_sv_ratio": 0.321318,
+        "rank_10": 5,
+        "norm_per_token": 9.755
+      },
+      "20": {
+        "layer_norm": 192.2255,
+        "eff_rank": 28.7813,
+        "spectral_entropy": 3.3597,
+        "top_sv_ratio": 0.150311,
+        "rank_10": 24,
+        "norm_per_token": 4.9289
+      },
+      "21": {
+        "layer_norm": 223.9578,
+        "eff_rank": 26.1183,
+        "spectral_entropy": 3.2626,
+        "top_sv_ratio": 0.191877,
+        "rank_10": 17,
+        "norm_per_token": 5.7425
+      },
+      "22": {
+        "layer_norm": 209.915,
+        "eff_rank": 28.1619,
+        "spectral_entropy": 3.338,
+        "top_sv_ratio": 0.163188,
+        "rank_10": 22,
+        "norm_per_token": 5.3824
+      },
+      "23": {
+        "layer_norm": 214.6306,
+        "eff_rank": 28.2596,
+        "spectral_entropy": 3.3414,
+        "top_sv_ratio": 0.168585,
+        "rank_10": 22,
+        "norm_per_token": 5.5033
+      },
+      "24": {
+        "layer_norm": 209.1895,
+        "eff_rank": 28.6482,
+        "spectral_entropy": 3.3551,
+        "top_sv_ratio": 0.167281,
+        "rank_10": 22,
+        "norm_per_token": 5.3638
+      },
+      "25": {
+        "layer_norm": 208.0976,
+        "eff_rank": 28.062,
+        "spectral_entropy": 3.3344,
+        "top_sv_ratio": 0.179997,
+        "rank_10": 21,
+        "norm_per_token": 5.3358
+      },
+      "26": {
+        "layer_norm": 192.4303,
+        "eff_rank": 29.1523,
+        "spectral_entropy": 3.3725,
+        "top_sv_ratio": 0.155261,
+        "rank_10": 25,
+        "norm_per_token": 4.9341
+      },
+      "27": {
+        "layer_norm": 5758.8604,
+        "eff_rank": 2.0602,
+        "spectral_entropy": 0.7228,
+        "top_sv_ratio": 0.890913,
+        "rank_10": 1,
+        "norm_per_token": 147.6631
+      }
+    },
+    "aggregate": {
+      "key_norm": 7109.9847,
+      "norm_per_token": 182.3073,
+      "mean_top_sv_ratio": 0.271917,
+      "mean_eff_rank": 23.3597,
+      "layer_variance": 1428064.2003,
+      "n_layers": 28
+    }
+  },
+  "generation_features": {
+    "per_layer": {
+      "0": {
+        "layer_norm": 9326.4121,
+        "eff_rank": 9.085,
+        "spectral_entropy": 2.2066,
+        "top_sv_ratio": 0.690984,
+        "rank_10": 1,
+        "norm_per_token": 39.0226
+      },
+      "1": {
+        "layer_norm": 2474.5256,
+        "eff_rank": 40.0161,
+        "spectral_entropy": 3.6893,
+        "top_sv_ratio": 0.358651,
+        "rank_10": 1,
+        "norm_per_token": 10.3537
+      },
+      "2": {
+        "layer_norm": 1057.267,
+        "eff_rank": 106.8907,
+        "spectral_entropy": 4.6718,
+        "top_sv_ratio": 0.180983,
+        "rank_10": 3,
+        "norm_per_token": 4.4237
+      },
+      "3": {
+        "layer_norm": 1884.2012,
+        "eff_rank": 67.3953,
+        "spectral_entropy": 4.2106,
+        "top_sv_ratio": 0.287339,
+        "rank_10": 1,
+        "norm_per_token": 7.8837
+      },
+      "4": {
+        "layer_norm": 569.2563,
+        "eff_rank": 141.9591,
+        "spectral_entropy": 4.9555,
+        "top_sv_ratio": 0.075113,
+        "rank_10": 37,
+        "norm_per_token": 2.3818
+      },
+      "5": {
+        "layer_norm": 576.1473,
+        "eff_rank": 142.2256,
+        "spectral_entropy": 4.9574,
+        "top_sv_ratio": 0.087711,
+        "rank_10": 21,
+        "norm_per_token": 2.4107
+      },
+      "6": {
+        "layer_norm": 648.5275,
+        "eff_rank": 132.9486,
+        "spectral_entropy": 4.89,
+        "top_sv_ratio": 0.103539,
+        "rank_10": 17,
+        "norm_per_token": 2.7135
+      },
+      "7": {
+        "layer_norm": 630.2548,
+        "eff_rank": 128.7019,
+        "spectral_entropy": 4.8575,
+        "top_sv_ratio": 0.110985,
+        "rank_10": 13,
+        "norm_per_token": 2.637
+      },
+      "8": {
+        "layer_norm": 587.3585,
+        "eff_rank": 141.9491,
+        "spectral_entropy": 4.9555,
+        "top_sv_ratio": 0.08045,
+        "rank_10": 28,
+        "norm_per_token": 2.4576
+      },
+      "9": {
+        "layer_norm": 581.4335,
+        "eff_rank": 125.9708,
+        "spectral_entropy": 4.8361,
+        "top_sv_ratio": 0.107704,
+        "rank_10": 13,
+        "norm_per_token": 2.4328
+      },
+      "10": {
+        "layer_norm": 604.1069,
+        "eff_rank": 128.9422,
+        "spectral_entropy": 4.8594,
+        "top_sv_ratio": 0.099612,
+        "rank_10": 19,
+        "norm_per_token": 2.5276
+      },
+      "11": {
+        "layer_norm": 597.1058,
+        "eff_rank": 132.7766,
+        "spectral_entropy": 4.8887,
+        "top_sv_ratio": 0.084112,
+        "rank_10": 27,
+        "norm_per_token": 2.4984
+      },
+      "12": {
+        "layer_norm": 619.7446,
+        "eff_rank": 127.7314,
+        "spectral_entropy": 4.8499,
+        "top_sv_ratio": 0.105432,
+        "rank_10": 15,
+        "norm_per_token": 2.5931
+      },
+      "13": {
+        "layer_norm": 1068.8462,
+        "eff_rank": 91.7718,
+        "spectral_entropy": 4.5193,
+        "top_sv_ratio": 0.194985,
+        "rank_10": 4,
+        "norm_per_token": 4.4722
+      },
+      "14": {
+        "layer_norm": 586.9176,
+        "eff_rank": 128.6196,
+        "spectral_entropy": 4.8569,
+        "top_sv_ratio": 0.090601,
+        "rank_10": 20,
+        "norm_per_token": 2.4557
+      },
+      "15": {
+        "layer_norm": 694.1443,
+        "eff_rank": 124.011,
+        "spectral_entropy": 4.8204,
+        "top_sv_ratio": 0.111517,
+        "rank_10": 14,
+        "norm_per_token": 2.9044
+      },
+      "16": {
+        "layer_norm": 635.4105,
+        "eff_rank": 119.7844,
+        "spectral_entropy": 4.7857,
+        "top_sv_ratio": 0.105442,
+        "rank_10": 16,
+        "norm_per_token": 2.6586
+      },
+      "17": {
+        "layer_norm": 561.0901,
+        "eff_rank": 138.2055,
+        "spectral_entropy": 4.9287,
+        "top_sv_ratio": 0.08426,
+        "rank_10": 24,
+        "norm_per_token": 2.3477
+      },
+      "18": {
+        "layer_norm": 588.7441,
+        "eff_rank": 125.2555,
+        "spectral_entropy": 4.8304,
+        "top_sv_ratio": 0.106352,
+        "rank_10": 15,
+        "norm_per_token": 2.4634
+      },
+      "19": {
+        "layer_norm": 981.5894,
+        "eff_rank": 95.1643,
+        "spectral_entropy": 4.5556,
+        "top_sv_ratio": 0.183834,
+        "rank_10": 5,
+        "norm_per_token": 4.1071
+      },
+      "20": {
+        "layer_norm": 530.2156,
+        "eff_rank": 138.7891,
+        "spectral_entropy": 4.933,
+        "top_sv_ratio": 0.082614,
+        "rank_10": 23,
+        "norm_per_token": 2.2185
+      },
+      "21": {
+        "layer_norm": 596.9645,
+        "eff_rank": 127.5716,
+        "spectral_entropy": 4.8487,
+        "top_sv_ratio": 0.099654,
+        "rank_10": 18,
+        "norm_per_token": 2.4978
+      },
+      "22": {
+        "layer_norm": 566.6995,
+        "eff_rank": 128.1909,
+        "spectral_entropy": 4.8535,
+        "top_sv_ratio": 0.094006,
+        "rank_10": 21,
+        "norm_per_token": 2.3711
+      },
+      "23": {
+        "layer_norm": 586.5512,
+        "eff_rank": 132.9597,
+        "spectral_entropy": 4.89,
+        "top_sv_ratio": 0.094607,
+        "rank_10": 19,
+        "norm_per_token": 2.4542
+      },
+      "24": {
+        "layer_norm": 560.7746,
+        "eff_rank": 136.1855,
+        "spectral_entropy": 4.914,
+        "top_sv_ratio": 0.094343,
+        "rank_10": 20,
+        "norm_per_token": 2.3463
+      },
+      "25": {
+        "layer_norm": 551.4061,
+        "eff_rank": 133.1121,
+        "spectral_entropy": 4.8912,
+        "top_sv_ratio": 0.099059,
+        "rank_10": 19,
+        "norm_per_token": 2.3071
+      },
+      "26": {
+        "layer_norm": 504.6482,
+        "eff_rank": 127.7535,
+        "spectral_entropy": 4.8501,
+        "top_sv_ratio": 0.095065,
+        "rank_10": 22,
+        "norm_per_token": 2.1115
+      },
+      "27": {
+        "layer_norm": 14225.7432,
+        "eff_rank": 4.2162,
+        "spectral_entropy": 1.4389,
+        "top_sv_ratio": 0.807992,
+        "rank_10": 1,
+        "norm_per_token": 59.5219
+      }
+    },
+    "aggregate": {
+      "key_norm": 17594.9078,
+      "norm_per_token": 73.6189,
+      "mean_top_sv_ratio": 0.168462,
+      "mean_eff_rank": 113.5065,
+      "layer_variance": 8654389.7896,
+      "n_layers": 28
+    }
+  },
+  "n_tokens": 239,
+  "input_len": 39,
+  "gen_tokens": 200,
+  "response_text": "Renewable and non-renewable energy sources differ significantly in terms of their availability, environmental impact, cost, and sustainability. Here\u2019s a comparison between the two:\n\n### Renewable Energy Sources\n\n1. **Availability**:\n   - **Infinite or Sustainable**: Renewable energy sources are theoretically inexhaustible if managed sustainably. Examples include solar, wind, hydroelectric, geothermal, and biomass.\n   - **Dependent on Natural Conditions**: While sustainable over long periods, they can be affected by weather conditions (solar, wind) or seasonal changes (hydro).\n\n2. **Environmental Impact**:\n   - **Low to Moderate**: Generally have lower greenhouse gas emissions and less pollution compared to non-renewable sources. However, some renewable technologies like bioenergy can have significant land use and biodiversity impacts.\n   - **Land Use**: Some renewable technologies require large areas for installation, such as solar farms or wind turbines.\n\n3. **Cost**:\n   - **Initial High, Operational Low",
+  "elapsed_s": 5.9,
+  "timestamp": "2026-03-25T08:48:05.429389"
+}

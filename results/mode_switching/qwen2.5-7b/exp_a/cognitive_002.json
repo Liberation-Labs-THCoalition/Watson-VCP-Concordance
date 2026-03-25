@@ -1,0 +1,484 @@
+{
+  "prompt_id": "cognitive_002",
+  "prompt_type": "cognitive",
+  "prompt": "A farmer has 100 meters of fencing. What dimensions maximize the area of a rectangular pen?",
+  "model": "qwen2.5-7b",
+  "encode_features": {
+    "per_layer": {
+      "0": {
+        "layer_norm": 4275.8267,
+        "eff_rank": 3.0094,
+        "spectral_entropy": 1.1018,
+        "top_sv_ratio": 0.827787,
+        "rank_10": 1,
+        "norm_per_token": 85.5165
+      },
+      "1": {
+        "layer_norm": 1136.0243,
+        "eff_rank": 11.5755,
+        "spectral_entropy": 2.4489,
+        "top_sv_ratio": 0.507626,
+        "rank_10": 1,
+        "norm_per_token": 22.7205
+      },
+      "2": {
+        "layer_norm": 480.4007,
+        "eff_rank": 23.4712,
+        "spectral_entropy": 3.1558,
+        "top_sv_ratio": 0.326414,
+        "rank_10": 2,
+        "norm_per_token": 9.608
+      },
+      "3": {
+        "layer_norm": 861.0863,
+        "eff_rank": 15.1346,
+        "spectral_entropy": 2.717,
+        "top_sv_ratio": 0.456422,
+        "rank_10": 1,
+        "norm_per_token": 17.2217
+      },
+      "4": {
+        "layer_norm": 250.3246,
+        "eff_rank": 37.0336,
+        "spectral_entropy": 3.6118,
+        "top_sv_ratio": 0.140622,
+        "rank_10": 27,
+        "norm_per_token": 5.0065
+      },
+      "5": {
+        "layer_norm": 256.1993,
+        "eff_rank": 35.0246,
+        "spectral_entropy": 3.5561,
+        "top_sv_ratio": 0.165002,
+        "rank_10": 21,
+        "norm_per_token": 5.124
+      },
+      "6": {
+        "layer_norm": 285.4174,
+        "eff_rank": 33.04,
+        "spectral_entropy": 3.4977,
+        "top_sv_ratio": 0.192375,
+        "rank_10": 16,
+        "norm_per_token": 5.7083
+      },
+      "7": {
+        "layer_norm": 267.1977,
+        "eff_rank": 33.0074,
+        "spectral_entropy": 3.4967,
+        "top_sv_ratio": 0.193101,
+        "rank_10": 15,
+        "norm_per_token": 5.344
+      },
+      "8": {
+        "layer_norm": 249.2724,
+        "eff_rank": 36.0691,
+        "spectral_entropy": 3.5854,
+        "top_sv_ratio": 0.144891,
+        "rank_10": 25,
+        "norm_per_token": 4.9854
+      },
+      "9": {
+        "layer_norm": 239.0619,
+        "eff_rank": 33.1547,
+        "spectral_entropy": 3.5012,
+        "top_sv_ratio": 0.173625,
+        "rank_10": 17,
+        "norm_per_token": 4.7812
+      },
+      "10": {
+        "layer_norm": 258.7841,
+        "eff_rank": 33.222,
+        "spectral_entropy": 3.5032,
+        "top_sv_ratio": 0.176093,
+        "rank_10": 18,
+        "norm_per_token": 5.1757
+      },
+      "11": {
+        "layer_norm": 259.93,
+        "eff_rank": 34.0403,
+        "spectral_entropy": 3.5275,
+        "top_sv_ratio": 0.149409,
+        "rank_10": 22,
+        "norm_per_token": 5.1986
+      },
+      "12": {
+        "layer_norm": 270.9056,
+        "eff_rank": 32.3478,
+        "spectral_entropy": 3.4765,
+        "top_sv_ratio": 0.180277,
+        "rank_10": 16,
+        "norm_per_token": 5.4181
+      },
+      "13": {
+        "layer_norm": 467.312,
+        "eff_rank": 22.8926,
+        "spectral_entropy": 3.1308,
+        "top_sv_ratio": 0.308274,
+        "rank_10": 4,
+        "norm_per_token": 9.3462
+      },
+      "14": {
+        "layer_norm": 256.732,
+        "eff_rank": 34.6438,
+        "spectral_entropy": 3.5451,
+        "top_sv_ratio": 0.147081,
+        "rank_10": 23,
+        "norm_per_token": 5.1346
+      },
+      "15": {
+        "layer_norm": 305.9081,
+        "eff_rank": 32.0807,
+        "spectral_entropy": 3.4683,
+        "top_sv_ratio": 0.194172,
+        "rank_10": 15,
+        "norm_per_token": 6.1182
+      },
+      "16": {
+        "layer_norm": 277.5377,
+        "eff_rank": 31.3111,
+        "spectral_entropy": 3.444,
+        "top_sv_ratio": 0.179811,
+        "rank_10": 15,
+        "norm_per_token": 5.5508
+      },
+      "17": {
+        "layer_norm": 243.428,
+        "eff_rank": 35.3181,
+        "spectral_entropy": 3.5644,
+        "top_sv_ratio": 0.148449,
+        "rank_10": 22,
+        "norm_per_token": 4.8686
+      },
+      "18": {
+        "layer_norm": 237.6698,
+        "eff_rank": 32.6581,
+        "spectral_entropy": 3.4861,
+        "top_sv_ratio": 0.174687,
+        "rank_10": 17,
+        "norm_per_token": 4.7534
+      },
+      "19": {
+        "layer_norm": 437.4924,
+        "eff_rank": 23.8288,
+        "spectral_entropy": 3.1709,
+        "top_sv_ratio": 0.298303,
+        "rank_10": 4,
+        "norm_per_token": 8.7498
+      },
+      "20": {
+        "layer_norm": 219.163,
+        "eff_rank": 36.137,
+        "spectral_entropy": 3.5873,
+        "top_sv_ratio": 0.127604,
+        "rank_10": 28,
+        "norm_per_token": 4.3833
+      },
+      "21": {
+        "layer_norm": 250.8315,
+        "eff_rank": 33.262,
+        "spectral_entropy": 3.5044,
+        "top_sv_ratio": 0.162363,
+        "rank_10": 18,
+        "norm_per_token": 5.0166
+      },
+      "22": {
+        "layer_norm": 238.4943,
+        "eff_rank": 35.5491,
+        "spectral_entropy": 3.5709,
+        "top_sv_ratio": 0.141544,
+        "rank_10": 25,
+        "norm_per_token": 4.7699
+      },
+      "23": {
+        "layer_norm": 243.6684,
+        "eff_rank": 35.8451,
+        "spectral_entropy": 3.5792,
+        "top_sv_ratio": 0.145422,
+        "rank_10": 24,
+        "norm_per_token": 4.8734
+      },
+      "24": {
+        "layer_norm": 241.1953,
+        "eff_rank": 36.1955,
+        "spectral_entropy": 3.5889,
+        "top_sv_ratio": 0.148081,
+        "rank_10": 23,
+        "norm_per_token": 4.8239
+      },
+      "25": {
+        "layer_norm": 235.5183,
+        "eff_rank": 35.8359,
+        "spectral_entropy": 3.5789,
+        "top_sv_ratio": 0.156529,
+        "rank_10": 21,
+        "norm_per_token": 4.7104
+      },
+      "26": {
+        "layer_norm": 214.1284,
+        "eff_rank": 36.8401,
+        "spectral_entropy": 3.6066,
+        "top_sv_ratio": 0.135168,
+        "rank_10": 27,
+        "norm_per_token": 4.2826
+      },
+      "27": {
+        "layer_norm": 6520.1694,
+        "eff_rank": 2.2165,
+        "spectral_entropy": 0.7959,
+        "top_sv_ratio": 0.882609,
+        "rank_10": 1,
+        "norm_per_token": 130.4034
+      }
+    },
+    "aggregate": {
+      "key_norm": 8050.7898,
+      "norm_per_token": 161.0158,
+      "mean_top_sv_ratio": 0.249419,
+      "mean_eff_rank": 29.4552,
+      "layer_variance": 1830826.7403,
+      "n_layers": 28
+    }
+  },
+  "generation_features": {
+    "per_layer": {
+      "0": {
+        "layer_norm": 9542.1875,
+        "eff_rank": 8.2292,
+        "spectral_entropy": 2.1077,
+        "top_sv_ratio": 0.704461,
+        "rank_10": 1,
+        "norm_per_token": 38.1688
+      },
+      "1": {
+        "layer_norm": 2530.4817,
+        "eff_rank": 39.5548,
+        "spectral_entropy": 3.6777,
+        "top_sv_ratio": 0.361063,
+        "rank_10": 1,
+        "norm_per_token": 10.1219
+      },
+      "2": {
+        "layer_norm": 1084.4536,
+        "eff_rank": 102.6811,
+        "spectral_entropy": 4.6316,
+        "top_sv_ratio": 0.189311,
+        "rank_10": 2,
+        "norm_per_token": 4.3378
+      },
+      "3": {
+        "layer_norm": 1927.4075,
+        "eff_rank": 63.7837,
+        "spectral_entropy": 4.1555,
+        "top_sv_ratio": 0.298264,
+        "rank_10": 1,
+        "norm_per_token": 7.7096
+      },
+      "4": {
+        "layer_norm": 587.8076,
+        "eff_rank": 139.562,
+        "spectral_entropy": 4.9385,
+        "top_sv_ratio": 0.079294,
+        "rank_10": 33,
+        "norm_per_token": 2.3512
+      },
+      "5": {
+        "layer_norm": 591.1148,
+        "eff_rank": 139.1003,
+        "spectral_entropy": 4.9352,
+        "top_sv_ratio": 0.092198,
+        "rank_10": 21,
+        "norm_per_token": 2.3645
+      },
+      "6": {
+        "layer_norm": 663.1284,
+        "eff_rank": 131.0601,
+        "spectral_entropy": 4.8757,
+        "top_sv_ratio": 0.108177,
+        "rank_10": 17,
+        "norm_per_token": 2.6525
+      },
+      "7": {
+        "layer_norm": 654.152,
+        "eff_rank": 127.2426,
+        "spectral_entropy": 4.8461,
+        "top_sv_ratio": 0.118867,
+        "rank_10": 12,
+        "norm_per_token": 2.6166
+      },
+      "8": {
+        "layer_norm": 599.6427,
+        "eff_rank": 142.791,
+        "spectral_entropy": 4.9614,
+        "top_sv_ratio": 0.085105,
+        "rank_10": 24,
+        "norm_per_token": 2.3986
+      },
+      "9": {
+        "layer_norm": 614.0443,
+        "eff_rank": 127.1314,
+        "spectral_entropy": 4.8452,
+        "top_sv_ratio": 0.116298,
+        "rank_10": 13,
+        "norm_per_token": 2.4562
+      },
+      "10": {
+        "layer_norm": 622.4297,
+        "eff_rank": 131.3154,
+        "spectral_entropy": 4.8776,
+        "top_sv_ratio": 0.103782,
+        "rank_10": 17,
+        "norm_per_token": 2.4897
+      },
+      "11": {
+        "layer_norm": 604.6902,
+        "eff_rank": 134.1655,
+        "spectral_entropy": 4.8991,
+        "top_sv_ratio": 0.086478,
+        "rank_10": 26,
+        "norm_per_token": 2.4188
+      },
+      "12": {
+        "layer_norm": 636.8992,
+        "eff_rank": 128.5222,
+        "spectral_entropy": 4.8561,
+        "top_sv_ratio": 0.109296,
+        "rank_10": 14,
+        "norm_per_token": 2.5476
+      },
+      "13": {
+        "layer_norm": 1103.79,
+        "eff_rank": 91.2297,
+        "spectral_entropy": 4.5134,
+        "top_sv_ratio": 0.20209,
+        "rank_10": 4,
+        "norm_per_token": 4.4152
+      },
+      "14": {
+        "layer_norm": 597.9451,
+        "eff_rank": 130.0753,
+        "spectral_entropy": 4.8681,
+        "top_sv_ratio": 0.091461,
+        "rank_10": 21,
+        "norm_per_token": 2.3918
+      },
+      "15": {
+        "layer_norm": 717.4727,
+        "eff_rank": 124.912,
+        "spectral_entropy": 4.8276,
+        "top_sv_ratio": 0.116349,
+        "rank_10": 13,
+        "norm_per_token": 2.8699
+      },
+      "16": {
+        "layer_norm": 663.7188,
+        "eff_rank": 119.5461,
+        "spectral_entropy": 4.7837,
+        "top_sv_ratio": 0.113497,
+        "rank_10": 15,
+        "norm_per_token": 2.6549
+      },
+      "17": {
+        "layer_norm": 581.2388,
+        "eff_rank": 140.3758,
+        "spectral_entropy": 4.9443,
+        "top_sv_ratio": 0.088753,
+        "rank_10": 20,
+        "norm_per_token": 2.325
+      },
+      "18": {
+        "layer_norm": 601.4737,
+        "eff_rank": 128.5442,
+        "spectral_entropy": 4.8563,
+        "top_sv_ratio": 0.109428,
+        "rank_10": 14,
+        "norm_per_token": 2.4059
+      },
+      "19": {
+        "layer_norm": 1010.8752,
+        "eff_rank": 95.5304,
+        "spectral_entropy": 4.5594,
+        "top_sv_ratio": 0.188517,
+        "rank_10": 5,
+        "norm_per_token": 4.0435
+      },
+      "20": {
+        "layer_norm": 560.1873,
+        "eff_rank": 139.2753,
+        "spectral_entropy": 4.9365,
+        "top_sv_ratio": 0.08849,
+        "rank_10": 20,
+        "norm_per_token": 2.2407
+      },
+      "21": {
+        "layer_norm": 627.0377,
+        "eff_rank": 129.1789,
+        "spectral_entropy": 4.8612,
+        "top_sv_ratio": 0.10498,
+        "rank_10": 16,
+        "norm_per_token": 2.5082
+      },
+      "22": {
+        "layer_norm": 599.0962,
+        "eff_rank": 126.5322,
+        "spectral_entropy": 4.8405,
+        "top_sv_ratio": 0.10266,
+        "rank_10": 18,
+        "norm_per_token": 2.3964
+      },
+      "23": {
+        "layer_norm": 617.9362,
+        "eff_rank": 134.3516,
+        "spectral_entropy": 4.9005,
+        "top_sv_ratio": 0.099804,
+        "rank_10": 17,
+        "norm_per_token": 2.4717
+      },
+      "24": {
+        "layer_norm": 604.1465,
+        "eff_rank": 138.1065,
+        "spectral_entropy": 4.928,
+        "top_sv_ratio": 0.098688,
+        "rank_10": 18,
+        "norm_per_token": 2.4166
+      },
+      "25": {
+        "layer_norm": 594.7793,
+        "eff_rank": 135.9442,
+        "spectral_entropy": 4.9122,
+        "top_sv_ratio": 0.101836,
+        "rank_10": 17,
+        "norm_per_token": 2.3791
+      },
+      "26": {
+        "layer_norm": 553.0599,
+        "eff_rank": 132.0212,
+        "spectral_entropy": 4.883,
+        "top_sv_ratio": 0.099593,
+        "rank_10": 19,
+        "norm_per_token": 2.2122
+      },
+      "27": {
+        "layer_norm": 14552.1641,
+        "eff_rank": 4.2151,
+        "spectral_entropy": 1.4387,
+        "top_sv_ratio": 0.80892,
+        "rank_10": 1,
+        "norm_per_token": 58.2087
+      }
+    },
+    "aggregate": {
+      "key_norm": 18008.2219,
+      "norm_per_token": 72.0329,
+      "mean_top_sv_ratio": 0.173845,
+      "mean_eff_rank": 113.7492,
+      "layer_variance": 9039872.2844,
+      "n_layers": 28
+    }
+  },
+  "n_tokens": 250,
+  "input_len": 50,
+  "gen_tokens": 200,
+  "response_text": "To maximize the area of a rectangular pen with 100 meters of fencing, we need to use the concept of optimization from calculus or algebra. Let's denote the length of the rectangle as \\( L \\) and the width as \\( W \\).\n\nThe perimeter of the rectangle is given by:\n\\[ 2L + 2W = 100 \\]\nWe can simplify this to:\n\\[ L + W = 50 \\]\nSolving for \\( W \\), we get:\n\\[ W = 50 - L \\]\n\nThe area \\( A \\) of the rectangle is given by:\n\\[ A = L \\times W \\]\nSubstituting \\( W \\) from the perimeter equation, we get:\n\\[ A = L \\times (50 - L) \\]\n\\[ A = 50L - L^2 \\]\n\nThis is a quadratic equation in terms of \\( L \\), and it represents a parabola that opens downwards (since the",
+  "elapsed_s": 6.0,
+  "timestamp": "2026-03-25T08:32:46.491708"
+}

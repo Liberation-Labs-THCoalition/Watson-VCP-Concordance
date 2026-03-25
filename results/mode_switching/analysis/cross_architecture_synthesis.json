@@ -1,0 +1,124 @@
+{
+  "exp_a_comparison": {
+    "peak_comparison": {
+      "top_sv_ratio_generation": {
+        "qwen_peak_layer": 16,
+        "qwen_peak_d": -0.6547,
+        "llama_peak_layer": 0,
+        "llama_peak_d": 0.5856,
+        "same_direction": false
+      },
+      "eff_rank_generation": {
+        "qwen_peak_layer": 18,
+        "qwen_peak_d": 0.838,
+        "llama_peak_layer": 22,
+        "llama_peak_d": -0.4957,
+        "same_direction": false
+      },
+      "spectral_entropy_generation": {
+        "qwen_peak_layer": 18,
+        "qwen_peak_d": 0.8319,
+        "llama_peak_layer": 22,
+        "llama_peak_d": -0.5197,
+        "same_direction": false
+      }
+    },
+    "profile_correlation": {
+      "top_sv_ratio_generation": {
+        "rho": -0.1275,
+        "p": 0.5178164111710875,
+        "n_layers_compared": 28
+      },
+      "eff_rank_generation": {
+        "rho": 0.3377,
+        "p": 0.07881818049855056,
+        "n_layers_compared": 28
+      }
+    },
+    "reversal_comparison": {
+      "cognitive": {
+        "qwen_neg_layers": 26,
+        "qwen_pct": 92.9,
+        "llama_neg_layers": 30,
+        "llama_pct": 93.8,
+        "consistent": true
+      },
+      "affective": {
+        "qwen_neg_layers": 8,
+        "qwen_pct": 28.6,
+        "llama_neg_layers": 8,
+        "llama_pct": 25.0,
+        "consistent": true
+      },
+      "metacognitive": {
+        "qwen_neg_layers": 24,
+        "qwen_pct": 85.7,
+        "llama_neg_layers": 0,
+        "llama_pct": 0.0,
+        "consistent": false
+      },
+      "mixed": {
+        "qwen_neg_layers": 2,
+        "qwen_pct": 7.1,
+        "llama_neg_layers": 6,
+        "llama_pct": 18.8,
+        "consistent": true
+      }
+    },
+    "middle_layer_both_rejected": true
+  },
+  "exp_b_comparison": {
+    "qwen": {
+      "top_sv_ratio": {
+        "d_raw": -0.6519,
+        "d_fwl": 0.6756,
+        "rho_fwl": 0.4251,
+        "p_fwl": 0.006254685958735115,
+        "d_change": 0.0237,
+        "sign_preserved": false
+      },
+      "eff_rank": {
+        "d_raw": 0.8447,
+        "d_fwl": -0.1488,
+        "rho_fwl": -0.1142,
+        "p_fwl": 0.4827551186195672,
+        "d_change": -0.6959,
+        "sign_preserved": false
+      },
+      "spectral_entropy": {
+        "d_raw": 0.6209,
+        "d_fwl": -1.9228,
+        "rho_fwl": -0.6027,
+        "p_fwl": 3.86923231696777e-05,
+        "d_change": 1.302,
+        "sign_preserved": false
+      }
+    },
+    "llama": {
+      "top_sv_ratio": {
+        "d_raw": -0.8689,
+        "d_fwl": 0.1989,
+        "rho_fwl": 0.1125,
+        "p_fwl": 0.4892855612596647,
+        "d_change": -0.67,
+        "sign_preserved": false
+      },
+      "eff_rank": {
+        "d_raw": 1.0205,
+        "d_fwl": 0.3843,
+        "rho_fwl": 0.1657,
+        "p_fwl": 0.3069428628963004,
+        "d_change": -0.6362,
+        "sign_preserved": true
+      },
+      "spectral_entropy": {
+        "d_raw": 0.8013,
+        "d_fwl": -0.7081,
+        "rho_fwl": -0.5301,
+        "p_fwl": 0.0004344986626088692,
+        "d_change": -0.0932,
+        "sign_preserved": false
+      }
+    }
+  }
+}

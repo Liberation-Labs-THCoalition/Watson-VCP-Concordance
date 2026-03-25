@@ -1,0 +1,486 @@
+{
+  "prompt_id": "pair_006_cognitive",
+  "pair_index": 5,
+  "framing": "cognitive",
+  "content": "Solve: If 3x + 5 = 20, what is x?",
+  "prompt": "Solve: If 3x + 5 = 20, what is x?",
+  "model": "qwen2.5-7b",
+  "encode_features": {
+    "per_layer": {
+      "0": {
+        "layer_norm": 4189.9751,
+        "eff_rank": 2.9537,
+        "spectral_entropy": 1.0831,
+        "top_sv_ratio": 0.830366,
+        "rank_10": 1,
+        "norm_per_token": 87.2911
+      },
+      "1": {
+        "layer_norm": 1113.0681,
+        "eff_rank": 11.1944,
+        "spectral_entropy": 2.4154,
+        "top_sv_ratio": 0.513106,
+        "rank_10": 1,
+        "norm_per_token": 23.1889
+      },
+      "2": {
+        "layer_norm": 468.2985,
+        "eff_rank": 22.3883,
+        "spectral_entropy": 3.1085,
+        "top_sv_ratio": 0.332835,
+        "rank_10": 2,
+        "norm_per_token": 9.7562
+      },
+      "3": {
+        "layer_norm": 843.2171,
+        "eff_rank": 14.0934,
+        "spectral_entropy": 2.6457,
+        "top_sv_ratio": 0.46913,
+        "rank_10": 1,
+        "norm_per_token": 17.567
+      },
+      "4": {
+        "layer_norm": 247.0663,
+        "eff_rank": 35.0995,
+        "spectral_entropy": 3.5582,
+        "top_sv_ratio": 0.145923,
+        "rank_10": 26,
+        "norm_per_token": 5.1472
+      },
+      "5": {
+        "layer_norm": 250.3634,
+        "eff_rank": 33.2533,
+        "spectral_entropy": 3.5042,
+        "top_sv_ratio": 0.170549,
+        "rank_10": 20,
+        "norm_per_token": 5.2159
+      },
+      "6": {
+        "layer_norm": 279.0856,
+        "eff_rank": 31.4143,
+        "spectral_entropy": 3.4473,
+        "top_sv_ratio": 0.198028,
+        "rank_10": 16,
+        "norm_per_token": 5.8143
+      },
+      "7": {
+        "layer_norm": 262.9975,
+        "eff_rank": 31.2716,
+        "spectral_entropy": 3.4427,
+        "top_sv_ratio": 0.200544,
+        "rank_10": 14,
+        "norm_per_token": 5.4791
+      },
+      "8": {
+        "layer_norm": 244.4613,
+        "eff_rank": 34.2718,
+        "spectral_entropy": 3.5343,
+        "top_sv_ratio": 0.151679,
+        "rank_10": 23,
+        "norm_per_token": 5.0929
+      },
+      "9": {
+        "layer_norm": 234.9703,
+        "eff_rank": 31.3966,
+        "spectral_entropy": 3.4467,
+        "top_sv_ratio": 0.18279,
+        "rank_10": 16,
+        "norm_per_token": 4.8952
+      },
+      "10": {
+        "layer_norm": 254.2512,
+        "eff_rank": 31.7035,
+        "spectral_entropy": 3.4564,
+        "top_sv_ratio": 0.182562,
+        "rank_10": 17,
+        "norm_per_token": 5.2969
+      },
+      "11": {
+        "layer_norm": 252.5454,
+        "eff_rank": 32.3178,
+        "spectral_entropy": 3.4756,
+        "top_sv_ratio": 0.158393,
+        "rank_10": 21,
+        "norm_per_token": 5.2614
+      },
+      "12": {
+        "layer_norm": 263.9343,
+        "eff_rank": 30.6465,
+        "spectral_entropy": 3.4225,
+        "top_sv_ratio": 0.1903,
+        "rank_10": 15,
+        "norm_per_token": 5.4986
+      },
+      "13": {
+        "layer_norm": 460.3229,
+        "eff_rank": 21.5641,
+        "spectral_entropy": 3.071,
+        "top_sv_ratio": 0.320666,
+        "rank_10": 4,
+        "norm_per_token": 9.5901
+      },
+      "14": {
+        "layer_norm": 250.6278,
+        "eff_rank": 33.2174,
+        "spectral_entropy": 3.5031,
+        "top_sv_ratio": 0.152382,
+        "rank_10": 22,
+        "norm_per_token": 5.2214
+      },
+      "15": {
+        "layer_norm": 301.9279,
+        "eff_rank": 30.3162,
+        "spectral_entropy": 3.4117,
+        "top_sv_ratio": 0.202929,
+        "rank_10": 15,
+        "norm_per_token": 6.2902
+      },
+      "16": {
+        "layer_norm": 271.03,
+        "eff_rank": 29.7018,
+        "spectral_entropy": 3.3912,
+        "top_sv_ratio": 0.18637,
+        "rank_10": 15,
+        "norm_per_token": 5.6465
+      },
+      "17": {
+        "layer_norm": 235.7133,
+        "eff_rank": 33.8711,
+        "spectral_entropy": 3.5226,
+        "top_sv_ratio": 0.150804,
+        "rank_10": 22,
+        "norm_per_token": 4.9107
+      },
+      "18": {
+        "layer_norm": 233.1509,
+        "eff_rank": 31.1285,
+        "spectral_entropy": 3.4381,
+        "top_sv_ratio": 0.179992,
+        "rank_10": 16,
+        "norm_per_token": 4.8573
+      },
+      "19": {
+        "layer_norm": 428.2003,
+        "eff_rank": 22.5599,
+        "spectral_entropy": 3.1162,
+        "top_sv_ratio": 0.30647,
+        "rank_10": 5,
+        "norm_per_token": 8.9208
+      },
+      "20": {
+        "layer_norm": 213.084,
+        "eff_rank": 34.444,
+        "spectral_entropy": 3.5393,
+        "top_sv_ratio": 0.134684,
+        "rank_10": 26,
+        "norm_per_token": 4.4393
+      },
+      "21": {
+        "layer_norm": 245.9249,
+        "eff_rank": 31.4984,
+        "spectral_entropy": 3.4499,
+        "top_sv_ratio": 0.171325,
+        "rank_10": 17,
+        "norm_per_token": 5.1234
+      },
+      "22": {
+        "layer_norm": 236.1254,
+        "eff_rank": 33.5104,
+        "spectral_entropy": 3.5119,
+        "top_sv_ratio": 0.148375,
+        "rank_10": 23,
+        "norm_per_token": 4.9193
+      },
+      "23": {
+        "layer_norm": 239.4006,
+        "eff_rank": 33.8993,
+        "spectral_entropy": 3.5234,
+        "top_sv_ratio": 0.154591,
+        "rank_10": 22,
+        "norm_per_token": 4.9875
+      },
+      "24": {
+        "layer_norm": 234.9804,
+        "eff_rank": 34.4804,
+        "spectral_entropy": 3.5404,
+        "top_sv_ratio": 0.154383,
+        "rank_10": 23,
+        "norm_per_token": 4.8954
+      },
+      "25": {
+        "layer_norm": 232.3615,
+        "eff_rank": 34.3875,
+        "spectral_entropy": 3.5377,
+        "top_sv_ratio": 0.160591,
+        "rank_10": 21,
+        "norm_per_token": 4.8409
+      },
+      "26": {
+        "layer_norm": 210.9584,
+        "eff_rank": 35.4442,
+        "spectral_entropy": 3.568,
+        "top_sv_ratio": 0.139299,
+        "rank_10": 25,
+        "norm_per_token": 4.395
+      },
+      "27": {
+        "layer_norm": 6388.9595,
+        "eff_rank": 2.207,
+        "spectral_entropy": 0.7916,
+        "top_sv_ratio": 0.8826,
+        "rank_10": 1,
+        "norm_per_token": 133.1033
+      }
+    },
+    "aggregate": {
+      "key_norm": 7888.7919,
+      "norm_per_token": 164.3498,
+      "mean_top_sv_ratio": 0.256131,
+      "mean_eff_rank": 28.0084,
+      "layer_variance": 1757922.7207,
+      "n_layers": 28
+    }
+  },
+  "generation_features": {
+    "per_layer": {
+      "0": {
+        "layer_norm": 8867.4355,
+        "eff_rank": 7.17,
+        "spectral_entropy": 1.9699,
+        "top_sv_ratio": 0.721011,
+        "rank_10": 1,
+        "norm_per_token": 41.0529
+      },
+      "1": {
+        "layer_norm": 2351.7375,
+        "eff_rank": 34.3798,
+        "spectral_entropy": 3.5375,
+        "top_sv_ratio": 0.377023,
+        "rank_10": 1,
+        "norm_per_token": 10.8877
+      },
+      "2": {
+        "layer_norm": 1005.0648,
+        "eff_rank": 86.5744,
+        "spectral_entropy": 4.461,
+        "top_sv_ratio": 0.202228,
+        "rank_10": 2,
+        "norm_per_token": 4.6531
+      },
+      "3": {
+        "layer_norm": 1789.0317,
+        "eff_rank": 52.9355,
+        "spectral_entropy": 3.9691,
+        "top_sv_ratio": 0.318859,
+        "rank_10": 1,
+        "norm_per_token": 8.2826
+      },
+      "4": {
+        "layer_norm": 546.2697,
+        "eff_rank": 120.4292,
+        "spectral_entropy": 4.7911,
+        "top_sv_ratio": 0.086935,
+        "rank_10": 32,
+        "norm_per_token": 2.529
+      },
+      "5": {
+        "layer_norm": 556.5925,
+        "eff_rank": 117.5413,
+        "spectral_entropy": 4.7668,
+        "top_sv_ratio": 0.103348,
+        "rank_10": 19,
+        "norm_per_token": 2.5768
+      },
+      "6": {
+        "layer_norm": 622.3807,
+        "eff_rank": 112.7033,
+        "spectral_entropy": 4.7248,
+        "top_sv_ratio": 0.117525,
+        "rank_10": 16,
+        "norm_per_token": 2.8814
+      },
+      "7": {
+        "layer_norm": 611.1237,
+        "eff_rank": 109.7754,
+        "spectral_entropy": 4.6984,
+        "top_sv_ratio": 0.128144,
+        "rank_10": 10,
+        "norm_per_token": 2.8293
+      },
+      "8": {
+        "layer_norm": 554.2332,
+        "eff_rank": 123.1747,
+        "spectral_entropy": 4.8136,
+        "top_sv_ratio": 0.093594,
+        "rank_10": 22,
+        "norm_per_token": 2.5659
+      },
+      "9": {
+        "layer_norm": 566.3276,
+        "eff_rank": 111.8384,
+        "spectral_entropy": 4.7171,
+        "top_sv_ratio": 0.12356,
+        "rank_10": 12,
+        "norm_per_token": 2.6219
+      },
+      "10": {
+        "layer_norm": 584.2892,
+        "eff_rank": 114.2594,
+        "spectral_entropy": 4.7385,
+        "top_sv_ratio": 0.112462,
+        "rank_10": 15,
+        "norm_per_token": 2.705
+      },
+      "11": {
+        "layer_norm": 564.6612,
+        "eff_rank": 116.8536,
+        "spectral_entropy": 4.7609,
+        "top_sv_ratio": 0.096246,
+        "rank_10": 22,
+        "norm_per_token": 2.6142
+      },
+      "12": {
+        "layer_norm": 591.2257,
+        "eff_rank": 112.4465,
+        "spectral_entropy": 4.7225,
+        "top_sv_ratio": 0.118313,
+        "rank_10": 13,
+        "norm_per_token": 2.7372
+      },
+      "13": {
+        "layer_norm": 1023.9444,
+        "eff_rank": 79.5739,
+        "spectral_entropy": 4.3767,
+        "top_sv_ratio": 0.213529,
+        "rank_10": 4,
+        "norm_per_token": 4.7405
+      },
+      "14": {
+        "layer_norm": 559.7296,
+        "eff_rank": 114.4169,
+        "spectral_entropy": 4.7398,
+        "top_sv_ratio": 0.096538,
+        "rank_10": 21,
+        "norm_per_token": 2.5913
+      },
+      "15": {
+        "layer_norm": 669.2169,
+        "eff_rank": 108.7523,
+        "spectral_entropy": 4.6891,
+        "top_sv_ratio": 0.125338,
+        "rank_10": 12,
+        "norm_per_token": 3.0982
+      },
+      "16": {
+        "layer_norm": 616.1518,
+        "eff_rank": 103.2101,
+        "spectral_entropy": 4.6368,
+        "top_sv_ratio": 0.12157,
+        "rank_10": 14,
+        "norm_per_token": 2.8526
+      },
+      "17": {
+        "layer_norm": 538.1507,
+        "eff_rank": 120.9409,
+        "spectral_entropy": 4.7953,
+        "top_sv_ratio": 0.095245,
+        "rank_10": 20,
+        "norm_per_token": 2.4914
+      },
+      "18": {
+        "layer_norm": 567.5629,
+        "eff_rank": 110.4672,
+        "spectral_entropy": 4.7047,
+        "top_sv_ratio": 0.119749,
+        "rank_10": 12,
+        "norm_per_token": 2.6276
+      },
+      "19": {
+        "layer_norm": 936.4299,
+        "eff_rank": 82.131,
+        "spectral_entropy": 4.4083,
+        "top_sv_ratio": 0.200137,
+        "rank_10": 5,
+        "norm_per_token": 4.3353
+      },
+      "20": {
+        "layer_norm": 523.6877,
+        "eff_rank": 119.5829,
+        "spectral_entropy": 4.784,
+        "top_sv_ratio": 0.097535,
+        "rank_10": 19,
+        "norm_per_token": 2.4245
+      },
+      "21": {
+        "layer_norm": 589.3064,
+        "eff_rank": 111.8253,
+        "spectral_entropy": 4.7169,
+        "top_sv_ratio": 0.116191,
+        "rank_10": 15,
+        "norm_per_token": 2.7283
+      },
+      "22": {
+        "layer_norm": 572.0951,
+        "eff_rank": 108.2718,
+        "spectral_entropy": 4.6846,
+        "top_sv_ratio": 0.114553,
+        "rank_10": 15,
+        "norm_per_token": 2.6486
+      },
+      "23": {
+        "layer_norm": 591.9703,
+        "eff_rank": 115.3199,
+        "spectral_entropy": 4.7477,
+        "top_sv_ratio": 0.112291,
+        "rank_10": 15,
+        "norm_per_token": 2.7406
+      },
+      "24": {
+        "layer_norm": 570.3157,
+        "eff_rank": 121.0705,
+        "spectral_entropy": 4.7964,
+        "top_sv_ratio": 0.10705,
+        "rank_10": 17,
+        "norm_per_token": 2.6404
+      },
+      "25": {
+        "layer_norm": 566.1161,
+        "eff_rank": 119.5258,
+        "spectral_entropy": 4.7835,
+        "top_sv_ratio": 0.108629,
+        "rank_10": 17,
+        "norm_per_token": 2.6209
+      },
+      "26": {
+        "layer_norm": 529.2474,
+        "eff_rank": 116.9747,
+        "spectral_entropy": 4.762,
+        "top_sv_ratio": 0.108686,
+        "rank_10": 17,
+        "norm_per_token": 2.4502
+      },
+      "27": {
+        "layer_norm": 13525.0869,
+        "eff_rank": 4.0115,
+        "spectral_entropy": 1.3892,
+        "top_sv_ratio": 0.813672,
+        "rank_10": 1,
+        "norm_per_token": 62.6161
+      }
+    },
+    "aggregate": {
+      "key_norm": 16739.4911,
+      "norm_per_token": 77.4976,
+      "mean_top_sv_ratio": 0.183927,
+      "mean_eff_rank": 98.4342,
+      "layer_variance": 7801299.4313,
+      "n_layers": 28
+    }
+  },
+  "n_tokens": 216,
+  "input_len": 48,
+  "gen_tokens": 168,
+  "response_text": "To solve the equation \\(3x + 5 = 20\\) for \\(x\\), follow these steps:\n\n1. **Subtract 5 from both sides** of the equation to isolate the term with \\(x\\):\n   \\[\n   3x + 5 - 5 = 20 - 5\n   \\]\n   Simplifying this gives:\n   \\[\n   3x = 15\n   \\]\n\n2. **Divide both sides** of the equation by 3 to solve for \\(x\\):\n   \\[\n   \\frac{3x}{3} = \\frac{15}{3}\n   \\]\n   Simplifying this gives:\n   \\[\n   x = 5\n   \\]\n\nSo, the solution is \\(x = 5\\).",
+  "elapsed_s": 4.9,
+  "timestamp": "2026-03-25T08:45:26.805642"
+}

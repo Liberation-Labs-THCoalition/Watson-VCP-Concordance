@@ -1,0 +1,486 @@
+{
+  "prompt_id": "pair_014_metacognitive",
+  "pair_index": 13,
+  "framing": "metacognitive",
+  "content": "What is the Pythagorean theorem and why does it work?",
+  "prompt": "What is the Pythagorean theorem and why does it work? Trace your reasoning process and note where proof meets intuition.",
+  "model": "qwen2.5-7b",
+  "encode_features": {
+    "per_layer": {
+      "0": {
+        "layer_norm": 4402.144,
+        "eff_rank": 3.239,
+        "spectral_entropy": 1.1753,
+        "top_sv_ratio": 0.816748,
+        "rank_10": 1,
+        "norm_per_token": 83.0593
+      },
+      "1": {
+        "layer_norm": 1169.4708,
+        "eff_rank": 12.0928,
+        "spectral_entropy": 2.4926,
+        "top_sv_ratio": 0.501895,
+        "rank_10": 1,
+        "norm_per_token": 22.0655
+      },
+      "2": {
+        "layer_norm": 494.8764,
+        "eff_rank": 25.6292,
+        "spectral_entropy": 3.2437,
+        "top_sv_ratio": 0.312777,
+        "rank_10": 2,
+        "norm_per_token": 9.3373
+      },
+      "3": {
+        "layer_norm": 888.9094,
+        "eff_rank": 16.2135,
+        "spectral_entropy": 2.7858,
+        "top_sv_ratio": 0.446478,
+        "rank_10": 1,
+        "norm_per_token": 16.7719
+      },
+      "4": {
+        "layer_norm": 259.4298,
+        "eff_rank": 39.4819,
+        "spectral_entropy": 3.6758,
+        "top_sv_ratio": 0.137171,
+        "rank_10": 28,
+        "norm_per_token": 4.8949
+      },
+      "5": {
+        "layer_norm": 264.9666,
+        "eff_rank": 37.2228,
+        "spectral_entropy": 3.6169,
+        "top_sv_ratio": 0.161211,
+        "rank_10": 21,
+        "norm_per_token": 4.9994
+      },
+      "6": {
+        "layer_norm": 297.222,
+        "eff_rank": 35.4586,
+        "spectral_entropy": 3.5684,
+        "top_sv_ratio": 0.185925,
+        "rank_10": 16,
+        "norm_per_token": 5.608
+      },
+      "7": {
+        "layer_norm": 276.6131,
+        "eff_rank": 34.8683,
+        "spectral_entropy": 3.5516,
+        "top_sv_ratio": 0.190195,
+        "rank_10": 15,
+        "norm_per_token": 5.2191
+      },
+      "8": {
+        "layer_norm": 260.9035,
+        "eff_rank": 38.2791,
+        "spectral_entropy": 3.6449,
+        "top_sv_ratio": 0.14288,
+        "rank_10": 25,
+        "norm_per_token": 4.9227
+      },
+      "9": {
+        "layer_norm": 247.6082,
+        "eff_rank": 35.3286,
+        "spectral_entropy": 3.5647,
+        "top_sv_ratio": 0.172267,
+        "rank_10": 17,
+        "norm_per_token": 4.6719
+      },
+      "10": {
+        "layer_norm": 269.936,
+        "eff_rank": 35.8875,
+        "spectral_entropy": 3.5804,
+        "top_sv_ratio": 0.168793,
+        "rank_10": 18,
+        "norm_per_token": 5.0931
+      },
+      "11": {
+        "layer_norm": 272.4494,
+        "eff_rank": 36.4455,
+        "spectral_entropy": 3.5958,
+        "top_sv_ratio": 0.147066,
+        "rank_10": 22,
+        "norm_per_token": 5.1406
+      },
+      "12": {
+        "layer_norm": 282.7548,
+        "eff_rank": 34.7086,
+        "spectral_entropy": 3.547,
+        "top_sv_ratio": 0.177973,
+        "rank_10": 16,
+        "norm_per_token": 5.335
+      },
+      "13": {
+        "layer_norm": 485.6784,
+        "eff_rank": 24.6736,
+        "spectral_entropy": 3.2057,
+        "top_sv_ratio": 0.304376,
+        "rank_10": 4,
+        "norm_per_token": 9.1637
+      },
+      "14": {
+        "layer_norm": 267.55,
+        "eff_rank": 37.0448,
+        "spectral_entropy": 3.6121,
+        "top_sv_ratio": 0.148813,
+        "rank_10": 22,
+        "norm_per_token": 5.0481
+      },
+      "15": {
+        "layer_norm": 319.5395,
+        "eff_rank": 34.1223,
+        "spectral_entropy": 3.53,
+        "top_sv_ratio": 0.191931,
+        "rank_10": 15,
+        "norm_per_token": 6.029
+      },
+      "16": {
+        "layer_norm": 283.1667,
+        "eff_rank": 33.9065,
+        "spectral_entropy": 3.5236,
+        "top_sv_ratio": 0.173593,
+        "rank_10": 16,
+        "norm_per_token": 5.3428
+      },
+      "17": {
+        "layer_norm": 250.6716,
+        "eff_rank": 37.9019,
+        "spectral_entropy": 3.635,
+        "top_sv_ratio": 0.144943,
+        "rank_10": 23,
+        "norm_per_token": 4.7297
+      },
+      "18": {
+        "layer_norm": 248.4098,
+        "eff_rank": 35.0599,
+        "spectral_entropy": 3.5571,
+        "top_sv_ratio": 0.171737,
+        "rank_10": 17,
+        "norm_per_token": 4.687
+      },
+      "19": {
+        "layer_norm": 451.1889,
+        "eff_rank": 25.892,
+        "spectral_entropy": 3.2539,
+        "top_sv_ratio": 0.289738,
+        "rank_10": 5,
+        "norm_per_token": 8.513
+      },
+      "20": {
+        "layer_norm": 228.4202,
+        "eff_rank": 38.7032,
+        "spectral_entropy": 3.6559,
+        "top_sv_ratio": 0.131777,
+        "rank_10": 27,
+        "norm_per_token": 4.3098
+      },
+      "21": {
+        "layer_norm": 265.8439,
+        "eff_rank": 35.3621,
+        "spectral_entropy": 3.5656,
+        "top_sv_ratio": 0.167484,
+        "rank_10": 18,
+        "norm_per_token": 5.0159
+      },
+      "22": {
+        "layer_norm": 250.9456,
+        "eff_rank": 37.4855,
+        "spectral_entropy": 3.624,
+        "top_sv_ratio": 0.145898,
+        "rank_10": 23,
+        "norm_per_token": 4.7348
+      },
+      "23": {
+        "layer_norm": 253.5627,
+        "eff_rank": 37.9868,
+        "spectral_entropy": 3.6372,
+        "top_sv_ratio": 0.149725,
+        "rank_10": 24,
+        "norm_per_token": 4.7842
+      },
+      "24": {
+        "layer_norm": 244.8346,
+        "eff_rank": 38.6413,
+        "spectral_entropy": 3.6543,
+        "top_sv_ratio": 0.147973,
+        "rank_10": 24,
+        "norm_per_token": 4.6195
+      },
+      "25": {
+        "layer_norm": 240.7812,
+        "eff_rank": 37.7523,
+        "spectral_entropy": 3.631,
+        "top_sv_ratio": 0.159109,
+        "rank_10": 20,
+        "norm_per_token": 4.543
+      },
+      "26": {
+        "layer_norm": 220.836,
+        "eff_rank": 39.0229,
+        "spectral_entropy": 3.6641,
+        "top_sv_ratio": 0.138418,
+        "rank_10": 26,
+        "norm_per_token": 4.1667
+      },
+      "27": {
+        "layer_norm": 6713.5811,
+        "eff_rank": 2.2687,
+        "spectral_entropy": 0.8192,
+        "top_sv_ratio": 0.879941,
+        "rank_10": 1,
+        "norm_per_token": 126.6713
+      }
+    },
+    "aggregate": {
+      "key_norm": 8291.3952,
+      "norm_per_token": 156.4414,
+      "mean_top_sv_ratio": 0.246673,
+      "mean_eff_rank": 31.4528,
+      "layer_variance": 1939308.8891,
+      "n_layers": 28
+    }
+  },
+  "generation_features": {
+    "per_layer": {
+      "0": {
+        "layer_norm": 9598.8291,
+        "eff_rank": 8.7112,
+        "spectral_entropy": 2.1646,
+        "top_sv_ratio": 0.697109,
+        "rank_10": 1,
+        "norm_per_token": 37.94
+      },
+      "1": {
+        "layer_norm": 2544.2874,
+        "eff_rank": 40.2479,
+        "spectral_entropy": 3.6951,
+        "top_sv_ratio": 0.35972,
+        "rank_10": 1,
+        "norm_per_token": 10.0565
+      },
+      "2": {
+        "layer_norm": 1084.6101,
+        "eff_rank": 108.0392,
+        "spectral_entropy": 4.6825,
+        "top_sv_ratio": 0.183836,
+        "rank_10": 3,
+        "norm_per_token": 4.287
+      },
+      "3": {
+        "layer_norm": 1937.6713,
+        "eff_rank": 68.0067,
+        "spectral_entropy": 4.2196,
+        "top_sv_ratio": 0.289867,
+        "rank_10": 1,
+        "norm_per_token": 7.6588
+      },
+      "4": {
+        "layer_norm": 589.496,
+        "eff_rank": 145.5001,
+        "spectral_entropy": 4.9802,
+        "top_sv_ratio": 0.074922,
+        "rank_10": 36,
+        "norm_per_token": 2.33
+      },
+      "5": {
+        "layer_norm": 595.1727,
+        "eff_rank": 144.6188,
+        "spectral_entropy": 4.9741,
+        "top_sv_ratio": 0.088413,
+        "rank_10": 21,
+        "norm_per_token": 2.3525
+      },
+      "6": {
+        "layer_norm": 665.9842,
+        "eff_rank": 134.9515,
+        "spectral_entropy": 4.9049,
+        "top_sv_ratio": 0.104672,
+        "rank_10": 17,
+        "norm_per_token": 2.6323
+      },
+      "7": {
+        "layer_norm": 659.4441,
+        "eff_rank": 130.3136,
+        "spectral_entropy": 4.8699,
+        "top_sv_ratio": 0.113378,
+        "rank_10": 12,
+        "norm_per_token": 2.6065
+      },
+      "8": {
+        "layer_norm": 602.4255,
+        "eff_rank": 145.8665,
+        "spectral_entropy": 4.9827,
+        "top_sv_ratio": 0.0799,
+        "rank_10": 27,
+        "norm_per_token": 2.3811
+      },
+      "9": {
+        "layer_norm": 609.0273,
+        "eff_rank": 129.7161,
+        "spectral_entropy": 4.8653,
+        "top_sv_ratio": 0.109391,
+        "rank_10": 12,
+        "norm_per_token": 2.4072
+      },
+      "10": {
+        "layer_norm": 619.9973,
+        "eff_rank": 134.1087,
+        "spectral_entropy": 4.8987,
+        "top_sv_ratio": 0.097614,
+        "rank_10": 19,
+        "norm_per_token": 2.4506
+      },
+      "11": {
+        "layer_norm": 614.0079,
+        "eff_rank": 137.3363,
+        "spectral_entropy": 4.9224,
+        "top_sv_ratio": 0.082165,
+        "rank_10": 27,
+        "norm_per_token": 2.4269
+      },
+      "12": {
+        "layer_norm": 630.9166,
+        "eff_rank": 133.62,
+        "spectral_entropy": 4.895,
+        "top_sv_ratio": 0.099756,
+        "rank_10": 17,
+        "norm_per_token": 2.4937
+      },
+      "13": {
+        "layer_norm": 1089.8429,
+        "eff_rank": 96.0211,
+        "spectral_entropy": 4.5646,
+        "top_sv_ratio": 0.190097,
+        "rank_10": 4,
+        "norm_per_token": 4.3077
+      },
+      "14": {
+        "layer_norm": 598.1914,
+        "eff_rank": 134.3908,
+        "spectral_entropy": 4.9008,
+        "top_sv_ratio": 0.084174,
+        "rank_10": 24,
+        "norm_per_token": 2.3644
+      },
+      "15": {
+        "layer_norm": 713.4912,
+        "eff_rank": 128.0605,
+        "spectral_entropy": 4.8525,
+        "top_sv_ratio": 0.110393,
+        "rank_10": 14,
+        "norm_per_token": 2.8201
+      },
+      "16": {
+        "layer_norm": 655.2417,
+        "eff_rank": 124.2283,
+        "spectral_entropy": 4.8221,
+        "top_sv_ratio": 0.103398,
+        "rank_10": 16,
+        "norm_per_token": 2.5899
+      },
+      "17": {
+        "layer_norm": 578.4658,
+        "eff_rank": 144.5758,
+        "spectral_entropy": 4.9738,
+        "top_sv_ratio": 0.081145,
+        "rank_10": 24,
+        "norm_per_token": 2.2864
+      },
+      "18": {
+        "layer_norm": 590.3157,
+        "eff_rank": 133.2732,
+        "spectral_entropy": 4.8924,
+        "top_sv_ratio": 0.099263,
+        "rank_10": 16,
+        "norm_per_token": 2.3333
+      },
+      "19": {
+        "layer_norm": 1013.0319,
+        "eff_rank": 99.7592,
+        "spectral_entropy": 4.6028,
+        "top_sv_ratio": 0.180853,
+        "rank_10": 5,
+        "norm_per_token": 4.0041
+      },
+      "20": {
+        "layer_norm": 556.2048,
+        "eff_rank": 144.621,
+        "spectral_entropy": 4.9741,
+        "top_sv_ratio": 0.078898,
+        "rank_10": 25,
+        "norm_per_token": 2.1984
+      },
+      "21": {
+        "layer_norm": 617.6863,
+        "eff_rank": 134.8722,
+        "spectral_entropy": 4.9043,
+        "top_sv_ratio": 0.096036,
+        "rank_10": 20,
+        "norm_per_token": 2.4414
+      },
+      "22": {
+        "layer_norm": 588.2441,
+        "eff_rank": 134.3519,
+        "spectral_entropy": 4.9005,
+        "top_sv_ratio": 0.090199,
+        "rank_10": 20,
+        "norm_per_token": 2.3251
+      },
+      "23": {
+        "layer_norm": 608.5045,
+        "eff_rank": 141.8457,
+        "spectral_entropy": 4.9547,
+        "top_sv_ratio": 0.090218,
+        "rank_10": 20,
+        "norm_per_token": 2.4052
+      },
+      "24": {
+        "layer_norm": 592.3308,
+        "eff_rank": 144.5003,
+        "spectral_entropy": 4.9733,
+        "top_sv_ratio": 0.091382,
+        "rank_10": 20,
+        "norm_per_token": 2.3412
+      },
+      "25": {
+        "layer_norm": 582.3476,
+        "eff_rank": 141.4405,
+        "spectral_entropy": 4.9519,
+        "top_sv_ratio": 0.095918,
+        "rank_10": 18,
+        "norm_per_token": 2.3018
+      },
+      "26": {
+        "layer_norm": 533.545,
+        "eff_rank": 137.2337,
+        "spectral_entropy": 4.9217,
+        "top_sv_ratio": 0.090597,
+        "rank_10": 22,
+        "norm_per_token": 2.1089
+      },
+      "27": {
+        "layer_norm": 14639.7285,
+        "eff_rank": 4.1738,
+        "spectral_entropy": 1.4288,
+        "top_sv_ratio": 0.810739,
+        "rank_10": 1,
+        "norm_per_token": 57.8645
+      }
+    },
+    "aggregate": {
+      "key_norm": 18108.3445,
+      "norm_per_token": 71.5745,
+      "mean_top_sv_ratio": 0.16693,
+      "mean_eff_rank": 118.0137,
+      "layer_variance": 9161532.5097,
+      "n_layers": 28
+    }
+  },
+  "n_tokens": 253,
+  "input_len": 53,
+  "gen_tokens": 200,
+  "response_text": "The Pythagorean theorem is a fundamental principle in Euclidean geometry that describes the relationship between the sides of a right-angled triangle. Specifically, it states that in a right-angled triangle, the square of the length of the hypotenuse (the side opposite the right angle) is equal to the sum of the squares of the lengths of the other two sides. This can be written as:\n\n\\[ c^2 = a^2 + b^2 \\]\n\nwhere \\(c\\) is the length of the hypotenuse, and \\(a\\) and \\(b\\) are the lengths of the other two sides.\n\n### Understanding the Theorem\n\n1. **Definition of Terms**:\n   - **Hypotenuse**: The longest side of a right-angled triangle, opposite the right angle.\n   - **Legs**: The two shorter sides of the right-angled triangle that form the right angle.\n\n2. **Statement of the Theorem**:\n   - The area of the square",
+  "elapsed_s": 5.9,
+  "timestamp": "2026-03-25T08:47:10.535427"
+}
