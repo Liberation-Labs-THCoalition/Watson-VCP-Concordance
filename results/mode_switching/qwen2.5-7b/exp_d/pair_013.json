@@ -1,0 +1,218 @@
+{
+  "pair_id": 13,
+  "content": "Explain the difference between weather and climate.",
+  "cognitive": {
+    "prompt": "Explain the difference between weather and climate.",
+    "encode_features": {
+      "key_norm": 7018.5949,
+      "norm_per_token": 184.6999,
+      "eff_rank": 22.7649,
+      "top_sv_ratio": 0.277336,
+      "spectral_entropy": 2.9954,
+      "layer_variance": 1391231.6638,
+      "n_tokens": 38
+    },
+    "trajectory": [
+      {
+        "key_norm": 7807.9131,
+        "norm_per_token": 162.6649,
+        "eff_rank": 27.5366,
+        "top_sv_ratio": 0.259461,
+        "spectral_entropy": 3.1798,
+        "layer_variance": 1719271.5531,
+        "n_tokens": 48,
+        "gen_tokens": 10,
+        "checkpoint": 10
+      },
+      {
+        "key_norm": 8969.8746,
+        "norm_per_token": 142.379,
+        "eff_rank": 35.2383,
+        "top_sv_ratio": 0.239478,
+        "spectral_entropy": 3.419,
+        "layer_variance": 2265456.4137,
+        "n_tokens": 63,
+        "gen_tokens": 25,
+        "checkpoint": 25
+      },
+      {
+        "key_norm": 10628.0085,
+        "norm_per_token": 120.7728,
+        "eff_rank": 48.3897,
+        "top_sv_ratio": 0.215647,
+        "spectral_entropy": 3.7271,
+        "layer_variance": 3175508.694,
+        "n_tokens": 88,
+        "gen_tokens": 50,
+        "checkpoint": 50
+      },
+      {
+        "key_norm": 12060.5245,
+        "norm_per_token": 106.7303,
+        "eff_rank": 60.4061,
+        "top_sv_ratio": 0.201675,
+        "spectral_entropy": 3.9427,
+        "layer_variance": 4084578.9156,
+        "n_tokens": 113,
+        "gen_tokens": 75,
+        "checkpoint": 75
+      },
+      {
+        "key_norm": 13339.9677,
+        "norm_per_token": 96.6664,
+        "eff_rank": 72.5255,
+        "top_sv_ratio": 0.190435,
+        "spectral_entropy": 4.121,
+        "layer_variance": 4994962.7697,
+        "n_tokens": 138,
+        "gen_tokens": 100,
+        "checkpoint": 100
+      },
+      {
+        "key_norm": 15590.3267,
+        "norm_per_token": 82.9273,
+        "eff_rank": 94.939,
+        "top_sv_ratio": 0.174714,
+        "spectral_entropy": 4.3852,
+        "layer_variance": 6810598.0361,
+        "n_tokens": 188,
+        "gen_tokens": 150,
+        "checkpoint": 150
+      },
+      {
+        "key_norm": 17555.0466,
+        "norm_per_token": 73.7607,
+        "eff_rank": 114.9493,
+        "top_sv_ratio": 0.166077,
+        "spectral_entropy": 4.5727,
+        "layer_variance": 8624172.6409,
+        "n_tokens": 238,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      },
+      {
+        "key_norm": 17555.0466,
+        "norm_per_token": 73.7607,
+        "eff_rank": 114.9493,
+        "top_sv_ratio": 0.166077,
+        "spectral_entropy": 4.5727,
+        "layer_variance": 8624172.6409,
+        "n_tokens": 238,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      }
+    ],
+    "total_gen_tokens": 200,
+    "input_len": 38,
+    "response_text": "Certainly! Weather and climate are two related but distinct concepts in meteorology.\n\n**Weather** refers to the state of the atmosphere at a specific place and time, typically measured over a short period (hours to days). It includes variables such as temperature, humidity, cloud cover, precipitation, wind speed, and direction. Weather can change rapidly and is influenced by various factors including air pressure systems, fronts, and local geography. For example, you might describe today's weather as sunny with a high of 75°F and a low of 60°F, or you might say there's a strong cold front moving in that will bring thunderstorms later this afternoon.\n\n**Climate**, on the other hand, describes the average weather patterns in an area over a long period, usually spanning decades or even centuries. It encompasses the typical conditions and variability of weather in a region, taking into account not just the current state but also historical data. Climate is influenced by factors such as latitude, altitude, proximity to",
+    "elapsed_s": 23.73
+  },
+  "metacognitive": {
+    "prompt": "Explain the difference between weather and climate. As you formulate your response, describe how you're structuring your thinking about this distinction.",
+    "encode_features": {
+      "key_norm": 8524.3836,
+      "norm_per_token": 152.2211,
+      "eff_rank": 32.8296,
+      "top_sv_ratio": 0.247103,
+      "spectral_entropy": 3.3487,
+      "layer_variance": 2047424.1042,
+      "n_tokens": 56
+    },
+    "trajectory": [
+      {
+        "key_norm": 9185.5201,
+        "norm_per_token": 139.1745,
+        "eff_rank": 37.2746,
+        "top_sv_ratio": 0.23793,
+        "spectral_entropy": 3.4725,
+        "layer_variance": 2375386.9348,
+        "n_tokens": 66,
+        "gen_tokens": 10,
+        "checkpoint": 10
+      },
+      {
+        "key_norm": 10193.4316,
+        "norm_per_token": 125.8448,
+        "eff_rank": 44.707,
+        "top_sv_ratio": 0.226423,
+        "spectral_entropy": 3.65,
+        "layer_variance": 2919896.4373,
+        "n_tokens": 81,
+        "gen_tokens": 25,
+        "checkpoint": 25
+      },
+      {
+        "key_norm": 11680.1404,
+        "norm_per_token": 110.19,
+        "eff_rank": 57.0625,
+        "top_sv_ratio": 0.207139,
+        "spectral_entropy": 3.8879,
+        "layer_variance": 3828081.0771,
+        "n_tokens": 106,
+        "gen_tokens": 50,
+        "checkpoint": 50
+      },
+      {
+        "key_norm": 12996.6661,
+        "norm_per_token": 99.2112,
+        "eff_rank": 68.9176,
+        "top_sv_ratio": 0.193467,
+        "spectral_entropy": 4.0719,
+        "layer_variance": 4738132.833,
+        "n_tokens": 131,
+        "gen_tokens": 75,
+        "checkpoint": 75
+      },
+      {
+        "key_norm": 14195.3871,
+        "norm_per_token": 90.9961,
+        "eff_rank": 79.7676,
+        "top_sv_ratio": 0.18576,
+        "spectral_entropy": 4.2149,
+        "layer_variance": 5643221.5681,
+        "n_tokens": 156,
+        "gen_tokens": 100,
+        "checkpoint": 100
+      },
+      {
+        "key_norm": 16328.7335,
+        "norm_per_token": 79.2657,
+        "eff_rank": 101.0151,
+        "top_sv_ratio": 0.173528,
+        "spectral_entropy": 4.4469,
+        "layer_variance": 7456723.9914,
+        "n_tokens": 206,
+        "gen_tokens": 150,
+        "checkpoint": 150
+      },
+      {
+        "key_norm": 18216.122,
+        "norm_per_token": 71.1567,
+        "eff_rank": 120.4278,
+        "top_sv_ratio": 0.165397,
+        "spectral_entropy": 4.6193,
+        "layer_variance": 9265669.0199,
+        "n_tokens": 256,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      },
+      {
+        "key_norm": 18216.122,
+        "norm_per_token": 71.1567,
+        "eff_rank": 120.4278,
+        "top_sv_ratio": 0.165397,
+        "spectral_entropy": 4.6193,
+        "layer_variance": 9265669.0199,
+        "n_tokens": 256,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      }
+    ],
+    "total_gen_tokens": 200,
+    "input_len": 56,
+    "response_text": "Certainly! To explain the difference between weather and climate, I'll structure my thinking into several key points:\n\n1. **Definition of Weather**:\n   - Weather refers to the short-term atmospheric conditions in a specific location, typically measured over a period of days or hours.\n   - It includes variables such as temperature, humidity, wind speed and direction, cloud cover, and precipitation.\n\n2. **Definition of Climate**:\n   - Climate is the long-term average of weather patterns in a particular area, usually observed over 30 years or more.\n   - It encompasses not just current conditions but also historical data and trends that indicate typical weather conditions for a region.\n\n3. **Time Scale**:\n   - Weather changes rapidly and can vary significantly from day to day or even within a single day.\n   - Climate, on the other hand, is characterized by its stability and consistency over extended periods.\n\n4. **Examples**:\n   - An example of weather might be a sudden thunderstorm that lasts",
+    "elapsed_s": 23.88
+  },
+  "timestamp": "2026-03-25T15:57:39.221951",
+  "model": "qwen2.5-7b"
+}

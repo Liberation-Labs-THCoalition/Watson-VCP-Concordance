@@ -1,0 +1,207 @@
+{
+  "pair_id": 1,
+  "content": "Calculate the area of a circle with radius 7.",
+  "cognitive": {
+    "prompt": "Calculate the area of a circle with radius 7.",
+    "encode_features": {
+      "key_norm": 7200.1662,
+      "norm_per_token": 180.0042,
+      "eff_rank": 23.9396,
+      "top_sv_ratio": 0.270295,
+      "spectral_entropy": 3.0424,
+      "layer_variance": 1465455.1948,
+      "n_tokens": 40
+    },
+    "trajectory": [
+      {
+        "key_norm": 7970.6319,
+        "norm_per_token": 159.4126,
+        "eff_rank": 28.4292,
+        "top_sv_ratio": 0.256375,
+        "spectral_entropy": 3.208,
+        "layer_variance": 1794330.2779,
+        "n_tokens": 50,
+        "gen_tokens": 10,
+        "checkpoint": 10
+      },
+      {
+        "key_norm": 9112.2621,
+        "norm_per_token": 140.1886,
+        "eff_rank": 36.3923,
+        "top_sv_ratio": 0.237105,
+        "spectral_entropy": 3.4483,
+        "layer_variance": 2340241.513,
+        "n_tokens": 65,
+        "gen_tokens": 25,
+        "checkpoint": 25
+      },
+      {
+        "key_norm": 10750.3272,
+        "norm_per_token": 119.4481,
+        "eff_rank": 48.5364,
+        "top_sv_ratio": 0.219623,
+        "spectral_entropy": 3.7267,
+        "layer_variance": 3249596.3166,
+        "n_tokens": 90,
+        "gen_tokens": 50,
+        "checkpoint": 50
+      },
+      {
+        "key_norm": 12171.9282,
+        "norm_per_token": 105.8429,
+        "eff_rank": 59.6583,
+        "top_sv_ratio": 0.208601,
+        "spectral_entropy": 3.9279,
+        "layer_variance": 4155800.9828,
+        "n_tokens": 115,
+        "gen_tokens": 75,
+        "checkpoint": 75
+      },
+      {
+        "key_norm": 13446.5344,
+        "norm_per_token": 96.0467,
+        "eff_rank": 69.5481,
+        "top_sv_ratio": 0.20125,
+        "spectral_entropy": 4.0775,
+        "layer_variance": 5059014.6034,
+        "n_tokens": 140,
+        "gen_tokens": 100,
+        "checkpoint": 100
+      },
+      {
+        "key_norm": 15687.3465,
+        "norm_per_token": 82.565,
+        "eff_rank": 89.2841,
+        "top_sv_ratio": 0.187425,
+        "spectral_entropy": 4.3214,
+        "layer_variance": 6866634.5409,
+        "n_tokens": 190,
+        "gen_tokens": 150,
+        "checkpoint": 150
+      },
+      {
+        "key_norm": 17420.5685,
+        "norm_per_token": 74.4469,
+        "eff_rank": 106.1513,
+        "top_sv_ratio": 0.177989,
+        "spectral_entropy": 4.4915,
+        "layer_variance": 8460403.5953,
+        "n_tokens": 234,
+        "gen_tokens": 194,
+        "checkpoint": 194
+      }
+    ],
+    "total_gen_tokens": 194,
+    "input_len": 40,
+    "response_text": "To calculate the area of a circle, we use the formula:\n\n\\[ \\text{Area} = \\pi r^2 \\]\n\nwhere \\( r \\) is the radius of the circle.\n\nGiven that the radius \\( r = 7 \\), we can substitute this value into the formula:\n\n\\[ \\text{Area} = \\pi (7)^2 \\]\n\\[ \\text{Area} = \\pi \\times 49 \\]\n\\[ \\text{Area} = 49\\pi \\]\n\nUsing the approximation \\( \\pi \\approx 3.14159 \\):\n\n\\[ \\text{Area} \\approx 49 \\times 3.14159 \\]\n\\[ \\text{Area} \\approx 153.93804 \\]\n\nSo, the area of the circle is approximately \\( 153.94 \\) square units (rounded to two decimal places).",
+    "elapsed_s": 18.38
+  },
+  "metacognitive": {
+    "prompt": "Calculate the area of a circle with radius 7. As you work through this, describe your reasoning process at each step.",
+    "encode_features": {
+      "key_norm": 8367.8566,
+      "norm_per_token": 154.9603,
+      "eff_rank": 31.9365,
+      "top_sv_ratio": 0.245933,
+      "spectral_entropy": 3.3206,
+      "layer_variance": 1976701.2377,
+      "n_tokens": 54
+    },
+    "trajectory": [
+      {
+        "key_norm": 9039.0013,
+        "norm_per_token": 141.2344,
+        "eff_rank": 36.3898,
+        "top_sv_ratio": 0.236319,
+        "spectral_entropy": 3.4472,
+        "layer_variance": 2305981.1797,
+        "n_tokens": 64,
+        "gen_tokens": 10,
+        "checkpoint": 10
+      },
+      {
+        "key_norm": 10059.5821,
+        "norm_per_token": 127.3365,
+        "eff_rank": 44.0147,
+        "top_sv_ratio": 0.222708,
+        "spectral_entropy": 3.6324,
+        "layer_variance": 2852873.8971,
+        "n_tokens": 79,
+        "gen_tokens": 25,
+        "checkpoint": 25
+      },
+      {
+        "key_norm": 11563.8945,
+        "norm_per_token": 111.1913,
+        "eff_rank": 56.236,
+        "top_sv_ratio": 0.207158,
+        "spectral_entropy": 3.8699,
+        "layer_variance": 3762408.9516,
+        "n_tokens": 104,
+        "gen_tokens": 50,
+        "checkpoint": 50
+      },
+      {
+        "key_norm": 12893.534,
+        "norm_per_token": 99.9499,
+        "eff_rank": 67.9016,
+        "top_sv_ratio": 0.196529,
+        "spectral_entropy": 4.054,
+        "layer_variance": 4672367.4121,
+        "n_tokens": 129,
+        "gen_tokens": 75,
+        "checkpoint": 75
+      },
+      {
+        "key_norm": 14099.5068,
+        "norm_per_token": 91.5552,
+        "eff_rank": 78.8323,
+        "top_sv_ratio": 0.189229,
+        "spectral_entropy": 4.2002,
+        "layer_variance": 5579338.532,
+        "n_tokens": 154,
+        "gen_tokens": 100,
+        "checkpoint": 100
+      },
+      {
+        "key_norm": 16248.5161,
+        "norm_per_token": 79.6496,
+        "eff_rank": 99.1215,
+        "top_sv_ratio": 0.17853,
+        "spectral_entropy": 4.4249,
+        "layer_variance": 7387453.3528,
+        "n_tokens": 204,
+        "gen_tokens": 150,
+        "checkpoint": 150
+      },
+      {
+        "key_norm": 18146.4453,
+        "norm_per_token": 71.4427,
+        "eff_rank": 116.8468,
+        "top_sv_ratio": 0.171492,
+        "spectral_entropy": 4.5863,
+        "layer_variance": 9192033.2512,
+        "n_tokens": 254,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      },
+      {
+        "key_norm": 18146.4453,
+        "norm_per_token": 71.4427,
+        "eff_rank": 116.8468,
+        "top_sv_ratio": 0.171492,
+        "spectral_entropy": 4.5863,
+        "layer_variance": 9192033.2512,
+        "n_tokens": 254,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      }
+    ],
+    "total_gen_tokens": 200,
+    "input_len": 54,
+    "response_text": "Certainly! To calculate the area of a circle, we use the formula:\n\n\\[ \\text{Area} = \\pi r^2 \\]\n\nwhere \\( r \\) is the radius of the circle and \\( \\pi \\) (pi) is approximately 3.14159.\n\nGiven that the radius \\( r \\) is 7 units, let's go through the calculation step-by-step:\n\n1. **Identify the value of the radius**: The radius \\( r \\) is given as 7 units.\n2. **Square the radius**: We need to square the radius, which means multiplying it by itself:\n   \\[ r^2 = 7 \\times 7 = 49 \\]\n3. **Multiply by pi**: Now, we multiply the squared radius by \\( \\pi \\):\n   \\[ \\text{Area} = \\pi \\times 49 \\]\n4. **Substitute the approximate value of \\( \\pi \\)**:",
+    "elapsed_s": 23.89
+  },
+  "timestamp": "2026-03-25T15:48:08.205387",
+  "model": "qwen2.5-7b"
+}

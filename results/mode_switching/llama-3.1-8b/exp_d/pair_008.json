@@ -1,0 +1,218 @@
+{
+  "pair_id": 8,
+  "content": "What is photosynthesis and why is it important?",
+  "cognitive": {
+    "prompt": "What is photosynthesis and why is it important?",
+    "encode_features": {
+      "key_norm": 2026.19,
+      "norm_per_token": 44.0476,
+      "eff_rank": 31.5994,
+      "top_sv_ratio": 0.17248,
+      "spectral_entropy": 3.4525,
+      "layer_variance": 572.335,
+      "n_tokens": 46
+    },
+    "trajectory": [
+      {
+        "key_norm": 2258.4517,
+        "norm_per_token": 40.3295,
+        "eff_rank": 37.2938,
+        "top_sv_ratio": 0.158918,
+        "spectral_entropy": 3.6182,
+        "layer_variance": 609.239,
+        "n_tokens": 56,
+        "gen_tokens": 10,
+        "checkpoint": 10
+      },
+      {
+        "key_norm": 2598.1471,
+        "norm_per_token": 36.5936,
+        "eff_rank": 46.7706,
+        "top_sv_ratio": 0.143806,
+        "spectral_entropy": 3.8446,
+        "layer_variance": 748.3637,
+        "n_tokens": 71,
+        "gen_tokens": 25,
+        "checkpoint": 25
+      },
+      {
+        "key_norm": 3119.4525,
+        "norm_per_token": 32.4943,
+        "eff_rank": 62.1896,
+        "top_sv_ratio": 0.128635,
+        "spectral_entropy": 4.1295,
+        "layer_variance": 1012.9576,
+        "n_tokens": 96,
+        "gen_tokens": 50,
+        "checkpoint": 50
+      },
+      {
+        "key_norm": 3564.682,
+        "norm_per_token": 29.4602,
+        "eff_rank": 76.6786,
+        "top_sv_ratio": 0.119774,
+        "spectral_entropy": 4.3388,
+        "layer_variance": 1253.7319,
+        "n_tokens": 121,
+        "gen_tokens": 75,
+        "checkpoint": 75
+      },
+      {
+        "key_norm": 3974.3695,
+        "norm_per_token": 27.2217,
+        "eff_rank": 90.7839,
+        "top_sv_ratio": 0.111605,
+        "spectral_entropy": 4.5077,
+        "layer_variance": 1549.7212,
+        "n_tokens": 146,
+        "gen_tokens": 100,
+        "checkpoint": 100
+      },
+      {
+        "key_norm": 4727.5241,
+        "norm_per_token": 24.12,
+        "eff_rank": 117.199,
+        "top_sv_ratio": 0.100632,
+        "spectral_entropy": 4.7631,
+        "layer_variance": 2227.7503,
+        "n_tokens": 196,
+        "gen_tokens": 150,
+        "checkpoint": 150
+      },
+      {
+        "key_norm": 5389.5855,
+        "norm_per_token": 21.9089,
+        "eff_rank": 142.3229,
+        "top_sv_ratio": 0.093887,
+        "spectral_entropy": 4.9572,
+        "layer_variance": 2928.1274,
+        "n_tokens": 246,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      },
+      {
+        "key_norm": 5389.5855,
+        "norm_per_token": 21.9089,
+        "eff_rank": 142.3229,
+        "top_sv_ratio": 0.093887,
+        "spectral_entropy": 4.9572,
+        "layer_variance": 2928.1274,
+        "n_tokens": 246,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      }
+    ],
+    "total_gen_tokens": 200,
+    "input_len": 46,
+    "response_text": "Photosynthesis is a vital biological process that occurs in plants, algae, and some bacteria. It's the process by which these organisms convert light energy from the sun into chemical energy in the form of organic compounds, such as glucose. This process is essential for life on Earth, and here's why:\n\n**How photosynthesis works:**\n\nPhotosynthesis involves the following steps:\n\n1. **Light absorption**: Light from the sun is absorbed by pigments such as chlorophyll, which is present in the chloroplasts of plant cells.\n2. **Water absorption**: Water is absorbed by the plant roots and transported to the leaves through the xylem.\n3. **Carbon dioxide absorption**: Carbon dioxide is absorbed from the air through small openings on the leaves called stomata.\n4. **Conversion**: Light energy is used to convert carbon dioxide and water into glucose and oxygen through a series of chemical reactions.\n5. **Glucose production**: Glucose is produced and used by the plant as energy and",
+    "elapsed_s": 26.11
+  },
+  "metacognitive": {
+    "prompt": "What is photosynthesis and why is it important? Monitor your own explanation process — note where you feel most and least certain.",
+    "encode_features": {
+      "key_norm": 2390.2044,
+      "norm_per_token": 39.1837,
+      "eff_rank": 41.59,
+      "top_sv_ratio": 0.153404,
+      "spectral_entropy": 3.7273,
+      "layer_variance": 698.4429,
+      "n_tokens": 61
+    },
+    "trajectory": [
+      {
+        "key_norm": 2586.7384,
+        "norm_per_token": 36.4329,
+        "eff_rank": 47.3411,
+        "top_sv_ratio": 0.144122,
+        "spectral_entropy": 3.8568,
+        "layer_variance": 755.3111,
+        "n_tokens": 71,
+        "gen_tokens": 10,
+        "checkpoint": 10
+      },
+      {
+        "key_norm": 2886.2831,
+        "norm_per_token": 33.5614,
+        "eff_rank": 56.6413,
+        "top_sv_ratio": 0.132132,
+        "spectral_entropy": 4.0361,
+        "layer_variance": 887.5006,
+        "n_tokens": 86,
+        "gen_tokens": 25,
+        "checkpoint": 25
+      },
+      {
+        "key_norm": 3358.6689,
+        "norm_per_token": 30.2583,
+        "eff_rank": 71.9177,
+        "top_sv_ratio": 0.11837,
+        "spectral_entropy": 4.2748,
+        "layer_variance": 1150.9864,
+        "n_tokens": 111,
+        "gen_tokens": 50,
+        "checkpoint": 50
+      },
+      {
+        "key_norm": 3795.1466,
+        "norm_per_token": 27.9055,
+        "eff_rank": 86.1874,
+        "top_sv_ratio": 0.111593,
+        "spectral_entropy": 4.4557,
+        "layer_variance": 1452.5392,
+        "n_tokens": 136,
+        "gen_tokens": 75,
+        "checkpoint": 75
+      },
+      {
+        "key_norm": 4179.9271,
+        "norm_per_token": 25.9623,
+        "eff_rank": 100.0062,
+        "top_sv_ratio": 0.105137,
+        "spectral_entropy": 4.6044,
+        "layer_variance": 1728.9966,
+        "n_tokens": 161,
+        "gen_tokens": 100,
+        "checkpoint": 100
+      },
+      {
+        "key_norm": 4886.1751,
+        "norm_per_token": 23.1572,
+        "eff_rank": 126.2412,
+        "top_sv_ratio": 0.09644,
+        "spectral_entropy": 4.8373,
+        "layer_variance": 2324.0987,
+        "n_tokens": 211,
+        "gen_tokens": 150,
+        "checkpoint": 150
+      },
+      {
+        "key_norm": 5529.572,
+        "norm_per_token": 21.1861,
+        "eff_rank": 151.0164,
+        "top_sv_ratio": 0.089982,
+        "spectral_entropy": 5.0164,
+        "layer_variance": 3042.0262,
+        "n_tokens": 261,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      },
+      {
+        "key_norm": 5529.572,
+        "norm_per_token": 21.1861,
+        "eff_rank": 151.0164,
+        "top_sv_ratio": 0.089982,
+        "spectral_entropy": 5.0164,
+        "layer_variance": 3042.0262,
+        "n_tokens": 261,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      }
+    ],
+    "total_gen_tokens": 200,
+    "input_len": 61,
+    "response_text": "**Photosynthesis: A Crucial Process for Life on Earth**\n\nPhotosynthesis is the process by which plants, algae, and some bacteria convert light energy from the sun into chemical energy in the form of organic compounds, such as glucose. This process is essential for life on Earth, as it provides the primary source of energy and organic compounds for nearly all living organisms.\n\n**The Process of Photosynthesis**\n\nPhotosynthesis occurs in specialized organelles called chloroplasts, which are present in plant cells. The process involves the following steps:\n\n1.  **Light absorption**: Light energy from the sun is absorbed by pigments such as chlorophyll, which is present in chloroplasts.\n2.  **Water absorption**: Water is absorbed by the plant through its roots and transported to the chloroplasts.\n3.  **Carbon dioxide absorption**: Carbon dioxide is absorbed from the atmosphere through small openings on the plant's leaves called stomata.\n4.  **Light-dependent reactions**: Light energy is",
+    "elapsed_s": 26.34
+  },
+  "timestamp": "2026-03-25T16:09:50.861025",
+  "model": "llama-3.1-8b"
+}

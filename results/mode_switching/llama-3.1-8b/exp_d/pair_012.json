@@ -1,0 +1,218 @@
+{
+  "pair_id": 12,
+  "content": "What causes earthquakes?",
+  "cognitive": {
+    "prompt": "What causes earthquakes?",
+    "encode_features": {
+      "key_norm": 1865.503,
+      "norm_per_token": 46.6376,
+      "eff_rank": 27.7565,
+      "top_sv_ratio": 0.182425,
+      "spectral_entropy": 3.3226,
+      "layer_variance": 517.8286,
+      "n_tokens": 40
+    },
+    "trajectory": [
+      {
+        "key_norm": 2109.6894,
+        "norm_per_token": 42.1938,
+        "eff_rank": 33.3352,
+        "top_sv_ratio": 0.165531,
+        "spectral_entropy": 3.506,
+        "layer_variance": 575.6408,
+        "n_tokens": 50,
+        "gen_tokens": 10,
+        "checkpoint": 10
+      },
+      {
+        "key_norm": 2477.0299,
+        "norm_per_token": 38.1082,
+        "eff_rank": 42.786,
+        "top_sv_ratio": 0.148264,
+        "spectral_entropy": 3.7556,
+        "layer_variance": 740.185,
+        "n_tokens": 65,
+        "gen_tokens": 25,
+        "checkpoint": 25
+      },
+      {
+        "key_norm": 3029.2923,
+        "norm_per_token": 33.6588,
+        "eff_rank": 57.9594,
+        "top_sv_ratio": 0.132061,
+        "spectral_entropy": 4.0591,
+        "layer_variance": 994.9544,
+        "n_tokens": 90,
+        "gen_tokens": 50,
+        "checkpoint": 50
+      },
+      {
+        "key_norm": 3499.6625,
+        "norm_per_token": 30.4318,
+        "eff_rank": 73.071,
+        "top_sv_ratio": 0.120892,
+        "spectral_entropy": 4.2908,
+        "layer_variance": 1266.2089,
+        "n_tokens": 115,
+        "gen_tokens": 75,
+        "checkpoint": 75
+      },
+      {
+        "key_norm": 3915.1827,
+        "norm_per_token": 27.9656,
+        "eff_rank": 87.6522,
+        "top_sv_ratio": 0.112668,
+        "spectral_entropy": 4.4727,
+        "layer_variance": 1536.1671,
+        "n_tokens": 140,
+        "gen_tokens": 100,
+        "checkpoint": 100
+      },
+      {
+        "key_norm": 4683.2495,
+        "norm_per_token": 24.6487,
+        "eff_rank": 115.114,
+        "top_sv_ratio": 0.101525,
+        "spectral_entropy": 4.7451,
+        "layer_variance": 2219.8801,
+        "n_tokens": 190,
+        "gen_tokens": 150,
+        "checkpoint": 150
+      },
+      {
+        "key_norm": 5357.9977,
+        "norm_per_token": 22.325,
+        "eff_rank": 140.8532,
+        "top_sv_ratio": 0.09416,
+        "spectral_entropy": 4.9469,
+        "layer_variance": 3013.825,
+        "n_tokens": 240,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      },
+      {
+        "key_norm": 5357.9977,
+        "norm_per_token": 22.325,
+        "eff_rank": 140.8532,
+        "top_sv_ratio": 0.09416,
+        "spectral_entropy": 4.9469,
+        "layer_variance": 3013.825,
+        "n_tokens": 240,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      }
+    ],
+    "total_gen_tokens": 200,
+    "input_len": 40,
+    "response_text": "Earthquakes are caused by the movement of tectonic plates in the Earth's lithosphere, which is the outermost solid layer of the planet. The lithosphere is broken into several large plates that fit together like a jigsaw puzzle. These plates are in constant motion, sliding over the more fluid asthenosphere below them.\n\nThere are three main types of plate movements that can cause earthquakes:\n\n1.  **Divergent motion**: When two plates move apart from each other, new crust is formed as magma rises up to fill the gap. This process is known as seafloor spreading. As the plates move apart, stress builds up in the Earth's crust, and when it becomes too great, the crust breaks, releasing energy in the form of an earthquake.\n2.  **Convergent motion**: When two plates move towards each other, they can either collide and crumple, or one plate can be forced beneath the other. This process is known as subduction.",
+    "elapsed_s": 26.02
+  },
+  "metacognitive": {
+    "prompt": "What causes earthquakes? Reflect on your reasoning process — how are you deciding what information to include and in what order?",
+    "encode_features": {
+      "key_norm": 2359.2845,
+      "norm_per_token": 39.9879,
+      "eff_rank": 39.9591,
+      "top_sv_ratio": 0.157879,
+      "spectral_entropy": 3.6873,
+      "layer_variance": 690.8635,
+      "n_tokens": 59
+    },
+    "trajectory": [
+      {
+        "key_norm": 2566.3346,
+        "norm_per_token": 37.1933,
+        "eff_rank": 45.5706,
+        "top_sv_ratio": 0.14993,
+        "spectral_entropy": 3.8187,
+        "layer_variance": 750.7477,
+        "n_tokens": 69,
+        "gen_tokens": 10,
+        "checkpoint": 10
+      },
+      {
+        "key_norm": 2896.7554,
+        "norm_per_token": 34.4852,
+        "eff_rank": 54.6709,
+        "top_sv_ratio": 0.140666,
+        "spectral_entropy": 4.0007,
+        "layer_variance": 880.2446,
+        "n_tokens": 84,
+        "gen_tokens": 25,
+        "checkpoint": 25
+      },
+      {
+        "key_norm": 3384.109,
+        "norm_per_token": 31.0469,
+        "eff_rank": 69.3746,
+        "top_sv_ratio": 0.128848,
+        "spectral_entropy": 4.2388,
+        "layer_variance": 1117.1283,
+        "n_tokens": 109,
+        "gen_tokens": 50,
+        "checkpoint": 50
+      },
+      {
+        "key_norm": 3808.5875,
+        "norm_per_token": 28.4223,
+        "eff_rank": 83.6388,
+        "top_sv_ratio": 0.119201,
+        "spectral_entropy": 4.4258,
+        "layer_variance": 1377.2519,
+        "n_tokens": 134,
+        "gen_tokens": 75,
+        "checkpoint": 75
+      },
+      {
+        "key_norm": 4174.5209,
+        "norm_per_token": 26.2548,
+        "eff_rank": 98.0673,
+        "top_sv_ratio": 0.109629,
+        "spectral_entropy": 4.5849,
+        "layer_variance": 1684.0926,
+        "n_tokens": 159,
+        "gen_tokens": 100,
+        "checkpoint": 100
+      },
+      {
+        "key_norm": 4900.9015,
+        "norm_per_token": 23.4493,
+        "eff_rank": 124.6836,
+        "top_sv_ratio": 0.098901,
+        "spectral_entropy": 4.8249,
+        "layer_variance": 2371.9771,
+        "n_tokens": 209,
+        "gen_tokens": 150,
+        "checkpoint": 150
+      },
+      {
+        "key_norm": 5530.4175,
+        "norm_per_token": 21.353,
+        "eff_rank": 150.4414,
+        "top_sv_ratio": 0.09135,
+        "spectral_entropy": 5.0126,
+        "layer_variance": 3093.1346,
+        "n_tokens": 259,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      },
+      {
+        "key_norm": 5530.4175,
+        "norm_per_token": 21.353,
+        "eff_rank": 150.4414,
+        "top_sv_ratio": 0.09135,
+        "spectral_entropy": 5.0126,
+        "layer_variance": 3093.1346,
+        "n_tokens": 259,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      }
+    ],
+    "total_gen_tokens": 200,
+    "input_len": 59,
+    "response_text": "To explain what causes earthquakes, I'll follow a logical reasoning process to break down the topic into its fundamental components. Here's my thought process:\n\n1.  **Understanding the question**: The question asks for the causes of earthquakes. This implies that I need to identify the underlying factors that lead to the occurrence of earthquakes.\n\n2.  **Defining earthquakes**: Earthquakes are a type of seismic activity that occurs when there is a release of energy in the Earth's lithosphere, resulting in the ground shaking. This definition helps me understand the context of the question.\n\n3.  **Identifying the Earth's structure**: The Earth is composed of several layers, including the crust, mantle, outer core, and inner core. The crust is the outermost layer and is broken into several large plates that move relative to each other.\n\n4.  **Plate tectonics**: The movement of these plates is the primary driver of earthquakes. The interaction between these plates can cause stress to build up",
+    "elapsed_s": 26.33
+  },
+  "timestamp": "2026-03-25T16:13:22.525216",
+  "model": "llama-3.1-8b"
+}

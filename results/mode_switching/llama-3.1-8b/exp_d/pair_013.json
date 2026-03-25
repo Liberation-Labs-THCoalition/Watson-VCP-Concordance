@@ -1,0 +1,218 @@
+{
+  "pair_id": 13,
+  "content": "Explain the difference between weather and climate.",
+  "cognitive": {
+    "prompt": "Explain the difference between weather and climate.",
+    "encode_features": {
+      "key_norm": 2001.5527,
+      "norm_per_token": 44.4789,
+      "eff_rank": 30.9608,
+      "top_sv_ratio": 0.174366,
+      "spectral_entropy": 3.432,
+      "layer_variance": 545.3053,
+      "n_tokens": 45
+    },
+    "trajectory": [
+      {
+        "key_norm": 2246.3053,
+        "norm_per_token": 40.8419,
+        "eff_rank": 36.5402,
+        "top_sv_ratio": 0.161503,
+        "spectral_entropy": 3.5978,
+        "layer_variance": 594.3354,
+        "n_tokens": 55,
+        "gen_tokens": 10,
+        "checkpoint": 10
+      },
+      {
+        "key_norm": 2594.9923,
+        "norm_per_token": 37.0713,
+        "eff_rank": 45.7378,
+        "top_sv_ratio": 0.147347,
+        "spectral_entropy": 3.8223,
+        "layer_variance": 704.9235,
+        "n_tokens": 70,
+        "gen_tokens": 25,
+        "checkpoint": 25
+      },
+      {
+        "key_norm": 3117.3526,
+        "norm_per_token": 32.8142,
+        "eff_rank": 60.7226,
+        "top_sv_ratio": 0.130299,
+        "spectral_entropy": 4.1056,
+        "layer_variance": 1020.2219,
+        "n_tokens": 95,
+        "gen_tokens": 50,
+        "checkpoint": 50
+      },
+      {
+        "key_norm": 3563.5396,
+        "norm_per_token": 29.6962,
+        "eff_rank": 75.5003,
+        "top_sv_ratio": 0.119901,
+        "spectral_entropy": 4.3234,
+        "layer_variance": 1282.1767,
+        "n_tokens": 120,
+        "gen_tokens": 75,
+        "checkpoint": 75
+      },
+      {
+        "key_norm": 3979.1026,
+        "norm_per_token": 27.4421,
+        "eff_rank": 89.5766,
+        "top_sv_ratio": 0.112674,
+        "spectral_entropy": 4.4943,
+        "layer_variance": 1550.7134,
+        "n_tokens": 145,
+        "gen_tokens": 100,
+        "checkpoint": 100
+      },
+      {
+        "key_norm": 4711.359,
+        "norm_per_token": 24.1608,
+        "eff_rank": 116.0197,
+        "top_sv_ratio": 0.102278,
+        "spectral_entropy": 4.7528,
+        "layer_variance": 2255.2506,
+        "n_tokens": 195,
+        "gen_tokens": 150,
+        "checkpoint": 150
+      },
+      {
+        "key_norm": 5360.0995,
+        "norm_per_token": 21.878,
+        "eff_rank": 141.3056,
+        "top_sv_ratio": 0.094485,
+        "spectral_entropy": 4.9499,
+        "layer_variance": 2974.4729,
+        "n_tokens": 245,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      },
+      {
+        "key_norm": 5360.0995,
+        "norm_per_token": 21.878,
+        "eff_rank": 141.3056,
+        "top_sv_ratio": 0.094485,
+        "spectral_entropy": 4.9499,
+        "layer_variance": 2974.4729,
+        "n_tokens": 245,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      }
+    ],
+    "total_gen_tokens": 200,
+    "input_len": 45,
+    "response_text": "Weather and climate are two related but distinct concepts in the field of meteorology.\n\n**Weather** refers to the short-term and local conditions of the atmosphere at a specific place and time, including temperature, humidity, cloudiness, wind, precipitation, and other meteorological elements. Weather is what you experience on a daily basis, such as a sunny day, a thunderstorm, or a heatwave. Weather is highly variable and can change rapidly over short periods of time.\n\n**Climate**, on the other hand, refers to the long-term average atmospheric conditions in a particular region, including temperature, precipitation, and other meteorological elements, over a long period of time (usually 30 years or more). Climate is a broader concept that describes the typical weather patterns of a region, including the average temperature, precipitation, and other conditions that occur over a long period.\n\nTo illustrate the difference, consider the following example:\n\n* Weather: \"It's going to be sunny and hot today, with a high of",
+    "elapsed_s": 26.1
+  },
+  "metacognitive": {
+    "prompt": "Explain the difference between weather and climate. As you formulate your response, describe how you're structuring your thinking about this distinction.",
+    "encode_features": {
+      "key_norm": 2450.2892,
+      "norm_per_token": 38.8935,
+      "eff_rank": 42.4397,
+      "top_sv_ratio": 0.1552,
+      "spectral_entropy": 3.7475,
+      "layer_variance": 704.4692,
+      "n_tokens": 63
+    },
+    "trajectory": [
+      {
+        "key_norm": 2656.6833,
+        "norm_per_token": 36.3929,
+        "eff_rank": 47.6951,
+        "top_sv_ratio": 0.14823,
+        "spectral_entropy": 3.8643,
+        "layer_variance": 772.3241,
+        "n_tokens": 73,
+        "gen_tokens": 10,
+        "checkpoint": 10
+      },
+      {
+        "key_norm": 2983.3367,
+        "norm_per_token": 33.9016,
+        "eff_rank": 56.7339,
+        "top_sv_ratio": 0.13978,
+        "spectral_entropy": 4.0378,
+        "layer_variance": 901.7457,
+        "n_tokens": 88,
+        "gen_tokens": 25,
+        "checkpoint": 25
+      },
+      {
+        "key_norm": 3490.9517,
+        "norm_per_token": 30.8934,
+        "eff_rank": 71.159,
+        "top_sv_ratio": 0.128901,
+        "spectral_entropy": 4.2642,
+        "layer_variance": 1199.3763,
+        "n_tokens": 113,
+        "gen_tokens": 50,
+        "checkpoint": 50
+      },
+      {
+        "key_norm": 3930.0447,
+        "norm_per_token": 28.4786,
+        "eff_rank": 85.3587,
+        "top_sv_ratio": 0.120019,
+        "spectral_entropy": 4.4461,
+        "layer_variance": 1536.3426,
+        "n_tokens": 138,
+        "gen_tokens": 75,
+        "checkpoint": 75
+      },
+      {
+        "key_norm": 4327.5436,
+        "norm_per_token": 26.5493,
+        "eff_rank": 98.9759,
+        "top_sv_ratio": 0.113238,
+        "spectral_entropy": 4.5941,
+        "layer_variance": 1849.4272,
+        "n_tokens": 163,
+        "gen_tokens": 100,
+        "checkpoint": 100
+      },
+      {
+        "key_norm": 5028.7935,
+        "norm_per_token": 23.6094,
+        "eff_rank": 125.3149,
+        "top_sv_ratio": 0.102834,
+        "spectral_entropy": 4.83,
+        "layer_variance": 2508.778,
+        "n_tokens": 213,
+        "gen_tokens": 150,
+        "checkpoint": 150
+      },
+      {
+        "key_norm": 5637.4635,
+        "norm_per_token": 21.4352,
+        "eff_rank": 150.4829,
+        "top_sv_ratio": 0.094608,
+        "spectral_entropy": 5.0129,
+        "layer_variance": 3130.2534,
+        "n_tokens": 263,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      },
+      {
+        "key_norm": 5637.4635,
+        "norm_per_token": 21.4352,
+        "eff_rank": 150.4829,
+        "top_sv_ratio": 0.094608,
+        "spectral_entropy": 5.0129,
+        "layer_variance": 3130.2534,
+        "n_tokens": 263,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      }
+    ],
+    "total_gen_tokens": 200,
+    "input_len": 63,
+    "response_text": "To explain the difference between weather and climate, I'll break down my thinking into several key components:\n\n1.  **Defining the Terms**: I'll start by defining both weather and climate to establish a clear understanding of what each term represents.\n\n2.  **Short-term vs. Long-term**: I'll consider the time scale associated with each term, as this is a crucial factor in distinguishing between the two.\n\n3.  **Spatial Scale**: I'll examine the geographical scope of weather and climate to see if there are any differences in how they are perceived at different locations.\n\n4.  **Predictability and Patterns**: I'll analyze the predictability and patterns associated with weather and climate to further clarify their differences.\n\n5.  **Examples and Illustrations**: I'll use real-world examples and illustrations to help solidify the distinction between weather and climate.\n\n**Defining the Terms**\n\n-   **Weather**: Weather refers to the temporary and local conditions of the atmosphere at a specific place and time",
+    "elapsed_s": 26.39
+  },
+  "timestamp": "2026-03-25T16:14:15.500216",
+  "model": "llama-3.1-8b"
+}

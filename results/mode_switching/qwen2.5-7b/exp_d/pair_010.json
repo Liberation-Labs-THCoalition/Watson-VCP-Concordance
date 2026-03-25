@@ -1,0 +1,218 @@
+{
+  "pair_id": 10,
+  "content": "What is the significance of the Pythagorean theorem?",
+  "cognitive": {
+    "prompt": "What is the significance of the Pythagorean theorem?",
+    "encode_features": {
+      "key_norm": 7201.2206,
+      "norm_per_token": 180.0305,
+      "eff_rank": 23.7553,
+      "top_sv_ratio": 0.273009,
+      "spectral_entropy": 3.0363,
+      "layer_variance": 1465061.0326,
+      "n_tokens": 40
+    },
+    "trajectory": [
+      {
+        "key_norm": 7971.881,
+        "norm_per_token": 159.4376,
+        "eff_rank": 28.1688,
+        "top_sv_ratio": 0.257889,
+        "spectral_entropy": 3.2007,
+        "layer_variance": 1793756.3304,
+        "n_tokens": 50,
+        "gen_tokens": 10,
+        "checkpoint": 10
+      },
+      {
+        "key_norm": 9112.3826,
+        "norm_per_token": 140.1905,
+        "eff_rank": 36.2291,
+        "top_sv_ratio": 0.237677,
+        "spectral_entropy": 3.4452,
+        "layer_variance": 2341323.2271,
+        "n_tokens": 65,
+        "gen_tokens": 25,
+        "checkpoint": 25
+      },
+      {
+        "key_norm": 10749.0074,
+        "norm_per_token": 119.4334,
+        "eff_rank": 48.938,
+        "top_sv_ratio": 0.218145,
+        "spectral_entropy": 3.7381,
+        "layer_variance": 3251425.9447,
+        "n_tokens": 90,
+        "gen_tokens": 50,
+        "checkpoint": 50
+      },
+      {
+        "key_norm": 12167.421,
+        "norm_per_token": 105.8037,
+        "eff_rank": 61.1209,
+        "top_sv_ratio": 0.201848,
+        "spectral_entropy": 3.954,
+        "layer_variance": 4161169.8312,
+        "n_tokens": 115,
+        "gen_tokens": 75,
+        "checkpoint": 75
+      },
+      {
+        "key_norm": 13438.9275,
+        "norm_per_token": 95.9923,
+        "eff_rank": 72.1872,
+        "top_sv_ratio": 0.191624,
+        "spectral_entropy": 4.1153,
+        "layer_variance": 5068048.3581,
+        "n_tokens": 140,
+        "gen_tokens": 100,
+        "checkpoint": 100
+      },
+      {
+        "key_norm": 15675.7495,
+        "norm_per_token": 82.5039,
+        "eff_rank": 93.2667,
+        "top_sv_ratio": 0.178146,
+        "spectral_entropy": 4.3653,
+        "layer_variance": 6884308.5969,
+        "n_tokens": 190,
+        "gen_tokens": 150,
+        "checkpoint": 150
+      },
+      {
+        "key_norm": 17631.5526,
+        "norm_per_token": 73.4648,
+        "eff_rank": 113.0507,
+        "top_sv_ratio": 0.168526,
+        "spectral_entropy": 4.5554,
+        "layer_variance": 8698488.33,
+        "n_tokens": 240,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      },
+      {
+        "key_norm": 17631.5526,
+        "norm_per_token": 73.4648,
+        "eff_rank": 113.0507,
+        "top_sv_ratio": 0.168526,
+        "spectral_entropy": 4.5554,
+        "layer_variance": 8698488.33,
+        "n_tokens": 240,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      }
+    ],
+    "total_gen_tokens": 200,
+    "input_len": 40,
+    "response_text": "The Pythagorean theorem is one of the most fundamental and widely used theorems in mathematics and has significant implications across various fields. Here are some key points highlighting its importance:\n\n1. **Geometric Foundation**: The theorem provides a simple yet powerful relationship between the sides of a right-angled triangle, stating that the square of the length of the hypotenuse (the side opposite the right angle) is equal to the sum of the squares of the lengths of the other two sides. This relationship is expressed as \\(a^2 + b^2 = c^2\\), where \\(c\\) is the length of the hypotenuse, and \\(a\\) and \\(b\\) are the lengths of the other two sides.\n\n2. **Mathematical Proofs and Logic**: The theorem serves as a cornerstone for many mathematical proofs and logical deductions. It is often used in algebraic manipulations and geometric proofs, making it an essential tool in higher mathematics.\n\n3. **Applications in Science",
+    "elapsed_s": 23.7
+  },
+  "metacognitive": {
+    "prompt": "What is the significance of the Pythagorean theorem? Describe how your understanding unfolds as you think through this question.",
+    "encode_features": {
+      "key_norm": 8213.2246,
+      "norm_per_token": 157.9466,
+      "eff_rank": 30.5959,
+      "top_sv_ratio": 0.250466,
+      "spectral_entropy": 3.2807,
+      "layer_variance": 1902931.5196,
+      "n_tokens": 52
+    },
+    "trajectory": [
+      {
+        "key_norm": 8896.4718,
+        "norm_per_token": 143.4915,
+        "eff_rank": 34.9895,
+        "top_sv_ratio": 0.239244,
+        "spectral_entropy": 3.4111,
+        "layer_variance": 2231717.1998,
+        "n_tokens": 62,
+        "gen_tokens": 10,
+        "checkpoint": 10
+      },
+      {
+        "key_norm": 9931.6167,
+        "norm_per_token": 128.982,
+        "eff_rank": 42.8627,
+        "top_sv_ratio": 0.223912,
+        "spectral_entropy": 3.6087,
+        "layer_variance": 2779163.2404,
+        "n_tokens": 77,
+        "gen_tokens": 25,
+        "checkpoint": 25
+      },
+      {
+        "key_norm": 11452.2818,
+        "norm_per_token": 112.2773,
+        "eff_rank": 54.9489,
+        "top_sv_ratio": 0.208662,
+        "spectral_entropy": 3.8512,
+        "layer_variance": 3688096.5793,
+        "n_tokens": 102,
+        "gen_tokens": 50,
+        "checkpoint": 50
+      },
+      {
+        "key_norm": 12794.459,
+        "norm_per_token": 100.7438,
+        "eff_rank": 66.8707,
+        "top_sv_ratio": 0.194359,
+        "spectral_entropy": 4.042,
+        "layer_variance": 4595282.9199,
+        "n_tokens": 127,
+        "gen_tokens": 75,
+        "checkpoint": 75
+      },
+      {
+        "key_norm": 14008.6402,
+        "norm_per_token": 92.1621,
+        "eff_rank": 77.9615,
+        "top_sv_ratio": 0.185845,
+        "spectral_entropy": 4.1919,
+        "layer_variance": 5502939.1555,
+        "n_tokens": 152,
+        "gen_tokens": 100,
+        "checkpoint": 100
+      },
+      {
+        "key_norm": 16168.4565,
+        "norm_per_token": 80.0419,
+        "eff_rank": 98.4226,
+        "top_sv_ratio": 0.174385,
+        "spectral_entropy": 4.4195,
+        "layer_variance": 7315993.9897,
+        "n_tokens": 202,
+        "gen_tokens": 150,
+        "checkpoint": 150
+      },
+      {
+        "key_norm": 18072.2189,
+        "norm_per_token": 71.7152,
+        "eff_rank": 118.3997,
+        "top_sv_ratio": 0.164868,
+        "spectral_entropy": 4.6012,
+        "layer_variance": 9127240.1475,
+        "n_tokens": 252,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      },
+      {
+        "key_norm": 18072.2189,
+        "norm_per_token": 71.7152,
+        "eff_rank": 118.3997,
+        "top_sv_ratio": 0.164868,
+        "spectral_entropy": 4.6012,
+        "layer_variance": 9127240.1475,
+        "n_tokens": 252,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      }
+    ],
+    "total_gen_tokens": 200,
+    "input_len": 52,
+    "response_text": "The Pythagorean theorem is a fundamental principle in Euclidean geometry that has profound implications and applications across various fields. Let's explore its significance step-by-step:\n\n1. **Basic Understanding**: The Pythagorean theorem states that in a right-angled triangle, the square of the length of the hypotenuse (the side opposite the right angle) is equal to the sum of the squares of the lengths of the other two sides. Mathematically, it can be expressed as \\(a^2 + b^2 = c^2\\), where \\(c\\) is the length of the hypotenuse, and \\(a\\) and \\(b\\) are the lengths of the other two sides.\n\n2. **Historical Context**: The theorem is named after the ancient Greek mathematician Pythagoras, although evidence suggests that it was known to earlier civilizations such as the Babylonians and Indians. Its historical significance lies in its early recognition of mathematical relationships and its role in the development of mathematics as a",
+    "elapsed_s": 23.88
+  },
+  "timestamp": "2026-03-25T15:55:14.827433",
+  "model": "qwen2.5-7b"
+}

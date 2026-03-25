@@ -1,0 +1,218 @@
+{
+  "pair_id": 16,
+  "content": "What is the difference between an atom and a molecule?",
+  "cognitive": {
+    "prompt": "What is the difference between an atom and a molecule?",
+    "encode_features": {
+      "key_norm": 2053.3768,
+      "norm_per_token": 43.6889,
+      "eff_rank": 32.1558,
+      "top_sv_ratio": 0.171269,
+      "spectral_entropy": 3.47,
+      "layer_variance": 563.325,
+      "n_tokens": 47
+    },
+    "trajectory": [
+      {
+        "key_norm": 2290.8947,
+        "norm_per_token": 40.1911,
+        "eff_rank": 37.6867,
+        "top_sv_ratio": 0.159888,
+        "spectral_entropy": 3.6288,
+        "layer_variance": 633.7178,
+        "n_tokens": 57,
+        "gen_tokens": 10,
+        "checkpoint": 10
+      },
+      {
+        "key_norm": 2645.5648,
+        "norm_per_token": 36.744,
+        "eff_rank": 47.0836,
+        "top_sv_ratio": 0.147106,
+        "spectral_entropy": 3.8514,
+        "layer_variance": 761.0367,
+        "n_tokens": 72,
+        "gen_tokens": 25,
+        "checkpoint": 25
+      },
+      {
+        "key_norm": 3161.8206,
+        "norm_per_token": 32.5961,
+        "eff_rank": 61.914,
+        "top_sv_ratio": 0.132076,
+        "spectral_entropy": 4.1252,
+        "layer_variance": 1021.779,
+        "n_tokens": 97,
+        "gen_tokens": 50,
+        "checkpoint": 50
+      },
+      {
+        "key_norm": 3621.1176,
+        "norm_per_token": 29.6813,
+        "eff_rank": 76.5783,
+        "top_sv_ratio": 0.120525,
+        "spectral_entropy": 4.3377,
+        "layer_variance": 1312.4596,
+        "n_tokens": 122,
+        "gen_tokens": 75,
+        "checkpoint": 75
+      },
+      {
+        "key_norm": 4053.0856,
+        "norm_per_token": 27.572,
+        "eff_rank": 90.5655,
+        "top_sv_ratio": 0.112921,
+        "spectral_entropy": 4.5054,
+        "layer_variance": 1647.4408,
+        "n_tokens": 147,
+        "gen_tokens": 100,
+        "checkpoint": 100
+      },
+      {
+        "key_norm": 4784.013,
+        "norm_per_token": 24.2843,
+        "eff_rank": 117.1704,
+        "top_sv_ratio": 0.102589,
+        "spectral_entropy": 4.7628,
+        "layer_variance": 2337.9456,
+        "n_tokens": 197,
+        "gen_tokens": 150,
+        "checkpoint": 150
+      },
+      {
+        "key_norm": 5400.7383,
+        "norm_per_token": 21.8653,
+        "eff_rank": 143.7008,
+        "top_sv_ratio": 0.093862,
+        "spectral_entropy": 4.9669,
+        "layer_variance": 3085.7378,
+        "n_tokens": 247,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      },
+      {
+        "key_norm": 5400.7383,
+        "norm_per_token": 21.8653,
+        "eff_rank": 143.7008,
+        "top_sv_ratio": 0.093862,
+        "spectral_entropy": 4.9669,
+        "layer_variance": 3085.7378,
+        "n_tokens": 247,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      }
+    ],
+    "total_gen_tokens": 200,
+    "input_len": 47,
+    "response_text": "An atom and a molecule are two fundamental concepts in chemistry that are often confused with each other, but they have distinct differences.\n\n**Atom:**\nAn atom is the smallest unit of a chemical element that retains the properties of that element. It consists of three main parts:\n\n1. **Protons**: Positively charged particles found in the nucleus (center) of the atom.\n2. **Neutrons**: Particles with no charge found in the nucleus, which contribute to the atom's mass.\n3. **Electrons**: Negatively charged particles that orbit around the nucleus.\n\nAtoms are the building blocks of matter, and they can be combined to form molecules.\n\n**Molecule:**\nA molecule is a group of two or more atoms that are chemically bonded together. Molecules can be composed of atoms of the same element (such as oxygen gas, O2) or different elements (such as water, H2O). The atoms in a molecule are held together by chemical bonds,",
+    "elapsed_s": 26.17
+  },
+  "metacognitive": {
+    "prompt": "What is the difference between an atom and a molecule? Describe your internal process as you formulate this explanation — what analogies or frameworks are you considering?",
+    "encode_features": {
+      "key_norm": 2498.1232,
+      "norm_per_token": 37.8504,
+      "eff_rank": 44.5811,
+      "top_sv_ratio": 0.149946,
+      "spectral_entropy": 3.7968,
+      "layer_variance": 744.6273,
+      "n_tokens": 66
+    },
+    "trajectory": [
+      {
+        "key_norm": 2689.375,
+        "norm_per_token": 35.3865,
+        "eff_rank": 50.0541,
+        "top_sv_ratio": 0.142762,
+        "spectral_entropy": 3.9126,
+        "layer_variance": 837.9675,
+        "n_tokens": 76,
+        "gen_tokens": 10,
+        "checkpoint": 10
+      },
+      {
+        "key_norm": 3005.1597,
+        "norm_per_token": 33.0237,
+        "eff_rank": 59.1492,
+        "top_sv_ratio": 0.134966,
+        "spectral_entropy": 4.0795,
+        "layer_variance": 964.8088,
+        "n_tokens": 91,
+        "gen_tokens": 25,
+        "checkpoint": 25
+      },
+      {
+        "key_norm": 3479.006,
+        "norm_per_token": 29.9914,
+        "eff_rank": 73.6472,
+        "top_sv_ratio": 0.1247,
+        "spectral_entropy": 4.2986,
+        "layer_variance": 1196.6713,
+        "n_tokens": 116,
+        "gen_tokens": 50,
+        "checkpoint": 50
+      },
+      {
+        "key_norm": 3878.1022,
+        "norm_per_token": 27.5043,
+        "eff_rank": 88.347,
+        "top_sv_ratio": 0.113404,
+        "spectral_entropy": 4.4805,
+        "layer_variance": 1528.8955,
+        "n_tokens": 141,
+        "gen_tokens": 75,
+        "checkpoint": 75
+      },
+      {
+        "key_norm": 4270.5393,
+        "norm_per_token": 25.7261,
+        "eff_rank": 102.1162,
+        "top_sv_ratio": 0.106648,
+        "spectral_entropy": 4.6253,
+        "layer_variance": 1854.6154,
+        "n_tokens": 166,
+        "gen_tokens": 100,
+        "checkpoint": 100
+      },
+      {
+        "key_norm": 4985.927,
+        "norm_per_token": 23.083,
+        "eff_rank": 129.0816,
+        "top_sv_ratio": 0.097394,
+        "spectral_entropy": 4.8596,
+        "layer_variance": 2492.55,
+        "n_tokens": 216,
+        "gen_tokens": 150,
+        "checkpoint": 150
+      },
+      {
+        "key_norm": 5622.2401,
+        "norm_per_token": 21.1362,
+        "eff_rank": 153.6783,
+        "top_sv_ratio": 0.09079,
+        "spectral_entropy": 5.0339,
+        "layer_variance": 3176.8726,
+        "n_tokens": 266,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      },
+      {
+        "key_norm": 5622.2401,
+        "norm_per_token": 21.1362,
+        "eff_rank": 153.6783,
+        "top_sv_ratio": 0.09079,
+        "spectral_entropy": 5.0339,
+        "layer_variance": 3176.8726,
+        "n_tokens": 266,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      }
+    ],
+    "total_gen_tokens": 200,
+    "input_len": 66,
+    "response_text": "To explain the difference between an atom and a molecule, I'll go through a step-by-step process of conceptualization and analogy-building.\n\n**Initial Conceptualization**\n\nI start by recalling the basic definitions of atoms and molecules from my knowledge base. An atom is the smallest unit of a chemical element, consisting of a nucleus surrounded by electrons. A molecule, on the other hand, is a group of two or more atoms that are chemically bonded together.\n\n**Analogies and Frameworks**\n\nTo make this explanation more accessible and engaging, I consider the following analogies and frameworks:\n\n1. **Building Blocks Analogy**: I think of atoms as individual LEGO bricks, each with its unique properties and characteristics. Just as LEGO bricks can be combined in various ways to create different structures, atoms can be combined to form different molecules.\n2. **City Metaphor**: I imagine atoms as individual buildings, each with its own distinct architecture and infrastructure. Molecules are like cities, where multiple buildings (",
+    "elapsed_s": 26.51
+  },
+  "timestamp": "2026-03-25T16:16:54.531186",
+  "model": "llama-3.1-8b"
+}

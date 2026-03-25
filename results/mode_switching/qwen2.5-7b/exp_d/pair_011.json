@@ -1,0 +1,218 @@
+{
+  "pair_id": 11,
+  "content": "Explain how vaccines work.",
+  "cognitive": {
+    "prompt": "Explain how vaccines work.",
+    "encode_features": {
+      "key_norm": 6735.3625,
+      "norm_per_token": 192.4389,
+      "eff_rank": 21.1471,
+      "top_sv_ratio": 0.285389,
+      "spectral_entropy": 2.9247,
+      "layer_variance": 1281659.5655,
+      "n_tokens": 35
+    },
+    "trajectory": [
+      {
+        "key_norm": 7552.8775,
+        "norm_per_token": 167.8417,
+        "eff_rank": 25.9235,
+        "top_sv_ratio": 0.262696,
+        "spectral_entropy": 3.122,
+        "layer_variance": 1610837.7278,
+        "n_tokens": 45,
+        "gen_tokens": 10,
+        "checkpoint": 10
+      },
+      {
+        "key_norm": 8747.4375,
+        "norm_per_token": 145.7906,
+        "eff_rank": 34.2886,
+        "top_sv_ratio": 0.23645,
+        "spectral_entropy": 3.3922,
+        "layer_variance": 2158559.2338,
+        "n_tokens": 60,
+        "gen_tokens": 25,
+        "checkpoint": 25
+      },
+      {
+        "key_norm": 10439.3234,
+        "norm_per_token": 122.8156,
+        "eff_rank": 47.2983,
+        "top_sv_ratio": 0.215888,
+        "spectral_entropy": 3.7045,
+        "layer_variance": 3070485.5103,
+        "n_tokens": 85,
+        "gen_tokens": 50,
+        "checkpoint": 50
+      },
+      {
+        "key_norm": 11894.5295,
+        "norm_per_token": 108.1321,
+        "eff_rank": 59.2613,
+        "top_sv_ratio": 0.202437,
+        "spectral_entropy": 3.924,
+        "layer_variance": 3979411.6056,
+        "n_tokens": 110,
+        "gen_tokens": 75,
+        "checkpoint": 75
+      },
+      {
+        "key_norm": 13190.6728,
+        "norm_per_token": 97.7087,
+        "eff_rank": 71.2563,
+        "top_sv_ratio": 0.191374,
+        "spectral_entropy": 4.1029,
+        "layer_variance": 4887711.316,
+        "n_tokens": 135,
+        "gen_tokens": 100,
+        "checkpoint": 100
+      },
+      {
+        "key_norm": 15463.2607,
+        "norm_per_token": 83.5852,
+        "eff_rank": 93.0901,
+        "top_sv_ratio": 0.178209,
+        "spectral_entropy": 4.3647,
+        "layer_variance": 6701033.4721,
+        "n_tokens": 185,
+        "gen_tokens": 150,
+        "checkpoint": 150
+      },
+      {
+        "key_norm": 17443.4082,
+        "norm_per_token": 74.2273,
+        "eff_rank": 112.9856,
+        "top_sv_ratio": 0.169067,
+        "spectral_entropy": 4.5543,
+        "layer_variance": 8512432.947,
+        "n_tokens": 235,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      },
+      {
+        "key_norm": 17443.4082,
+        "norm_per_token": 74.2273,
+        "eff_rank": 112.9856,
+        "top_sv_ratio": 0.169067,
+        "spectral_entropy": 4.5543,
+        "layer_variance": 8512432.947,
+        "n_tokens": 235,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      }
+    ],
+    "total_gen_tokens": 200,
+    "input_len": 35,
+    "response_text": "Vaccines work by stimulating the immune system to recognize and fight off specific pathogens, such as viruses or bacteria, without causing the disease itself. Here’s a step-by-step explanation of how vaccines function:\n\n1. **Introduction of Antigen**: Vaccines contain antigens, which are substances that mimic parts of a virus or bacteria. These antigens are usually weakened, killed versions of the pathogen, or pieces of the pathogen like proteins or sugars. Some vaccines use harmless viruses that have been modified to produce these antigens.\n\n2. **Immune System Recognition**: When you receive a vaccine, your immune system recognizes these antigens as foreign invaders. This triggers an immune response, including the production of antibodies and activation of immune cells like T-cells.\n\n3. **Production of Memory Cells**: In addition to producing antibodies, the immune system also creates memory cells. These are specialized immune cells that \"remember\" the specific antigen. If you are exposed to the actual pathogen in the future",
+    "elapsed_s": 23.72
+  },
+  "metacognitive": {
+    "prompt": "Explain how vaccines work. As you explain, track which parts of your explanation you're most confident about and which you find harder to articulate precisely.",
+    "encode_features": {
+      "key_norm": 8750.677,
+      "norm_per_token": 148.3166,
+      "eff_rank": 34.767,
+      "top_sv_ratio": 0.240614,
+      "spectral_entropy": 3.4044,
+      "layer_variance": 2155506.9851,
+      "n_tokens": 59
+    },
+    "trajectory": [
+      {
+        "key_norm": 9394.5911,
+        "norm_per_token": 136.1535,
+        "eff_rank": 39.4897,
+        "top_sv_ratio": 0.228481,
+        "spectral_entropy": 3.5288,
+        "layer_variance": 2484582.4318,
+        "n_tokens": 69,
+        "gen_tokens": 10,
+        "checkpoint": 10
+      },
+      {
+        "key_norm": 10379.7023,
+        "norm_per_token": 123.5679,
+        "eff_rank": 47.4685,
+        "top_sv_ratio": 0.212543,
+        "spectral_entropy": 3.7075,
+        "layer_variance": 3031811.4774,
+        "n_tokens": 84,
+        "gen_tokens": 25,
+        "checkpoint": 25
+      },
+      {
+        "key_norm": 11841.2374,
+        "norm_per_token": 108.6352,
+        "eff_rank": 60.0219,
+        "top_sv_ratio": 0.198642,
+        "spectral_entropy": 3.9359,
+        "layer_variance": 3942266.2979,
+        "n_tokens": 109,
+        "gen_tokens": 50,
+        "checkpoint": 50
+      },
+      {
+        "key_norm": 13142.2097,
+        "norm_per_token": 98.0762,
+        "eff_rank": 72.0347,
+        "top_sv_ratio": 0.187382,
+        "spectral_entropy": 4.1139,
+        "layer_variance": 4851118.6462,
+        "n_tokens": 134,
+        "gen_tokens": 75,
+        "checkpoint": 75
+      },
+      {
+        "key_norm": 14327.4174,
+        "norm_per_token": 90.1095,
+        "eff_rank": 83.0397,
+        "top_sv_ratio": 0.180938,
+        "spectral_entropy": 4.2533,
+        "layer_variance": 5757963.8546,
+        "n_tokens": 159,
+        "gen_tokens": 100,
+        "checkpoint": 100
+      },
+      {
+        "key_norm": 16445.0438,
+        "norm_per_token": 78.6844,
+        "eff_rank": 103.5495,
+        "top_sv_ratio": 0.171555,
+        "spectral_entropy": 4.4691,
+        "layer_variance": 7569109.1792,
+        "n_tokens": 209,
+        "gen_tokens": 150,
+        "checkpoint": 150
+      },
+      {
+        "key_norm": 18320.9208,
+        "norm_per_token": 70.7371,
+        "eff_rank": 122.5495,
+        "top_sv_ratio": 0.164187,
+        "spectral_entropy": 4.6341,
+        "layer_variance": 9376912.178,
+        "n_tokens": 259,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      },
+      {
+        "key_norm": 18320.9208,
+        "norm_per_token": 70.7371,
+        "eff_rank": 122.5495,
+        "top_sv_ratio": 0.164187,
+        "spectral_entropy": 4.6341,
+        "layer_variance": 9376912.178,
+        "n_tokens": 259,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      }
+    ],
+    "total_gen_tokens": 200,
+    "input_len": 59,
+    "response_text": "Vaccines work by training the immune system to recognize and fight off specific pathogens, such as viruses or bacteria, without causing the disease itself. Here’s a breakdown of the process:\n\n1. **Introduction of Antigen**: Vaccines contain antigens, which are usually weakened or inactivated forms of the pathogen or pieces of it (like proteins or sugars). These antigens are recognized by the immune system as foreign substances.\n\n2. **Immune System Response**: When the vaccine is introduced into the body, the immune system recognizes these antigens as threats and mounts a response. This involves the activation of various components of the immune system, including B cells and T cells.\n\n3. **Production of Antibodies**: B cells produce antibodies that specifically target the antigens present in the vaccine. These antibodies can neutralize the pathogen if it enters the body in the future.\n\n4. **Memory Cells Formation**: In addition to producing antibodies, some B cells and T cells become memory cells. These",
+    "elapsed_s": 24.05
+  },
+  "timestamp": "2026-03-25T15:56:03.064471",
+  "model": "qwen2.5-7b"
+}

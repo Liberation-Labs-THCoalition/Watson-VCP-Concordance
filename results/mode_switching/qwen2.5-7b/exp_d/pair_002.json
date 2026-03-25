@@ -1,0 +1,218 @@
+{
+  "pair_id": 2,
+  "content": "Why do leaves change color in autumn?",
+  "cognitive": {
+    "prompt": "Why do leaves change color in autumn?",
+    "encode_features": {
+      "key_norm": 6925.7909,
+      "norm_per_token": 187.1835,
+      "eff_rank": 22.2313,
+      "top_sv_ratio": 0.276971,
+      "spectral_entropy": 2.9729,
+      "layer_variance": 1354782.2925,
+      "n_tokens": 37
+    },
+    "trajectory": [
+      {
+        "key_norm": 7724.2091,
+        "norm_per_token": 164.3449,
+        "eff_rank": 26.6578,
+        "top_sv_ratio": 0.25967,
+        "spectral_entropy": 3.1487,
+        "layer_variance": 1682885.0654,
+        "n_tokens": 47,
+        "gen_tokens": 10,
+        "checkpoint": 10
+      },
+      {
+        "key_norm": 8895.4706,
+        "norm_per_token": 143.4753,
+        "eff_rank": 34.735,
+        "top_sv_ratio": 0.23856,
+        "spectral_entropy": 3.4044,
+        "layer_variance": 2231092.346,
+        "n_tokens": 62,
+        "gen_tokens": 25,
+        "checkpoint": 25
+      },
+      {
+        "key_norm": 10567.1509,
+        "norm_per_token": 121.4615,
+        "eff_rank": 47.5325,
+        "top_sv_ratio": 0.216109,
+        "spectral_entropy": 3.7104,
+        "layer_variance": 3138777.1309,
+        "n_tokens": 87,
+        "gen_tokens": 50,
+        "checkpoint": 50
+      },
+      {
+        "key_norm": 12008.2895,
+        "norm_per_token": 107.2169,
+        "eff_rank": 59.9015,
+        "top_sv_ratio": 0.202377,
+        "spectral_entropy": 3.9355,
+        "layer_variance": 4047287.7515,
+        "n_tokens": 112,
+        "gen_tokens": 75,
+        "checkpoint": 75
+      },
+      {
+        "key_norm": 13295.5901,
+        "norm_per_token": 97.0481,
+        "eff_rank": 71.6056,
+        "top_sv_ratio": 0.191815,
+        "spectral_entropy": 4.1096,
+        "layer_variance": 4953379.7547,
+        "n_tokens": 137,
+        "gen_tokens": 100,
+        "checkpoint": 100
+      },
+      {
+        "key_norm": 15554.8277,
+        "norm_per_token": 83.1809,
+        "eff_rank": 93.5244,
+        "top_sv_ratio": 0.177912,
+        "spectral_entropy": 4.3709,
+        "layer_variance": 6764388.0262,
+        "n_tokens": 187,
+        "gen_tokens": 150,
+        "checkpoint": 150
+      },
+      {
+        "key_norm": 17524.5139,
+        "norm_per_token": 73.9431,
+        "eff_rank": 114.1202,
+        "top_sv_ratio": 0.167678,
+        "spectral_entropy": 4.567,
+        "layer_variance": 8573111.1905,
+        "n_tokens": 237,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      },
+      {
+        "key_norm": 17524.5139,
+        "norm_per_token": 73.9431,
+        "eff_rank": 114.1202,
+        "top_sv_ratio": 0.167678,
+        "spectral_entropy": 4.567,
+        "layer_variance": 8573111.1905,
+        "n_tokens": 237,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      }
+    ],
+    "total_gen_tokens": 200,
+    "input_len": 37,
+    "response_text": "Leaves change color in autumn due to a combination of environmental factors and physiological processes within the plant. Here's a detailed explanation:\n\n1. **Shorter Days and Cooler Temperatures**: As summer transitions into fall, days become shorter and temperatures drop. These changes signal to the tree that it's time to prepare for winter.\n\n2. **Reduced Chlorophyll Production**: Chlorophyll is the green pigment responsible for photosynthesis. In the spring and summer, trees produce large amounts of chlorophyll to capture sunlight and convert it into energy. However, as days shorten and temperatures cool, trees begin to slow down chlorophyll production. This reduction allows other pigments that were previously masked by the green chlorophyll to become visible.\n\n3. **Carotenoids and Anthocyanins**: \n   - **Carotenoids** (such as beta-carotene) give leaves their yellow, orange, and brown colors. These pigments are present in leaves throughout the growing season but",
+    "elapsed_s": 23.74
+  },
+  "metacognitive": {
+    "prompt": "Why do leaves change color in autumn? As you explain, reflect on how confident you feel about each part of your answer.",
+    "encode_features": {
+      "key_norm": 8370.8822,
+      "norm_per_token": 155.0163,
+      "eff_rank": 31.9871,
+      "top_sv_ratio": 0.245483,
+      "spectral_entropy": 3.3237,
+      "layer_variance": 1974555.8325,
+      "n_tokens": 54
+    },
+    "trajectory": [
+      {
+        "key_norm": 9042.7023,
+        "norm_per_token": 141.2922,
+        "eff_rank": 36.4327,
+        "top_sv_ratio": 0.234187,
+        "spectral_entropy": 3.4504,
+        "layer_variance": 2302553.9306,
+        "n_tokens": 64,
+        "gen_tokens": 10,
+        "checkpoint": 10
+      },
+      {
+        "key_norm": 10062.7239,
+        "norm_per_token": 127.3763,
+        "eff_rank": 44.3282,
+        "top_sv_ratio": 0.218677,
+        "spectral_entropy": 3.6403,
+        "layer_variance": 2850028.8032,
+        "n_tokens": 79,
+        "gen_tokens": 25,
+        "checkpoint": 25
+      },
+      {
+        "key_norm": 11566.6699,
+        "norm_per_token": 111.218,
+        "eff_rank": 56.7887,
+        "top_sv_ratio": 0.203152,
+        "spectral_entropy": 3.8825,
+        "layer_variance": 3758014.1418,
+        "n_tokens": 104,
+        "gen_tokens": 50,
+        "checkpoint": 50
+      },
+      {
+        "key_norm": 12895.4052,
+        "norm_per_token": 99.9644,
+        "eff_rank": 69.0336,
+        "top_sv_ratio": 0.191468,
+        "spectral_entropy": 4.0725,
+        "layer_variance": 4667241.295,
+        "n_tokens": 129,
+        "gen_tokens": 75,
+        "checkpoint": 75
+      },
+      {
+        "key_norm": 14101.8049,
+        "norm_per_token": 91.5702,
+        "eff_rank": 80.3572,
+        "top_sv_ratio": 0.183313,
+        "spectral_entropy": 4.2217,
+        "layer_variance": 5572863.0625,
+        "n_tokens": 154,
+        "gen_tokens": 100,
+        "checkpoint": 100
+      },
+      {
+        "key_norm": 16248.3705,
+        "norm_per_token": 79.6489,
+        "eff_rank": 101.9067,
+        "top_sv_ratio": 0.171749,
+        "spectral_entropy": 4.4551,
+        "layer_variance": 7383060.7594,
+        "n_tokens": 204,
+        "gen_tokens": 150,
+        "checkpoint": 150
+      },
+      {
+        "key_norm": 18145.5831,
+        "norm_per_token": 71.4393,
+        "eff_rank": 121.1968,
+        "top_sv_ratio": 0.164033,
+        "spectral_entropy": 4.6257,
+        "layer_variance": 9187301.5229,
+        "n_tokens": 254,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      },
+      {
+        "key_norm": 18145.5831,
+        "norm_per_token": 71.4393,
+        "eff_rank": 121.1968,
+        "top_sv_ratio": 0.164033,
+        "spectral_entropy": 4.6257,
+        "layer_variance": 9187301.5229,
+        "n_tokens": 254,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      }
+    ],
+    "total_gen_tokens": 200,
+    "input_len": 54,
+    "response_text": "Leaves change color in autumn due to the changing seasons and the processes that occur within the tree as it prepares for winter. Here’s a detailed explanation:\n\n1. **Shorter Days and Cooler Temperatures**: As days shorten and temperatures cool, trees begin to shut down their food-making factories (chloroplasts) in the leaves. This is triggered by changes in the length of daylight and temperature.\n\n2. **Chlorophyll Breakdown**: Chlorophyll, the green pigment responsible for photosynthesis, begins to break down. As chlorophyll levels decrease, the green color fades, revealing other pigments that were present but masked by the dominant green color.\n\n3. **Carotenoids and Anthocyanins**: \n   - **Carotenoids** (such as beta-carotene and xanthophylls) are yellow and orange pigments. They are always present in leaves but are usually overshadowed by chlorophyll. As chlorophyll breaks down, these pig",
+    "elapsed_s": 23.89
+  },
+  "timestamp": "2026-03-25T15:48:56.303985",
+  "model": "qwen2.5-7b"
+}

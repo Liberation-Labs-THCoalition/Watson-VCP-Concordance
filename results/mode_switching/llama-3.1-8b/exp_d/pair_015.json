@@ -1,0 +1,218 @@
+{
+  "pair_id": 15,
+  "content": "Explain the greenhouse effect.",
+  "cognitive": {
+    "prompt": "Explain the greenhouse effect.",
+    "encode_features": {
+      "key_norm": 1919.7666,
+      "norm_per_token": 45.7087,
+      "eff_rank": 29.0174,
+      "top_sv_ratio": 0.179457,
+      "spectral_entropy": 3.3671,
+      "layer_variance": 532.1458,
+      "n_tokens": 42
+    },
+    "trajectory": [
+      {
+        "key_norm": 2165.9563,
+        "norm_per_token": 41.653,
+        "eff_rank": 34.5029,
+        "top_sv_ratio": 0.164777,
+        "spectral_entropy": 3.5404,
+        "layer_variance": 579.7545,
+        "n_tokens": 52,
+        "gen_tokens": 10,
+        "checkpoint": 10
+      },
+      {
+        "key_norm": 2524.4406,
+        "norm_per_token": 37.6782,
+        "eff_rank": 44.261,
+        "top_sv_ratio": 0.146363,
+        "spectral_entropy": 3.7895,
+        "layer_variance": 715.8763,
+        "n_tokens": 67,
+        "gen_tokens": 25,
+        "checkpoint": 25
+      },
+      {
+        "key_norm": 3062.0721,
+        "norm_per_token": 33.2834,
+        "eff_rank": 59.5908,
+        "top_sv_ratio": 0.130957,
+        "spectral_entropy": 4.0868,
+        "layer_variance": 972.6838,
+        "n_tokens": 92,
+        "gen_tokens": 50,
+        "checkpoint": 50
+      },
+      {
+        "key_norm": 3530.0816,
+        "norm_per_token": 30.1716,
+        "eff_rank": 74.0571,
+        "top_sv_ratio": 0.121786,
+        "spectral_entropy": 4.3041,
+        "layer_variance": 1291.9062,
+        "n_tokens": 117,
+        "gen_tokens": 75,
+        "checkpoint": 75
+      },
+      {
+        "key_norm": 3925.2921,
+        "norm_per_token": 27.6429,
+        "eff_rank": 88.4981,
+        "top_sv_ratio": 0.113131,
+        "spectral_entropy": 4.4822,
+        "layer_variance": 1521.5982,
+        "n_tokens": 142,
+        "gen_tokens": 100,
+        "checkpoint": 100
+      },
+      {
+        "key_norm": 4711.6276,
+        "norm_per_token": 24.5397,
+        "eff_rank": 114.7485,
+        "top_sv_ratio": 0.10313,
+        "spectral_entropy": 4.7419,
+        "layer_variance": 2207.7735,
+        "n_tokens": 192,
+        "gen_tokens": 150,
+        "checkpoint": 150
+      },
+      {
+        "key_norm": 5384.2261,
+        "norm_per_token": 22.2489,
+        "eff_rank": 139.4163,
+        "top_sv_ratio": 0.09639,
+        "spectral_entropy": 4.9366,
+        "layer_variance": 2913.3758,
+        "n_tokens": 242,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      },
+      {
+        "key_norm": 5384.2261,
+        "norm_per_token": 22.2489,
+        "eff_rank": 139.4163,
+        "top_sv_ratio": 0.09639,
+        "spectral_entropy": 4.9366,
+        "layer_variance": 2913.3758,
+        "n_tokens": 242,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      }
+    ],
+    "total_gen_tokens": 200,
+    "input_len": 42,
+    "response_text": "The greenhouse effect is a natural process that occurs when certain gases in the Earth's atmosphere, such as carbon dioxide, methane, and water vapor, trap heat from the sun, keeping the planet warm enough to support life. This process is essential for life on Earth, but human activities have increased the concentration of these gases, leading to an enhancement of the greenhouse effect, which contributes to global warming.\n\nHere's a simplified explanation of the greenhouse effect:\n\n1.  **Solar Radiation**: The sun emits solar radiation, which enters the Earth's atmosphere.\n2.  **Absorption**: The Earth's surface absorbs some of this radiation, warming the planet.\n3.  **Infrared Radiation**: The warmed surface emits infrared radiation, which is a type of heat.\n4.  **Greenhouse Gases**: Greenhouse gases, such as carbon dioxide, methane, and water vapor, absorb some of this infrared radiation, trapping the heat in the atmosphere.\n5.  **Trapping Heat**: The trapped",
+    "elapsed_s": 26.08
+  },
+  "metacognitive": {
+    "prompt": "Explain the greenhouse effect. As you explain, reflect on how you're balancing simplicity with accuracy in your explanation.",
+    "encode_features": {
+      "key_norm": 2342.9411,
+      "norm_per_token": 39.7109,
+      "eff_rank": 39.9528,
+      "top_sv_ratio": 0.158089,
+      "spectral_entropy": 3.6871,
+      "layer_variance": 696.1813,
+      "n_tokens": 59
+    },
+    "trajectory": [
+      {
+        "key_norm": 2544.2708,
+        "norm_per_token": 36.8735,
+        "eff_rank": 45.6248,
+        "top_sv_ratio": 0.147856,
+        "spectral_entropy": 3.8199,
+        "layer_variance": 755.831,
+        "n_tokens": 69,
+        "gen_tokens": 10,
+        "checkpoint": 10
+      },
+      {
+        "key_norm": 2879.3732,
+        "norm_per_token": 34.2783,
+        "eff_rank": 54.4261,
+        "top_sv_ratio": 0.139503,
+        "spectral_entropy": 3.9962,
+        "layer_variance": 892.8446,
+        "n_tokens": 84,
+        "gen_tokens": 25,
+        "checkpoint": 25
+      },
+      {
+        "key_norm": 3370.0673,
+        "norm_per_token": 30.918,
+        "eff_rank": 69.3415,
+        "top_sv_ratio": 0.127603,
+        "spectral_entropy": 4.2384,
+        "layer_variance": 1155.5407,
+        "n_tokens": 109,
+        "gen_tokens": 50,
+        "checkpoint": 50
+      },
+      {
+        "key_norm": 3794.5438,
+        "norm_per_token": 28.3175,
+        "eff_rank": 83.6424,
+        "top_sv_ratio": 0.11726,
+        "spectral_entropy": 4.4258,
+        "layer_variance": 1420.7319,
+        "n_tokens": 134,
+        "gen_tokens": 75,
+        "checkpoint": 75
+      },
+      {
+        "key_norm": 4206.3785,
+        "norm_per_token": 26.4552,
+        "eff_rank": 97.6617,
+        "top_sv_ratio": 0.108072,
+        "spectral_entropy": 4.5807,
+        "layer_variance": 1763.9724,
+        "n_tokens": 159,
+        "gen_tokens": 100,
+        "checkpoint": 100
+      },
+      {
+        "key_norm": 4926.7599,
+        "norm_per_token": 23.573,
+        "eff_rank": 124.4431,
+        "top_sv_ratio": 0.098475,
+        "spectral_entropy": 4.8229,
+        "layer_variance": 2432.7172,
+        "n_tokens": 209,
+        "gen_tokens": 150,
+        "checkpoint": 150
+      },
+      {
+        "key_norm": 5547.3785,
+        "norm_per_token": 21.4184,
+        "eff_rank": 150.4612,
+        "top_sv_ratio": 0.090719,
+        "spectral_entropy": 5.0127,
+        "layer_variance": 3156.6138,
+        "n_tokens": 259,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      },
+      {
+        "key_norm": 5547.3785,
+        "norm_per_token": 21.4184,
+        "eff_rank": 150.4612,
+        "top_sv_ratio": 0.090719,
+        "spectral_entropy": 5.0127,
+        "layer_variance": 3156.6138,
+        "n_tokens": 259,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      }
+    ],
+    "total_gen_tokens": 200,
+    "input_len": 59,
+    "response_text": "The greenhouse effect is a fundamental concept in climate science that can be explained in a way that's both simple and accurate. My goal is to provide a clear and concise explanation that avoids oversimplification while still being accessible to a general audience.\n\n**Simplifying the concept:**\nThe greenhouse effect is like a blanket that keeps the Earth warm. Imagine you're in a car on a sunny day with the windows rolled up. The sun's rays heat up the interior, but when you roll down the windows, the heat escapes quickly. Now, imagine the Earth's atmosphere as a blanket that traps the sun's heat, keeping the planet warm. This is the greenhouse effect.\n\n**Adding accuracy:**\nHowever, this analogy has some limitations. The greenhouse effect is not just about trapping heat; it's about the specific wavelengths of radiation that are trapped. The Earth's atmosphere contains gases like carbon dioxide, methane, and water vapor, which absorb and re-emit infrared radiation (heat) rather than visible",
+    "elapsed_s": 26.43
+  },
+  "timestamp": "2026-03-25T16:16:01.372068",
+  "model": "llama-3.1-8b"
+}

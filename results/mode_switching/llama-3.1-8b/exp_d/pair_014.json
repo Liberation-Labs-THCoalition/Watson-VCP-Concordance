@@ -1,0 +1,218 @@
+{
+  "pair_id": 14,
+  "content": "How does natural selection drive evolution?",
+  "cognitive": {
+    "prompt": "How does natural selection drive evolution?",
+    "encode_features": {
+      "key_norm": 1944.4346,
+      "norm_per_token": 45.2194,
+      "eff_rank": 29.7039,
+      "top_sv_ratio": 0.176094,
+      "spectral_entropy": 3.3905,
+      "layer_variance": 542.6791,
+      "n_tokens": 43
+    },
+    "trajectory": [
+      {
+        "key_norm": 2191.5719,
+        "norm_per_token": 41.3504,
+        "eff_rank": 35.3707,
+        "top_sv_ratio": 0.161955,
+        "spectral_entropy": 3.5652,
+        "layer_variance": 595.3138,
+        "n_tokens": 53,
+        "gen_tokens": 10,
+        "checkpoint": 10
+      },
+      {
+        "key_norm": 2556.3426,
+        "norm_per_token": 37.5933,
+        "eff_rank": 44.706,
+        "top_sv_ratio": 0.148207,
+        "spectral_entropy": 3.7995,
+        "layer_variance": 743.0143,
+        "n_tokens": 68,
+        "gen_tokens": 25,
+        "checkpoint": 25
+      },
+      {
+        "key_norm": 3086.3859,
+        "norm_per_token": 33.1869,
+        "eff_rank": 59.7603,
+        "top_sv_ratio": 0.132204,
+        "spectral_entropy": 4.0897,
+        "layer_variance": 1043.1632,
+        "n_tokens": 93,
+        "gen_tokens": 50,
+        "checkpoint": 50
+      },
+      {
+        "key_norm": 3524.3493,
+        "norm_per_token": 29.8674,
+        "eff_rank": 74.2211,
+        "top_sv_ratio": 0.121522,
+        "spectral_entropy": 4.3064,
+        "layer_variance": 1285.8203,
+        "n_tokens": 118,
+        "gen_tokens": 75,
+        "checkpoint": 75
+      },
+      {
+        "key_norm": 3940.7619,
+        "norm_per_token": 27.5578,
+        "eff_rank": 88.3032,
+        "top_sv_ratio": 0.11284,
+        "spectral_entropy": 4.48,
+        "layer_variance": 1581.7921,
+        "n_tokens": 143,
+        "gen_tokens": 100,
+        "checkpoint": 100
+      },
+      {
+        "key_norm": 4674.6806,
+        "norm_per_token": 24.2211,
+        "eff_rank": 115.7269,
+        "top_sv_ratio": 0.1006,
+        "spectral_entropy": 4.7504,
+        "layer_variance": 2290.5677,
+        "n_tokens": 193,
+        "gen_tokens": 150,
+        "checkpoint": 150
+      },
+      {
+        "key_norm": 5328.6809,
+        "norm_per_token": 21.9287,
+        "eff_rank": 141.9634,
+        "top_sv_ratio": 0.092875,
+        "spectral_entropy": 4.9546,
+        "layer_variance": 3041.6259,
+        "n_tokens": 243,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      },
+      {
+        "key_norm": 5328.6809,
+        "norm_per_token": 21.9287,
+        "eff_rank": 141.9634,
+        "top_sv_ratio": 0.092875,
+        "spectral_entropy": 4.9546,
+        "layer_variance": 3041.6259,
+        "n_tokens": 243,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      }
+    ],
+    "total_gen_tokens": 200,
+    "input_len": 43,
+    "response_text": "Natural selection is a fundamental mechanism of evolution that drives the process of adaptation and diversification of species over time. It is a key component of Charles Darwin's theory of evolution through natural selection, which was first proposed in his book \"On the Origin of Species\" in 1859.\n\n**The Process of Natural Selection:**\n\n1.  **Variation in a Population:** All individuals in a population exhibit genetic variation, which is the raw material for evolution. This variation can be in the form of differences in physical characteristics, such as height, color, or shape, or in behavioral traits, such as aggression or mating habits.\n2.  **Heritability:** The variation in a population is heritable, meaning that it is passed down from parents to offspring through the transmission of genetic information.\n3.  **Differential Reproduction:** The environment presents challenges and opportunities that affect the ability of individuals to survive and reproduce. Those individuals with traits that are better suited to their environment are more likely",
+    "elapsed_s": 26.06
+  },
+  "metacognitive": {
+    "prompt": "How does natural selection drive evolution? Walk through your reasoning process, noting where you're drawing on different types of knowledge.",
+    "encode_features": {
+      "key_norm": 2363.2707,
+      "norm_per_token": 39.3878,
+      "eff_rank": 40.8292,
+      "top_sv_ratio": 0.154587,
+      "spectral_entropy": 3.7088,
+      "layer_variance": 701.0415,
+      "n_tokens": 60
+    },
+    "trajectory": [
+      {
+        "key_norm": 2567.2861,
+        "norm_per_token": 36.6755,
+        "eff_rank": 46.3065,
+        "top_sv_ratio": 0.14677,
+        "spectral_entropy": 3.8347,
+        "layer_variance": 761.7016,
+        "n_tokens": 70,
+        "gen_tokens": 10,
+        "checkpoint": 10
+      },
+      {
+        "key_norm": 2915.5979,
+        "norm_per_token": 34.3012,
+        "eff_rank": 55.2374,
+        "top_sv_ratio": 0.138935,
+        "spectral_entropy": 4.011,
+        "layer_variance": 893.5603,
+        "n_tokens": 85,
+        "gen_tokens": 25,
+        "checkpoint": 25
+      },
+      {
+        "key_norm": 3365.704,
+        "norm_per_token": 30.5973,
+        "eff_rank": 70.1367,
+        "top_sv_ratio": 0.126161,
+        "spectral_entropy": 4.2498,
+        "layer_variance": 1121.3042,
+        "n_tokens": 110,
+        "gen_tokens": 50,
+        "checkpoint": 50
+      },
+      {
+        "key_norm": 3795.8719,
+        "norm_per_token": 28.1176,
+        "eff_rank": 84.4973,
+        "top_sv_ratio": 0.115724,
+        "spectral_entropy": 4.436,
+        "layer_variance": 1392.9583,
+        "n_tokens": 135,
+        "gen_tokens": 75,
+        "checkpoint": 75
+      },
+      {
+        "key_norm": 4178.1965,
+        "norm_per_token": 26.1137,
+        "eff_rank": 98.71,
+        "top_sv_ratio": 0.107183,
+        "spectral_entropy": 4.5914,
+        "layer_variance": 1701.9431,
+        "n_tokens": 160,
+        "gen_tokens": 100,
+        "checkpoint": 100
+      },
+      {
+        "key_norm": 4900.0392,
+        "norm_per_token": 23.3335,
+        "eff_rank": 125.5564,
+        "top_sv_ratio": 0.098142,
+        "spectral_entropy": 4.8319,
+        "layer_variance": 2385.8503,
+        "n_tokens": 210,
+        "gen_tokens": 150,
+        "checkpoint": 150
+      },
+      {
+        "key_norm": 5554.9862,
+        "norm_per_token": 21.3653,
+        "eff_rank": 150.326,
+        "top_sv_ratio": 0.092037,
+        "spectral_entropy": 5.0119,
+        "layer_variance": 3114.6165,
+        "n_tokens": 260,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      },
+      {
+        "key_norm": 5554.9862,
+        "norm_per_token": 21.3653,
+        "eff_rank": 150.326,
+        "top_sv_ratio": 0.092037,
+        "spectral_entropy": 5.0119,
+        "layer_variance": 3114.6165,
+        "n_tokens": 260,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      }
+    ],
+    "total_gen_tokens": 200,
+    "input_len": 60,
+    "response_text": "To understand how natural selection drives evolution, I'll break down the process into several key components and explain each step, drawing on various types of knowledge, including biology, ecology, genetics, and evolutionary theory.\n\n**Step 1: Variation in a Population**\n\nNatural selection relies on the presence of genetic variation within a population. This variation can arise from genetic mutations, gene flow (the movement of individuals with different genes into a population), or genetic recombination during reproduction. I'm drawing on knowledge from genetics and evolutionary theory to understand the sources of variation.\n\n**Step 2: Heritability of Traits**\n\nFor natural selection to act on variation, the traits must be heritable, meaning they are influenced by genetics. Heritability is a measure of the degree to which a trait is influenced by genetics, rather than environmental factors. I'm drawing on knowledge from genetics and evolutionary theory to understand the relationship between genes and traits.\n\n**Step 3: Differential Reproduction**\n\nNatural selection acts on the variation",
+    "elapsed_s": 26.35
+  },
+  "timestamp": "2026-03-25T16:15:08.382061",
+  "model": "llama-3.1-8b"
+}

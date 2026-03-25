@@ -1,0 +1,218 @@
+{
+  "pair_id": 7,
+  "content": "Explain the concept of supply and demand in economics.",
+  "cognitive": {
+    "prompt": "Explain the concept of supply and demand in economics.",
+    "encode_features": {
+      "key_norm": 2043.1218,
+      "norm_per_token": 43.4707,
+      "eff_rank": 32.1653,
+      "top_sv_ratio": 0.171697,
+      "spectral_entropy": 3.4701,
+      "layer_variance": 579.8159,
+      "n_tokens": 47
+    },
+    "trajectory": [
+      {
+        "key_norm": 2280.5434,
+        "norm_per_token": 40.0095,
+        "eff_rank": 37.5034,
+        "top_sv_ratio": 0.160891,
+        "spectral_entropy": 3.6238,
+        "layer_variance": 660.9548,
+        "n_tokens": 57,
+        "gen_tokens": 10,
+        "checkpoint": 10
+      },
+      {
+        "key_norm": 2623.847,
+        "norm_per_token": 36.4423,
+        "eff_rank": 46.8615,
+        "top_sv_ratio": 0.146434,
+        "spectral_entropy": 3.8465,
+        "layer_variance": 816.8936,
+        "n_tokens": 72,
+        "gen_tokens": 25,
+        "checkpoint": 25
+      },
+      {
+        "key_norm": 3149.1931,
+        "norm_per_token": 32.4659,
+        "eff_rank": 61.1223,
+        "top_sv_ratio": 0.133554,
+        "spectral_entropy": 4.1122,
+        "layer_variance": 1114.9843,
+        "n_tokens": 97,
+        "gen_tokens": 50,
+        "checkpoint": 50
+      },
+      {
+        "key_norm": 3603.0683,
+        "norm_per_token": 29.5333,
+        "eff_rank": 75.6238,
+        "top_sv_ratio": 0.122343,
+        "spectral_entropy": 4.325,
+        "layer_variance": 1436.1316,
+        "n_tokens": 122,
+        "gen_tokens": 75,
+        "checkpoint": 75
+      },
+      {
+        "key_norm": 4027.3103,
+        "norm_per_token": 27.3967,
+        "eff_rank": 88.9945,
+        "top_sv_ratio": 0.115398,
+        "spectral_entropy": 4.4877,
+        "layer_variance": 1737.8849,
+        "n_tokens": 147,
+        "gen_tokens": 100,
+        "checkpoint": 100
+      },
+      {
+        "key_norm": 4769.0401,
+        "norm_per_token": 24.2083,
+        "eff_rank": 115.287,
+        "top_sv_ratio": 0.104842,
+        "spectral_entropy": 4.7465,
+        "layer_variance": 2372.8842,
+        "n_tokens": 197,
+        "gen_tokens": 150,
+        "checkpoint": 150
+      },
+      {
+        "key_norm": 5475.3313,
+        "norm_per_token": 22.1673,
+        "eff_rank": 138.3675,
+        "top_sv_ratio": 0.098696,
+        "spectral_entropy": 4.9289,
+        "layer_variance": 3255.8209,
+        "n_tokens": 247,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      },
+      {
+        "key_norm": 5475.3313,
+        "norm_per_token": 22.1673,
+        "eff_rank": 138.3675,
+        "top_sv_ratio": 0.098696,
+        "spectral_entropy": 4.9289,
+        "layer_variance": 3255.8209,
+        "n_tokens": 247,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      }
+    ],
+    "total_gen_tokens": 200,
+    "input_len": 47,
+    "response_text": "The concept of supply and demand is a fundamental principle in economics that explains how the prices of goods and services are determined in a market economy. It is based on the idea that the price of a product is determined by the interaction between the quantity of the product that producers are willing to sell (supply) and the quantity that consumers are willing to buy (demand).\n\n**Supply:**\n\nSupply refers to the quantity of a good or service that producers are willing and able to produce and sell at a given price level. It is typically represented by a supply curve, which shows the relationship between the price of a product and the quantity supplied. The supply curve slopes upward, indicating that as the price of a product increases, the quantity supplied also increases.\n\n**Demand:**\n\nDemand refers to the quantity of a good or service that consumers are willing and able to buy at a given price level. It is typically represented by a demand curve, which shows the relationship between the price of a product and the quantity demanded.",
+    "elapsed_s": 26.09
+  },
+  "metacognitive": {
+    "prompt": "Explain the concept of supply and demand in economics. As you explain, reflect on which parts you find easiest and hardest to articulate.",
+    "encode_features": {
+      "key_norm": 2435.711,
+      "norm_per_token": 38.6621,
+      "eff_rank": 42.3879,
+      "top_sv_ratio": 0.154651,
+      "spectral_entropy": 3.7462,
+      "layer_variance": 733.6694,
+      "n_tokens": 63
+    },
+    "trajectory": [
+      {
+        "key_norm": 2637.3435,
+        "norm_per_token": 36.128,
+        "eff_rank": 47.6947,
+        "top_sv_ratio": 0.146669,
+        "spectral_entropy": 3.8642,
+        "layer_variance": 818.9878,
+        "n_tokens": 73,
+        "gen_tokens": 10,
+        "checkpoint": 10
+      },
+      {
+        "key_norm": 2938.8692,
+        "norm_per_token": 33.3962,
+        "eff_rank": 56.8911,
+        "top_sv_ratio": 0.13553,
+        "spectral_entropy": 4.0404,
+        "layer_variance": 965.8009,
+        "n_tokens": 88,
+        "gen_tokens": 25,
+        "checkpoint": 25
+      },
+      {
+        "key_norm": 3430.6246,
+        "norm_per_token": 30.3595,
+        "eff_rank": 71.3623,
+        "top_sv_ratio": 0.125675,
+        "spectral_entropy": 4.2671,
+        "layer_variance": 1213.4809,
+        "n_tokens": 113,
+        "gen_tokens": 50,
+        "checkpoint": 50
+      },
+      {
+        "key_norm": 3848.0097,
+        "norm_per_token": 27.8841,
+        "eff_rank": 85.5059,
+        "top_sv_ratio": 0.115477,
+        "spectral_entropy": 4.4478,
+        "layer_variance": 1508.403,
+        "n_tokens": 138,
+        "gen_tokens": 75,
+        "checkpoint": 75
+      },
+      {
+        "key_norm": 4234.7393,
+        "norm_per_token": 25.98,
+        "eff_rank": 99.2185,
+        "top_sv_ratio": 0.108371,
+        "spectral_entropy": 4.5965,
+        "layer_variance": 1870.2036,
+        "n_tokens": 163,
+        "gen_tokens": 100,
+        "checkpoint": 100
+      },
+      {
+        "key_norm": 4946.4506,
+        "norm_per_token": 23.2228,
+        "eff_rank": 124.9373,
+        "top_sv_ratio": 0.099511,
+        "spectral_entropy": 4.8269,
+        "layer_variance": 2548.4727,
+        "n_tokens": 213,
+        "gen_tokens": 150,
+        "checkpoint": 150
+      },
+      {
+        "key_norm": 5589.0785,
+        "norm_per_token": 21.2512,
+        "eff_rank": 149.8001,
+        "top_sv_ratio": 0.092501,
+        "spectral_entropy": 5.0082,
+        "layer_variance": 3257.6104,
+        "n_tokens": 263,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      },
+      {
+        "key_norm": 5589.0785,
+        "norm_per_token": 21.2512,
+        "eff_rank": 149.8001,
+        "top_sv_ratio": 0.092501,
+        "spectral_entropy": 5.0082,
+        "layer_variance": 3257.6104,
+        "n_tokens": 263,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      }
+    ],
+    "total_gen_tokens": 200,
+    "input_len": 63,
+    "response_text": "The concept of supply and demand is a fundamental principle in economics that explains how prices are determined in a market economy. It's a concept that I find relatively easy to articulate, as it's a straightforward and intuitive idea.\n\n**What is Supply and Demand?**\n\nSupply and demand is the relationship between the quantity of a product or service that producers are willing and able to produce (supply) and the quantity that consumers are willing and able to buy (demand). The price of a product or service is determined by the intersection of these two forces.\n\n**Supply:**\n\nThe supply of a product or service is the quantity that producers are willing and able to produce and sell at a given price level. It's determined by the production costs, technology, and the expectations of producers. When the price of a product increases, producers are incentivized to produce more, as they can earn higher profits. Conversely, when the price decreases, producers may reduce production.\n\n**Demand:**\n\nThe demand for a product or service",
+    "elapsed_s": 26.36
+  },
+  "timestamp": "2026-03-25T16:08:57.929690",
+  "model": "llama-3.1-8b"
+}

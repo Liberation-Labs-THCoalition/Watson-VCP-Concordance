@@ -1,0 +1,218 @@
+{
+  "pair_id": 18,
+  "content": "What is the role of DNA in heredity?",
+  "cognitive": {
+    "prompt": "What is the role of DNA in heredity?",
+    "encode_features": {
+      "key_norm": 7201.759,
+      "norm_per_token": 180.044,
+      "eff_rank": 23.7578,
+      "top_sv_ratio": 0.272545,
+      "spectral_entropy": 3.0365,
+      "layer_variance": 1464823.9293,
+      "n_tokens": 40
+    },
+    "trajectory": [
+      {
+        "key_norm": 7971.8422,
+        "norm_per_token": 159.4368,
+        "eff_rank": 28.7417,
+        "top_sv_ratio": 0.252237,
+        "spectral_entropy": 3.2217,
+        "layer_variance": 1793433.9367,
+        "n_tokens": 50,
+        "gen_tokens": 10,
+        "checkpoint": 10
+      },
+      {
+        "key_norm": 9112.8855,
+        "norm_per_token": 140.1982,
+        "eff_rank": 36.402,
+        "top_sv_ratio": 0.235337,
+        "spectral_entropy": 3.4504,
+        "layer_variance": 2340966.9894,
+        "n_tokens": 65,
+        "gen_tokens": 25,
+        "checkpoint": 25
+      },
+      {
+        "key_norm": 10748.532,
+        "norm_per_token": 119.4281,
+        "eff_rank": 49.5202,
+        "top_sv_ratio": 0.213468,
+        "spectral_entropy": 3.7491,
+        "layer_variance": 3252047.8849,
+        "n_tokens": 90,
+        "gen_tokens": 50,
+        "checkpoint": 50
+      },
+      {
+        "key_norm": 12167.9594,
+        "norm_per_token": 105.8083,
+        "eff_rank": 61.6427,
+        "top_sv_ratio": 0.201018,
+        "spectral_entropy": 3.9628,
+        "layer_variance": 4161015.0781,
+        "n_tokens": 115,
+        "gen_tokens": 75,
+        "checkpoint": 75
+      },
+      {
+        "key_norm": 13437.7426,
+        "norm_per_token": 95.9839,
+        "eff_rank": 73.4448,
+        "top_sv_ratio": 0.189844,
+        "spectral_entropy": 4.134,
+        "layer_variance": 5069696.4172,
+        "n_tokens": 140,
+        "gen_tokens": 100,
+        "checkpoint": 100
+      },
+      {
+        "key_norm": 15674.0794,
+        "norm_per_token": 82.4952,
+        "eff_rank": 95.1612,
+        "top_sv_ratio": 0.176033,
+        "spectral_entropy": 4.3876,
+        "layer_variance": 6884461.006,
+        "n_tokens": 190,
+        "gen_tokens": 150,
+        "checkpoint": 150
+      },
+      {
+        "key_norm": 17629.3763,
+        "norm_per_token": 73.4557,
+        "eff_rank": 115.029,
+        "top_sv_ratio": 0.167126,
+        "spectral_entropy": 4.5737,
+        "layer_variance": 8697747.3826,
+        "n_tokens": 240,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      },
+      {
+        "key_norm": 17629.3763,
+        "norm_per_token": 73.4557,
+        "eff_rank": 115.029,
+        "top_sv_ratio": 0.167126,
+        "spectral_entropy": 4.5737,
+        "layer_variance": 8697747.3826,
+        "n_tokens": 240,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      }
+    ],
+    "total_gen_tokens": 200,
+    "input_len": 40,
+    "response_text": "DNA, or deoxyribonucleic acid, plays a crucial role in heredity as it contains the genetic instructions used in the development and functioning of all known living organisms. Here’s how DNA contributes to heredity:\n\n1. **Genetic Information Storage**: DNA acts as a blueprint for an organism, storing the genetic information necessary for its development, function, and reproduction. This information is encoded in the sequence of nucleotide bases (adenine, thymine, cytosine, and guanine).\n\n2. **Transmission of Traits**: When parents pass on their genes to offspring, they are also passing on specific traits that can be inherited. These traits can include physical characteristics like eye color, height, and susceptibility to certain diseases.\n\n3. **Replication**: During cell division, DNA replicates itself, ensuring that each new cell receives a complete set of genetic instructions. This process is essential for growth, development, and the maintenance of cellular functions.\n\n4. **Gene Expression",
+    "elapsed_s": 23.78
+  },
+  "metacognitive": {
+    "prompt": "What is the role of DNA in heredity? As you explain, monitor which aspects of this topic you find clearest and which require more careful thought.",
+    "encode_features": {
+      "key_norm": 8897.4835,
+      "norm_per_token": 145.8604,
+      "eff_rank": 35.9871,
+      "top_sv_ratio": 0.23549,
+      "spectral_entropy": 3.4376,
+      "layer_variance": 2229912.3484,
+      "n_tokens": 61
+    },
+    "trajectory": [
+      {
+        "key_norm": 9532.2675,
+        "norm_per_token": 134.2573,
+        "eff_rank": 40.4962,
+        "top_sv_ratio": 0.226146,
+        "spectral_entropy": 3.5524,
+        "layer_variance": 2558200.6357,
+        "n_tokens": 71,
+        "gen_tokens": 10,
+        "checkpoint": 10
+      },
+      {
+        "key_norm": 10504.7828,
+        "norm_per_token": 122.1486,
+        "eff_rank": 48.2827,
+        "top_sv_ratio": 0.21334,
+        "spectral_entropy": 3.723,
+        "layer_variance": 3105925.4682,
+        "n_tokens": 86,
+        "gen_tokens": 25,
+        "checkpoint": 25
+      },
+      {
+        "key_norm": 11951.1477,
+        "norm_per_token": 107.668,
+        "eff_rank": 60.6437,
+        "top_sv_ratio": 0.200007,
+        "spectral_entropy": 3.9448,
+        "layer_variance": 4016601.7459,
+        "n_tokens": 111,
+        "gen_tokens": 50,
+        "checkpoint": 50
+      },
+      {
+        "key_norm": 13242.7982,
+        "norm_per_token": 97.3735,
+        "eff_rank": 72.2545,
+        "top_sv_ratio": 0.189857,
+        "spectral_entropy": 4.1156,
+        "layer_variance": 4924214.9006,
+        "n_tokens": 136,
+        "gen_tokens": 75,
+        "checkpoint": 75
+      },
+      {
+        "key_norm": 14420.4339,
+        "norm_per_token": 89.5679,
+        "eff_rank": 83.4658,
+        "top_sv_ratio": 0.182959,
+        "spectral_entropy": 4.2567,
+        "layer_variance": 5830552.6042,
+        "n_tokens": 161,
+        "gen_tokens": 100,
+        "checkpoint": 100
+      },
+      {
+        "key_norm": 16524.9251,
+        "norm_per_token": 78.3172,
+        "eff_rank": 104.8251,
+        "top_sv_ratio": 0.1707,
+        "spectral_entropy": 4.481,
+        "layer_variance": 7643313.0127,
+        "n_tokens": 211,
+        "gen_tokens": 150,
+        "checkpoint": 150
+      },
+      {
+        "key_norm": 18391.1412,
+        "norm_per_token": 70.4641,
+        "eff_rank": 124.0479,
+        "top_sv_ratio": 0.163546,
+        "spectral_entropy": 4.6461,
+        "layer_variance": 9455419.0417,
+        "n_tokens": 261,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      },
+      {
+        "key_norm": 18391.1412,
+        "norm_per_token": 70.4641,
+        "eff_rank": 124.0479,
+        "top_sv_ratio": 0.163546,
+        "spectral_entropy": 4.6461,
+        "layer_variance": 9455419.0417,
+        "n_tokens": 261,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      }
+    ],
+    "total_gen_tokens": 200,
+    "input_len": 61,
+    "response_text": "DNA plays a crucial role in heredity as it contains the genetic information that is passed from parents to offspring. This genetic information determines various traits and characteristics of an organism. Here’s a breakdown of its key roles:\n\n1. **Storage of Genetic Information**: DNA acts as a blueprint for life, storing the instructions necessary for the development, functioning, growth, and reproduction of all known living organisms.\n\n2. **Transmission of Traits**: The genetic information stored in DNA is responsible for transmitting traits from parents to their offspring. These traits can be physical (like eye color or height) or behavioral (such as certain tendencies or predispositions).\n\n3. **Replication**: During cell division, DNA replicates itself, ensuring that each new cell receives a complete set of genetic instructions. This process is essential for the continuity of life and the maintenance of genetic stability across generations.\n\n4. **Expression of Genes**: While DNA contains the genetic code, it does not directly control traits. Instead, genes within the",
+    "elapsed_s": 24.06
+  },
+  "timestamp": "2026-03-25T16:01:40.124599",
+  "model": "qwen2.5-7b"
+}

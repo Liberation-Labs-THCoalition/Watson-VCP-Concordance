@@ -1,0 +1,218 @@
+{
+  "pair_id": 18,
+  "content": "What is the role of DNA in heredity?",
+  "cognitive": {
+    "prompt": "What is the role of DNA in heredity?",
+    "encode_features": {
+      "key_norm": 2048.0545,
+      "norm_per_token": 43.5756,
+      "eff_rank": 32.2627,
+      "top_sv_ratio": 0.170214,
+      "spectral_entropy": 3.4732,
+      "layer_variance": 567.2148,
+      "n_tokens": 47
+    },
+    "trajectory": [
+      {
+        "key_norm": 2278.0522,
+        "norm_per_token": 39.9658,
+        "eff_rank": 37.9628,
+        "top_sv_ratio": 0.155434,
+        "spectral_entropy": 3.636,
+        "layer_variance": 624.223,
+        "n_tokens": 57,
+        "gen_tokens": 10,
+        "checkpoint": 10
+      },
+      {
+        "key_norm": 2628.867,
+        "norm_per_token": 36.512,
+        "eff_rank": 46.9284,
+        "top_sv_ratio": 0.144101,
+        "spectral_entropy": 3.8481,
+        "layer_variance": 760.064,
+        "n_tokens": 72,
+        "gen_tokens": 25,
+        "checkpoint": 25
+      },
+      {
+        "key_norm": 3133.799,
+        "norm_per_token": 32.3072,
+        "eff_rank": 62.268,
+        "top_sv_ratio": 0.128487,
+        "spectral_entropy": 4.1308,
+        "layer_variance": 1043.1859,
+        "n_tokens": 97,
+        "gen_tokens": 50,
+        "checkpoint": 50
+      },
+      {
+        "key_norm": 3572.8374,
+        "norm_per_token": 29.2856,
+        "eff_rank": 77.0929,
+        "top_sv_ratio": 0.11883,
+        "spectral_entropy": 4.3443,
+        "layer_variance": 1313.562,
+        "n_tokens": 122,
+        "gen_tokens": 75,
+        "checkpoint": 75
+      },
+      {
+        "key_norm": 3987.3857,
+        "norm_per_token": 27.1251,
+        "eff_rank": 90.8036,
+        "top_sv_ratio": 0.112761,
+        "spectral_entropy": 4.5079,
+        "layer_variance": 1593.2099,
+        "n_tokens": 147,
+        "gen_tokens": 100,
+        "checkpoint": 100
+      },
+      {
+        "key_norm": 4705.4227,
+        "norm_per_token": 23.8854,
+        "eff_rank": 117.5717,
+        "top_sv_ratio": 0.101561,
+        "spectral_entropy": 4.7662,
+        "layer_variance": 2244.9484,
+        "n_tokens": 197,
+        "gen_tokens": 150,
+        "checkpoint": 150
+      },
+      {
+        "key_norm": 5382.3742,
+        "norm_per_token": 21.791,
+        "eff_rank": 141.8071,
+        "top_sv_ratio": 0.095315,
+        "spectral_entropy": 4.9536,
+        "layer_variance": 2994.0981,
+        "n_tokens": 247,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      },
+      {
+        "key_norm": 5382.3742,
+        "norm_per_token": 21.791,
+        "eff_rank": 141.8071,
+        "top_sv_ratio": 0.095315,
+        "spectral_entropy": 4.9536,
+        "layer_variance": 2994.0981,
+        "n_tokens": 247,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      }
+    ],
+    "total_gen_tokens": 200,
+    "input_len": 47,
+    "response_text": "DNA (Deoxyribonucleic acid) plays a crucial role in heredity, which is the passing of traits from parents to their offspring. DNA is a molecule that contains the genetic instructions used in the development and function of all living organisms. It is often referred to as the \"blueprint\" or \"genetic code\" of an organism.\n\nThe role of DNA in heredity can be summarized as follows:\n\n1.  **Storage of Genetic Information**: DNA stores the genetic information that determines the characteristics of an organism, such as eye color, hair color, height, skin color, and other traits.\n2.  **Transmission of Traits**: DNA is passed from one generation to the next through the process of reproduction. During reproduction, DNA is replicated and transmitted from parents to their offspring, ensuring that the genetic traits are inherited.\n3.  **Expression of Traits**: DNA contains the instructions for the development and function of an organism. The genetic information in DNA is used to create",
+    "elapsed_s": 26.14
+  },
+  "metacognitive": {
+    "prompt": "What is the role of DNA in heredity? As you explain, monitor which aspects of this topic you find clearest and which require more careful thought.",
+    "encode_features": {
+      "key_norm": 2542.8793,
+      "norm_per_token": 37.3953,
+      "eff_rank": 46.0657,
+      "top_sv_ratio": 0.147505,
+      "spectral_entropy": 3.8295,
+      "layer_variance": 768.7718,
+      "n_tokens": 68
+    },
+    "trajectory": [
+      {
+        "key_norm": 2738.9159,
+        "norm_per_token": 35.1143,
+        "eff_rank": 51.3682,
+        "top_sv_ratio": 0.140967,
+        "spectral_entropy": 3.9384,
+        "layer_variance": 847.7034,
+        "n_tokens": 78,
+        "gen_tokens": 10,
+        "checkpoint": 10
+      },
+      {
+        "key_norm": 3036.4483,
+        "norm_per_token": 32.65,
+        "eff_rank": 60.6882,
+        "top_sv_ratio": 0.131807,
+        "spectral_entropy": 4.1051,
+        "layer_variance": 977.3477,
+        "n_tokens": 93,
+        "gen_tokens": 25,
+        "checkpoint": 25
+      },
+      {
+        "key_norm": 3498.5468,
+        "norm_per_token": 29.6487,
+        "eff_rank": 75.281,
+        "top_sv_ratio": 0.12009,
+        "spectral_entropy": 4.3206,
+        "layer_variance": 1198.8506,
+        "n_tokens": 118,
+        "gen_tokens": 50,
+        "checkpoint": 50
+      },
+      {
+        "key_norm": 3900.2447,
+        "norm_per_token": 27.2744,
+        "eff_rank": 89.7117,
+        "top_sv_ratio": 0.110721,
+        "spectral_entropy": 4.4959,
+        "layer_variance": 1496.3609,
+        "n_tokens": 143,
+        "gen_tokens": 75,
+        "checkpoint": 75
+      },
+      {
+        "key_norm": 4280.3175,
+        "norm_per_token": 25.4781,
+        "eff_rank": 103.6337,
+        "top_sv_ratio": 0.104732,
+        "spectral_entropy": 4.6401,
+        "layer_variance": 1774.934,
+        "n_tokens": 168,
+        "gen_tokens": 100,
+        "checkpoint": 100
+      },
+      {
+        "key_norm": 4976.2442,
+        "norm_per_token": 22.8268,
+        "eff_rank": 130.0334,
+        "top_sv_ratio": 0.095153,
+        "spectral_entropy": 4.8669,
+        "layer_variance": 2541.0208,
+        "n_tokens": 218,
+        "gen_tokens": 150,
+        "checkpoint": 150
+      },
+      {
+        "key_norm": 5574.5533,
+        "norm_per_token": 20.8006,
+        "eff_rank": 155.8873,
+        "top_sv_ratio": 0.088274,
+        "spectral_entropy": 5.0481,
+        "layer_variance": 3204.43,
+        "n_tokens": 268,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      },
+      {
+        "key_norm": 5574.5533,
+        "norm_per_token": 20.8006,
+        "eff_rank": 155.8873,
+        "top_sv_ratio": 0.088274,
+        "spectral_entropy": 5.0481,
+        "layer_variance": 3204.43,
+        "n_tokens": 268,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      }
+    ],
+    "total_gen_tokens": 200,
+    "input_len": 68,
+    "response_text": "The role of DNA in heredity is a fundamental concept in genetics and biology. I'll break it down into clear and not-so-clear aspects.\n\n**Clear aspects:**\n\n1. **DNA as a blueprint**: DNA (Deoxyribonucleic acid) is a molecule that contains the genetic instructions for the development and function of all living organisms. It's often referred to as the \"blueprint\" or \"instructions\" for life.\n2. **Genetic information storage**: DNA stores genetic information in the form of a sequence of four nucleotide bases: adenine (A), guanine (G), cytosine (C), and thymine (T). This sequence determines the genetic code, which is used to create proteins, the building blocks of life.\n3. **Inheritance of traits**: DNA is passed from one generation to the next through the transmission of genetic material from parents to offspring. This ensures that offspring inherit traits from their parents, such as eye color, hair",
+    "elapsed_s": 26.51
+  },
+  "timestamp": "2026-03-25T16:18:40.503632",
+  "model": "llama-3.1-8b"
+}

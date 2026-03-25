@@ -1,0 +1,218 @@
+{
+  "pair_id": 9,
+  "content": "Describe the water cycle.",
+  "cognitive": {
+    "prompt": "Describe the water cycle.",
+    "encode_features": {
+      "key_norm": 6638.4029,
+      "norm_per_token": 195.2471,
+      "eff_rank": 20.6296,
+      "top_sv_ratio": 0.28748,
+      "spectral_entropy": 2.8999,
+      "layer_variance": 1245178.5963,
+      "n_tokens": 34
+    },
+    "trajectory": [
+      {
+        "key_norm": 7466.8929,
+        "norm_per_token": 169.7021,
+        "eff_rank": 25.2993,
+        "top_sv_ratio": 0.265802,
+        "spectral_entropy": 3.0969,
+        "layer_variance": 1574109.8452,
+        "n_tokens": 44,
+        "gen_tokens": 10,
+        "checkpoint": 10
+      },
+      {
+        "key_norm": 8673.8447,
+        "norm_per_token": 147.0143,
+        "eff_rank": 33.2919,
+        "top_sv_ratio": 0.242357,
+        "spectral_entropy": 3.362,
+        "layer_variance": 2121773.8507,
+        "n_tokens": 59,
+        "gen_tokens": 25,
+        "checkpoint": 25
+      },
+      {
+        "key_norm": 10378.4942,
+        "norm_per_token": 123.5535,
+        "eff_rank": 46.3855,
+        "top_sv_ratio": 0.219336,
+        "spectral_entropy": 3.6829,
+        "layer_variance": 3033728.8722,
+        "n_tokens": 84,
+        "gen_tokens": 50,
+        "checkpoint": 50
+      },
+      {
+        "key_norm": 11842.8449,
+        "norm_per_token": 108.65,
+        "eff_rank": 58.464,
+        "top_sv_ratio": 0.204087,
+        "spectral_entropy": 3.9079,
+        "layer_variance": 3941594.7371,
+        "n_tokens": 109,
+        "gen_tokens": 75,
+        "checkpoint": 75
+      },
+      {
+        "key_norm": 13145.601,
+        "norm_per_token": 98.1015,
+        "eff_rank": 70.6246,
+        "top_sv_ratio": 0.192242,
+        "spectral_entropy": 4.0927,
+        "layer_variance": 4849078.4734,
+        "n_tokens": 134,
+        "gen_tokens": 100,
+        "checkpoint": 100
+      },
+      {
+        "key_norm": 15425.3278,
+        "norm_per_token": 83.8333,
+        "eff_rank": 92.7829,
+        "top_sv_ratio": 0.178439,
+        "spectral_entropy": 4.3611,
+        "layer_variance": 6660556.6261,
+        "n_tokens": 184,
+        "gen_tokens": 150,
+        "checkpoint": 150
+      },
+      {
+        "key_norm": 17411.6436,
+        "norm_per_token": 74.4087,
+        "eff_rank": 112.6967,
+        "top_sv_ratio": 0.169245,
+        "spectral_entropy": 4.5519,
+        "layer_variance": 8468609.9477,
+        "n_tokens": 234,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      },
+      {
+        "key_norm": 17411.6436,
+        "norm_per_token": 74.4087,
+        "eff_rank": 112.6967,
+        "top_sv_ratio": 0.169245,
+        "spectral_entropy": 4.5519,
+        "layer_variance": 8468609.9477,
+        "n_tokens": 234,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      }
+    ],
+    "total_gen_tokens": 200,
+    "input_len": 34,
+    "response_text": "The water cycle, also known as the hydrological cycle, is a continuous process by which water circulates between the Earth's oceans, atmosphere, and land. This cycle is driven by the sun's energy and involves several key steps:\n\n1. **Evaporation**: Water from the surface of oceans, rivers, lakes, and other bodies of water is heated by the sun and turns into vapor or steam. Plants also contribute to this process through transpiration, where they release water vapor from their leaves.\n\n2. **Condensation**: As water vapor rises and cools in the atmosphere, it condenses into tiny droplets, forming clouds. This process is facilitated by various atmospheric conditions such as temperature changes and air pressure.\n\n3. **Precipitation**: When these droplets combine and grow heavy, they fall back to the Earth as precipitation, which can be in the form of rain, snow, sleet, or hail, depending on the temperature.\n\n4. **Collection**: Precipitated water",
+    "elapsed_s": 23.73
+  },
+  "metacognitive": {
+    "prompt": "Describe the water cycle. As you describe it, reflect on how you're organizing this information and what choices you're making about emphasis.",
+    "encode_features": {
+      "key_norm": 8525.0553,
+      "norm_per_token": 152.2331,
+      "eff_rank": 32.8285,
+      "top_sv_ratio": 0.246738,
+      "spectral_entropy": 3.3479,
+      "layer_variance": 2047271.7993,
+      "n_tokens": 56
+    },
+    "trajectory": [
+      {
+        "key_norm": 9185.0206,
+        "norm_per_token": 139.167,
+        "eff_rank": 37.4154,
+        "top_sv_ratio": 0.23499,
+        "spectral_entropy": 3.4747,
+        "layer_variance": 2376430.3124,
+        "n_tokens": 66,
+        "gen_tokens": 10,
+        "checkpoint": 10
+      },
+      {
+        "key_norm": 10191.0988,
+        "norm_per_token": 125.816,
+        "eff_rank": 45.3281,
+        "top_sv_ratio": 0.218392,
+        "spectral_entropy": 3.6594,
+        "layer_variance": 2923436.4134,
+        "n_tokens": 81,
+        "gen_tokens": 25,
+        "checkpoint": 25
+      },
+      {
+        "key_norm": 11676.2992,
+        "norm_per_token": 110.1538,
+        "eff_rank": 57.6914,
+        "top_sv_ratio": 0.202832,
+        "spectral_entropy": 3.8952,
+        "layer_variance": 3834171.4493,
+        "n_tokens": 106,
+        "gen_tokens": 50,
+        "checkpoint": 50
+      },
+      {
+        "key_norm": 12995.899,
+        "norm_per_token": 99.2053,
+        "eff_rank": 69.1503,
+        "top_sv_ratio": 0.193697,
+        "spectral_entropy": 4.0724,
+        "layer_variance": 4741533.8956,
+        "n_tokens": 131,
+        "gen_tokens": 75,
+        "checkpoint": 75
+      },
+      {
+        "key_norm": 14193.1406,
+        "norm_per_token": 90.9817,
+        "eff_rank": 80.4561,
+        "top_sv_ratio": 0.184138,
+        "spectral_entropy": 4.2202,
+        "layer_variance": 5648300.43,
+        "n_tokens": 156,
+        "gen_tokens": 100,
+        "checkpoint": 100
+      },
+      {
+        "key_norm": 16325.9555,
+        "norm_per_token": 79.2522,
+        "eff_rank": 102.4099,
+        "top_sv_ratio": 0.171995,
+        "spectral_entropy": 4.4564,
+        "layer_variance": 7464621.2596,
+        "n_tokens": 206,
+        "gen_tokens": 150,
+        "checkpoint": 150
+      },
+      {
+        "key_norm": 18214.2049,
+        "norm_per_token": 71.1492,
+        "eff_rank": 121.5836,
+        "top_sv_ratio": 0.164571,
+        "spectral_entropy": 4.6249,
+        "layer_variance": 9272278.2422,
+        "n_tokens": 256,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      },
+      {
+        "key_norm": 18214.2049,
+        "norm_per_token": 71.1492,
+        "eff_rank": 121.5836,
+        "top_sv_ratio": 0.164571,
+        "spectral_entropy": 4.6249,
+        "layer_variance": 9272278.2422,
+        "n_tokens": 256,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      }
+    ],
+    "total_gen_tokens": 200,
+    "input_len": 56,
+    "response_text": "The water cycle is a continuous process that describes the movement of water on, above, and below the surface of the Earth. It involves several key steps: evaporation, condensation, precipitation, infiltration, and runoff. Let's break down each step and consider how I'm organizing this information.\n\n1. **Evaporation**: This is the first step in the water cycle where water changes from a liquid to a gas or vapor. Water evaporates from oceans, lakes, rivers, and other bodies of water, as well as from plants through transpiration. The sun provides the energy needed for this transformation. Emphasizing evaporation is crucial because it sets the stage for the entire cycle, providing the moisture that drives subsequent processes.\n\n2. **Condensation**: Once water vapor rises into the atmosphere, it cools and condenses into tiny droplets, forming clouds. This process is essential because it leads to the formation of clouds, which are critical for the next phase of the cycle. Condensation",
+    "elapsed_s": 23.94
+  },
+  "timestamp": "2026-03-25T15:54:26.770266",
+  "model": "qwen2.5-7b"
+}

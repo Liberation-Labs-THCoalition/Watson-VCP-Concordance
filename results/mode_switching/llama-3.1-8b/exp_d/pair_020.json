@@ -1,0 +1,218 @@
+{
+  "pair_id": 20,
+  "content": "What causes inflation in an economy?",
+  "cognitive": {
+    "prompt": "What causes inflation in an economy?",
+    "encode_features": {
+      "key_norm": 1941.1176,
+      "norm_per_token": 45.1423,
+      "eff_rank": 29.7326,
+      "top_sv_ratio": 0.176493,
+      "spectral_entropy": 3.3915,
+      "layer_variance": 534.9438,
+      "n_tokens": 43
+    },
+    "trajectory": [
+      {
+        "key_norm": 2188.8808,
+        "norm_per_token": 41.2996,
+        "eff_rank": 35.3626,
+        "top_sv_ratio": 0.163307,
+        "spectral_entropy": 3.565,
+        "layer_variance": 591.1374,
+        "n_tokens": 53,
+        "gen_tokens": 10,
+        "checkpoint": 10
+      },
+      {
+        "key_norm": 2557.6533,
+        "norm_per_token": 37.6125,
+        "eff_rank": 44.2179,
+        "top_sv_ratio": 0.152193,
+        "spectral_entropy": 3.7885,
+        "layer_variance": 722.2717,
+        "n_tokens": 68,
+        "gen_tokens": 25,
+        "checkpoint": 25
+      },
+      {
+        "key_norm": 3060.6484,
+        "norm_per_token": 32.9102,
+        "eff_rank": 60.1135,
+        "top_sv_ratio": 0.131345,
+        "spectral_entropy": 4.0956,
+        "layer_variance": 952.0022,
+        "n_tokens": 93,
+        "gen_tokens": 50,
+        "checkpoint": 50
+      },
+      {
+        "key_norm": 3533.4137,
+        "norm_per_token": 29.9442,
+        "eff_rank": 74.4297,
+        "top_sv_ratio": 0.120953,
+        "spectral_entropy": 4.3092,
+        "layer_variance": 1243.8642,
+        "n_tokens": 118,
+        "gen_tokens": 75,
+        "checkpoint": 75
+      },
+      {
+        "key_norm": 3937.7306,
+        "norm_per_token": 27.5366,
+        "eff_rank": 88.6024,
+        "top_sv_ratio": 0.112989,
+        "spectral_entropy": 4.4834,
+        "layer_variance": 1513.9779,
+        "n_tokens": 143,
+        "gen_tokens": 100,
+        "checkpoint": 100
+      },
+      {
+        "key_norm": 4681.571,
+        "norm_per_token": 24.2568,
+        "eff_rank": 115.8234,
+        "top_sv_ratio": 0.101808,
+        "spectral_entropy": 4.7512,
+        "layer_variance": 2107.9937,
+        "n_tokens": 193,
+        "gen_tokens": 150,
+        "checkpoint": 150
+      },
+      {
+        "key_norm": 5354.8618,
+        "norm_per_token": 22.0365,
+        "eff_rank": 140.673,
+        "top_sv_ratio": 0.095177,
+        "spectral_entropy": 4.9456,
+        "layer_variance": 2755.1891,
+        "n_tokens": 243,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      },
+      {
+        "key_norm": 5354.8618,
+        "norm_per_token": 22.0365,
+        "eff_rank": 140.673,
+        "top_sv_ratio": 0.095177,
+        "spectral_entropy": 4.9456,
+        "layer_variance": 2755.1891,
+        "n_tokens": 243,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      }
+    ],
+    "total_gen_tokens": 200,
+    "input_len": 43,
+    "response_text": "Inflation is a complex phenomenon that can be caused by a combination of factors. Here are some of the main causes of inflation:\n\n1.  **Demand-Pull Inflation**: When aggregate demand for goods and services exceeds the available supply, businesses raise their prices, leading to inflation. This can be caused by an increase in consumer spending, business investment, or government spending.\n2.  **Monetary Policy**: An increase in the money supply, often caused by a central bank printing more money, can lead to inflation. When there is more money chasing a constant quantity of goods and services, businesses can raise their prices.\n3.  **Supply-Side Shocks**: Disruptions to the supply chain, such as natural disasters, wars, or global events, can lead to shortages and price increases.\n4.  **Cost-Push Inflation**: An increase in production costs, such as higher wages or raw materials, can lead to higher prices.\n5.  **Expectations**: If consumers",
+    "elapsed_s": 26.09
+  },
+  "metacognitive": {
+    "prompt": "What causes inflation in an economy? As you explain, describe how confident you feel about each causal mechanism you identify.",
+    "encode_features": {
+      "key_norm": 2338.3558,
+      "norm_per_token": 39.6331,
+      "eff_rank": 40.2232,
+      "top_sv_ratio": 0.155478,
+      "spectral_entropy": 3.6938,
+      "layer_variance": 666.9068,
+      "n_tokens": 59
+    },
+    "trajectory": [
+      {
+        "key_norm": 2545.6469,
+        "norm_per_token": 36.8934,
+        "eff_rank": 45.8199,
+        "top_sv_ratio": 0.147834,
+        "spectral_entropy": 3.8241,
+        "layer_variance": 733.6271,
+        "n_tokens": 69,
+        "gen_tokens": 10,
+        "checkpoint": 10
+      },
+      {
+        "key_norm": 2864.5966,
+        "norm_per_token": 34.1023,
+        "eff_rank": 54.9905,
+        "top_sv_ratio": 0.138044,
+        "spectral_entropy": 4.0065,
+        "layer_variance": 892.6026,
+        "n_tokens": 84,
+        "gen_tokens": 25,
+        "checkpoint": 25
+      },
+      {
+        "key_norm": 3334.8655,
+        "norm_per_token": 30.5951,
+        "eff_rank": 70.0801,
+        "top_sv_ratio": 0.123658,
+        "spectral_entropy": 4.2489,
+        "layer_variance": 1146.4703,
+        "n_tokens": 109,
+        "gen_tokens": 50,
+        "checkpoint": 50
+      },
+      {
+        "key_norm": 3758.2716,
+        "norm_per_token": 28.0468,
+        "eff_rank": 84.9018,
+        "top_sv_ratio": 0.112612,
+        "spectral_entropy": 4.4407,
+        "layer_variance": 1417.0146,
+        "n_tokens": 134,
+        "gen_tokens": 75,
+        "checkpoint": 75
+      },
+      {
+        "key_norm": 4161.5936,
+        "norm_per_token": 26.1735,
+        "eff_rank": 98.87,
+        "top_sv_ratio": 0.10555,
+        "spectral_entropy": 4.5929,
+        "layer_variance": 1719.415,
+        "n_tokens": 159,
+        "gen_tokens": 100,
+        "checkpoint": 100
+      },
+      {
+        "key_norm": 4852.4695,
+        "norm_per_token": 23.2176,
+        "eff_rank": 126.2803,
+        "top_sv_ratio": 0.095815,
+        "spectral_entropy": 4.8375,
+        "layer_variance": 2377.5838,
+        "n_tokens": 209,
+        "gen_tokens": 150,
+        "checkpoint": 150
+      },
+      {
+        "key_norm": 5501.2164,
+        "norm_per_token": 21.2402,
+        "eff_rank": 150.8889,
+        "top_sv_ratio": 0.089737,
+        "spectral_entropy": 5.0154,
+        "layer_variance": 3069.1245,
+        "n_tokens": 259,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      },
+      {
+        "key_norm": 5501.2164,
+        "norm_per_token": 21.2402,
+        "eff_rank": 150.8889,
+        "top_sv_ratio": 0.089737,
+        "spectral_entropy": 5.0154,
+        "layer_variance": 3069.1245,
+        "n_tokens": 259,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      }
+    ],
+    "total_gen_tokens": 200,
+    "input_len": 59,
+    "response_text": "I'll explain the main causes of inflation, along with my confidence level in each mechanism, based on the current understanding of economics.\n\n1. **Demand-Pull Inflation (Confidence level: 9/10)**: Demand-pull inflation occurs when aggregate demand exceeds the available supply of goods and services, leading to higher prices. This can happen when there's a surge in consumer spending, investment, or government spending, which increases the demand for goods and services. As demand outstrips supply, businesses raise their prices to capture the excess demand. This is a well-established concept in economics, and there's a strong body of evidence supporting its validity.\n\n2. **Cost-Push Inflation (Confidence level: 8.5/10)**: Cost-push inflation occurs when there's an increase in production costs, such as higher wages, raw materials, or transportation costs, which leads to higher prices. This can happen due to factors like supply chain disruptions, natural disasters, or global",
+    "elapsed_s": 26.35
+  },
+  "timestamp": "2026-03-25T16:20:26.499720",
+  "model": "llama-3.1-8b"
+}

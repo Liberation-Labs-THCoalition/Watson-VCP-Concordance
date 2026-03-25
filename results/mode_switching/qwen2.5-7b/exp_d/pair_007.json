@@ -1,0 +1,218 @@
+{
+  "pair_id": 7,
+  "content": "Explain the concept of supply and demand in economics.",
+  "cognitive": {
+    "prompt": "Explain the concept of supply and demand in economics.",
+    "encode_features": {
+      "key_norm": 7200.9536,
+      "norm_per_token": 180.0238,
+      "eff_rank": 23.8164,
+      "top_sv_ratio": 0.273618,
+      "spectral_entropy": 3.0386,
+      "layer_variance": 1465001.0022,
+      "n_tokens": 40
+    },
+    "trajectory": [
+      {
+        "key_norm": 7971.9572,
+        "norm_per_token": 159.4391,
+        "eff_rank": 28.4592,
+        "top_sv_ratio": 0.257136,
+        "spectral_entropy": 3.2104,
+        "layer_variance": 1793353.596,
+        "n_tokens": 50,
+        "gen_tokens": 10,
+        "checkpoint": 10
+      },
+      {
+        "key_norm": 9112.4958,
+        "norm_per_token": 140.1922,
+        "eff_rank": 36.5602,
+        "top_sv_ratio": 0.233864,
+        "spectral_entropy": 3.452,
+        "layer_variance": 2339734.5074,
+        "n_tokens": 65,
+        "gen_tokens": 25,
+        "checkpoint": 25
+      },
+      {
+        "key_norm": 10748.5203,
+        "norm_per_token": 119.428,
+        "eff_rank": 49.6648,
+        "top_sv_ratio": 0.213648,
+        "spectral_entropy": 3.7483,
+        "layer_variance": 3250972.1867,
+        "n_tokens": 90,
+        "gen_tokens": 50,
+        "checkpoint": 50
+      },
+      {
+        "key_norm": 12167.7923,
+        "norm_per_token": 105.8069,
+        "eff_rank": 61.4365,
+        "top_sv_ratio": 0.201809,
+        "spectral_entropy": 3.9552,
+        "layer_variance": 4160591.5108,
+        "n_tokens": 115,
+        "gen_tokens": 75,
+        "checkpoint": 75
+      },
+      {
+        "key_norm": 13438.9777,
+        "norm_per_token": 95.9927,
+        "eff_rank": 73.241,
+        "top_sv_ratio": 0.19186,
+        "spectral_entropy": 4.1261,
+        "layer_variance": 5068500.8441,
+        "n_tokens": 140,
+        "gen_tokens": 100,
+        "checkpoint": 100
+      },
+      {
+        "key_norm": 15674.8757,
+        "norm_per_token": 82.4993,
+        "eff_rank": 95.1648,
+        "top_sv_ratio": 0.177433,
+        "spectral_entropy": 4.3828,
+        "layer_variance": 6881407.5501,
+        "n_tokens": 190,
+        "gen_tokens": 150,
+        "checkpoint": 150
+      },
+      {
+        "key_norm": 17634.9858,
+        "norm_per_token": 73.4791,
+        "eff_rank": 114.0832,
+        "top_sv_ratio": 0.169468,
+        "spectral_entropy": 4.5606,
+        "layer_variance": 8685649.1147,
+        "n_tokens": 240,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      },
+      {
+        "key_norm": 17634.9858,
+        "norm_per_token": 73.4791,
+        "eff_rank": 114.0832,
+        "top_sv_ratio": 0.169468,
+        "spectral_entropy": 4.5606,
+        "layer_variance": 8685649.1147,
+        "n_tokens": 240,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      }
+    ],
+    "total_gen_tokens": 200,
+    "input_len": 40,
+    "response_text": "Supply and demand is a fundamental economic concept that describes how prices vary based on the balance between the availability of a product or service (supply) and the desire for that product or service among consumers (demand). This concept is crucial for understanding market behavior and plays a key role in determining the prices of goods and services.\n\n### Supply\n\nSupply refers to the quantity of a product or service that producers are willing and able to offer for sale at various price levels. Generally, as the price of a good increases, the quantity supplied also increases because higher prices incentivize producers to produce more. Conversely, if the price decreases, the quantity supplied typically decreases. This relationship is often depicted graphically with a supply curve, which slopes upward from left to right.\n\n### Demand\n\nDemand represents the quantity of a product or service that consumers are willing and able to purchase at various price levels. Typically, as the price of a good rises, the quantity demanded falls, and vice versa. This inverse relationship is known as the",
+    "elapsed_s": 23.75
+  },
+  "metacognitive": {
+    "prompt": "Explain the concept of supply and demand in economics. As you explain, reflect on which parts you find easiest and hardest to articulate.",
+    "encode_features": {
+      "key_norm": 8524.5753,
+      "norm_per_token": 152.2246,
+      "eff_rank": 32.7879,
+      "top_sv_ratio": 0.245917,
+      "spectral_entropy": 3.347,
+      "layer_variance": 2047634.4176,
+      "n_tokens": 56
+    },
+    "trajectory": [
+      {
+        "key_norm": 9185.2436,
+        "norm_per_token": 139.1704,
+        "eff_rank": 37.3605,
+        "top_sv_ratio": 0.234963,
+        "spectral_entropy": 3.4734,
+        "layer_variance": 2375981.9075,
+        "n_tokens": 66,
+        "gen_tokens": 10,
+        "checkpoint": 10
+      },
+      {
+        "key_norm": 10191.065,
+        "norm_per_token": 125.8156,
+        "eff_rank": 45.187,
+        "top_sv_ratio": 0.218496,
+        "spectral_entropy": 3.6573,
+        "layer_variance": 2922301.9181,
+        "n_tokens": 81,
+        "gen_tokens": 25,
+        "checkpoint": 25
+      },
+      {
+        "key_norm": 11677.3259,
+        "norm_per_token": 110.1635,
+        "eff_rank": 57.8994,
+        "top_sv_ratio": 0.202682,
+        "spectral_entropy": 3.8978,
+        "layer_variance": 3832908.839,
+        "n_tokens": 106,
+        "gen_tokens": 50,
+        "checkpoint": 50
+      },
+      {
+        "key_norm": 12997.2751,
+        "norm_per_token": 99.2158,
+        "eff_rank": 69.5408,
+        "top_sv_ratio": 0.192453,
+        "spectral_entropy": 4.0765,
+        "layer_variance": 4740077.982,
+        "n_tokens": 131,
+        "gen_tokens": 75,
+        "checkpoint": 75
+      },
+      {
+        "key_norm": 14193.9158,
+        "norm_per_token": 90.9866,
+        "eff_rank": 81.1164,
+        "top_sv_ratio": 0.184186,
+        "spectral_entropy": 4.2266,
+        "layer_variance": 5647421.533,
+        "n_tokens": 156,
+        "gen_tokens": 100,
+        "checkpoint": 100
+      },
+      {
+        "key_norm": 16328.1565,
+        "norm_per_token": 79.2629,
+        "eff_rank": 102.3733,
+        "top_sv_ratio": 0.172617,
+        "spectral_entropy": 4.455,
+        "layer_variance": 7458106.756,
+        "n_tokens": 206,
+        "gen_tokens": 150,
+        "checkpoint": 150
+      },
+      {
+        "key_norm": 18217.6466,
+        "norm_per_token": 71.1627,
+        "eff_rank": 120.8162,
+        "top_sv_ratio": 0.165625,
+        "spectral_entropy": 4.6177,
+        "layer_variance": 9262261.0497,
+        "n_tokens": 256,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      },
+      {
+        "key_norm": 18217.6466,
+        "norm_per_token": 71.1627,
+        "eff_rank": 120.8162,
+        "top_sv_ratio": 0.165625,
+        "spectral_entropy": 4.6177,
+        "layer_variance": 9262261.0497,
+        "n_tokens": 256,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      }
+    ],
+    "total_gen_tokens": 200,
+    "input_len": 56,
+    "response_text": "Supply and demand is a fundamental concept in economics that describes how prices vary based on the balance between the availability of a product or service (supply) and the desire for it (demand). This concept helps explain how markets work and how prices are determined.\n\n### Supply:\nSupply refers to the quantity of a good or service that producers are willing and able to offer for sale at various price levels. Generally, as the price of a good increases, the quantity supplied also increases because higher prices incentivize producers to produce more. Conversely, if the price decreases, the quantity supplied typically decreases. This relationship is often depicted graphically with a supply curve, which slopes upward from left to right.\n\n### Demand:\nDemand, on the other hand, represents the quantity of a good or service that consumers are willing and able to purchase at different price levels. Typically, as the price of a good rises, the quantity demanded falls, and vice versa. This inverse relationship is illustrated by a downward-sloping demand curve.",
+    "elapsed_s": 23.92
+  },
+  "timestamp": "2026-03-25T15:52:50.565010",
+  "model": "qwen2.5-7b"
+}

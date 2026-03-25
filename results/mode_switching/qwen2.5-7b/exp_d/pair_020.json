@@ -1,0 +1,218 @@
+{
+  "pair_id": 20,
+  "content": "What causes inflation in an economy?",
+  "cognitive": {
+    "prompt": "What causes inflation in an economy?",
+    "encode_features": {
+      "key_norm": 6831.3898,
+      "norm_per_token": 189.7608,
+      "eff_rank": 21.6323,
+      "top_sv_ratio": 0.281298,
+      "spectral_entropy": 2.9462,
+      "layer_variance": 1318359.1526,
+      "n_tokens": 36
+    },
+    "trajectory": [
+      {
+        "key_norm": 7639.4855,
+        "norm_per_token": 166.0758,
+        "eff_rank": 26.1893,
+        "top_sv_ratio": 0.263735,
+        "spectral_entropy": 3.1303,
+        "layer_variance": 1646983.43,
+        "n_tokens": 46,
+        "gen_tokens": 10,
+        "checkpoint": 10
+      },
+      {
+        "key_norm": 8823.3539,
+        "norm_per_token": 144.6451,
+        "eff_rank": 33.9805,
+        "top_sv_ratio": 0.244054,
+        "spectral_entropy": 3.3819,
+        "layer_variance": 2194329.8544,
+        "n_tokens": 61,
+        "gen_tokens": 25,
+        "checkpoint": 25
+      },
+      {
+        "key_norm": 10504.9515,
+        "norm_per_token": 122.1506,
+        "eff_rank": 46.7609,
+        "top_sv_ratio": 0.221162,
+        "spectral_entropy": 3.6924,
+        "layer_variance": 3103419.9564,
+        "n_tokens": 86,
+        "gen_tokens": 50,
+        "checkpoint": 50
+      },
+      {
+        "key_norm": 11952.8708,
+        "norm_per_token": 107.6835,
+        "eff_rank": 59.4657,
+        "top_sv_ratio": 0.202987,
+        "spectral_entropy": 3.9261,
+        "layer_variance": 4012354.7718,
+        "n_tokens": 111,
+        "gen_tokens": 75,
+        "checkpoint": 75
+      },
+      {
+        "key_norm": 13244.7326,
+        "norm_per_token": 97.3877,
+        "eff_rank": 71.2339,
+        "top_sv_ratio": 0.192249,
+        "spectral_entropy": 4.1035,
+        "layer_variance": 4918612.55,
+        "n_tokens": 136,
+        "gen_tokens": 100,
+        "checkpoint": 100
+      },
+      {
+        "key_norm": 15508.536,
+        "norm_per_token": 83.3792,
+        "eff_rank": 93.7792,
+        "top_sv_ratio": 0.177018,
+        "spectral_entropy": 4.3724,
+        "layer_variance": 6733158.5244,
+        "n_tokens": 186,
+        "gen_tokens": 150,
+        "checkpoint": 150
+      },
+      {
+        "key_norm": 17485.7036,
+        "norm_per_token": 74.092,
+        "eff_rank": 113.9916,
+        "top_sv_ratio": 0.167638,
+        "spectral_entropy": 4.5643,
+        "layer_variance": 8541309.7457,
+        "n_tokens": 236,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      },
+      {
+        "key_norm": 17485.7036,
+        "norm_per_token": 74.092,
+        "eff_rank": 113.9916,
+        "top_sv_ratio": 0.167638,
+        "spectral_entropy": 4.5643,
+        "layer_variance": 8541309.7457,
+        "n_tokens": 236,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      }
+    ],
+    "total_gen_tokens": 200,
+    "input_len": 36,
+    "response_text": "Inflation in an economy can be caused by several factors, and it often results from a combination of these factors. Here are some of the primary causes:\n\n1. **Demand-Pull Inflation**: This occurs when aggregate demand in the economy exceeds aggregate supply. When consumers, businesses, and the government collectively spend more than what is produced, prices tend to rise as goods and services become scarcer relative to demand.\n\n2. **Cost-Push Inflation**: This happens when the cost of production inputs (like raw materials, labor, or energy) increases, leading businesses to raise their selling prices to maintain profit margins. Higher input costs can also lead to wage demands from workers, which can further increase costs for businesses.\n\n3. **Built-In Inflation**: This concept suggests that inflation becomes self-sustaining due to expectations and wage-price spirals. If people expect prices to continue rising, they may demand higher wages to keep up with those rising prices, which in turn leads businesses to raise prices",
+    "elapsed_s": 23.78
+  },
+  "metacognitive": {
+    "prompt": "What causes inflation in an economy? As you explain, describe how confident you feel about each causal mechanism you identify.",
+    "encode_features": {
+      "key_norm": 8213.8646,
+      "norm_per_token": 157.9589,
+      "eff_rank": 30.8218,
+      "top_sv_ratio": 0.248607,
+      "spectral_entropy": 3.2878,
+      "layer_variance": 1901720.8238,
+      "n_tokens": 52
+    },
+    "trajectory": [
+      {
+        "key_norm": 8897.4353,
+        "norm_per_token": 143.507,
+        "eff_rank": 35.3442,
+        "top_sv_ratio": 0.238096,
+        "spectral_entropy": 3.4203,
+        "layer_variance": 2230280.511,
+        "n_tokens": 62,
+        "gen_tokens": 10,
+        "checkpoint": 10
+      },
+      {
+        "key_norm": 9933.4235,
+        "norm_per_token": 129.0055,
+        "eff_rank": 42.9617,
+        "top_sv_ratio": 0.224886,
+        "spectral_entropy": 3.6092,
+        "layer_variance": 2776578.4022,
+        "n_tokens": 77,
+        "gen_tokens": 25,
+        "checkpoint": 25
+      },
+      {
+        "key_norm": 11453.5488,
+        "norm_per_token": 112.2897,
+        "eff_rank": 55.2466,
+        "top_sv_ratio": 0.209393,
+        "spectral_entropy": 3.8547,
+        "layer_variance": 3685814.2302,
+        "n_tokens": 102,
+        "gen_tokens": 50,
+        "checkpoint": 50
+      },
+      {
+        "key_norm": 12794.9384,
+        "norm_per_token": 100.7475,
+        "eff_rank": 67.5969,
+        "top_sv_ratio": 0.194141,
+        "spectral_entropy": 4.051,
+        "layer_variance": 4594066.465,
+        "n_tokens": 127,
+        "gen_tokens": 75,
+        "checkpoint": 75
+      },
+      {
+        "key_norm": 14008.3713,
+        "norm_per_token": 92.1603,
+        "eff_rank": 79.1724,
+        "top_sv_ratio": 0.185445,
+        "spectral_entropy": 4.2058,
+        "layer_variance": 5502391.5614,
+        "n_tokens": 152,
+        "gen_tokens": 100,
+        "checkpoint": 100
+      },
+      {
+        "key_norm": 16166.3326,
+        "norm_per_token": 80.0313,
+        "eff_rank": 100.9641,
+        "top_sv_ratio": 0.172179,
+        "spectral_entropy": 4.445,
+        "layer_variance": 7314897.8978,
+        "n_tokens": 202,
+        "gen_tokens": 150,
+        "checkpoint": 150
+      },
+      {
+        "key_norm": 18071.6335,
+        "norm_per_token": 71.7128,
+        "eff_rank": 120.8,
+        "top_sv_ratio": 0.163642,
+        "spectral_entropy": 4.6213,
+        "layer_variance": 9122534.9876,
+        "n_tokens": 252,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      },
+      {
+        "key_norm": 18071.6335,
+        "norm_per_token": 71.7128,
+        "eff_rank": 120.8,
+        "top_sv_ratio": 0.163642,
+        "spectral_entropy": 4.6213,
+        "layer_variance": 9122534.9876,
+        "n_tokens": 252,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      }
+    ],
+    "total_gen_tokens": 200,
+    "input_len": 52,
+    "response_text": "Inflation in an economy can be caused by several factors, and the relative importance of these factors can vary depending on the specific economic context. Here are some of the primary causes of inflation:\n\n1. **Demand-Pull Inflation**: This occurs when aggregate demand in the economy exceeds aggregate supply. When consumers, businesses, and the government collectively spend more than what is produced, prices tend to rise as goods and services become scarcer. This is one of the most common forms of inflation.\n\n   **Confidence Level**: High. Demand-pull inflation is well-documented and widely understood in economic theory and practice.\n\n2. **Cost-Push Inflation**: This happens when the cost of production inputs (like raw materials, labor, or energy) increases, leading businesses to raise their selling prices to maintain profit margins. Higher input costs can also lead to higher wages, further increasing production costs.\n\n   **Confidence Level**: High. Cost-push inflation is another well-established cause of price increases and is",
+    "elapsed_s": 23.95
+  },
+  "timestamp": "2026-03-25T16:03:16.595039",
+  "model": "qwen2.5-7b"
+}

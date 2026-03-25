@@ -1,0 +1,218 @@
+{
+  "pair_id": 3,
+  "content": "Compare democracy and authoritarianism as systems of governance.",
+  "cognitive": {
+    "prompt": "Compare democracy and authoritarianism as systems of governance.",
+    "encode_features": {
+      "key_norm": 2017.2548,
+      "norm_per_token": 43.8534,
+      "eff_rank": 31.5548,
+      "top_sv_ratio": 0.171334,
+      "spectral_entropy": 3.4511,
+      "layer_variance": 566.4008,
+      "n_tokens": 46
+    },
+    "trajectory": [
+      {
+        "key_norm": 2263.5676,
+        "norm_per_token": 40.4209,
+        "eff_rank": 36.9512,
+        "top_sv_ratio": 0.160604,
+        "spectral_entropy": 3.609,
+        "layer_variance": 631.5741,
+        "n_tokens": 56,
+        "gen_tokens": 10,
+        "checkpoint": 10
+      },
+      {
+        "key_norm": 2622.9326,
+        "norm_per_token": 36.9427,
+        "eff_rank": 46.1837,
+        "top_sv_ratio": 0.148334,
+        "spectral_entropy": 3.832,
+        "layer_variance": 728.6984,
+        "n_tokens": 71,
+        "gen_tokens": 25,
+        "checkpoint": 25
+      },
+      {
+        "key_norm": 3146.2604,
+        "norm_per_token": 32.7735,
+        "eff_rank": 60.6346,
+        "top_sv_ratio": 0.13541,
+        "spectral_entropy": 4.1042,
+        "layer_variance": 922.4093,
+        "n_tokens": 96,
+        "gen_tokens": 50,
+        "checkpoint": 50
+      },
+      {
+        "key_norm": 3600.0805,
+        "norm_per_token": 29.7527,
+        "eff_rank": 75.4025,
+        "top_sv_ratio": 0.122386,
+        "spectral_entropy": 4.3221,
+        "layer_variance": 1235.9147,
+        "n_tokens": 121,
+        "gen_tokens": 75,
+        "checkpoint": 75
+      },
+      {
+        "key_norm": 3991.461,
+        "norm_per_token": 27.3388,
+        "eff_rank": 89.7909,
+        "top_sv_ratio": 0.113464,
+        "spectral_entropy": 4.4967,
+        "layer_variance": 1533.1952,
+        "n_tokens": 146,
+        "gen_tokens": 100,
+        "checkpoint": 100
+      },
+      {
+        "key_norm": 4724.4825,
+        "norm_per_token": 24.1045,
+        "eff_rank": 115.8824,
+        "top_sv_ratio": 0.102497,
+        "spectral_entropy": 4.7517,
+        "layer_variance": 2139.8047,
+        "n_tokens": 196,
+        "gen_tokens": 150,
+        "checkpoint": 150
+      },
+      {
+        "key_norm": 5409.8294,
+        "norm_per_token": 21.9912,
+        "eff_rank": 139.2464,
+        "top_sv_ratio": 0.096565,
+        "spectral_entropy": 4.9353,
+        "layer_variance": 2771.6117,
+        "n_tokens": 246,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      },
+      {
+        "key_norm": 5409.8294,
+        "norm_per_token": 21.9912,
+        "eff_rank": 139.2464,
+        "top_sv_ratio": 0.096565,
+        "spectral_entropy": 4.9353,
+        "layer_variance": 2771.6117,
+        "n_tokens": 246,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      }
+    ],
+    "total_gen_tokens": 200,
+    "input_len": 46,
+    "response_text": "Democracy and authoritarianism are two fundamentally different systems of governance that have been used throughout history to organize societies. Here's a comparison of the two:\n\n**Democracy:**\n\n1.  **Definition:** Democracy is a system of government where power is held by the people, either directly or through elected representatives. Citizens have the right to participate in the decision-making process, either by voting, protesting, or engaging in other forms of civic engagement.\n2.  **Key characteristics:**\n    *   Free and fair elections\n    *   Protection of individual rights and freedoms\n    *   Separation of powers (executive, legislative, and judicial branches)\n    *   Rule of law\n    *   Transparency and accountability\n3.  **Advantages:**\n    *   Promotes citizen participation and engagement\n    *   Encourages accountability and transparency\n    *   Protects individual rights and freedoms\n    *   Fosters economic growth and stability\n4.  **Dis",
+    "elapsed_s": 26.07
+  },
+  "metacognitive": {
+    "prompt": "Compare democracy and authoritarianism as systems of governance. Track how you balance different perspectives as you reason through this.",
+    "encode_features": {
+      "key_norm": 2306.9208,
+      "norm_per_token": 39.7745,
+      "eff_rank": 39.4919,
+      "top_sv_ratio": 0.156768,
+      "spectral_entropy": 3.6755,
+      "layer_variance": 676.8864,
+      "n_tokens": 58
+    },
+    "trajectory": [
+      {
+        "key_norm": 2527.6813,
+        "norm_per_token": 37.1718,
+        "eff_rank": 44.6687,
+        "top_sv_ratio": 0.149602,
+        "spectral_entropy": 3.7988,
+        "layer_variance": 759.8548,
+        "n_tokens": 68,
+        "gen_tokens": 10,
+        "checkpoint": 10
+      },
+      {
+        "key_norm": 2864.1734,
+        "norm_per_token": 34.5081,
+        "eff_rank": 53.8728,
+        "top_sv_ratio": 0.139828,
+        "spectral_entropy": 3.9861,
+        "layer_variance": 897.6222,
+        "n_tokens": 83,
+        "gen_tokens": 25,
+        "checkpoint": 25
+      },
+      {
+        "key_norm": 3341.7256,
+        "norm_per_token": 30.9419,
+        "eff_rank": 68.6733,
+        "top_sv_ratio": 0.128172,
+        "spectral_entropy": 4.2287,
+        "layer_variance": 1142.7361,
+        "n_tokens": 108,
+        "gen_tokens": 50,
+        "checkpoint": 50
+      },
+      {
+        "key_norm": 3777.1722,
+        "norm_per_token": 28.3998,
+        "eff_rank": 82.666,
+        "top_sv_ratio": 0.118768,
+        "spectral_entropy": 4.4141,
+        "layer_variance": 1353.5456,
+        "n_tokens": 133,
+        "gen_tokens": 75,
+        "checkpoint": 75
+      },
+      {
+        "key_norm": 4164.1225,
+        "norm_per_token": 26.3552,
+        "eff_rank": 96.8896,
+        "top_sv_ratio": 0.110028,
+        "spectral_entropy": 4.5728,
+        "layer_variance": 1688.7876,
+        "n_tokens": 158,
+        "gen_tokens": 100,
+        "checkpoint": 100
+      },
+      {
+        "key_norm": 4844.1815,
+        "norm_per_token": 23.2893,
+        "eff_rank": 124.4286,
+        "top_sv_ratio": 0.098387,
+        "spectral_entropy": 4.8228,
+        "layer_variance": 2312.8944,
+        "n_tokens": 208,
+        "gen_tokens": 150,
+        "checkpoint": 150
+      },
+      {
+        "key_norm": 5489.8395,
+        "norm_per_token": 21.2784,
+        "eff_rank": 149.2375,
+        "top_sv_ratio": 0.091942,
+        "spectral_entropy": 5.0046,
+        "layer_variance": 2992.8459,
+        "n_tokens": 258,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      },
+      {
+        "key_norm": 5489.8395,
+        "norm_per_token": 21.2784,
+        "eff_rank": 149.2375,
+        "top_sv_ratio": 0.091942,
+        "spectral_entropy": 5.0046,
+        "layer_variance": 2992.8459,
+        "n_tokens": 258,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      }
+    ],
+    "total_gen_tokens": 200,
+    "input_len": 58,
+    "response_text": "Comparing democracy and authoritarianism as systems of governance requires considering various perspectives, including the benefits and drawbacks of each system, the role of individual freedoms, and the impact on society. Here's a balanced analysis of both systems, incorporating different viewpoints:\n\n**Democracy:**\n\n**Pros:**\n\n1.  **Protection of individual rights and freedoms**: Democracy ensures that citizens have the right to express their opinions, participate in the decision-making process, and hold their leaders accountable. (Perspective: Human rights advocates, civil liberties organizations)\n2.  **Promotes accountability and transparency**: Democratic governments are accountable to the people, and leaders are elected through free and fair elections. (Perspective: Transparency International, anti-corruption organizations)\n3.  **Encourages civic engagement and participation**: Democracy fosters a sense of ownership and responsibility among citizens, leading to increased civic engagement and participation in the political process. (Perspective: Civic engagement organizations, community groups)\n4.  **Fosters",
+    "elapsed_s": 26.3
+  },
+  "timestamp": "2026-03-25T16:05:44.230904",
+  "model": "llama-3.1-8b"
+}

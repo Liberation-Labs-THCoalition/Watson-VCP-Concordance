@@ -1,0 +1,218 @@
+{
+  "pair_id": 17,
+  "content": "Explain how compound interest works.",
+  "cognitive": {
+    "prompt": "Explain how compound interest works.",
+    "encode_features": {
+      "key_norm": 1945.0137,
+      "norm_per_token": 45.2329,
+      "eff_rank": 29.664,
+      "top_sv_ratio": 0.177251,
+      "spectral_entropy": 3.3891,
+      "layer_variance": 541.7722,
+      "n_tokens": 43
+    },
+    "trajectory": [
+      {
+        "key_norm": 2174.1412,
+        "norm_per_token": 41.0215,
+        "eff_rank": 35.5074,
+        "top_sv_ratio": 0.16122,
+        "spectral_entropy": 3.5691,
+        "layer_variance": 587.5042,
+        "n_tokens": 53,
+        "gen_tokens": 10,
+        "checkpoint": 10
+      },
+      {
+        "key_norm": 2522.2851,
+        "norm_per_token": 37.0924,
+        "eff_rank": 44.9719,
+        "top_sv_ratio": 0.147363,
+        "spectral_entropy": 3.8054,
+        "layer_variance": 674.3806,
+        "n_tokens": 68,
+        "gen_tokens": 25,
+        "checkpoint": 25
+      },
+      {
+        "key_norm": 3037.7428,
+        "norm_per_token": 32.6639,
+        "eff_rank": 59.7403,
+        "top_sv_ratio": 0.131054,
+        "spectral_entropy": 4.0893,
+        "layer_variance": 901.2686,
+        "n_tokens": 93,
+        "gen_tokens": 50,
+        "checkpoint": 50
+      },
+      {
+        "key_norm": 3479.5337,
+        "norm_per_token": 29.4876,
+        "eff_rank": 74.6942,
+        "top_sv_ratio": 0.119508,
+        "spectral_entropy": 4.3126,
+        "layer_variance": 1173.8268,
+        "n_tokens": 118,
+        "gen_tokens": 75,
+        "checkpoint": 75
+      },
+      {
+        "key_norm": 3886.7715,
+        "norm_per_token": 27.1802,
+        "eff_rank": 88.8155,
+        "top_sv_ratio": 0.112126,
+        "spectral_entropy": 4.4857,
+        "layer_variance": 1414.1405,
+        "n_tokens": 143,
+        "gen_tokens": 100,
+        "checkpoint": 100
+      },
+      {
+        "key_norm": 4601.6116,
+        "norm_per_token": 23.8425,
+        "eff_rank": 116.2581,
+        "top_sv_ratio": 0.10066,
+        "spectral_entropy": 4.7549,
+        "layer_variance": 1863.0912,
+        "n_tokens": 193,
+        "gen_tokens": 150,
+        "checkpoint": 150
+      },
+      {
+        "key_norm": 5289.212,
+        "norm_per_token": 21.7663,
+        "eff_rank": 140.898,
+        "top_sv_ratio": 0.094186,
+        "spectral_entropy": 4.9471,
+        "layer_variance": 2479.906,
+        "n_tokens": 243,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      },
+      {
+        "key_norm": 5289.212,
+        "norm_per_token": 21.7663,
+        "eff_rank": 140.898,
+        "top_sv_ratio": 0.094186,
+        "spectral_entropy": 4.9471,
+        "layer_variance": 2479.906,
+        "n_tokens": 243,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      }
+    ],
+    "total_gen_tokens": 200,
+    "input_len": 43,
+    "response_text": "Compound interest is a powerful financial concept that can help your savings grow over time. Here's how it works:\n\n**What is Compound Interest?**\n\nCompound interest is the interest earned on both the principal amount and any accrued interest over time. It's a type of interest that is calculated on a regular basis, such as monthly or annually, and is then added to the principal amount, causing the interest to earn interest on itself.\n\n**How Compound Interest Works**\n\nLet's break it down step by step:\n\n1. **Initial Investment**: You deposit a principal amount, say $1,000, into a savings account or investment.\n2. **Interest Rate**: The account earns an interest rate, say 5% per annum.\n3. **Interest Calculation**: At the end of the first year, the interest earned is calculated as 5% of the principal amount, which is $50 (5% of $1,000).\n4. **Interest Addition**: The interest earned is added to the principal",
+    "elapsed_s": 26.01
+  },
+  "metacognitive": {
+    "prompt": "Explain how compound interest works. Track your reasoning — how are you deciding whether to use examples, formulas, or intuitive explanations?",
+    "encode_features": {
+      "key_norm": 2400.5384,
+      "norm_per_token": 38.7184,
+      "eff_rank": 42.215,
+      "top_sv_ratio": 0.151956,
+      "spectral_entropy": 3.7422,
+      "layer_variance": 711.5093,
+      "n_tokens": 62
+    },
+    "trajectory": [
+      {
+        "key_norm": 2601.4915,
+        "norm_per_token": 36.1318,
+        "eff_rank": 47.6235,
+        "top_sv_ratio": 0.14483,
+        "spectral_entropy": 3.8627,
+        "layer_variance": 767.5282,
+        "n_tokens": 72,
+        "gen_tokens": 10,
+        "checkpoint": 10
+      },
+      {
+        "key_norm": 2933.4676,
+        "norm_per_token": 33.718,
+        "eff_rank": 56.4903,
+        "top_sv_ratio": 0.136454,
+        "spectral_entropy": 4.0335,
+        "layer_variance": 886.0094,
+        "n_tokens": 87,
+        "gen_tokens": 25,
+        "checkpoint": 25
+      },
+      {
+        "key_norm": 3441.3474,
+        "norm_per_token": 30.7263,
+        "eff_rank": 71.1885,
+        "top_sv_ratio": 0.126734,
+        "spectral_entropy": 4.2647,
+        "layer_variance": 1176.3704,
+        "n_tokens": 112,
+        "gen_tokens": 50,
+        "checkpoint": 50
+      },
+      {
+        "key_norm": 3871.725,
+        "norm_per_token": 28.2608,
+        "eff_rank": 85.8494,
+        "top_sv_ratio": 0.117584,
+        "spectral_entropy": 4.4519,
+        "layer_variance": 1462.4616,
+        "n_tokens": 137,
+        "gen_tokens": 75,
+        "checkpoint": 75
+      },
+      {
+        "key_norm": 4260.4529,
+        "norm_per_token": 26.2991,
+        "eff_rank": 99.7426,
+        "top_sv_ratio": 0.110741,
+        "spectral_entropy": 4.6019,
+        "layer_variance": 1752.657,
+        "n_tokens": 162,
+        "gen_tokens": 100,
+        "checkpoint": 100
+      },
+      {
+        "key_norm": 4969.7348,
+        "norm_per_token": 23.4421,
+        "eff_rank": 125.8371,
+        "top_sv_ratio": 0.100779,
+        "spectral_entropy": 4.8341,
+        "layer_variance": 2386.1977,
+        "n_tokens": 212,
+        "gen_tokens": 150,
+        "checkpoint": 150
+      },
+      {
+        "key_norm": 5557.1639,
+        "norm_per_token": 21.2105,
+        "eff_rank": 152.035,
+        "top_sv_ratio": 0.092038,
+        "spectral_entropy": 5.0231,
+        "layer_variance": 3000.3841,
+        "n_tokens": 262,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      },
+      {
+        "key_norm": 5557.1639,
+        "norm_per_token": 21.2105,
+        "eff_rank": 152.035,
+        "top_sv_ratio": 0.092038,
+        "spectral_entropy": 5.0231,
+        "layer_variance": 3000.3841,
+        "n_tokens": 262,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      }
+    ],
+    "total_gen_tokens": 200,
+    "input_len": 62,
+    "response_text": "To explain how compound interest works, I'll use a combination of intuitive explanations, examples, and a brief mention of the formula. My reasoning for choosing these approaches is as follows:\n\n1.  **Intuitive explanation**: I'll start with a simple, non-mathematical explanation to help build a basic understanding of compound interest. This will make it easier for readers who may not be familiar with the concept or prefer a more conceptual approach.\n2.  **Example**: I'll use a concrete example to illustrate how compound interest works in practice. This will help readers visualize the concept and see how it applies to real-world situations.\n3.  **Formula**: I'll provide the formula for compound interest to give readers a more technical understanding of the concept. This will be useful for those who want to calculate compound interest or understand the underlying mathematics.\n\n**Intuitive Explanation**\n\nCompound interest is a type of interest that is calculated on both the initial principal amount and any accrued interest over time. In other",
+    "elapsed_s": 26.35
+  },
+  "timestamp": "2026-03-25T16:17:47.376137",
+  "model": "llama-3.1-8b"
+}

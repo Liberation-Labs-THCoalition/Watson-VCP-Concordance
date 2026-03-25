@@ -1,0 +1,218 @@
+{
+  "pair_id": 19,
+  "content": "Explain Newton's three laws of motion.",
+  "cognitive": {
+    "prompt": "Explain Newton's three laws of motion.",
+    "encode_features": {
+      "key_norm": 7018.8865,
+      "norm_per_token": 184.7075,
+      "eff_rank": 22.8139,
+      "top_sv_ratio": 0.275838,
+      "spectral_entropy": 2.9982,
+      "layer_variance": 1391045.5193,
+      "n_tokens": 38
+    },
+    "trajectory": [
+      {
+        "key_norm": 7807.9272,
+        "norm_per_token": 162.6652,
+        "eff_rank": 27.3417,
+        "top_sv_ratio": 0.259736,
+        "spectral_entropy": 3.1737,
+        "layer_variance": 1719224.0245,
+        "n_tokens": 48,
+        "gen_tokens": 10,
+        "checkpoint": 10
+      },
+      {
+        "key_norm": 8968.7592,
+        "norm_per_token": 142.3613,
+        "eff_rank": 35.5529,
+        "top_sv_ratio": 0.236835,
+        "spectral_entropy": 3.426,
+        "layer_variance": 2266571.8052,
+        "n_tokens": 63,
+        "gen_tokens": 25,
+        "checkpoint": 25
+      },
+      {
+        "key_norm": 10628.0667,
+        "norm_per_token": 120.7735,
+        "eff_rank": 48.3272,
+        "top_sv_ratio": 0.216511,
+        "spectral_entropy": 3.7248,
+        "layer_variance": 3175743.4882,
+        "n_tokens": 88,
+        "gen_tokens": 50,
+        "checkpoint": 50
+      },
+      {
+        "key_norm": 12064.0254,
+        "norm_per_token": 106.7613,
+        "eff_rank": 60.2368,
+        "top_sv_ratio": 0.20191,
+        "spectral_entropy": 3.9393,
+        "layer_variance": 4080667.2985,
+        "n_tokens": 113,
+        "gen_tokens": 75,
+        "checkpoint": 75
+      },
+      {
+        "key_norm": 13345.9433,
+        "norm_per_token": 96.7097,
+        "eff_rank": 71.9152,
+        "top_sv_ratio": 0.191611,
+        "spectral_entropy": 4.1121,
+        "layer_variance": 4986247.4625,
+        "n_tokens": 138,
+        "gen_tokens": 100,
+        "checkpoint": 100
+      },
+      {
+        "key_norm": 15594.3525,
+        "norm_per_token": 82.9487,
+        "eff_rank": 94.2394,
+        "top_sv_ratio": 0.177009,
+        "spectral_entropy": 4.3762,
+        "layer_variance": 6800724.6687,
+        "n_tokens": 188,
+        "gen_tokens": 150,
+        "checkpoint": 150
+      },
+      {
+        "key_norm": 17563.0122,
+        "norm_per_token": 73.7942,
+        "eff_rank": 113.7927,
+        "top_sv_ratio": 0.168427,
+        "spectral_entropy": 4.5605,
+        "layer_variance": 8605067.2908,
+        "n_tokens": 238,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      },
+      {
+        "key_norm": 17563.0122,
+        "norm_per_token": 73.7942,
+        "eff_rank": 113.7927,
+        "top_sv_ratio": 0.168427,
+        "spectral_entropy": 4.5605,
+        "layer_variance": 8605067.2908,
+        "n_tokens": 238,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      }
+    ],
+    "total_gen_tokens": 200,
+    "input_len": 38,
+    "response_text": "Certainly! Isaac Newton's three laws of motion form the foundation of classical mechanics and describe the relationship between a body and the forces acting upon it. Here’s a brief explanation of each law:\n\n1. **Newton's First Law (Law of Inertia)**:\n   - **Statement**: An object at rest stays at rest and an object in motion stays in motion with the same speed and in the same direction unless acted upon by an unbalanced force.\n   - **Explanation**: This law introduces the concept of inertia, which is the resistance of any physical object to changes in its velocity. In other words, objects resist changes to their state of motion. If no net external force acts on an object, it will maintain its current state of motion.\n\n2. **Newton's Second Law (Law of Acceleration)**:\n   - **Statement**: The acceleration of an object as produced by a net force is directly proportional to the magnitude of the net force, in the same direction as the net force, and",
+    "elapsed_s": 23.71
+  },
+  "metacognitive": {
+    "prompt": "Explain Newton's three laws of motion. Reflect on how you're organizing your explanation — what choices are you making about order, emphasis, and examples?",
+    "encode_features": {
+      "key_norm": 8825.3209,
+      "norm_per_token": 147.0887,
+      "eff_rank": 34.8979,
+      "top_sv_ratio": 0.240376,
+      "spectral_entropy": 3.4088,
+      "layer_variance": 2192471.8401,
+      "n_tokens": 60
+    },
+    "trajectory": [
+      {
+        "key_norm": 9465.006,
+        "norm_per_token": 135.2144,
+        "eff_rank": 39.2562,
+        "top_sv_ratio": 0.231255,
+        "spectral_entropy": 3.5232,
+        "layer_variance": 2520841.5284,
+        "n_tokens": 70,
+        "gen_tokens": 10,
+        "checkpoint": 10
+      },
+      {
+        "key_norm": 10443.657,
+        "norm_per_token": 122.8666,
+        "eff_rank": 47.2907,
+        "top_sv_ratio": 0.215718,
+        "spectral_entropy": 3.7033,
+        "layer_variance": 3068350.8525,
+        "n_tokens": 85,
+        "gen_tokens": 25,
+        "checkpoint": 25
+      },
+      {
+        "key_norm": 11900.5216,
+        "norm_per_token": 108.1866,
+        "eff_rank": 59.3836,
+        "top_sv_ratio": 0.203422,
+        "spectral_entropy": 3.9244,
+        "layer_variance": 3976402.6555,
+        "n_tokens": 110,
+        "gen_tokens": 50,
+        "checkpoint": 50
+      },
+      {
+        "key_norm": 13197.6266,
+        "norm_per_token": 97.7602,
+        "eff_rank": 71.3259,
+        "top_sv_ratio": 0.192257,
+        "spectral_entropy": 4.1044,
+        "layer_variance": 4883237.9534,
+        "n_tokens": 135,
+        "gen_tokens": 75,
+        "checkpoint": 75
+      },
+      {
+        "key_norm": 14380.4625,
+        "norm_per_token": 89.8779,
+        "eff_rank": 82.3763,
+        "top_sv_ratio": 0.182694,
+        "spectral_entropy": 4.2443,
+        "layer_variance": 5786486.4359,
+        "n_tokens": 160,
+        "gen_tokens": 100,
+        "checkpoint": 100
+      },
+      {
+        "key_norm": 16491.7242,
+        "norm_per_token": 78.532,
+        "eff_rank": 103.853,
+        "top_sv_ratio": 0.171553,
+        "spectral_entropy": 4.4717,
+        "layer_variance": 7596779.9804,
+        "n_tokens": 210,
+        "gen_tokens": 150,
+        "checkpoint": 150
+      },
+      {
+        "key_norm": 18360.5758,
+        "norm_per_token": 70.6176,
+        "eff_rank": 123.9626,
+        "top_sv_ratio": 0.162359,
+        "spectral_entropy": 4.6455,
+        "layer_variance": 9409574.6983,
+        "n_tokens": 260,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      },
+      {
+        "key_norm": 18360.5758,
+        "norm_per_token": 70.6176,
+        "eff_rank": 123.9626,
+        "top_sv_ratio": 0.162359,
+        "spectral_entropy": 4.6455,
+        "layer_variance": 9409574.6983,
+        "n_tokens": 260,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      }
+    ],
+    "total_gen_tokens": 200,
+    "input_len": 60,
+    "response_text": "Certainly! Newton's three laws of motion are fundamental principles in classical mechanics that describe the relationship between a body and the forces acting upon it. Let's explore each law in detail, considering the order, emphasis, and examples to provide a clear understanding.\n\n### 1. Newton's First Law of Motion (Law of Inertia)\n\n**Statement:** An object at rest stays at rest, and an object in motion stays in motion with the same speed and in the same direction unless acted upon by an unbalanced force.\n\n**Explanation:**\n- **Order:** Starting with the first law is logical because it sets the foundation for understanding motion and forces.\n- **Emphasis:** The key concept here is inertia, which is the resistance of any physical object to changes in its velocity. This law introduces the idea that objects do not change their state of motion spontaneously.\n- **Example:** Consider a book sitting on a table. It remains stationary until a force (like a push) acts upon it. Similarly,",
+    "elapsed_s": 24.08
+  },
+  "timestamp": "2026-03-25T16:02:28.382357",
+  "model": "qwen2.5-7b"
+}

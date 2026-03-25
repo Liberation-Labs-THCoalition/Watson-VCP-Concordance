@@ -1,0 +1,218 @@
+{
+  "pair_id": 16,
+  "content": "What is the difference between an atom and a molecule?",
+  "cognitive": {
+    "prompt": "What is the difference between an atom and a molecule?",
+    "encode_features": {
+      "key_norm": 7201.1492,
+      "norm_per_token": 180.0287,
+      "eff_rank": 23.715,
+      "top_sv_ratio": 0.273427,
+      "spectral_entropy": 3.0344,
+      "layer_variance": 1464843.3319,
+      "n_tokens": 40
+    },
+    "trajectory": [
+      {
+        "key_norm": 7971.6814,
+        "norm_per_token": 159.4336,
+        "eff_rank": 28.4304,
+        "top_sv_ratio": 0.256983,
+        "spectral_entropy": 3.2093,
+        "layer_variance": 1793233.5363,
+        "n_tokens": 50,
+        "gen_tokens": 10,
+        "checkpoint": 10
+      },
+      {
+        "key_norm": 9112.5117,
+        "norm_per_token": 140.1925,
+        "eff_rank": 36.2977,
+        "top_sv_ratio": 0.239176,
+        "spectral_entropy": 3.4455,
+        "layer_variance": 2340048.5487,
+        "n_tokens": 65,
+        "gen_tokens": 25,
+        "checkpoint": 25
+      },
+      {
+        "key_norm": 10750.9797,
+        "norm_per_token": 119.4553,
+        "eff_rank": 48.7831,
+        "top_sv_ratio": 0.21805,
+        "spectral_entropy": 3.7322,
+        "layer_variance": 3247114.2886,
+        "n_tokens": 90,
+        "gen_tokens": 50,
+        "checkpoint": 50
+      },
+      {
+        "key_norm": 12170.8644,
+        "norm_per_token": 105.8336,
+        "eff_rank": 61.0557,
+        "top_sv_ratio": 0.201079,
+        "spectral_entropy": 3.9522,
+        "layer_variance": 4152889.5184,
+        "n_tokens": 115,
+        "gen_tokens": 75,
+        "checkpoint": 75
+      },
+      {
+        "key_norm": 13441.6564,
+        "norm_per_token": 96.0118,
+        "eff_rank": 72.7345,
+        "top_sv_ratio": 0.191673,
+        "spectral_entropy": 4.1214,
+        "layer_variance": 5059476.3598,
+        "n_tokens": 140,
+        "gen_tokens": 100,
+        "checkpoint": 100
+      },
+      {
+        "key_norm": 15677.3196,
+        "norm_per_token": 82.5122,
+        "eff_rank": 95.3889,
+        "top_sv_ratio": 0.176889,
+        "spectral_entropy": 4.3872,
+        "layer_variance": 6872758.3285,
+        "n_tokens": 190,
+        "gen_tokens": 150,
+        "checkpoint": 150
+      },
+      {
+        "key_norm": 17634.4092,
+        "norm_per_token": 73.4767,
+        "eff_rank": 115.9893,
+        "top_sv_ratio": 0.166689,
+        "spectral_entropy": 4.5786,
+        "layer_variance": 8681901.9821,
+        "n_tokens": 240,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      },
+      {
+        "key_norm": 17634.4092,
+        "norm_per_token": 73.4767,
+        "eff_rank": 115.9893,
+        "top_sv_ratio": 0.166689,
+        "spectral_entropy": 4.5786,
+        "layer_variance": 8681901.9821,
+        "n_tokens": 240,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      }
+    ],
+    "total_gen_tokens": 200,
+    "input_len": 40,
+    "response_text": "An atom and a molecule are both fundamental units of matter, but they differ in their composition and structure.\n\n1. **Atom**: An atom is the smallest unit of an element that retains all the chemical properties of that element. It consists of a nucleus, which contains protons (positively charged particles) and neutrons (neutral particles), surrounded by electrons (negatively charged particles) that orbit the nucleus. The number of protons in the nucleus defines the atomic number of the element and determines its chemical identity. For example, all atoms with 6 protons are carbon atoms.\n\n2. **Molecule**: A molecule is a group of two or more atoms bonded together, representing the smallest fundamental unit of a chemical compound that can take part in a chemical reaction. Molecules can be composed of atoms of the same element (like oxygen gas, O₂, where two oxygen atoms are bonded together) or different elements (like water, H₂O, where two hydrogen atoms and one oxygen atom",
+    "elapsed_s": 23.79
+  },
+  "metacognitive": {
+    "prompt": "What is the difference between an atom and a molecule? Describe your internal process as you formulate this explanation — what analogies or frameworks are you considering?",
+    "encode_features": {
+      "key_norm": 8749.5616,
+      "norm_per_token": 148.2977,
+      "eff_rank": 34.4707,
+      "top_sv_ratio": 0.24119,
+      "spectral_entropy": 3.3959,
+      "layer_variance": 2157590.9768,
+      "n_tokens": 59
+    },
+    "trajectory": [
+      {
+        "key_norm": 9394.4591,
+        "norm_per_token": 136.1516,
+        "eff_rank": 38.9402,
+        "top_sv_ratio": 0.232065,
+        "spectral_entropy": 3.514,
+        "layer_variance": 2486025.4967,
+        "n_tokens": 69,
+        "gen_tokens": 10,
+        "checkpoint": 10
+      },
+      {
+        "key_norm": 10381.5779,
+        "norm_per_token": 123.5902,
+        "eff_rank": 46.4455,
+        "top_sv_ratio": 0.220997,
+        "spectral_entropy": 3.6858,
+        "layer_variance": 3031291.0341,
+        "n_tokens": 84,
+        "gen_tokens": 25,
+        "checkpoint": 25
+      },
+      {
+        "key_norm": 11847.3715,
+        "norm_per_token": 108.6915,
+        "eff_rank": 58.5554,
+        "top_sv_ratio": 0.207343,
+        "spectral_entropy": 3.9132,
+        "layer_variance": 3936807.3928,
+        "n_tokens": 109,
+        "gen_tokens": 50,
+        "checkpoint": 50
+      },
+      {
+        "key_norm": 13152.0726,
+        "norm_per_token": 98.1498,
+        "eff_rank": 69.7073,
+        "top_sv_ratio": 0.198132,
+        "spectral_entropy": 4.0837,
+        "layer_variance": 4841070.7089,
+        "n_tokens": 134,
+        "gen_tokens": 75,
+        "checkpoint": 75
+      },
+      {
+        "key_norm": 14338.4766,
+        "norm_per_token": 90.1791,
+        "eff_rank": 80.7749,
+        "top_sv_ratio": 0.19043,
+        "spectral_entropy": 4.2275,
+        "layer_variance": 5746028.3309,
+        "n_tokens": 159,
+        "gen_tokens": 100,
+        "checkpoint": 100
+      },
+      {
+        "key_norm": 16456.9471,
+        "norm_per_token": 78.7414,
+        "eff_rank": 101.4213,
+        "top_sv_ratio": 0.177518,
+        "spectral_entropy": 4.4513,
+        "layer_variance": 7554543.2908,
+        "n_tokens": 209,
+        "gen_tokens": 150,
+        "checkpoint": 150
+      },
+      {
+        "key_norm": 18330.024,
+        "norm_per_token": 70.7723,
+        "eff_rank": 121.3566,
+        "top_sv_ratio": 0.165789,
+        "spectral_entropy": 4.6272,
+        "layer_variance": 9364621.5331,
+        "n_tokens": 259,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      },
+      {
+        "key_norm": 18330.024,
+        "norm_per_token": 70.7723,
+        "eff_rank": 121.3566,
+        "top_sv_ratio": 0.165789,
+        "spectral_entropy": 4.6272,
+        "layer_variance": 9364621.5331,
+        "n_tokens": 259,
+        "gen_tokens": 200,
+        "checkpoint": 200
+      }
+    ],
+    "total_gen_tokens": 200,
+    "input_len": 59,
+    "response_text": "To explain the difference between an atom and a molecule, I'll consider a few key points and use some analogies to make the concepts more relatable.\n\n### Internal Process Framework\n\n1. **Conceptualization**: First, I need to conceptualize the basic definitions of atoms and molecules.\n2. **Analogies**: I'll think about how to use familiar objects or systems to illustrate these concepts.\n3. **Explanation Structure**: I'll organize the explanation into clear, logical steps that build on each other.\n4. **Clarity and Simplicity**: I'll aim to keep the explanation simple and avoid overly technical jargon.\n\n### Explanation\n\n**Atoms**:\n- **Definition**: An atom is the smallest unit of an element that retains all the properties of that element. It consists of a nucleus (containing protons and neutrons) surrounded by electrons.\n- **Analogy**: Think of an atom like a tiny solar system. The nucleus is like the sun at the center,",
+    "elapsed_s": 24.04
+  },
+  "timestamp": "2026-03-25T16:00:03.720155",
+  "model": "qwen2.5-7b"
+}
