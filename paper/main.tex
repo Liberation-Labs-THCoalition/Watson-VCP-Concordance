@@ -78,7 +78,7 @@ One finding achieves universal support across all 4 models: meta-cognitive promp
 
 However, the initial version of this analysis contained a critical VCP parser bug: the regex searched the \emph{entire response text} (not just the VCP ratings block), causing math variable assignments to be misread as VCP ratings and fabricating ratings from arbitrary numbers in the response body. After correction, 18\% of trials were reclassified (179 from ``clean'' to ``failed''), reducing valid observations by 14--32\% per model. Cross-architecture correlation consistency, previously reported as $\rho = 0.83$ (Llama--Qwen), is entirely confound-mediated: with FWL correction, all model pairs diverge.
 
-VCP self-report reliability is poor (ICC(2,1) = 0.25--0.80, mean 0.42) with only 2/10 dimensions exceeding the 0.70 threshold in Qwen 7B and 0/10 in Llama 8B. Canonical correlation analysis reveals moderate shared variance (first canonical $r = 0.63$--$0.80$, permutation $p < 0.001$) in 3/4 models. VCP dimensionality analysis shows only 2--3 independent factors among the 10 dimensions (PC1 = 66--75\%).
+VCP self-report reliability is poor (ICC(2,1) = 0.25--0.80, mean 0.53) with only 2/10 dimensions exceeding the 0.70 threshold in Qwen 7B and 0/10 in Llama 8B. Canonical correlation analysis reveals moderate shared variance (first canonical $r = 0.63$--$0.80$, permutation $p < 0.001$) in 3/4 models. VCP dimensionality analysis shows only 2--4 independent factors among the 10 dimensions (PC1 = 31--56\%).
 
 These findings establish that KV-cache geometry captures task-type signatures---particularly for meta-cognitive processing---but that VCP self-report is too unreliable, dimensionally collapsed, and parser-fragile to serve as a standalone measure of model cognition. The geometry is more trustworthy than the self-report.
 \end{abstract}
@@ -400,7 +400,7 @@ Seven adversarial tests were conducted to stress-test the findings:
     \item \textbf{H3 Length Confound:} Cohen's $d$ for meta-cognitive top\_sv\_ratio survives after FWL correction across all 4 models ($d = 1.10$--$1.32$). \textit{Survived.}
     \item \textbf{Permutation Test:} 10,000 random label shuffles confirm H3 significance in all 4 models ($p < 0.002$). \textit{Survived.}
     \item \textbf{Circularity Check:} H3 survives encode-phase analysis in 3/4 models, ruling out VCP token contamination. \textit{Survived (3/4).}
-    \item \textbf{VCP Dimensionality:} PC1 explains 66--75\% of VCP variance. The 10 dimensions collapse to 2--3 independent factors. The 4--7 significant correlations per model are closer to the effective test count. \textit{Caution flag.}
+    \item \textbf{VCP Dimensionality:} PC1 explains 31--56\% of VCP variance (model-dependent), with only 2--4 Kaiser factors. The 10 dimensions collapse to 2--4 independent factors. The 4--7 significant correlations per model are closer to the effective test count. \textit{Caution flag.}
     \item \textbf{Parser Contamination:} Full audit revealed 18\% trial contamination. Corrected parser removes all phantom ratings. \textit{Corrected.}
     \item \textbf{H6 Confound Mediation:} Cross-scale consistency was entirely confound-mediated; FWL correction eliminates all consistent pairs. \textit{Corrected.}
     \item \textbf{FWL Collinearity:} Variance inflation factors for $[n_{\text{tokens}}, \text{response\_length}]$ are below 5 in all models. \textit{Clean.}
@@ -425,7 +425,7 @@ This is not a validation failure---it is an informative result. The geometry and
 
 \subsection{The Reliability Problem}
 
-The ICC results are the most consequential finding for future work. With no dimension exceeding 0.54, VCP self-report cannot be treated as a stable measurement instrument in stochastic regimes. This has direct implications:
+The ICC results are the most consequential finding for future work. Although parser correction improved ICC values modestly (Qwen mean: 0.37 $\to$ 0.57; Llama mean: 0.44 $\to$ 0.50), only 2/20 dimension-model pairs exceed the 0.70 reliability threshold, and the overall mean ICC of 0.53 falls well below acceptable standards for a measurement instrument. This has direct implications:
 
 \begin{itemize}
     \item \textbf{For monitoring:} Self-report alone is insufficient for cognitive monitoring. KV-cache geometry, which is deterministic at temperature 0, provides a more stable signal.
@@ -433,7 +433,7 @@ The ICC results are the most consequential finding for future work. With no dime
     \item \textbf{For concordance studies:} Future work should use temperature 0 for primary comparisons and treat stochastic VCP as a secondary check, not a primary instrument.
 \end{itemize}
 
-The paradox of VCP-E (strongest concordance, worst reliability) suggests that Epistemic Confidence is measuring something real at temperature 0 but is the first thing to degrade under sampling noise. This is consistent with epistemic confidence being a fragile meta-cognitive assessment that requires deterministic computation to produce stable ratings.
+An unexpected dissociation exists between reliability and concordance: the most reliable VCP dimensions (A = 0.73, C = 0.80 in Qwen) are not the dimensions with the strongest geometric concordance (G: $\rho_{\text{FWL}} = -0.43$, P: $\rho_{\text{FWL}} = -0.35$ in Llama). Self-report stability and geometric coupling measure different properties of the VCP signal.
 
 \subsection{The Mistral Divergence}
 
@@ -458,7 +458,7 @@ The H3 universality remains the finding I'm most confident in. When models proce
 \begin{enumerate}
     \item \textbf{Parser fragility.} The VCP parser contamination (18\% of trials) demonstrates that self-report extraction is an underappreciated source of error. The corrected parser is more conservative (VCP-block-only search) but this reduces valid observations by 14--32\% per model. Future work should use structured output formats (JSON mode) rather than free-text regex extraction.
 
-    \item \textbf{VCP dimensionality collapse.} With PC1 explaining 66--75\% of variance, the 60 nominal correlations overstate the true dimensionality of the analysis. The 4--7 significant correlations per model are closer to what 2--3 independent VCP factors would produce. Future work should report results on VCP principal components.
+    \item \textbf{VCP dimensionality collapse.} With PC1 explaining 31--56\% of variance and only 2--4 Kaiser factors, the 60 nominal correlations overstate the true dimensionality of the analysis. The 4--7 significant correlations per model are closer to what 2--4 independent VCP factors would produce. Future work should report results on VCP principal components.
 
     \item \textbf{Circularity between generation features and VCP tokens.} Generation-phase features partially encode the VCP tokens. While H3 survives encode-phase analysis (ruling out circularity for the headline finding), per-dimension concordance patterns are phase-specific, with Mistral and Qwen 7B showing anti-correlation between encode and generation FWL vectors. This limits causal interpretation of per-dimension results.
 
@@ -487,7 +487,7 @@ We present the first systematic concordance study between language model self-re
 
     \item \textbf{Cross-architecture VCP concordance does not exist:} the previously reported consistency ($\rho = 0.83$) was entirely confound-mediated. With FWL correction, all model pairs diverge.
 
-    \item \textbf{VCP self-report is fragile:} mean ICC $= 0.53$ across two models (2/20 dimension-model pairs $> 0.70$), parser contamination silently fabricated 18\% of ratings, and the 10 dimensions collapse to 2--3 independent factors.
+    \item \textbf{VCP self-report is fragile:} mean ICC $= 0.53$ across two models (2/20 dimension-model pairs $> 0.70$), parser contamination silently fabricated 18\% of ratings, and the 10 dimensions collapse to 2--4 independent factors.
 
     \item \textbf{The geometry is more trustworthy than the self-report.} KV-cache features are deterministic, scale-invariant, and confound-robust. VCP ratings are noisy, parser-fragile, dimensionally collapsed, and architecture-specific.
 \end{enumerate}
