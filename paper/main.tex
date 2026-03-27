@@ -76,7 +76,7 @@ We test whether language models' self-reported cognitive engagement---elicited v
 
 One finding achieves universal support across all 4 models: meta-cognitive prompts produce geometrically distinct top singular value ratios ($d = 1.10$--$1.32$, all $p < 0.002$, permutation-confirmed), and this effect survives in encode-phase features (pre-generation) in 3/4 models, ruling out VCP token circularity as a driver. The strongest per-dimension FWL correlation is $\rho = -0.43$ (Llama-8B, VCP-G $\times$ key\_norm). Across models, 4--7 correlations survive Bonferroni correction ($\alpha = 0.000833$) in the three 7B+ models.
 
-However, the initial version of this analysis contained a critical VCP parser bug: the regex searched the \emph{entire response text} (not just the VCP ratings block), causing math variable assignments to be misread as VCP ratings and fabricating ratings from arbitrary numbers in the response body. After correction, 18\% of trials were reclassified (179 from ``clean'' to ``failed''), reducing valid observations by 14--32\% per model. Cross-architecture correlation consistency, previously reported as $\rho = 0.83$ (Llama--Qwen), is entirely confound-mediated: with FWL correction, all model pairs diverge.
+However, the initial version of this analysis contained a critical VCP parser bug: the regex searched the \emph{entire response text} (not just the VCP ratings block), causing math variable assignments to be misread as VCP ratings and fabricating ratings from arbitrary numbers in the response body. After correction, 15.5\% of trials (193/1,248) were reclassified---179 from ``clean'' to ``failed,'' 12 from ``partial'' to ``failed,'' and 2 from ``clean'' to ``partial''---reducing valid observations by 14--32\% per model. Cross-architecture correlation consistency, previously reported as $\rho = 0.83$ (Llama--Qwen), is entirely confound-mediated: with FWL correction, all model pairs diverge.
 
 VCP self-report reliability is poor (ICC(2,1) = 0.25--0.80, mean 0.53) with only 2/10 dimensions exceeding the 0.70 threshold in Qwen 7B and 0/10 in Llama 8B. Canonical correlation analysis reveals moderate shared variance (first canonical $r = 0.63$--$0.80$, permutation $p < 0.001$) in 3/4 models. VCP dimensionality analysis shows only 2--4 independent factors among the 10 dimensions (PC1 = 31--56\%).
 
@@ -138,7 +138,7 @@ After completing each task prompt, models are asked to rate their cognitive enga
 Six primary geometric features are extracted from the KV-cache state:
 
 \begin{enumerate}
-    \item \textbf{eff\_rank}: Effective rank = $\exp(H_{\text{SVD}})$, where $H_{\text{SVD}}$ is the Shannon entropy of the singular value distribution. Measures dimensionality of the cache representation.
+    \item \textbf{eff\_rank}: Effective rank = $\exp(H_{\text{SVD}})$, where $H_{\text{SVD}}$ is the Shannon entropy of the L1-normalized singular value distribution ($\sigma_i / \sum_j \sigma_j$).\footnote{We use L1 normalization ($\sigma_i / \sum \sigma_j$) rather than the L2 normalization ($\sigma_i^2 / \sum \sigma_j^2$) common in some formulations. L1 normalization yields higher effective rank values because it distributes probability mass more evenly across singular values. All comparisons within this study are internally consistent, but absolute eff\_rank values are not directly comparable to studies using L2 normalization.} Measures dimensionality of the cache representation.
     \item \textbf{spectral\_entropy}: Raw SVD entropy $H_{\text{SVD}}$. Measures information distribution across principal components.
     \item \textbf{key\_norm}: Frobenius norm of the concatenated key matrix $\|K\|_F$. Measures total representational magnitude.
     \item \textbf{norm\_per\_token}: $\|K\|_F / n_{\text{tokens}}$. Per-token representational density.
@@ -217,6 +217,27 @@ The single most important finding is the confound structure. Before presenting a
 \textbf{VCP ratings scale inversely with token count.} Several VCP dimensions correlate negatively with response length: V (Verbal Fluency) at $r = -0.42$, Q (Query Interpretation) at $r = -0.27$. Models that produce longer responses tend to give themselves \emph{lower} self-ratings on these dimensions.
 
 \textbf{The confound mediates the raw association.} When a VCP dimension is negatively correlated with length and a feature is positively correlated with length, the raw VCP--feature correlation is negative. But this reflects only their shared dependence on response length, not a genuine relationship between self-reported engagement and geometry. FWL correction removes this mediating variable to reveal the per-token relationship.
+
+\Cref{tab:confound_r2} quantifies the confound severity for each feature. Three features---key\_norm, norm\_per\_token, and layer\_variance---are essentially proxies for token count ($R^2 > 0.83$ in all models) and should be interpreted with extreme caution: any raw association involving these features reflects response length, not cognitive engagement. FWL residualization can partially correct for this, but the low residual variance after confound removal means these features carry minimal independent signal. top\_sv\_ratio is the cleanest feature in 7B+ models ($R^2 = 0.19$--$0.26$ in Llama/Mistral), which is consistent with its status as the primary carrier of the H3 metacognitive signal.
+
+\begin{table}[H]
+\centering
+\caption{Token-count confound severity ($R^2$ between feature and $n_{\text{tokens}}$) by model. Features with $R^2 > 0.80$ in all models are marked \textbf{CONFOUNDED}: raw associations involving these features are essentially measuring response length.}
+\label{tab:confound_r2}
+\begin{tabular}{lccccl}
+\toprule
+\textbf{Feature} & \textbf{Qwen 0.5B} & \textbf{Qwen 7B} & \textbf{Llama 8B} & \textbf{Mistral 7B} & \textbf{Status} \\
+\midrule
+key\_norm          & 0.997 & 0.998 & 0.987 & 0.988 & \textbf{CONFOUNDED} \\
+norm\_per\_token   & 0.973 & 0.979 & 0.978 & 0.970 & \textbf{CONFOUNDED} \\
+layer\_variance    & 1.000 & 1.000 & 0.834 & 0.871 & \textbf{CONFOUNDED} \\
+spectral\_entropy  & 0.879 & 0.873 & 0.507 & 0.512 & Caution (Qwen) \\
+eff\_rank          & 0.855 & 0.842 & 0.505 & 0.490 & Caution (Qwen) \\
+rank\_10           & 0.808 & 0.797 & 0.421 & 0.508 & Caution (Qwen) \\
+top\_sv\_ratio     & 0.819 & 0.803 & 0.194 & 0.258 & Cleanest (7B+) \\
+\bottomrule
+\end{tabular}
+\end{table}
 
 Sign flips between raw and FWL correlations vary across models: Qwen 0.5B shows 47/60 flips, Qwen 7B shows 30/60, Mistral shows 18/60, and Llama shows 11/60. The most confound-affected model (Qwen 0.5B) has the fewest valid observations (N=57), suggesting that smaller sample sizes amplify the confound structure. The naive reading (``higher self-report = lower geometric complexity'') is misleading in confound-affected pairs; the corrected reading (``higher self-report per token = richer geometry per token'') often tells the opposite story.
 
@@ -378,7 +399,7 @@ Qwen 7B     & $-0.626$ & 42/60 & $-0.60$ & $2.9 \times 10^{-6}$ \\
 \end{tabular}
 \end{table}
 
-H3 survives encode-phase analysis in 3/4 models (all except Qwen 0.5B), confirming it is not a circularity artifact. However, per-dimension concordance patterns differ substantially between phases: Mistral and Qwen 7B show \emph{anti-correlation} between encode and generation FWL vectors ($\rho = -0.70$, $-0.63$), with 42--50/60 sign flips. This means the concordance structure is phase-specific: encoding captures prompt-driven geometry, while generation captures processing-plus-VCP geometry. The H3 effect exists in both, but the per-dimension mapping reverses.
+H3 survives encode-phase analysis in 3/4 models (all except Qwen 0.5B), confirming it is not a circularity artifact. However, per-dimension concordance patterns differ substantially between phases: Mistral and Qwen 7B show \emph{anti-correlation} between encode and generation FWL vectors ($\rho = -0.70$, $-0.63$), with 42--50/60 sign flips (lenient criterion: any sign change regardless of magnitude; the strict criterion used in Paper~2---requiring both $|\rho| > 0.15$---yields 12/60 for Qwen~7B and 11/60 for Mistral). This means the concordance structure is phase-specific: encoding captures prompt-driven geometry, while generation captures processing-plus-VCP geometry. The H3 effect exists in both, but the per-dimension mapping reverses.
 
 \subsection{Parser Correction}
 \label{sec:parser_correction}
@@ -390,7 +411,32 @@ During adversarial review, we discovered that the VCP parser searched the \emph{
     \item \textbf{Phantom fabrication:} When $< 50\%$ of dimensions parsed from the VCP block, a fallback strategy (Strategy 3) collected the last 10 numbers in the range [0, 10] from \emph{anywhere} in the response body and assigned them to VCP dimensions positionally.
 \end{enumerate}
 
-After correction (restricting parsing to the \texttt{---VCP RATINGS---} block and removing Strategy 3), 18\% of trials (223/1,248) were reclassified: 179 from ``clean'' to ``failed'' and 12 from ``partial'' to ``failed.'' A total of 1,780 phantom ratings were removed, with a mean error of 4.68 points on the 0--10 scale. Cognitive prompts were most affected (31\% contamination rate) because their responses contain more mathematical notation. All results in this paper use the corrected parser. Original ratings are preserved in the data files for audit purposes.
+After correction (restricting parsing to the \texttt{---VCP RATINGS---} block and removing Strategy 3), 15.5\% of trials (193/1,248) were reclassified: 179 from ``clean'' to ``failed,'' 12 from ``partial'' to ``failed,'' and 2 from ``clean'' to ``partial.'' A total of 1,780 phantom ratings were removed, with a mean error of 4.68 points on the 0--10 scale. Cognitive prompts were most affected (31\% contamination rate) because their responses contain more mathematical notation. All results in this paper use the corrected parser. Original ratings are preserved in the data files for audit purposes.
+
+\subsection{Per-Type Parser Dropout and Selection Bias}
+\label{sec:dropout}
+
+Parser dropout is non-random across prompt types (\Cref{tab:dropout}). In the three 7B+ models, mixed and cognitive prompts suffer the highest dropout (30--70\%), while affective and metacognitive prompts are nearly complete (0--12\% dropout in Qwen 7B and Llama). Qwen 0.5B has uniformly high dropout (68--80\%) due to its limited instruction-following ability.
+
+\begin{table}[H]
+\centering
+\caption{Per-type VCP parser dropout rates (\% of trials with no valid VCP parse). Cognitive and mixed prompts produce longer, more complex responses that are more likely to truncate before the VCP block or to confuse the parser.}
+\label{tab:dropout}
+\begin{tabular}{lcccc}
+\toprule
+\textbf{Prompt Type} & \textbf{Qwen 0.5B} & \textbf{Qwen 7B} & \textbf{Llama 8B} & \textbf{Mistral 7B} \\
+\midrule
+Cognitive       & 75.0\% & 30.0\% & 35.0\% & 15.0\% \\
+Affective       & 78.3\% &  1.7\% & 11.7\% &  5.0\% \\
+Metacognitive   & 80.0\% &  0.0\% &  8.3\% & 13.3\% \\
+Mixed           & 68.3\% & 56.7\% & 70.0\% & 26.7\% \\
+\midrule
+Overall         & 75.4\% & 22.1\% & 31.3\% & 15.0\% \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+This non-random dropout creates a selection bias: the surviving sample over-represents affective and metacognitive prompts relative to cognitive and mixed prompts. Because H3 compares metacognitive prompts against all others, and metacognitive prompts have the lowest dropout, this bias could inflate H3 effect sizes if the \emph{surviving} cognitive/mixed trials are unrepresentative of their full distribution. The H3 encode-phase circularity check (\Cref{sec:circularity}) partially mitigates this concern, since the circularity analysis uses the same (biased) sample and still confirms H3 in 3/4 models. Nevertheless, future work should use structured output formats (JSON mode) to achieve uniform parse rates across prompt types.
 
 \subsection{Adversarial Validation}
 
@@ -401,7 +447,7 @@ Seven adversarial tests were conducted to stress-test the findings:
     \item \textbf{Permutation Test:} 10,000 random label shuffles confirm H3 significance in all 4 models ($p < 0.002$). \textit{Survived.}
     \item \textbf{Circularity Check:} H3 survives encode-phase analysis in 3/4 models, ruling out VCP token contamination. \textit{Survived (3/4).}
     \item \textbf{VCP Dimensionality:} PC1 explains 31--56\% of VCP variance (model-dependent), with only 2--4 Kaiser factors. The 10 dimensions collapse to 2--4 independent factors. The 4--7 significant correlations per model are closer to the effective test count. \textit{Caution flag.}
-    \item \textbf{Parser Contamination:} Full audit revealed 18\% trial contamination. Corrected parser removes all phantom ratings. \textit{Corrected.}
+    \item \textbf{Parser Contamination:} Full audit revealed 15.5\% trial reclassification (193/1,248). Corrected parser removes all phantom ratings. \textit{Corrected.}
     \item \textbf{H6 Confound Mediation:} Cross-scale consistency was entirely confound-mediated; FWL correction eliminates all consistent pairs. \textit{Corrected.}
     \item \textbf{FWL Collinearity:} Variance inflation factors for $[n_{\text{tokens}}, \text{response\_length}]$ are below 5 in all models. \textit{Clean.}
 \end{enumerate}
@@ -409,6 +455,8 @@ Seven adversarial tests were conducted to stress-test the findings:
 \subsection{Canonical Correlation Analysis}
 
 CCA between the 10-dimensional VCP space and 6-dimensional feature space reveals moderate shared structure. The first canonical correlation ranges from 0.63 (Mistral) to 0.80 (Llama), with permutation significance ($p < 0.001$) in 3/4 models. Qwen 0.5B's CCA ($r_1 = 0.67$) is not significant ($p = 0.25$), likely due to its small sample (N $= 57$).
+
+\textbf{Sample size caveat.} CCA with 10 + 6 = 16 variables requires approximately $10 \times 16 = 160$ observations under the standard rule-of-thumb \citep{varoquaux2018cross}. Only Qwen~7B (N $= 180$) and Mistral (N $= 185$) meet this threshold. Llama (N $= 133$) and Qwen~0.5B (N $= 57$) are underpowered for CCA, and their canonical correlations should be interpreted as exploratory. The permutation-based $p$-values partially mitigate overfitting concerns (they test the observed $r_1$ against an empirical null), but the canonical \emph{loadings} for underpowered models may be unstable.
 
 This must be interpreted alongside the VCP dimensionality collapse: if only 2--3 VCP factors are independent, then 2--3 significant canonical correlations may exhaust the true shared structure.
 
@@ -456,7 +504,7 @@ The H3 universality remains the finding I'm most confident in. When models proce
 \subsection{Limitations}
 
 \begin{enumerate}
-    \item \textbf{Parser fragility.} The VCP parser contamination (18\% of trials) demonstrates that self-report extraction is an underappreciated source of error. The corrected parser is more conservative (VCP-block-only search) but this reduces valid observations by 14--32\% per model. Future work should use structured output formats (JSON mode) rather than free-text regex extraction.
+    \item \textbf{Parser fragility.} The VCP parser contamination (15.5\% of trials reclassified) demonstrates that self-report extraction is an underappreciated source of error. The corrected parser is more conservative (VCP-block-only search) but this reduces valid observations by 14--32\% per model. Future work should use structured output formats (JSON mode) rather than free-text regex extraction.
 
     \item \textbf{VCP dimensionality collapse.} With PC1 explaining 31--56\% of variance and only 2--4 Kaiser factors, the 60 nominal correlations overstate the true dimensionality of the analysis. The 4--7 significant correlations per model are closer to what 2--4 independent VCP factors would produce. Future work should report results on VCP principal components.
 
@@ -487,7 +535,7 @@ We present the first systematic concordance study between language model self-re
 
     \item \textbf{Cross-architecture VCP concordance does not exist:} the previously reported consistency ($\rho = 0.83$) was entirely confound-mediated. With FWL correction, all model pairs diverge.
 
-    \item \textbf{VCP self-report is fragile:} mean ICC $= 0.53$ across two models (2/20 dimension-model pairs $> 0.70$), parser contamination silently fabricated 18\% of ratings, and the 10 dimensions collapse to 2--4 independent factors.
+    \item \textbf{VCP self-report is fragile:} mean ICC $= 0.53$ across two models (2/20 dimension-model pairs $> 0.70$), parser contamination silently fabricated 1,780 phantom ratings across 15.5\% of trials, and the 10 dimensions collapse to 2--4 independent factors.
 
     \item \textbf{The geometry is more trustworthy than the self-report.} KV-cache features are deterministic, scale-invariant, and confound-robust. VCP ratings are noisy, parser-fragile, dimensionally collapsed, and architecture-specific.
 \end{enumerate}
