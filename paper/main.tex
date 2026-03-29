@@ -218,23 +218,23 @@ The single most important finding is the confound structure. Before presenting a
 
 \textbf{The confound mediates the raw association.} When a VCP dimension is negatively correlated with length and a feature is positively correlated with length, the raw VCP--feature correlation is negative. But this reflects only their shared dependence on response length, not a genuine relationship between self-reported engagement and geometry. FWL correction removes this mediating variable to reveal the per-token relationship.
 
-\Cref{tab:confound_r2} quantifies the confound severity for each feature. Three features---key\_norm, norm\_per\_token, and layer\_variance---are essentially proxies for token count ($R^2 > 0.83$ in all models) and should be interpreted with extreme caution: any raw association involving these features reflects response length, not cognitive engagement. FWL residualization can partially correct for this, but the low residual variance after confound removal means these features carry minimal independent signal. top\_sv\_ratio is the cleanest feature in 7B+ models ($R^2 = 0.19$--$0.26$ in Llama/Mistral), which is consistent with its status as the primary carrier of the H3 metacognitive signal.
+\Cref{tab:confound_r2} quantifies the confound severity for each feature. Three features---key\_norm, norm\_per\_token, and layer\_variance---are essentially proxies for token count ($R^2 > 0.82$ in all models) and should be interpreted with extreme caution: any raw association involving these features reflects response length, not cognitive engagement. FWL residualization can partially correct for this, but the low residual variance after confound removal means these features carry minimal independent signal. top\_sv\_ratio is the cleanest feature in 7B+ models ($R^2 = 0.16$--$0.32$ in Llama/Mistral), which is consistent with its status as the primary carrier of the H3 metacognitive signal.
 
 \begin{table}[H]
 \centering
-\caption{Token-count confound severity ($R^2$ between feature and $n_{\text{tokens}}$) by model. Features with $R^2 > 0.80$ in all models are marked \textbf{CONFOUNDED}: raw associations involving these features are essentially measuring response length.}
+\caption{Token-count confound severity ($R^2$ between feature and $n_{\text{tokens}}$) by model, computed on clean-parse-only trials (N = 57, 179, 133, 185 respectively). Features with $R^2 > 0.80$ in all models are marked \textbf{CONFOUNDED}: raw associations involving these features are essentially measuring response length.}
 \label{tab:confound_r2}
 \begin{tabular}{lccccl}
 \toprule
 \textbf{Feature} & \textbf{Qwen 0.5B} & \textbf{Qwen 7B} & \textbf{Llama 8B} & \textbf{Mistral 7B} & \textbf{Status} \\
 \midrule
-key\_norm          & 0.997 & 0.998 & 0.987 & 0.988 & \textbf{CONFOUNDED} \\
-norm\_per\_token   & 0.973 & 0.979 & 0.978 & 0.970 & \textbf{CONFOUNDED} \\
-layer\_variance    & 1.000 & 1.000 & 0.834 & 0.871 & \textbf{CONFOUNDED} \\
-spectral\_entropy  & 0.879 & 0.873 & 0.507 & 0.512 & Caution (Qwen) \\
-eff\_rank          & 0.855 & 0.842 & 0.505 & 0.490 & Caution (Qwen) \\
-rank\_10           & 0.808 & 0.797 & 0.421 & 0.508 & Caution (Qwen) \\
-top\_sv\_ratio     & 0.819 & 0.803 & 0.194 & 0.258 & Cleanest (7B+) \\
+key\_norm          & 0.997 & 0.998 & 0.986 & 0.989 & \textbf{CONFOUNDED} \\
+norm\_per\_token   & 0.972 & 0.980 & 0.975 & 0.971 & \textbf{CONFOUNDED} \\
+layer\_variance    & 1.000 & 1.000 & 0.827 & 0.865 & \textbf{CONFOUNDED} \\
+spectral\_entropy  & 0.873 & 0.862 & 0.451 & 0.541 & Caution (Qwen) \\
+eff\_rank          & 0.847 & 0.829 & 0.449 & 0.519 & Caution (Qwen) \\
+rank\_10           & 0.796 & 0.786 & 0.367 & 0.557 & Caution (Qwen) \\
+top\_sv\_ratio     & 0.809 & 0.792 & 0.162 & 0.315 & Cleanest (7B+) \\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -491,7 +491,7 @@ This finding carries a practical lesson: concordance studies require models with
 
 \subsection{The Geometry Is More Trustworthy}
 
-The central conclusion is asymmetric: \emph{when geometry and self-report agree, both are strengthened. When they disagree, trust the geometry.} The KV-cache features are deterministic, hardware-invariant ($r > 0.999$ between GPU architectures), scale-consistent ($\rho = 0.83$--$0.90$ from 0.6B to 70B), and survive every confound test we can devise. VCP self-report is noisy (mean ICC $= 0.53$, with only 2/20 dimension-model pairs exceeding 0.70), dimensionally collapsed (2--3 real factors among 10 claimed dimensions), parser-fragile (18\% contamination from a subtle regex bug), and model-dependent (ceiling effects in Mistral, architecture-specific concordance patterns).
+The central conclusion is asymmetric: \emph{when geometry and self-report agree, both are strengthened. When they disagree, trust the geometry.} The KV-cache features are deterministic, hardware-invariant ($r > 0.999$ between GPU architectures), scale-consistent ($\rho = 0.83$--$0.90$ from 0.6B to 70B), and survive every confound test we can devise. VCP self-report is noisy (mean ICC $= 0.53$, with only 2/20 dimension-model pairs exceeding 0.70), dimensionally collapsed (2--3 real factors among 10 claimed dimensions), parser-fragile (15.5\% contamination from a subtle regex bug), and model-dependent (ceiling effects in Mistral, architecture-specific concordance patterns).
 
 This does not mean VCP is useless. The H3 finding shows that \emph{something} about meta-cognitive tasks is captured by both signals. But the geometry captures it with greater fidelity and stability.
 
