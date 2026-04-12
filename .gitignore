@@ -1,8 +1,28 @@
-paper/main.aux
-paper/main.log
-paper/main.out
-paper/*.aux
-paper/*.log
-paper/*.out
+# LaTeX build artifacts
+*.aux
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.bbl
+*.blg
+*.bcf
+*.run.xml
+
+# Python
 __pycache__/
 *.pyc
+*.pyo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+*.swp
+*.swo
+*~
